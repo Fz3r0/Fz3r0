@@ -319,14 +319,14 @@ exit
 PC_1 Network Configuration
 
 IPv4 Address	        192.168.10.1
-Subnet Mask	            255.255.255.0
+Subnet Mask	        255.255.255.0
 IPv4 Default Gateway	192.168.10.254
 DNS                     1.1.1.1
 
 PC_2 Network Configuration
 
 IPv4 Address	        192.168.10.2
-Subnet Mask	            255.255.255.0
+Subnet Mask	        255.255.255.0
 IPv4 Default Gateway	192.168.10.254
 DNS                     1.1.1.1
 ```
@@ -349,8 +349,7 @@ IPv4 Default Gateway	192.168.20.254
 DNS                     1.1.1.1
 ```
 
-
-VLAN30-GREEN PCs Configuration:
+- VLAN30-GREEN PCs Configuration:
 
 ```
 PC_5 Network Configuration
@@ -369,6 +368,7 @@ DNS                     1.1.1.1
 ```
 
 #### NOTES:
+___
 
 ##### IMPORTANT!!!!
 
@@ -421,7 +421,20 @@ Security Violation Count   : 0
 SW1#
 ```
 
+###### Troubleshooting
+___
 
+* Port Security
+
+```
+show port-security interface fa0/1
+show port-security 
+```
+* Trunk
+
+```
+show interface trunk
+```
 
 
 
@@ -435,14 +448,4 @@ https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst4500/12-2/25sg/config
 
 
 
-Troubleshooting:
 
-**Port Security:
-show port-security interface fa0/1
-show port-security 
-
-**Trunk
-show interface trunk
-
-**Eliminar config
-default interface range gi0/1 - 2
