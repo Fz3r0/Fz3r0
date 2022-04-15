@@ -315,9 +315,9 @@ exit
 
 - VLAN10-BLUE PCs Configuration:
 
-    - PC_1 Network Configuration
-
 ```
+PC_1 Network Configuration
+
 IPv4 Address	        192.168.10.1
 Subnet Mask	            255.255.255.0
 IPv4 Default Gateway	192.168.10.254
@@ -333,7 +333,8 @@ DNS                     1.1.1.1
 
 - VLAN20-RED PCs Configuration:
 
-    - PC_3 Network Configuration
+```
+PC_3 Network Configuration
 
 IPv4 Address	        192.168.20.1
 Subnet Mask	        255.255.255.0
@@ -346,11 +347,12 @@ IPv4 Address	        192.168.20.2
 Subnet Mask	        255.255.255.0
 IPv4 Default Gateway	192.168.20.254
 DNS                     1.1.1.1
+```
 
-============================================================
 
 VLAN30-GREEN PCs Configuration:
 
+```
 PC_5 Network Configuration
 
 IPv4 Address	        192.168.30.1
@@ -364,42 +366,23 @@ IPv4 Address	        192.168.30.2
 Subnet Mask	        255.255.255.0
 IPv4 Default Gateway	192.168.30.254
 DNS                     1.1.1.1
+```
 
-============================================================
+#### NOTES:
 
-///// reset device ////// NO COPIAR Y PEGAR
+##### IMPORTANT!!!!
 
-write erase
+- WATCH ALWAYS GATEWAYS CONFIG ON PC DUE TO PACKET TRACER BUG THAT DELETE THE GATEWAY RANDOMLY!!!!!
 
-reload
+- I WAS UNABLE TO MANUALLY CONFIG FULL DUPLEX BETWEEN SW1 AND SW2 BECAUSE LAYER 3 SWITCHES DO NOT HAVE THE OPTION LIKE THE ROUTER SPEED IS CONFIGURED 1000MBPS AND DUPLEX AUTO ON SWITCH1.
 
->>no
+- NOTE 1 - Port Security on Trunk:
 
-============================================================
+    - WHEN I TESTED ALL HOSTS PINGING ALL IP'S, THE RESULTS FOR PORT SECURITY WERE:
 
-https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst4000/8-2glx/configuration/guide/stp_enha.html#wp1019922
-https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst2960/software/release/12-2_37_ey/configuration/guide/scg/swlldp.pdf
-https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst9500/software/release/16-10/configuration_guide/sec/b_1610_sec_9500_cg/b_1610_sec_9500_cg_chapter_0101010.html
-https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst4500/12-2/25sg/configuration/guide/conf/port_sec.pdf
+    - (and remember, the VLAN100 fro Manage/SSH don't use MAC Addres, that's why is not shown on table ;) ) 
 
-
-=-+-=-+-=-+-=-+-=-+-=-+-=-+-=-+-=-+-=-+-=-+-=-+-=-+-=-+-=-+-=-+-=-+-=-+-=-+-=-+-=-+-=
-
-//NOTES:
-
-IMPORTANT!!!!
-
-*** WATCH ALWAYS GATEWAYS CONFIG ON PC DUE TO PACKET TRACER BUG THAR DELETE THE GATEWAY RANDOMLY!!!!!
-
-*** I WAS UNABLE TO MANUALLY CONFIG FULL DUPLEX BECAUSE LAYER 3 SWITCHES DO NOT HAVE THE OPTION LIKE THE ROUTER
-    SPEED IS CONFIGURED 1000MBPS AND DUPLEX AUTO ON SWITCH1.
-
-*** NOTE 1 - Port Security on Trunk:
-
-WHEN I TESTED ALL HOSTS PINGING ALL IP'S, THE RESULTS FOR PORT SECURITY WERE:
-
-*** (and remember, the VLAN100 fro Manage/SSH don't use MAC Addres, that's why is not shown on table ;) ) 
-
+```
 SW1#
 SW1#show port-security address
                Secure Mac Address Table
@@ -436,8 +419,21 @@ Last Source Address:Vlan   : 0090.21E5.EB01:10
 Security Violation Count   : 0
 
 SW1#
+```
 
-=-+-=-+-=-+-=-+-=-+-=-+-=-+-=-+-=-+-=-+-=-+-=-+-=-+-=-+-=-+-=-+-=-+-=-+-=-+-=-+-=-+-=
+
+
+
+
+
+
+https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst4000/8-2glx/configuration/guide/stp_enha.html#wp1019922
+https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst2960/software/release/12-2_37_ey/configuration/guide/scg/swlldp.pdf
+https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst9500/software/release/16-10/configuration_guide/sec/b_1610_sec_9500_cg/b_1610_sec_9500_cg_chapter_0101010.html
+https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst4500/12-2/25sg/configuration/guide/conf/port_sec.pdf
+
+
+
 
 Troubleshooting:
 
