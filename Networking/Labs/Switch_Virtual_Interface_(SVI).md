@@ -13,7 +13,7 @@
 
 - [2____VLAN_(3-vlans_1-switch_1-router)_R_SwitchVirtualInterface_SVI.zip](https://github.com/Fz3r0/Fz3r0/files/8498858/2____VLAN_.3-vlans_1-switch_1-router._R_SwitchVirtualInterface_SVI.zip)
 
-###### // Topology:
+###### // Topology
 
 ![svi](https://user-images.githubusercontent.com/94720207/163651168-833b06f5-cc1a-463b-8c1e-23513718f6df.png)
 
@@ -436,9 +436,7 @@ show port-security
 show interface trunk
 ```
 
-
-
-
+###### // References
 
 https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst4000/8-2glx/configuration/guide/stp_enha.html#wp1019922
 https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst2960/software/release/12-2_37_ey/configuration/guide/scg/swlldp.pdf
