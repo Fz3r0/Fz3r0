@@ -1,3 +1,4 @@
+---
 ### Fz3r0 Operations  [Networking]
 
 ### Cisco - Switch Virtual Interface (SVI)
@@ -9,18 +10,15 @@
 
 ---
 
-##### Packet Tracer Lab Files
+#### Packet Tracer Lab Files & Topology
 
 - [2____VLAN_(3-vlans_1-switch_1-router)_R_SwitchVirtualInterface_SVI.zip](https://github.com/Fz3r0/Fz3r0/files/8498858/2____VLAN_.3-vlans_1-switch_1-router._R_SwitchVirtualInterface_SVI.zip)
-
-###### // Topology
 
 ![svi](https://user-images.githubusercontent.com/94720207/163651168-833b06f5-cc1a-463b-8c1e-23513718f6df.png)
 
 ___
 
-###### // Switch 2 - SVI
-___
+###### < Switch 2 - SVI >
 ```
 enable
 configure terminal 
@@ -149,10 +147,9 @@ exit
 
 
 
-###### // Switch 1
 ___
 
-
+###### < Switch 1 >
 ```
 enable
 configure terminal 
@@ -366,15 +363,14 @@ Subnet Mask	        255.255.255.0
 IPv4 Default Gateway	192.168.30.254
 DNS                     1.1.1.1
 ```
-
-#### NOTES:
 ___
 
-##### IMPORTANT!!!!
+#### NOTES:
+
 
 - WATCH ALWAYS GATEWAYS CONFIG ON PC DUE TO PACKET TRACER BUG THAT DELETE THE GATEWAY RANDOMLY!!!!!
 
-- I WAS UNABLE TO MANUALLY CONFIG FULL DUPLEX BETWEEN SW1 AND SW2 BECAUSE LAYER 3 SWITCHES DO NOT HAVE THE OPTION LIKE THE ROUTER SPEED IS CONFIGURED 1000MBPS AND DUPLEX AUTO ON SWITCH1.
+- I WAS UNABLE TO MANUALLY CONFIG FULL DUPLEX BETWEEN SW1 AND SW2 BECAUSE LAYER 3 SWITCHES DO NOT HAVE THE OPTION LIKE THE ROUTER...SO! SPEED IS CONFIGURED 1000MBPS AND DUPLEX AUTO ON BOTH SWITCHES. GOOD PRACTICE WOULD BE MANUALLY SET TO FULL DUPLEX AND 1000MBPS FOR FAST ETHERNET. 
 
 - NOTE 1 - Port Security on Trunk:
 
