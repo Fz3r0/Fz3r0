@@ -89,7 +89,6 @@ vlan 666
 name VLAN666-Unused_Honeypot
 exit
 
-
 interface range Gi1/0/1 - 24, Gi1/1/1 - 4
 description << Unused Switch Ports (Access) >>
 switchport mode access
@@ -152,7 +151,6 @@ copy running-config startup-config
 exit
 
 ```
-
 ___
 
 ### < Switch 1 >
@@ -259,9 +257,6 @@ lldp receive
 switchport port-security
 switchport port-security maximum 15
 switchport port-security mac-address sticky
-vlan 10,20,30,99,100,666
-port-security maximum 5
-switchport port-security mac-address sticky
 switchport port-security mac-address sticky F0F0.F0F0.F666
 
 no shutdown
@@ -339,6 +334,7 @@ DNS                     1.1.1.1
 - VLAN20-RED PCs Configuration:
 
 ```
+
 PC_3 Network Configuration
 
 IPv4 Address	        192.168.20.1
@@ -351,12 +347,14 @@ PC_4 Network Configuration
 IPv4 Address	        192.168.20.2
 Subnet Mask	        255.255.255.0
 IPv4 Default Gateway	192.168.20.254
-DNS                     1.1.1.1
+DNS   
+                  1.1.1.1
 ```
 
 - VLAN30-GREEN PCs Configuration:
 
 ```
+
 PC_5 Network Configuration
 
 IPv4 Address	        192.168.30.1
@@ -369,7 +367,8 @@ PC_6 Network Configuration
 IPv4 Address	        192.168.30.2
 Subnet Mask	        255.255.255.0
 IPv4 Default Gateway	192.168.30.254
-DNS                     1.1.1.1
+DNS 
+                    1.1.1.1
 ```
 ___
 
@@ -431,7 +430,7 @@ ___
 ### Direct Commands:
 ___
 
-### < Router 1 >
+### < Switch 2 - SVI >
 
 ```
 
@@ -441,7 +440,7 @@ configure terminal
 no ip domain-lookup
 ip domain-name fz3r0.domain
 !
-hostname R1
+hostname SW2-SVI
 !
 enable secret cisco12345
 service password-encryption
@@ -465,75 +464,79 @@ crypto key generate rsa
 1024
 ip ssh version 2
 !
-banner login #
-
-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-
-         Unauthorized access to this device is prohibited!
-
-         Twitter @fz3r0_Ops
-         Github  Fz3r0    
-             
-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-
-#
-!
 banner motd #
 
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 
-         fz3r0 - R1 - ZoneA :  Only authorized access!      
-           
-         Twitter @fz3r0_Ops
-         Github  Fz3r0  
+          fz3r0 - SW2-SVI - ZoneA :  Only authorized access!      
+                  (banner seen after a SSH login)
 
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 
 #
 !
-interface range g0/0 - 2
-description << Unused Router Ports >>
+vlan 10
+name VLAN10-BLUE
+vlan 20
+name VLAN10-RED
+vlan 30
+name VLAN10-GREEN
+vlan 100
+name VLAN100-Admin/SSH
+vlan 99
+name VLAN99-TRUNK
+vlan 666
+name VLAN666-Unused_Honeypot
+!
+interface range Gi1/0/1 - 24, Gi1/1/1 - 4
+description << Unused Switch Ports (Access) >>
+switchport mode access
+switchport access vlan 666
+disable DTP
+spanning-tree mode rapid
+spanning-tree bpduguard enable
+spanning-tree portfast
+no CDP enable
+no lldp transmit
+no lldp receive
+switchport no negotiate
 shutdown
 !
-interface gigabitEthernet 0/0
-description << Connect SUB-Interfaces 10,20,30,99,100 >>
-duplex full
+interface gigabitEthernet 1/0/1
+description << Trunk | Connect to SW1  - SW1:Gi0/1 >>
+switchport encapsulation dot1q
+switchport mode trunk
+switchport trunk native vlan 99
+duplex auto
 speed 1000
+spanning-tree bpduguard disable
+spanning-tree portfast disable
+CDP enable
+lldp transmit
+lldp receive
 no shutdown
 !
-interface gigabitEthernet 0/0.10
-description << Connect to Subnet 10 >>
-encapsulation dot1Q 10
+interface vlan 10
+description << SVI - VLAN10-BLUE >>
 ip address 192.168.10.254 255.255.255.0
 no shutdown 
 !
-interface gigabitEthernet 0/0.20
-description << Connect to Subnet 20 >>
-encapsulation dot1Q 20
+interface vlan 20
+description << SVI - VLAN20-RED >>
 ip address 192.168.20.254 255.255.255.0
 no shutdown 
 !
-interface gigabitEthernet 0/0.30
-description << Connect to Subnet 30 >>
-encapsulation dot1Q 30
+interface vlan 30
+description << SVI - VLAN30-GREEN >>
 ip address 192.168.30.254 255.255.255.0
 no shutdown 
 !
-interface gigabitEthernet 0/0.99
-description << Connect to Subnet 99 >>
-encapsulation dot1Q 99
-ip address 192.168.99.254 255.255.255.0
-no shutdown 
-!
-interface gigabitEthernet 0/0.100
-description << Connect to Subnet 100 >>
-encapsulation dot1Q 100
-ip address 192.168.100.254 255.255.255.0
-no shutdown 
-!
 interface loopback 0
-description << loopback 10.10.10.10 >>
+description << SVI - loopback 0 >>
 ip address 10.10.10.10 255.255.255.255
+no shutdown 
+!
+ip routing
 !
 end
 copy running-config startup-config
@@ -582,10 +585,8 @@ banner motd #
 
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 
-         fz3r0 - R1 - ZoneA :  Only authorized access!      
-           
-         Twitter @fz3r0_Ops
-         Github  Fz3r0  
+           fz3r0 - R1 - ZoneA :  Only authorized access!      
+                  (banner seen after a SSH login)
 
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 
@@ -603,6 +604,7 @@ vlan 99
 name VLAN99-TRUNK
 vlan 666
 name VLAN666-Unused_Honeypot
+!
 interface vlan 100
 description << Switch 1 Admin/SSH >>
 ip address 192.168.100.1 255.255.255.0
@@ -624,11 +626,11 @@ switchport no negotiate
 shutdown
 !
 interface gigabitEthernet 0/1
-description << Trunk | Connect to Gateway  - R1:Gi0/0 >>
+description << Trunk | Connect to SVI  - SW2-SVI:Gi1/0/1 >>
 switchport encapsulation dot1q
 switchport mode trunk
 switchport trunk native vlan 99
-duplex full
+duplex auto
 speed 1000
 spanning-tree bpduguard disable
 spanning-tree portfast disable
@@ -636,7 +638,7 @@ CDP enable
 lldp transmit
 lldp receive
 switchport port-security
-switchport port-security maximum 6
+switchport port-security maximum 15
 switchport port-security mac-address sticky
 switchport port-security mac-address sticky F0F0.F0F0.F666
 no shutdown
@@ -694,13 +696,17 @@ ___
 * Port Security
 
 ```
+
 show port-security interface fa0/1
-show port-security 
+show port-security
+
 ```
 * Trunk
 
 ```
+
 show interface trunk
+
 ```
 
 ### // References
