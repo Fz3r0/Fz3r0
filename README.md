@@ -20,9 +20,9 @@
 ---
 
 - [Networking] 
-  - [fz3r0 - Networking Labs](notable.md) 
-    - Lab 1 - [fz3r0 - Switch Virtual Interface](/Networking/Labs/Router-on-a-Stick.md)
-    - Lab 2 - [fz3r0 - Switch Virtual Interface][Switch Virtual Interface SVI.md]
+  - [fz3r0 - Networking Labs](/Networking/Labs/) 
+    - Lab 1 - [Fz3r0 - Router on a Stick](/Networking/Labs/Router-on-a-Stick.md) _Packet Tracer_
+    - Lab 2 - [Fz3r0 - Switch Virtual Interface](/Networking/Labs/Switch-Virtual-Interface-SVI.md) _Packet Tracer_ 
     - Lab 3 - 
 
 - [Security] 
