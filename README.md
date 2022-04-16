@@ -27,7 +27,7 @@
 
 - [Cyber-Security & Hacking] 
   - [fz3r0 - CTFs]
-    - [Wgel CTF](/Cyber-Security-&-Hacking/Labs-&-CTFs/Wgel-CTF.md) _THM_
+    - [Wgel CTF](/Cyber-Security-&-Hacking/Labs-&-CTFs/THM/Wgel-CTF.md) _THM_
   - [fz3r0 - Security Labs]
   - [fz3r0 - Scripts of Death]
 <!--
