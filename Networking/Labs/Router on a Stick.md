@@ -18,9 +18,9 @@
 
 #### Packet Tracer Lab Files & Topology
 
-- insertar archivo!!
+[<< DOWNLOAD FILES >>](https://github.com/Fz3r0/Fz3r0/files/8500585/1____fz3r0_OPs_Routing_._Switching_.3-vlans_1-switch_1-router._RouterOnAStick.zip)
 
-- insertar imagen!!
+![1d____VLAN_(3-vlans_1-switch_1-router)_R_OnAStick_TOPOLOGY](https://user-images.githubusercontent.com/94720207/163690161-d79fc452-ffe2-4876-8990-1ef934e81db8.png)
 
 ___
 
