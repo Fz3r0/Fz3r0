@@ -14,7 +14,9 @@
 ###### | CCNA | RICXI | RSP | CWNA |
 #### < Security >   
 ###### | Security + | PenTest + | Ofensive Pentesting | Ethical Hacking | Defensive Security |
+---
 
+I like computers :) 
 
 <!--
 **Fz3r0/Fz3r0** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
