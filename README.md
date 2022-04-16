@@ -19,12 +19,15 @@
 
 ---
 
-- [Networking] (notable.md)
+- [Networking] 
   - [fz3r0 - Networking Labs] (notable.md) 
      * Lab 1 - [fz3r0 - Switch Virtual Interface](/Networking/Labs/Switch_Virtual_Interface_(SVI).md) 
 
-
-
+- [Security] 
+  - [fz3r0 - CTFs]
+     * [THM - Wgel CTF](/Security/Security Labs & CTFs/THM - Wgel CTF.md)
+  - [fz3r0 - Security Labs]
+  - [fz3r0 - Scripts of Death 💀]
 <!--
 **Fz3r0/Fz3r0** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
