@@ -8,11 +8,11 @@
 
 
 ---
-
+### Bachelor of Science in Computer Systems Engineering Degree 
 #### < Networking > 
-##### | CCNA | RICXI | RSP | CWNA |
+###### | CCNA | RICXI | RSP | CWNA |
 #### < Security >   
-##### | Security + | PenTest + | Ofensive Pentesting | Ethical Hacking | Defensive Security |
+###### | Security + | PenTest + | Ofensive Pentesting | Ethical Hacking | Defensive Security |
 
 
 <!--
