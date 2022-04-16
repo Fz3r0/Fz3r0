@@ -18,9 +18,9 @@
 
 #### Packet Tracer Lab Files & Topology
 
-- insertar archivo!!
+[<< Download Files >>](https://github.com/Fz3r0/Fz3r0/files/8500676/2____fz3r0_OPs_Routing_._Switching_.3-vlans_1-switch_1-router._R_SwitchVirtualInterface_SVI.zip)
 
-- insertar imagen!!
+![image](https://user-images.githubusercontent.com/94720207/163691708-354160a3-3648-4bcd-910b-f510c29f1443.png)
 
 ___
 
