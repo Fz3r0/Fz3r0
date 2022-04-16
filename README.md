@@ -2,7 +2,7 @@
 # Fz3r0 
 
 ![image](https://user-images.githubusercontent.com/94720207/163654194-92edaa63-e2cc-4af7-a420-92a77b4182da.png)
-##### ![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)  : [@fz3r0_OPs](https://twitter.com/Fz3r0_OPs) 
+##### Twitter : [@fz3r0_OPs](https://twitter.com/Fz3r0_OPs) 
 ##### Github  : [Fz3r0](https://github.com/fz3r0) 
 
 
