@@ -1,8 +1,21 @@
 ![image](https://user-images.githubusercontent.com/94720207/163663053-92d4ce71-cd3f-462e-be67-1c357af9f9f1.png)
 
-## Wgel CTF
+## Fz3r0 Operations
 
-#### Keywords: `Linux` `SSH` `id_rsa` `public key` `private key`
+### [Cyber-Security & Hacking]
+
+### Wgel CTF
+
+#### _Try Hack Me_
+---
+
+##### Twitter : [@fz3r0_OPs](https://twitter.com/Fz3r0_OPs) 
+##### Github  : [Fz3r0](https://github.com/fz3r0) 
+
+---
+
+#### Keywords: `Linux` `SSH` `id_rsa` `public key` `private key` `CTF` `THM`
+
 ---
 
 #### Pre-Setup:
@@ -48,4 +61,7 @@
 ![image](https://user-images.githubusercontent.com/94720207/163663570-1c63b836-9dc1-49a8-9988-dd5159229ece.png)
 
 ---
-#### by Fz3r0 
+
+> _- Hecho en México - by [Fz3r0 💀](https://github.com/Fz3r0/)_
+>
+> _"In the mist of the night you could see me come, where the shadows move and Demons lie..."_
