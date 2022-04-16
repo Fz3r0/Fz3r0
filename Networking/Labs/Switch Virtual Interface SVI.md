@@ -93,16 +93,19 @@ interface range Gi1/0/1 - 24, Gi1/1/1 - 4
 description << Unused Switch Ports (Access) >>
 switchport mode access
 switchport access vlan 666
+
 disable DTP
-spanning-tree mode rapid
+
 spanning-tree bpduguard enable
 spanning-tree portfast
 no CDP enable
+
 no lldp transmit
 no lldp receive
+
 switchport no negotiate
 shutdown
-exit
+spanning-tree mode rapid
 
 interface gigabitEthernet 1/0/1
 description << Trunk | Connect to SW1  - SW1:Gi0/1 >>
@@ -114,8 +117,10 @@ speed 1000
 spanning-tree bpduguard disable
 spanning-tree portfast disable
 CDP enable
+
 lldp transmit
 lldp receive
+
 no shutdown
 exit
 
@@ -493,7 +498,6 @@ description << Unused Switch Ports (Access) >>
 switchport mode access
 switchport access vlan 666
 disable DTP
-spanning-tree mode rapid
 spanning-tree bpduguard enable
 spanning-tree portfast
 no CDP enable
@@ -501,6 +505,7 @@ no lldp transmit
 no lldp receive
 switchport no negotiate
 shutdown
+spanning-tree mode rapid
 !
 interface gigabitEthernet 1/0/1
 description << Trunk | Connect to SW1  - SW1:Gi0/1 >>
