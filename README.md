@@ -1,5 +1,5 @@
 
-# Fz3r0 Operations
+# Fz3r0 
 
 ![image](https://user-images.githubusercontent.com/94720207/163654194-92edaa63-e2cc-4af7-a420-92a77b4182da.png)
 ##### Twitter  : [@fz3r0_OPs](https://twitter.com/Fz3r0_OPs) 
