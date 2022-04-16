@@ -20,8 +20,10 @@
 ---
 
 - [Networking] 
-  - [fz3r0 - Networking Labs] (notable.md) 
-     * Lab 1 - [fz3r0 - Switch Virtual Interface](/Networking/Labs/Switch_Virtual_Interface_(SVI).md) 
+  - [fz3r0 - Networking Labs](notable.md) 
+    - Lab 1 - [fz3r0 - Switch Virtual Interface]('Router on a Stick.md')
+    - Lab 2 - [fz3r0 - Switch Virtual Interface][Switch Virtual Interface SVI.md]
+    - Lab 3 - 
 
 - [Security] 
   - [fz3r0 - CTFs]
