@@ -18,7 +18,11 @@
 
 🤖 I like computers 🤖
 
+---
 
+- [Networking] (notable.md)
+  - [fz3r0 - Networking Labs] (notable.md) 
+     * Lab 1 - [fz3r0 - Switch Virtual Interface](Fz3r0/Networking/Labs/Switch_Virtual_Interface_(SVI).md) 
 
 
 
