@@ -6,6 +6,8 @@
 ##### Github   : [Fz3r0](https://github.com/fz3r0) 
 ##### LinkedIn : [fzerocarlos](https://www.linkedin.com/in/fzerocarlos/)
 ---
+
+![Typing SVG](https://readme-typing-svg.herokuapp.com?size=20&color=00F733&multiline=true&lines=whoami)
 #### < University Degree >
 * `Bachelor of Science in Computer Systems Engineering`
 #### < Networking > 
@@ -13,8 +15,6 @@
 #### < Security >   
 * `Security +`  `PenTest +`  `Ofensive Pentesting`  `Ethical Hacking`  `Defensive Security` 
 ---
-
-![Typing SVG](https://readme-typing-svg.herokuapp.com?size=17&color=00F733&multiline=true&lines=whoami;fz3r0)
 
 <h3 align="center">Languages and Tools:</h3>
 
