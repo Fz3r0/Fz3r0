@@ -9,11 +9,11 @@
 
 ---
 #### < University Degree >
-###### Bachelor of Science in Computer Systems Engineering
+* `Bachelor of Science in Computer Systems Engineering`
 #### < Networking > 
-###### | CCNA | RICXI | RSP | CWNA |
+* `CCNA`  `RICXI`  `RSP`  `CWNA` 
 #### < Security >   
-###### | Security + | PenTest + | Ofensive Pentesting | Ethical Hacking | Defensive Security |
+* `Security +`  `PenTest +`  `Ofensive Pentesting`  `Ethical Hacking`  `Defensive Security` 
 ---
 
 🤖 I like computers 🤖
