@@ -1,10 +1,18 @@
 
-## Fz3r0 Operations
+# Fz3r0 Operations
 
-#### < Network > 
+![image](https://user-images.githubusercontent.com/94720207/163654194-92edaa63-e2cc-4af7-a420-92a77b4182da.png)
+##### Twitter  : [@fz3r0_OPs](https://twitter.com/Fz3r0_OPs) 
+##### Github  : [Fz3r0](https://github.com/fz3r0) 
+
+
+
+---
+
+#### < Networking > 
 ##### | CCNA | RICXI | RSP | CWNA |
 #### < Security >   
-##### | Security + | PenTest + | Ofensive Pentesting | Defensive Security |
+##### | Security + | PenTest + | Ofensive Pentesting | Ethical Hacking | Defensive Security |
 
 
 <!--
