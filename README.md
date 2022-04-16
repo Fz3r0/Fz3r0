@@ -1,6 +1,6 @@
 ![image](https://user-images.githubusercontent.com/94720207/163654194-92edaa63-e2cc-4af7-a420-92a77b4182da.png)
 
-## Fz3r0
+## 💀 Fz3r0 💀
 
 ##### Twitter : [@fz3r0_OPs](https://twitter.com/Fz3r0_OPs) 
 ##### Github  : [Fz3r0](https://github.com/fz3r0) 
@@ -13,7 +13,7 @@
 * `Security +`  `PenTest +`  `Ofensive Pentesting`  `Ethical Hacking`  `Defensive Security` 
 ---
 
-🤖 I like computers 🤖
+💀
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?size=17&color=00F733&multiline=true&lines=whoami;fz3r0)](https://git.io/typing-svg)
 
@@ -27,9 +27,9 @@
 
 - [Cyber-Security & Hacking] 
   - [fz3r0 - CTFs]
-     * [THM - Wgel CTF](/Security/Security Labs & CTFs/THM - Wgel CTF.md)
+    - [Wgel CTF](/Cyber-Security-&-Hacking/Labs-&-CTFs/Wgel-CTF.md) _THM_
   - [fz3r0 - Security Labs]
-  - [fz3r0 - Scripts of Death 💀]
+  - [fz3r0 - Scripts of Death]
 <!--
 **Fz3r0/Fz3r0** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
