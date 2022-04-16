@@ -25,7 +25,7 @@
     - Lab 2 - [Fz3r0 - Switch Virtual Interface](/Networking/Labs/Switch-Virtual-Interface-SVI.md) _Packet Tracer_ 
     - Lab 3 - 
 
-- [Security] 
+- [Cyber-Security & Hacking] 
   - [fz3r0 - CTFs]
      * [THM - Wgel CTF](/Security/Security Labs & CTFs/THM - Wgel CTF.md)
   - [fz3r0 - Security Labs]
