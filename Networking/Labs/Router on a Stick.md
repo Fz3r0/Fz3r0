@@ -1,4 +1,3 @@
-
 ## Fz3r0 Operations
 
 ### [Networking]
@@ -253,9 +252,6 @@ lldp receive
 switchport port-security
 switchport port-security maximum 6
 switchport port-security mac-address sticky
-vlan 10,20,30,99,100,666
-port-security maximum 3
-switchport port-security mac-address sticky
 switchport port-security mac-address sticky F0F0.F0F0.F666
 
 no shutdown
@@ -311,7 +307,7 @@ exit
 
 ```
 
-### // Hosts & End Devices
+### < Hosts & End Devices >
 
 - VLAN10-BLUE PCs Configuration:
 
@@ -419,6 +415,268 @@ SW1#
 
 ```
 
+___
+
+### Direct Commands:
+___
+
+### < Router 1 >
+
+```
+
+enable
+configure terminal 
+!
+no ip domain-lookup
+ip domain-name fz3r0.domain
+!
+hostname R1
+!
+enable secret cisco12345
+service password-encryption
+security passwords min-length 10
+login block-for 120 attempts 3 within 60
+!
+username root privilege 15 secret cisco12345
+username user privilege 10 secret cisco12345
+!
+line console 0
+password cisco12345
+login
+!
+line vty 0 8
+access-class 8 in
+exec-timeout 5 30
+transport input ssh
+login local
+!
+crypto key generate rsa
+1024
+ip ssh version 2
+!
+banner login #
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+         Unauthorized access to this device is prohibited!
+
+         Twitter @fz3r0_Ops
+         Github  Fz3r0    
+             
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+#
+!
+banner motd #
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+         fz3r0 - R1 - ZoneA :  Only authorized access!      
+           
+         Twitter @fz3r0_Ops
+         Github  Fz3r0  
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+#
+!
+interface range g0/0 - 2
+description << Unused Router Ports >>
+shutdown
+!
+interface gigabitEthernet 0/0
+description << Connect SUB-Interfaces 10,20,30,99,100 >>
+duplex full
+speed 1000
+no shutdown
+!
+interface gigabitEthernet 0/0.10
+description << Connect to Subnet 10 >>
+encapsulation dot1Q 10
+ip address 192.168.10.254 255.255.255.0
+no shutdown 
+!
+interface gigabitEthernet 0/0.20
+description << Connect to Subnet 20 >>
+encapsulation dot1Q 20
+ip address 192.168.20.254 255.255.255.0
+no shutdown 
+!
+interface gigabitEthernet 0/0.30
+description << Connect to Subnet 30 >>
+encapsulation dot1Q 30
+ip address 192.168.30.254 255.255.255.0
+no shutdown 
+!
+interface gigabitEthernet 0/0.99
+description << Connect to Subnet 99 >>
+encapsulation dot1Q 99
+ip address 192.168.99.254 255.255.255.0
+no shutdown 
+!
+interface gigabitEthernet 0/0.100
+description << Connect to Subnet 100 >>
+encapsulation dot1Q 100
+ip address 192.168.100.254 255.255.255.0
+no shutdown 
+!
+interface loopback 0
+description << loopback 10.10.10.10 >>
+ip address 10.10.10.10 255.255.255.255
+!
+end
+copy running-config startup-config
+
+exit
+
+```
+
+___
+
+### < Switch 1 >
+
+```
+
+enable
+configure terminal 
+!
+no ip domain-lookup
+ip domain-name fz3r0.domain
+!
+hostname SW1
+!
+enable secret cisco12345
+service password-encryption
+security passwords min-length 10
+login block-for 120 attempts 3 within 60
+!
+username root privilege 15 secret cisco12345
+username user privilege 10 secret cisco12345
+!
+line console 0
+password cisco12345
+login
+!
+line vty 0 8
+access-class 8 in
+exec-timeout 5 30
+transport input ssh
+login local
+!
+crypto key generate rsa
+1024
+ip ssh version 2
+!
+banner motd #
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+         fz3r0 - R1 - ZoneA :  Only authorized access!      
+           
+         Twitter @fz3r0_Ops
+         Github  Fz3r0  
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+#
+!
+vlan 10
+name VLAN10-BLUE
+vlan 20
+name VLAN10-RED
+vlan 30
+name VLAN10-GREEN
+vlan 100
+name VLAN100-Admin/SSH
+vlan 99
+name VLAN99-TRUNK
+vlan 666
+name VLAN666-Unused_Honeypot
+interface vlan 100
+description << Switch 1 Admin/SSH >>
+ip address 192.168.100.1 255.255.255.0
+no shutdown 
+!
+ip default-gateway 192.168.100.254
+!
+interface range f0/1 - 24, g0/1 - 2
+description << Unused Switch Ports (Access) >>
+switchport mode access
+switchport access vlan 666
+disable DTP
+spanning-tree bpduguard enable
+spanning-tree portfast
+no CDP enable
+no lldp transmit
+no lldp receive
+switchport no negotiate
+shutdown
+!
+interface gigabitEthernet 0/1
+description << Trunk | Connect to Gateway  - R1:Gi0/0 >>
+switchport encapsulation dot1q
+switchport mode trunk
+switchport trunk native vlan 99
+duplex full
+speed 1000
+spanning-tree bpduguard disable
+spanning-tree portfast disable
+CDP enable
+lldp transmit
+lldp receive
+switchport port-security
+switchport port-security maximum 6
+switchport port-security mac-address sticky
+switchport port-security mac-address sticky F0F0.F0F0.F666
+no shutdown
+!
+interface range fastEthernet 0/1 - 2
+description << VLAN10-BLUE - SW1 >>
+switchport mode access
+switchport access vlan 10
+switchport port-security
+switchport port-security maximum 2
+switchport port-security mac-address sticky
+switchport port-security mac-address sticky F0F0.F0F0.F666
+switchport port-security violation shutdown
+errdisable recovery cause psecure-violation
+errdisable recovery interval 600
+no shutdown
+!
+interface range fastEthernet 0/3 - 4
+description << VLAN20-RED - SW1 >>
+switchport mode access
+switchport access vlan 20
+switchport port-security
+switchport port-security maximum 2
+switchport port-security mac-address sticky
+switchport port-security mac-address sticky F0F0.F0F0.F666
+switchport port-security violation shutdown
+errdisable recovery cause psecure-violation
+errdisable recovery interval 600
+no shutdown
+!
+interface range fastEthernet 0/5 - 6
+description << VLAN30-GREEN - SW1 >>
+switchport mode access
+switchport access vlan 30
+switchport port-security
+switchport port-security maximum 2
+switchport port-security mac-address sticky
+switchport port-security mac-address sticky F0F0.F0F0.F666
+switchport port-security violation shutdown
+errdisable recovery cause psecure-violation
+errdisable recovery interval 600
+no shutdown
+!
+end
+copy running-config startup-config
+
+exit
+
+```
+
+
 ### Troubleshooting
 ___
 
@@ -443,4 +701,6 @@ https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst4500/12-2/25sg/config
 
 ---
 
-_by [Fz3r0](https://github.com/Fz3r0/)_
+> _- Hecho en México - by [Fz3r0 💀](https://github.com/Fz3r0/)_
+>
+> _"In the mist of the night you could see me come, where the shadows move and Demons lie..."_
