@@ -1,7 +1,10 @@
-___
-### Fz3r0 Operations
-___
 
+## Fz3r0 Operations
+
+#### < Network > 
+##### | CCNA | RICXI | RSP | CWNA |
+#### < Security >   
+##### | Security + | PenTest + | Ofensive Pentesting | Defensive Security |
 
 
 <!--
