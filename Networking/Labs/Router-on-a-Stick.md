@@ -703,4 +703,4 @@ https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst4500/12-2/25sg/config
 
 > _- Hecho en México - by [Fz3r0 💀](https://github.com/Fz3r0/)_
 >
-> _"In the mist of the night you could see me come, where the shadows move and Demons lie..."_
+> _"In the mist of the night you could see me come, where shadows move and Demons lie..."_
