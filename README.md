@@ -63,8 +63,8 @@
 
 - [Networking] 
   - [fz3r0 - Networking Labs](/Networking/Labs/) 
-    - Lab 1 - [Fz3r0 - Router on a Stick](/Networking/Labs/Router-on-a-Stick.md) _Packet Tracer_
-    - Lab 2 - [Fz3r0 - Switch Virtual Interface](/Networking/Labs/Switch-Virtual-Interface-SVI.md) _Packet Tracer_ 
+    - Lab 1 - [Fz3r0 - InterVLAN Routing - Router on a Stick](/Networking/Labs/Router-on-a-Stick.md) _Packet Tracer_
+    - Lab 2 - [Fz3r0 - InterVLAN Routing - Switch Virtual Interface SVI](/Networking/Labs/Switch-Virtual-Interface-SVI.md) _Packet Tracer_ 
     - Lab 3 - 
 
 - [Cyber-Security & Hacking] 
