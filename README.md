@@ -26,7 +26,7 @@
 #### < University Degree >
 * `Bachelor of Science in Computer Systems Engineering`
 #### < Networking > 
-* `CCNA`  `RICXI`  `RSP`  `CWNA` 
+* `CCNA`  `RICXI`  `RSP`  `CWNA` `Network Engineer` `NetSec` `Wireless`
 #### < Security >   
 * `Security +`  `PenTest +`  `Ofensive Pentesting`  `Ethical Hacking`  `Defensive Security` 
 ---
