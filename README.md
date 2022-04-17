@@ -74,11 +74,15 @@
   - [Contact](/Networking/Labs/)
   
 
-- [Networking] 
-  - [fz3r0 - Networking Labs](/Networking/Labs/) 
-    - Lab 1 - [Fz3r0 - InterVLAN Routing - Router on a Stick](/Networking/Labs/Router-on-a-Stick.md) _Packet Tracer_
-    - Lab 2 - [Fz3r0 - InterVLAN Routing - Switch Virtual Interface SVI](/Networking/Labs/Switch-Virtual-Interface-SVI.md) _Packet Tracer_ 
-    - Lab 3 - 
+- [Networking]
+  - [Fz3r0 - Tables,Models,Cheat sheets](/Networking/Labs/) 
+     - [Fz3r0 TCP-IP O Hybrid Model](/Networking/Labs/) 
+     - [Fz3r0 - Cisco Routing & Switching IOS Command Bible](/Networking/Labs/)
+  - [Fz3r0 - Networking Labs](/Networking/Labs/)
+    - Lab > - [Fz3r0 - Small Home Office Network SOHO](/Networking/Labs/Router-on-a-Stick.md) _Packet Tracer_
+    - Lab > - [Fz3r0 - InterVLAN Routing: Router on a Stick](/Networking/Labs/Router-on-a-Stick.md) _Packet Tracer_
+    - Lab > - [Fz3r0 - InterVLAN Routing: Switch Virtual Interface SVI](/Networking/Labs/Switch-Virtual-Interface-SVI.md) _Packet Tracer_ 
+    - Lab > - 
 
 - [Cyber-Security & Hacking] 
   - [fz3r0 - CTFs]
