@@ -72,13 +72,13 @@
 - [About] 
   - [Who am I?](/Networking/Labs/) 
   - [Contact](/Networking/Labs/)
-  
 
 - [Networking]
   - [Fz3r0 - Tables,Models,Cheat sheets](/Networking/Labs/) 
      - [Fz3r0 TCP-IP O Hybrid Model](/Networking/Labs/) 
      - [Fz3r0 - Cisco Routing & Switching IOS Command Bible](/Networking/Labs/)
-  - [Fz3r0 - Networking Labs](/Networking/Labs/)
+
+  - [Fz3r0 - Networking Labs]
     - Lab > - [Fz3r0 - Small Home Office Network SOHO](/Networking/Labs/Router-on-a-Stick.md) _Packet Tracer_
     - Lab > - [Fz3r0 - InterVLAN Routing: Router on a Stick](/Networking/Labs/Router-on-a-Stick.md) _Packet Tracer_
     - Lab > - [Fz3r0 - InterVLAN Routing: Switch Virtual Interface SVI](/Networking/Labs/Switch-Virtual-Interface-SVI.md) _Packet Tracer_ 
@@ -87,10 +87,14 @@
 - [Cyber-Security & Hacking] 
   - [fz3r0 - CTFs]
     - [Wgel CTF](/Cyber-Security-&-Hacking/Labs-&-CTFs/THM/Wgel-CTF.md) _THM_
+  
   - [fz3r0 - Security Labs]
+  
   - [fz3r0 - Scripts of Death]
+ 
   - [Cyber-Weapons & Tools]
     - [Cyber-Weapons & Tools Database](/Cyber-Security-&-Hacking/Cyber-Weapons-Tools/Cyber-Weapons-Tools-DB.md)
+  
   - [Malware]
     - [fz3r0 - My Malware] CAUTION!
     - [Malware Databases] CAUTION!
