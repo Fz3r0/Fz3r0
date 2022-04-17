@@ -15,13 +15,13 @@
 #### < Security >   
 * `Security +`  `PenTest +`  `Ofensive Pentesting`  `Ethical Hacking`  `Defensive Security` 
 ---
-<h3 align="center">Networking Infraestructure:</h3>
+<h3 align="center">Network Infraestructure:</h3>
 
 
 
-<p align="center"> <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/6/64/Cisco_logo.svg" </a> </p>
+<p align="center"> <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/6/64/Cisco_logo.svg" </a> <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"> <img src="https://ruckus-shared-webassets.s3.amazonaws.com/logos/commscope_logo_white.png" alt="ruby" width="130" height="40"/> </a> </p>
 
-<p align="center"> <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"> <img src="https://ruckus-shared-webassets.s3.amazonaws.com/logos/commscope_logo_white.png" alt="ruby" width="200" height="40"/> </a> </p>
+<p align="center"> <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"> <img src="https://sigelec.com.pe/images/virtuemart/manufacturer/resized/fluke-logo.png" alt="ruby" width="200" height="200"/> </a> </p>
 
 
 
