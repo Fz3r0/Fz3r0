@@ -1,3 +1,9 @@
+<!--
+
+- Fz3r0 Header  :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: 
+
+-->
+
 ![image](https://user-images.githubusercontent.com/94720207/163654194-92edaa63-e2cc-4af7-a420-92a77b4182da.png)
 
 <h3 align="center">💀 Fz3r0 💀</h3>
@@ -7,7 +13,16 @@
 ##### LinkedIn : [fzerocarlos](https://www.linkedin.com/in/fzerocarlos/)
 ---
 
+<!--
+
+- Fz3r0 Bio :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: 
+
+-->
+
+
 ![Typing SVG](https://readme-typing-svg.herokuapp.com?size=20&color=00F733&multiline=true&lines=whoami)
+
+
 #### < University Degree >
 * `Bachelor of Science in Computer Systems Engineering`
 #### < Networking > 
@@ -15,9 +30,14 @@
 #### < Security >   
 * `Security +`  `PenTest +`  `Ofensive Pentesting`  `Ethical Hacking`  `Defensive Security` 
 ---
+
+<!--
+
+- Fz3r0: Network Infraestructure :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: 
+
+-->
+
 <h3 align="center">Network Infraestructure:</h3>
-
-
 
 <p align="center"> <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/6/64/Cisco_logo.svg" </a> <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"> <img src="https://ruckus-shared-webassets.s3.amazonaws.com/logos/commscope_logo_white.png" alt="ruckus-commscope" width="130" height="40"/> </a> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Aruba_Networks_logo.svg/245px-Aruba_Networks_logo.svg.png" alt="Fluke" width="80" height="40"/> </a> <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"> <img src="https://camarastermograficas.online/wp-content/uploads/2021/12/logo1.png" alt="Fluke" width="60" height="40"/> <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"> 
 
@@ -25,9 +45,11 @@
 
 <p align="center"> <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"> <img src="https://www.innquest.com/wp-content/uploads/2021/09/rgnets.png" alt="Fluke" width="80" height="40"/> </a> </p>
 
+  <!--
 
+- Fz3r0: Programing Languages :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: 
 
-
+-->
 
 <h3 align="center">Programming Languages:</h3>
 
@@ -46,17 +68,15 @@
     - [Wgel CTF](/Cyber-Security-&-Hacking/Labs-&-CTFs/THM/Wgel-CTF.md) _THM_
   - [fz3r0 - Security Labs]
   - [fz3r0 - Scripts of Death]
+  - [Malware]
+    - [fz3r0 - My Malware] CAUTION!
+    - [Malware Databases] CAUTION!
+  
+  
+_The world is a messy place, at least you now have a way of structuring your queries about it, right?_
+
 <!--
+
 **Fz3r0/Fz3r0** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
 -->
