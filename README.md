@@ -82,8 +82,19 @@
   
 _The world is a messy place, at least you now have a way of structuring your queries about it, right?_
 
+---
+
+> _- Hecho en México - by [Fz3r0 💀](https://github.com/Fz3r0/)_
+>
+> _"In the mist of the night you could see me come, where shadows move and Demons lie..."_  
+  
+  
+  
 <!--
 
 **Fz3r0/Fz3r0** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
 -->
+
+  
+  
