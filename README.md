@@ -7,7 +7,7 @@
 ![image](https://user-images.githubusercontent.com/94720207/163654194-92edaa63-e2cc-4af7-a420-92a77b4182da.png)
 
 <h3 align="center">💀 Fz3r0 💀</h3>
-<h5 align="center">| Portafolio | Blog | Databases | Resources | </h3>
+<h5 align="center">| Portafolio | Blog | Networking | Cyber-Security | Programming | Hacking | Malware | Resources | </h3>
 
 ##### Twitter  : [@fz3r0_OPs](https://twitter.com/Fz3r0_OPs) 
 ##### Github   : [Fz3r0](https://github.com/fz3r0) 
@@ -80,7 +80,7 @@
      - [Fz3r0 - Cisco Routing & Switching IOS Command Bible](/Networking/Labs/)
 
   - [Fz3r0 - Networking Labs]
-    - Lab > - [Fz3r0 - Small Home Office Network SOHO + FTTH Simulation](/Networking/Labs/Router-on-a-Stick.md) _Packet Tracer_
+    - Lab > - [Fz3r0 - Home Network + Internet to Home (FTTH) Simulation](/Networking/Labs/Router-on-a-Stick.md) _Packet Tracer_
     - Lab > - [Fz3r0 - InterVLAN Routing: Router on a Stick](/Networking/Labs/Router-on-a-Stick.md) _Packet Tracer_
     - Lab > - [Fz3r0 - InterVLAN Routing: Switch Virtual Interface SVI](/Networking/Labs/Switch-Virtual-Interface-SVI.md) _Packet Tracer_ 
     - Lab > - 
