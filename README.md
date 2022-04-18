@@ -7,7 +7,7 @@
 ![image](https://user-images.githubusercontent.com/94720207/163654194-92edaa63-e2cc-4af7-a420-92a77b4182da.png)
 
 <h3 align="center">💀 Fz3r0 💀</h3>
-<h5 align="center">| Portafolio | Blog | Networking | Cyber-Security | Programming | Hacking | Malware | Resources | </h3>
+<h5 align="center">| Portafolio | Blog | Networking | Cyber-Security | Programming | Database | Services | Hacking | Malware | Resources | </h3>
 
 ##### Twitter  : [@fz3r0_OPs](https://twitter.com/Fz3r0_OPs) 
 ##### Github   : [Fz3r0](https://github.com/fz3r0) 
@@ -70,6 +70,22 @@
 ---
   
 - [IMPORTANT DISCLAIMER](/Networking/Labs/) 
+  
+
+  - This repository has been intended to be a personal and private database that also serves as a portfolio to show potential employers and clients my work, experience, education and resume in the area of IT, network engineering, cyber security, programming and computer systems manage, administration and configuration.
+  
+  - The reason this repository is publicly accessible is because it shares the GNU free software ideology and philosophy, it means the freedom to run the software, to study the software, to modify the software, and to share copies of the software (whether modified or not). I believe that everyone in the world need to know about computers and networking for free, that would make the world a better place. 
+  
+  - All the scripts,binaries,software,techniques,programs,directories,databases of this repository should be used ONLY for authorized penetration testing, networking laboratories and/or educational purposes. 
+  
+  - This repository contain codes and scripts that will harm some systems. Read carefully each file or scrit before download, run or compile.  
+  
+  - Any misuse of the information and files compiled in this repository will not be the responsibility of the author or of any other collaborator. 
+  
+  - Use it at your own machines and/or with the owner's permission.
+  
+
+  
 - [About] 
   - [Who am I?](/Networking/Labs/) 
   - [Contact](/Networking/Labs/)
