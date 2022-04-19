@@ -112,11 +112,14 @@
  
   - [Cyber-Weapons & Tools]
     - [Cyber-Weapons & Tools Database](/Cyber-Security-&-Hacking/Cyber-Weapons-Tools/Cyber-Weapons-Tools-DB.md)
-    - [TheFatRat](https://github.com/screetsec/TheFatRat) _Payload Automation,Listener Generator,Bypass anti-virus backdoors & more..._
+    - [Payloads & Reverse Shell]
+        - [Payload All the Things](https://github.com/Fz3r0/PayloadsAllTheThings) _Payloads and bypasses for Web App Security._
+        - [TheFatRat](https://github.com/screetsec/TheFatRat) _Payload Automation,Listener Generator,Bypass anti-virus backdoors & more..._
   
   - [Malware]
     - [fz3r0 - My Malware] CAUTION!
     - [Malware Databases] CAUTION!
+        - [Malware Samples & Sources](https://github.com/Fz3r0/Malware-Sample-Sources) _Malware Archives & Databases_ CAUTION!
   
   
 _The world is a messy place, at least you now have a way of structuring your queries about it, right?_
