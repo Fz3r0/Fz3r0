@@ -111,6 +111,7 @@
  
   - [Cyber-Weapons & Tools]
     - [Cyber-Weapons & Tools Database](/Cyber-Security-&-Hacking/Cyber-Weapons-Tools/Cyber-Weapons-Tools-DB.md)
+    - [TheFatRat](https://github.com/screetsec/TheFatRat) _Payload Automation,Listener Generator,Bypass anti-virus backdoors & more..._
   
   - [Malware]
     - [fz3r0 - My Malware] CAUTION!
