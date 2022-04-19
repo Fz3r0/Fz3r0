@@ -87,15 +87,19 @@
 
   
 - [About] 
+  
   - [Who am I?](/Networking/Labs/) 
   - [Contact](/Networking/Labs/)
 
 - [Networking]
+  
   - [Fz3r0 - Tables,Models,Cheat sheets](/Networking/Labs/) 
      - [Fz3r0 TCP-IP O Hybrid Model](/Networking/Labs/) 
      - [Fz3r0 - Cisco Routing & Switching IOS Command Bible](/Networking/Labs/)
      - [Cisco CCNA Cheat Sheet I](https://github.com/Fz3r0/CCNA-Cheat-Sheet)
      - https://github.com/Fz3r0/cisco-cheatsheet
+     - https://github.com/Fz3r0/Cisco-IOS-Command-CheatSheets
+     - 
 
   - [Fz3r0 - Networking Labs]
     - Lab > - [Fz3r0 - Home Network + Internet to Home (FTTH) Simulation](/Networking/Labs/Router-on-a-Stick.md) _Packet Tracer_
@@ -104,17 +108,25 @@
     - Lab > - 
 
 - [Cyber-Security & Hacking]
+  
   - [Hacking Bibles]
+  
     - [The Book of the Secret Knowledge](https://github.com/Fz3r0/the-book-of-secret-knowledge) _A collection of lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools, and more._
     - [Awesome Hacking](https://github.com/Fz3r0/Awesome-Hacking) _A collection of awesome lists for hackers, pentesters & security researchers._
     - 
+    - https://github.com/Fz3r0/awesome-hacking-lists
+    - https://github.com/The-Art-of-Hacking/h4cker
   
   - [OSCP Related]
+  
     - https://github.com/jakescheetz/OSCP
   
   - [fz3r0 - CTFs]
+  
     - [Wgel CTF](/Cyber-Security-&-Hacking/Labs-&-CTFs/THM/Wgel-CTF.md) _THM_
+  
         - [CTF Tools]
+  
             - https://github.com/Fz3r0/rsatool
             - https://github.com/Fz3r0/ctf-tools
             - https://github.com/Fz3r0/katana
@@ -122,8 +134,10 @@
   - [fz3r0 - Security Labs]
   
   - [fz3r0 - Scripts of Death]
+  
      - [Pentester Book](https://pentestbook.six2dez.com/post-exploitation/linux)
      - https://github.com/Fz3r0/CheatSheet
+     - https://github.com/Fz3r0/PowerTools powershell
  
   - [Cyber-Weapons & Tools]
    
@@ -135,25 +149,45 @@
      - [TheFatRat](https://github.com/screetsec/TheFatRat) _Payload Automation,Listener Generator,Bypass anti-virus backdoors & more..._
   
   - [SQL injection]
+  
      - https://github.com/Fz3r0/Advanced-SQL-Injection-Cheatsheet
   
+  - [PrivEsc]
+  
+     - Windows & Windows Server
+  
+        - https://github.com/Fz3r0/windows-privesc-check
+  
+     - Linux
+  
   - [Malware]
+  
     - [fz3r0 - My Malware] CAUTION!
+  
     - [Malware Databases] CAUTION!
+  
         - https://github.com/Fz3r0/theZoo
         - [VX-Underground](https://www.vx-underground.org/)_The largest collection of malware source code, samples, and papers on the internet._
         - [Malware Samples & Sources](https://github.com/Fz3r0/Malware-Sample-Sources) _Malware Archives & Databases_
         - https://github.com/Fz3r0/CuteVirusCollection
         - https://github.com/Fz3r0/MalwareDatabase
         - https://github.com/Fz3r0/malwaredatabase-1
+        - https://github.com/Fz3r0/MalwareDatabase-2
         - https://github.com/Fz3r0/reversed-malwares
         - https://github.com/Fz3r0/MalwareScripts
- 
+  
+     - [Malware Standalone] CAUTION!
+  
+        - https://github.com/Fz3r0/BatchPower _Batch Scripts_
+        - https://github.com/Fz3r0/Defender-disabler
+        
   - [Fuzzing]
   
   - [Wordlists]
   
       - [SecLists](https://github.com/Fz3r0/SecLists) _List types include usernames, passwords, URLs, sensitive data patterns, fuzzing payloads, web shells, and many more._
+      - https://github.com/Fz3r0/wordlistctl _Script to fetch, install, update and search wordlist archives from websites offering wordlists with more than 6400 wordlists available._
+      - https://github.com/Fz3r0/Probable-Wordlists
   
   
 _The world is a messy place, at least you now have a way of structuring your queries about it, right?_
