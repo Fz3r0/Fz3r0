@@ -77,15 +77,22 @@
   
   - All the scripts,binaries,software,techniques,programs,directories,databases of this repository should be used ONLY for authorized penetration testing, networking laboratories and/or educational purposes. 
   
-  - This repository contain codes and scripts that will harm some systems. Read carefully each file or scrit before download, run or compile.  
+  - This repository contain codes and scripts that will harm some systems. Read carefully each file documentation and/or script before download, run or compile it.  
   
   - Any misuse of the information and files compiled in this repository will not be the responsibility of the author or of any other collaborator. 
   
-  - Use it at your own machines and/or with the owner's permission.
-  
 ---
 <span align="center"> <h3 align="center">   </h3> </span>  
-<span align="center"> <h3 align="center"> [💀 Operation Poltergeist by Fz3r0 💀](/Networking/Labs/) </h3> </span>  
+<span align="center"> <h3 align="center"> [💀 Infierno | Canto I - by Fz3r0 💀](/Networking/Labs/) </h3> </span>  
+
+ΟΠΟΙΟΣ ΜΠΑΙΝΕΙ ΕΔΩ ΝΑ ΠΑΡΑΤΑ ΚΑΘΕ ΕΛΠΙΔΑ  
+  
+_A mitad del camino de la vida,_
+_en una selva oscura me encontraba_
+_porque mi ruta había extraviado..._
+
+_Abandonad, los que aquí entráis, toda esperanza...__
+  
 <span align="center"> <h3 align="center"> Index </h3> </span>   
 - [About] 
   
