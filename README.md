@@ -108,6 +108,7 @@
   - [fz3r0 - Security Labs]
   
   - [fz3r0 - Scripts of Death]
+    - [Pentester Book](https://pentestbook.six2dez.com/post-exploitation/linux)
  
   - [Cyber-Weapons & Tools]
     - [Cyber-Weapons & Tools Database](/Cyber-Security-&-Hacking/Cyber-Weapons-Tools/Cyber-Weapons-Tools-DB.md)
