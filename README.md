@@ -69,7 +69,7 @@
   
 ---
  
-<span align="center"> <h2 align="center"> [IMPORTANT DISCLAIMER](/Networking/Labs/) </h2> </span>
+<span align="center"> <h3 align="center"> [IMPORTANT DISCLAIMER](/Networking/Labs/) </h3> </span>
 
   - This repository has been intended to be a personal and private database that also serves as a portfolio to show to potential employers and clients my work, experience, education and resume in the area of IT, network engineering, cyber security, programming, systems administration, manage, configuration and computer science in general.
   
@@ -85,8 +85,8 @@
   
 ---
 
-<span align="center"> <h2 align="center"> [Operation Poltergeist by Fz3r0 💀](/Networking/Labs/) </h2> </span>  
-  
+<span align="center"> <h3 align="center"> [💀 Operation Poltergeist by Fz3r0 💀](/Networking/Labs/) </h3> </span>  
+<span align="center"> <h5 align="center"> < Index > </h5> </span>   
 - [About] 
   
   - [Who am I?](/Networking/Labs/) 
