@@ -153,7 +153,7 @@ _The world is a messy place, at least you now have a way of structuring your que
 
 ---
 
-> ![hecho en mex2](https://user-images.githubusercontent.com/94720207/163904846-fba0268d-2a98-4d66-a1d8-6e83fcc2f6b6.png) 
+> ![hecho en mex3 (1)mini](https://user-images.githubusercontent.com/94720207/163919294-2754caa3-c98c-4df3-b782-00703e4d3343.png)
 >
 > _- Hecho en México - by [Fz3r0 💀](https://github.com/Fz3r0/)_ 
 >
