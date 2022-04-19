@@ -69,7 +69,7 @@
   
 ---
  
-<span align="center"> <h3 align="center"> [IMPORTANT DISCLAIMER](/Networking/Labs/) </h3> </span>
+<span align="center"> <h3 align="center"> IMPORTANT DISCLAIMER </h3> </span>
 
   - This repository has been intended to be a personal and private database that also serves as a portfolio to show to potential employers and clients my work, experience, education and resume in the area of IT, network engineering, cyber security, programming, systems administration, manage, configuration and computer science in general.
   
@@ -83,15 +83,13 @@
   
 ---
 <span align="center"> <h3 align="center">   </h3> </span>  
-<span align="center"> <h3 align="center"> [💀 Infierno | Canto I - by Fz3r0 💀](/Networking/Labs/) </h3> </span>  
+<span align="center"> <h3 align="center"> 💀 Infierno: Canto I - _by Fz3r0_ 💀 </h3> </span>  
 
-ΟΠΟΙΟΣ ΜΠΑΙΝΕΙ ΕΔΩ ΝΑ ΠΑΡΑΤΑ ΚΑΘΕ ΕΛΠΙΔΑ  
-  
-_A mitad del camino de la vida,_
-_en una selva oscura me encontraba_
-_porque mi ruta había extraviado..._
-
-_Abandonad, los que aquí entráis, toda esperanza...__
+<span align="center"> <p align="center"> ΟΠΟΙΟΣ ΜΠΑΙΝΕΙ ΕΔΩ ΝΑ ΠΑΡΑΤΑ ΚΑΘΕ ΕΛΠΙΔΑ </p> </span>   
+<span align="center"> <p align="center"> _A mitad del camino de la vida,_ </p> </span>   
+<span align="center"> <p align="center"> _en una selva oscura me encontraba_ </p> </span>     
+<span align="center"> <p align="center"> _porque mi ruta había extraviado..._ </p> </span>   
+<span align="center"> <p align="center"> _Abandonad, los que aquí entráis, toda esperanza..._ </p> </span>
   
 <span align="center"> <h3 align="center"> Index </h3> </span>   
 - [About] 
