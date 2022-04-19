@@ -107,13 +107,18 @@
   - [Hacking Bibles]
     - [Awesome Hacking](https://github.com/Fz3r0/Awesome-Hacking) _A collection of awesome lists for hackers, pentesters & security researchers._
     - 
+  - [OSCP Related]
+    - https://github.com/jakescheetz/OSCP
   - [fz3r0 - CTFs]
     - [Wgel CTF](/Cyber-Security-&-Hacking/Labs-&-CTFs/THM/Wgel-CTF.md) _THM_
+  - [CTF Tools]
+    - https://github.com/Fz3r0/rsatool
   
   - [fz3r0 - Security Labs]
   
   - [fz3r0 - Scripts of Death]
     - [Pentester Book](https://pentestbook.six2dez.com/post-exploitation/linux)
+    - https://github.com/Fz3r0/CheatSheet
  
   - [Cyber-Weapons & Tools]
     - [Cyber-Weapons & Tools Database](/Cyber-Security-&-Hacking/Cyber-Weapons-Tools/Cyber-Weapons-Tools-DB.md)
@@ -121,10 +126,17 @@
         - [Payload All the Things](https://github.com/Fz3r0/PayloadsAllTheThings) _Payloads and bypasses for Web App Security._
         - [TheFatRat](https://github.com/screetsec/TheFatRat) _Payload Automation,Listener Generator,Bypass anti-virus backdoors & more..._
   
+  - [SQL injection]
+     - https://github.com/Fz3r0/Advanced-SQL-Injection-Cheatsheet
+  
   - [Malware]
     - [fz3r0 - My Malware] CAUTION!
     - [Malware Databases] CAUTION!
-        - [Malware Samples & Sources](https://github.com/Fz3r0/Malware-Sample-Sources) _Malware Archives & Databases_ CAUTION!
+        - [VX-Underground](https://www.vx-underground.org/)_The largest collection of malware source code, samples, and papers on the internet._
+        - [Malware Samples & Sources](https://github.com/Fz3r0/Malware-Sample-Sources) _Malware Archives & Databases_
+        - https://github.com/Fz3r0/CuteVirusCollection
+        - https://github.com/Fz3r0/MalwareDatabase
+        - https://github.com/Fz3r0/malwaredatabase-1
   
   
 _The world is a messy place, at least you now have a way of structuring your queries about it, right?_
