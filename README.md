@@ -72,7 +72,7 @@
 - [IMPORTANT DISCLAIMER](/Networking/Labs/) 
   
 
-  - This repository has been intended to be a personal and private database that also serves as a portfolio to show potential employers and clients my work, experience, education and resume in the area of IT, network engineering, cyber security, programming and computer systems manage, administration and configuration.
+  - This repository has been intended to be a personal and private database that also serves as a portfolio to show to potential employers and clients my work, experience, education and resume in the area of IT, network engineering, cyber security, programming, systems administration, manage, configuration and computer science in general.
   
   - The reason this repository is publicly accessible is because it shares the GNU free software ideology and philosophy, it means the freedom to run the software, to study the software, to modify the software, and to share copies of the software (whether modified or not). I believe that everyone in the world need to know about computers and networking for free, that would make the world a better place. 
   
@@ -121,11 +121,14 @@ _The world is a messy place, at least you now have a way of structuring your que
 
 ---
 
-> _- Hecho en México - by [Fz3r0 💀](https://github.com/Fz3r0/)_
+> ![hecho en mex2](https://user-images.githubusercontent.com/94720207/163904846-fba0268d-2a98-4d66-a1d8-6e83fcc2f6b6.png) 
+>
+> _- Hecho en México - by [Fz3r0 💀](https://github.com/Fz3r0/)_ 
 >
 > _"In the mist of the night you could see me come, where shadows move and Demons lie..."_  
   
-  
+
+
   
 <!--
 
