@@ -68,9 +68,8 @@
 <p align="center"> <a href="https://tryhackme.com/p/fz3r0.carlos" target="_blank" rel="noreferrer"> <img src="https://tryhackme-badges.s3.amazonaws.com/fz3r0.carlos.png" alt="TryHackMe"> </a> </p>  
   
 ---
-  
-- [IMPORTANT DISCLAIMER](/Networking/Labs/) 
-  
+ 
+<span align="center"> <h2 align="center"> [IMPORTANT DISCLAIMER](/Networking/Labs/) </h2> </span>
 
   - This repository has been intended to be a personal and private database that also serves as a portfolio to show to potential employers and clients my work, experience, education and resume in the area of IT, network engineering, cyber security, programming, systems administration, manage, configuration and computer science in general.
   
@@ -84,7 +83,9 @@
   
   - Use it at your own machines and/or with the owner's permission.
   
+---
 
+<span align="center"> <h2 align="center"> [Operation Poltergeist by Fz3r0 💀](/Networking/Labs/) </h2> </span>  
   
 - [About] 
   
