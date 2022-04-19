@@ -94,6 +94,8 @@
   - [Fz3r0 - Tables,Models,Cheat sheets](/Networking/Labs/) 
      - [Fz3r0 TCP-IP O Hybrid Model](/Networking/Labs/) 
      - [Fz3r0 - Cisco Routing & Switching IOS Command Bible](/Networking/Labs/)
+     - [Cisco CCNA Cheat Sheet I](https://github.com/Fz3r0/CCNA-Cheat-Sheet)
+     - https://github.com/Fz3r0/cisco-cheatsheet
 
   - [Fz3r0 - Networking Labs]
     - Lab > - [Fz3r0 - Home Network + Internet to Home (FTTH) Simulation](/Networking/Labs/Router-on-a-Stick.md) _Packet Tracer_
@@ -101,7 +103,10 @@
     - Lab > - [Fz3r0 - InterVLAN Routing: Switch Virtual Interface SVI](/Networking/Labs/Switch-Virtual-Interface-SVI.md) _Packet Tracer_ 
     - Lab > - 
 
-- [Cyber-Security & Hacking] 
+- [Cyber-Security & Hacking]
+  - [Hacking Bibles]
+    - [Awesome Hacking](https://github.com/Fz3r0/Awesome-Hacking) _A collection of awesome lists for hackers, pentesters & security researchers._
+    - 
   - [fz3r0 - CTFs]
     - [Wgel CTF](/Cyber-Security-&-Hacking/Labs-&-CTFs/THM/Wgel-CTF.md) _THM_
   
