@@ -148,6 +148,12 @@
         - https://github.com/Fz3r0/malwaredatabase-1
         - https://github.com/Fz3r0/reversed-malwares
         - https://github.com/Fz3r0/MalwareScripts
+ 
+  - [Fuzzing]
+  
+  - [Wordlists]
+  
+      - [SecLists](https://github.com/Fz3r0/SecLists) _List types include usernames, passwords, URLs, sensitive data patterns, fuzzing payloads, web shells, and many more._
   
   
 _The world is a messy place, at least you now have a way of structuring your queries about it, right?_
