@@ -105,6 +105,7 @@
 
 - [Cyber-Security & Hacking]
   - [Hacking Bibles]
+    - [The Book of the Secret Knowledge](https://github.com/Fz3r0/the-book-of-secret-knowledge) _A collection of lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools, and more._
     - [Awesome Hacking](https://github.com/Fz3r0/Awesome-Hacking) _A collection of awesome lists for hackers, pentesters & security researchers._
     - 
   
