@@ -20,9 +20,7 @@
 
 -->
 
-
 ![Typing SVG](https://readme-typing-svg.herokuapp.com?size=20&color=00F733&multiline=true&lines=whoami)
-
 
 #### < University Degree >
 * `Bachelor of Science in Computer Systems Engineering`
@@ -67,7 +65,7 @@
   
 
   
-<p align="center"> <a href="https://tryhackme.com/p/fz3r0.carlos" target="_blank" rel="noreferrer"> <img src="https://tryhackme-badges.s3.amazonaws.com/fz3r0.carlos.png" alt="TryHackMe2"> </a> </p>
+<p align="center"> <a href="https://tryhackme.com/p/fz3r0.carlos" target="_blank" rel="noreferrer"> <img src="https://user-images.githubusercontent.com/94720207/164392862-2fe8bf14-1e20-48b0-8d41-3b4e87927218.png" alt="TryHackMe2"> </a> </p>
   
 
   
