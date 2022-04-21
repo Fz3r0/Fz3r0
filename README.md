@@ -65,7 +65,11 @@
 <h3 align="center">Hacking Challenges & Attack Boxes</h3>
 <h5 align="center">Fz3r0 @ Top 27 Mexico Rank | Top 1% Worldwide | [0xD] [GOD] </h3> 
   
-<p align="center"> <a href="https://tryhackme.com/p/fz3r0.carlos" target="_blank" rel="noreferrer"> <img src="https://tryhackme-badges.s3.amazonaws.com/fz3r0.carlos.png" alt="TryHackMe"> </a> </p>  
+<p align="center"> <a href="https://tryhackme.com/p/fz3r0.carlos" target="_blank" rel="noreferrer"> <img src="https://tryhackme-badges.s3.amazonaws.com/fz3r0.carlos.png" alt="TryHackMe"> </a> </p>
+  
+<p align="center"> <a href="https://tryhackme.com/p/fz3r0.carlos" target="_blank" rel="noreferrer"> <img src="https://tryhackme-badges.s3.amazonaws.com/fz3r0.carlos.png" alt="TryHackMe2"> </a> </p>
+  
+
   
 ---
  
