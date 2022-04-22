@@ -125,6 +125,15 @@
     - https://github.com/Fz3r0/awesome-hacking-lists
     - https://github.com/The-Art-of-Hacking/h4cker
   
+  - [Privilege Escalation (PrivEsc)]
+  
+    - [PrivEsc Dark Knowledge & Black Arts]
+    
+        - [Pergamino I](https://github.com/netbiosX/Checklists/blob/master/Linux-Privilege-Escalation.md)
+        - [Pergamino II - swisskyrepo](https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Linux%20-%20Privilege%20Escalation.md)
+        - [Pergamino III - OSCP Guide](https://sushant747.gitbooks.io/total-oscp-guide/privilege_escalation_-_linux.html)
+        - [Pergamino IV - Payatu](https://payatu.com/guide-linux-privilege-escalation)
+  
   - [OSCP Related]
   
     - https://github.com/jakescheetz/OSCP
