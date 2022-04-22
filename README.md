@@ -46,9 +46,11 @@
 
 <p align="center"> <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"> <img src="https://www.innquest.com/wp-content/uploads/2021/09/rgnets.png" alt="Fluke" width="80" height="40"/> </a> </p>
   
-  <!--
+<!--
 
-- Fz3r0: Programing Languages :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: 
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+** =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=- Programming Languages & Databases 
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
 
 -->
 
@@ -60,6 +62,14 @@
 
 &nbsp;
   
+<!--
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+** =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=- Hacking Challenges & Attack Boxes 
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+
+-->
+  
 <h3 align="center">Hacking Challenges & Attack Boxes</h3>
 <h5 align="center">Fz3r0 @ Top 27 Mexico Rank | Top 1% Worldwide | [0xD] [GOD] </h3> 
   
@@ -67,7 +77,13 @@
   
 <p align="center"> <a href="https://tryhackme.com/p/fz3r0.carlos" target="_blank" rel="noreferrer"> <img src="https://user-images.githubusercontent.com/94720207/164392862-2fe8bf14-1e20-48b0-8d41-3b4e87927218.png" alt="TryHackMe2"> </a> </p>
   
+<!--
 
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+** =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=- IMPORTANT DISCLAIRMER 
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+
+-->
   
 ---
  
@@ -84,30 +100,53 @@
   - Any misuse of the information and files compiled in this repository will not be the responsibility of the author or of any other collaborator. 
   
 ---
+  
 <span align="center"> <h3 align="center">   </h3> </span>  
-<span align="center"> <h3 align="center"> 💀 Infierno: Canto I - _by Fz3r0_ 💀 </h3> </span>  
-
-<span align="center"> <p align="center"> ΟΠΟΙΟΣ ΜΠΑΙΝΕΙ ΕΔΩ ΝΑ ΠΑΡΑΤΑ ΚΑΘΕ ΕΛΠΙΔΑ </p> </span>   
+<span align="center"> <h3 align="center"> 💀 Infierno: Canto I 💀 </h3> </span>  
+<span align="center"> <h3 align="center">   </h3> </span>  
+  
+<span align="center"> <p align="center"> ΟΠΟΙΟΣ ΜΠΑΙΝΕΙ ΕΔΩ ΝΑ ΠΑΡΑΤΑ ΚΑΘΕ ΕΛΠΙΔΑ </p> </span> 
+<span align="center"> <h3 align="center">   </h3> </span>  
+  
 <span align="center"> <p align="center"> _A mitad del camino de la vida,_ </p> </span>   
 <span align="center"> <p align="center"> _en una selva oscura me encontraba_ </p> </span>     
 <span align="center"> <p align="center"> _porque mi ruta había extraviado..._ </p> </span>   
 <span align="center"> <p align="center"> _Abandonad, los que aquí entráis, toda esperanza..._ </p> </span>
+<span align="center"> <p align="center">    </p> </span>  
+   
   
+---
+  
+<!--
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+** =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=- INDEX 
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+
+-->    
+    
 <span align="center"> <h3 align="center"> Index </h3> </span>   
+
 - [About] 
   
-  - [Who am I?](/Networking/Labs/) 
-  - [Contact](/Networking/Labs/)
+    - [Who am I?](/Networking/Labs/) 
+  
+    - [Contact](/Networking/Labs/)
 
 - [Networking]
   
-  - [Fz3r0 - Tables,Models,Cheat sheets](/Networking/Labs/) 
-     - [Fz3r0 TCP-IP O Hybrid Model](/Networking/Labs/) 
-     - [Fz3r0 - Cisco Routing & Switching IOS Command Bible](/Networking/Labs/)
-     - [Cisco CCNA Cheat Sheet I](https://github.com/Fz3r0/CCNA-Cheat-Sheet)
-     - https://github.com/Fz3r0/cisco-cheatsheet
-     - https://github.com/Fz3r0/Cisco-IOS-Command-CheatSheets
-     - 
+    - [Fz3r0 - Tables,Models,Cheat sheets](/Networking/Labs/) 
+  
+        - [Fz3r0 TCP-IP O Hybrid Model](/Networking/Labs/) 
+  
+        - [Fz3r0 - Cisco Routing & Switching IOS Command Bible](/Networking/Labs/)
+  
+        - [Cisco CCNA Cheat Sheet I](https://github.com/Fz3r0/CCNA-Cheat-Sheet)
+  
+        - https://github.com/Fz3r0/cisco-cheatsheet
+  
+        - https://github.com/Fz3r0/Cisco-IOS-Command-CheatSheets
+        - 
 
   - [Fz3r0 - Networking Labs]
     - Lab > - [Fz3r0 - Home Network + Internet to Home (FTTH) Simulation](/Networking/Labs/Router-on-a-Stick.md) _Packet Tracer_
@@ -118,40 +157,39 @@
 - [Cyber-Security & Hacking]
   
   - [Hacking Bibles]
-  
     - [The Book of the Secret Knowledge](https://github.com/Fz3r0/the-book-of-secret-knowledge) _A collection of lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools, and more._
     - [Awesome Hacking](https://github.com/Fz3r0/Awesome-Hacking) _A collection of awesome lists for hackers, pentesters & security researchers._
     - 
     - https://github.com/Fz3r0/awesome-hacking-lists
     - https://github.com/The-Art-of-Hacking/h4cker
   
-  - [Privilege Escalation (PrivEsc)]
+    - [Privilege Escalation (PrivEsc)]
   
-    - [PrivEsc Dark Knowledge & Black Arts]
-    
-        - [Pergamino I](https://github.com/netbiosX/Checklists/blob/master/Linux-Privilege-Escalation.md)
-        - [Pergamino II - swisskyrepo](https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Linux%20-%20Privilege%20Escalation.md)
-        - [Pergamino III - OSCP Guide](https://sushant747.gitbooks.io/total-oscp-guide/privilege_escalation_-_linux.html)
-        - [Pergamino IV - Payatu](https://payatu.com/guide-linux-privilege-escalation)
+        - [PrivEsc Dark Knowledge & Black Arts]
+  
+            - Linux PrivEsc
+                - [Pergamino I](https://github.com/netbiosX/Checklists/blob/master/Linux-Privilege-Escalation.md)
+                - [Pergamino II - swisskyrepo](https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Linux%20-%20Privilege%20Escalation.md)
+                - [Pergamino III - OSCP Guide](https://sushant747.gitbooks.io/total-oscp-guide/privilege_escalation_-_linux.html)
+                - [Pergamino IV - Payatu](https://payatu.com/guide-linux-privilege-escalation)
+                - [Fz3r0 @ Linux PrivEsc]()
+
+            - Windows PrivEsc
   
   - [OSCP Related]
-  
     - https://github.com/jakescheetz/OSCP
   
-  - [fz3r0 - CTFs]
+    - [fz3r0 - CTFs]
+        - [Wgel CTF](/Cyber-Security-&-Hacking/Labs-&-CTFs/THM/Wgel-CTF.md) _THM_
   
-    - [Wgel CTF](/Cyber-Security-&-Hacking/Labs-&-CTFs/THM/Wgel-CTF.md) _THM_
-  
-        - [CTF Tools]
-  
-            - https://github.com/Fz3r0/rsatool
-            - https://github.com/Fz3r0/ctf-tools
-            - https://github.com/Fz3r0/katana
+    - [CTF Tools]
+        - https://github.com/Fz3r0/rsatool
+        - https://github.com/Fz3r0/ctf-tools
+        - https://github.com/Fz3r0/katana
   
   - [fz3r0 - Security Labs]
   
   - [fz3r0 - Scripts of Death]
-  
      - [Pentester Book](https://pentestbook.six2dez.com/post-exploitation/linux)
      - https://github.com/Fz3r0/CheatSheet
      - https://github.com/Fz3r0/PowerTools powershell
