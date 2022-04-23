@@ -161,25 +161,20 @@
 - [Networking]
   
     - [Fz3r0 - Tables,Models,Cheat sheets](/Networking/Labs/) 
-  
         - [Fz3r0 TCP-IP O Hybrid Model](/Networking/Labs/) 
-  
         - [Fz3r0 - Cisco Routing & Switching IOS Command Bible](/Networking/Labs/)
-  
         - [Cisco CCNA Cheat Sheet I](https://github.com/Fz3r0/CCNA-Cheat-Sheet)
-  
         - https://github.com/Fz3r0/cisco-cheatsheet
-  
         - https://github.com/Fz3r0/Cisco-IOS-Command-CheatSheets
         - 
 
-  - [Fz3r0 - Networking Labs]
-    - Lab > - [Fz3r0 - Home Network + Internet to Home (FTTH) Simulation](/Networking/Labs/Router-on-a-Stick.md) _Packet Tracer_
-    - Lab > - [Fz3r0 - InterVLAN Routing: Router on a Stick](/Networking/Labs/Router-on-a-Stick.md) _Packet Tracer_
-    - Lab > - [Fz3r0 - InterVLAN Routing: Switch Virtual Interface SVI](/Networking/Labs/Switch-Virtual-Interface-SVI.md) _Packet Tracer_ 
-    - Lab > - 
+    - [Fz3r0 - Networking Labs]
+        - Lab > - [Fz3r0 - Home Network + Internet to Home (FTTH) Simulation](/Networking/Labs/Router-on-a-Stick.md) _Packet Tracer_
+        - Lab > - [Fz3r0 - InterVLAN Routing: Router on a Stick](/Networking/Labs/Router-on-a-Stick.md) _Packet Tracer_
+        - Lab > - [Fz3r0 - InterVLAN Routing: Switch Virtual Interface SVI](/Networking/Labs/Switch-Virtual-Interface-SVI.md) _Packet Tracer_ 
+        - Lab > - 
 
-  <!--
+<!--
 
 *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
 ** =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=- SECURITY & HACKING 
@@ -192,9 +187,9 @@
   - [Hacking Bibles]
     - [The Book of the Secret Knowledge](https://github.com/Fz3r0/the-book-of-secret-knowledge) _A collection of lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools, and more._
     - [Awesome Hacking](https://github.com/Fz3r0/Awesome-Hacking) _A collection of awesome lists for hackers, pentesters & security researchers._
-    - 
     - https://github.com/Fz3r0/awesome-hacking-lists
     - https://github.com/The-Art-of-Hacking/h4cker
+    - https://www.aldeid.com/wiki/Main_Page
   
     - [Privilege Escalation (PrivEsc)]
   
@@ -209,8 +204,8 @@
 
             - Windows PrivEsc
   
-  - [OSCP Related]
-    - https://github.com/jakescheetz/OSCP
+    - [OSCP Related]
+        - https://github.com/jakescheetz/OSCP
   
     - [fz3r0 - CTFs]
         - [Wgel CTF](/Cyber-Security-&-Hacking/Labs-&-CTFs/THM/Wgel-CTF.md) _THM_
