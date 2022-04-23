@@ -275,7 +275,16 @@
       - https://github.com/Fz3r0/wordlistctl _Script to fetch, install, update and search wordlist archives from websites offering wordlists with more than 6400 wordlists available._
       - https://github.com/Fz3r0/Probable-Wordlists
   
+  - [Fz3r0 Programming Open Source Projects]
   
+      - [Python]
+          - [QR Code Generator from a string]()
+  
+      - [Batch]
+      - [Bash]
+      - [Go]
+  
+ 
 _The world is a messy place, at least you now have a way of structuring your queries about it, right?_
 
 ---
