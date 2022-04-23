@@ -42,11 +42,14 @@
 
 <h3 align="center">Network Infraestructure:</h3>
 
-<p align="center"> <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/6/64/Cisco_logo.svg" </a> <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"> <img src="https://ruckus-shared-webassets.s3.amazonaws.com/logos/commscope_logo_white.png" alt="ruckus-commscope" width="130" height="40"/> </a> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Aruba_Networks_logo.svg/245px-Aruba_Networks_logo.svg.png" alt="Fluke" width="80" height="40"/> </a> <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"> <img src="https://camarastermograficas.online/wp-content/uploads/2021/12/logo1.png" alt="Fluke" width="60" height="40"/> <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"> 
+<p align="center"> <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/6/64/Cisco_logo.svg" alt="cisco" width="7%" height="auto"/> </a> <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"> <img src="https://ruckus-shared-webassets.s3.amazonaws.com/logos/commscope_logo_white.png" alt="ruckus-commscope" width="13.5%" height="auto"/> </a>
+  
+  
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Aruba_Networks_logo.svg/245px-Aruba_Networks_logo.svg.png" alt="Fluke" width="80" height="40"/> </a> <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"> <img src="https://camarastermograficas.online/wp-content/uploads/2021/12/logo1.png" alt="Fluke" width="60" height="40"/> <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer">  
 
 </p>
 
-<p align="center"> <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"> <img src="https://www.innquest.com/wp-content/uploads/2021/09/rgnets.png" alt="Fluke" width="80" height="40"/> </a> </p>
+<p align="center"> <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"> <img src="https://www.innquest.com/wp-content/uploads/2021/09/rgnets.png" alt="Fluke" width="8%" height="auto"/> </a> </p>
   
 <!--
 
