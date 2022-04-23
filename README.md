@@ -202,34 +202,28 @@
   
     - [Privilege Escalation (PrivEsc)]
   
-        - [PrivEsc Dark Knowledge & Black Arts]
+        - [PrivEsc Ancient Dark Scritures]
   
             - Linux PrivEsc
-                - [Pergamino I](https://github.com/netbiosX/Checklists/blob/master/Linux-Privilege-Escalation.md)
-                - [Pergamino II - swisskyrepo](https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Linux%20-%20Privilege%20Escalation.md)
-                - [Pergamino III - OSCP Guide](https://sushant747.gitbooks.io/total-oscp-guide/privilege_escalation_-_linux.html)
-                - [Pergamino IV - Payatu](https://payatu.com/guide-linux-privilege-escalation)
+                - [Linux | Pergamino I](https://github.com/netbiosX/Checklists/blob/master/Linux-Privilege-Escalation.md)
+                - [Linux | Pergamino II - swisskyrepo](https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Linux%20-%20Privilege%20Escalation.md)
+                - [Linux | Pergamino III - OSCP Guide](https://sushant747.gitbooks.io/total-oscp-guide/privilege_escalation_-_linux.html)
+                - [Linux | Pergamino IV - Payatu](https://payatu.com/guide-linux-privilege-escalation)
                 - [Fz3r0 @ Linux PrivEsc]()
 
             - Windows PrivEsc
+                - [Windows | Pergamino I]  
+            - Windows Server PrivEsc
   
     - [OSCP Related]
         - https://github.com/jakescheetz/OSCP
   
-    - [fz3r0 - CTFs]
-        - [Wgel CTF](/Cyber-Security-&-Hacking/Labs-&-CTFs/THM/Wgel-CTF.md) _THM_
+
   
-    - [CTF Tools]
-        - https://github.com/Fz3r0/rsatool
-        - https://github.com/Fz3r0/ctf-tools
-        - https://github.com/Fz3r0/katana
-  
-  - [fz3r0 - Security Labs]
-  
-  - [fz3r0 - Scripts of Death]
-     - [Pentester Book](https://pentestbook.six2dez.com/post-exploitation/linux)
-     - https://github.com/Fz3r0/CheatSheet
-     - https://github.com/Fz3r0/PowerTools powershell
+    - [fz3r0 - Scripts & Commands of Black Arts]
+        - [Pentester Book](https://pentestbook.six2dez.com/post-exploitation/linux)
+        - https://github.com/Fz3r0/CheatSheet
+        - https://github.com/Fz3r0/PowerTools powershell
  
   - [Cyber-Weapons & Tools]
    
@@ -280,6 +274,16 @@
       - [SecLists](https://github.com/Fz3r0/SecLists) _List types include usernames, passwords, URLs, sensitive data patterns, fuzzing payloads, web shells, and many more._
       - https://github.com/Fz3r0/wordlistctl _Script to fetch, install, update and search wordlist archives from websites offering wordlists with more than 6400 wordlists available._
       - https://github.com/Fz3r0/Probable-Wordlists
+ 
+     - [fz3r0 - CTFs]
+        - [Wgel CTF](/Cyber-Security-&-Hacking/Labs-&-CTFs/THM/Wgel-CTF.md) _THM_
+  
+    - [CTF Tools]
+        - https://github.com/Fz3r0/rsatool
+        - https://github.com/Fz3r0/ctf-tools
+        - https://github.com/Fz3r0/katana
+  
+  - [fz3r0 - Security Labs] 
   
   - [Fz3r0 Programming Open Source Projects]
   
