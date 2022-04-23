@@ -123,7 +123,10 @@
 <span align="center"> <p align="center"> _porque mi ruta había extraviado..._ </p> </span>   
 <span align="center"> <p align="center"> _Abandonad, los que aquí entráis, toda esperanza..._ </p> </span>
 <span align="center"> <p align="center">    </p> </span>  
-     
+
+
+<p align="center"> <img src="https://user-images.githubusercontent.com/94720207/164912570-d86e1783-fcad-43eb-9fae-f5e6ff48cdac.png" alt="skull3" width="20%" height="auto"/> </p>  
+  
 ---
   
 <!--
