@@ -215,7 +215,13 @@
         - Lab > - [Fz3r0 - InterVLAN Routing: Router on a Stick](/Networking/Labs/Router-on-a-Stick.md) _Packet Tracer_
         - Lab > - [Fz3r0 - InterVLAN Routing: Switch Virtual Interface SVI](/Networking/Labs/Switch-Virtual-Interface-SVI.md) _Packet Tracer_ 
         - Lab > - 
-  
+    
+    - Network Troubleshooting 
+        - Troubleshooting Network Access Layer Issues
+<!--
+![image](https://user-images.githubusercontent.com/94720207/164993410-32b7e351-f9a3-4b77-b9d7-08bf74b13da2.png)
+--> 
+ 
     - [Attacking Cisco Infraestructure]
  
         - Layer 2 Attacks
