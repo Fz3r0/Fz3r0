@@ -186,6 +186,19 @@
     - [Attacking Cisco Infraestructure] 
         - [Attacking STP & BPDUs](https://github.com/tomac/yersinia) _@ Yersenia_
         - [Creating malicious packets & breaking TCP/IP rules](Fz3r0/Networking/Attacking-Cisco/weird_TCP_fz3r0.py )  _@ Python + Scapy_
+  
+    - [Securing & Defending Cisco Infraestructure]
+        
+        - Network Security Devices
+            - [VPN-enabled Router]()
+            - [NGFW]()
+            - [NAC]()
+        
+        - Endpoints Protection & Security  
+            - [Traditional Host based Security,Firewall,Antivirus,HIPSs,etc]()
+            - [Top Security: NAC,host-based AMP, ESA, WSA]
+                - [Cisco ESA & WSA]
+          
 <!--
 
 *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
