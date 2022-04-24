@@ -207,9 +207,12 @@
 
 - [Networking]
   
-    - [Tables, Models, Cheat-Sheets & Black Wizardy for Networking & NetSec] 
-        - [Fz3r0 TCP-IP O Hybrid Model](/Networking/Labs/) 
-        - [Fz3r0 - Cisco Routing & Switching IOS Command Bible](/Networking/Labs/)
+    - [Tables, Models, Cheat-Sheets & Mystic Wizardy for Networking & NetSec] 
+ 
+        - [TCP-IP Hybrid Model by Fz3r0 - TCP+OSI in a nutshell](/Networking/Labs/) 
+ 
+        - [Cisco Newtorks Routing & Switching All-in-One Command Bible (CCNA,CCNP)](/Networking/Labs/)
+ 
         - [Cisco CCNA Cheat Sheet I](https://github.com/Fz3r0/CCNA-Cheat-Sheet)
         - https://github.com/Fz3r0/cisco-cheatsheet
         - https://github.com/Fz3r0/Cisco-IOS-Command-CheatSheets
