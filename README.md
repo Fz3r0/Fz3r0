@@ -62,7 +62,6 @@
 * `CCNA`  `RICXI`  `RSP`  `CWNA` `Network Engineer` `NetSec` `Wireless` `Enterprise Networking` `NGNs` `FTTH/FFTx` `GPON` 
 #### < Security >   
 * `Security+`  `PenTest+`  `Ofensive Pentesting`  `Ethical Hacking`  `Defensive Security` `Forensics`
----
 
 &nbsp;
 
