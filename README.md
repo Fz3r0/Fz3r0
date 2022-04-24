@@ -145,6 +145,8 @@
  
 ---
 
+--- 
+ 
 <!--
 
 *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
@@ -176,25 +178,17 @@
 <!--
 
 *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
-** =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=- INDEX 
+** =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=- INDEX TITLE,ABOUT,CONTACT 
 *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
 
 -->    
+
+--- 
+ 
+<span align="center"> <h1 align="center"> INDEX </h3> </span>   
     
-<span align="center"> <h3 align="center"> Index </h3> </span>   
-
-<!--
-
-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
-** =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=- ABOUT
-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
-
--->    
-  
 - [About] 
-  
     - [Who am I?](/Networking/Labs/) 
-  
     - [Contact](/Networking/Labs/)
   
 <!--
@@ -205,25 +199,25 @@
 
 -->    
 
-- [Networking]
+<span align="center"> <h3 align="center"> NETWORKING </h3> </span> 
   
-    - [Tables, Models, Cheat-Sheets & Mystic Wizardy for Networking & NetSec] 
+- [Tables, Models, Cheat-Sheets & Mystic Wizardy for Networking & NetSec] 
  
-        - [TCP-IP Hybrid Model by Fz3r0 - TCP+OSI in a nutshell](/Networking/Labs/) 
+    + [TCP-IP Hybrid Model by Fz3r0 - TCP+OSI in a nutshell](/Networking/Labs/) 
  
-        - [Cisco Newtorks Routing & Switching All-in-One Command Bible (CCNA,CCNP)](/Networking/Labs/)
+    - [Cisco Newtorks Routing & Switching All-in-One Command Bible (CCNA,CCNP)](/Networking/Labs/)
  
-        - [Cisco CCNA Cheat Sheet I](https://github.com/Fz3r0/CCNA-Cheat-Sheet)
-        - https://github.com/Fz3r0/cisco-cheatsheet
-        - https://github.com/Fz3r0/Cisco-IOS-Command-CheatSheets
-        - 
+    - [Cisco CCNA Cheat Sheet I](https://github.com/Fz3r0/CCNA-Cheat-Sheet)
+    - https://github.com/Fz3r0/cisco-cheatsheet
+    - https://github.com/Fz3r0/Cisco-IOS-Command-CheatSheets
+    - 
 
-    - [Secure Network Labs by @ Fz3r0]
-        - Lab 01 > - [Secure Home Network + Internet to Home (FTTH) Simulation](/Networking/Labs/Router-on-a-Stick.md) _Packet Tracer_
-        - Lab 02 > - [Secure InterVLAN Routing: Router on a Stick](/Networking/Labs/Router-on-a-Stick.md) _Packet Tracer_
-        - Lab 03 > - [Secure InterVLAN Routing: Switch Virtual Interface SVI](/Networking/Labs/Switch-Virtual-Interface-SVI.md) _Packet Tracer_ 
-        - Lab 04 > - [Secure Routing Dual Stack Topology](https://user-images.githubusercontent.com/94720207/164995003-71eaecd4-b6ee-4c6f-a7e4-1eb7fe7d8948.png)
-        - Lab 04 > - []()
+- [Secure Network Labs by @ Fz3r0]
+    - Lab 01 > - [Secure Home Network + Internet to Home (FTTH) Simulation](/Networking/Labs/Router-on-a-Stick.md) _Packet Tracer_
+    - Lab 02 > - [Secure InterVLAN Routing: Router on a Stick](/Networking/Labs/Router-on-a-Stick.md) _Packet Tracer_
+    - Lab 03 > - [Secure InterVLAN Routing: Switch Virtual Interface SVI](/Networking/Labs/Switch-Virtual-Interface-SVI.md) _Packet Tracer_ 
+    - Lab 04 > - [Secure Routing Dual Stack Topology](https://user-images.githubusercontent.com/94720207/164995003-71eaecd4-b6ee-4c6f-a7e4-1eb7fe7d8948.png)
+    - Lab 04 > - []()
  
 
     
