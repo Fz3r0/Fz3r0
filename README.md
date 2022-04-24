@@ -203,7 +203,7 @@
   
 - [Tables, Models, Cheat-Sheets & Mystic Wizardy for Networking & NetSec] 
  
-    + [TCP-IP Hybrid Model by Fz3r0 - TCP+OSI in a nutshell](/Networking/Labs/) 
+    - [TCP-IP Hybrid Model by Fz3r0 - TCP+OSI in a nutshell](/Networking/Labs/) 
  
     - [Cisco Newtorks Routing & Switching All-in-One Command Bible (CCNA,CCNP)](/Networking/Labs/)
  
@@ -221,11 +221,15 @@
  
 
     
-    - [Network Troubleshooting ]
+- [Network Troubleshooting ]
 
         - [Toubleshooting Network Access Layer Issues](https://user-images.githubusercontent.com/94720207/164993410-32b7e351-f9a3-4b77-b9d7-08bf74b13da2.png)
         - [Cut-Throught & Store-and-forward Switching](https://user-images.githubusercontent.com/94720207/164997743-d42dbae9-edb4-4f83-ae44-16cb5eab2fd4.png)
 
+- [Network Automation]
+    - [Network Automation @ NAPALM](https://github.com/Fz3r0/napalm) _Network Automation and Programmability Abstraction Layer with Multivendor support_
+    - [Network Automation @ Trigger](https://github.com/Fz3r0/trigger)
+ 
  
     - [Attacking Network Infraestructure]
  
