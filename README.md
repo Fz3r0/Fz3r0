@@ -232,6 +232,11 @@
             - CDP Attack - CDP Recon & Crafting
             - [Attacking STP & BPDUs crafting packs](https://github.com/tomac/yersinia) _@ Yersenia_
  
+        -Wireless Threats & Attacks
+            - DoS Attack - Interference & Misconfigurations
+            - Rogue Access Points
+            - Man-in-the-Middle Attack (MITM)
+ 
         - Multi-Layer & Other Attacks
             - [Creating malicious packets & breaking TCP/IP rules](Fz3r0/Networking/Attacking-Cisco/weird_TCP_fz3r0.py )  _@ Python + Scapy_
   
@@ -252,7 +257,7 @@
             - AAA Standards
             - IEEE 802.1X: Port-based Access Control & Authentication
  
-         - Layer 2 Attack Mitigation
+         - Layer 2 Attacks Mitigation
             - Port Security  
             - DHCP Snooping
             - Dynamic ARP Inspection (DAI)
