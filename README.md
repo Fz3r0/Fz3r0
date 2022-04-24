@@ -232,7 +232,7 @@
             - CDP Attack - CDP Recon & Crafting
             - [Attacking STP & BPDUs crafting packs](https://github.com/tomac/yersinia) _@ Yersenia_
  
-        -Wireless Threats & Attacks
+        - Wireless Threats & Attacks
             - DoS Attack - Interference & Misconfigurations
             - Rogue Access Points
             - Man-in-the-Middle Attack (MITM)
