@@ -335,14 +335,23 @@
   
      - https://github.com/Fz3r0/Advanced-SQL-Injection-Cheatsheet
   
-  - [PrivEsc]
+    - [PrivEsc]
   
-     - Windows & Windows Server
+        - Windows & Windows Server
   
-        - https://github.com/Fz3r0/windows-privesc-check
+            - https://github.com/Fz3r0/windows-privesc-check
   
-     - Linux
+        - Linux
   
+   - [Fz3r0 Cyber-Weaponry Crafting, Tools Programming & Open Source Projects]
+  
+      - [Python]
+          - [QR Code Generator from a string]()
+  
+      - [Batch]
+      - [Bash]
+      - [Go]
+ 
   - [Malware]
   
     - [fz3r0 - My Malware] CAUTION!
@@ -371,6 +380,10 @@
       - [SecLists](https://github.com/Fz3r0/SecLists) _List types include usernames, passwords, URLs, sensitive data patterns, fuzzing payloads, web shells, and many more._
       - https://github.com/Fz3r0/wordlistctl _Script to fetch, install, update and search wordlist archives from websites offering wordlists with more than 6400 wordlists available._
       - https://github.com/Fz3r0/Probable-Wordlists
+
+    - Bug Bounty
+        - [Bug Bounty Cheatsheet I](https://github.com/EdOverflow/bugbounty-cheatsheet)
+ 
  
      - [fz3r0 - CTFs]
         - [Wgel CTF](/Cyber-Security-&-Hacking/Labs-&-CTFs/THM/Wgel-CTF.md) _THM_
@@ -382,14 +395,7 @@
   
   - [fz3r0 - Security Labs] 
   
-  - [Fz3r0 Programming Open Source Projects]
-  
-      - [Python]
-          - [QR Code Generator from a string]()
-  
-      - [Batch]
-      - [Bash]
-      - [Go]
+
   
  
 _The world is a messy place, at least you now have a way of structuring your queries about it, right?_
