@@ -184,8 +184,8 @@
         - Lab > - 
   
     - [Attacking Cisco Infraestructure] 
-        - [Attacking STP & BPDUs @ Yersenia](https://github.com/tomac/yersinia)
-        - [Creating malicious packets & breaking TCP/IP rules @ Python + Scapy](https://www.youtube.com/watch?v=CIWD9fYmDig)
+        - [Attacking STP & BPDUs](https://github.com/tomac/yersinia) _@ Yersenia_
+        - [Creating malicious packets & breaking TCP/IP rules](Fz3r0/Networking/Attacking-Cisco/weird_TCP_fz3r0.py )  _@ Python + Scapy_
 <!--
 
 *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
