@@ -287,12 +287,13 @@
   
 - [Cyber-Security & Hacking]
   
-  - [Hacking Bibles]
-    - [The Book of the Secret Knowledge](https://github.com/Fz3r0/the-book-of-secret-knowledge) _A collection of lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools, and more._
-    - [Awesome Hacking](https://github.com/Fz3r0/Awesome-Hacking) _A collection of awesome lists for hackers, pentesters & security researchers._
-    - https://github.com/Fz3r0/awesome-hacking-lists
-    - https://github.com/The-Art-of-Hacking/h4cker
-    - https://www.aldeid.com/wiki/Main_Page
+    - [Hacking Bibles]
+        - [The Book of the Secret Knowledge](https://github.com/Fz3r0/the-book-of-secret-knowledge) _A collection of lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools, and more._
+        - [The Art of Hacking](https://github.com/The-Art-of-Hacking/h4cker)
+        - [Awesome Hacking](https://github.com/Fz3r0/Awesome-Hacking) _A collection of awesome lists for hackers, pentesters & security researchers._
+        - [Awesome Hacking Lists Compilation](https://github.com/Fz3r0/awesome-hacking-lists)
+
+        - https://www.aldeid.com/wiki/Main_Page
   
     - [Privilege Escalation (PrivEsc)]
   
@@ -306,12 +307,11 @@
                 - [Fz3r0 @ Linux PrivEsc]()
 
             - Windows PrivEsc
-                - [Windows | Pergamino I]  
+                - [Windows | Pergamino I] 
+ 
             - Windows Server PrivEsc
   
-    - [OSCP Related]
-        - https://github.com/jakescheetz/OSCP
-  
+
   
     - [fz3r0 - Scripts & Commands of Black Arts]
  
@@ -372,7 +372,11 @@
   
         - https://github.com/Fz3r0/BatchPower _Batch Scripts_
         - https://github.com/Fz3r0/Defender-disabler
-        
+  
+    - [Piracy + Privacy = Ayeeeeee]
+
+        - []
+ 
   - [Fuzzing]
   
   - [Wordlists]
@@ -384,7 +388,9 @@
     - Bug Bounty
         - [Bug Bounty Cheatsheet I](https://github.com/EdOverflow/bugbounty-cheatsheet)
  
- 
+        - [OSCP Related]
+            - https://github.com/jakescheetz/OSCP
+    
      - [fz3r0 - CTFs]
         - [Wgel CTF](/Cyber-Security-&-Hacking/Labs-&-CTFs/THM/Wgel-CTF.md) _THM_
   
