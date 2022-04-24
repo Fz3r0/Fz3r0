@@ -238,6 +238,7 @@
             - Man-in-the-Middle Attack (MITM)
  
         - Multi-Layer & Other Attacks
+            - [Dark Art of Packet Crafting with Scapy](https://0xbharath.github.io/art-of-packet-crafting-with-scapy/index.html)
             - [Creating malicious packets & breaking TCP/IP rules](Fz3r0/Networking/Attacking-Cisco/weird_TCP_fz3r0.py )  _@ Python + Scapy_
   
     - [Securing & Defending Cisco Infraestructure]
