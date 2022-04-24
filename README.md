@@ -217,9 +217,23 @@
         - Lab > - [Fz3r0 - InterVLAN Routing: Switch Virtual Interface SVI](/Networking/Labs/Switch-Virtual-Interface-SVI.md) _Packet Tracer_ 
         - Lab > - 
   
-    - [Attacking Cisco Infraestructure] 
-        - [Attacking STP & BPDUs](https://github.com/tomac/yersinia) _@ Yersenia_
-        - [Creating malicious packets & breaking TCP/IP rules](Fz3r0/Networking/Attacking-Cisco/weird_TCP_fz3r0.py )  _@ Python + Scapy_
+    - [Attacking Cisco Infraestructure]
+ 
+        - Layer 2 Attacks
+            - MAC Table Attack - MAC Flooding  
+            - VLAN Attack - Double Tagging
+            - VLAN Attack - Attack Between Devices
+            - DHCP Attack - DHCP Starvation
+            - DHCP Attack - DHCP Spoofing
+            - ARP Attack - ARP Spoofing
+            - ARP Attack - ARP Poisoning
+            - Address Spoofing - MAC & IP Spoofing
+            - STP Attack - Spaning Tree Protocol Manipulation
+            - CDP Attack - CDP Recon & Crafting
+            - [Attacking STP & BPDUs crafting packs](https://github.com/tomac/yersinia) _@ Yersenia_
+ 
+        - Multi-Layer & Other Attacks
+            - [Creating malicious packets & breaking TCP/IP rules](Fz3r0/Networking/Attacking-Cisco/weird_TCP_fz3r0.py )  _@ Python + Scapy_
   
     - [Securing & Defending Cisco Infraestructure]
         
@@ -236,7 +250,13 @@
         - Access Control
             - Authentication with Local Password 
             - AAA Standards
-            -           
+            - IEEE 802.1X: Port-based Access Control & Authentication
+ 
+         - Layer 2 Attack Mitigation
+            - Port Security  
+            - DHCP Snooping
+            - Dynamic ARP Inspection (DAI)
+            - IP Source Guard (IPSG)
           
 <!--
 
@@ -281,16 +301,12 @@
     - [OSCP Related]
         - https://github.com/jakescheetz/OSCP
   
-<!--
-
-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
-** =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=- SCRIPTS & COMMANDS 
-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
-
--->
-  
   
     - [fz3r0 - Scripts & Commands of Black Arts]
+ 
+ 
+ 
+ 
         - [Pentester Book](https://pentestbook.six2dez.com/post-exploitation/linux)
         - https://github.com/Fz3r0/CheatSheet
         - https://github.com/Fz3r0/PowerTools powershell
