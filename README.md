@@ -220,9 +220,7 @@
     - [Toubleshooting Network Access Layer Issues](https://user-images.githubusercontent.com/94720207/164993410-32b7e351-f9a3-4b77-b9d7-08bf74b13da2.png)
     - [Cut-Throught & Store-and-forward Switching](https://user-images.githubusercontent.com/94720207/164997743-d42dbae9-edb4-4f83-ae44-16cb5eab2fd4.png)
 
-- [Network Automation]
-    - [Network Automation @ NAPALM](https://github.com/Fz3r0/napalm) _Network Automation and Programmability Abstraction Layer with Multivendor support_
-    - [Network Automation @ Trigger](https://github.com/Fz3r0/trigger)
+
  
 - [Attacking Network Infraestructure]()
  
@@ -238,18 +236,24 @@
         - STP Attack - Spaning Tree Protocol Manipulation
         - CDP Attack - CDP Recon & Crafting
         - [Attacking STP & BPDUs crafting packs](https://github.com/tomac/yersinia) _@ Yersenia_
+
+    - Wireless Threats & Attacks
+        - DoS Attack - Interference & Misconfigurations
+        - Rogue Access Points
+        - Man-in-the-Middle Attack (MITM)
  
-        - Multi-Layer & Other Attacks
-            - [Dark Art of Packet Crafting with Scapy](https://0xbharath.github.io/art-of-packet-crafting-with-scapy/index.html) _@ Python + Scapy_
-            - [Creating malicious packets & breaking TCP/IP rules](Fz3r0/Networking/Attacking-Cisco/weird_TCP_fz3r0.py )  _@ Python + Scapy_
-            - [Simple Network Scanner](https://gist.github.com/Fz3r0/3e26fdf87b5e223b13578db9d150c815) _@ Python + Scapy_
-            - [Medium Network Scanner](https://gist.github.com/Fz3r0/2cc8f8699a829e06f5d70e86a6be53c0) _@ Python + Scapy_
-            - [Full Network Scanner](https://github.com/Fz3r0/netScan_Python) _@ Python_
+- Networking Tools/Weaponry Crafting, Programming, DevOps & Automation
+    - [Handcrafted Tools & Weapons for Networking] 
+        - [Dark Art of Packet Crafting with Scapy](https://0xbharath.github.io/art-of-packet-crafting-with-scapy/index.html) _@ Python + Scapy_
+        - [Creating malicious packets & breaking TCP/IP rules](Fz3r0/Networking/Attacking-Cisco/weird_TCP_fz3r0.py )  _@ Python + Scapy_
+        - [Simple Network Scanner](https://gist.github.com/Fz3r0/3e26fdf87b5e223b13578db9d150c815) _@ Python + Scapy_
+        - [Medium Network Scanner](https://gist.github.com/Fz3r0/2cc8f8699a829e06f5d70e86a6be53c0) _@ Python + Scapy_
+        - [Full Network Scanner](https://github.com/Fz3r0/netScan_Python) _@ Python_
+        - [Subnet Calculator](https://github.com/Fz3r0/subnetcalc_python) _@ Python_
  
-        - Wireless Threats & Attacks
-            - DoS Attack - Interference & Misconfigurations
-            - Rogue Access Points
-            - Man-in-the-Middle Attack (MITM)
+    - [Network Automation]
+        - [Network Automation @ NAPALM](https://github.com/Fz3r0/napalm) _Network Automation and Programmability Abstraction Layer with Multivendor support_
+        - [Network Automation @ Trigger](https://github.com/Fz3r0/trigger)
  
 - [Securing & Defending Network Infraestructure]
         
