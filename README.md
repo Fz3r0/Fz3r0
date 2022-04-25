@@ -39,7 +39,7 @@
 ![image](https://user-images.githubusercontent.com/94720207/163654194-92edaa63-e2cc-4af7-a420-92a77b4182da.png)
 
 <h3 align="center">💀 Fz3r0 💀</h3>
-<h5 align="center"> | Personal Portafolio & Blog | Networking | Cyber-Security | Automation | Programming | Databases | Services | Hacking | Malware | Resources | </h3>
+<h5 align="center"> | Portafolio | Blog | Networking | IT | Cyber-Security | Automation | Programming | Databases | Services | Hacking | Malware | Resources | </h3>
 
 ##### Twitter  : [@fz3r0_OPs](https://twitter.com/Fz3r0_OPs) 
 ##### Github   : [Fz3r0](https://github.com/fz3r0) 
@@ -58,6 +58,7 @@
 
 #### < University Degree >
 * `Bachelor of Science in Computer Systems Engineering`
+
 #### < Networking > 
 * `CCNA`  `RICXI`  `RSP`  `CWNA` `Network Engineer` `NetSec` `Wireless` `Enterprise Networking` `NGNs` `FTTH/FFTx` `GPON` 
 #### < Security >   
@@ -213,8 +214,8 @@
     - Lab 01 > - [Secure Home Network + Internet to Home (FTTH) Simulation](/Networking/Labs/Router-on-a-Stick.md) _Packet Tracer_
     - Lab 02 > - [Secure InterVLAN Routing: Router on a Stick](/Networking/Labs/Router-on-a-Stick.md) _Packet Tracer_
     - Lab 03 > - [Secure InterVLAN Routing: Switch Virtual Interface SVI](/Networking/Labs/Switch-Virtual-Interface-SVI.md) _Packet Tracer_ 
-    - Lab 04 > - [Secure Routing Dual Stack Topology](https://user-images.githubusercontent.com/94720207/164995003-71eaecd4-b6ee-4c6f-a7e4-1eb7fe7d8948.png)
-    - Lab 04 > - []()
+    - Lab 04 > - [Secure Routing Dual Stack Topology + InterVLAN Routing](https://user-images.githubusercontent.com/94720207/164995003-71eaecd4-b6ee-4c6f-a7e4-1eb7fe7d8948.png)
+    - Lab 05 > - [Secure STP (RSTP+)(Spaning Tree Protocol)]()
  
 - [Network Troubleshooting ]
     - [Toubleshooting Network Access Layer Issues](https://user-images.githubusercontent.com/94720207/164993410-32b7e351-f9a3-4b77-b9d7-08bf74b13da2.png)
