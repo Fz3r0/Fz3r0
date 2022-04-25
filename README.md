@@ -202,11 +202,8 @@
 <span align="center"> <h3 align="center"> NETWORKING </h3> </span> 
   
 - [Tables, Models, Cheat-Sheets & Mystic Wizardy for Networking & NetSec] 
- 
     - [TCP-IP Hybrid Model by Fz3r0 - TCP+OSI in a nutshell](/Networking/Labs/) 
- 
     - [Cisco Newtorks Routing & Switching All-in-One Command Bible (CCNA,CCNP)](/Networking/Labs/)
- 
     - [Cisco CCNA Cheat Sheet I](https://github.com/Fz3r0/CCNA-Cheat-Sheet)
     - https://github.com/Fz3r0/cisco-cheatsheet
     - https://github.com/Fz3r0/Cisco-IOS-Command-CheatSheets
@@ -219,32 +216,28 @@
     - Lab 04 > - [Secure Routing Dual Stack Topology](https://user-images.githubusercontent.com/94720207/164995003-71eaecd4-b6ee-4c6f-a7e4-1eb7fe7d8948.png)
     - Lab 04 > - []()
  
-
-    
 - [Network Troubleshooting ]
-
-        - [Toubleshooting Network Access Layer Issues](https://user-images.githubusercontent.com/94720207/164993410-32b7e351-f9a3-4b77-b9d7-08bf74b13da2.png)
-        - [Cut-Throught & Store-and-forward Switching](https://user-images.githubusercontent.com/94720207/164997743-d42dbae9-edb4-4f83-ae44-16cb5eab2fd4.png)
+    - [Toubleshooting Network Access Layer Issues](https://user-images.githubusercontent.com/94720207/164993410-32b7e351-f9a3-4b77-b9d7-08bf74b13da2.png)
+    - [Cut-Throught & Store-and-forward Switching](https://user-images.githubusercontent.com/94720207/164997743-d42dbae9-edb4-4f83-ae44-16cb5eab2fd4.png)
 
 - [Network Automation]
     - [Network Automation @ NAPALM](https://github.com/Fz3r0/napalm) _Network Automation and Programmability Abstraction Layer with Multivendor support_
     - [Network Automation @ Trigger](https://github.com/Fz3r0/trigger)
  
+- [Attacking Network Infraestructure]()
  
-    - [Attacking Network Infraestructure]
- 
-        - Layer 2 Attacks
-            - MAC Table Attack - MAC Flooding  
-            - VLAN Attack - Double Tagging
-            - VLAN Attack - Attack Between Devices
-            - DHCP Attack - DHCP Starvation
-            - DHCP Attack - DHCP Spoofing
-            - ARP Attack - ARP Spoofing
-            - ARP Attack - ARP Poisoning
-            - Address Spoofing - MAC & IP Spoofing
-            - STP Attack - Spaning Tree Protocol Manipulation
-            - CDP Attack - CDP Recon & Crafting
-            - [Attacking STP & BPDUs crafting packs](https://github.com/tomac/yersinia) _@ Yersenia_
+    - Layer 2 Attacks
+        - MAC Table Attack - MAC Flooding  
+        - VLAN Attack - Double Tagging
+        - VLAN Attack - Attack Between Devices
+        - DHCP Attack - DHCP Starvation
+        - DHCP Attack - DHCP Spoofing
+        - ARP Attack - ARP Spoofing
+        - ARP Attack - ARP Poisoning
+        - Address Spoofing - MAC & IP Spoofing
+        - STP Attack - Spaning Tree Protocol Manipulation
+        - CDP Attack - CDP Recon & Crafting
+        - [Attacking STP & BPDUs crafting packs](https://github.com/tomac/yersinia) _@ Yersenia_
  
         - Multi-Layer & Other Attacks
             - [Dark Art of Packet Crafting with Scapy](https://0xbharath.github.io/art-of-packet-crafting-with-scapy/index.html) _@ Python + Scapy_
@@ -258,28 +251,28 @@
             - Rogue Access Points
             - Man-in-the-Middle Attack (MITM)
  
-    - [Securing & Defending Network Infraestructure]
+- [Securing & Defending Network Infraestructure]
         
-        - Network Security Devices
-            - [VPN-enabled Router]()
-            - [NGFW]()
-            - [NAC]()
+    - Network Security Devices
+        - [VPN-enabled Router]()
+        - [NGFW]()
+        - [NAC]()
         
-        - Endpoints Protection & Security  
-            - [Traditional Host based Security,Firewall,Antivirus,HIPSs,etc]()
-            - [Top Security: NAC,host-based AMP, ESA, WSA]
-                - [Cisco ESA & WSA]
+    - Endpoints Protection & Security  
+        - [Traditional Host based Security,Firewall,Antivirus,HIPSs,etc]()
+        - [Top Security: NAC,host-based AMP, ESA, WSA]
+            - [Cisco ESA & WSA]
   
-        - Access Control
-            - Authentication with Local Password 
-            - AAA Standards
-            - IEEE 802.1X: Port-based Access Control & Authentication
+    - Access Control
+        - Authentication with Local Password 
+        - AAA Standards
+        - IEEE 802.1X: Port-based Access Control & Authentication
  
-         - Layer 2 Attacks Mitigation
-            - Port Security  
-            - DHCP Snooping
-            - Dynamic ARP Inspection (DAI)
-            - IP Source Guard (IPSG)
+    - Layer 2 Attacks Mitigation
+        - Port Security  
+        - DHCP Snooping
+        - Dynamic ARP Inspection (DAI)
+        - IP Source Guard (IPSG)
           
 <!--
 
