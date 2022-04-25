@@ -318,12 +318,12 @@
                 - [Fz3r0 @ Linux PrivEsc]()
 
             - Windows PrivEsc
-                - [Windows | Pergamino I]
+                - [Windows | Pergamino I](https://github.com/Fz3r0/Checklists_PrivEsc) _Detailed Checklist for Windows PrivEsc & Scenarios_
                 - [Mimicatz I](https://www.youtube.com/watch?v=AZirvtZNIEw)
 
  
             - Windows Server PrivEsc
-  
+                - [Windows Server | Pergamino I](https://github.com/Fz3r0/Checklists_PrivEsc) _Detailed Checklist for Windows Server PrivEsc & Scenarios_ 
 
   
     - [fz3r0 - Scripts & Commands of Black Arts]
