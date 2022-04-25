@@ -254,6 +254,8 @@
     - [Network Automation]
         - [Network Automation @ NAPALM](https://github.com/Fz3r0/napalm) _Network Automation and Programmability Abstraction Layer with Multivendor support_
         - [Network Automation @ Trigger](https://github.com/Fz3r0/trigger)
+        - [Automate Cisco IOS Commands](https://github.com/cbferguson/cisco_commands) _@ Python_
+        - [Auto-Configure Cisco Routers](https://github.com/sumitmcc/auto-configure-cisco) _@ Python_
  
 - [Securing & Defending Network Infraestructure]
         
