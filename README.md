@@ -320,7 +320,7 @@
             - Windows PrivEsc
                 - [Windows | Pergamino I]
                 - [Mimicatz I](https://www.youtube.com/watch?v=AZirvtZNIEw)
-                - [Dumping & Cracking NTLM Hashes (for oldies)](https://www.youtube.com/watch?v=Um75rEBPjMo)
+
  
             - Windows Server PrivEsc
   
