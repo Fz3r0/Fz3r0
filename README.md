@@ -301,12 +301,10 @@
 - [Cyber-Security & Hacking]
   
     - [Hacking Bibles]
-        - [The Book of the Secret Knowledge](https://github.com/Fz3r0/the-book-of-secret-knowledge) _A collection of lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools, and more._
-        - [The Art of Hacking](https://github.com/The-Art-of-Hacking/h4cker)
+        - [The Book of the Secret Knowledge](https://github.com/Fz3r0/the-book-of-secret-knowledge) _A collection of lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools & more._
+        - [The Art of Hacking](https://github.com/The-Art-of-Hacking/h4cker) _Over 9,000 References, Scripts, Tools, Code & Resources for Offensive/Defensive Security_
         - [Awesome Hacking](https://github.com/Fz3r0/Awesome-Hacking) _A collection of awesome lists for hackers, pentesters & security researchers._
-        - [Awesome Hacking Lists Compilation](https://github.com/Fz3r0/awesome-hacking-lists)
-
-        - https://www.aldeid.com/wiki/Main_Page
+        - [Aldeid](https://www.aldeid.com/wiki/Main_Page) _Wiki about Network and Web Applications Security, Ethical Hacking and Network Forensics._
   
     - [Privilege Escalation (PrivEsc)]
   
