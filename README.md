@@ -318,7 +318,8 @@
                 - [Fz3r0 @ Linux PrivEsc]()
 
             - Windows PrivEsc
-                - [Windows | Pergamino I] 
+                - [Windows | Pergamino I]
+                - [Mimicatz I](https://www.youtube.com/watch?v=AZirvtZNIEw)
  
             - Windows Server PrivEsc
   
