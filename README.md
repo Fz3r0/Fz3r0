@@ -253,6 +253,7 @@
         - [Simple Port Scanner](https://github.com/Fz3r0/pythscan_port_scan_simple) _@ Python + Sockets_ 
         - [Full Port Scanner](https://github.com/Fz3r0/Python-Port-Scanner_large) _@ Python + Sockets_
         - [Subnet Calculator](https://github.com/Fz3r0/subnetcalc_python) _@ Python_
+        - [OS Identifier using TTL](https://github.com/Fz3r0/WichSystem.py/blob/main/wichSystem.py) _@ Python_
  
     - [Network Automation]
         - [Network Automation @ NAPALM](https://github.com/Fz3r0/napalm) _Network Automation and Programmability Abstraction Layer with Multivendor support_
