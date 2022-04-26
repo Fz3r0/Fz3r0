@@ -147,13 +147,25 @@ SW(config-if)# spanning-tree portfast disable
 
 ```
 
+- Finally, set ALL the access ports of the Access Bridges (switches pointing to hosts & end devices).
+
+- We only need to add 2 commands on each access switch _(in this example Fa 0/2 - 23 : 1 & 24 are used as trunk)_ 
+
+```
+SW(config)# interface range Fa 0/2 - 23
+
+SW(config-if)# spanning-tree bpduguard enable
+SW(config-if)# spanning-tree portfast enable
+
+```
+
 - And that's all with STP! We only need to: 
  
    1. Set Spanning-tree mode rapid-pvst (STP last version)
    2. Set the Root-Bridge (switch 0)
    3. Set BIDs (switch 1,2,3,4,5...etc)
-   4. Set BPDU & Port Fast (Depending if it's `trunk{enabled}` or `access link{disabled}`) 
-   5. _**Super Mega Optional:** Set Alternate & Backup Ports (only used in bridges, obsolete technology for noobs)_
+   4. Set BPDU & Port Fast (**Depending if it's `trunk{enabled}` or `access link{disabled}`**) 
+   6. _**Super Mega Optional:** Set Alternate & Backup Ports (only used in bridges, obsolete technology for noobs)_
 
 - Troubleshooting STP:
 
