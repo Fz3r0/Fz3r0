@@ -20,7 +20,7 @@
 
 [<< DOWNLOAD FILES >>](https://user-images.githubusercontent.com/94720207/165407633-9cd41970-bc95-4460-be54-8abeee24d083.png)
 
-![1d____VLAN_(3-vlans_1-switch_1-router)_R_OnAStick_TOPOLOGY](https://user-images.githubusercontent.com/94720207/163690161-d79fc452-ffe2-4876-8990-1ef934e81db8.png)
+![1d____VLAN_(3-vlans_1-switch_1-router)_R_OnAStick_TOPOLOGY](https://user-images.githubusercontent.com/94720207/165407633-9cd41970-bc95-4460-be54-8abeee24d083.png)
 
 ---
 
