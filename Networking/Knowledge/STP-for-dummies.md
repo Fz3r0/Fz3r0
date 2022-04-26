@@ -61,7 +61,7 @@ spanning-tree portfast disable
 
 - And actually...that's all! That's RSTP & Rapid PVST+ AKA "STP" and all the fancy stuff!! 
 
-    - We only need to set the Root, BIDs, bpduguard and portfast! easy huh?! byebye!! :D 
+    - We only need to 1) set the Root Bridge, 2) set the BIDs 3) and set the bpduguard and portfast! (sometimes config timers when more than 7 switches are chained) that's all! easy huh?! byebye!! :D 
 
     - Well, well, well here you go:
 
