@@ -72,6 +72,7 @@ SW(config-if)# spanning-tree portfast disable
 SW(config)# spanning-tree mode rapid-pvst
 
 SW(config)# interface Fa 0/1
+SW(config-if)# spanning-tree vlan 10 priority 0
 SW(config-if)# spanning-tree vlan 10 root primary
 
 SW(config-if)# spanning-tree bpduguard disable
@@ -86,6 +87,7 @@ SW(config-if)# spanning-tree portfast disable
 SW(config)# spanning-tree mode rapid-pvst
 
 SW(config)# interface Fa 0/1
+SW(config-if)# spanning-tree vlan 10 priority 4096
 SW(config-if)# spanning-tree vlan 10 root secondary
 
 SW(config-if)# spanning-tree bpduguard disable
@@ -101,7 +103,7 @@ SW(config-if)# spanning-tree portfast disable
 
 spanning-tree mode rapid-pvst
 
-SW(config-if)# spanning-tree vlan 10 root secondary
+SW(config-if)# spanning-tree vlan 10 priority 8192
 
 SW(config-if)# spanning-tree bpduguard disable
 SW(config-if)# spanning-tree portfast disable
@@ -116,28 +118,34 @@ SW(config-if)# spanning-tree portfast disable
 
 spanning-tree mode rapid-pvst
 
-spanning-tree vlan 10 priority 4096
+spanning-tree vlan 10 priority 12288
 
 spanning-tree bpduguard enable
 spanning-tree portfast
 
 ```
+- Same with the other switches, just with another BID
 
-- Switch 4 (non-root switch "4") _access or trunk_ priority: [2]8192  
-- Switch 5 (non-root switch "5") _access or trunk_ priority: [3]12288
-- Switch 6 (non-root switch "6") _access or trunk_ priority: [4]16384
-- Switch 7 (non-root switch "7") _access or trunk_ priority: [5]20480
-.
-.
-.
-.
-etc
+```
+  - Switch 5 (non-root switch "4") _access or trunk_ priority: [4]12288
+  - Switch 6 (non-root switch "5") _access or trunk_ priority: [5]16384
+  - Switch 7 (non-root switch "6") _access or trunk_ priority: [6]20480
+  - etc,etc,etc... 
 
-- From 7 chained switched, set more seconds on timers STP timers ;) 
+        - **From 7 chained switched, set more seconds on timers STP timers ;)** 
 
-- We only need to set the Root, BIDs, bpduguard and portfast! easy huh?! byebye!! :D 
+```
 
-- Well, well, well here you go:
+- And that's all with STP! We only need to: 
+ 
+   1. Set Spanning-tree mode rapid-pvst (STP last version)
+   2. Set the Root-Bridge (switch 0)
+   3. Set BIDs (switch 1,2,3,4,5...etc)
+   4. Set BPDU & Port Fast (Depending if it's `trunk{enabled}` or `access link{disabled}`) 
+   5. 
+   6. 
+
+- Easy huh?! byebye!! :D... But well...here's the full nerd stuff:
 
 ---    
 
