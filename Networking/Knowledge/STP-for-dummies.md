@@ -76,60 +76,60 @@ spanning-tree portfast disable
 
 - **This are the Trifoce of STP rules (3 rules):**
 
-        1- Try Lowest cost by hop 
-            - It will count every "hop" and chooses shortest path with less hops = (hop=4)
-            - If all hops cost 4 or 8 or 16 or 32...etc is a tie! then:
+    1. Try Lowest cost by hop 
+        - It will count every "hop" and chooses shortest path with less hops = (hop=4)
+        - If all hops cost 4 or 8 or 16 or 32...etc is a tie! then:
 
-        2- Try lowest BID = It will choose the SW with less BID (like 1)
-            - If all BIDs are the same, like "32768"(default) is a tie! then:
+    2. Try lowest BID = It will choose the SW with less BID (like 1)
+        - If all BIDs are the same, like "32768"(default) is a tie! then:
 
-        3- Lowest port # or MAC = It will choose the lowest port ID # on the switch.
-            - The lowest Port on the switch, Fa0/1 = lowest, Fa0/24 = highest
-            - Lowest port will be the winner!
+    3. Lowest port # or MAC = It will choose the lowest port ID # on the switch.
+        - The lowest Port on the switch, Fa0/1 = lowest, Fa0/24 = highest
+        - Lowest port will be the winner!
 
 - **This are the Triforce of STP steps (3 steps):**
 
-1- Select **just one `Root Port` in every switch**
+1. Select **just one `Root Port` in every switch**
 
     - **All the ports pointing to Root Switch are Root Ports** "like zombies".
     - Direct paths will always cost less
     - Unclear direct paths will choose the way with less costs, using the `triforce of STP rules`
 
-        1- Try Lowest cost by hop 
+        1. Try Lowest cost by hop 
             - It will count every "hop" and chooses shortest path with less hops = (hop=4)
             - If all hops cost 4 or 8 or 16 or 32...etc is a tie! then:
 
-        2- Try lowest BID = It will choose the SW with less BID (like 1)
+        2. Try lowest BID = It will choose the SW with less BID (like 1)
             - If all BIDs are the same, like "32768"(default) is a tie! then:
 
-        3- Port # = It will choose the lowest port # on the switch.
+        3. Port # = It will choose the lowest port # on the switch.
             - It's supposed it never reach this part, because it's suposed we need to set the BID for all the switches on the network! So go back, and set the BIDs!!!            
 
-2- Select Forward (also known as Designated) Port, **one per sergment**
+2. Select Forward (also known as Designated) Port, **one per sergment**
 
     - **All the ports in Root Switch are Forward Ports** pointing to "the zombies"
     - The **segment** means the link between 2 switches. Think about it as `side A` & `side B` of the cable.
     - We need to choose one side of the segment (ethernet cable), that's it! we have all the ports on the root already:
 
-        1- **Root Switch - All ports are designated ports.**
+        1. **Root Switch - All ports are designated ports.**
 
-        2- **The other side of all `root ports` that we found on `step 1` will be designated ports.**
+        2. **The other side of all `root ports` that we found on `step 1` will be designated ports.**
 
-        3- Switches wehre already have `root ports` selected but still other empty port, those empty ports are automatically designated ports! (usually access switches on 3 tier)         
+        3. Switches wehre already have `root ports` selected but still other empty port, those empty ports are automatically designated ports! (usually access switches on 3 tier)         
 
-        4- Segments where both sides are empty and don't have root ports will choose the way with less costs, using the `triforce of STP rules`:
+        4. Segments where both sides are empty and don't have root ports will choose the way with less costs, using the `triforce of STP rules`:
 
-            1- Try Lowest cost by hop 
+            1. Try Lowest cost by hop 
                 - It will count every "hop" and chooses shortest path with less hops = (hop=4)
                 - If all hops cost 4 or 8 or 16 or 32...etc is a tie! then
 
-            2- Try lowest BID = It will choose the SW with less BID (like 1)
+            2. Try lowest BID = It will choose the SW with less BID (like 1)
                 - If all BIDs are the same, like "32768"(default) is a tie! then:
 
-            3- Port # = It will choose the lowest port # on the switch.
+            3. Port # = It will choose the lowest port # on the switch.
                 - It's supposed it never reach this part, because it's suposed we need to set the BID for all the switches on the network! So go back, and set the BIDs!!!
 
-3 - Select Alternate (Blocked) Ports. Easiest step on the Triforce...Block all the ports left! that's it! 
+3. Select Alternate (Blocked) Ports. Easiest step on the Triforce...Block all the ports left! that's it! 
 
     - All ports that still empty in the topology will be blocked, and that's it! Full STP!.     
 
