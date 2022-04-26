@@ -18,7 +18,9 @@
 
 #### Packet Tracer Lab Files & Topology
 
-[<< DOWNLOAD FILES >>](https://user-images.githubusercontent.com/94720207/165407633-9cd41970-bc95-4460-be54-8abeee24d083.png)
+[**<< DOWNLOAD FILES >>**](https://github.com/Fz3r0/Fz3r0/files/8567524/5___fz3r0_OPs_Routing_._Switching_STP_Bible_3_leaf_datacenter.zip)
+
+![image](https://user-images.githubusercontent.com/94720207/165410114-fbc6e7ed-c660-4b00-9375-71d114dbbe9d.png)
 
 ---
 
