@@ -41,21 +41,21 @@
 
 - **Very important:** If you are using VLANs, then STP should be configured on each VLAN! it works independent, and that's automatically called PVST, it could be the same config and paths, or different, that's your choice for specific scenarios. 
 
-- Set the Port-Fast and BPDU guard on all access ports (to hosts and end devices):
+- Set the Port-Fast and BPDU guard on all **access ports** {config-int} (to hosts and end devices):
 
 ```
 
-spanning-tree bpduguard enable
-spanning-tree portfast
+SW(config-if)# spanning-tree bpduguard enable
+SW(config-if)# spanning-tree portfast
 
 ```
 
-- Do the opposite for all the links between switches or trunks:
+- Do the opposite for all the links between switches or **trunks ports** {config-int}:
 
 ```
 
-spanning-tree bpduguard disable
-spanning-tree portfast disable
+SW(config-if)# spanning-tree bpduguard disable
+SW(config-if)# spanning-tree portfast disable
 
 ```  
 
@@ -69,12 +69,13 @@ spanning-tree portfast disable
 
 ```
 
-spanning-tree mode rapid-pvst
+SW(config)# spanning-tree mode rapid-pvst
 
-spanning-tree vlan 10 root primary
+SW(config)# interface Fa 0/1
+SW(config-if)# spanning-tree vlan 10 root primary
 
-spanning-tree bpduguard disable
-spanning-tree portfast disable
+SW(config-if)# spanning-tree bpduguard disable
+SW(config-if)# spanning-tree portfast disable
 
 ```
 
@@ -82,12 +83,13 @@ spanning-tree portfast disable
 
 ```
 
-spanning-tree mode rapid-pvst
+SW(config)# spanning-tree mode rapid-pvst
 
-spanning-tree vlan 10 root secondary
+SW(config)# interface Fa 0/1
+SW(config-if)# spanning-tree vlan 10 root secondary
 
-spanning-tree bpduguard disable
-spanning-tree portfast disable
+SW(config-if)# spanning-tree bpduguard disable
+SW(config-if)# spanning-tree portfast disable
 
 ```
 
@@ -99,10 +101,10 @@ spanning-tree portfast disable
 
 spanning-tree mode rapid-pvst
 
-spanning-tree vlan 10 root secondary
+SW(config-if)# spanning-tree vlan 10 root secondary
 
-spanning-tree bpduguard disable
-spanning-tree portfast disable
+SW(config-if)# spanning-tree bpduguard disable
+SW(config-if)# spanning-tree portfast disable
 
 ```
 
