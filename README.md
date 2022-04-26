@@ -204,7 +204,7 @@
   
 - [Guides, Tables, Models, Cheat-Sheets & Dark Wizardy for Networking & NetSec] 
     - [TCP-IP Hybrid Model by Fz3r0 (TCP+OSI)](/Networking/Labs/) _A model I made for TCP-IP/OSI, all in one!_
-    - [Cisco Newtorks Routing & Switching All-in-One Command Bible by Fz3r0](/Networking/Labs/) _The Bible_
+    - [Cisco Newtorks Routing & Switching CLI/IOS Bible by Fz3r0](/Networking/Labs/) _My CCNA+CCNP Pocket Bible_
     - [Cisco CCNA Cheat Sheet I](https://github.com/Fz3r0/CCNA-Cheat-Sheet)
     - https://github.com/Fz3r0/cisco-cheatsheet
     - https://github.com/Fz3r0/Cisco-IOS-Command-CheatSheets
