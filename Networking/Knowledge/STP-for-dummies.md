@@ -149,10 +149,10 @@ SW(config-if)# spanning-tree portfast disable
 
 - Finally, set ALL the access ports of the Access Bridges (switches pointing to hosts & end devices).
 
-- We only need to add 2 commands on each access switch _(in this example Fa 0/2 - 23 : 1 & 24 are used as trunk)_ 
+- We only need to add 2 commands on each access switch _(in this example Fa 0/1 - 21 : 23 & 24 are used as trunk)_ 
 
 ```
-SW(config)# interface range Fa 0/2 - 23
+SW(config)# interface range Fa 0/1 - 22
 
 SW(config-if)# spanning-tree bpduguard enable
 SW(config-if)# spanning-tree portfast enable
