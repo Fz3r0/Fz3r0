@@ -24,7 +24,10 @@
 
 - **Before anything else, we only need to select our Root Bridge(Switch), it will be the center of the network, easy! that will be our `STP/RSTP Root Bridge`** _(by default, Cisco configs chooses the switch with lowest MAC, it doesn't care about the location or topology like us, so default STP config may select not the best option for a proper profesional, secure, redundant and sexy configuration...That's why we need to configure STP manually!!!)._ 
 
-    - _If there are 2 switches in the same "level" and centered (for example 2 switches at distribution layer), or maybe the topology is a "square" with same distribution...just take the switch with less charge of work, or newest, or shiny! Try to avoid access switches (switches with end devices or hosts connected)...if everything in the network is the same like a mirror...usually engineers choose "left center" switch, the other switch could be used as a backup root bridge... So, at the end it will be our choice to select the best option for the Root-Bridge(Switch 0), use this info & common sense and you will be fine..._ 
+    - _If there are 2 switches in the same "level" and centered (for example 2 switches at distribution layer), or maybe the topology is a "square" with same distribution:
+    - Just take the switch with less charge of work, or newest, or trusty, or shiny, or cute!
+    - Try to avoid access switches (switches with end devices or hosts connected), better to use distribution layer if you have one (in the middle of all the other switches).
+    - If everything in the network is the same like a mirror...usually engineers choose "left center" switch, the other switch could be used as a backup root bridge... So, at the end it will be our choice to select the best option for the Root-Bridge(Switch 0), use this info & common sense and you will be fine..._ 
 
 - Set the BIDs for each switch, where **Root Bridge will be 0 (lowest number) or "primary"**
 
@@ -33,6 +36,10 @@
         - 0,1,2,3,4,5 = 0,4096,8192,12288,16384
         - 4096+4096+4096+4096+4096+4096+4096+4096 (8 times = 32768 = default)
         - 4096*15 = 61440 (max)
+    
+            - % Allowed values are:
+                - **`0` `4096` `8192` `12288` `16384` `20480` `24576` `28672`**             
+                - **`32768` `36864` `40960` `45056` `49152` `53248` `57344` `61440`**
 
     - Just set an order, usually the priority goes:
         - Distribution Layer (Center Switches) - 0,1,2...
