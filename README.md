@@ -208,14 +208,15 @@
     - [Cisco CCNA Cheat Sheet I](https://github.com/Fz3r0/CCNA-Cheat-Sheet)
     - https://github.com/Fz3r0/cisco-cheatsheet
     - https://github.com/Fz3r0/Cisco-IOS-Command-CheatSheets
-    - [Fz3r0's Spaning Tree (STP) easy guide for dummies!](/Networking/Knowledge/STP-for-dummies.md) _My guide for config STP like a pro_
+    - [Fz3r0's Spaning Tree Protocol (STP) master guide](/Networking/Knowledge/STP-for-dummies.md) _My guide for config STP like a pro_
 
 - [Secure Network Labs by @ Fz3r0]
     - Lab 01 > - [Secure Home Network + Internet to Home (FTTH) Simulation](/Networking/Labs/Router-on-a-Stick.md) _Packet Tracer_
     - Lab 02 > - [Secure InterVLAN Routing: Router on a Stick](/Networking/Labs/Router-on-a-Stick.md) _Packet Tracer_
     - Lab 03 > - [Secure InterVLAN Routing: Switch Virtual Interface SVI](/Networking/Labs/Switch-Virtual-Interface-SVI.md) _Packet Tracer_ 
     - Lab 04 > - [Secure Routing Dual Stack Topology + InterVLAN Routing](https://user-images.githubusercontent.com/94720207/164995003-71eaecd4-b6ee-4c6f-a7e4-1eb7fe7d8948.png)
-    - Lab 05 > - [Secure STP (RSTP+)(Spaning Tree Protocol)]()
+    - Lab 05 > - [Secure RSTP & Rapid PVST+STP (aka STP) in 3-leaf-spine Data Center]() _Packet Tracer_
+    - Lab 06 > - [Secure RSTP & Rapid PVST+STP (aka STP) in 3-leaf-spine Data Center]() _GNS3_
  
 - [Network Troubleshooting ]
     - [Toubleshooting Network Access Layer Issues](https://user-images.githubusercontent.com/94720207/164993410-32b7e351-f9a3-4b77-b9d7-08bf74b13da2.png)
