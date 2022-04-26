@@ -208,7 +208,7 @@
     - [Cisco CCNA Cheat Sheet I](https://github.com/Fz3r0/CCNA-Cheat-Sheet)
     - https://github.com/Fz3r0/cisco-cheatsheet
     - https://github.com/Fz3r0/Cisco-IOS-Command-CheatSheets
-    - 
+    - [Fz3r0's Spaning Tree (STP) easy guide for dummies!](/Networking/Knowledge/STP-for-dummies.md) _My guide for Configuring STP like a pro_
 
 - [Secure Network Labs by @ Fz3r0]
     - Lab 01 > - [Secure Home Network + Internet to Home (FTTH) Simulation](/Networking/Labs/Router-on-a-Stick.md) _Packet Tracer_
