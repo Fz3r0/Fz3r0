@@ -203,7 +203,7 @@
 <span align="center"> <h3 align="center"> NETWORKING </h3> </span> 
   
 - [Tables, Models, Cheat-Sheets & Mystic Wizardy for Networking & NetSec] 
-    - [TCP-IP Hybrid Model by Fz3r0 - TCP+OSI in a nutshell](/Networking/Labs/) 
+    - [TCP-IP Hybrid Model by Fz3r0 - TCP+OSI in a nutshell](/Networking/Labs/) _My version of the TCP-IP hybrid model, all in one!_ 
     - [Cisco Newtorks Routing & Switching All-in-One Command Bible (CCNA,CCNP)](/Networking/Labs/)
     - [Cisco CCNA Cheat Sheet I](https://github.com/Fz3r0/CCNA-Cheat-Sheet)
     - https://github.com/Fz3r0/cisco-cheatsheet
