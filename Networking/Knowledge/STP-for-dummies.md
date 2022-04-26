@@ -39,7 +39,7 @@
         - Core Layer (Up/Core Switches) - 7,8,9...
         - Access Layer (Down/Access Switches to Hosts) - 13,14,15  
 
-- **Very important:** If you are using VLANs, then STP should be configured on each VLAN! it works independent, and that's automatically called PVST, it could be the same config and paths, or different, that's your choice for specific scenarios. 
+- **Very important:** If you are using VLANs, then STP should be configured on each VLAN! it works separately, and that's automatically called PVST (Per VLAN STP), it could be the same config and paths, or different, that's your choice for specific scenarios. **So, keep in mind the configs of STP are made INSIDE config-interface for each vlan or trunk, in it's respective switchport/interface" 
 
 - Set the Port-Fast and BPDU guard on all **access ports** {config-int} (to hosts and end devices):
 
