@@ -155,7 +155,21 @@ SW(config-if)# spanning-tree portfast disable
 SW(config)# interface range Fa 0/1 - 22
 
 SW(config-if)# spanning-tree bpduguard enable
-SW(config-if)# spanning-tree portfast enable
+SW(config-if)# spanning-tree portfast
+
+=-=-=-=-=--=-=- Copy & Paste =--=-=--=-=--=-
+
+!
+enable
+config t
+interface range Fa 0/1 - 22
+spanning-tree bpduguard enable
+spanning-tree portfast
+do wr
+end
+!
+
+=--=-=--=-=--=-=--=-=--=-=--=-=--=-=--=-=--=-
 
 ```
 
