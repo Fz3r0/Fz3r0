@@ -59,11 +59,83 @@ spanning-tree portfast disable
 
 ```  
 
-- And actually...that's all! That's RSTP & Rapid PVST+ AKA "STP" and all the fancy stuff!! 
+- And actually...that's all! That's RSTP & Rapid PVST+ AKA "STP" and all the fancy stuff!! so, in resume, from 0 to hero:
 
-    - We only need to 1) set the Root Bridge, 2) set the BIDs 3) and set the bpduguard and portfast! (sometimes config timers when more than 7 switches are chained) that's all! easy huh?! byebye!! :D 
+---
 
-    - Well, well, well here you go:
+### All-in-One from zero to hero by Fz3r0:
+
+- **For Root Bridge** (Root Switch "0"): 
+
+```
+
+spanning-tree mode rapid-pvst
+
+spanning-tree vlan 10 root primary
+
+spanning-tree bpduguard disable
+spanning-tree portfast disable
+
+```
+
+- _Optional:_ **For Root Bridge Backup** _(the backup "1" if root dies, another centered switch)_: 
+
+```
+
+spanning-tree mode rapid-pvst
+
+spanning-tree vlan 10 root secondary
+
+spanning-tree bpduguard disable
+spanning-tree portfast disable
+
+```
+
+- For the other Bridges **BETWEEN SWITCHES OR TRUNKS** (example: core switches) in the order you want or need (All the other switches except Root, only will change the BID for each one):
+
+- Switch 2 (non-root switch "2" trunks & switches)
+
+```
+
+spanning-tree mode rapid-pvst
+
+spanning-tree vlan 10 root secondary
+
+spanning-tree bpduguard disable
+spanning-tree portfast disable
+
+```
+
+- For the other Bridges **BETWEEN HOSTS & ACCESS SWITCHES** (example: access switches) in the order you want or need (All the other switches except Root, only will change the BID for each one):
+
+- Switch 3 (non-root switch "3" access to hosts & end-devices)
+
+```
+
+spanning-tree mode rapid-pvst
+
+spanning-tree vlan 10 priority 4096
+
+spanning-tree bpduguard enable
+spanning-tree portfast
+
+```
+
+- Switch 4 (non-root switch "4") _access or trunk_ priority: [2]8192  
+- Switch 5 (non-root switch "5") _access or trunk_ priority: [3]12288
+- Switch 6 (non-root switch "6") _access or trunk_ priority: [4]16384
+- Switch 7 (non-root switch "7") _access or trunk_ priority: [5]20480
+.
+.
+.
+.
+etc
+
+- From 7 chained switched, set more seconds on timers STP timers ;) 
+
+- We only need to set the Root, BIDs, bpduguard and portfast! easy huh?! byebye!! :D 
+
+- Well, well, well here you go:
 
 ---    
 
