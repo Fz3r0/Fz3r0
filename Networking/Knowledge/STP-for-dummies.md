@@ -143,7 +143,15 @@ spanning-tree portfast
    3. Set BIDs (switch 1,2,3,4,5...etc)
    4. Set BPDU & Port Fast (Depending if it's `trunk{enabled}` or `access link{disabled}`) 
    5. _**Super Mega Optional:** Set Alternate & Backup Ports (only used in bridges, obsolete technology)_
-   6. 
+
+- Troubleshooting STP:
+
+```
+
+show apanning-tree summary totals
+
+
+```
 
 - Easy huh?! byebye!! :D... But well...here's the full nerd stuff:
 
