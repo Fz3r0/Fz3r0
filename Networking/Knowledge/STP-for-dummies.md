@@ -26,7 +26,7 @@
 
 - _If there are 2 switches in the same "level" and centered (for example 2 switches at distribution layer), take the switch with less charge of work, or newest, or shiny!...if everything is the same...usually engineers choose "left center" switch, the other switch could be used as a backup root bridge_ 
 
-- Set the BIDs for each switch, where **Root Bridge will be 0 (or lowest)**
+- Set the BIDs for each switch, where **Root Bridge will be 0 (lowest number) or "primary"**
 
     - Remember (0,1,2,3,4,5,6...) but in spanning tree we use "different" numbers:
         - Priority Values of STP are **0 to 61440 in increments of 4096**. Default 32768
