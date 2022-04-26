@@ -71,9 +71,10 @@ SW(config-if)# spanning-tree portfast disable
 
 SW(config)# spanning-tree mode rapid-pvst
 
-SW(config)# interface Fa 0/1
+SW(config)# spanning-tree vlan 10 root primary
+
+SW(config)# interface range Fa 0/1 - 24
 SW(config-if)# spanning-tree vlan 10 priority 0
-SW(config-if)# spanning-tree vlan 10 root primary
 
 SW(config-if)# spanning-tree bpduguard disable
 SW(config-if)# spanning-tree portfast disable
@@ -86,9 +87,10 @@ SW(config-if)# spanning-tree portfast disable
 
 SW(config)# spanning-tree mode rapid-pvst
 
-SW(config)# interface Fa 0/1
+SW(config)# spanning-tree vlan 10 root secondary
+
+SW(config)# interface range Fa 0/1 - 24
 SW(config-if)# spanning-tree vlan 10 priority 4096
-SW(config-if)# spanning-tree vlan 10 root secondary
 
 SW(config-if)# spanning-tree bpduguard disable
 SW(config-if)# spanning-tree portfast disable
@@ -101,8 +103,9 @@ SW(config-if)# spanning-tree portfast disable
 
 ```
 
-spanning-tree mode rapid-pvst
+SW(config)# spanning-tree mode rapid-pvst
 
+SW(config)# interface range Fa 0/1 - 24
 SW(config-if)# spanning-tree vlan 10 priority 8192
 
 SW(config-if)# spanning-tree bpduguard disable
@@ -116,12 +119,12 @@ SW(config-if)# spanning-tree portfast disable
 
 ```
 
-spanning-tree mode rapid-pvst
+SW(config)# spanning-tree mode rapid-pvst
 
-spanning-tree vlan 10 priority 12288
+SW(config-if)# spanning-tree vlan 10 priority 12288
 
-spanning-tree bpduguard enable
-spanning-tree portfast
+SW(config-if)# spanning-tree bpduguard disable
+SW(config-if)# spanning-tree portfast disable
 
 ```
 - Same with the other switches, just with another BID
@@ -148,7 +151,11 @@ spanning-tree portfast
 
 ```
 
-show apanning-tree summary totals
+show spanning-tree vlan 1
+show spanning-tree vlan 10
+show spanning-tree vlan 666
+
+show spanning-tree summary totals
 
 
 ```
