@@ -1,4 +1,28 @@
 
+---
+
+### Fz3r0 Operations  [Networking]
+
+### Fz3r0 Secure Networking Labs - RSTP+ (STP) Spanning Tree in 3-Leaf-Spine (Using only 1 VLAN)
+
+---
+
+##### Twitter  : [@fz3r0_OPs](https://twitter.com/Fz3r0_OPs) 
+##### Github  : [Fz3r0](https://github.com/fz3r0) 
+
+---
+
+#### Keywords: `Networking` `Routing & Switching` `CCNA` `CCNP` `STP`
+
+---
+
+#### Packet Tracer Lab Files & Topology
+
+[<< DOWNLOAD FILES >>](https://github.com/Fz3r0/Fz3r0/files/8500585/1____fz3r0_OPs_Routing_._Switching_.3-vlans_1-switch_1-router._RouterOnAStick.zip)
+
+![1d____VLAN_(3-vlans_1-switch_1-router)_R_OnAStick_TOPOLOGY](https://user-images.githubusercontent.com/94720207/163690161-d79fc452-ffe2-4876-8990-1ef934e81db8.png)
+
+---
 
 ### SW1 (ROOT-Bridge | BID Priority 1:`0`) _Distribution Layer_
 
@@ -76,7 +100,8 @@ wr
 
 ``` 
 
-### SW5 (STP Bridge) | BID Priority 5:`16384`)
+### SW5 (STP Bridge) | BID Priority 5:`16384`) _Access Layer_
+
 
 ```
 
@@ -95,7 +120,7 @@ wr
 
 ``` 
 
-### SW6 (STP Bridge) | BID Priority 6:`20480`)
+### SW6 (STP Bridge) | BID Priority 6:`20480`) _Access Layer_
 
 ```
 
@@ -114,7 +139,7 @@ wr
 
 ``` 
 
-### SW7 (STP Bridge) | BID Priority 7:`24576`)
+### SW7 (STP Bridge) | BID Priority 7:`24576`) _Access Layer_
 
 ```
 
@@ -133,7 +158,7 @@ wr
 
 ``` 
 
-### SW8 (STP Bridge) | BID Priority 8:`28672`)
+### SW8 (STP Bridge) | BID Priority 8:`28672`) _Access Layer_
 
 ```
 
@@ -152,7 +177,7 @@ wr
 
 ``` 
 
-### SW9 (STP Bridge) | BID Priority 9:`32768`)
+### SW9 (STP Bridge) | BID Priority 9:`32768`) _Access Layer_
 
 ```
 
@@ -171,7 +196,7 @@ wr
 
 ``` 
 
-### SW10 (STP Bridge) | BID Priority 10:`36864`)
+### SW10 (STP Bridge) | BID Priority 10:`36864`) _Access Layer_
 
 ```
 
@@ -190,7 +215,7 @@ wr
 
 ```
 
-### Switches: SW4,SW5,SW6,SW7,SW8,SW9 (Config ALL switches one by one)
+### Switches: SW4,SW5,SW6,SW7,SW8,SW9 {ALL ACCESS SWITCHES} (Config ALL switches one by one)
 
 ```
 
