@@ -436,9 +436,9 @@ FAIL!--> x     o   <--- STP will un-block this path
 
 ### References
 
-https://www.youtube.com/watch?v=1RPMCnJStec
-https://contenthub.netacad.com/srwe-dl/7.0.2
-https://www.youtube.com/watch?v=Y5BXVvTnTjE&list=PLwAU7bA502wGio6Pi2RgpSY7sP7OWT_dz&index=2
+- https://www.youtube.com/watch?v=1RPMCnJStec
+- https://contenthub.netacad.com/srwe-dl/7.0.2
+- https://www.youtube.com/watch?v=Y5BXVvTnTjE&list=PLwAU7bA502wGio6Pi2RgpSY7sP7OWT_dz&index=2
 
 ---
 
