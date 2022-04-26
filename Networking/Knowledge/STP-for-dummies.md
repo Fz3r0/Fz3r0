@@ -22,7 +22,7 @@
 
 - _This is my "Fz3r0 STP easy guide for dummies all in one!" Precise info about STP(ehmehm now RSTP!) is shown below the guide_
 
-- **Before anything else, we only need to select our Root Bridge(Switch), it will be the center of the network, easy! that will be our `STP/RSTP Root Bridge` (by default Cisco config chooses the switch with lowest MAC, it don't cares about the location like us).** 
+- **Before anything else, we only need to select our Root Bridge(Switch), it will be the center of the network, easy! that will be our `STP/RSTP Root Bridge`** _(by default, Cisco configs chooses the switch with lowest MAC, it doesn't care about the location or topology like us, so default STP config may select not the best option for a proper profesional, secure, redundant and sexy configuration...That's why we need to configure STP manually!!!). 
 
     - _If there are 2 switches in the same "level" and centered (for example 2 switches at distribution layer), or maybe the topology is a "square" with same distribution...just take the switch with less charge of work, or newest, or shiny! Try to avoid access switches (switches with end devices or hosts connected)...if everything in the network is the same like a mirror...usually engineers choose "left center" switch, the other switch could be used as a backup root bridge... So, at the end it will be our choice to select the best option for the Root-Bridge(Switch 0), use this info & common sense and you will be fine..._ 
 
