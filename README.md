@@ -263,13 +263,16 @@
  
 - [Securing & Defending Network Infraestructure]
         
-    - Network Security Devices
+    - Network Security Devices or Appliances
+        - [Firewall Appliance]
+        - [Next-Generation Firewall(NGFW)]()
+        - [Network Access ControlNAC]()
         - [VPN-enabled Router]()
-        - [NGFW]()
-        - [NAC]()
+        - [Intrusion Detection System (IDS)]
+        - [Intrusion Prevention System (IPS)]
         
     - Endpoints Protection & Security  
-        - [Traditional Host based Security,Firewall,Antivirus,HIPSs,etc]()
+        - [Traditional Host based Security,Host Firewall,Antivirus,HIPSs,etc]()
         - [Top Security: NAC,host-based AMP, ESA, WSA]
             - [Cisco ESA & WSA]
   
