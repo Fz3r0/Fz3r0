@@ -18,7 +18,7 @@
    
 ### Configure Etherchannel like a Sir straight to the point!
 
-- If you want to read more, go to:
+- This will guide to configure Ether-Channel & Port-Channels straight to the point, if you want to read more information before, [< jump here!!! >](/Networking/Knowledge/EtherChannel-like-a-sir.md#link-aggregation--etherchannel)
 
 ### Etherchannel with LACP (Open Standard)
 
