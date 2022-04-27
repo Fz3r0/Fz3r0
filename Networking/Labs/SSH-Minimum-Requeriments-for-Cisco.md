@@ -16,6 +16,36 @@
 
 ---
 
+- **NOTE: ADD MANUALLY A DEFAULT GATEWAY IN CASE OF A SWITCH:**
+
+```
+
+ip default-gateway 192.168.100.254
+
+```
+
+``
+
+- **NOTE: USE LOOPBACK, INTERFACES OR SUB-INTERFACES ON ROUTERS AS DEFAULT GATEWAY:**
+
+```
+
+interface gigabitEthernet 0/0.100
+description << Connect to Subnet 100 >>
+encapsulation dot1Q 100
+ip address 192.168.100.254 255.255.255.0
+no shutdown 
+exit
+
+```
+```
+interface loopback 0
+description << loopback 10.10.10.10 >>
+ip address 10.10.10.10 255.255.255.255
+exit
+
+```
+
 ```
 
 enable
