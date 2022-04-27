@@ -25,7 +25,6 @@
  "                                                               "
  =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 
-
 -->
 
 <!--
@@ -115,8 +114,6 @@
 <h3 align="center">Hacking Challenges & Attack Boxes</h3>
 <h5 align="center">Fz3r0 @ Top 25 Mexico Rank | Top 1% Worldwide | [0xD] [GOD] </h3> 
   
-
-  
 <p align="center"> <a href="https://tryhackme.com/p/fz3r0.carlos" target="_blank" rel="noreferrer"> <img src="https://user-images.githubusercontent.com/94720207/164392862-2fe8bf14-1e20-48b0-8d41-3b4e87927218.png" alt="TryHackMe2"> </a> </p>
   
 <!--
@@ -168,9 +165,6 @@
 <span align="center"> <p align="center"> _porque mi ruta había extraviado..._ </p> </span>   
 <span align="center"> <p align="center"> _Abandonad, los que aquí entráis, toda esperanza..._ </p> </span>
 <span align="center"> <p align="center">    </p> </span>  
- 
-
-
 
 <p align="center"> <img src="https://user-images.githubusercontent.com/94720207/164912570-d86e1783-fcad-43eb-9fae-f5e6ff48cdac.png" alt="skull3" width="20%" height="auto"/> </p>  
   
@@ -218,6 +212,7 @@
     - Lab 04 > - [Secure Routing Dual Stack Topology + InterVLAN Routing](https://user-images.githubusercontent.com/94720207/164995003-71eaecd4-b6ee-4c6f-a7e4-1eb7fe7d8948.png)
     - Lab 05 > - [Secure RSTP & Rapid PVST+STP (aka STP) in 3-leaf-spine Data Center](/Networking/Labs/STP-3-Leaf-Spine-(1VLAN).md) _Packet Tracer_
     - Lab 06 > - [Secure RSTP & Rapid PVST+STP (aka STP) in 3-leaf-spine Data Center](/Networking/Labs/STP-3-Leaf-Spine-(1VLAN).md) _GNS3_
+    - Lab 07 > - [EtherChannel all in one! LACP, PAgP & Static + RSTP+](/Networking/Labs/EtherChannel-Like-a-Sir.md) _Packet Tracer_
  
 - [Network Troubleshooting ]
     - [Toubleshooting Network Access Layer Issues](https://user-images.githubusercontent.com/94720207/164993410-32b7e351-f9a3-4b77-b9d7-08bf74b13da2.png)
