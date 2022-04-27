@@ -67,18 +67,24 @@ username user privilege 10 secret cisco12345
 line console 0
 password cisco12345
 login
+logging synchronous
+exec-timeout 5 30
 exit
 !
 line aux 0
-password cisco12345
-login
+privilege level 1
+transport input none
+transport output none
+login local
+no exec
 exit
 !
 line vty 0 8
 access-class 8 in
-exec-timeout 5 30
 transport input ssh
 login local
+logging synchronous
+exec-timeout 5 30
 exit
 !
 crypto key generate rsa
