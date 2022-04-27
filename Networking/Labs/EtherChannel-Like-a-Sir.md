@@ -27,7 +27,6 @@
 
 
 
-
 ### SW1 (ROOT-BRIDGE FOR STP)
 
 - SW1 Gi 0/1-2 to > SW2 Gi 0/1-2 **`STATIC`** _(ON)_
@@ -38,6 +37,7 @@
 
 enable
 configure terminal
+hostname SW1-[BID-ROOT-0{0}]
 !
 !
 interface range GigabitEthernet 0/1 - 2
@@ -87,8 +87,8 @@ switchport access vlan 1
 spanning-tree bpduguard enable
 spanning-tree portfast
 !
-spanning-tree bpduguard disable
-spanning-tree portfast disable
+spanning-tree bpduguard ENABLE
+spanning-tree PORTFAST
 no shutdown
 exit
 !
@@ -116,6 +116,7 @@ exit
 
 enable
 configure terminal
+hostname SW2-[BID-BCKUP-2{4096}]
 !
 !
 interface range GigabitEthernet 0/1 - 2
@@ -164,8 +165,8 @@ switchport access vlan 1
 spanning-tree bpduguard enable
 spanning-tree portfast
 !
-spanning-tree bpduguard disable
-spanning-tree portfast disable
+spanning-tree bpduguard ENABLE
+spanning-tree PORTFAST
 no shutdown
 exit
 !
@@ -192,6 +193,7 @@ exit
 
 enable
 configure terminal
+hostname SW3-[BID-3{57344}]
 !
 !
 interface range FastEthernet 0/10 - 15
@@ -242,8 +244,8 @@ switchport access vlan 1
 spanning-tree bpduguard enable
 spanning-tree portfast
 !
-spanning-tree bpduguard disable
-spanning-tree portfast disable
+spanning-tree bpduguard ENABLE
+spanning-tree PORTFAST
 no shutdown
 exit
 !
@@ -270,6 +272,9 @@ exit
 
 enable
 configure terminal
+hostname SW3-[BID-4{61440}]
+!
+!
 interface range FastEthernet 0/10 - 13
 description << Fa 0/10-13 FUSSION FOR [PORT-CHANNEL-2] >>
 shutdown
@@ -315,8 +320,8 @@ switchport access vlan 1
 spanning-tree bpduguard enable
 spanning-tree portfast
 !
-spanning-tree bpduguard disable
-spanning-tree portfast disable
+spanning-tree bpduguard ENABLE
+spanning-tree PORTFAST
 no shutdown
 exit
 !
@@ -332,5 +337,6 @@ exit
 !
 
 ```
+
 
 
