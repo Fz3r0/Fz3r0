@@ -18,7 +18,12 @@
    
 ### Configure Etherchannel like a Sir straight to the point!
 
-- This will guide to configure Ether-Channel & Port-Channels straight to the point, if you want to read more information before, [< jump here!!! >](/Networking/Knowledge/EtherChannel-like-a-sir.md#link-aggregation--etherchannel)
+- This will guide to configure Ether-Channel & Port-Channels straight to the point, if you want to read more information about Ether-Channel before [< jump here!!! >](/Networking/Knowledge/EtherChannel-like-a-sir.md#link-aggregation--etherchannel)
+
+    - [**Configure Etherchannel with LACP (Open Standard)**](/Networking/Knowledge/EtherChannel-like-a-sir.md#configure-etherchannel-like-a-sir-straight-to-the-point)
+    - [**Configure Etherchannel with PAgP (Cisco Propertary)**]()
+
+---
 
 ### Etherchannel with LACP (Open Standard)
 
@@ -134,7 +139,13 @@ end
 
 ```
 
-- That's all!!! easy as cake...but here's the nerd stuff:
+---
+
+### Etherchannel with PAgP (Cisco Propertary)
+
+---
+
+- That's all!!! We configured Ether Channel both ways possible (LACP & PAgP) easy as cake...but here's the nerd stuff:
 
 ---  
 
