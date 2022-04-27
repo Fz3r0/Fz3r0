@@ -3,7 +3,7 @@
 
 ### Fz3r0 Operations  [Networking]
 
-### Fz3r0 Secure Networking Labs - RSTP+ (STP) Spanning Tree in 3-Leaf-Spine (Using only 1 VLAN)
+### Fz3r0 Secure Networking Labs - EtherChannel Like a Sir
 
 ---
 
