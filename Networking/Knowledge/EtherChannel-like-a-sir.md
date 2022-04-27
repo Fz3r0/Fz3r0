@@ -22,6 +22,16 @@
 
 ### Etherchannel with LACP (Open Standard)
 
+- **Note: When configuring EtherChannels, it is recommended to shut down the physical ports being grouped on both devices before configuring them into channel groups. Otherwise, EtherChannel Misconfig Guard may place these ports into err-disabled state. The ports and port channels can be re-enabled after EtherChannel is configured.**
+
+```
+
+SW1# config t
+SW1(config)# interface range FastEthernet 0/1 - 2
+SW1(config-if-range)# shut
+
+```  
+
 - EtherChannel is disabled by default and must be configured. 
 
 - The topology in the figure will be used to demonstrate an EtherChannel configuration example using LACP.
