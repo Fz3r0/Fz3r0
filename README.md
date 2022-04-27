@@ -206,7 +206,7 @@
     - [Fz3r0's Ether-Channel config guide for cool people](/Networking/Knowledge/EtherChannel-like-a-sir.md) _My guide for config Ether-Channel like a pro_
 
 - [Secure Network Labs by @ Fz3r0]
-    - Lab 01 > [SSH Minimum Requeriments for Cisco Routers & Switches](/Networking/Labs/SSH-Minimum-Requeriments-for-Cisco.md) 
+    - Lab 01 > [SSH Minimum Requeriments for Cisco Routers & Switches](/Networking/Labs/SSH-Minimum-Requeriments-for-Cisco.md) _For any Cisco device (IOS)_ 
     - Lab 01 > [Secure Home Network + Internet to Home (FTTH) Simulation](/Networking/Labs/Router-on-a-Stick.md) _Packet Tracer_
     - Lab 02 > [Secure InterVLAN Routing: Router on a Stick](/Networking/Labs/Router-on-a-Stick.md) _Packet Tracer_
     - Lab 03 > [Secure InterVLAN Routing: Switch Virtual Interface SVI](/Networking/Labs/Switch-Virtual-Interface-SVI.md) _Packet Tracer_ 
