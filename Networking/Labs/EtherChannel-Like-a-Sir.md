@@ -20,8 +20,7 @@
 
 [**<< DOWNLOAD FILES >>**](https://github.com/Fz3r0/Fz3r0/files/8567524/5___fz3r0_OPs_Routing_._Switching_STP_Bible_3_leaf_datacenter.zip)
 
-![image](https://user-images.githubusercontent.com/94720207/165462350-b2f0d374-4f18-445a-83a5-daaabbe4a12f.png)
-
+![image](https://user-images.githubusercontent.com/94720207/165462904-db720ff7-d0d2-4821-9e05-892510d7443d.png)
 
 ---
 
