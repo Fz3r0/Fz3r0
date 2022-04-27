@@ -39,6 +39,24 @@ enable
 configure terminal
 hostname SW1-[BID-ROOT-0{0}]
 !
+no ip domain-lookup
+ip domain-name fz3r0.EtherChannel
+!
+!
+!banner motd #
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+         EtherChannel Labs // For more cool stuff:      
+           
+         Twitter: @fz3r0_Ops
+         Github : Fz3r0  
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+#
+!
+!
 !
 interface range GigabitEthernet 0/1 - 2
 shutdown
@@ -118,6 +136,24 @@ enable
 configure terminal
 hostname SW2-[BID-BCKUP-2{4096}]
 !
+no ip domain-lookup
+ip domain-name fz3r0.EtherChannel
+!
+!
+!banner motd #
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+         EtherChannel Labs // For more cool stuff:      
+           
+         Twitter: @fz3r0_Ops
+         Github : Fz3r0  
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+#
+!
+!
 !
 interface range GigabitEthernet 0/1 - 2
 shutdown
@@ -194,6 +230,24 @@ exit
 enable
 configure terminal
 hostname SW3-[BID-3{57344}]
+!
+no ip domain-lookup
+ip domain-name fz3r0.EtherChannel
+!
+!
+!banner motd #
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+         EtherChannel Labs // For more cool stuff:      
+           
+         Twitter: @fz3r0_Ops
+         Github : Fz3r0  
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+#
+!
 !
 !
 interface range FastEthernet 0/10 - 15
@@ -273,6 +327,24 @@ exit
 enable
 configure terminal
 hostname SW3-[BID-4{61440}]
+!
+no ip domain-lookup
+ip domain-name fz3r0.EtherChannel
+!
+!
+!banner motd #
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+         EtherChannel Labs // For more cool stuff:      
+           
+         Twitter: @fz3r0_Ops
+         Github : Fz3r0  
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+#
+!
 !
 !
 interface range FastEthernet 0/10 - 13
