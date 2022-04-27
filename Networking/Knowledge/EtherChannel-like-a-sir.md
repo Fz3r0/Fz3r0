@@ -16,6 +16,110 @@
 
 ---
    
+### Configure Etherchannel like a Sir straight to the point!
+
+- If you want to read more, go to:
+
+### Etherchannel with LACP (Open Standard)
+
+- EtherChannel is disabled by default and must be configured. 
+
+- The topology in the figure will be used to demonstrate an EtherChannel configuration example using LACP.
+
+```
+                <<---------LACP---------------->>
+
+                            /\
+========     |1------------/--\----------------1|     ========
+MODE-SW1  SW1|            /    \PortChannel    +|SW2  MODE-SW2
+========     |2-----------\----/---------------2|     ========
+                           \  /
+                            \/
+```  
+
+- Remember!...use the Fz3r0 standard for cool people! *both sides `ON`*
+
+- Just follow 3 steps:
+
+1. Specify the interfaces that compose the EtherChannel group using the `interface range` interface global configuration mode command.
+
+```
+
+SW1# config t
+SW1(config)# interface range FastEthernet 0/1 - 2
+ 
+```    
+
+2. Create the port channel interface with the `channel-group` identifier _(like channel-group 1,2,3,4,etc)_ `mode ON` command in interface range configuration mode. 
+
+```
+
+SW1(config-if-range)# channel-group 666 mode on
+Creating a port-channel interface Port-channel 666
+
+```     
+
+3. If you need to change Layer 2 settings on the port channel interface, for example, making it a trunk link. Enter port channel interface configuration mode using the `interface port-channel` command, followed by the interface identifier.
+
+```  
+
+SW1(config)# interface port-channel 666
+SW1(config-if)# switchport mode trunk
+SW1(config-if)# switchport trunk allowed vlan 1,2,10,20,99
+
+```
+
+- In resume, the full configuration & settings changes are:
+
+```
+
+=-=-=-=-= Config Port-Channel =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+SW1# config t
+SW1(config)# interface range FastEthernet 0/1 - 2
+SW1(config-if-range)# channel-group 666 mode on
+Creating a port-channel interface Port-channel 666
+
+
+=-=-=-=-= Config Port-Channel Settings -=-=-=-=-=-=-=-=-=-=-=-=
+
+SW1(config)# interface port-channel 666
+SW1(config-if)# switchport mode trunk
+SW1(config-if)# switchport trunk allowed vlan 1,2,10,20,99
+
+
+=-=-=-=-=-=-=-=-= Copy paste -=-=-=-=-=-=-=-=-=-=-=-=
+
+!
+enable
+configure terminal
+interface range FastEthernet 0/1 - 2
+channel-group 666 mode on
+exit
+exit
+wr
+end
+!
+
+!
+enable
+configure terminal
+interface port-channel 666
+switchport mode trunk
+switchport trunk allowed vlan 1,2,10,20,99
+no shut
+exit
+exit
+wr
+end
+!
+
+```
+
+- That's all!!! easy as cake...but here's the nerd stuff:
+
+---  
+
 ### Link Aggregation & EtherChannel
 
 - **In resume and simple way of view it, this is Etherchannel & Link Aggregation:**
@@ -231,25 +335,46 @@ MODE-SW1  SW1|            /    \PortChannel    +|SW2  MODE-SW2
 
 ### Configuration Guidelines
 
-The following guidelines and restrictions are useful for configuring EtherChannel:
+- The following guidelines and restrictions are useful for configuring EtherChannel:
 
-- 
+    - EtherChannel support
+        - All Ethernet interfaces must support EtherChannel with no requirement that interfaces be physically contiguous.
 
+    - Speed and duplex
+        - Configure all interfaces in an EtherChannel to operate at the same speed and in the same duplex mode.
 
+    - VLAN match
+        - All interfaces in the EtherChannel bundle must be assigned to the same VLAN or be configured as a trunk (shown in the figure).
 
+    - Range of VLANs
+        - An EtherChannel supports the same allowed range of VLANs on all the interfaces in a trunking EtherChannel. 
+        - If the allowed range of VLANs is not the same, the interfaces do not form an EtherChannel, even when they are set to auto or desirable mode. 
 
+- **Very important to remember!** 
 
+    - Use the same speed on cable and ports of the devices used on the etherchannel link (PortChannel). 
 
+    - Basically, use identical cables, identical ports, even use same colors and plugs!
 
+    - Use the same config in Speed, Duplex, VLAN #, trunk/access and any port configuration. SAME CONFIG, SAME CABLES, SAME SPEED, SAME INTERFACES... 
 
+- Very important to remember II!
+
+    - If you need to change the settings of the ChannelPort (the "fat cable"), even the description, vlan, or something... **configure them in port channel interface configuration mode.** 
+
+        - Any configuration that is applied to the port channel interface also affects individual interfaces. 
+
+        - However, configurations that are applied to the individual interfaces do not affect the port channel interface. 
+
+        - **Therefore, making configuration changes to an interface that is part of an EtherChannel link may cause interface compatibility issues.**
+
+- **The port channel can be configured in access mode, trunk mode (most common), or on a routed port.**      
 
 ---
 
 ### References
 
-- https://www.youtube.com/watch?v=1RPMCnJStec
-- https://contenthub.netacad.com/srwe-dl/7.0.2
-- https://www.youtube.com/watch?v=Y5BXVvTnTjE&list=PLwAU7bA502wGio6Pi2RgpSY7sP7OWT_dz&index=2
+- https://contenthub.netacad.com/srwe-dl/6.2.3
 
 ---
 
