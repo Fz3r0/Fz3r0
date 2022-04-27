@@ -117,10 +117,9 @@ interface range FastEthernet 0/1 - 2
 shutdown
 channel-group 1 mode on
 no shutdown
-exit
-exit
-wr
 end
+wr
+exit
 !
 
 !
@@ -131,10 +130,9 @@ shutdown
 switchport mode trunk
 switchport trunk allowed vlan 1,2,10,20,99
 no shutdown
-exit
-exit
-wr
 end
+wr
+exit
 !
 
 ```
