@@ -311,32 +311,31 @@
         - [The Book of the Secret Knowledge](https://github.com/Fz3r0/the-book-of-secret-knowledge) _A collection of lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools & more._
         - [The Art of Hacking](https://github.com/The-Art-of-Hacking/h4cker) _Over 9,000 References, Scripts, Tools, Code & Resources for Offensive/Defensive Security_
         - [Awesome Hacking](https://github.com/Fz3r0/Awesome-Hacking) _A collection of awesome lists for hackers, pentesters & security researchers._
+        - [Tib3rius FULL Pentesting Black Magics](https://github.com/Tib3rius/Pentest-Cheatsheets) _Cheatsheets, Tools, PrivEsc, Checklist, Exploits_
         - [Aldeid](https://www.aldeid.com/wiki/Main_Page) _Wiki about Network and Web Applications Security, Ethical Hacking and Network Forensics._
   
     - [Privilege Escalation (PrivEsc)]
   
-        - [PrivEsc Ancient Dark Scritures]
+        - Linux PrivEsc
+            - Fz3r0 Linux PrivEsc Ninjitsu(/Networking/Labs/) _My own logs & writeups about Linux PrivEsc_
+            - [Linux | Pergamino I](https://github.com/netbiosX/Checklists/blob/master/Linux-Privilege-Escalation.md)
+            - [Linux | Pergamino II - swisskyrepo](https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Linux%20-%20Privilege%20Escalation.md)
+            - [Linux | Pergamino III - OSCP Guide](https://sushant747.gitbooks.io/total-oscp-guide/privilege_escalation_-_linux.html)
+            - [Linux | Pergamino IV - Payatu](https://payatu.com/guide-linux-privilege-escalation)
+            - [Fz3r0 @ Linux PrivEsc]()
+
+        - Windows PrivEsc
+            - Fz3r0 Windows PrivEsc Ninjitsu(/Networking/Labs/) _My own logs & writeups about Windows PrivEsc_
+            - [Pergamino I - ](https://github.com/Fz3r0/Checklists_PrivEsc) _Detailed Checklist for Windows PrivEsc & Scenarios_
+            - [Mimicatz I](https://www.youtube.com/watch?v=AZirvtZNIEw)
+             
+            - https://github.com/Fz3r0/windows-privesc-check
+ 
+        - Windows Server PrivEsc
+            - [Windows Server | Pergamino I](https://github.com/Fz3r0/Checklists_PrivEsc) _Detailed Checklist for Windows Server PrivEsc & Scenarios_ 
+            - [Active Directory Exploitation Cheat-Sheet by Tib3rius](https://github.com/Tib3rius/Active-Directory-Exploitation-Cheat-Sheet)
   
-            - Linux PrivEsc
-                - [Linux | Pergamino I](https://github.com/netbiosX/Checklists/blob/master/Linux-Privilege-Escalation.md)
-                - [Linux | Pergamino II - swisskyrepo](https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Linux%20-%20Privilege%20Escalation.md)
-                - [Linux | Pergamino III - OSCP Guide](https://sushant747.gitbooks.io/total-oscp-guide/privilege_escalation_-_linux.html)
-                - [Linux | Pergamino IV - Payatu](https://payatu.com/guide-linux-privilege-escalation)
-                - [Fz3r0 @ Linux PrivEsc]()
-
-            - Windows PrivEsc
-                - [Windows | Pergamino I](https://github.com/Fz3r0/Checklists_PrivEsc) _Detailed Checklist for Windows PrivEsc & Scenarios_
-                - [Mimicatz I](https://www.youtube.com/watch?v=AZirvtZNIEw)
-
- 
-            - Windows Server PrivEsc
-                - [Windows Server | Pergamino I](https://github.com/Fz3r0/Checklists_PrivEsc) _Detailed Checklist for Windows Server PrivEsc & Scenarios_ 
-
-  
-    - [fz3r0 - Scripts & Commands of Black Arts]
- 
- 
- 
+    - [Scripts & Commands for Digital Black Magic or Hacking Purposes]
  
         - [Pentester Book](https://pentestbook.six2dez.com/post-exploitation/linux)
         - https://github.com/Fz3r0/CheatSheet
@@ -357,9 +356,12 @@
   
     - [PrivEsc]
   
-        - Windows & Windows Server
-  
-            - https://github.com/Fz3r0/windows-privesc-check
+        - Windows
+
+ 
+        - Windows Server & Active Directory
+            - 
+
   
         - Linux
   
