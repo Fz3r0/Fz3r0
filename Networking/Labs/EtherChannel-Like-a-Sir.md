@@ -118,7 +118,6 @@ spanning-tree vlan 1 priority 0
 !
 end
 wr
-exit
 !
 reload
 !
@@ -215,7 +214,6 @@ spanning-tree vlan 1 priority 4096
 !
 end
 wr
-exit
 !
 reload
 !
@@ -314,7 +312,6 @@ spanning-tree vlan 1 priority 57344
 !
 end
 wr
-exit
 !
 reload
 !
@@ -410,12 +407,12 @@ spanning-tree vlan 1 priority 61440
 !
 end
 wr
-exit
 !
 reload
 !
 !
 !
+
 
 ```
 
