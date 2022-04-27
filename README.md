@@ -208,7 +208,8 @@
     - [Cisco CCNA Cheat Sheet I](https://github.com/Fz3r0/CCNA-Cheat-Sheet)
     - https://github.com/Fz3r0/cisco-cheatsheet
     - https://github.com/Fz3r0/Cisco-IOS-Command-CheatSheets
-    - [Fz3r0's Spaning Tree Protocol (STP) master guide](/Networking/Knowledge/STP-for-dummies.md) _My guide for config STP like a pro_
+    - [Fz3r0's Spaning Tree Protocol (STP) config guide for cool people](/Networking/Knowledge/STP-for-dummies.md) _My guide for config STP like a pro_
+    - [Fz3r0's Ether-Channel config guide for cool people](/Networking/Knowledge/EtherChannel-like-a-sir.md) _My guide for config Ether-Channel like a pro_
 
 - [Secure Network Labs by @ Fz3r0]
     - Lab 01 > - [Secure Home Network + Internet to Home (FTTH) Simulation](/Networking/Labs/Router-on-a-Stick.md) _Packet Tracer_
