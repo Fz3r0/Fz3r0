@@ -206,13 +206,14 @@
     - [Fz3r0's Ether-Channel config guide for cool people](/Networking/Knowledge/EtherChannel-like-a-sir.md) _My guide for config Ether-Channel like a pro_
 
 - [Secure Network Labs by @ Fz3r0]
-    - Lab 01 > - [Secure Home Network + Internet to Home (FTTH) Simulation](/Networking/Labs/Router-on-a-Stick.md) _Packet Tracer_
-    - Lab 02 > - [Secure InterVLAN Routing: Router on a Stick](/Networking/Labs/Router-on-a-Stick.md) _Packet Tracer_
-    - Lab 03 > - [Secure InterVLAN Routing: Switch Virtual Interface SVI](/Networking/Labs/Switch-Virtual-Interface-SVI.md) _Packet Tracer_ 
-    - Lab 04 > - [Secure Routing Dual Stack Topology + InterVLAN Routing](https://user-images.githubusercontent.com/94720207/164995003-71eaecd4-b6ee-4c6f-a7e4-1eb7fe7d8948.png)
-    - Lab 05 > - [Secure RSTP & Rapid PVST+STP (aka STP) in 3-leaf-spine Data Center](/Networking/Labs/STP-3-Leaf-Spine-(1VLAN).md) _Packet Tracer_
-    - Lab 06 > - [Secure RSTP & Rapid PVST+STP (aka STP) in 3-leaf-spine Data Center](/Networking/Labs/STP-3-Leaf-Spine-(1VLAN).md) _GNS3_
-    - Lab 07 > - [EtherChannel all in one! LACP, PAgP & Static + RSTP+](/Networking/Labs/EtherChannel-Like-a-Sir.md) _Packet Tracer_
+    - Lab 01 > [SSH Minimum Requeriments for Cisco Routers & Switches](/Networking/Labs/SSH-Minimum-Requeriments-for-Cisco.md) 
+    - Lab 01 > [Secure Home Network + Internet to Home (FTTH) Simulation](/Networking/Labs/Router-on-a-Stick.md) _Packet Tracer_
+    - Lab 02 > [Secure InterVLAN Routing: Router on a Stick](/Networking/Labs/Router-on-a-Stick.md) _Packet Tracer_
+    - Lab 03 > [Secure InterVLAN Routing: Switch Virtual Interface SVI](/Networking/Labs/Switch-Virtual-Interface-SVI.md) _Packet Tracer_ 
+    - Lab 04 > [Secure Routing Dual Stack Topology + InterVLAN Routing](https://user-images.githubusercontent.com/94720207/164995003-71eaecd4-b6ee-4c6f-a7e4-1eb7fe7d8948.png)
+    - Lab 05 > [Secure RSTP & Rapid PVST+STP (aka STP) in 3-leaf-spine Data Center](/Networking/Labs/STP-3-Leaf-Spine-(1VLAN).md) _Packet Tracer_
+    - Lab 06 > [Secure RSTP & Rapid PVST+STP (aka STP) in 3-leaf-spine Data Center](/Networking/Labs/STP-3-Leaf-Spine-(1VLAN).md) _GNS3_
+    - Lab 07 > [EtherChannel all in one! LACP, PAgP & Static + RSTP+](/Networking/Labs/EtherChannel-Like-a-Sir.md) _Packet Tracer_
  
 - [Network Troubleshooting ]
     - [Toubleshooting Network Access Layer Issues](https://user-images.githubusercontent.com/94720207/164993410-32b7e351-f9a3-4b77-b9d7-08bf74b13da2.png)
