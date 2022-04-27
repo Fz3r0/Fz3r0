@@ -121,6 +121,8 @@ wr
 !
 reload
 !
+exit
+!
 !
 !
 
@@ -216,6 +218,8 @@ end
 wr
 !
 reload
+!
+exit
 !
 !
 !
@@ -315,6 +319,8 @@ wr
 !
 reload
 !
+exit
+!
 !
 !
 
@@ -410,6 +416,8 @@ wr
 !
 reload
 !
+exit
+!
 !
 !
 
@@ -426,6 +434,7 @@ reload
 
 
 ```
+
 
 
 
