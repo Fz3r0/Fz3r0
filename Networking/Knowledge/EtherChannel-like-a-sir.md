@@ -65,12 +65,12 @@ SW1(config)# interface range FastEthernet 0/1 - 2
  
 ```    
 
-2. Create the port channel interface with the `channel-group` identifier _(like channel-group 1,2,3,4,etc)_ `mode ON` command in interface range configuration mode. 
+2. Create the port channel interface with the `channel-group` identifier _(Only 1 to 6 accepted 1,2,3,4,5,6)_ `mode ON` command in interface range configuration mode. 
 
 ```
 
-SW1(config-if-range)# channel-group 666 mode on
-Creating a port-channel interface Port-channel 666
+SW1(config-if-range)# channel-group 1 mode on
+Creating a port-channel interface Port-channel 1
 
 SW1(config-if-range)# no shutdown
 
@@ -80,7 +80,7 @@ SW1(config-if-range)# no shutdown
 
 ```  
 
-SW1(config)# interface port-channel 666
+SW1(config)# interface port-channel 1
 SW1(config-if)# switchport mode trunk
 SW1(config-if)# switchport trunk allowed vlan 1,2,10,20,99
 
@@ -95,14 +95,14 @@ SW1(config-if)# switchport trunk allowed vlan 1,2,10,20,99
 SW1# config terminal
 SW1(config)# interface range FastEthernet 0/1 - 2
 SW1(config-if-range)# shutdown
-SW1(config-if-range)# channel-group 666 mode on
-Creating a port-channel interface Port-channel 666
+SW1(config-if-range)# channel-group 1 mode on
+Creating a port-channel interface Port-channel 1
 
 SW1(config-if-range)# no shutdown
 
 =-=-=-=-= Config Port-Channel Settings -=-=-=-=-=-=-=-=-=-=-=-=
 
-SW1(config)# interface port-channel 666
+SW1(config)# interface port-channel 1
 SW1(config-if)# shutdown
 SW1(config-if)# switchport mode trunk
 SW1(config-if)# switchport trunk allowed vlan 1,2,10,20,99
@@ -115,7 +115,7 @@ enable
 configure terminal
 interface range FastEthernet 0/1 - 2
 shutdown
-channel-group 666 mode on
+channel-group 1 mode on
 no shutdown
 exit
 exit
@@ -126,7 +126,7 @@ end
 !
 enable
 configure terminal
-interface port-channel 666
+interface port-channel 1
 shutdown
 switchport mode trunk
 switchport trunk allowed vlan 1,2,10,20,99
