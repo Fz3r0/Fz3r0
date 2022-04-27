@@ -3,7 +3,7 @@
 
 ### Fz3r0 Operations  [Networking]
 
-### Spaning Tree Protocol (STP) 
+### EtherChannel like a Sir (PortChannel) 
 
 ---
 
@@ -15,497 +15,233 @@
 #### Keywords: `Networking` `Routing & Switching` `CCNA` `CCNP` `STP`
 
 ---
+   
+### Link Aggregation & EtherChannel
 
-### Fz3r0 RSTP & Rapid PVST+ guide for dummies
+- **In resume and simple way of view it, this is Etherchannel & Link Aggregation:**
 
+- EtherChannel is a link aggregation technology that groups multiple physical Ethernet links together into one single logical link. It means, it's used to "sumarize" 2 or more ethernet "cables" (maximum 8) into just 1 "fat cable"(PortChannel). That's it! easy...
 
+- It is used to provide fault-tolerance, load sharing, increased bandwidth, and redundancy between switches, routers, and servers.
 
+- Multiple links could be connected between devices to increase bandwidth. 
 
+- A link aggregation technology is needed that allows redundant links between devices that will not be blocked by STP. That technology is known as EtherChannel.
 
+- EtherChannel technology makes it possible to combine the number of physical links between the switches to increase the overall speed of switch-to-switch communication.
 
+- For example:
 
+    - If you have 2 FastEthernet cables(links) 100Mbps each one, then you will have 1 single "cable"(PortChannel) with 200Mbps! 1+1=2 (inside one)
 
+    - Aditionally... if 1 cable fails, the other take the redundancy _(and return to only 100Mbps)_
 
+    - There are some rules & restrictions like: all the "cables"(links) must be the same speed and type.
 
+    - Etherchannel support Spanning-Tree or any other protocol, just like a "normal" link between network devices. Remember, is just a "fat" cable made by 2 or more cables (maximum 8 per PortChannel).
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-- _Forget the acronym "STP" we are in 2022 and we use RSTP & Rapid PVST+, period. We will use "STP" & "PVST+" only for concept (cuz' it's the same shit but those are more oldies) so...anyways let's begin:_ 
-
-- _This is my "Fz3r0 STP easy guide for dummies all in one!" Precise info about STP(ehmehm now RSTP!) is shown below the guide_
-
-- **Before anything else, we only need to select our Root Bridge(Switch), it will be the center of the network, easy! that will be our `STP/RSTP Root Bridge`** _(by default, Cisco configs chooses the switch with lowest MAC, it doesn't care about the location or topology like us, so default STP config may select not the best option for a proper profesional, secure, redundant and sexy configuration...That's why we need to configure STP manually!!!)._ 
-
-    - _If there are 2 switches in the same "level" and centered (for example 2 switches at distribution layer), or maybe the topology is a "square" with same distribution:_
-        - Just take the switch with less charge of work, or newest, or trusty, or shiny, or cute!
-        - Try to avoid access switches (switches with end devices or hosts connected), better to use distribution layer if you have one (in the middle of all the other switches).
-        - If everything in the network is the same like a mirror...usually engineers choose "left center" switch, the other switch could be used as a backup root bridge... 
-        - _So, at the end it will be our choice to select the best option for the Root-Bridge(Switch 0), use this info & common sense and you will be fine..._ 
-
-- **Set the `BIDs`** for each switch, where **Root Bridge will be 0 (lowest number) or "primary"**
-
-    - Remember (0,1,2,3,4,5,6...) but in spanning tree we use "different" numbers:
-        - Priority Values of STP are **0 to 61440 in increments of 4096**. Default 32768
-        - 0,1,2,3,4,5 = 0,4096,8192,12288,16384
-        - 4096+4096+4096+4096+4096+4096+4096+4096 (8 times = 32768 = default)
-        - 4096*15 = 61440 (max)
-    
-            - % Allowed values are:
-                - **`0` `4096` `8192` `12288` `16384` `20480` `24576` `28672`**             
-                - **`32768` `36864` `40960` `45056` `49152` `53248` `57344` `61440`**
-
-    - Just set an order, usually the priority goes:
-        - Distribution Layer (Center Switches) - 0,1,2...
-        - Core Layer (Up/Core Switches) - 7,8,9...
-        - Access Layer (Down/Access Switches to Hosts) - 13,14,15  
-
-- **Very important:** If you are using VLANs, then STP should be configured on each VLAN! it works separately, and that's automatically called PVST (Per VLAN STP), it could be the same config and paths, or different, that's your choice for specific scenarios. **So, keep in mind the configs of STP are made INSIDE config-interface for each vlan or trunk, in it's respective switchport/interface" 
-
-- Set the Port-Fast and BPDU guard on all **access ports** {config-int} (to hosts and end devices):
-
-```
-
-SW(config-if)# spanning-tree bpduguard enable
-SW(config-if)# spanning-tree portfast
-
-```
-
-- Do the opposite for all the links between switches or **trunks ports** {config-int}:
-
-```
-
-SW(config-if)# spanning-tree bpduguard disable
-SW(config-if)# spanning-tree portfast disable
-
-```  
-
-- And actually...that's all! That's RSTP & Rapid PVST+ AKA "STP" and all the fancy stuff!! so, in resume, from 0 to hero:
+    - For better understanding, I wrote a little more about this:   
 
 ---
 
-### All-in-One from zero to hero by Fz3r0:
+### EtherChannel
 
-- **For Root Bridge** (Root Switch "0"): 
+- EtherChannel technology is as a `LAN switch-to-switch technique` of grouping several Fast Ethernet or Gigabit Ethernet ports into one logical channel.
+
+- When an EtherChannel is configured, the resulting virtual interface is called a `port channel`. 
+
+- The physical interfaces are bundled together into a port channel interface:
+
+```
+        ----------->
+     |1----100mbps--------------------------1|
+  SW1|         PortChannel = 200mbps ====>> +|SW2
+     |2----100mbps--------------------------2|
+        ----------->
 
 ```
 
-SW(config)# spanning-tree mode rapid-pvst
+### Advantages of EtherChannel
 
-SW(config)# spanning-tree vlan 10 root primary
+- EtherChannel technology has many advantages, including the following:
 
-SW(config)# interface range Fa 0/1 - 24
-SW(config-if)# spanning-tree vlan 10 priority 0
+    - Most configuration tasks can be done on the EtherChannel interface instead of on each individual port, ensuring configuration consistency throughout the links.
 
-SW(config-if)# spanning-tree bpduguard disable
-SW(config-if)# spanning-tree portfast disable
+    - EtherChannel relies on existing switch ports. There is no need to upgrade the link to a faster and more expensive connection to have more bandwidth.
 
-```
+    - Load balancing takes place between links that are part of the same EtherChannel. Depending on the hardware platform, one or more load-balancing methods can be implemented. These methods include: 
 
-- _Optional:_ **For Root Bridge Backup** _(the backup "1" if root dies, another centered switch)_: 
+        - **Source MAC and destination MAC load balancing**
+        - **Source IP and destination IP load balancing.**
 
-```
+    - EtherChannel creates an aggregation that is seen as one logical link. When several EtherChannel bundles exist between two switches, STP may block one of the bundles to prevent switching loops. 
 
-SW(config)# spanning-tree mode rapid-pvst
+    - When STP blocks one of the redundant links, it blocks the entire EtherChannel. Again... just like one "fat" cable...that's all!!!
 
-SW(config)# spanning-tree vlan 10 root secondary
+    - EtherChannel provides redundancy because the overall link is seen as one logical connection. Additionally, the loss of one physical link within the channel does not create a change in the topology. 
 
-SW(config)# interface range Fa 0/1 - 24
-SW(config-if)# spanning-tree vlan 10 priority 4096
+    -Therefore, a **spanning tree recalculation is not required. Assuming at least one physical link is present; the EtherChannel remains functional, even if its overall throughput decreases because of a lost link within the EtherChannel.**
 
-SW(config-if)# spanning-tree bpduguard disable
-SW(config-if)# spanning-tree portfast disable
+### Restrictions in the Implementation of Etherchannel
 
-```
+- EtherChannel has certain implementation restrictions, including the following:
 
-- For the other Bridges **BETWEEN SWITCHES OR TRUNKS** (example: core switches) in the order you want or need (All the other switches except Root, only will change the BID for each one):
+    - Interface types cannot be mixed. For example, Fast Ethernet and Gigabit Ethernet cannot be mixed within a single EtherChannel.
 
-- Switch 2 (non-root switch "2" trunks & switches)
+    - Currently, each EtherChannel can consist of up to `**eight compatibly-configured Ethernet ports**`. 
 
-```
+    - **EtherChannel provides full-duplex bandwidth up to 800 Mbps (Fast EtherChannel) or 8 Gbps (Gigabit EtherChannel) between one switch and another switch or host.**
 
-SW(config)# spanning-tree mode rapid-pvst
+    - _The Cisco Catalyst 2960 Layer 2 switch currently supports up to six EtherChannels. However, as new IOSs are developed and platforms change, some cards and platforms may support increased numbers of ports within an EtherChannel link, as well as support an increased number of Gigabit EtherChannels. Always chack the manual of the switch_
 
-SW(config)# interface range Fa 0/1 - 24
-SW(config-if)# spanning-tree vlan 10 priority 8192
+    - The individual EtherChannel group member port configuration must be consistent on both devices: 
 
-SW(config-if)# spanning-tree bpduguard disable
-SW(config-if)# spanning-tree portfast disable
+        - If the physical ports of one side are configured as trunks, the physical ports of the other side must also be configured as trunks within the same native VLAN. 
 
-```
+        - **Additionally, all ports in each EtherChannel link must be configured as Layer 2 ports.**
 
-- For the other Bridges **BETWEEN HOSTS & ACCESS SWITCHES** (example: access switches) in the order you want or need (All the other switches except Root, only will change the BID for each one):
-
-- Switch 3 (non-root switch "3" access to hosts & end-devices)
-
-```
-
-SW(config)# spanning-tree mode rapid-pvst
-
-SW(config-if)# spanning-tree vlan 10 priority 12288
-
-SW(config-if)# spanning-tree bpduguard disable
-SW(config-if)# spanning-tree portfast disable
-
-```
-- Same with the other switches, just with another BID
-
-```
-  - Switch 5 (non-root switch "4") _access or trunk_ priority: [4]12288
-  - Switch 6 (non-root switch "5") _access or trunk_ priority: [5]16384
-  - Switch 7 (non-root switch "6") _access or trunk_ priority: [6]20480
-  - etc,etc,etc... 
-
-        - **From 7 chained switched, set more seconds on timers STP timers ;)** 
-
-```
-
-- Finally, set ALL the access ports of the Access Bridges (switches pointing to hosts & end devices).
-
-- We only need to add 2 commands on each access switch _(in this example Fa 0/1 - 21 : 23 & 24 are used as trunk)_ 
-
-```
-SW(config)# interface range Fa 0/1 - 22
-
-SW(config-if)# spanning-tree bpduguard enable
-SW(config-if)# spanning-tree portfast
-
-=-=-=-=-=--=-=- Copy & Paste =--=-=--=-=--=-
-
-!
-enable
-config t
-interface range Fa 0/1 - 22
-spanning-tree bpduguard enable
-spanning-tree portfast
-do wr
-end
-!
-
-=--=-=--=-=--=-=--=-=--=-=--=-=--=-=--=-=--=-
-
-```
-
-- And that's all with STP! We only need to: 
- 
-   1. Set Spanning-tree mode rapid-pvst (STP last version)
-   2. Set the Root-Bridge (switch 0)
-   3. Set BIDs (switch 1,2,3,4,5...etc)
-   4. Set BPDU & Port Fast (**Depending if it's `trunk{enabled}` or `access link{disabled}`**) 
-   6. _**Super Mega Optional:** Set Alternate & Backup Ports (only used in bridges, obsolete technology for noobs)_
-
-- Troubleshooting STP:
-
-```
-
-show spanning-tree vlan 1
-show spanning-tree vlan 10
-show spanning-tree vlan 666
-
-show spanning-tree summary totals
-
-
-```
-
-- Easy huh?! byebye!! :D... But well...here's the full nerd stuff:
-
----    
-
-- We are set with the "initial" config, let's start...        
-
-- STP is very easy if you remember just 2 things:
-
-**1- Triforce of STP rules** _1-Lowest Hop | 2-Lowest BID | 3-Lowest Port#_
-**2- Triforce of STP steps** _1-Select Root Port | 2-Select FWD/Designated Port | 3-Block everything else
-
-- **This are the Trifoce of STP rules (3 rules):**
-
-    1. Try Lowest cost by hop 
-        - It will count every "hop" and chooses shortest path with less hops = (hop=4)
-        - If all hops cost 4 or 8 or 16 or 32...etc is a tie! then:
-
-    2. Try lowest BID = It will choose the SW with less BID (like 1)
-        - If all BIDs are the same, like "32768"(default) is a tie! then:
-
-    3. Lowest port # or MAC = It will choose the lowest port ID # on the switch.
-        - The lowest Port on the switch, Fa0/1 = lowest, Fa0/24 = highest
-        - Lowest port will be the winner!
-
-- **This are the Triforce of STP steps (3 steps):**
-
-1. Select **just one `Root Port` in every switch**
-
-    - **All the ports pointing to Root Switch are Root Ports** "like zombies".
-    - Direct paths will always cost less
-    - Unclear direct paths will choose the way with less costs, using the `triforce of STP rules`
-
-        1. Try Lowest cost by hop 
-            - It will count every "hop" and chooses shortest path with less hops = (hop=4)
-            - If all hops cost 4 or 8 or 16 or 32...etc is a tie! then:
-
-        2. Try lowest BID = It will choose the SW with less BID (like 1)
-            - If all BIDs are the same, like "32768"(default) is a tie! then:
-
-        3. Port # = It will choose the lowest port # on the switch.
-            - It's supposed it never reach this part, because it's suposed we need to set the BID for all the switches on the network! So go back, and set the BIDs!!!            
-
-2. Select Forward (also known as Designated) Port, **one per sergment**
-
-    - **All the ports in Root Switch are Forward Ports** pointing to "the zombies"
-    - The **segment** means the link between 2 switches. Think about it as `side A` & `side B` of the cable.
-    - We need to choose one side of the segment (ethernet cable), that's it! we have all the ports on the root already:
-
-        1. **Root Switch - All ports are designated ports.**
-
-        2. **The other side of all `root ports` that we found on `step 1` will be designated ports.**
-
-        3. Switches wehre already have `root ports` selected but still other empty port, those empty ports are automatically designated ports! (usually access switches on 3 tier)         
-
-        4. Segments where both sides are empty and don't have root ports will choose the way with less costs, using the `triforce of STP rules`:
-
-            1. Try Lowest cost by hop 
-                - It will count every "hop" and chooses shortest path with less hops = (hop=4)
-                - If all hops cost 4 or 8 or 16 or 32...etc is a tie! then
-
-            2. Try lowest BID = It will choose the SW with less BID (like 1)
-                - If all BIDs are the same, like "32768"(default) is a tie! then:
-
-            3. Port # = It will choose the lowest port # on the switch.
-                - It's supposed it never reach this part, because it's suposed we need to set the BID for all the switches on the network! So go back, and set the BIDs!!!
-
-3. Select Alternate (Blocked) Ports. Easiest step on the Triforce...Block all the ports left! that's it! 
-
-    - All ports that still empty in the topology will be blocked, and that's it! Full STP!.     
+    - **A configuration applied to the port channel interface affects all physical interfaces that are assigned to that interface.**
 
 ---     
 
-### Spanning Tree Protocol
+### AutoNegotiation Protocols
 
--  **Spanning Tree Protocol (STP)** is a loop-prevention network protocol that allows for redundancy while creating a loop-free Layer 2 topology. 
+- EtherChannels can be formed through negotiation using one of two protocols:
 
-- `IEEE 802.1D` is the original IEEE MAC Bridging standard for STP.
+    - **Port Aggregation Protocol (PAgP)**
 
-- For example, if there's a redundancy between 3 switches STP will always block 1 way to prevent loops:
+    - **Link Aggregation Control Protocol (LACP)** 
 
+- **Note: It is also possible to configure a static or unconditional EtherChannel without PAgP or LACP.** 
+
+---   
+
+### PAgP Operation
+
+- **PAgP is a Cisco-proprietary protocol**
+
+- When an EtherChannel link is configured using `PAgP`, PAgP packets are sent between EtherChannel-capable ports to negotiate the forming of a channel. 
+
+- When PAgP identifies matched Ethernet links, it groups the links into an EtherChannel. The EtherChannel is then added to the spanning tree as a single port.
+
+- When enabled, PAgP also manages the EtherChannel. 
+
+- **PAgP packets are sent every 30 seconds.** 
+
+- PAgP checks for configuration consistency and manages link additions and failures between two switches. It ensures that when an EtherChannel is created, all ports have the same type of configuration.
+
+- **Note: In EtherChannel, it is mandatory that all ports have the same speed, duplex setting, and VLAN information. Any port-channel modification after the creation of the channel also changes the aggregated channel ports.**
+
+### PAgP Modes
+
+- **On**
+    - This mode forces the interface to channel without PAgP. 
+    - Interfaces configured in the on mode do not exchange PAgP packets.
+
+- **PAgP desirable**
+    - This PAgP mode places an interface in an active negotiating state in which the interface initiates negotiations with other interfaces by sending PAgP packets.
+
+- **PAgP auto**
+    - This PAgP mode places an interface in a passive negotiating state in which the interface responds to the PAgP packets that it receives but does not initiate PAgP negotiation.
+
+- The modes must be compatible on each side.
+
+- Consider the two switches in the figure. Whether SW1 and SW2 establish an EtherChannel using PAgP depends on the mode settings on each side of the channel:
 
 ```
+                <<---------PAgp---------------->>
 
-     SW1---------SW2
-        \       /
-         \     x  <--- STP will block this path 
-          \   /        everytime PC send traffic to SW1
-           \ /
-           SW3
-            |
-            |
-           PC1                              
+                            /\
+========     |1------------/--\----------------1|     ========
+MODE-SW1  SW1|            /    \PortChannel    +|SW2  MODE-SW2
+========     |2-----------\----/---------------2|     ========
+                           \  /
+                            \/
+```        
 
-```
+### PAgP Modes
 
-- But if the connection between SW1 & SW3 fails due to a cable fail, port or any kind of issue, STP will unblock the other way!
+| SW1         | SW2            | Channel Establishment  |
+|:-----------:|:--------------:|:----------------------:|
+| `On`        | `On`           | `Yes`                  |
+| On          | Desirable/Auto | No                     |
+| `Desirable` | `Desirable`    | `Yes`                  |
+| `Desirable` | `Auto`         | `Yes`                  |
+| `Auto`      | `Desirable`    | `Yes`                  |
+| Auto        | Auto           | No                     |
 
+- **Just follow the fz3r0 International-Standard for cool people and set both sides `ON`...easy!**
 
-```
-
-     SW1---------SW2
-        \       /
-FAIL!--> x     o   <--- STP will un-block this path 
-          \   /         creating redundancy! :D 
-           \ /
-           SW3
-            |
-            |
-           PC1                                
-
-```
-
-- That's it! now we have `Redundant Switch Links`
-
-### Issues with Redundant Switch Links
-
-- Path redundancy provides multiple network services by eliminating the possibility of a single point of failure. 
-
-- When multiple paths exist between two devices on an Ethernet network, and there is no spanning tree implementation on the switches, a Layer 2 loop occurs. 
-
-- A Layer 2 loop can result in MAC address table instability, link saturation, and high CPU utilization on switches and end-devices, resulting in the network becoming unusable.
-
-- In easy words: **We need to prevent loops when using redundant links, how? using STP!**
-
-### Layer 2 Loops
-
-- Without STP enabled, Layer 2 loops can form, causing broadcast, multicast and unknown unicast frames to loop endlessly.
-
-- **This can bring down a network within a very short amount of time, sometimes in just a few seconds.**
-
-### Broadcast Storm
-
-- A broadcast storm is an abnormally high number of broadcasts overwhelming the network during a specific amount of time.
-
-- Broadcast storms can disable a network within seconds by overwhelming switches and end devices. 
-
-- Broadcast storms can be caused by a hardware problem such as a faulty NIC or from a Layer 2 loop in the network... Or maybe by an attack of Broadcast Storm! ;) 
-
-- To prevent these issues from occurring in a redundant network, some type of spanning tree must be enabled on the switches. 
-
-- **Spanning tree is enabled, by default, on Cisco switches to prevent Layer 2 loops from occurring.**
+- _Or be a hater and use other combinations..._
 
 ---
 
-### Steps to a Loop-Free Topology
+### LACP Operation
 
-- Using the STA (Spanning Tree Algorythm), STP builds a loop-free topology in a four-step process:
+- **LACP is part of an IEEE specification (802.3ad)**
 
-    1- Elect the root bridge.
-    2- Elect the root ports.
-    3- Elect designated ports.
-    4- Elect alternate (blocked) ports.
+- LACP allows a switch to negotiate an automatic bundle by sending LACP packets to the other switch.
 
-- During STA and STP functions, switches use Bridge Protocol Data Units (BPDUs) to share information about themselves and their connections.
+- It performs a function similar to PAgP with Cisco EtherChannel.
 
-- **Each BPDU contains a bridge ID `BID` that identifies which switch sent the BPDU.**
+- Because LACP is an IEEE standard, it can be used to facilitate EtherChannels in multivendor environments. 
 
-- The `BID` is involved in making many of the STA decisions including root bridge and port roles.    
+- On Cisco devices, both protocols are supported.
 
-- The BID contains a priority value, an extended system ID, and the MAC address of the switch. The lowest BID value is determined by the combination of these three fields:
+- LACP provides the same negotiation benefits as PAgP:
 
-    1- Priority - If the Priority is the same then compares the Extended System ID:
-    2- Extended System ID - If the Priority is the same then compares the MAC Address
-    3- MAC Address - The MACs are unique smart boy ;) dead end. 
+    - LACP helps create the EtherChannel link by detecting the configuration of each side and making sure that they are compatible so that the EtherChannel link can be enabled when needed.
 
-### Bridge Priority   
+- The modes for LACP are as follows:
 
-- **The default priority value for all Cisco switches is the decimal value `32768`**
+- **On**
+    - This mode forces the interface to channel without LACP. 
+    - Interfaces configured in the on mode do not exchange LACP packets.
 
-- The range is 0 to 61440 in increments of **4096**.
+- **LACP active**
+    - This LACP mode places a port in an active negotiating state. 
+    - In this state, the port initiates negotiations with other ports by sending LACP packets.
 
-- A bridge priority of 0 takes precedence over all other bridge priorities.
+- **LACP passive**
+    - This LACP mode places a port in a passive negotiating state. 
+    - In this state, the port responds to the LACP packets that it receives but does not initiate LACP packet negotiation.
 
-### Elect the Root Bridge
+- Just as with PAgP, modes must be compatible on both sides for the EtherChannel link to form. 
 
-- The switch with the lowest BID will become the root bridge.
+- The on mode is repeated, because it creates the EtherChannel configuration unconditionally, without PAgP or LACP dynamic negotiation.
 
-- At first, all switches declare themselves as the root bridge with their own BID set as the Root ID. 
+- LACP allows for eight active links, and also eight standby links. A standby link will become active should one of the current active links fail.    
 
-- Eventually, the switches learn through the exchange of BPDUs which switch has the lowest BID and will agree on one root bridge.
+### LACP Modes
 
-- **To ensure that the root bridge decision best meets network requirements, it is recommended that the administrator configure the desired root bridge switch with a lower priority.**
+| SW1         | SW2            | Channel Establishment  |
+|:-----------:|:--------------:|:----------------------:|
+| `On`        | `On`           | `Yes`                  |
+| On          | Active/Passive | No                     |
+| `Active`    | `Active`       | `Yes`                  |
+| `Active`    | `Passive`      | `Yes`                  |
+| `Passive`   | `Active`       | `Yes`                  |
+| Passive     | Passive        | No                     |
 
----
+- **Just follow the fz3r0 International-Standard for cool people and set both sides `ON`...easy!**
 
-### STP Timers
-
-- STP convergence requires three timers, as follows:
-
-    1- Hello Timer:
-        - The hello time is the interval between BPDUs. 
-        - The default is 2 seconds but can be modified to between 1 and 10 seconds.
-
-    2- Forward Delay Timer:
-        - The forward delay is the time that is spent in the listening and learning state. 
-        - The default is 15 seconds but can be modified to between 4 and 30 seconds.
-
-    3- Max Age Timer: 
-        - The max age is the maximum length of time that a switch waits before attempting to change the STP topology. 
-        - The default is 20 seconds but be modified to between 6 and 40 seconds.
-        - Remember, STP is waiting for a fail and de redundant! So when Max Age timer is reached, boom! STP change the paths to the "blocked" ports, now are forward ports!!!
-
-- **Note: The default times can be changed on the root bridge, which dictates the value of these timers for the STP domain.**
-
-- **Note2: To avoid problems with STP, IEEE recommends a maximum diameter of seven switches when using the default STP timers.
-    - So, form more than 7 chained switches would be good to increment those timers and five some room to STP!!
-
-### STP Port States 
-
-- Dont' worry so much about this...just remember the 7 switch rule in Note2.
-
-- Everytime a switch is turned on the port states changes in STP to determine the root and all the topology automatically so... these are the states:
-
-- Link comes up -> Blocking(All are root) -> Listening(listen to neighbors) -> Learning(learn from bpdus from neighbors) -> Forwarding (STP topology ready)
-
-- Port States: 
-
-    - **Blocking:**    
-        - The port is an alternate port and does not participate in frame forwarding. 
-        - The port receives BPDU frames to determine the location and root ID of the root bridge.
-        - BPDU frames also determine which port roles each switch port should assume in the final active STP topology. 
-        - With a Max Age timer of 20 seconds, a switch port that has not received an expected BPDU from a neighbor switch will go into the blocking state.
-
-    - **Listening:**
-        - After the blocking state, a port will move to the listening state. 
-        - The port receives BPDUs to determine the path to the root. 
-        - The switch port also transmits its own BPDU frames and informs adjacent switches that the switch port is preparing to participate in the active topology.
-
-    - **Learning:**
-        - A switch port transitions to the learning state after the listening state. 
-        - During the learning state, the switch port receives and processes BPDUs and prepares to participate in frame forwarding. 
-        - It also begins to populate the MAC address table. 
-        - However, in the learning state, user frames are not forwarded to the destination.
-
-    - **Forwarding:** 
-        - In the forwarding state, a switch port is considered part of the active topology. 
-        - The switch port forwards user traffic and sends and receives BPDU frames.
-
-    - **Disabled**    
-        - A switch port in the disabled state does not participate in spanning tree and does not forward frames. 
-        - The disabled state is set when the switch port is administratively disabled     
-
----        
-
-### PVST - Per-VLAN Spanning Tree
-
-- Up until now, we have discussed STP in an environment where there is only one VLAN. 
-
-- However, STP can be configured to operate in an environment with multiple VLANs.
-
-- **In Per-VLAN Spanning Tree (PVST) versions of STP, there is a root bridge elected for each spanning tree instance.** 
-
-- **This makes it possible to have different root bridges for different sets of VLANs.**
-
-- **STP operates a separate instance of STP for each individual VLAN. If all ports on all switches are members of VLAN 1, then there is only one spanning tree instance.**
-
-- In resume...if you have VLANs in your network then: configure STP on each VLAN!!! that's PVST!!!
+- _Or be a hater and use other combinations..._
 
 ---
 
-### Different Versions of STP
+### Configuration Guidelines
 
-- Spanning Tree Protocol and the acronym STP, which can be misleading. Many professionals generically use these to refer to the various implementations of spanning tree, such as **Rapid Spanning Tree Protocol (RSTP) and Multiple Spanning Tree Protocol (MSTP).** 
+The following guidelines and restrictions are useful for configuring EtherChannel:
 
-- RSTP (IEEE 802.1w) supersedes the original 802.1D while retaining backward compatibility. The 802.1w STP terminology remains primarily the same as the original IEEE 802.1D STP terminology. Most parameters have been left unchanged. Users that are familiar with the original STP standard can easily configure RSTP. The same spanning tree algorithm is used for both STP and RSTP to determine port roles and topology.
+- 
 
-- Rapid PVST+ is the Cisco implementation of RSTP on a per-VLAN basis. With Rapid PVST+ an independent instance of RSTP runs for each VLAN.
 
-| STP Variety    | Description                                                                                  |
-|:--------------:|:--------------------------------------------------------------------------------------------:|
-| STP            | This is the original IEEE 802.1D version (802.1D-1998 and earlier) that provides a loop-free topology in a network with redundant links. Also called Common Spanning Tree (CST), it assumes one spanning tree instance for the entire bridged network, regardless of the number of VLANs.
-| PVST+          | Per-VLAN Spanning Tree (PVST+) is a Cisco enhancement of STP that provides a separate 802.1D spanning tree instance for each VLAN configured in the network. PVST+ supports PortFast, UplinkFast, BackboneFast, BPDU guard, BPDU filter, root guard, and loop guard.
-| RSTP           | Rapid Spanning Tree Protocol (RSTP) or IEEE 802.1w is an evolution of STP that provides faster convergence than STP. |
-| 802.1D-2004    | This is an updated version of the STP standard, incorporating IEEE 802.1w. |
-| Rapid PVST+    | This is a Cisco enhancement of RSTP that uses PVST+ and provides a separate instance of 802.1w per VLAN. Each separate instance supports PortFast, BPDU guard, BPDU filter, root guard, and loop guard.
-| MSTP           | Multiple Spanning Tree Protocol (MSTP) is an IEEE standard inspired by the earlier Cisco proprietary Multiple Instance STP (MISTP) implementation. MSTP maps multiple VLANs into the same spanning tree instance. |
-| MST            | Multiple Spanning Tree (MST) is the Cisco implementation of MSTP, which provides up to 16 instances of RSTP and combines many VLANs with the same physical and logical topology into a common RSTP instance. Each instance supports PortFast, BPDU guard, BPDU filter, root guard, and loop guard. |
 
-### PortFast & BPDU Guard
 
-- Portfast: Could always be enabled in access ports (to Hosts or End Users).
-    - When a switch port is configured with PortFast, that port transitions from blocking to forwarding state immediately, bypassing the usual 802.1D STP transition states (the listening and learning states) and avoiding a 30 second delay. 
 
-- BPDU guard: Always disabled in access ports (to Hosts or End Users). This are "messages" (BPDUs) used by STP between switches. 
-    - This must be un-set always in access ports for security!       
-    - BPDUs should never be received on PortFast-enabled switch ports because that would indicate that another bridge or switch is connected to the port.
+
+
+
 
 ---
 
