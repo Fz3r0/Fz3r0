@@ -27,6 +27,7 @@
 
 
 
+
 ### SW1 (ROOT-BRIDGE FOR STP)
 
 - SW1 Gi 0/1-2 to > SW2 Gi 0/1-2 **`STATIC`** _(ON)_
@@ -409,6 +410,19 @@ exit
 !
 
 ```
+
+### Security Best Practices & Standards
+
+- Secure and Harden the Network like a sir ;) 
+
+
+```
+
+
+
+```
+
+
 
 
 
