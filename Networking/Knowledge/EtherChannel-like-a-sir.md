@@ -67,6 +67,8 @@ SW1(config)# interface range FastEthernet 0/1 - 2
 SW1(config-if-range)# channel-group 666 mode on
 Creating a port-channel interface Port-channel 666
 
+SW1(config-if-range)# no shut
+
 ```     
 
 3. If you need to change Layer 2 settings on the port channel interface, for example, making it a trunk link. Enter port channel interface configuration mode using the `interface port-channel` command, followed by the interface identifier.
