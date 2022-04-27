@@ -12,21 +12,18 @@
 
 ---
 
-#### Keywords: `Networking` `Routing & Switching` `CCNA` `CCNP` `STP`
+#### Keywords: `Networking` `Routing & Switching` `CCNA` `CCNP` `EtherChannel` `PortChannel`
 
 ---
 
 #### Packet Tracer Lab Files & Topology
 
-[**<< DOWNLOAD FILES >>**](https://github.com/Fz3r0/Fz3r0/files/8567524/5___fz3r0_OPs_Routing_._Switching_STP_Bible_3_leaf_datacenter.zip)
+[**<< DOWNLOAD FILES >>**]
 
-![image](https://user-images.githubusercontent.com/94720207/165462904-db720ff7-d0d2-4821-9e05-892510d7443d.png)
+![image](https://user-images.githubusercontent.com/94720207/165641799-809a40c4-1ad2-4f3f-8487-64767a2913e6.png)
+
 
 ---
-
-
-
-
 
 ### SW1 (ROOT-BRIDGE FOR STP)
 
@@ -434,6 +431,19 @@ exit
 
 
 ```
+
+---
+
+### References
+
+
+---
+
+> ![hecho en mex3 (1)mini](https://user-images.githubusercontent.com/94720207/163919294-2754caa3-c98c-4df3-b782-00703e4d3343.png)
+>
+> _- Hecho en México - by [Fz3r0 💀](https://github.com/Fz3r0/)_ 
+>
+> _"In the mist of the night you could see me come, where shadows move and Demons lie..."_ 
 
 
 
