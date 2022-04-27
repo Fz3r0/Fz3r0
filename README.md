@@ -343,7 +343,7 @@
         - https://github.com/Fz3r0/PowerTools powershell
  
   - [Cyber-Weapons & Tools]
-   
+     - [Blackhat Arsenal Tools](https://github.com/toolswatch/blackhat-arsenal-tools) _Official Black Hat Arsenal Database_
      - [Cyber-Weapons & Tools Database](/Cyber-Security-&-Hacking/Cyber-Weapons-Tools/Cyber-Weapons-Tools-DB.md)
   
   - [Payloads & Reverse Shell]
