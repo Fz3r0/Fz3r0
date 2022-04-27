@@ -18,7 +18,8 @@
 
 #### Packet Tracer Lab Files & Topology
 
-[**<< DOWNLOAD FILES >>**]
+[**<< DOWNLOAD FILES >>**](https://github.com/Fz3r0/Fz3r0/files/8578198/7___fz3r0_OPs_Routing_._Switching_EtherChannel_PAgP_LACP_Static_All_in_one.zip)
+
 
 ![image](https://user-images.githubusercontent.com/94720207/165641799-809a40c4-1ad2-4f3f-8487-64767a2913e6.png)
 
