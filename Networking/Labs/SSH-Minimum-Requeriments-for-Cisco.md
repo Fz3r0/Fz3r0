@@ -3,7 +3,7 @@
 
 ### Fz3r0 Operations  [Networking]
 
-### Fz3r0 Secure Networking Labs - EtherChannel Like a Sir
+### Fz3r0 Secure Networking Labs - SSH Minimum Requeriments
 
 ---
 
@@ -12,7 +12,7 @@
 
 ---
 
-#### Keywords: `Networking` `Routing & Switching` `CCNA` `CCNP` `EtherChannel` `PortChannel`
+#### Keywords: `Networking` `Routing & Switching` `CCNA` `CCNP` `SSH` `TLS/SSL`
 
 ---
 
