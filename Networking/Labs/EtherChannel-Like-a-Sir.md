@@ -24,6 +24,8 @@
 
 ---
 
+
+
 ### SW1 (ROOT-BRIDGE FOR STP)
 
 - SW1 Gi 0/1-2 to > SW2 Gi 0/1-2 **`STATIC`** _(ON)_
@@ -34,7 +36,7 @@
 
 enable
 configure terminal
-interface range GigabitEthernet 0/1 - 1
+interface range GigabitEthernet 0/1 - 2
 shutdown
 channel-group 1 mode ON
 no shutdown
@@ -199,12 +201,12 @@ enable
 configure terminal
 interface range FastEthernet 0/10 - 13
 shutdown
-channel-group 3 mode DESIRABLE
+channel-group 2 mode DESIRABLE
 no shutdown
 exit
 !
 !
-interface port-channel 3
+interface port-channel 2
 shutdown
 switchport mode trunk
 switchport trunk allowed vlan 1,10,20,40,99,666
@@ -216,12 +218,12 @@ exit
 !
 interface range FastEthernet 0/10 - 13
 shutdown
-channel-group 2 mode PASSIVE
+channel-group 3 mode PASSIVE
 no shutdown
 exit
 !
 !
-interface port-channel 2
+interface port-channel 3
 shutdown
 switchport mode trunk
 switchport trunk allowed vlan 1,2,10,20,99
@@ -240,4 +242,5 @@ exit
 !
 
 ```
+
 
