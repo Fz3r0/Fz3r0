@@ -24,8 +24,6 @@ ip default-gateway 192.168.100.254
 
 ```
 
-``
-
 - **NOTE: USE LOOPBACK, INTERFACES OR SUB-INTERFACES ON ROUTERS AS DEFAULT GATEWAY:**
 
 ```
@@ -45,6 +43,8 @@ ip address 10.10.10.10 255.255.255.255
 exit
 
 ```
+
+- **SSH configuration**
 
 ```
 
