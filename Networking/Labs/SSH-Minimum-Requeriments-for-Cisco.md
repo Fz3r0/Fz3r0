@@ -30,7 +30,7 @@ ip domain-name Fz3r0.domain
 !
 hostname << Device-Name Fz3r0 >>
 !
-enable secret cisco12345
+enable secret fz3r012345
 service password-encryption
 security passwords min-length 10
 login block-for 120 attempts 3 within 60
@@ -39,7 +39,7 @@ username root privilege 15 secret cisco12345
 username user privilege 10 secret cisco12345
 !
 line console 0
-password cisco12345
+password fz3r012345
 login
 logging synchronous
 exec-timeout 5 30
