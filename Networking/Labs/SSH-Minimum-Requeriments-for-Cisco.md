@@ -16,9 +16,13 @@
 
 ---
 
+1. [Secure Login & SSH configuration on Cisco Devices]
+2. Cisco Auto Secure Configuration
+3. Disable Unused Services
 
+---
 
-- **Secure Login & SSH configuration for Cisco Devices**
+### Secure Login & SSH configuration for Cisco Devices
 
 ```
 
@@ -130,6 +134,20 @@ description << loopback 10.10.10.10 >>
 ip address 10.10.10.10 255.255.255.255
 exit
 
+```
+
+---
+
+### Cisco Auto Secure Configuration
+
+```
+```
+
+---
+
+### Disable Unused Services
+
+```
 ```
 
 ---
