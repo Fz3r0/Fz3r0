@@ -279,7 +279,8 @@
         - AAA Standards
         - IEEE 802.1X: Port-based Access Control & Authentication
  
-    - Layer 2 Attacks Mitigation
+    - Layer 2 & Layer 3 Attacks Mitigation on Cisco Devices
+        - [Cisco Auto Security Configuration](https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst4500/XE3-6-0E/15-22E/configuration/guide/xe-360-config/auto_sec.pdf)
         - Port Security  
         - DHCP Snooping
         - Dynamic ARP Inspection (DAI)
