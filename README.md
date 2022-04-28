@@ -205,6 +205,7 @@
     - https://github.com/Fz3r0/Cisco-IOS-Command-CheatSheets
     - [Fz3r0's Spaning Tree Protocol (STP) config guide for cool people](/Networking/Knowledge/STP-for-dummies.md) _My guide for config STP like a pro_
     - [Fz3r0's Ether-Channel config guide for cool people](/Networking/Knowledge/EtherChannel-like-a-sir.md) _My guide for config Ether-Channel like a pro_
+    - [Fixing Kali VM Bridge Network [VMware] (GNS3 + Hacking Labs = ETH kaput!)]() _Easy fix to the bridge VMware incidence_
 
 - [Secure Network Labs by @ Fz3r0]
     - Lab f0 > [Pro Configs @ Best Practices, Security Standards & SSH Logins](/Networking/Labs/SSH-Minimum-Requeriments-for-Cisco.md) _For any Cisco device (IOS)_
