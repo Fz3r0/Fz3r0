@@ -367,14 +367,16 @@
   
         - Linux
   
-   - [Fz3r0 Cyber-Weaponry Crafting, Tools Programming & Open Source Projects]
+    - [Fz3r0 Cyber-Weaponry Crafting, Tools Programming & Open Source Projects]
   
-      - [Python]
-          - [QR Code Generator from a string]()
+        - [Python]
+            - [QR Code Generator from a string]()
+        - [C]
+            - [Compile C code in Linux](https://www.atechtown.com/c-program-in-linux/)
   
-      - [Batch]
-      - [Bash]
-      - [Go]
+        - [Batch]
+        - [Bash]
+        - [Go]
  
   - [Malware]
   
