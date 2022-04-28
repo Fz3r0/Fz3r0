@@ -3,7 +3,7 @@
 
 ### Fz3r0 Operations  [Networking]
 
-### Fz3r0 Secure Networking Labs - SSH Configuration like a Sir
+### Fz3r0 Secure Networking Labs - Secure Login & SSH Configuration like a Sir
 
 ---
 
@@ -18,7 +18,7 @@
 
 
 
-- **SSH configuration for Cisco Devices**
+- **Secure Login & SSH configuration for Cisco Devices**
 
 ```
 
