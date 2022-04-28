@@ -17,8 +17,9 @@
 ---
 
 1. [Secure Login & SSH configuration on Cisco Devices]
-2. Cisco Auto Secure Configuration
-3. Disable Unused Services
+2. [Cisco Auto Secure Configuration]
+3. [Disable Unused Services]
+4. [Aditional Security Configuration for Cisco Devices & Network]
 
 ---
 
