@@ -205,7 +205,7 @@
     - https://github.com/Fz3r0/Cisco-IOS-Command-CheatSheets
     - [Fz3r0's Spaning Tree Protocol (STP) config guide for cool people](/Networking/Knowledge/STP-for-dummies.md) _My guide for config STP like a pro_
     - [Fz3r0's Ether-Channel config guide for cool people](/Networking/Knowledge/EtherChannel-like-a-sir.md) _My guide for config Ether-Channel like a pro_
-    - [Fixing Kali VM Bridge Network [VMware] (GNS3 + Hacking Labs = ETH kaput!)]() _Easy fix to the bridge VMware incidence_
+
 
 - [Secure Network Labs by @ Fz3r0]
     - Lab f0 > [Pro Configs @ Best Practices, Security Standards & SSH Logins](/Networking/Labs/SSH-Minimum-Requeriments-for-Cisco.md) _For any Cisco device (IOS)_
@@ -218,9 +218,10 @@
     - Lab 06 > [Secure RSTP & Rapid PVST+STP (aka STP) in 3-leaf-spine Data Center](/Networking/Labs/STP-3-Leaf-Spine-(1VLAN).md) _GNS3_
     - Lab 07 > [EtherChannel all in one! LACP, PAgP & Static + RSTP+](/Networking/Labs/EtherChannel-Like-a-Sir.md) _Packet Tracer_
  
-- [Network Troubleshooting ]
+- [Network Troubleshooting]
     - [Toubleshooting Network Access Layer Issues](https://user-images.githubusercontent.com/94720207/164993410-32b7e351-f9a3-4b77-b9d7-08bf74b13da2.png)
     - [Cut-Throught & Store-and-forward Switching](https://user-images.githubusercontent.com/94720207/164997743-d42dbae9-edb4-4f83-ae44-16cb5eab2fd4.png)
+    - [Fixing Kali VM Bridge Network [VMware] (GNS3 + Hacking Labs = ETH kaput!)](/Networking/Knowledge/Troubleshooting/Kali-Bridge-Issue-ETH.md) _Easy fix to the bridge VMware incidence_
 
 
  
