@@ -77,7 +77,7 @@
 
 <p align="center"> <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/6/64/Cisco_logo.svg" alt="cisco" width="7%" height="auto"/> </a> <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"> <img src="https://ruckus-shared-webassets.s3.amazonaws.com/logos/commscope_logo_white.png" alt="ruckus-commscope" width="13.5%" height="auto"/> </a> <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"> <img src="https://logodix.com/logo/355489.png" alt="ruckus" width="10%" height="auto"/> </a> <img src="https://www.atomit.com.sg/wp-content/uploads/2017/02/Logo_Aruba.png" alt="Aruba" width="9%" height="auto"/>
   
-
+ <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"> <img src="https://images.credly.com/size/340x340/images/70d71df5-f3dc-4380-9b9d-f22513a70417/CCNAITN__1_.png" alt="Netacad1" width="5%" height="auto"/>
 
   
   
