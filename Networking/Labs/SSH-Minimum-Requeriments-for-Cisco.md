@@ -17,13 +17,17 @@
 ---
 
 1. [Secure Login & SSH configuration on Cisco Devices]
-2. [Cisco Auto Secure Configuration]
-    - **MANUAL CONFIG**
+
+3. [Cisco Auto Secure Configuration]
+
+    - Manual Secure:
         - DHCP Snooping
         - Dynamic ARP Inspection
         - Port Security 
+      
 4. [Disable Unused Services]
-5. [Aditional Security Configuration for Cisco Devices & Network]
+
+6. [Aditional Security Configuration for Cisco Devices & Network]
 
 ---
 
