@@ -16,7 +16,17 @@
 
 ---
 
-- **NOTE: ADD MANUALLY A DEFAULT GATEWAY IN CASE OF A SWITCH:**
+- **NOTE: ADD MANUALLY A DEFAULT GATEWAY AND SVI IN CASE OF A SWITCH:**
+
+```
+
+interface vlan 100
+description << Switch 1 Admin/SSH >>
+ip address 192.168.100.1 255.255.255.0
+no shutdown 
+exit
+
+```
 
 ```
 
@@ -44,7 +54,7 @@ exit
 
 ```
 
-- **SSH configuration**
+- **SSH configuration for Cisco Devices**
 
 ```
 
