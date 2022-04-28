@@ -21,7 +21,7 @@
 ```
 
 interface vlan 100
-description << Fz3r0 - Cisco Device X | Admin/SSH >>
+description << Switch SVI (Virtual Interface) | Admin/SSH >>
 ip address 192.168.100.1 255.255.255.0
 no shutdown 
 exit
