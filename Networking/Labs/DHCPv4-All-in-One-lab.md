@@ -28,7 +28,7 @@
 ### Scenario
 
 1. Configuring a Cisco router as a DHCP server to provide dynamic allocation of addresses to clients on the network. 
-2. Configure the **edge router as a DHCP clien**t so that it receives an IP address from the ISP network. 
+2. Configure the **edge router as a DHCP client** so that it receives an IP address from the ISP network. 
 3. Since the server is centralized, configure the two LAN routers to relay DHCP traffic between the LANs and the router that is serving as the DHCP server.
 
 ---
@@ -103,6 +103,10 @@ exit
 !
 
 ```
+
+---
+
+
 
 
 ---
