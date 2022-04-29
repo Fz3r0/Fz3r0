@@ -76,13 +76,22 @@
 4. DHCP **Acknowledgment** `DHCPACK`
     - On receiving the DHCPREQUEST message, the server may verify the lease information with an ICMP ping to that address to ensure it is not being used already, it will create a new ARP entry for the client lease, and reply with a DHCPACK message.
 
+![image](https://user-images.githubusercontent.com/94720207/165873846-78a2616b-aa7f-4c46-bb9b-218204a79534.png)
+
 ### Steps to Renew a Lease
 
-Prior to lease expiration, the client begins a two-step process to renew the lease with the DHCPv4 server
+- **Prior to lease expiration**, the client begins a two-step process to renew the lease with the DHCPv4 server
 
+1. DHCP Request (DHCPREQUEST)
+    - Before the lease expires, the client sends a `DHCPREQUEST` message directly to the DHCPv4 server that originally offered the IPv4 address. 
+    - If a `DHCPACK` is not received within a specified amount of time, the client broadcasts another `DHCPREQUEST` so that one of the other DHCPv4 servers can extend the lease.
 
+2. DHCP Acknowledgment (DHCPACK)
+    - On receiving the `DHCPREQUEST` message, the server verifies the lease information by returning a `DHCPACK`.
 
+![image](https://user-images.githubusercontent.com/94720207/165874138-d6c33bdd-6627-480a-875c-0dfe605dbbbb.png)
 
+Note: These messages (primarily the DHCPOFFER and DHCPACK) can be sent as unicast or broadcast according to IETF RFC 2131.
 
 ---
 
