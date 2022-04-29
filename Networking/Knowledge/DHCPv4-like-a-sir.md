@@ -18,15 +18,15 @@
    
 ### Configure Cisco IOS DHCPv4 Server like a sir:
 
-- **< Option1: Straight to the point Configuration >**
+- < **Option1**: Straight to the point Configuration >
 
-- **< Option2: Step by Step Configuration >**
+- < **Option2**: Step by Step Configuration >
 
 ### Configure Cisco IOS DHCPv4 Client like a sir:
 
-- **< Option1: Straight to the point Configuration >**
+- < **Option1**: Straight to the point Configuration >
 
-- **< Option2: Step by Step Configuration >**
+- < **Option2**: Step by Step Configuration >
 
 ### Troubleshooting & Knowledge:
 
