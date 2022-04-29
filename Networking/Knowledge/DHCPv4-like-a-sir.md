@@ -30,11 +30,57 @@
 
 - Cisco Router IOS:
 
-```
-
-
+- Sintax:
 
 ```
+
+R1(config)# ip dhcp excluded-address 192.168.1.1 192.168.1.100
+R1(config)# ip dhcp excluded-address 192.168.1.254
+R1(config)# ip dhcp pool fz3r0_DHCP_pool_1
+R1(dhcp-config)# network 192.168.1.0 255.255.255.00
+R1(dhcp-config)# default-router 192.168.1.254
+R1(dhcp-config)# dns-server 1.1.1.1
+R1(dhcp-config)# domain-name fz3r0_domain.gov
+R1(dhcp-config)# end
+R1#
+
+```
+
+- Copy
+
+```
+enable
+configure terminal
+!
+!
+ip dhcp excluded-address 192.168.1.1 192.168.1.100
+ip dhcp excluded-address 192.168.1.254
+!
+ip dhcp pool fz3r0_DHCP_pool_1
+!
+network 192.168.1.0 255.255.255.0
+default-router 192.168.1.254
+dns-server 1.1.1.1
+domain-name fz3r0_domain.gov
+!
+!
+end
+exit
+!
+!
+
+```
+
+Table:
+
+| Task	                                    | IOS Command                                      |
+|:------------------------------------------:|:-------------------------------------------------|
+| Define the address pool                    | network network-number [mask | / prefix-length]  |
+| Define the default router or gateway.	   | default-router address [ address2….address8]     |
+| Define a DNS server.	                     | dns-server address [ address2…address8]          |
+| Define the domain name.	                  | domain-name domain                               |
+| Define the duration of the DHCP lease.	   | lease {days [hours [ minutes]] | infinite}       |
+| Define the NetBIOS WINS server.	         | netbios-name-server address [ address2…address8] |
 
 ---
 
@@ -78,9 +124,9 @@ exit
 
 2. **Define a DHCPv4 pool name.**
 
-- Configuring a DHCPv4 server involves defining a pool of addresses to assign.
+    - Configuring a DHCPv4 server involves defining a pool of addresses to assign.
 
-- As shown in the example, the ip dhcp pool pool-name command creates a pool with the specified name and puts the router in DHCPv4 configuration mode, which is identified by the prompt Router(dhcp-config)#.
+    - As shown in the example, the ip dhcp pool pool-name command creates a pool with the specified name and puts the router in DHCPv4 configuration mode, which is identified by the prompt Router(dhcp-config)#.
 
 - Sintax:
 
@@ -125,8 +171,12 @@ exit
 
 ```
 
-Router(config)# ip dhcp pool pool-name
-Router(dhcp-config)# 
+R1(dhcp-config)# network 192.168.1.0 255.255.255.00
+R1(dhcp-config)# default-router 192.168.1.254
+R1(dhcp-config)# dns-server 1.1.1.1
+R1(dhcp-config)# domain-name fz3r0_domain.gov
+R1(dhcp-config)# end
+R1#
 
 ```
 
@@ -137,13 +187,17 @@ Router(dhcp-config)#
 enable
 configure terminal
 !
-ip dhcp pool pool-name
+network 192.168.1.0 255.255.255.0
+default-router 192.168.1.254
+dns-server 1.1.1.1
+domain-name fz3r0_domain.gov
 !
+end
 exit
+!
 !
 
 ```
-
 
 ---
 
