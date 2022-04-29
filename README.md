@@ -27,6 +27,7 @@
 
 -->
 
+
 <!--
 
 *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
@@ -41,7 +42,12 @@
 
 <h3 align="center">💀 Fz3r0 💀</h3>
 
-![githubicon](https://user-images.githubusercontent.com/94720207/165899992-0dcfb62a-72d7-4dad-b2f2-e38c531aad78.png)
+
+##### ![twitter](https://user-images.githubusercontent.com/94720207/165900471-487b7409-3c1a-4e4c-a940-2defe52a0c96.png)  Twitter  : [@fz3r0_OPs](https://twitter.com/Fz3r0_OPs) 
+##### ![githubicon](https://user-images.githubusercontent.com/94720207/165899992-0dcfb62a-72d7-4dad-b2f2-e38c531aad78.png) Github   : [Fz3r0](https://github.com/fz3r0) 
+
+
+
 
 ![linkedin](https://user-images.githubusercontent.com/94720207/165900240-493f86be-f511-4a16-8a83-d681c6954b50.png)
 
