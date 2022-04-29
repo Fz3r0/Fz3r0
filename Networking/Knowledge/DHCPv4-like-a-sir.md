@@ -287,19 +287,11 @@ exit
 
 ---
 
-### Configure Cisco IOS DHCPv4 Client like a sir
-
-### Step by Step Configuration:
-
-- There are scenarios where you might have access to a DHCP server through your ISP. In these instances, you can configure a Cisco IOS router as a DHCPv4 client. This topic walks you through that process.
-
-- Sometimes, Cisco routers in a small office or home office (SOHO) and branch sites have to be configured as DHCPv4 clients in a similar manner to client computers.
-
-- The method used depends on the ISP. However, in its simplest configuration, the Ethernet interface is used to connect to a cable or DSL modem.
-
 ### Cisco Router as a DHCP Client step by step:
 
 1. To configure an Ethernet interface as a DHCP client, use the `ip address dhcp` interface configuration mode command.
+
+- Syntax:
 
 ```
 
@@ -311,7 +303,24 @@ Sep 12 10:01:25.773: %DHCP-6-ADDRESS_ASSIGN: Interface GigabitEthernet0/0/1 assi
 
 ```
 
+- Copy:
+
+```
+
+enable
+configure terminal
+!
+interface G0/0/1
+ip address dhcp
+no shutdown
+!
+!
+
+```
+
 2. The show ip interface g0/0/1 command confirms that the interface is up and that the address was allocated by a DHCPv4 server.
+
+- Syntax:
 
 ```
 
@@ -323,7 +332,16 @@ GigabitEthernet0/0/1 is up, line protocol is up  <<<------| Up! :D
   Address determined by DHCP
 (output omitted)
 
-```     
+``` 
+
+- Copy:
+
+```
+
+show ip interface g0/0/1
+!
+
+```
 
 ---
 
