@@ -41,7 +41,10 @@
 
 <h3 align="center">💀 Fz3r0 💀</h3>
 
-https://cdn1.iconfinder.com/data/icons/fletro-long-shadow-internet-shortcuts/128/Github.png
+![githubicon](https://user-images.githubusercontent.com/94720207/165899992-0dcfb62a-72d7-4dad-b2f2-e38c531aad78.png)
+
+![linkedin](https://user-images.githubusercontent.com/94720207/165900240-493f86be-f511-4a16-8a83-d681c6954b50.png)
+
 
 ##### Twitter  : [@fz3r0_OPs](https://twitter.com/Fz3r0_OPs) 
 ##### Github   : [Fz3r0](https://github.com/fz3r0) 
