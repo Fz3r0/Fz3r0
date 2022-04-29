@@ -16,7 +16,61 @@
 
 ---
    
-### Configure Etherchannel like a Sir straight to the point!
+### Configure Cisco IOS DHCPv4 Server like a sir:
+
+### Straight to the point:
+
+- Cisco Router IOS:
+
+```
+
+
+
+```
+
+### Step by Step:
+
+- Steps to follow:
+
+1. Exclude IPv4 addresses.
+2. Define a DHCPv4 pool name.
+3. Configure the DHCPv4 pool.
+
+- Config Step by Step:
+
+1. **Exclude IPv4 addresses:**
+    - Exclude all the IPs used by other devices on the network
+    - Select a range (or only 1 IP) that you want to exclude _(for example a pool of 20 IPs from 1.1.1.10-1.1.1.20)_
+
+- Sintax:
+
+```
+
+Router(config)# ip dhcp excluded-address low-address [high-address]
+
+```
+
+- Copy:
+
+```
+
+enable
+configure terminal
+!
+ip dhcp excluded-address 192.168.1.1 192.168.1.100
+!
+ip dhcp excluded-address 192.168.1.254
+!
+exit
+!
+
+```
+
+2. **Define a DHCPv4 pool name.**
+
+Configuring a DHCPv4 server involves defining a pool of addresses to assign.
+
+
 
 ---
 
