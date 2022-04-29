@@ -134,6 +134,7 @@
 -->
   
 ---
+--- 
  
 <span align="center"> <h3 align="center"> IMPORTANT DISCLAIMER </h3> </span>
 
@@ -153,7 +154,6 @@
  _Herodotus_
  
 ---
-
 --- 
  
 <!--
@@ -188,8 +188,6 @@
 *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
 
 -->    
-
---- 
  
 <span align="center"> <h1 align="center"> INDEX </h3> </span>   
     
