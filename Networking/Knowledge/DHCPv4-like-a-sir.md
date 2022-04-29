@@ -18,6 +18,12 @@
    
 ### Configure Cisco IOS DHCPv4 Server like a sir:
 
+- **< Option1: Straight to the point Configuration >**
+
+- **< Option2: Step by Step Configuration >**
+
+- **< Option3: Nerd Bible about this configuration >**
+
 ### Straight to the point:
 
 - Cisco Router IOS:
