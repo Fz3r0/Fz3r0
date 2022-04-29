@@ -142,7 +142,7 @@
   
   - The reason this repository is publicly accessible is because it shares the GNU free software ideology and philosophy, it means the freedom to run the software, to study the software, to modify the software, and to share copies of the software (whether modified or not). I believe that everyone in the world need to know about computers and networking for free, that would make the world a better place.
  
-     I believe that all people should know about computer science and technology, which would make this a better world. In addition to leaving a small footprint of human capacity in this tiny instant of time and infinite universe.
+     I believe that all people should know about computer science and technology for free and can accesible for everyone, which would make this world a better place, in addition to leaving a small footprint of human capacity in this tiny instant of time and in this infinite universe. No more war and hunger, give the people food and computers! 
   
   - All the scripts, binaries, software, techniques, programs, directories, databases of this repository should be used ONLY for authorized penetration testing, networking laboratories and/or educational purposes. 
   
