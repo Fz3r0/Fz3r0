@@ -78,8 +78,71 @@ exit
 
 2. **Define a DHCPv4 pool name.**
 
-Configuring a DHCPv4 server involves defining a pool of addresses to assign.
+- Configuring a DHCPv4 server involves defining a pool of addresses to assign.
 
+- As shown in the example, the ip dhcp pool pool-name command creates a pool with the specified name and puts the router in DHCPv4 configuration mode, which is identified by the prompt Router(dhcp-config)#.
+
+- Sintax:
+
+```
+
+Router(config)# ip dhcp pool pool-name
+Router(dhcp-config)# 
+
+```
+
+- Copy:
+
+```
+
+enable
+configure terminal
+!
+ip dhcp pool pool-name
+!
+exit
+!
+
+```
+
+3. **Configure the DHCPv4 Pool**
+
+- **The address pool and default gateway router must be configured:**
+    
+    - Use the `network` statement to define the range of available addresses.
+    - Use the `default-router` command to define the default gateway router. 
+
+| Task	                                    | IOS Command                                      |
+|:------------------------------------------:|:-------------------------------------------------|
+| Define the address pool                    | network network-number [mask | / prefix-length]  |
+| Define the default router or gateway.	   | default-router address [ address2….address8]     |
+| Define a DNS server.	                     | dns-server address [ address2…address8]          |
+| Define the domain name.	                  | domain-name domain                               |
+| Define the duration of the DHCP lease.	   | lease {days [hours [ minutes]] | infinite}       |
+| Define the NetBIOS WINS server.	         | netbios-name-server address [ address2…address8] |
+
+- Sintax:
+
+```
+
+Router(config)# ip dhcp pool pool-name
+Router(dhcp-config)# 
+
+```
+
+- Copy:
+
+```
+
+enable
+configure terminal
+!
+ip dhcp pool pool-name
+!
+exit
+!
+
+```
 
 
 ---
