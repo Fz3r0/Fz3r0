@@ -227,16 +227,13 @@ no service dhcp
 
 ### Troubleshooting commands
 
+```
+
 | Command	                          | Description                                                                                          |
 |:-----------------------------------:|:----------------------------------------------------------------------------------------------------:|
 | show running-config | section dhcp  | Displays the DHCPv4 commands configured on the router.                                               |
 | show ip dhcp binding                | Displays a list of all IPv4 address to MAC address bindings provided by the DHCPv4 service.          | 
 | show ip dhcp server statistics      | Displays count information regarding the number of DHCPv4 messages that have been sent and received. |
-
-
-```
-
-
 
 ```
 
