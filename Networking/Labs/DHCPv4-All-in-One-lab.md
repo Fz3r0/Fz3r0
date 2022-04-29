@@ -33,9 +33,76 @@
 
 ---
 
-## Configuration
+### Configuration
 
-### R1 - Router 1 - 
+---
+
+### R2 - Router 2 - `DHCP SERVER` 
+
+1. Configure **R2** to **exclude the IPs** you need to take out
+2. Create a **DHCP Pool** named **"fz3r0_DHCP_Pool_R2"**
+3. Configure the DHCP Pool including:
+    - Network Address
+    - Default Gateway
+    - DNS Server IP
+
+```
+
+enable
+configure terminal
+!
+!
+hostname < R2 - DHCP Server for VLAN-10 & VLAN-20 >
+domain-name fz3r0_domain.DHCP_labs
+!
+!
+!
+ip dhcp excluded-address 192.168.10.1 192.168.10.100
+ip dhcp excluded-address 192.168.10.200 192.168.10.254
+ip dhcp excluded-address 192.168.10.99
+ip dhcp excluded-address 192.168.10.66
+ip dhcp excluded-address 192.168.10.69
+!
+ip dhcp pool fz3r0_DHCP_Pool1_<< R1-VLAN-20 >>
+!
+network 192.168.10.0 255.255.255.0
+default-router 192.168.10.254
+dns-server 1.1.1.1
+!
+!
+!
+ip dhcp excluded-address 192.168.20.1 192.168.20.100
+ip dhcp excluded-address 192.168.20.200 192.168.20.254
+ip dhcp excluded-address 192.168.20.99
+ip dhcp excluded-address 192.168.20.66
+ip dhcp excluded-address 192.168.20.69
+!
+ip dhcp pool fz3r0_DHCP_Pool2_<< R3-VLAN-30 >>
+!
+network 192.168.20.0 255.255.255.0
+default-router 192.168.20.254
+dns-server 1.1.1.1
+!
+!
+!
+interface Gi 0/1
+ip address dhcp
+no shut down
+exit
+!
+!
+!
+end
+wr
+!
+reload
+!
+exit
+!
+!
+!
+
+```
 
 
 ---
