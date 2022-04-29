@@ -235,9 +235,62 @@ no service dhcp
 
 ```
 
+---
+
 ### Configure Cisco IOS DHCPv4 Client like a sir
 
 ### Straight to the point Configuration:
+
+1. **Cisco Router as a DHCP Client:**
+
+- Syntax:
+
+```
+
+SOHO(config)# interface G0/0/1
+SOHO(config-if)# ip address dhcp
+SOHO(config-if)# no shutdown
+
+Sep 12 10:01:25.773: %DHCP-6-ADDRESS_ASSIGN: Interface GigabitEthernet0/0/1 assigned DHCP address 209.165.201.12, mask 255.255.255.224, hostname SOHO
+
+SOHO# show ip interface g0/0/1
+
+GigabitEthernet0/0/1 is up, line protocol is up
+  Internet address is 209.165.201.12/27
+  Broadcast address is 255.255.255.255
+  Address determined by DHCP
+(output omitted)
+
+
+```
+
+- copy:
+
+```
+
+enable
+configure terminal
+!
+interface G0/0/1
+ip address dhcp
+no shutdown
+!
+!
+show ip interface g0/0/1
+!
+!
+end
+exit
+!
+!
+
+```
+
+### Home Router as a DHCPv4 Client
+
+- It depends on each device, but usually located under `configuration` `DHCP` `set IP` `Dynamic`
+
+- For example on Packet Tracer:
 
 ---
 
@@ -245,9 +298,41 @@ no service dhcp
 
 ### Step by Step Configuration:
 
+- There are scenarios where you might have access to a DHCP server through your ISP. In these instances, you can configure a Cisco IOS router as a DHCPv4 client. This topic walks you through that process.
 
+- Sometimes, Cisco routers in a small office or home office (SOHO) and branch sites have to be configured as DHCPv4 clients in a similar manner to client computers.
 
+- The method used depends on the ISP. However, in its simplest configuration, the Ethernet interface is used to connect to a cable or DSL modem.
 
+### Cisco Router as a DHCP Client step by step:
+
+1. To configure an Ethernet interface as a DHCP client, use the `ip address dhcp` interface configuration mode command.
+
+```
+
+SOHO(config)# interface G0/0/1
+SOHO(config-if)# ip address dhcp
+SOHO(config-if)# no shutdown
+
+Sep 12 10:01:25.773: %DHCP-6-ADDRESS_ASSIGN: Interface GigabitEthernet0/0/1 assigned DHCP address 209.165.201.12, mask 255.255.255.224, hostname SOHO
+
+```
+
+2. The show ip interface g0/0/1 command confirms that the interface is up and that the address was allocated by a DHCPv4 server.
+
+```
+
+SOHO# show ip interface g0/0/1
+
+GigabitEthernet0/0/1 is up, line protocol is up  <<<------| Up! :D 
+  Internet address is 209.165.201.12/27
+  Broadcast address is 255.255.255.255
+  Address determined by DHCP
+(output omitted)
+
+```     
+
+---
 
 ### DHCPv4 Concepts
 
