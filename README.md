@@ -35,9 +35,10 @@
 
 -->
 
-![index_banner](https://user-images.githubusercontent.com/94720207/165896421-bbf8d47f-4502-43f5-b893-96e1d849349f.gif)
+![index_banner_final](https://user-images.githubusercontent.com/94720207/165896925-bb6403fc-e3b3-480f-971b-874401e43708.gif)
 
 <h3 align="center">💀 Fz3r0 💀</h3>
+
 
 ##### Twitter  : [@fz3r0_OPs](https://twitter.com/Fz3r0_OPs) 
 ##### Github   : [Fz3r0](https://github.com/fz3r0) 
