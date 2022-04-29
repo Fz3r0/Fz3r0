@@ -22,7 +22,15 @@
 
 - **< Option2: Step by Step Configuration >**
 
-- **< Option3: Nerd Pocket-Bible about this configuration >**
+### Configure Cisco IOS DHCPv4 Client like a sir:
+
+- **< Option1: Straight to the point Configuration >**
+
+- **< Option2: Step by Step Configuration >**
+
+### Troubleshooting & Knowledge:
+
+- **< Nerd Pocket-Bible about this configuration >**
 
 - **< Troubleshooting & show commands for this configuration >**
 
