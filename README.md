@@ -139,13 +139,15 @@
 
   - This repository has been intended to be a personal and private database that also serves as a portfolio to show to potential employers and clients my work, experience, education and resume in the area of IT, network engineering, cyber security, programming, systems administration, manage, configuration and computer science in general.
   
-  - The reason this repository is publicly accessible is because it shares the GNU free software ideology and philosophy, it means the freedom to run the software, to study the software, to modify the software, and to share copies of the software (whether modified or not). I believe that everyone in the world need to know about computers and networking for free, that would make the world a better place. 
+  - The reason this repository is publicly accessible is because it shares the GNU free software ideology and philosophy, it means the freedom to run the software, to study the software, to modify the software, and to share copies of the software (whether modified or not). I believe that everyone in the world need to know about computers and networking for free, that would make the world a better place.
+ 
+     I believe that all people should know about computer science and technology, which would make this a better world. In addition to leaving a small footprint of human capacity in this tiny instant of time and infinite universe.
   
   - All the scripts, binaries, software, techniques, programs, directories, databases of this repository should be used ONLY for authorized penetration testing, networking laboratories and/or educational purposes. 
   
   - This repository contain codes and scripts that will harm some systems. Read carefully each file documentation and/or script before download, run or compile it.  
   
-  - Any misuse of the information and files compiled in this repository will not be the responsibility of the author or of any other collaborator. 
+  - Any misuse of the information and files compiled in this repository will not be the responsibility of the author. 
  
  _The only good is knowledge, and the only evil is ignorance._
  _Herodotus_
