@@ -24,6 +24,8 @@
 
 - **< Option3: Nerd Pocket-Bible about this configuration >**
 
+- **< Troubleshooting & show commands for this configuration >**
+
 ---
 
 ### Straight to the point:
