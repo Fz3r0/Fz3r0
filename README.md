@@ -35,10 +35,9 @@
 
 -->
 
-![image](https://user-images.githubusercontent.com/94720207/163654194-92edaa63-e2cc-4af7-a420-92a77b4182da.png)
+![index_banner](https://user-images.githubusercontent.com/94720207/165896421-bbf8d47f-4502-43f5-b893-96e1d849349f.gif)
 
 <h3 align="center">💀 Fz3r0 💀</h3>
-<h5 align="center"> | Portafolio | Blog | Networking | IT | Cyber-Security | Automation | Programming | Databases | Services | Hacking | Malware | Resources | </h3>
 
 ##### Twitter  : [@fz3r0_OPs](https://twitter.com/Fz3r0_OPs) 
 ##### Github   : [Fz3r0](https://github.com/fz3r0) 
