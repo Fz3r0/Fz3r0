@@ -36,6 +36,8 @@
 
 ---
 
+### Configure Cisco IOS DHCPv4 Server like a sir
+
 ### Straight to the point:
 
 - Cisco Router IOS:
@@ -105,6 +107,8 @@ no service dhcp
 ```
 
 ---
+
+### Configure Cisco IOS DHCPv4 Server like a sir
 
 ### Step by Step:
 
@@ -231,19 +235,19 @@ no service dhcp
 
 ```
 
+### Configure Cisco IOS DHCPv4 Client like a sir
+
+### Straight to the point Configuration:
+
 ---
 
-### Troubleshooting commands
+### Configure Cisco IOS DHCPv4 Client like a sir
 
-```
+### Step by Step Configuration:
 
-| Command	                          | Description                                                                                          |
-|:-----------------------------------:|:----------------------------------------------------------------------------------------------------:|
-| show running-config | section dhcp  | Displays the DHCPv4 commands configured on the router.                                               |
-| show ip dhcp binding                | Displays a list of all IPv4 address to MAC address bindings provided by the DHCPv4 service.          | 
-| show ip dhcp server statistics      | Displays count information regarding the number of DHCPv4 messages that have been sent and received. |
 
-```
+
+
 
 ### DHCPv4 Concepts
 
@@ -317,6 +321,20 @@ no service dhcp
 ![image](https://user-images.githubusercontent.com/94720207/165874138-d6c33bdd-6627-480a-875c-0dfe605dbbbb.png)
 
 Note: These messages (primarily the DHCPOFFER and DHCPACK) can be sent as unicast or broadcast according to IETF RFC 2131.
+
+---
+
+### Troubleshooting commands
+
+```
+
+| Command	                          | Description                                                                                          |
+|:-----------------------------------:|:----------------------------------------------------------------------------------------------------:|
+| show running-config | section dhcp  | Displays the DHCPv4 commands configured on the router.                                               |
+| show ip dhcp binding                | Displays a list of all IPv4 address to MAC address bindings provided by the DHCPv4 service.          | 
+| show ip dhcp server statistics      | Displays count information regarding the number of DHCPv4 messages that have been sent and received. |
+
+```
 
 ---
 
