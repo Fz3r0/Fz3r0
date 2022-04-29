@@ -203,10 +203,13 @@
     - [Cisco CCNA Cheat Sheet I](https://github.com/Fz3r0/CCNA-Cheat-Sheet)
     - https://github.com/Fz3r0/cisco-cheatsheet
     - https://github.com/Fz3r0/Cisco-IOS-Command-CheatSheets
-    - [Fz3r0's Spaning Tree Protocol (STP) config guide for cool people](/Networking/Knowledge/STP-for-dummies.md) _My guide for config STP like a pro_
-    - [Fz3r0's Ether-Channel config guide for cool people](/Networking/Knowledge/EtherChannel-like-a-sir.md) _My guide for config Ether-Channel like a pro_
 
 
+- [Fz3r0 - **Like a Sir** series _(Pro and Secure Network Configurations made by me)_]
+    - [Configure Spaning Tree Protocol like a Sir **(STP, RSTP+, PVSTP & R-PVSTP)**](/Networking/Knowledge/STP-for-dummies.md)
+    - [Configure Ether-Channel like a sir **(Etherport, PAgP, LACL, Static)** | STP)](/Networking/Knowledge/EtherChannel-like-a-sir.md)
+   - [Configure DHCPv4 like a Sir **(DHCPv4, Client, Server, Cisco Router, Home Router)**](/Networking/Knowledge/DHCPv4-like-a-sir.md)
+ 
 - [Secure Network Labs by @ Fz3r0]
     - Lab f0 > [Pro Configs @ Best Practices, Security Standards & SSH Logins](/Networking/Labs/SSH-Minimum-Requeriments-for-Cisco.md) _For any Cisco device (IOS)_
     - Lab f0 > [Pro Configs @ Best Practices & Security Standards for Switchports & Interfaces](/Networking/Labs/Full-Interface-Port_Configuration.md)
