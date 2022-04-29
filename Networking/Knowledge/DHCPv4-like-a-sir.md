@@ -1,0 +1,99 @@
+
+---
+
+### Fz3r0 Operations  [Networking]
+
+### DHCPv4 like a Sir (Dynamic Host Configuration Protocol v4)
+
+---
+
+##### Twitter  : [@fz3r0_OPs](https://twitter.com/Fz3r0_OPs) 
+##### Github  : [Fz3r0](https://github.com/fz3r0) 
+
+---
+
+#### Keywords: `Networking` `Routing & Switching` `CCNA` `CCNP` `DHCPv4`
+
+---
+   
+### Configure Etherchannel like a Sir straight to the point!
+
+---
+
+### DHCPv4 Concepts
+
+### DHCPv4 Server and Client
+
+- DHCPv4 assigns IPv4 addresses and other network configuration information dynamically. 
+
+- Because desktop clients typically make up the bulk of network nodes, DHCPv4 is an extremely useful and timesaving tool for network administrators.
+
+- **DHCPv4 Server:**
+
+    - A dedicated DHCPv4 server is scalable and relatively easy to manage. _(Windows Server, Thousand of linux DHCP servers, etc)_
+
+    - **However, in a small branch or SOHO location, a Cisco router can be configured to provide DHCPv4 services without the need for a dedicated server. Cisco IOS software supports an optional, full-featured DHCPv4 server.**
+
+    - The DHCPv4 server dynamically assigns, or leases, an IPv4 address from a pool of addresses for a limited period of time chosen by the server, or until the client no longer needs the address.
+ 
+- **DHCPv4 Client:**
+
+    - Could be any device with DHCP cappabilities like PCs, smartphones, IoT, etc.
+
+    - Clients lease the information from the server for an administratively defined period. 
+
+    - The lease is typically anywhere from 24 hours to a week or more. 
+
+    - When the lease expires, the client must ask for another address, although the client is typically reassigned the same address.
+
+### DHCPv4 Operation
+
+- DHCPv4 works in a client/server mode: 
+
+1. Client communicates with a DHCPv4 server 
+2. Server assigns or leases an IPv4 address to that client. 
+3. The Client connects to the network with that leased IPv4 address until the lease expires. 
+    - The client must contact the DHCP server periodically to extend the lease. 
+    - This lease mechanism ensures that clients that move or power off do not keep addresses that they no longer need. 
+4. When a lease expires, the DHCP server returns the address to the pool where it can be reallocated as necessary.    
+
+### Steps to Obtain a Lease
+
+- When the client boots (or otherwise wants to join a network), it begins a four-step process to obtain a lease _(sending messages throught network)_:
+
+1. DHCP **Discover** `DHCPDISCOVER`
+    - **The client starts the process** using a broadcast DHCPDISCOVER message with its own MAC address to discover available DHCPv4 servers. 
+    - The purpose of the DHCPDISCOVER message is to find DHCPv4 servers on the network.
+
+2. DHCP **Offer** `DHCPOFFER`
+    - When the DHCPv4 server receives a `DHCPDISCOVER` message, it reserves an available IPv4 address to lease to the client.
+    - The server also creates an **ARP entry** consisting of the MAC address of the requesting client and the leased IPv4 address of the client. 
+    - The DHCPv4 server sends the binding `DHCPOFFER` message to the requesting client.
+3. DHCP **Request** `DHCPREQUEST`
+    - When the client receives the `DHCPOFFER` from the server, it sends back a `DHCPREQUEST` message.
+    - **This message is used for both lease origination and lease renewal. 
+    - When used for lease origination, the DHCPREQUEST serves as a binding acceptance notice to the selected server for the parameters it has offered and an implicit decline to any other servers that may have provided the client a binding offer.
+4. DHCP **Acknowledgment** `DHCPACK`
+    - On receiving the DHCPREQUEST message, the server may verify the lease information with an ICMP ping to that address to ensure it is not being used already, it will create a new ARP entry for the client lease, and reply with a DHCPACK message.
+
+### Steps to Renew a Lease
+
+Prior to lease expiration, the client begins a two-step process to renew the lease with the DHCPv4 server
+
+
+
+
+
+---
+
+### References
+
+- https://contenthub.netacad.com/srwe-dl/6.2.3
+
+---
+
+> ![hecho en mex3 (1)mini](https://user-images.githubusercontent.com/94720207/163919294-2754caa3-c98c-4df3-b782-00703e4d3343.png)
+>
+> _- Hecho en México - by [Fz3r0 💀](https://github.com/Fz3r0/)_ 
+>
+> _"In the mist of the night you could see me come, where shadows move and Demons lie..."_ 
