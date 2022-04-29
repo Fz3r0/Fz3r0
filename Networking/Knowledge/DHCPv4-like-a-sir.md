@@ -1,7 +1,7 @@
 
----
+# Fz3r0 Operations  [Networking]
 
-### Fz3r0 Operations  [Networking]
+![image](https://www.joedoestech.com/Graphics/hackerGlitch.gif)
 
 ### DHCPv4 like a Sir (Dynamic Host Configuration Protocol v4)
 
@@ -32,9 +32,9 @@
 
 - Steps to follow:
 
-1. Exclude IPv4 addresses.
-2. Define a DHCPv4 pool name.
-3. Configure the DHCPv4 pool.
+1. **Exclude IPv4 addresses.**
+2. **Define a DHCPv4 pool name.**
+3. **Configure the DHCPv4 pool.**
 
 - Config Step by Step:
 
