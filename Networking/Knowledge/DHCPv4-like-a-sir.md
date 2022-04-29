@@ -24,6 +24,8 @@
 
 - **< Option3: Nerd Bible about this configuration >**
 
+---
+
 ### Straight to the point:
 
 - Cisco Router IOS:
@@ -33,6 +35,8 @@
 
 
 ```
+
+---
 
 ### Step by Step:
 
