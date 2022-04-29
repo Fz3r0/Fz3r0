@@ -41,6 +41,7 @@
 
 <h3 align="center">💀 Fz3r0 💀</h3>
 
+https://cdn1.iconfinder.com/data/icons/fletro-long-shadow-internet-shortcuts/128/Github.png
 
 ##### Twitter  : [@fz3r0_OPs](https://twitter.com/Fz3r0_OPs) 
 ##### Github   : [Fz3r0](https://github.com/fz3r0) 
