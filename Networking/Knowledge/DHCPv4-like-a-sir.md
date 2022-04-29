@@ -22,7 +22,7 @@
 
 - **< Option2: Step by Step Configuration >**
 
-- **< Option3: Nerd Bible about this configuration >**
+- **< Option3: Nerd Pocket-Bible about this configuration >**
 
 ---
 
