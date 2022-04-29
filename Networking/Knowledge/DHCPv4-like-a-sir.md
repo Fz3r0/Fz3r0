@@ -261,7 +261,6 @@ GigabitEthernet0/0/1 is up, line protocol is up
   Address determined by DHCP
 (output omitted)
 
-
 ```
 
 - copy:
@@ -285,12 +284,6 @@ exit
 !
 
 ```
-
-### Home Router as a DHCPv4 Client
-
-- It depends on each device, but usually located under `configuration` `DHCP` `set IP` `Dynamic`
-
-- For example on Packet Tracer:
 
 ---
 
@@ -331,6 +324,16 @@ GigabitEthernet0/0/1 is up, line protocol is up  <<<------| Up! :D
 (output omitted)
 
 ```     
+
+---
+
+### Home Router as a DHCPv4 Client
+
+- It depends on each device, but usually located under `configuration` `DHCP` `set IP` `Dynamic`
+
+- For example on Packet Tracer:
+
+![image](https://user-images.githubusercontent.com/94720207/165884711-454346fa-3438-48d7-8d05-9c2cbacb5c0e.png)
 
 ---
 
@@ -413,7 +416,7 @@ Note: These messages (primarily the DHCPOFFER and DHCPACK) can be sent as unicas
 
 ```
 
-| Command	                          | Description                                                                                          |
+| Command	                      | Description                                                                                          |
 |:-----------------------------------:|:----------------------------------------------------------------------------------------------------:|
 | show running-config | section dhcp  | Displays the DHCPv4 commands configured on the router.                                               |
 | show ip dhcp binding                | Displays a list of all IPv4 address to MAC address bindings provided by the DHCPv4 service.          | 
