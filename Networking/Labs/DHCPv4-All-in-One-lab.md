@@ -40,11 +40,14 @@
 ### R2 - Router 2 - `DHCP SERVER` 
 
 1. Configure **R2** to **exclude the IPs** you need to take out
-2. Create a **DHCP Pool** named **"fz3r0_DHCP_Pool_R2"**
-3. Configure the DHCP Pool including:
+2. Create 2 different pools for 2 different VLANs (VLAN10 & VLAN20)
+3. Configure the DHCP Pools including:
     - Network Address
     - Default Gateway
     - DNS Server IP
+4. R2 needs to be configured to receive addressing from the ISP.
+
+- **Note: R2 Will be the DHCP Server for the 2 different networks _(VLAN10 & VLAN20)_, and at the same time R2 will be recieving DHCP from the ISP Router _(Internet Cloud)_.**
 
 ```
 
