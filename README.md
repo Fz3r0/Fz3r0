@@ -150,9 +150,10 @@
   
   - Any misuse of the information and files compiled in this repository will not be the responsibility of the author. 
  
- _The only good is knowledge, and the only evil is ignorance._
- _Herodotus_
+<p align="center"> <img src="https://user-images.githubusercontent.com/94720207/165983361-8d515dec-44f5-4a77-98de-a973705a2226.png" alt="herodotus" width="100" height="100"/> </a> </p>
  
+<span align="center"> <p align="center"> _**"The only good is knowledge, and the only evil is ignorance."** Herodotus_ </p> </span> 
+  
 ---
 --- 
  
