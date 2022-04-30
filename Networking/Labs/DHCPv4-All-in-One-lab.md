@@ -57,11 +57,11 @@
 
 ### R666-ISP - Telmex (Internet Provider) INSIDE "CLOUD"!
 
-1. This will be the Router simulating the Gateway between WWW-Internet & ISP Internet Clients
-2. Create a DHCP pool for ALL ISP Internet Clients 
+- **This will be the Router simulating the Gateway between WWW-Internet & ISP Internet Clients**
+1. Create a DHCP pool for ALL ISP Internet Clients 
     - It's simulating 1 public IP for "3 neighbors in 1 street"
     - All the clients get DHCP from ISP to their Edge Routers, Routers or Home Routers(AKA Internet Modem for home)
-4. Only exclude:
+2. Only exclude:
     - (Gi 0/1) 209.165.202.225/27 - To Internet Clients (Home, Office, etc)
     - _Only exclude IP of the Gateway of Internet to Clients, because Internet I & II are Static._
 
@@ -151,6 +151,7 @@ exit
 
 ### BIG ENTERPRISE "Y" 
 
+- **This is a Internet Client who get DHCP from ISP DHCP service**
 1. Configure **R2** to **exclude the IPs** you need to take out
 2. Create 2 different pools for 2 different VLANs (VLAN10 & VLAN20)
 3. Configure the DHCP Pools including:
@@ -249,6 +250,8 @@ exit
 
 ### BIG ENTERPRISE "Y" > R1 - Router 1 - `DHCP CLIENT` & `DHCP Relay Agent`
 
+- **This is a Internet Client who get DHCP from ISP DHCP service**
+
 ```
 
 enable
@@ -293,19 +296,6 @@ no shutdown
 !
 
 ```
-
----
-
-### INTERNET WWW > SERVER1(`twitter.com`), SERVER2(`github.com`), SERVER3(`cloudflare.com`)
-
-- Server1: twitter.com
-
-```
-
-
-
-```
-
 
 ---
 
@@ -381,6 +371,18 @@ exit
 
 
 ```
+---
+
+### INTERNET WWW > SERVER1(`twitter.com`), SERVER2(`github.com`), SERVER3(`cloudflare.com`)
+
+- Server1: twitter.com
+
+```
+
+
+
+```
+
 
 ---
 
