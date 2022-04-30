@@ -16,7 +16,20 @@
 #### Keywords: `Networking` `Routing & Switching` `CCNA` `CCNP` `DHCPv4`
 
 ---
-   
+
+#### Packet Tracer Lab Files & Topology
+
+[**<< DOWNLOAD FILES >>**](https://github.com/Fz3r0/Fz3r0/files/8578198/7___fz3r0_OPs_Routing_._Switching_EtherChannel_PAgP_LACP_Static_All_in_one.zip)
+
+![dhcpland1](https://user-images.githubusercontent.com/94720207/166123951-8ffa1d1a-633a-4f6e-ab9d-e335a017d21d.png)
+
+![dhcpland2](https://user-images.githubusercontent.com/94720207/166123955-a5f79007-37ab-45e0-9072-39b0ed1ae862.png)
+
+![dhcpland3](https://user-images.githubusercontent.com/94720207/166123980-107b3980-7be6-4ed1-beb9-469391c7ad7f.jpg)
+
+
+
+---   
 ### Objectives:
 
 1. Configure DHCP Servers:
