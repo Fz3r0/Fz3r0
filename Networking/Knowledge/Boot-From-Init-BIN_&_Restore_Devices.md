@@ -27,7 +27,7 @@
 - **Before anything!** 
 
     - **This technique DO NOT reset the device to factory settings like new!**
-    - **This is used to tell the router which IOS file to be used while booting, when there are multiple files in the flash**
+    - **This is used to tell the router which IOS file to be used while booting, when there are multiple files in the flash... So, if you have only 1 file, it will be you same config!!! (not the factory or other startup config)**
     - **Other use is the boot from another disk or service outside the device like FTP, ROM, TFTP**
 
 - The switch attempts to automatically boot by using information in the BOOT environment variable. 
