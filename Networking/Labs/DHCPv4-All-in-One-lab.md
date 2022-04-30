@@ -90,20 +90,22 @@ dns-server 1.1.1.1
 !
 !
 interface GigabitEthernet0/0
-description <<Gateway to the Internet WWW - Out into the wild!)>>
+description << Gateway to the Internet WWW - Out into the wild!) >>
 ip address 209.165.202.129 255.255.255.224
 duplex auto
 speed auto
 !
 !
 interface GigabitEthernet 0/1
-description << FIBER - Gateway to the Internet WWW2 - Cloudflare range 1.1.1.1)>>
+description << Gateway to the Internet DNS - Cloudflare range 1.1.1.1) >>
 ip address 1.1.1.254 255.255.255.0
+duplex auto
+speed auto
 !
 !
 !
 interface GigabitEthernet 0/2
-description <<Gateway for Internet Clients - Connect_to_ISP_Clients)>>
+description << Gateway for Internet Clients - Connect_to_ISP_Clients) >>
 ip address 209.165.200.225 255.255.255.224
 duplex auto
 speed auto
