@@ -3,7 +3,7 @@
 
 ![My Video](https://user-images.githubusercontent.com/94720207/165892585-b830998d-d7c5-43b4-a3ad-f71a07b9077e.gif)
 
-### Configure IOS Initial Settings & Restore to Factory Defaults like a Sir! 
+### Boot from a Binary .bin init-config file like a Sir! (boot system)
 
 ---
 
