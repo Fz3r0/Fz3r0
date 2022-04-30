@@ -88,11 +88,11 @@ ip dhcp excluded-address 192.168.10.113
 ip dhcp excluded-address 192.168.10.114
 ip dhcp excluded-address 192.168.10.115
 !
-ip dhcp pool fz3r0_DHCP_Pool1_<<for:R1-VLAN-10___PUBLIC_DNS>>
+ip dhcp pool fz3r0_DHCP_Pool1_<<for:R1-VLAN-10___PRIVATE_DNS>>
 !
 network 192.168.10.0 255.255.255.0
 default-router 192.168.10.254
-dns-server 1.1.1.1
+dns-server 192.168.20.201
 !
 !
 !
@@ -102,11 +102,11 @@ ip dhcp excluded-address 192.168.30.113
 ip dhcp excluded-address 192.168.30.114
 ip dhcp excluded-address 192.168.30.115
 !
-ip dhcp pool fz3r0_DHCP_Pool2_<<for:R3-VLAN-30___PRIVATE_DNS>>
+ip dhcp pool fz3r0_DHCP_Pool2_<<for:R3-VLAN-30___PUBLIC_DNS>>
 !
 network 192.168.30.0 255.255.255.0
 default-router 192.168.30.254
-dns-server 192.168.20.201
+dns-server 1.1.1.1 
 !
 !
 !
