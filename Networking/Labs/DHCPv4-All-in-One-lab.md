@@ -226,24 +226,34 @@ ip domain-name SMALL_BUSINESS_X___fz3r0_domain.DHCP_labs
 !
 !
 !
-ip dhcp excluded-address 192.168.200.1 192.168.200.100
-ip dhcp excluded-address 192.168.200.151 192.168.200.254
-ip dhcp excluded-address 192.168.200.113
-ip dhcp excluded-address 192.168.200.114
-ip dhcp excluded-address 192.168.200.115
+ip dhcp excluded-address 192.168.66.1 192.168.66.100
+ip dhcp excluded-address 192.168.66.151 192.168.66.254
+ip dhcp excluded-address 192.168.66.113
+ip dhcp excluded-address 192.168.66.114
+ip dhcp excluded-address 192.168.66.115
 !
-ip dhcp pool fz3r0_DHCP_Pool1_<< R100-VLAN-200 >>
+ip dhcp pool fz3r0_DHCP_Pool1_<<for:SMALL_BUSINESS_VLAN-200___PUBLIC>>
 !
-network 192.168.200.0 255.255.255.0
-default-router 192.168.200.254
-dns-server 1.1.1.1
+network 192.168.66.0 255.255.255.0
+default-router 192.168.66.254
+dns-server 192.168.20.201
 !
 !
 !
-interface Gi 0/1
+!
+interface GigabitEthernet0/1
+description <<Connect_to_Internet_(DHCP-CLIENT-FROM-ISP)>>
 ip address dhcp
-no shut down
-exit
+duplex auto
+speed auto
+!
+!
+!
+interface GigabitEthernet0/0
+description <<Connect_to_VLAN-200_(SMALL_BUSINESS_LAN)>>
+ip address 192.168.66.254 255.255.255.0
+duplex auto
+speed auto
 !
 !
 !
@@ -256,6 +266,7 @@ exit
 !
 !
 !
+
 
 ```
 
