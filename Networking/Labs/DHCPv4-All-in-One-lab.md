@@ -94,6 +94,7 @@ description << Gateway to the Internet WWW - Out into the wild!) >>
 ip address 209.165.202.129 255.255.255.224
 duplex auto
 speed auto
+no shutdown
 !
 !
 interface GigabitEthernet 0/1
@@ -101,6 +102,7 @@ description << Gateway to the Internet DNS - Cloudflare range 1.1.1.1) >>
 ip address 1.1.1.254 255.255.255.0
 duplex auto
 speed auto
+no shutdown
 !
 !
 !
@@ -109,6 +111,7 @@ description << Gateway for Internet Clients - Connect_to_ISP_Clients) >>
 ip address 209.165.200.225 255.255.255.224
 duplex auto
 speed auto
+no shutdown
 !
 !
 !
@@ -118,6 +121,7 @@ speed auto
 router eigrp 1
 network 209.165.200.224 0.0.0.31
 network 209.165.202.128 0.0.0.31
+network 1.1.1.1 0.0.0.254
 !
 !
 ip flow-export version 9
