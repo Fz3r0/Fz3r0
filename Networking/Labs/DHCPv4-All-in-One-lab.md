@@ -170,7 +170,7 @@ ip domain-name BIG_ENTERPRISE_Y___fz3r0_domain.DHCP_labs
 !
 !
 interface Gi 0/0
-ip address 192.168.30.1 255.255.255.0
+ip address 192.168.30.254 255.255.255.0
 ip helper-address 10.2.2.2
 duplex auto
 speed auto
