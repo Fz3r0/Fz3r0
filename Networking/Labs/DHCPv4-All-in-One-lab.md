@@ -77,18 +77,18 @@ enable
 configure terminal
 !
 !
-hostname <R2-DHCP_Server_for_VLAN-10_&_VLAN-20>
+hostname <R2-DHCP_Server_for_VLAN-10_&_VLAN-30>
 ip domain-name BIG_ENTERPRISE_Y___fz3r0_domain.DHCP_labs
 !
 !
 !
 ip dhcp excluded-address 192.168.10.1 192.168.10.100
 ip dhcp excluded-address 192.168.10.151 192.168.10.254
-ip dhcp excluded-address 192.168.200.113
-ip dhcp excluded-address 192.168.200.114
-ip dhcp excluded-address 192.168.200.115
+ip dhcp excluded-address 192.168.10.113
+ip dhcp excluded-address 192.168.10.114
+ip dhcp excluded-address 192.168.10.115
 !
-ip dhcp pool fz3r0_DHCP_Pool1_<<R1-VLAN-20>>
+ip dhcp pool fz3r0_DHCP_Pool1_<<for:R1-VLAN-10>>
 !
 network 192.168.10.0 255.255.255.0
 default-router 192.168.10.254
@@ -96,17 +96,20 @@ dns-server 1.1.1.1
 !
 !
 !
-ip dhcp excluded-address 192.168.10.1 192.168.10.100
-ip dhcp excluded-address 192.168.10.151 192.168.10.254
-ip dhcp excluded-address 192.168.200.113
-ip dhcp excluded-address 192.168.200.114
-ip dhcp excluded-address 192.168.200.115
+ip dhcp excluded-address 192.168.30.1 192.168.10.100
+ip dhcp excluded-address 192.168.30.151 192.168.10.254
+ip dhcp excluded-address 192.168.30.113
+ip dhcp excluded-address 192.168.30.114
+ip dhcp excluded-address 192.168.30.115
 !
-ip dhcp pool fz3r0_DHCP_Pool2_<<R3-VLAN-30>>
+ip dhcp pool fz3r0_DHCP_Pool2_<<for:R3-VLAN-30>>
 !
-network 192.168.20.0 255.255.255.0
-default-router 192.168.20.254
+network 192.168.30.0 255.255.255.0
+default-router 192.168.30.254
 dns-server 1.1.1.1
+!
+!
+!
 !
 !
 !
@@ -167,7 +170,11 @@ ip domain-name BIG_ENTERPRISE_Y___fz3r0_domain.DHCP_labs
 !
 !
 interface Gi 0/0
+ip address 192.168.30.1 255.255.255.0
 ip helper-address 10.2.2.2
+duplex auto
+speed auto
+no shutdown
 !
 !
 
