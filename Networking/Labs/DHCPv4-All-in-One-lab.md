@@ -111,12 +111,29 @@ dns-server 1.1.1.1
 !
 !
 !
-!
-!
-interface Gi 0/1
+interface GigabitEthernet0/1
+description <<Connect_to_Internet_(DHCP-CLIENT-FROM-ISP)>>
 ip address dhcp
-no shut down
-exit
+duplex auto
+speed auto
+!
+!
+!
+interface GigabitEthernet0/0
+description <<Connect_to_VLAN-20_(DNS_Server_Static_LAN)>>
+ip address 192.168.20.1 255.255.255.0
+duplex auto
+speed auto
+!
+interface Serial0/0/0
+description <<Connect_to_DHCP_Frame_Relay_Router(R1-VLAN-10)>>
+ip address 10.1.1.2 255.255.255.252
+clock rate 64000
+!
+interface Serial0/0/1
+description <<Connect_to_DHCP_Frame_Relay_Router(R2-VLAN-30)>>
+ip address 10.2.2.2 255.255.255.252
+clock rate 64000
 !
 !
 !
