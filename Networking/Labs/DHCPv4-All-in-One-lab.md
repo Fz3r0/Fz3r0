@@ -184,6 +184,9 @@ ip dhcp excluded-address 192.168.30.151 192.168.30.254
 ip dhcp excluded-address 192.168.30.113
 ip dhcp excluded-address 192.168.30.114
 ip dhcp excluded-address 192.168.30.115
+end
+!
+!
 !
 ip dhcp pool fz3r0_DHCP_Pool2_<<for:R3-VLAN-30___PUBLIC_DNS>>
 !
