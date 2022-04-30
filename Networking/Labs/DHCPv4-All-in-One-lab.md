@@ -116,6 +116,7 @@ description <<Connect_to_Internet_(DHCP-CLIENT-FROM-ISP)>>
 ip address dhcp
 duplex auto
 speed auto
+no shutdown
 !
 !
 !
@@ -124,6 +125,7 @@ description <<Connect_to_VLAN-20_(DNS_Server_Static_LAN)>>
 ip address 192.168.20.254 255.255.255.0
 duplex auto
 speed auto
+no shutdown
 !
 interface Serial0/0/0
 description <<Connect_to_DHCP_Frame_Relay_Router(R1-VLAN-10)>>
@@ -166,6 +168,7 @@ ip domain-name BIG_ENTERPRISE_Y___fz3r0_domain.DHCP_labs
 !
 interface Gi 0/0
 ip helper-address 10.1.1.2
+no shutdown
 !
 !
 
@@ -246,6 +249,7 @@ description <<Connect_to_Internet_(DHCP-CLIENT-FROM-ISP)>>
 ip address dhcp
 duplex auto
 speed auto
+no shutdown
 !
 !
 !
@@ -254,6 +258,7 @@ description <<Connect_to_VLAN-200_(SMALL_BUSINESS_LAN)>>
 ip address 192.168.66.254 255.255.255.0
 duplex auto
 speed auto
+no shutdown
 !
 !
 !
