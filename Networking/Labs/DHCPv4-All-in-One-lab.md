@@ -20,16 +20,23 @@
 ### Objectives:
 
 1. Configure DHCP Servers:
-    - `R2` - Cisco Router as a DHCP Server
-    - `Server1` - Generic _(Windows/Linux)_ Server as a DHCP Server
+    
+    - Big Enterprise:
+        - `R2` - Cisco Router as a DHCP Server for Enterprise LAN (Including VLANs)
+    
+    - Small Business:
+        - `Server1` - Generic _(Windows Server)_ as a DHCP Server
+    
+    - Home Sweet Home:
     - `Home WiFi1` - Home Router _(WiFi Modem)_ as a DHCP Server
 
 3. Configure DHCP Relay:
-    - `R1` & `R3` Cisco Routers as a DHCP Relay Agent for DHCP between different Networks
+
+    - `R1` & `R3` Cisco Routers (at Big enterprise) as a DHCP Relay Agent for DHCP between different Networks _(From centralized Edge Router **R2**)_
 
 5. Configure DHCP Clients:
-    - Cisco Router as a DHCP Client
-    - Home Router _(WiFi Modem)_ as a DHCP Client
+    - `R2` Cisco Router as a DHCP Client _(From ISP-Telmex)_
+    - `Home Router` _(WiFi Modem)_ as a DHCP Client _(From ISP-Telmex)_
     - Generic DHCP Clients as PCs, Laptops, Smartphones, Printers, Tablets
 
 ---
@@ -119,6 +126,24 @@ exit
 ```
 
 ---
+
+### R1 - Router 1 - `DHCP CLIENT` & `DHCP Relay Agent`
+
+```
+
+enable
+configure terminal
+!
+!
+hostname < R1 - DHCP Client & Relay Agent for VLAN-10 >
+domain-name fz3r0_domain.DHCP_labs
+!
+!
+!
+interface Gi 0/0
+ip helper-address 10.1.1.2
+!
+!
 
 
 
