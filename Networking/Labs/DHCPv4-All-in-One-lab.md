@@ -78,7 +78,7 @@ configure terminal
 !
 !
 hostname < R2 - DHCP Server for VLAN-10 & VLAN-20 >
-domain-name fz3r0_domain.DHCP_labs
+domain-name BIG_ENTERPRISE_Y___fz3r0_domain.DHCP_labs
 !
 !
 !
@@ -140,7 +140,7 @@ configure terminal
 !
 !
 hostname < R1 - DHCP Client & Relay Agent for VLAN-10 >
-domain-name fz3r0_domain.DHCP_labs
+domain-name BIG_ENTERPRISE_Y___fz3r0_domain.DHCP_labs
 !
 !
 !
@@ -162,12 +162,88 @@ configure terminal
 !
 !
 hostname < R3 - DHCP Client & Relay Agent for VLAN-30 >
-domain-name fz3r0_domain.DHCP_labs
+domain-name BIG_ENTERPRISE_Y___fz3r0_domain.DHCP_labs
 !
 !
 !
 interface Gi 0/0
 ip helper-address 10.2.2.2
+!
+!
+
+```
+
+---
+
+### BIG ENTERPRISE "Y" 
+
+1. Configure **R2** to **exclude the IPs** you need to take out
+2. Create 2 different pools for 2 different VLANs (VLAN10 & VLAN20)
+3. Configure the DHCP Pools including:
+    - Network Address
+    - Default Gateway
+    - DNS Server IP
+4. R2 needs to be configured to receive addressing from the ISP.
+
+- **Note: R2 Will be the DHCP Server for the 2 different networks _(VLAN10 & VLAN20)_, and at the same time R2 will be recieving DHCP from the ISP Router _(Internet Cloud)_.**
+
+---
+
+### SMALL BUSINESS "X" > R100 - Router 100 - `DHCP SERVER`
+
+```
+
+enable
+configure terminal
+!
+!
+hostname < R100 - DHCP Server for VLAN-200 >
+domain-name SMALL_BUSINESS_X___fz3r0_domain.DHCP_labs
+!
+!
+!
+ip dhcp excluded-address 192.168.10.1 192.168.10.100
+ip dhcp excluded-address 192.168.10.151 192.168.10.254
+ip dhcp excluded-address 192.168.10.99
+ip dhcp excluded-address 192.168.10.66
+ip dhcp excluded-address 192.168.10.69
+!
+ip dhcp pool fz3r0_DHCP_Pool1_<< R100-VLAN-200 >>
+!
+network 192.168.200.0 255.255.255.0
+default-router 192.168.200.254
+dns-server 1.1.1.1
+!
+!
+!
+ip dhcp excluded-address 192.168.10.1 192.168.10.100
+ip dhcp excluded-address 192.168.10.151 192.168.10.254
+ip dhcp excluded-address 192.168.10.99
+ip dhcp excluded-address 192.168.10.66
+ip dhcp excluded-address 192.168.10.69
+!
+ip dhcp pool fz3r0_DHCP_Pool2_<< R3-VLAN-30 >>
+!
+network 192.168.20.0 255.255.255.0
+default-router 192.168.20.254
+dns-server 1.1.1.1
+!
+!
+!
+interface Gi 0/1
+ip address dhcp
+no shut down
+exit
+!
+!
+!
+end
+wr
+!
+reload
+!
+exit
+!
 !
 !
 
