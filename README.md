@@ -215,7 +215,7 @@
     - https://github.com/Fz3r0/Cisco-IOS-Command-CheatSheets
 
 
-- [Fz3r0 - **Like a Sir** series _(Pro and Secure Network Configurations Guides made by me)_]
+- [Fz3r0 - **Configure it Like a Sir!** _series_ _(Pro and Secure Network Configurations Guides made by me)_]
     - [Configure Spaning Tree Protocol like a Sir **(STP, RSTP+, PVSTP & R-PVSTP)**](/Networking/Knowledge/STP-for-dummies.md)
     - [Configure Ether-Channel like a sir **(Etherport, PAgP, LACL, Static)** | STP)](/Networking/Knowledge/EtherChannel-like-a-sir.md)
    - [Configure DHCPv4 like a Sir **(DHCPv4, Client, Server, Cisco Router, Home Router)**](/Networking/Knowledge/DHCPv4-like-a-sir.md)
