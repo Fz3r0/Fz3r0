@@ -206,7 +206,7 @@
 
 <span align="center"> <h3 align="center"> NETWORKING </h3> </span> 
   
-- [Guides, Tables, Models, Cheat-Sheets & Dark Wizardy for Networking & NetSec] 
+- [Tables, Models, Cheat-Sheets, Resources & Dark Wizardy for Networking & NetSec] 
     - [TCP-IP Hybrid Model by Fz3r0 (TCP+OSI)](/Networking/Knowledge/Tables-Models-Cheatsheets/Tables-Models/TCP-IP-Model-fz3r0_Hybrid.md) _A model I made with love for TCP-IP/OSI, all in one! :)_
     - [Reserved IPv4 & IPv6 Addresses by Fz3r0](/Networking/Knowledge/Tables-Models-Cheatsheets/Tables-Models/reserved_ip_fz3r0.md)
     - [Cisco Newtorks Routing & Switching CLI/IOS Bible by Fz3r0](/Networking/Labs/) _My CCNA+CCNP Pocket Bible_
@@ -215,7 +215,7 @@
     - https://github.com/Fz3r0/Cisco-IOS-Command-CheatSheets
 
 
-- [Fz3r0 - **Like a Sir** series _(Pro and Secure Network Configurations made by me)_]
+- [Fz3r0 - **Like a Sir** series _(Pro and Secure Network Configurations Guides made by me)_]
     - [Configure Spaning Tree Protocol like a Sir **(STP, RSTP+, PVSTP & R-PVSTP)**](/Networking/Knowledge/STP-for-dummies.md)
     - [Configure Ether-Channel like a sir **(Etherport, PAgP, LACL, Static)** | STP)](/Networking/Knowledge/EtherChannel-like-a-sir.md)
    - [Configure DHCPv4 like a Sir **(DHCPv4, Client, Server, Cisco Router, Home Router)**](/Networking/Knowledge/DHCPv4-like-a-sir.md)
