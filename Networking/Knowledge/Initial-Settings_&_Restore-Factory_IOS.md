@@ -16,6 +16,11 @@
 
 ---
 
+### Recovering from System Crash, Reboot Init setup, etc
+
+
+---
+
 ### The boot system Command 
 
 - The switch attempts to automatically boot by using information in the BOOT environment variable. 
@@ -63,18 +68,6 @@ Directory of flash:/
 
 1539575808 bytes total (1034042959 bytes free)
 Switch#
-
-
-```
-
-
-```
-
-| Command	                      | Description                                                                                          |
-|:-----------------------------------:|:----------------------------------------------------------------------------------------------------:|
-| show running-config | section dhcp  | Displays the DHCPv4 commands configured on the router.                                               |
-| show ip dhcp binding                | Displays a list of all IPv4 address to MAC address bindings provided by the DHCPv4 service.          | 
-| show ip dhcp server statistics      | Displays count information regarding the number of DHCPv4 messages that have been sent and received. |
 
 ```
 
