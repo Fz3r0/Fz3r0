@@ -78,7 +78,7 @@ configure terminal
 !
 !
 hostname <R2-DHCP_Server_for_VLAN-10_&_VLAN-20>
-domain-name BIG_ENTERPRISE_Y___fz3r0_domain.DHCP_labs
+ip domain-name BIG_ENTERPRISE_Y___fz3r0_domain.DHCP_labs
 !
 !
 !
@@ -162,7 +162,7 @@ configure terminal
 !
 !
 hostname <R3 - DHCP Client & Relay Agent for VLAN-30>
-domain-name BIG_ENTERPRISE_Y___fz3r0_domain.DHCP_labs
+ip domain-name BIG_ENTERPRISE_Y___fz3r0_domain.DHCP_labs
 !
 !
 !
@@ -198,7 +198,7 @@ configure terminal
 !
 !
 hostname < R100 - DHCP Server for VLAN-200 >
-domain-name SMALL_BUSINESS_X___fz3r0_domain.DHCP_labs
+ip domain-name SMALL_BUSINESS_X___fz3r0_domain.DHCP_labs
 !
 !
 !
