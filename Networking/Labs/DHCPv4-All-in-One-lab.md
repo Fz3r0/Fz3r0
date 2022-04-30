@@ -117,7 +117,6 @@ router eigrp 1
 network 209.165.200.224 0.0.0.31
 network 209.165.202.128 0.0.0.31
 !
-ip classless
 !
 ip flow-export version 9
 !
