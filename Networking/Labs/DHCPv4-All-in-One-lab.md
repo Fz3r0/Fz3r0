@@ -4,7 +4,7 @@
 ![My Video](https://user-images.githubusercontent.com/94720207/165892585-b830998d-d7c5-43b4-a3ad-f71a07b9077e.gif)
 
 ### **Pro and Secure Networking Labs:** 
-#### **DHCPv4** All-in-One! (Cisco Router, Home Router, Generic Server, Wireless as DHCP Servers & Clients)
+#### **DHCPv4** All-in-One! (Cisco Router, Home Router, Generic Server, Wireless as DHCP Servers, Clients & Relay Agents)
 
 ---
 
