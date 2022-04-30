@@ -84,9 +84,9 @@ domain-name BIG_ENTERPRISE_Y___fz3r0_domain.DHCP_labs
 !
 ip dhcp excluded-address 192.168.10.1 192.168.10.100
 ip dhcp excluded-address 192.168.10.151 192.168.10.254
-ip dhcp excluded-address 192.168.10.99
-ip dhcp excluded-address 192.168.10.66
-ip dhcp excluded-address 192.168.10.69
+ip dhcp excluded-address 192.168.200.113
+ip dhcp excluded-address 192.168.200.114
+ip dhcp excluded-address 192.168.200.115
 !
 ip dhcp pool fz3r0_DHCP_Pool1_<< R1-VLAN-20 >>
 !
@@ -98,9 +98,9 @@ dns-server 1.1.1.1
 !
 ip dhcp excluded-address 192.168.10.1 192.168.10.100
 ip dhcp excluded-address 192.168.10.151 192.168.10.254
-ip dhcp excluded-address 192.168.10.99
-ip dhcp excluded-address 192.168.10.66
-ip dhcp excluded-address 192.168.10.69
+ip dhcp excluded-address 192.168.200.113
+ip dhcp excluded-address 192.168.200.114
+ip dhcp excluded-address 192.168.200.115
 !
 ip dhcp pool fz3r0_DHCP_Pool2_<< R3-VLAN-30 >>
 !
@@ -202,30 +202,16 @@ domain-name SMALL_BUSINESS_X___fz3r0_domain.DHCP_labs
 !
 !
 !
-ip dhcp excluded-address 192.168.10.1 192.168.10.100
-ip dhcp excluded-address 192.168.10.151 192.168.10.254
-ip dhcp excluded-address 192.168.10.99
-ip dhcp excluded-address 192.168.10.66
-ip dhcp excluded-address 192.168.10.69
+ip dhcp excluded-address 192.168.200.1 192.168.200.100
+ip dhcp excluded-address 192.168.200.151 192.168.200.254
+ip dhcp excluded-address 192.168.200.113
+ip dhcp excluded-address 192.168.200.114
+ip dhcp excluded-address 192.168.200.115
 !
 ip dhcp pool fz3r0_DHCP_Pool1_<< R100-VLAN-200 >>
 !
 network 192.168.200.0 255.255.255.0
 default-router 192.168.200.254
-dns-server 1.1.1.1
-!
-!
-!
-ip dhcp excluded-address 192.168.10.1 192.168.10.100
-ip dhcp excluded-address 192.168.10.151 192.168.10.254
-ip dhcp excluded-address 192.168.10.99
-ip dhcp excluded-address 192.168.10.66
-ip dhcp excluded-address 192.168.10.69
-!
-ip dhcp pool fz3r0_DHCP_Pool2_<< R3-VLAN-30 >>
-!
-network 192.168.20.0 255.255.255.0
-default-router 192.168.20.254
 dns-server 1.1.1.1
 !
 !
