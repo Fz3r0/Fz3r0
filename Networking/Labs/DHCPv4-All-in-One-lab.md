@@ -145,8 +145,29 @@ ip helper-address 10.1.1.2
 !
 !
 
+```
 
+--- 
 
+### R3 - Router 3 - `DHCP CLIENT` & `DHCP Relay Agent`
+
+```
+
+enable
+configure terminal
+!
+!
+hostname < R3 - DHCP Client & Relay Agent for VLAN-30 >
+domain-name fz3r0_domain.DHCP_labs
+!
+!
+!
+interface Gi 0/0
+ip helper-address 10.2.2.2
+!
+!
+
+```
 
 ---
 
