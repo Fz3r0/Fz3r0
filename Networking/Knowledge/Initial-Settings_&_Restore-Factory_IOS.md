@@ -71,6 +71,29 @@ Switch#
 
 ```
 
+- Now that we know which IOS file we want to choose _(in this example there's just 1)_ we can select in and reboot from it!
+
+- For example, if you load a new .bin and we want to reboot form that binary , just paste that file name and boot from there: 
+
+**- HINT: Paste it twice :)!!!** The first is the directory (without .bin) the second is the file name:
+        - `**cat3k_caa-universalk9.16.03.02.SPA/cat3k_caa-universalk9.16.03.02.SPA.bin**`
+
+- Shake your Boot it!:
+
+```
+
+Switch(config)# boot system flash:/cat3k_caa-universalk9.16.03.02.SPA/cat3k_caa-universalk9.16.03.02.SPA.bin
+
+```
+
+| **Command**                      | **Definition**               |
+|:--------------------------------:|:----------------------------:|
+| boot system                      | The main command             |
+| flash:                           | The storage device           |
+| c2960-lanbasek9-mz.150-2.SE/     | The path to the file system  |
+| c2960-lanbasek9-mz.150-2.SE.bin  | The IOS file name            |
+
+
 ---
 
 ### References
