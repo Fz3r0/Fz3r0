@@ -24,6 +24,11 @@
 
 ### The boot system Command 
 
+- **Before anything!** 
+
+    - **This technique DO NOT reset the device to factory settings like new!**
+    - This is used to The IOS operating system then initializes the interfaces using the Cisco IOS commands found in the startup-config file.
+
 - The switch attempts to automatically boot by using information in the BOOT environment variable. 
 
     - If this variable is not set, the switch attempts to load and execute the first executable file it can find.
