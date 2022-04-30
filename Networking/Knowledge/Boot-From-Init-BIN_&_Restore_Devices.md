@@ -33,7 +33,7 @@
 
     - If this variable is not set, the switch attempts to load and execute the first executable file it can find.
 
-    - On Catalyst 2960 Series switches, **the image file is normally contained in a directory that has the same name as the image** file _(excluding the .bin file extension)_.
+    - On Catalyst 2960 Series switches, **the image file is normally contained in a directory that has the same name as the image, but sometimes are directly in `/` **
 
 - The IOS operating system then initializes the interfaces using the Cisco IOS commands found in the startup-config file. 
  
@@ -68,7 +68,7 @@ Switch#
 ```
 
 Switch#dir flash:
-Directory of flash:/
+Directory of flash:/      <<<---------| in this case is directly in /
 
     3  -rw-   505532849          <no date>  cat3k_caa-universalk9.16.03.02.SPA.bin  <<<-----| The IOS file name!!! :D
 
@@ -81,8 +81,12 @@ Switch#
 
 - For example, if you load a new .bin and we want to reboot form that binary , just paste that file name and boot from there: 
 
-**- HINT: Paste it twice :)!!!** The first is the directory (without .bin) the second is the file name:
-        - `**cat3k_caa-universalk9.16.03.02.SPA/cat3k_caa-universalk9.16.03.02.SPA.bin**`
+**- HINT: Check the path! if there's a folder, Paste it twice :)!!!** The first is the directory (without .bin) the second is the file name:
+    - `**flash:/cat3k_caa-universalk9.16.03.02.SPA/cat3k_caa-universalk9.16.03.02.SPA.bin**`
+
+**- HINT: But sometimes is directly in /**
+    - `**flash:/cat3k_caa-universalk9.16.03.02.SPA.bin**`
+        
 
 - Shake your Boot it!:
 
