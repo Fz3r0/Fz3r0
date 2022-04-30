@@ -77,7 +77,7 @@ enable
 configure terminal
 !
 !
-hostname < R2 - DHCP Server for VLAN-10 & VLAN-20 >
+hostname <R2-DHCP_Server_for_VLAN-10_&_VLAN-20>
 domain-name BIG_ENTERPRISE_Y___fz3r0_domain.DHCP_labs
 !
 !
@@ -88,7 +88,7 @@ ip dhcp excluded-address 192.168.200.113
 ip dhcp excluded-address 192.168.200.114
 ip dhcp excluded-address 192.168.200.115
 !
-ip dhcp pool fz3r0_DHCP_Pool1_<< R1-VLAN-20 >>
+ip dhcp pool fz3r0_DHCP_Pool1_<<R1-VLAN-20>>
 !
 network 192.168.10.0 255.255.255.0
 default-router 192.168.10.254
@@ -102,7 +102,7 @@ ip dhcp excluded-address 192.168.200.113
 ip dhcp excluded-address 192.168.200.114
 ip dhcp excluded-address 192.168.200.115
 !
-ip dhcp pool fz3r0_DHCP_Pool2_<< R3-VLAN-30 >>
+ip dhcp pool fz3r0_DHCP_Pool2_<<R3-VLAN-30>>
 !
 network 192.168.20.0 255.255.255.0
 default-router 192.168.20.254
@@ -139,7 +139,7 @@ enable
 configure terminal
 !
 !
-hostname < R1 - DHCP Client & Relay Agent for VLAN-10 >
+hostname <R1 - DHCP Client & Relay Agent for VLAN-10>
 domain-name BIG_ENTERPRISE_Y___fz3r0_domain.DHCP_labs
 !
 !
@@ -161,7 +161,7 @@ enable
 configure terminal
 !
 !
-hostname < R3 - DHCP Client & Relay Agent for VLAN-30 >
+hostname <R3 - DHCP Client & Relay Agent for VLAN-30>
 domain-name BIG_ENTERPRISE_Y___fz3r0_domain.DHCP_labs
 !
 !
