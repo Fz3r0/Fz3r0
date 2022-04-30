@@ -370,7 +370,7 @@ show ip interface g0/0/1
 ```
 
 R1(config)# interface g0/0/0
-R1(config-if)# ip helper-address 192.168.1.6
+R1(config-if)# ip helper-address 192.168.11.6
 R1(config-if)# end
 R1#
 
@@ -407,7 +407,9 @@ exit
 
 - **DP relay must be configured to relay DHCPv4 messages from the Client (Network1 PC) to the DHCPv4 server (Network2 Server)**
 
-![image](https://user-images.githubusercontent.com/94720207/166083915-cca0342c-40d4-4e9c-ae4c-8d6a9deddcd3.png)
+<span align="center"> <p align="center"> ![image](https://user-images.githubusercontent.com/94720207/166083915-cca0342c-40d4-4e9c-ae4c-8d6a9deddcd3.png) </p> </span> 
+
+
 
 
 ---
