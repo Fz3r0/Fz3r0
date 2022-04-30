@@ -81,14 +81,17 @@ Switch#
 
 - For example, if you load a new .bin and we want to reboot form that binary , just paste that file name and boot from there: 
 
-**- HINT: Check the path! if there's a folder, Paste it twice :)!!!** The first is the directory (without .bin) the second is the file name:
-    - `**flash:/cat3k_caa-universalk9.16.03.02.SPA/cat3k_caa-universalk9.16.03.02.SPA.bin**`
+    - **HINT: Check the path!** if there's a folder, Paste it twice :)!!! The first is the directory (without .bin) the second is the file name:
+    
+    - **`flash:/cat3k_caa-universalk9.16.03.02.SPA/cat3k_caa-universalk9.16.03.02.SPA.bin`**
 
-**- HINT: But sometimes is directly in /**
-    - `**flash:/cat3k_caa-universalk9.16.03.02.SPA.bin**`
+- **HINT: But sometimes is directly in /**
+
+    - **`flash:/cat3k_caa-universalk9.16.03.02.SPA.bin`**
         
-
 - Shake your Boot it!:
+    
+    - **`boot system flash:/cat3k_caa-universalk9.16.03.02.SPA/cat3k_caa-universalk9.16.03.02.SPA.bin`** 
 
 ```
 
