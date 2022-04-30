@@ -139,8 +139,8 @@ enable
 configure terminal
 !
 !
-hostname <R1 - DHCP Client & Relay Agent for VLAN-10>
-domain-name BIG_ENTERPRISE_Y___fz3r0_domain.DHCP_labs
+hostname <R1-DHCP_Relay_Agent(fromR2)_for_VLAN-10>
+ip domain-name BIG_ENTERPRISE_Y___fz3r0_domain.DHCP_labs
 !
 !
 !
@@ -161,7 +161,7 @@ enable
 configure terminal
 !
 !
-hostname <R3 - DHCP Client & Relay Agent for VLAN-30>
+hostname <R3-DHCP_Relay_Agent(fromR2)_for_VLAN-30>
 ip domain-name BIG_ENTERPRISE_Y___fz3r0_domain.DHCP_labs
 !
 !
