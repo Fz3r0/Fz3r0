@@ -28,6 +28,12 @@
 
 - < **Option2**: Step by Step Configuration >
 
+### Configure Cisco IOS DHCPv4 Relay Agent like a sir:
+
+- < **Option1**: Straight to the point Configuration >
+
+- < **Option2**: Step by Step Configuration >
+
 ### Troubleshooting & Knowledge:
 
 - **< Nerd Pocket-Bible about this configuration >**
@@ -352,6 +358,57 @@ show ip interface g0/0/1
 - For example on Packet Tracer:
 
 ![image](https://user-images.githubusercontent.com/94720207/165884711-454346fa-3438-48d7-8d05-9c2cbacb5c0e.png)
+
+---
+
+### Configure Cisco IOS DHCPv4 Relay Agent like a sir
+
+### Configure Cisco IOS DHCPv4 Relay AgentStraight to the point Configuration:
+
+- Syntax:
+
+```
+
+R1(config)# interface g0/0/0
+R1(config-if)# ip helper-address 192.168.1.6
+R1(config-if)# end
+R1#
+
+```
+
+- Copy:
+
+```
+
+enable
+configure terminal
+!
+interface G0/0/0
+ip helper-address 192.168.1.6
+!
+!
+end
+exit
+!
+!
+
+```
+
+---
+
+
+### Configure Cisco IOS DHCPv4 Relay Agent Step by Step Configuration:
+
+- In a complex hierarchical network, enterprise servers are usually located centrally. 
+
+- These servers may provide DHCP, DNS, TFTP, and FTP services for the network. Network clients are not typically on the same subnet as those servers. 
+
+- In order to locate the servers and receive services, clients often use broadcast messages.
+
+- **DP relay must be configured to relay DHCPv4 messages from the Client (Network1 PC) to the DHCPv4 server (Network2 Server)**
+
+![image](https://user-images.githubusercontent.com/94720207/166083915-cca0342c-40d4-4e9c-ae4c-8d6a9deddcd3.png)
+
 
 ---
 
