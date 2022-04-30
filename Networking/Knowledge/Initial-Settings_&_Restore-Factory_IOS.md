@@ -16,6 +16,12 @@
 
 ---
 
+### Index
+
+- << **Boot** from a **.bin initial configuration** `boot system` >>
+
+---
+
 ### Recovering from System Crash, Reboot Init setup, etc
 
 
