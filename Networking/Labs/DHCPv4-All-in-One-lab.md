@@ -97,10 +97,8 @@ speed auto
 !
 !
 interface GigabitEthernet0/1/0
-description <<Gateway to the Internet WWW2 - Cloudflare range 1.1.1.1)>>
+description << FIBER - Gateway to the Internet WWW2 - Cloudflare range 1.1.1.1)>>
 ip address 1.1.1.254 255.255.255.0
-duplex auto
-speed auto
 !
 !
 !
