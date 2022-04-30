@@ -55,7 +55,7 @@
 
 ---
 
-### R2 - Router 2 - `DHCP SERVER` 
+### BIG ENTERPRISE "Y" 
 
 1. Configure **R2** to **exclude the IPs** you need to take out
 2. Create 2 different pools for 2 different VLANs (VLAN10 & VLAN20)
@@ -66,6 +66,10 @@
 4. R2 needs to be configured to receive addressing from the ISP.
 
 - **Note: R2 Will be the DHCP Server for the 2 different networks _(VLAN10 & VLAN20)_, and at the same time R2 will be recieving DHCP from the ISP Router _(Internet Cloud)_.**
+
+---
+
+### BIG ENTERPRISE "Y" > R2 - Router 2 - `DHCP SERVER` 
 
 ```
 
@@ -79,7 +83,7 @@ domain-name fz3r0_domain.DHCP_labs
 !
 !
 ip dhcp excluded-address 192.168.10.1 192.168.10.100
-ip dhcp excluded-address 192.168.10.200 192.168.10.254
+ip dhcp excluded-address 192.168.10.151 192.168.10.254
 ip dhcp excluded-address 192.168.10.99
 ip dhcp excluded-address 192.168.10.66
 ip dhcp excluded-address 192.168.10.69
@@ -92,11 +96,11 @@ dns-server 1.1.1.1
 !
 !
 !
-ip dhcp excluded-address 192.168.20.1 192.168.20.100
-ip dhcp excluded-address 192.168.20.200 192.168.20.254
-ip dhcp excluded-address 192.168.20.99
-ip dhcp excluded-address 192.168.20.66
-ip dhcp excluded-address 192.168.20.69
+ip dhcp excluded-address 192.168.10.1 192.168.10.100
+ip dhcp excluded-address 192.168.10.151 192.168.10.254
+ip dhcp excluded-address 192.168.10.99
+ip dhcp excluded-address 192.168.10.66
+ip dhcp excluded-address 192.168.10.69
 !
 ip dhcp pool fz3r0_DHCP_Pool2_<< R3-VLAN-30 >>
 !
@@ -127,7 +131,7 @@ exit
 
 ---
 
-### R1 - Router 1 - `DHCP CLIENT` & `DHCP Relay Agent`
+### BIG ENTERPRISE "Y" > R1 - Router 1 - `DHCP CLIENT` & `DHCP Relay Agent`
 
 ```
 
@@ -149,7 +153,7 @@ ip helper-address 10.1.1.2
 
 --- 
 
-### R3 - Router 3 - `DHCP CLIENT` & `DHCP Relay Agent`
+### R3 - BIG ENTERPRISE "Y" > Router 3 - `DHCP CLIENT` & `DHCP Relay Agent`
 
 ```
 
