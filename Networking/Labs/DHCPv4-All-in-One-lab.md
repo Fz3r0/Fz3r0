@@ -65,6 +65,7 @@
     - (Gi 0/1) 209.165.202.225/27 - To Internet Clients (Home, Office, etc)
     - _Only exclude IP of the Gateway of Internet to Clients, because Internet I & II are Static._
 
+- _Note: EIGRP will be configured as Routing Protocol (EIGRP1)_
 
 ```
 
@@ -80,58 +81,48 @@ ip domain-name ISP_TELMEX___fz3r0_domain.DHCP_labs
 ip dhcp excluded-address 209.165.200.225
 !
 !
-
-!
-!
-!
 ip dhcp pool fz3r0_DHCP_Pool1_<<for:R1-VLAN-10___PRIVATE_DNS>>
 !
-network 192.168.10.0 255.255.255.0
-default-router 192.168.10.254
-dns-server 192.168.20.201
-!
-!
-!
-ip dhcp excluded-address 192.168.30.1 192.168.30.100
-ip dhcp excluded-address 192.168.30.151 192.168.30.254
-ip dhcp excluded-address 192.168.30.113
-ip dhcp excluded-address 192.168.30.114
-ip dhcp excluded-address 192.168.30.115
-!
-ip dhcp pool fz3r0_DHCP_Pool2_<<for:R3-VLAN-30___PUBLIC_DNS>>
-!
-network 192.168.30.0 255.255.255.0
-default-router 192.168.30.254
-dns-server 1.1.1.1 
-!
-!
-!
-!
-interface GigabitEthernet0/1
-description <<Connect_to_Internet_(DHCP-CLIENT-FROM-ISP)>>
-ip address dhcp
-duplex auto
-speed auto
-no shutdown
+network 209.165.200.224 255.255.255.224
+default-router 209.165.200.225
+dns-server 1.1.1.1
 !
 !
 !
 interface GigabitEthernet0/0
-description <<Connect_to_VLAN-20_(DNS_Server_Static_LAN)>>
-ip address 192.168.20.254 255.255.255.0
+description <<Gateway to the Internet WWW - Out into the wild!)>>
+ip address 209.165.202.129 255.255.255.224
 duplex auto
 speed auto
-no shutdown
 !
-interface Serial0/0/0
-description <<Connect_to_DHCP_Frame_Relay_Router(R1-VLAN-10)>>
-ip address 10.1.1.2 255.255.255.252
-clock rate 64000
 !
-interface Serial0/0/1
-description <<Connect_to_DHCP_Frame_Relay_Router(R2-VLAN-30)>>
-ip address 10.2.2.2 255.255.255.252
-clock rate 64000
+interface GigabitEthernet0/1/0
+description <<Gateway to the Internet WWW2 - Cloudflare range 1.1.1.1)>>
+ip address 1.1.1.254 255.255.255.0
+duplex auto
+speed auto
+!
+!
+!
+interface GigabitEthernet0/1
+description <<Gateway for Internet Clients - Connect_to_ISP_Clients)>>
+ip address 209.165.200.225 255.255.255.224
+duplex auto
+speed auto
+!
+!
+!
+!
+!
+!
+router eigrp 1
+network 209.165.200.224 0.0.0.31
+network 209.165.202.128 0.0.0.31
+!
+ip classless
+!
+ip flow-export version 9
+!
 !
 !
 !
