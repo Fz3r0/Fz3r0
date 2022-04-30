@@ -3,7 +3,7 @@
 
 ![My Video](https://user-images.githubusercontent.com/94720207/165892585-b830998d-d7c5-43b4-a3ad-f71a07b9077e.gif)
 
-### DHCPv4 like a Sir (Dynamic Host Configuration Protocol v4)
+### Configure IOS Initial Settings & Restore to Factory Defaults like a Sir! 
 
 ---
 
@@ -12,39 +12,60 @@
 
 ---
 
-#### Keywords: `Networking` `Routing & Switching` `CCNA` `CCNP` `DHCPv4`
-
----
-   
-### Configure Cisco IOS DHCPv4 Server like a sir:
-
-- < **Option1**: Straight to the point Configuration >
-
-- < **Option2**: Step by Step Configuration >
-
-### Configure Cisco IOS DHCPv4 Client like a sir:
-
-- < **Option1**: Straight to the point Configuration >
-
-- < **Option2**: Step by Step Configuration >
-
-### Configure Cisco IOS DHCPv4 Relay Agent like a sir:
-
-- < **Option1**: Straight to the point Configuration >
-
-- < **Option2**: Step by Step Configuration >
-
-### Troubleshooting & Knowledge:
-
-- **< Nerd Pocket-Bible about this configuration >**
-
-- **< Troubleshooting & show commands for this configuration >**
+#### Keywords: `Networking` `Routing & Switching` `CCNA` `CCNP` `Initial Settings` `Reset` `Flash`
 
 ---
 
-### Configure Cisco IOS DHCPv4 Server like a sir
+### The boot system Command 
 
-### Straight to the point:
+- The switch attempts to automatically boot by using information in the BOOT environment variable. 
+
+    - If this variable is not set, the switch attempts to load and execute the first executable file it can find.
+
+    - On Catalyst 2960 Series switches, **the image file is normally contained in a directory that has the same name as the image** file _(excluding the .bin file extension)_.
+
+- The IOS operating system then initializes the interfaces using the Cisco IOS commands found in the startup-config file. 
+ 
+- **The `startup-config` file is called `config.text` and is located in `flash`.**
+
+### Example:
+
+- Notice that the IOS is located in a distinct folder and the folder path is specified. 
+
+- Use the command **`show boot`** to see what the current IOS boot file is set to:
+
+```
+
+Switch> enable
+Switch#
+Switch# show boot
+BOOT path-list      : 
+Config file         : flash:/config.text    <<<-------| HERE!!!!! ;) 
+Private Config file : flash:/private-config.text
+Enable Break        : no
+Manual Boot         : no
+HELPER path-list    : 
+Auto upgrade        : yes
+NVRAM/Config file
+      buffer size:   65536
+Switch#
+
+```
+
+- Use **`dir flash:`** to do a ls/dir on the flash 
+
+```
+
+Switch#dir flash:
+Directory of flash:/
+
+    3  -rw-   505532849          <no date>  cat3k_caa-universalk9.16.03.02.SPA.bin  <<<-----| The IOS file name!!! :D
+
+1539575808 bytes total (1034042959 bytes free)
+Switch#
+
+
+```
 
 
 ```
