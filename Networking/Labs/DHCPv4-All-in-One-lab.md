@@ -239,7 +239,7 @@ ip dhcp pool fz3r0_DHCP_Pool1_<<for:SMALL_BUSINESS_VLAN-200___PUBLIC>>
 !
 network 192.168.66.0 255.255.255.0
 default-router 192.168.66.254
-dns-server 192.168.20.201
+dns-server 1.1.1.1
 !
 !
 !
