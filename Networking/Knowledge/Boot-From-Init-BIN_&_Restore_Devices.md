@@ -22,11 +22,6 @@
 
 ---
 
-### Recovering from System Crash, Reboot Init setup, etc
-
-
----
-
 ### The boot system Command 
 
 - The switch attempts to automatically boot by using information in the BOOT environment variable. 
