@@ -121,7 +121,7 @@ no shutdown
 router eigrp 1
 network 209.165.200.224 0.0.0.31
 network 209.165.202.128 0.0.0.31
-network 1.1.1.1 0.0.0.254
+network 1.1.1.1 0.0.0.255
 !
 !
 ip flow-export version 9
