@@ -121,7 +121,7 @@ speed auto
 !
 interface GigabitEthernet0/0
 description <<Connect_to_VLAN-20_(DNS_Server_Static_LAN)>>
-ip address 1.1.1.254 255.255.255.0
+ip address 192.168.20.254 255.255.255.0
 duplex auto
 speed auto
 !
