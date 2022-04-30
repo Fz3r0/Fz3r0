@@ -20,12 +20,12 @@
 ### Objectives:
 
 1. Configure DHCP Servers:
-    - Cisco Router as a DHCP Server
-    - Generic _(Windows/Linux)_ Server as a DHCP Server
-    - Home Router _(WiFi Modem)_ as a DHCP Server
+    - `R2` - Cisco Router as a DHCP Server
+    - `Server1` - Generic _(Windows/Linux)_ Server as a DHCP Server
+    - `Home WiFi1` - Home Router _(WiFi Modem)_ as a DHCP Server
 
-3. Configure DHCP Relay
-    - Cisco Routers as a DHCP Relay Agent
+3. Configure DHCP Relay:
+    - `R1` & `R3` Cisco Routers as a DHCP Relay Agent for DHCP between different Networks
 
 5. Configure DHCP Clients:
     - Cisco Router as a DHCP Client
