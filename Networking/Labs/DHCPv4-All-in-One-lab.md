@@ -96,8 +96,8 @@ dns-server 1.1.1.1
 !
 !
 !
-ip dhcp excluded-address 192.168.30.1 192.168.10.100
-ip dhcp excluded-address 192.168.30.151 192.168.10.254
+ip dhcp excluded-address 192.168.30.1 192.168.30.100
+ip dhcp excluded-address 192.168.30.151 192.168.30.254
 ip dhcp excluded-address 192.168.30.113
 ip dhcp excluded-address 192.168.30.114
 ip dhcp excluded-address 192.168.30.115
