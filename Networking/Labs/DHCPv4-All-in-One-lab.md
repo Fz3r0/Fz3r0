@@ -202,6 +202,19 @@ no shutdown
 
 ---
 
+### INTERNET WWW > SERVER1(`twitter.com`), SERVER2(`github.com`), SERVER3(`cloudflare.com`)
+
+- Server1: twitter.com
+
+```
+
+
+
+```
+
+
+---
+
 ### BIG ENTERPRISE "Y" 
 
 1. Configure **R2** to **exclude the IPs** you need to take out
