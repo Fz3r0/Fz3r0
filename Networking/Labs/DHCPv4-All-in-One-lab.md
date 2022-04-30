@@ -55,6 +55,100 @@
 
 ---
 
+### R666-ISP - Telmex (Internet Provider) INSIDE "CLOUD"!
+
+1. This will be the Router simulating the Gateway between WWW-Internet & ISP Internet Clients
+2. Create a DHCP pool for ALL ISP Internet Clients 
+    - It's simulating 1 public IP for "3 neighbors in 1 street"
+    - All the clients get DHCP from ISP to their Edge Routers, Routers or Home Routers(AKA Internet Modem for home)
+4. Only exclude:
+    - (Gi 0/1) 209.165.202.225/27 - To Internet Clients (Home, Office, etc)
+    - _Only exclude IP of the Gateway of Internet to Clients, because Internet I & II are Static._
+
+
+```
+
+enable
+configure terminal
+!
+!
+hostname <R666-ISP-TELMEX_INFRAESTRUCTURE-SIMULATION>
+ip domain-name ISP_TELMEX___fz3r0_domain.DHCP_labs
+!
+!
+!
+ip dhcp excluded-address 209.165.200.225
+!
+!
+
+!
+!
+!
+ip dhcp pool fz3r0_DHCP_Pool1_<<for:R1-VLAN-10___PRIVATE_DNS>>
+!
+network 192.168.10.0 255.255.255.0
+default-router 192.168.10.254
+dns-server 192.168.20.201
+!
+!
+!
+ip dhcp excluded-address 192.168.30.1 192.168.30.100
+ip dhcp excluded-address 192.168.30.151 192.168.30.254
+ip dhcp excluded-address 192.168.30.113
+ip dhcp excluded-address 192.168.30.114
+ip dhcp excluded-address 192.168.30.115
+!
+ip dhcp pool fz3r0_DHCP_Pool2_<<for:R3-VLAN-30___PUBLIC_DNS>>
+!
+network 192.168.30.0 255.255.255.0
+default-router 192.168.30.254
+dns-server 1.1.1.1 
+!
+!
+!
+!
+interface GigabitEthernet0/1
+description <<Connect_to_Internet_(DHCP-CLIENT-FROM-ISP)>>
+ip address dhcp
+duplex auto
+speed auto
+no shutdown
+!
+!
+!
+interface GigabitEthernet0/0
+description <<Connect_to_VLAN-20_(DNS_Server_Static_LAN)>>
+ip address 192.168.20.254 255.255.255.0
+duplex auto
+speed auto
+no shutdown
+!
+interface Serial0/0/0
+description <<Connect_to_DHCP_Frame_Relay_Router(R1-VLAN-10)>>
+ip address 10.1.1.2 255.255.255.252
+clock rate 64000
+!
+interface Serial0/0/1
+description <<Connect_to_DHCP_Frame_Relay_Router(R2-VLAN-30)>>
+ip address 10.2.2.2 255.255.255.252
+clock rate 64000
+!
+!
+!
+end
+wr
+!
+reload
+!
+exit
+!
+!
+!
+
+```
+
+---
+
 ### BIG ENTERPRISE "Y" 
 
 1. Configure **R2** to **exclude the IPs** you need to take out
