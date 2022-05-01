@@ -53,19 +53,19 @@ Fz3r0_Switch#
 
 - `line protocol is up` refers to the data link layer and indicates whether the data link layer protocol keepalives are being received.
 
-- **Troubleshoot it!:**
+    - **Troubleshoot it!:**
 
-    - Based on the output of the `show interfaces` command, possible problems can be fixed as follows:
+        - Based on the output of the `show interfaces` command, possible problems can be fixed as follows:
 
-- Interface `UP` / line protocol `DOWN`
-    - There could be an encapsulation type mismatch, the interface on the other end could be error-disabled, or there could be a hardware problem.
+            - Interface `UP` / line protocol `DOWN`
+                - There could be an encapsulation type mismatch, the interface on the other end could be error-disabled, or there could be a hardware problem.
     
-- Interface `DOWN` / line protocol `DOWN`
-    - A cable is not attached, or some other interface problem exists. 
-    - For example, in a back-to-back connection, the other end of the connection may be administratively down.
+            - Interface `DOWN` / line protocol `DOWN`
+                - A cable is not attached, or some other interface problem exists. 
+                - For example, in a back-to-back connection, the other end of the connection may be administratively down.
     
-- Interface `Administratively Down`
-    - It has been manually disabled (the shutdown command has been issued) in the active configuration.
+            - Interface `Administratively Down`
+                - It has been manually disabled (the shutdown command has been issued) in the active configuration.
 
  
 
