@@ -385,7 +385,9 @@
   
     - [Fz3r0 Cyber-Weaponry Crafting, Tools Programming & Open Source Projects]
   
-        - [Python]
+        - **Python** _Serpentium lingua et artes magicae obscurae_
+
+            - _"Parseltongue was the language of serpents (as well as other magical serpentine creatures, like the Runespoor and Basilisk) and those who could converse with them: A wizard or witch who could speak Parseltongue was known as a Parselmouth. The ability had an association with Dark Wizards. This association with the Dark Arts generally caused fear and distrust of those with the ability."_
             - [QR Code Generator from a string]()
         - [C]
             - [Compile C code in Linux](https://www.atechtown.com/c-program-in-linux/)
