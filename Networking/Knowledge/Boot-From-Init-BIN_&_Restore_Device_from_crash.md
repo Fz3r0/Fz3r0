@@ -46,7 +46,7 @@
 
 ### Example:
 
-- Notice that the IOS is located in a distinct folder and the folder path is specified. 
+- Notice that the IOS is located in root `/` (flash:/) folder, but sometimes another folder path is specified (flash:/folderabcs_122345/). 
 
 - Use the command **`show boot`** to see what the current IOS boot file is set to:
 
