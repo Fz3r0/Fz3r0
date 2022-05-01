@@ -30,7 +30,7 @@
     - **This is used to tell the router which IOS file to be used while booting, when there are multiple files in the flash... So, if you have only 1 file, it will be your same config!!! (not the factory or other startup config)**
     - **This can also be used when a device crash (_See the second section of this document_) 
     - **If you have a backup or another .bin with an init setup stored in you device, then you can boot from there tho ;) (but there are other better ways to init the device from factory, just click here!!!)
-    - **Other use is the boot from another disk or service outside the device like FTP, ROM, TFTP**
+    - **Another good use for this crap, is to boot from another disk or service outside the device like FTP, ROM, TFTP**
 
 - **OK moving on...** 
 
