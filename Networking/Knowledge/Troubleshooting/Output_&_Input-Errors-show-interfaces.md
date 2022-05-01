@@ -28,7 +28,26 @@
      
 - **...OK let's move on...**
 
-- 
+1. The output from the `show interfaces` command is useful for detecting common media issues. 
+    - One of the most important parts of this output is the display of the `line` and `data link protocol` status, as shown in the example:
+
+```
+
+Fz3r0_Switch#
+Fz3r0_Switch#
+Fz3r0_Switch#show interfaces fastEthernet 0/10     <<<----------| Command
+
+
+FastEthernet0/10 is up, line protocol is up (connected)  <<<----------| Interface # , UP/DOWN
+
+Hardware is Lance, address is 00d0.badc.be0a (bia 00d0.badc.be0a)    <<<----| Interface MAC
+  Description: << Testing Interface Fa 0/10 Issues >>     
+
+(more results explained in the next point!)
+
+Fz3r0_Switch#
+
+```
 
  
 
