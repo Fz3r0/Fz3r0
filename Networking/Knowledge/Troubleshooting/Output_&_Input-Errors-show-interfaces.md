@@ -41,13 +41,31 @@ Fz3r0_Switch#show interfaces fastEthernet 0/10     <<<----------| Command
 FastEthernet0/10 is up, line protocol is up (connected)  <<<----------| Interface # , UP/DOWN
 
 Hardware is Lance, address is 00d0.badc.be0a (bia 00d0.badc.be0a)    <<<----| Interface MAC
-  Description: << Testing Interface Fa 0/10 Issues >>     
+  Description: << Testing Interface Fa 0/10 Issues >>     <<<----| Description
 
 (more results explained in the next point!)
 
 Fz3r0_Switch#
 
 ```
+
+- `FastEthernet0/18 is up` refers to the hardware layer and indicates whether the interface is receiving a carrier detect signal.
+
+- `line protocol is up` refers to the data link layer and indicates whether the data link layer protocol keepalives are being received.
+
+- **Troubleshoot it!:**
+
+    - Based on the output of the `show interfaces` command, possible problems can be fixed as follows:
+
+- Interface `UP` / line protocol `DOWN`
+    - There could be an encapsulation type mismatch, the interface on the other end could be error-disabled, or there could be a hardware problem.
+    
+- Interface `DOWN` / line protocol `DOWN`
+    - A cable is not attached, or some other interface problem exists. 
+    - For example, in a back-to-back connection, the other end of the connection may be administratively down.
+    
+- Interface `Administratively Down`
+    - It has been manually disabled (the shutdown command has been issued) in the active configuration.
 
  
 
