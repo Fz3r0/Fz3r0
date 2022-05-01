@@ -233,11 +233,10 @@
     - Lab 08 > [DHCPv4 All-in-One! DHCP Servers, DHCP Clients & DHCP Frame Relay Agents of all types!](/Networking/Labs/DHCPv4-All-in-One-lab.md) _Packet Tracer_
      
 - [Network Troubleshooting & Ass-Savers]
-    - [**Boot/Start-up** from a Binary **.bin** or **config.text** & **Recover** from a **System Crash**](/Networking/Knowledge/Troubleshooting/Boot-From-Init-BIN_&_Restore_Device_from_crash.md)
+    - [**Boot/Start-up** from a Binary **.bin** or **config.text** & **Recover** from a **System Crash**](/Networking/Knowledge/Troubleshooting/Boot-From-Init-BIN_&_Restore_Device_from_crash.md) _The tricks and hints for booting_
     - [Find & Troubleshoot **Access Layer Issues**, **Output & Input Errors** {Runt, Giants, CRC, Collisions} (**show interface**)](/Networking/Knowledge/Troubleshooting/Output_&_Input-Errors-show-interfaces.md) _Find shitty errors in the transmission_
-    - [Toubleshooting Network Access Layer Issues](https://user-images.githubusercontent.com/94720207/164993410-32b7e351-f9a3-4b77-b9d7-08bf74b13da2.png)
     - [Cut-Throught & Store-and-forward Switching](https://user-images.githubusercontent.com/94720207/164997743-d42dbae9-edb4-4f83-ae44-16cb5eab2fd4.png) _Spoiler-alert: Store-and-Forward for the win! Checksum FTW_
-    - [Fixing Kali VM Bridge Network [VMware] (GNS3 + Hacking Labs = ETH kaput!)](/Networking/Knowledge/Troubleshooting/Kali-Bridge-Issue-ETH.md) _Easy fix to the bridge VMware incidence_
+    - [Fixing **Kali VM Bridge Network** [VMware] (GNS3 + Hacking Labs = ETH kaput!)](/Networking/Knowledge/Troubleshooting/Kali-Bridge-Issue-ETH.md) _Easy fix to the bridge VMware incidence_
 
 
  
