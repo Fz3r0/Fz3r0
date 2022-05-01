@@ -256,6 +256,8 @@ Cisco WS-C2950T-24 (RC32300) processor (revision C0) with 21039K bytes of memory
 
 - BOOM! Now the device restarted working again after the crash
 
+- **The boot loader commands support initializing flash, formatting flash, installing a new IOS, changing the BOOT environment variable and recovery of lost or forgotten passwords.**
+
 ---
 
 ### References
