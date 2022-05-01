@@ -234,7 +234,7 @@
     - Lab 08 > [DHCPv4 All-in-One! DHCP Servers, DHCP Clients & DHCP Frame Relay Agents of all types!](/Networking/Labs/DHCPv4-All-in-One-lab.md) _Packet Tracer_
      
 - [Network Troubleshooting]
-    - [Check for **Output & Input Errors** one-liner! (**show interfaces**) Giant, CRCerror, Runt Frames, collisions & more!](/Networking/Knowledge/Troubleshooting/Output_&_Input Errors-show-interfaces.md)
+    - [Check for **Output & Input Errors** one-liner! **show interfaces** Giant, CRCerror, Runt Frames, collisions & more](/Networking/Knowledge/Troubleshooting/Output_&_Input Errors-show-interfaces.md)
     - [Toubleshooting Network Access Layer Issues](https://user-images.githubusercontent.com/94720207/164993410-32b7e351-f9a3-4b77-b9d7-08bf74b13da2.png)
     - [Cut-Throught & Store-and-forward Switching](https://user-images.githubusercontent.com/94720207/164997743-d42dbae9-edb4-4f83-ae44-16cb5eab2fd4.png)
     - [Fixing Kali VM Bridge Network [VMware] (GNS3 + Hacking Labs = ETH kaput!)](/Networking/Knowledge/Troubleshooting/Kali-Bridge-Issue-ETH.md) _Easy fix to the bridge VMware incidence_
