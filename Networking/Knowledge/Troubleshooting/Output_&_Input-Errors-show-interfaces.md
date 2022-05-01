@@ -127,18 +127,26 @@ Fz3r0_Switch#
 | `Input Errors`    | **Total number of errors.** It includes runts, giants, no buffer, CRC, frame, overrun, and ignored counts.     |
 | `Runts`           | Frames that are discarded because they are **smaller than the minimum frame size for the medium**. For instance, any Ethernet frame that is **less than 64 bytes is considered a runt**.  |
 | `Giants`          | Frames that are discarded because they **exceed the maximum frame size for the medium**. For example, any Ethernet frame that is **greater than 1,518 bytes is considered a giant**.      |
-| `CRC`             | **CRC errors** are generated when the calculated **checksum is not the same** as the checksum received.                                                                                   |
+| `CRC`             | **`VERY IMPORTANT TO CHECK!!!`** **CRC errors** are generated when the calculated **checksum is not the same** as the checksum received.                                                                                   |
 | `Output Errors`   | **Sum of all errors** that prevented the final transmission of datagrams out of the interface that is being examined.                                                                 |
 | `Collisions`      | Number of **messages retransmitted** because of an **Ethernet collision**.                                                                                                                |
 | `Late Collisions` | A **collision** that occurs **after 512 bits of the frame have been transmitted**.  |
 
-- **Interface Input and Output Errors**
+- `Runt Frames` - Malfunctioning NICs are the usual cause of excessive runt frames, but they can also be caused by collisions.
 
-- "Input errors"is the sum of all errors in datagrams that were received on the interface being examined. 
+- `CRC errors` - **On Ethernet and serial interfaces, CRC errors usually indicate a MEDIA OR CABLE ERROR. 
 
--  This includes runts, giants, CRC, no buffer, frame, overrun, and ignored counts. 
+- **CRC = cyclic redundancy checking** 
 
- he reported input errors from the show interfaces command include the following:  
+- **A CRC error informs you that the cyclic redundancy check has detected damaged or incomplete files.** 
+    
+    - Common causes include **electrical interference, loose or damaged connections, or incorrect cabling.** 
+    
+    - **If you see many CRC errors, there is too much noise on the link and you should inspect the cable.** 
+    
+    - **You should also search for and eliminate noise sources.** 
+
+-  
 
 ---
 
