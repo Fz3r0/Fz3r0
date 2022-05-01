@@ -175,7 +175,7 @@ Fz3r0_Switch#
 
 ![image](https://user-images.githubusercontent.com/94720207/166133303-f4878d5e-5506-4bd4-8ebc-149c1b07da1c.png)
 
-- Actually....that's just an easy example, in each scenario you will need to imporvise...lol! prepare yourself, i know what i'm telling you!!! Analyze every situation or you are done... 
+- Actually....that's just an easy example, in each scenario you will need to imporvise...lol! prepare yourself, I'm telling you!!! Analyze every situation very well or you will be done...sometimes we are searching for rabbits in holes where there's nothing... 
 
 ---
 
