@@ -22,7 +22,7 @@
 
 ---
 
-### The boot system Command 
+### The `boot system` Command 
 
 - **Before anything!** 
 
