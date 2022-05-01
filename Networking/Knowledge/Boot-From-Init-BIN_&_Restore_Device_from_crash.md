@@ -126,19 +126,77 @@ Switch(config)# boot system flash:/cat3k_caa-universalk9.16.03.02.SPA/cat3k_caa-
 
 ![image](https://user-images.githubusercontent.com/94720207/166128307-dc7dbbb9-dfd9-40a6-97c9-bcaccc6c7436.png)
 
-3. Unplug the switch power cord. _(not allowed in all packet tracer devices, but, for example:)_
+2. Unplug the switch power cord. _(not allowed in all packet tracer devices, but, for example:)_
 
 ![image](https://user-images.githubusercontent.com/94720207/166128212-a954d668-bc73-4e50-8124-535cc33eb93a.png)
 
-4. Continue pressing the Mode button until the System LED turns briefly amber and then solid green; then release the Mode button.
+3. Reconnect the power cord to the switch and press and hold **within 15 seconds**, the `Mode` button while the System LED is still flashing green.
 
 ![image](https://user-images.githubusercontent.com/94720207/166128365-b4357dea-e673-4b02-a544-4d3575dd2edc.png)
 
+4. Continue pressing the Mode button until the System LED turns briefly amber and then solid green; then release the Mode button.
+
 ![image](https://user-images.githubusercontent.com/94720207/166128407-256baee4-c342-4ab0-84af-68e224ccba47.png)
 
+5. The boot loader switch: prompt appears in the terminal emulation software on the PC.
+
+```
+
+Switch>
+Switch>         <<<------------| Normal prompt or shell (Switch>)
+Switch>
+Switch>C2950 Boot Loader (C2950-HBOOT-M) Version 12.1(11r)EA1, RELEASE SOFTWARE (fc1)
+Compiled Mon 22-Jul-02 18:57 by miwang
+Cisco WS-C2950T-24 (RC32300) processor (revision C0) with 21039K bytes of memory.
+2950T-24 starting...
+Base ethernet MAC Address: 000D.BDB8.0A1C
+Xmodem file system is available.
+Initializing Flash...
+flashfs[0]: 1 files, 0 directories
+flashfs[0]: 0 orphaned files, 0 orphaned directories
+flashfs[0]: Total bytes: 64016384
+flashfs[0]: Bytes used: 3058048
+flashfs[0]: Bytes available: 60958336
+flashfs[0]: flashfs fsck took 1 seconds.
+...done Initializing Flash.
+
+Boot Sector Filesystem (bs:) installed, fsid: 3
+Parameter Block Filesystem (pb:) installed, fsid: 4
 
 
-5. Reconnect the power cord to the switch and press and hold **within 15 seconds**, the `Mode` button while the System LED is still flashing green.
+Loading "flash:/c2950-i6q4l2-mz.121-22.EA4.bin"...
+###############
+Boot process terminated.
+switch: 
+switch:         <<<------------| Boot loader!! ;) (Switch:)
+switch: 
+
+```
+
+- Type the `help` or `?` at the boot loader prompt to view a list of available commands.
+
+```
+switch: 
+switch: help
+           ? -- Present list of available commands
+        boot -- Load and boot an executable image
+      delete -- Delete file(s)
+         dir -- List files in directories
+  flash_init -- Initialize flash filesystem(s)
+        help -- Present list of available commands
+      rename -- Rename a file
+       reset -- Reset the system
+         set -- Set or display environment variables
+       unset -- Unset one or more environment variables
+switch: 
+
+```
+
+- By default, the switch attempts to automatically boot up by using information in the BOOT environment variable. 
+
+- To view the path of the switch BOOT environment variable type the `set` command. Then, initialize the flash file system using the `flash_init` command to view the current files in flash, as shown in the output.
+
+
 ---
 
 ### References
