@@ -213,6 +213,7 @@
     - [Cisco CCNA Cheat Sheet I](https://github.com/Fz3r0/CCNA-Cheat-Sheet)
     - https://github.com/Fz3r0/cisco-cheatsheet
     - https://github.com/Fz3r0/Cisco-IOS-Command-CheatSheets
+    - [all commands ios](https://itexamanswers.net/cisco-ios-commands-help-ccna-commands-cheat-sheet.html)
 
 
 - [Fz3r0 - **Configure it Like a Sir!** _series (Pro and Secure Network Configurations Guides made by me)_
