@@ -124,11 +124,17 @@ Switch(config)# boot system flash:/cat3k_caa-universalk9.16.03.02.SPA/cat3k_caa-
 
 1. Connect a PC by console cable to the switch console port.
 
-![image](https://user-images.githubusercontent.com/94720207/166128180-22ec3fcd-4e83-4ab5-a62f-09d237f8896c.png)
+![image](https://user-images.githubusercontent.com/94720207/166128307-dc7dbbb9-dfd9-40a6-97c9-bcaccc6c7436.png)
 
-3. Unplug the switch power cord.
+3. Unplug the switch power cord. _(not allowed in all packet tracer devices, but, for example:)_
 
 ![image](https://user-images.githubusercontent.com/94720207/166128212-a954d668-bc73-4e50-8124-535cc33eb93a.png)
+
+4. Continue pressing the Mode button until the System LED turns briefly amber and then solid green; then release the Mode button.
+
+![image](https://user-images.githubusercontent.com/94720207/166128365-b4357dea-e673-4b02-a544-4d3575dd2edc.png)
+
+![image](https://user-images.githubusercontent.com/94720207/166128407-256baee4-c342-4ab0-84af-68e224ccba47.png)
 
 
 
