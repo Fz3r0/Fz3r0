@@ -132,7 +132,15 @@ Fz3r0_Switch#
 | `Collisions`      | Number of **messages retransmitted** because of an **Ethernet collision**.                                                                                                                |
 | `Late Collisions` | A **collision** that occurs **after 512 bits of the frame have been transmitted**.  |
 
+---
+
+### Input errors
+
+- **"Input errors"** is the sum of all errors in datagrams that were **received on the interface** being examined
+
 - `Runt Frames` - Malfunctioning NICs are the usual cause of excessive runt frames, but they can also be caused by collisions.
+
+- `Giants` - Ethernet frames that are larger than the maximum allowed size are called giants.
 
 - `CRC errors` - **On Ethernet and serial interfaces, CRC errors usually indicate a MEDIA OR CABLE ERROR. 
 
@@ -146,7 +154,18 @@ Fz3r0_Switch#
     
     - **You should also search for and eliminate noise sources.** 
 
--  
+### Output errors 
+
+- **"Output errors"** is the sum of all errors that **prevented the final transmission** (output) of datagrams out the interface that is being examined.
+
+    - `Collisions`
+        - Collisions in half-duplex operations are normal. However, you should never see collisions on an interface configured for full-duplex communication.
+
+    - `Late collisions` 
+        - A late collision refers to a collision that occurs after 512 bits of the frame have been transmitted. 
+        - Excessive cable lengths are the most common cause of late collisions. 
+        - Another common cause is **duplex misconfiguration.**
+        -  A properly designed and configured network should **NEVER have late collisions.**
 
 ---
 
