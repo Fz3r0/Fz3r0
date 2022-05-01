@@ -81,7 +81,8 @@ FastEthernet0/10 is up, line protocol is up (connected)              <|-------
   Description: << Testing Interface Fa 0/10 Issues >>                <|-------
  
                                                            Easy to read...
-  vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv  
+  |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||                                   
+  vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv 
  
  BW 100000 Kbit, DLY 1000 usec,
      reliability 255/255, txload 1/255, rxload 1/255
@@ -97,6 +98,7 @@ FastEthernet0/10 is up, line protocol is up (connected)              <|-------
   Output queue :0/40 (size/max)
   
                                      TASTY DATA FOR TROUBLESHOOTING AND ASS SAVERS!!!
+  |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||                                   
   vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv                          
   
   5 minute input rate 0 bits/sec, 0 packets/sec
