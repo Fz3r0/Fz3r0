@@ -140,7 +140,7 @@
 
   - This repository has been intended to be a personal and private database that also serves as a portfolio to show to potential employers and clients my work, experience, education and resume in the area of IT, network engineering, cyber security, programming, systems administration, manage, configuration and computer science in general.
   
-  - The reason this repository is publicly accessible is because it shares the GNU free software ideology and philosophy, it means the freedom to run the software, to study the software, to modify the software, and to share copies of the software (whether modified or not). I believe that everyone in the world need to know about computers and networking for free, that would make the world a better place.
+  - The reason this repository is publicly accessible is because it shares the GNU free software ideology and philosophy, it means the freedom to run the software, to study the software, to modify the software, and to share copies of the software (whether modified or not).
  
      I believe that all people should learn Computer Science and Technology for free and must be accesible for everyone as a human right, which would make this world a better place, in addition to leaving a small footprint of the greatness of human capacity in this tiny instant of time and in this little portion of infinite universe. I hope this can help someone!
   
