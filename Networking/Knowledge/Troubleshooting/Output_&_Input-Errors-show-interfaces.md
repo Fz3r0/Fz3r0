@@ -22,7 +22,7 @@
 
     - This technique and simple command will be very useful in the whole Networking career fur sure... `show interface` _(options)_
     
-    - **This can help a lot when a cable is damaged, a plug, a rat bite the wire, interferences, or something causing lose of packets or shitty transsmissions to be clear...**
+    - **This can help a lot when a cable is damaged, a plug, a rat bite the wire, interferences, or something causing lose of packets or shitty transsmissions to be clear... READ ON THE BOOTM TABLE ABOUT >> CRC ERRORS << (among others)...**
      
     - The concept is very easy: if something is happening with the packets travelling throught our devices, we can identify the integrity of the transmission with a simple and mystic command `show interface`.
      
