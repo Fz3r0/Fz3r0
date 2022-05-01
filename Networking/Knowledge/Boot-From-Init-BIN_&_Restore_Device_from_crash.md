@@ -18,7 +18,7 @@
 
 ### Index
 
-- << **Boot** from a **.bin initial configuration** `boot system` >>
+- << **Boot** from a **.bin initial configuration** | `boot system` command >>
 
 ---
 
