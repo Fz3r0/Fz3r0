@@ -3,7 +3,7 @@
 
 ![My Video](https://user-images.githubusercontent.com/94720207/165892585-b830998d-d7c5-43b4-a3ad-f71a07b9077e.gif)
 
-### Find Access Layer Issues, Output & Input Errors {Runt, Giants, CRC, Collisions, etc} (show interface)
+### Find & Troubleshoot: Access Layer Issues, Output & Input Errors {Runt, Giants, CRC, Collisions,} (show interface)
 
 ---
 
