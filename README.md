@@ -215,8 +215,7 @@
     - https://github.com/Fz3r0/Cisco-IOS-Command-CheatSheets
 
 
-- [Fz3r0 - **Configure it Like a Sir!** _series_ _(Pro and Secure Network Configurations Guides made by me)_]
-    - [**Boot/Start-up** from a Binary **.bin** or **config.text** & **Recover** from a **System Crash** like a Sir!](/Networking/Knowledge/Boot-From-Init-BIN_&_Restore_Device_from_crash.md)
+- [Fz3r0 - **Configure it Like a Sir!** _series (Pro and Secure Network Configurations Guides made by me)_
     - [Configure **Spaning Tree Protocol** like a Sir **(STP, RSTP+, PVSTP & R-PVSTP)**](/Networking/Knowledge/STP-for-dummies.md)
     - [Configure **Ether-Channel** like a sir **(Etherport, PAgP, LACL, Static)** | STP)](/Networking/Knowledge/EtherChannel-like-a-sir.md)
    - [Configure **DHCPv4** like a Sir **(DHCPv4, Client, Server, Cisco Router, Home Router)**](/Networking/Knowledge/DHCPv4-like-a-sir.md)
@@ -233,8 +232,8 @@
     - Lab 07 > [EtherChannel All-in-One! LACP, PAgP & Static + RSTP+](/Networking/Labs/EtherChannel-Like-a-Sir.md) _Packet Tracer_
     - Lab 08 > [DHCPv4 All-in-One! DHCP Servers, DHCP Clients & DHCP Frame Relay Agents of all types!](/Networking/Labs/DHCPv4-All-in-One-lab.md) _Packet Tracer_
      
-- [Network Troubleshooting]
-
+- [Network Troubleshooting & Ass-Savers]
+    - [**Boot/Start-up** from a Binary **.bin** or **config.text** & **Recover** from a **System Crash**](/Networking/Knowledge/Troubleshooting/Boot-From-Init-BIN_&_Restore_Device_from_crash.md)
     - [Output & Input Errors **show interfaces**](/Networking/Knowledge/Troubleshooting/Output_&_Input-Errors-show-interfaces.md)
     - [Toubleshooting Network Access Layer Issues](https://user-images.githubusercontent.com/94720207/164993410-32b7e351-f9a3-4b77-b9d7-08bf74b13da2.png)
     - [Cut-Throught & Store-and-forward Switching](https://user-images.githubusercontent.com/94720207/164997743-d42dbae9-edb4-4f83-ae44-16cb5eab2fd4.png)
