@@ -132,6 +132,14 @@ Fz3r0_Switch#
 | `Collisions`      | Number of **messages retransmitted** because of an **Ethernet collision**.                                                                                                                |
 | `Late Collisions` | A **collision** that occurs **after 512 bits of the frame have been transmitted**.  |
 
+- **Interface Input and Output Errors**
+
+- "Input errors"is the sum of all errors in datagrams that were received on the interface being examined. 
+
+-  This includes runts, giants, CRC, no buffer, frame, overrun, and ignored counts. 
+
+ he reported input errors from the show interfaces command include the following:  
+
 ---
 
 ### References
