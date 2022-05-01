@@ -107,7 +107,7 @@ FastEthernet0/10 is up, line protocol is up (connected)              <|-------
      Received 956 broadcasts, 0 runts, 0 giants, 0 throttles           <|
      0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort     <|
      0 watchdog, 0 multicast, 0 pause input                            <| Holy data for Access Layer Issues
-     0 input packets with dribble condition detected                   <| Tabe Below:
+     0 input packets with dribble condition detected                   <| Table Below:
      2357 packets output, 263570 bytes, 0 underruns                    <|
      0 output errors, 0 collisions, 10 interface resets
      0 babbles, 0 late collision, 0 deferred
