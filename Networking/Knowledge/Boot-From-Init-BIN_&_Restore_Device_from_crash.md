@@ -196,6 +196,63 @@ switch:
 
 - To view the path of the switch BOOT environment variable type the `set` command. Then, initialize the flash file system using the `flash_init` command to view the current files in flash, as shown in the output.
 
+```
+switch: 
+switch: set
+
+////  (no output in this switch but you could find also:)  ///
+
+BOOT=flash:/c2960-lanbasek9-mz.122-55.SE7/c2960-lanbasek9-mz.122-55.SE7.bin
+(output omitted)
+
+switch: flash_init
+Initializing Flash...
+flashfs[0]: 1 files, 0 directories
+flashfs[0]: 0 orphaned files, 0 orphaned directories
+flashfs[0]: Total bytes: 64016384
+flashfs[0]: Bytes used: 3058048
+flashfs[0]: Bytes available: 60958336
+flashfs[0]: flashfs fsck took 1 seconds.
+...done Initializing Flash.
+
+switch:
+
+```
+
+- After flash has finished initializing you can enter the `dir flash:` command to view the directories and files in flash, as shown in the output.
+
+```
+
+switch: dir flash:
+Directory of flash:/
+
+1    -rw-  3058048   <date>               c2950-i6q4l2-mz.121-22.EA4.bin
+60958336 bytes available (3058048 bytes used)
+
+switch: 
+
+```
+
+- Enter the `BOOT=flash` command to change the BOOT environment variable path the switch uses to load the new IOS in flash. 
+
+- To verify the new BOOT environment variable path, issue the `set` command again. 
+
+- Finally, to load the new IOS type the `boot` command without any arguments, as shown in the output.
+
+```
+
+switch: BOOT=flash:c2950-i6q4l2-mz.121-22.EA4.bin
+switch: set
+BOOT=flash:c2950-i6q4l2-mz.121-22.EA4.bin
+switch: boot
+
+C2950 Boot Loader (C2950-HBOOT-M) Version 12.1(11r)EA1, RELEASE SOFTWARE (fc1)
+Compiled Mon 22-Jul-02 18:57 by miwang
+Cisco WS-C2950T-24 (RC32300) processor (revision C0) with 21039K bytes of memory.
+2950T-24 starting...
+(bla bla bla bla...)
+
+```
 
 ---
 
