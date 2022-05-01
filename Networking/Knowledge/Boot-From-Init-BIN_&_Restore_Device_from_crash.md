@@ -18,7 +18,8 @@
 
 ### Index
 
-- << **Boot** from a **.bin initial configuration** | `boot system` command >>
+- Part1: << **Boot** from a **.bin initial configuration** | `boot system` command >>
+- Part2: << **Recovering from a System Crash** | Step by step recover >>
 
 ---
 
@@ -111,7 +112,27 @@ Switch(config)# boot system flash:/cat3k_caa-universalk9.16.03.02.SPA/cat3k_caa-
 | c2960-lanbasek9-mz.150-2.SE/     | The path to the file system  |
 | c2960-lanbasek9-mz.150-2.SE.bin  | The IOS file name            |
 
+--- 
 
+### Recovering from a System Crash | Step by step recover
+
+- The `boot loader` provides access into the switch if the operating system cannot be used because of missing or damaged system files.
+ 
+- The `boot loader` has a command-line/shell that provides access to the files stored in flash memory.
+
+- The trick to access that shell is easy, _(it's similar like booting another shell or BIOS on smartphone or any other device hehe)_
+
+1. Connect a PC by console cable to the switch console port.
+
+![image](https://user-images.githubusercontent.com/94720207/166128180-22ec3fcd-4e83-4ab5-a62f-09d237f8896c.png)
+
+3. Unplug the switch power cord.
+
+![image](https://user-images.githubusercontent.com/94720207/166128212-a954d668-bc73-4e50-8124-535cc33eb93a.png)
+
+
+
+5. Reconnect the power cord to the switch and press and hold **within 15 seconds**, the `Mode` button while the System LED is still flashing green.
 ---
 
 ### References
