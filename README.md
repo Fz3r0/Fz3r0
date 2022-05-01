@@ -234,7 +234,7 @@
      
 - [Network Troubleshooting & Ass-Savers]
     - [**Boot/Start-up** from a Binary **.bin** or **config.text** & **Recover** from a **System Crash**](/Networking/Knowledge/Troubleshooting/Boot-From-Init-BIN_&_Restore_Device_from_crash.md)
-    - [Output & Input Errors **show interfaces**](/Networking/Knowledge/Troubleshooting/Output_&_Input-Errors-show-interfaces.md)
+    - [Output & Input Errors **show interfaces** ()](/Networking/Knowledge/Troubleshooting/Output_&_Input-Errors-show-interfaces.md) _Find with one-liner command shitty errors in the transmission_
     - [Toubleshooting Network Access Layer Issues](https://user-images.githubusercontent.com/94720207/164993410-32b7e351-f9a3-4b77-b9d7-08bf74b13da2.png)
     - [Cut-Throught & Store-and-forward Switching](https://user-images.githubusercontent.com/94720207/164997743-d42dbae9-edb4-4f83-ae44-16cb5eab2fd4.png)
     - [Fixing Kali VM Bridge Network [VMware] (GNS3 + Hacking Labs = ETH kaput!)](/Networking/Knowledge/Troubleshooting/Kali-Bridge-Issue-ETH.md) _Easy fix to the bridge VMware incidence_
