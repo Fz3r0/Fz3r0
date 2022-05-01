@@ -32,6 +32,8 @@
     - **If you have a backup or another .bin with an init setup stored in you device, then you can boot from there tho ;) (but there are other better ways to init the device from factory, just click here!!!)
     - **Other use is the boot from another disk or service outside the device like FTP, ROM, TFTP**
 
+- **OK moving on...** 
+
 - The switch attempts to automatically boot by using information in the BOOT environment variable. 
 
     - If this variable is not set, the switch attempts to load and execute the first executable file it can find.
