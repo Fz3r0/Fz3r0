@@ -89,11 +89,11 @@ Switch#
 
     - **HINT: Check the path!** if there's a folder, Paste it twice :)!!! The first is the directory (without .bin) the second is the file name:
     
-    - **`flash:/cat3k_caa-universalk9.16.03.02.SPA/cat3k_caa-universalk9.16.03.02.SPA.bin`**
+        - **`flash:/cat3k_caa-universalk9.16.03.02.SPA/cat3k_caa-universalk9.16.03.02.SPA.bin`**
 
-- **HINT: But sometimes is directly in /**
+    - **HINT: But sometimes is directly in /**
 
-    - **`flash:/cat3k_caa-universalk9.16.03.02.SPA.bin`**
+        - **`flash:/cat3k_caa-universalk9.16.03.02.SPA.bin`**
         
 - Shake your Boot it!:
     
