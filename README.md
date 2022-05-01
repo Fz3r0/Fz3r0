@@ -216,6 +216,7 @@
 
 
 - [Fz3r0 - **Configure it Like a Sir!** _series_ _(Pro and Secure Network Configurations Guides made by me)_]
+    - [**Boot/Start-up** from a Binary **.bin** or **config.text** & **Recover** from a **System Crash** like a Sir!](/Networking/Knowledge/Boot-From-Init-BIN_&_Restore_Device_from_crash.md)
     - [Configure Spaning Tree Protocol like a Sir **(STP, RSTP+, PVSTP & R-PVSTP)**](/Networking/Knowledge/STP-for-dummies.md)
     - [Configure Ether-Channel like a sir **(Etherport, PAgP, LACL, Static)** | STP)](/Networking/Knowledge/EtherChannel-like-a-sir.md)
    - [Configure DHCPv4 like a Sir **(DHCPv4, Client, Server, Cisco Router, Home Router)**](/Networking/Knowledge/DHCPv4-like-a-sir.md)
