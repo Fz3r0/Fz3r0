@@ -132,6 +132,17 @@
 
 - The diagram below describes your current situation where you are the Attacker and have persistent access to eve.
 
+- Remember, we are inside `eve` as root, so we can "see" 2 different Broadcast domains.
+
+    - **Switches have the capacity to make 1 Broadcast domain for all devices connected to it**
+    - **Switches have the capacity 
+    
+    - Actually...those are the main fucntions of a switch!!!
+    - That's why we can "hear" the "conversation" between `alice` and `bob`, even if they are using other "cables" and "switchports" (Collision Domains), we are in "the same room" together! (Broadcast Domain) in the same Subnet, VLAN, etc...so:
+    
+        - IF THEY ARE USING TELNET WE CAN "HEAR" THEIR WORDS IN PLAIN TEXT! WE CAN HEAR AND UNDERSTAND THEM! IS NOT ENCRYPTED LIKE SSH
+        - WE CAN "HEAR" AND "RECORD" THEIR "VOICES"... BETTER KNOW AS `PACKET CAPTURE` OR `PCAP`
+
 - We will sniff on ETH1 as shown in the diagram:
 
 ![image](https://user-images.githubusercontent.com/94720207/166307336-66d2912d-1edf-4734-92d2-e386a21d1740.png)
