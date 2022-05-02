@@ -136,21 +136,18 @@
 
 ![image](https://user-images.githubusercontent.com/94720207/166326956-69553eaf-4a36-4494-9f37-9e19753ed742.png)
 
-    - **Switches have the capacity to make 1 Broadcast domain for all devices connected to it**
-    - **Switches have the capacity 
+- _(I promise i will upload more of my networking writeups to my github, I have some mor good stuff! :D)_ 
     
-    - Actually...those are the main fucntions of a switch!!!
-    
-    - Here's the deal! We can "hear" any broadcast sent inside the network 192.168.12.0 or if there's someone trying to connect with us `eve` 
+    - Here's the deal! We can "hear" any broadcast sent inside the network 192.168.12.0 or if there's someone trying to connect with us `eve`: 
         
-        - Imagine we are inside a "room", if someone scream everyone inside will hear that person, that's `broadcast`
+        - Imagine we are inside a "room", if someone scream everyone inside will hear that person, including us. That's `broadcast`
     
-        - But! If 2 persons whisper together, even if we are in the same room we cannot hear them. that's `unicast`
+        - But! If 2 persons whisper together, even if we are in the same room we CAN NOT hear them. That's `unicast`
     
              - **At this point, we can only "hear" if someone is screaming to everyone (broadcasting) or whispering tu us (unicast)**  
-             - **We can't hear if `bob` or `alice` are whispering themselves!... but maybe some of them is trying to send something to us...
+             - **We can't hear if `bob` or `alice` are whispering together!
 
-- We will sniff on ETH1 as shown in the diagram:
+- So, we will sniff on ETH1 as shown in the diagram:
 
 ![image](https://user-images.githubusercontent.com/94720207/166307336-66d2912d-1edf-4734-92d2-e386a21d1740.png)
 
