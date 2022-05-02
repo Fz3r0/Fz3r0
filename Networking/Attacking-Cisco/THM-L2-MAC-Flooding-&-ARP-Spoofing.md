@@ -93,7 +93,7 @@
     2. bob (192.168.12.2) MAC Address: 00:50:79:66:68:01 (Private)
     3. eve (192.168.12.66) _We are in this machine_
  
-- _It smells like alice and bob could be the simulated cisco devices, this room is about layer 2 so...they must be 2 switches, but let's keep rol playing..._
+- I will scan each host (including the machine we are using as attacker just to know "where we are?")
 
 - 
 
