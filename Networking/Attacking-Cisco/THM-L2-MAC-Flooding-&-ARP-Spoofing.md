@@ -22,7 +22,7 @@
 
 - < **Option1**: Straight to the point Configuration >
 
-- < **Option2**: Step by Step Configuration >
+- < **Option2**: Step by Step Configuration >s
 
 - < **Troubleshooting** & **show commands** for this configuration >** 
 
