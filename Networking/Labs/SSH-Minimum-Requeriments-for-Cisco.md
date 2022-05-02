@@ -53,7 +53,7 @@ username user privilege 10 secret cisco12345
 !
 line console 0
 password fz3r012345
-login
+login local
 logging synchronous
 exec-timeout 5 30
 exit
