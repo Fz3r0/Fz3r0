@@ -183,6 +183,10 @@
 
 - Even without filters we can notice that there are only traffic betweet 2 hosts: `eve` (us / 192.168.12.66) `bob` (192.168.12.2)
 
+- The type of packets sent are `ICMP`, that means `bob` is the `source` who is sending ping to us `eve`, we are the `destination`
+
+
+
 
 
 
