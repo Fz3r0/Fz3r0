@@ -44,7 +44,7 @@
         
         - After having established persistence, you can access the compromised host via SSH:
         
-            - `ssh -o StrictHostKeyChecking=accept-new admin:Layer2$ip_target`
+            - `ssh -o StrictHostKeyChecking=accept-new admin:Layer2@$ip_target`
             
         - Note: The admin user is in the sudo group. I suggest using the root user to complete this room: `sudo su -` 
         
