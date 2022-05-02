@@ -65,7 +65,7 @@
 
 - As mentioned previously, the host is connected to one or more additional networks. You are currently connected to the machine via SSH on Ethernet adapter eth0. The network of interest is connected with Ethernet adapter eth1.
 
-![image](https://user-images.githubusercontent.com/94720207/166300254-3d12923c-82e8-472e-890a-d33f05e4ea32.png)
+![image](https://user-images.githubusercontent.com/94720207/166306269-e37da4c6-7e21-4cda-bec2-8d9f098635d7.png)
 
 1. First, have a look at the adapter:
 
