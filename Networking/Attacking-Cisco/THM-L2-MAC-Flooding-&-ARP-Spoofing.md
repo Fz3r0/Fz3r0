@@ -113,9 +113,11 @@
 
 ![image](https://user-images.githubusercontent.com/94720207/166314063-f84ab825-a76f-4de8-acd6-95d2f79a5946.png)
 
-4. Host: `bob` (192.168.12.2) MAC Address: 00:50:79:66:68:01 (Private)
+3. Host: `bob` (192.168.12.2) MAC Address: 00:50:79:66:68:01 (Private)
 
-![image](https://user-images.githubusercontent.com/94720207/166314315-2e358f3d-506b-45f0-942c-46c22933dd8c.png)
+![image](https://user-images.githubusercontent.com/94720207/166314835-1c7304f1-b55c-4ed9-af1f-00cc98d2a0e4.png)
+
+
 
 
 - OK we have recognized all the hosts, we did't find something useful in last 2 hosts using NMap.
