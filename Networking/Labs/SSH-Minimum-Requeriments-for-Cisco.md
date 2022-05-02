@@ -33,6 +33,36 @@
 
 ### Secure Login & SSH configuration for Cisco Devices
 
+- SSH is the method to use, period, Telnet is for noobs. 
+
+- Telnet example (**NEVER use it!**):
+
+```
+
+NOOB(config)# line vty 0 4
+NOOB(config-line)# password ci5c0
+NOOB(config-line)# login
+
+
+```
+
+- SSH example (**SECURE! use it! :D**)
+
+```
+
+R1(config)# ip domain-name << fz3r0_domain.gov >>
+R1(config)# crypto key generate rsa general-keys modulus 2048
+R1(config)# username Fz3r0_Adm1n secret Str0ng3rPa55w0rd
+R1(config)# ssh version 2
+R1(config)# line vty 0 4
+R1(config-line)# transport input ssh
+R1(config-line)# login local
+
+
+```
+
+- Full SSH like a Sir!
+
 ```
 
 enable
@@ -83,12 +113,12 @@ banner motd #
 
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 
-         Fz3r0 Cisco CCNA Labs!!!
+         Fz3r0 Cisco CCNA Labs
          
-         SSH Minimum requeriments
+         Configure SSH like a Sir!
            
-         Twitter @fz3r0_Ops
-         Github  Fz3r0  
+         Twitter: @fz3r0_Ops
+         Github : Fz3r0  
 
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 
