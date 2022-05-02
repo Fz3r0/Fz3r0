@@ -201,11 +201,11 @@
 
     - **At this point, we can't do very much with that packets, those are only ICMPs (ping) with random data "abcdefghij.... but! we have the IP & MAC address from `bob`, we can use that MAC!**   
 
-    - **Remember that I said: "WE CAN'T HEAR IF BOB AND ALICE ARE "WHISPERING" (UNICAST) TO EACH OTHER")**
+        - **Remember that I said: "WE CAN'T HEAR IF BOB AND ALICE ARE "WHISPERING" (UNICAST) TO EACH OTHER")**
     
-    - **Maybe we can! We can "disguse" as `bob` because now we have something that only that user have...`MAC address` from `bob`!!! 
+            - **Maybe we can! We can "disguse" as `bob` because now we have something that only that user have...`MAC address` from `bob`!!! 
     
-    - **MAC Address is used in Layer 2 Transmission to identify hosts, if we take that MAC, then we become `bob` for the other devices, just like Agent 47, easy! let's go:** 
+            - **As the diagram of Layer 2 I uploaded says, MAC Address is used in Layer 2 Transmission to identify hosts, if we take that MAC, then we become `bob` for the other devices, just like Agent 47, easy! let's go:** 
 
 
 
