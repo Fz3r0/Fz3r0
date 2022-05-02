@@ -91,7 +91,7 @@
         
     - Fire in the hole:      
 
-![image](https://user-images.githubusercontent.com/94720207/166294518-59320c43-ba96-4453-a44a-5cc14e80448d.png)
+![image](https://user-images.githubusercontent.com/94720207/166302924-fffd0a0b-13a4-4bc1-b97c-62f315f941c8.png)
 
 - There are a total of 3 hosts in the Network:
 
@@ -108,6 +108,9 @@
 - There are some virtual Cisco Devices using a GNS3 setup for a Network Lab, and we are connected via SSH to the target, think it as a "pivot" to the cisco virtual devices configured as a network, but actually everything is just simulated inside the target machine, so we can experiment with it. (Beautiful work made by the author of this room! salute to you sir)
 
 2. Host: `alice` (192.168.12.1) MAC Address: 00:50:79:66:68:00 (Private)
+3. Host: `bob` (192.168.12.2) MAC Address: 00:50:79:66:68:01 (Private)
+
+- OK we have recognized all the hosts and we know the physical and logical topology of the Network.
 
 ---
 
