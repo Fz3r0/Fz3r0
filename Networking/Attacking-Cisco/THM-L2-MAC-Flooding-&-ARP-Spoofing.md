@@ -68,7 +68,7 @@
 
 ![image](https://user-images.githubusercontent.com/94720207/166290765-190266f9-0234-40ae-ad23-2bab0a5af312.png)
 
-2. Now I will scan the Network using NMap + Furious, I will use my Fz3r0's super script for CTF for sake of experimentation (Thread killer)
+2. Now I will scan the Network using NMap (This Network Scan is installed on the Linux machine I'm attacking, but i can send to the target any other scanner or even my super python scripts for NetScans_), I will use my Fz3r0's super script for CTF for sake of experimentation (Thread Destroyer T4)
 
     - First I will use the Network ID of the target machine (The machine I'm already in!) to check for more hosts in the Network who share my Network ID.
      
