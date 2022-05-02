@@ -3,7 +3,7 @@
 
 ![My Video](https://user-images.githubusercontent.com/94720207/165892585-b830998d-d7c5-43b4-a3ad-f71a07b9077e.gif)
 
-### Configure FHRP like a Sir! ()
+### Configure on Cisco Routers FHRP (First Hop Redundancy) & HSRP (Hot Standby Router) like a Sir! 
 
 ---
 
@@ -12,33 +12,23 @@
 
 ---
 
-#### Keywords: `Networking` `Routing & Switching` `CCNA` `CCNP` `DHCPv4`
+#### Keywords: `Networking` `Routing & Switching` `CCNA` `CCNP` `FHRP` `Router Redundancy`
 
 ---
    
-### Configure Cisco IOS DHCPv4 Server like a sir:
+### Configure on Cisco Routers FHRP (First Hop Redundancy) & HSRP (Hot Standby Router) like a Sir! 
 
 - < **Option1**: Straight to the point Configuration >
 
 - < **Option2**: Step by Step Configuration >
 
-### Configure Cisco IOS DHCPv4 Client like a sir:
+- - ** < Troubleshooting & show commands for this configuration >** 
 
-- < **Option1**: Straight to the point Configuration >
+### Background Knowledge about this config:
 
-- < **Option2**: Step by Step Configuration >
-
-### Configure Cisco IOS DHCPv4 Relay Agent like a sir:
-
-- < **Option1**: Straight to the point Configuration >
-
-- < **Option2**: Step by Step Configuration >
-
-### Troubleshooting & Knowledge:
+- < Before anything else!!! >
 
 - **< Nerd Pocket-Bible about this configuration >**
-
-- **< Troubleshooting & show commands for this configuration >**
 
 ---
 
