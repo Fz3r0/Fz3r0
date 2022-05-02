@@ -18,6 +18,8 @@
    
 ### Configure on Cisco Routers FHRP (First Hop Redundancy) & HSRP (Hot Standby Router) like a Sir! 
 
+- < Before anything else!!! >
+
 - < **Option1**: Straight to the point Configuration >
 
 - < **Option2**: Step by Step Configuration >
@@ -25,8 +27,6 @@
 - - ** < Troubleshooting & show commands for this configuration >** 
 
 ### Background Knowledge about this config:
-
-- < Before anything else!!! >
 
 - **< Nerd Pocket-Bible about this configuration >**
 
