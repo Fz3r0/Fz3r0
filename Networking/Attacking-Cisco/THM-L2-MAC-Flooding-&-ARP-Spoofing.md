@@ -185,6 +185,8 @@
 
 - The type of packets sent are `ICMP`, that means `bob` is the `source` who is sending ping to us `eve`, we are the `destination`
 
+- Then, `eve` send back ACKs to respond those ICMP. 
+
 
 
 
