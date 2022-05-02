@@ -60,9 +60,15 @@
          
             - We need to ask the CEO to invest in at least on **another Gateway Router, so we can configure a "mirror" or a `Redundancy of Routers` easy** and we can fight back against the worst luck it can exist: _"the luck of an engineer"_.
         
-- **OK...let's keep going... caminando y meando...**
-- 
-You can avoid this problem easily. First Hop Redundancy Protocols (FHRPs) are the solution you need. This module discusses what FHRP does, and all of the types of FHRPs that are available to you. One of these types is a Cisco-proprietary FHRP called Hot Standby Router Protocol (HSRP). You will learn how HSRP works and then complete a Packet Tracer activity where you will configure and verify HSRP. Don’t wait, get started!
+- **OK...let's keep going...**
+
+---
+
+### Configure Cisco IOS DHCPv4 Server like a sir
+
+
+
+
 ---
 
 ### References
