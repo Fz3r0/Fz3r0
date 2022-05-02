@@ -107,6 +107,8 @@
 
 - There are some virtual Cisco Devices using a GNS3 setup for a Network Lab, and we are connected via SSH to the target, think it as a "pivot" to the cisco virtual devices & hosts configured as a network, but actually everything is just simulated inside the target machine, so we can experiment with it. (Beautiful work made by the author of this room! salute to you sir).
 
+- Notice how 2 devices are using Telnet protocol, that means all the traffic sent between both hosts will be in plain text and we can sniff it, I think the room is going that way, I will continue to scan the other 2 hosts: 
+
 2. Host: `alice` (192.168.12.1) MAC Address: 00:50:79:66:68:00 (Private)
 3. Host: `bob` (192.168.12.2) MAC Address: 00:50:79:66:68:01 (Private)
 
