@@ -110,9 +110,17 @@
 - Notice how 2 devices are using Telnet protocol, that means all the traffic sent between both hosts will be in plain text and we can sniff it, I think the room is going that way, I will continue to scan the other 2 hosts: 
 
 2. Host: `alice` (192.168.12.1) MAC Address: 00:50:79:66:68:00 (Private)
-3. Host: `bob` (192.168.12.2) MAC Address: 00:50:79:66:68:01 (Private)
 
-- OK we have recognized all the hosts and we know the physical and logical topology of the Network.
+![image](https://user-images.githubusercontent.com/94720207/166314063-f84ab825-a76f-4de8-acd6-95d2f79a5946.png)
+
+4. Host: `bob` (192.168.12.2) MAC Address: 00:50:79:66:68:01 (Private)
+
+![image](https://user-images.githubusercontent.com/94720207/166314315-2e358f3d-506b-45f0-942c-46c22933dd8c.png)
+
+
+- OK we have recognized all the hosts, we did't find something useful in last 2 hosts using NMap.
+
+- However, **now we know the physical and logical topology of the Network and we can try to sniff the new broadcast domain we have discovered.**
 
 ---
 
