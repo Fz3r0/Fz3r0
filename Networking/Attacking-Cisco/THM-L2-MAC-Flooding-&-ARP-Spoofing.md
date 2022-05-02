@@ -187,6 +187,9 @@
 
 - Then, `eve` send back ACKs to respond those ICMP. 
 
+![image](https://user-images.githubusercontent.com/94720207/166323557-81003b11-b587-4267-b473-c1c2c906ff33.png)
+
+- We can also analyze the data sent throught ICMP, we can identify is in plain text.  
 
 
 
