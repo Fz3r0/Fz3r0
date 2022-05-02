@@ -118,9 +118,27 @@
 
 ### Passive Network Sniffing
 
+- Simply scanning those hosts won't help us gather any useful information, and you may be asking, what could a pentester do in this situation? Depending on the rules of engagement and scope, you could try sniffing traffic on this network.
 
+- The diagram below describes your current situation where you are the Attacker and have persistent access to eve.
+
+- We will sniff on ETH1 as shown in the diagram:
 
 ![image](https://user-images.githubusercontent.com/94720207/166307336-66d2912d-1edf-4734-92d2-e386a21d1740.png)
+
+- Let's try running tcpdump on the eth1 network interface:
+
+    - `tcpdump -i eth1`
+
+- Optionally, for a more verbose output that prints each packet (minus its link level header) in ASCII format:
+
+    - `tcpdump -A -i eth1`
+
+- **Now, let's take a closer look at the captured packets! We can redirect them into a pcap file providing a destination file via the `-w` argument:**
+
+    - `tcpdump -A -i eth1 -w /tmp/tcpdump.pcap`
+
+
 
 
 
