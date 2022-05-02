@@ -48,13 +48,16 @@
             
         - Note: The admin user is in the sudo group. I suggest using the root user to complete this room: `sudo su -` 
         
-- **OK...let's keep going...**
+- **Topology of the GNS3 Lab:**
+
+![image](https://user-images.githubusercontent.com/94720207/166299318-bd8ac75a-92b6-4847-a2f4-2433197606ab.png)
+        
+- **Login & Root:**
 
 ![image](https://user-images.githubusercontent.com/94720207/166289827-3062f316-1057-4f90-9dd9-ce03cf603571.png)
 ![image](https://user-images.githubusercontent.com/94720207/166290085-b08e918d-f03a-4f26-99e4-a415b0e373c0.png)
 
-
-
+- **OK...let's keep going...**
 
 ---
 
@@ -98,7 +101,14 @@
 - 
 
 
-Now, use the network enumeration tool of your choice, e.g., ping, a bash or python script, or Nmap (pre-installed) to discover other hosts in the network and answer question #3.
+---
+
+### Passive Network Sniffing
+
+
+
+![image](https://user-images.githubusercontent.com/94720207/166299200-6216f34c-184c-4225-a08e-08546bd80099.png)
+
 
 
 
