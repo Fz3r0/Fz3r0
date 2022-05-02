@@ -138,10 +138,15 @@
     - **Switches have the capacity 
     
     - Actually...those are the main fucntions of a switch!!!
-    - That's why we can "hear" the "conversation" between `alice` and `bob`, even if they are using other "cables" and "switchports" (Collision Domains), we are in "the same room" together! (Broadcast Domain) in the same Subnet, VLAN, etc...so:
     
-        - IF THEY ARE USING TELNET WE CAN "HEAR" THEIR WORDS IN PLAIN TEXT! WE CAN HEAR AND UNDERSTAND THEM! IS NOT ENCRYPTED LIKE SSH
-        - WE CAN "HEAR" AND "RECORD" THEIR "VOICES"... BETTER KNOW AS `PACKET CAPTURE` OR `PCAP`
+    - Here's the deal! We can "hear" any broadcast sent inside the network 192.168.12.0 or if there's someone trying to connect with us `eve` 
+        
+        - Imagine we are inside a "room", if someone scream everyone inside will hear that person, that's `broadcast`
+    
+        - But! If 2 persons whisper together, even if we are in the same room we cannot hear them. that's `unicast`
+    
+             - **At this point, we can only "hear" if someone is screaming to everyone (broadcasting) or whispering tu us (unicast)**  
+             - **We can't hear if `bob` or `alice` are whispering themselves!... but maybe some of them is trying to send something to us...
 
 - We will sniff on ETH1 as shown in the diagram:
 
