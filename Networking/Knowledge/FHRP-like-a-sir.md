@@ -64,8 +64,37 @@
 
 ---
 
-### Configure Cisco IOS DHCPv4 Server like a sir
+### Default Gateway Limitations
 
+- If a router or router interface (that serves as a default gateway) fails, the hosts configured with that default gateway are isolated from outside networks. 
+
+- A mechanism is needed to **provide alternate default gateways in switched networks where two or more routers are connected to the same VLANs**. That mechanism is provided by **first hop redundancy protocols (FHRPs).**
+
+- In a switched network, each client receives only one default gateway. There is no way to use a secondary gateway, even if a second path exists to carry packets off the local segment.
+
+### The problem with PCs (or other device) and unique IP config
+
+- End devices are typically configured with a single IPv4 address for a default gateway.
+
+- This address does not change when the network topology changes. (so, how it will "know his way" to the "mirror" router?!) 
+
+- If that default gateway IPv4 address cannot be reached, the local device is unable to send packets off the local network segment, effectively disconnecting it from other networks.
+
+    - **Even if a redundant router exists that could serve as a default gateway for that segment, there is no dynamic method by which these devices can determine the address of a new default gateway.** 
+
+- _Note: IPv6 devices receive their default gateway address dynamically from the ICMPv6 Router Advertisement._
+
+### Router Redundancy
+
+- One way to prevent a single point of failure at the default gateway is to implement a `virtual router`.
+
+- To implement this type of router redundancy, **multiple routers are configured to work together to present the illusion of a single router to the hosts on the LAN**, as shown in the figure.
+
+- By sharing an IP address and a MAC address, two or more routers can act as a single virtual router: 
+
+    - That's why I called as a **"mirror"**: devices "think" that the same router stills there, even if the original router fails, the PC just notice a little "cut" of couple seconds in the connection. 
+
+![image](https://user-images.githubusercontent.com/94720207/166179203-90598e88-e046-43df-b5d6-e4500a701a0b.png)
 
 
 
