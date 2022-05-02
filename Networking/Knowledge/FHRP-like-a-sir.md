@@ -58,13 +58,15 @@
          
         - But the real problem here is that devices are not magical and sometimes shit happens... so, the solution:
          
-            - We need to ask the CEO to invest in at least on **another Gateway Router, so we can configure a "mirror" or a `Redundancy of Routers` easy** and we can fight back against the worst luck it can exist: _"the luck of an engineer"_.
+            - We need to ask the CEO to invest in at least **other Gateway Router, so we can configure it as a "mirror" or a `Redundancy of Routers`**, that's the way we can fight back against the worst luck it can exist: _"the luck of an engineer"_ and buy some time until we can replace the faulty Router. EZ!
         
 - **OK...let's keep going...**
 
 ---
 
 ### Configure Cisco IOS DHCPv4 Server like a sir
+
+
 
 
 
