@@ -201,9 +201,9 @@
 
     - **Remember that I said: "WE CAN'T HEAR IF BOB AND ALICE ARE "WHISPERING" (UNICAST) TO EACH OTHER")**
     
-    - **Maybe we can! We can "disguse" as `alice` because now we have something that only that user have...`MAC address` from alice!!! 
+    - **Maybe we can! We can "disguse" as `bob` because now we have something that only that user have...`MAC address` from `bob`!!! 
     
-    - **MAC Address is used in Layer 2 Transmission to identify hosts, if we take that MAC, then we become alice, easy! let's go:** 
+    - **MAC Address is used in Layer 2 Transmission to identify hosts, if we take that MAC, then we become `bob` for the other devices, just like Agent 47, easy! let's go:** 
 
 
 
