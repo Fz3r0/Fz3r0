@@ -195,7 +195,15 @@
 
 ![image](https://user-images.githubusercontent.com/94720207/166323557-81003b11-b587-4267-b473-c1c2c906ff33.png)
 
-- We can also analyze the data sent throught ICMP, we can identify is in plain text.  
+- We can also analyze the data sent throught ICMP, we can identify is in plain text...and is nothing useful.
+
+    - **At this point, we can't do very much with that packets, those are only ICMPs (ping) with random data "abcdefghij.... but! we have the IP & MAC address from `bob`, we can use that MAC!**   
+
+    - **Remember that I said: "WE CAN'T HEAR IF BOB AND ALICE ARE "WHISPERING" (UNICAST) TO EACH OTHER")**
+    
+    - **Maybe we can! We can "disguse" as `alice` because now we have something that only that user have...`MAC address` from alice!!! 
+    
+    - **MAC Address is used in Layer 2 Transmission to identify hosts, if we take that MAC, then we become alice, easy! let's go:** 
 
 
 
