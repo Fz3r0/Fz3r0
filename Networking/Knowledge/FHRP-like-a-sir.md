@@ -88,7 +88,7 @@
 
     - That's why I called as a **"mirror"**: devices "think" that the same router stills there, even if the original router fails, the PC just notice a little "cut" of couple seconds in the connection. 
 
-![image](https://user-images.githubusercontent.com/94720207/166179203-90598e88-e046-43df-b5d6-e4500a701a0b.png)
+![image](https://user-images.githubusercontent.com/94720207/166187133-11bfdda5-1822-45ee-a2cb-f6a618d5f95f.png)
 
 - The IPv4 address of the virtual router _(Center Router)_ is configured as the default gateway for the workstations on a specific IPv4 segment.
 
