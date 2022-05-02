@@ -68,7 +68,13 @@
 
 ![image](https://user-images.githubusercontent.com/94720207/166290765-190266f9-0234-40ae-ad23-2bab0a5af312.png)
 
-2. Now I will scan the Network using NMap (This Network Scan is installed on the Linux machine I'm attacking, but i can send to the target any other scanner or even my super python scripts for NetScans_), I will use my Fz3r0's super script for CTF for sake of experimentation (Thread Destroyer T4)
+2. Now I will scan "myself" (the machine where i logon with ssh, it's supposes it's already compromised but i don't know where i'm steping up, so!)
+
+![image](https://user-images.githubusercontent.com/94720207/166293441-32e43138-a1b4-41b3-9bd8-667747c6dbf8.png)
+
+- There are some virtual Cisco devices using a GNS3 setup for a Network Lab, and we are connected via SSH to the target, think it as a "pivot" to the cisco virtual devices configured as a network, but actually everything is just simulated inside the target machine, so we can experiment with it. (Beautiful work made by the author of this room! salute to you sir)
+
+3. Now I will scan the Network using NMap (This Network Scan is installed on the Linux machine I'm attacking _(I also can send to the target any other scanner or even my super python scripts for NetScans)_ .
 
     - First I will use the Network ID of the target machine (The machine I'm already in!) to check for more hosts in the Network who share my Network ID.
      
@@ -79,7 +85,16 @@
         
     - Fire in the hole:      
 
+![image](https://user-images.githubusercontent.com/94720207/166294518-59320c43-ba96-4453-a44a-5cc14e80448d.png)
 
+- There are 3 total hosts in the Network:
+
+    1. alice (192.168.12.1) MAC Address: 00:50:79:66:68:00 (Private)
+    2. bob (192.168.12.2) MAC Address: 00:50:79:66:68:01 (Private)
+    3. eve (192.168.12.66) _We are in this machine_
+ 
+- It smells like alice and bob could be the simulated cisco devices, this room is about layer 2 so...they must be 2 switches, but let's keep rol playing...
+-
 
 
 Now, use the network enumeration tool of your choice, e.g., ping, a bash or python script, or Nmap (pre-installed) to discover other hosts in the network and answer question #3.
