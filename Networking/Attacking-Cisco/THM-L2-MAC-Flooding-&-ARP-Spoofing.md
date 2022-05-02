@@ -65,6 +65,8 @@
 
 - As mentioned previously, the host is connected to one or more additional networks. You are currently connected to the machine via SSH on Ethernet adapter eth0. The network of interest is connected with Ethernet adapter eth1.
 
+![image](https://user-images.githubusercontent.com/94720207/166300254-3d12923c-82e8-472e-890a-d33f05e4ea32.png)
+
 1. First, have a look at the adapter:
 
     - `ip address show eth1` or the shorthand version: `ip a s eth1`
@@ -77,7 +79,7 @@
 
 - There are some virtual Cisco devices using a GNS3 setup for a Network Lab, and we are connected via SSH to the target, think it as a "pivot" to the cisco virtual devices configured as a network, but actually everything is just simulated inside the target machine, so we can experiment with it. (Beautiful work made by the author of this room! salute to you sir)
 
-3. Now I will scan the Network using NMap (This Network Scan is installed on the Linux machine I'm attacking _(I also can send to the target any other scanner or even my super python scripts for NetScans)_ .
+3. Now I will scan the Network using NMap to discover more hosts _(It's supposed that i don't know the topology already, so let's just rol play...)._
 
     - First I will use the Network ID of the target machine (The machine I'm already in!) to check for more hosts in the Network who share my Network ID.
      
