@@ -118,7 +118,7 @@
 
     3. Because the `new forwarding router` **assumes both the IPv4 and MAC addresses of the virtual router**, the host devices see no disruption in service _(or maybe just a little micro tiny tiny cut)_.
 
-![image](https://user-images.githubusercontent.com/94720207/166182749-8edb8a1a-1eaa-48b7-a71e-87345f28596d.png)
+![image](https://user-images.githubusercontent.com/94720207/166187812-f5eef0b4-67f2-48d3-b086-cc0855b37ece.png)
 
 ---
 
