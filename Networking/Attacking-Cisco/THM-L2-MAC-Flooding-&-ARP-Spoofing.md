@@ -66,9 +66,21 @@
 
     - `ip address show eth1` or the shorthand version: `ip a s eth1`
 
+![image](https://user-images.githubusercontent.com/94720207/166290765-190266f9-0234-40ae-ad23-2bab0a5af312.png)
+
 2. Now I will scan the Network using NMap + Furious, I will use my Fz3r0's super script for CTF for sake of experimentation (Thread killer)
 
-    - 
+    - First I will use the Network ID of the target machine (The machine I'm already in!) to check for more hosts in the Network who share my Network ID.
+     
+    - The IP have the default Subnet Mask /24 so it's very easy to figure out the Network ID:
+    
+        - PWNED host: `192.168.12.66/24`
+        - Network ID: `192.168.12.0/24`
+        
+    - Fire in the hole:      
+
+
+
 
 Now, use the network enumeration tool of your choice, e.g., ping, a bash or python script, or Nmap (pre-installed) to discover other hosts in the network and answer question #3.
 
