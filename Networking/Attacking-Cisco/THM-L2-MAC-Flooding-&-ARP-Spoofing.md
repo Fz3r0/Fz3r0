@@ -179,6 +179,10 @@
 
 ![image](https://user-images.githubusercontent.com/94720207/166318386-720217fb-8bfc-4548-a5bb-1424e0c5409e.png)
 
+- This is a very easy PCAP to read, I captured a little bit more than 1 minute and I got just 68 packets.
+
+- Even without filters we can notice that there are only traffic betweet 2 hosts: `eve` (us / 192.168.12.66) `bob` (192.168.12.2)
+
 
 
 
