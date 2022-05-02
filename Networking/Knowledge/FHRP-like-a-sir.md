@@ -18,21 +18,21 @@
    
 ### Configure on Cisco Routers FHRP (First Hop Redundancy) & HSRP (Hot Standby Router) like a Sir! 
 
-- < Before anything else!!! >
+- < **Before anything else!!!** >
 
 - < **Option1**: Straight to the point Configuration >
 
 - < **Option2**: Step by Step Configuration >
 
-- - ** < Troubleshooting & show commands for this configuration >** 
+- < **Troubleshooting** & **show commands** for this configuration >** 
 
 ### Background Knowledge about this config:
 
-- **< Nerd Pocket-Bible about this configuration >**
+- < **Nerd Pocket-Bible about this configuration** >
 
 ---
 
-### Configure Cisco IOS DHCPv4 Server like a sir
+### Configure on Cisco Routers FHRP (First Hop Redundancy) & HSRP (Hot Standby Router) like a Sir! 
 
 - **Before anything else!**
 
@@ -53,6 +53,8 @@
 - **OK...let's keep going...**
 
 ---
+
+### Background Knowledge
 
 ### Default Gateway Limitations
 
