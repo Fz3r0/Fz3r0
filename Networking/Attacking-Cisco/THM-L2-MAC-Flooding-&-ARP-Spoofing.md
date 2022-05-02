@@ -164,6 +164,8 @@
 
 - `Wireshark` PCAP:
 
+    - Note: If you receive an error _"tcpdump: /tmp/tcpdump.pcap: Permission denied"_ and cannot overwrite the existing /tmp/tcpdump.pcap file, specify a new filename such as `tcpdump2.pcap`, or run `rm -f /tmp/*.pcap` then re-run tcpdump. 
+
 ![image](https://user-images.githubusercontent.com/94720207/166318386-720217fb-8bfc-4548-a5bb-1424e0c5409e.png)
 
 
