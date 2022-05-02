@@ -93,8 +93,9 @@
     2. bob (192.168.12.2) MAC Address: 00:50:79:66:68:01 (Private)
     3. eve (192.168.12.66) _We are in this machine_
  
-- It smells like alice and bob could be the simulated cisco devices, this room is about layer 2 so...they must be 2 switches, but let's keep rol playing...
--
+- _It smells like alice and bob could be the simulated cisco devices, this room is about layer 2 so...they must be 2 switches, but let's keep rol playing..._
+
+- 
 
 
 Now, use the network enumeration tool of your choice, e.g., ping, a bash or python script, or Nmap (pre-installed) to discover other hosts in the network and answer question #3.
