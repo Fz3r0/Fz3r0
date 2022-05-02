@@ -96,6 +96,24 @@
 
 ![image](https://user-images.githubusercontent.com/94720207/166179203-90598e88-e046-43df-b5d6-e4500a701a0b.png)
 
+- The IPv4 address of the virtual router _(Center Router)_ is configured as the default gateway for the workstations on a specific IPv4 segment.
+
+- In a "normal" setup, when frames are sent from host devices to the default gateway, the hosts use ARP to resolve the MAC address that is associated with the IPv4 address of the default gateway _(MAC of the interface like Gi 0/1)_ .
+
+- **But! with a virtual router is configured like a sir: the ARP resolution returns the `MAC address of the virtual router`.** _(NOT the physical interface, like MAC of Gi 0/1)_ 
+
+### But how it works?!
+
+- A redundancy protocol provides the mechanism for determining which router should take the active role in forwarding traffic. 
+
+- It also determines when the forwarding role must be taken over by a standby router. 
+
+- **The transition from one forwarding router to another is transparent to the end devices.**
+
+- **The ability of a network to dynamically recover from the failure of a device acting as a default gateway is known as first-hop redundancy.**
+
+--- 
+
 
 
 
