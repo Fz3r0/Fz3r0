@@ -101,11 +101,11 @@
  
 - I will scan each host:
 
-1. First, I will scan "myself" `eve` (the machine where i logon with ssh, and it's supposes we already have compromised, but i don't know where i'm steping up, so!)
+1. First, I will scan "myself" `eve` (the machine where I logon with ssh & "gained" root privileges, it's supposed that we already have compromised that machine... but i don't know where i'm steping up, so!)
 
 ![image](https://user-images.githubusercontent.com/94720207/166293441-32e43138-a1b4-41b3-9bd8-667747c6dbf8.png)
 
-- There are some virtual Cisco Devices using a GNS3 setup for a Network Lab, and we are connected via SSH to the target, think it as a "pivot" to the cisco virtual devices configured as a network, but actually everything is just simulated inside the target machine, so we can experiment with it. (Beautiful work made by the author of this room! salute to you sir)
+- There are some virtual Cisco Devices using a GNS3 setup for a Network Lab, and we are connected via SSH to the target, think it as a "pivot" to the cisco virtual devices & hosts configured as a network, but actually everything is just simulated inside the target machine, so we can experiment with it. (Beautiful work made by the author of this room! salute to you sir).
 
 2. Host: `alice` (192.168.12.1) MAC Address: 00:50:79:66:68:00 (Private)
 3. Host: `bob` (192.168.12.2) MAC Address: 00:50:79:66:68:01 (Private)
