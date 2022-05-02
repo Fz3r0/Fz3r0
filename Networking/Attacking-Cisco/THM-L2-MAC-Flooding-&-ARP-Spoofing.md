@@ -93,7 +93,7 @@
 
 ![image](https://user-images.githubusercontent.com/94720207/166294518-59320c43-ba96-4453-a44a-5cc14e80448d.png)
 
-- There are 3 total hosts in the Network:
+- There are a total of 3 hosts in the Network:
 
     1. alice (192.168.12.1) MAC Address: 00:50:79:66:68:00 (Private)
     2. bob (192.168.12.2) MAC Address: 00:50:79:66:68:01 (Private)
