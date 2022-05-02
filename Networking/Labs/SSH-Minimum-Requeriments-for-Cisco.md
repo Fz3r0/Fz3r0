@@ -43,21 +43,19 @@ NOOB(config)# line vty 0 4
 NOOB(config-line)# password ci5c0
 NOOB(config-line)# login
 
-
 ```
 
 - SSH example (**SECURE! use it! :D**)
 
 ```
 
-R1(config)# ip domain-name << fz3r0_domain.gov >>
-R1(config)# crypto key generate rsa general-keys modulus 2048
-R1(config)# username Fz3r0_Adm1n secret Str0ng3rPa55w0rd
-R1(config)# ssh version 2
-R1(config)# line vty 0 4
-R1(config-line)# transport input ssh
-R1(config-line)# login local
-
+PRO(config)# ip domain-name << fz3r0_domain.gov >>
+PRO(config)# crypto key generate rsa general-keys modulus 2048
+PRO(config)# username Fz3r0_Adm1n secret Str0ng3rPa55w0rd
+PRO(config)# ssh version 2
+PRO(config)# line vty 0 4
+PRO(config-line)# transport input ssh
+PRO(config-line)# login local
 
 ```
 
