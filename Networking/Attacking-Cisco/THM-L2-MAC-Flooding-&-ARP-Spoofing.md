@@ -73,20 +73,21 @@
 
 ![image](https://user-images.githubusercontent.com/94720207/166290765-190266f9-0234-40ae-ad23-2bab0a5af312.png)
 
-2. Now I will scan "myself" (the machine where i logon with ssh, it's supposes it's already compromised but i don't know where i'm steping up, so!)
+2. Now I will scan the Network using NMap to discover more hosts _(It's supposed that I don't know the topology at this point, so let's just rol play...)._
 
-![image](https://user-images.githubusercontent.com/94720207/166293441-32e43138-a1b4-41b3-9bd8-667747c6dbf8.png)
-
-- There are some virtual Cisco devices using a GNS3 setup for a Network Lab, and we are connected via SSH to the target, think it as a "pivot" to the cisco virtual devices configured as a network, but actually everything is just simulated inside the target machine, so we can experiment with it. (Beautiful work made by the author of this room! salute to you sir)
-
-3. Now I will scan the Network using NMap to discover more hosts _(It's supposed that i don't know the topology already, so let's just rol play...)._
-
-    - First I will use the Network ID of the target machine (The machine I'm already in!) to check for more hosts in the Network who share my Network ID.
+    - First I will use the IPv4 Address of the target machine (The machine I'm already in!) to check for more hosts in the Network who share the same `Network ID`.
      
-    - The IP have the default Subnet Mask /24 so it's very easy to figure out the Network ID:
+    - The IP that we are using have the default Subnet Mask /24 Class C and is the typical "192.168.x.x", so it's very easy to figure out the Network ID and more:
     
         - PWNED host: `192.168.12.66/24`
-        - Network ID: `192.168.12.0/24`
+        
+        - Network ID: `192.168.12.0`
+        - SubnetMask: `255.255.255.0` 
+        - CIDR      : `/24`
+        - Min Host  : `192.168.0.1`
+        - Max Host  : `192.168.0.254`
+        - Broadcast : `192.168.0.255`
+        - Wildcard  : `0.0.0.255`
         
     - Fire in the hole:      
 
@@ -98,10 +99,15 @@
     2. bob (192.168.12.2) MAC Address: 00:50:79:66:68:01 (Private)
     3. eve (192.168.12.66) _We are in this machine_
  
-- I will scan each host (including the machine we are using as attacker just to know "where we are?")
+- I will scan each host:
 
-- 
+1. First, I will scan "myself" `eve` (the machine where i logon with ssh, and it's supposes we already have compromised, but i don't know where i'm steping up, so!)
 
+![image](https://user-images.githubusercontent.com/94720207/166293441-32e43138-a1b4-41b3-9bd8-667747c6dbf8.png)
+
+- There are some virtual Cisco Devices using a GNS3 setup for a Network Lab, and we are connected via SSH to the target, think it as a "pivot" to the cisco virtual devices configured as a network, but actually everything is just simulated inside the target machine, so we can experiment with it. (Beautiful work made by the author of this room! salute to you sir)
+
+2. Host: `alice` (192.168.12.1) MAC Address: 00:50:79:66:68:00 (Private)
 
 ---
 
