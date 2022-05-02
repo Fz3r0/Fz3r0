@@ -32,7 +32,7 @@
 
 ---
 
-### Configure on Cisco Routers FHRP (First Hop Redundancy) & HSRP (Hot Standby Router) like a Sir! 
+### Configuration of FHRP & HSRP 
 
 - **Before anything else!**
 
