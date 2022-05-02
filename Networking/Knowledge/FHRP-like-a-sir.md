@@ -112,11 +112,17 @@
 
 - When the `active router` fails, the redundancy protocol transitions the `standby router` to the `new active router` role, as shown in the figure. These are the steps that take place when the active router fails:
 
-1. The `standby router` **stops seeing Hello messages** from the `forwarding router`.
+    1. The `standby router` **stops seeing Hello messages** from the `forwarding router`.
 
-2. The `standby router` **assumes the role** of the `forwarding router`.
+    2. The `standby router` **assumes the role** of the `forwarding router`.
 
-3. Because the `new forwarding router` **assumes both the IPv4 and MAC addresses of the virtual router**, the host devices see no disruption in service _(or maybe just a little micro tiny tiny cut)_.
+    3. Because the `new forwarding router` **assumes both the IPv4 and MAC addresses of the virtual router**, the host devices see no disruption in service _(or maybe just a little micro tiny tiny cut)_.
+
+![image](https://user-images.githubusercontent.com/94720207/166182749-8edb8a1a-1eaa-48b7-a71e-87345f28596d.png)
+
+---
+
+
 
 
 
