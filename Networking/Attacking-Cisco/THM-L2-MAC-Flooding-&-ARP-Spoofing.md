@@ -60,7 +60,9 @@
 
     - `ip address show eth1` or the shorthand version: `ip a s eth1`
 
-Using this knowledge, answer questions #1 and #2.
+2. Now I will scan the Network using NMap + Furious, I will use my Fz3r0's super script for CTF for sake of experimentation (Thread killer)
+
+    - 
 
 Now, use the network enumeration tool of your choice, e.g., ping, a bash or python script, or Nmap (pre-installed) to discover other hosts in the network and answer question #3.
 
