@@ -132,7 +132,9 @@
 
 - The diagram below describes your current situation where you are the Attacker and have persistent access to eve.
 
-- Remember, we are inside `eve` as root, so we can "see" 2 different Broadcast domains.
+- As you can see, from `Eve` we can "see" 2 different Broadcast Domains for 2 different LANs, I found in my old write ups of Networking something useful for this situation:
+
+![image](https://user-images.githubusercontent.com/94720207/166326956-69553eaf-4a36-4494-9f37-9e19753ed742.png)
 
     - **Switches have the capacity to make 1 Broadcast domain for all devices connected to it**
     - **Switches have the capacity 
