@@ -122,6 +122,43 @@
 
 ---
 
+### FHRP Options
+
+- The FHRP used in a production environment largely depends on the equipment and needs of the network. 
+
+- This are all the options available for First Hop Redundancy Protocols `FHRPs`.
+
+1. **Hot Standby Router Protocol (`HSRP`)** 
+2. **HSRP for IPv6 (`HSRP-IPv6`)**
+3. **Virtual Router Redundancy Protocol v2 (`VRRPv2`)**
+4. **Virtual Router Redundancy Protocol v3 (`VRRPv3`)**
+5. **Gateway Load Balancing Protocol (`GLBP`)**
+6. **GLBP for IPv6 (`GLBP-IPv6`)**
+7. **ICMP Router Discovery Protocol (`IRDP`)**
+
+### 1. Hot Standby Router Protocol (`HSRP`)** 
+
+- HRSP is a Cisco-proprietary First Hop Redundancy Protocol (FHRP) that is designed to allow for transparent failover of a first-hop IPv4 device.
+
+- HSRP provides high network availability by providing first-hop routing redundancy for IPv4 hosts on networks configured with an IPv4 default gateway address. 
+
+- HSRP is used in a group of routers for selecting an active device and a standby device. 
+
+- In a group of device interfaces, the active device is the device that is used for routing packets; the standby device is the device that takes over when the active device fails, or when pre-set conditions are met.
+
+- The function of the HSRP standby router is to monitor the operational status of the First Hop Redundancy Protocols (HSRP) group and to quickly assume packet-forwarding responsibility if the active router fails.
+
+### 2. **HSRP for IPv6 (`HSRP-IPv6`)**
+
+- This is a Cisco-proprietary FHRP that provides the same functionality of HSRP, but in an IPv6 environment. 
+
+- An HSRP IPv6 group has a virtual MAC address derived from the HSRP group number and a virtual IPv6 link-local address derived from the HSRP virtual MAC address. 
+
+- Periodic router advertisements (RAs) are sent for the HSRP virtual IPv6 link-local address when the HSRP group is active. 
+
+    - When the group becomes inactive, these RAs stop after a final RA is sent.
+
+### 3. **Virtual Router Redundancy Protocol v2 (`VRRPv2`)**
 
 
 
