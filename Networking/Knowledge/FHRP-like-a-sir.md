@@ -58,7 +58,7 @@
          
         - But the real problem here is that devices are not magical and sometimes shit happens... so, the solution:
          
-            - We need to ask the CEO to invest in at least on **another Gateway Router, so we can configure a "mirror" or a `Redundancy of Routers`**easy!!!!
+            - We need to ask the CEO to invest in at least on **another Gateway Router, so we can configure a "mirror" or a `Redundancy of Routers` easy** and we can fight back against the worst luck it can exist: _"the luck of an engineer"_.
         
 - **OK...let's keep going... caminando y meando...**
 - 
