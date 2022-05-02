@@ -207,6 +207,17 @@
     
             - **As the diagram of Layer 2 I uploaded says, MAC Address is used in Layer 2 Transmission to identify hosts, if we take that MAC, then we become `bob` for the other devices, just like Agent 47, easy! let's go:** 
 
+---
+
+### Sniffing while MAC Flooding
+
+- Unfortunately, we weren't able to capture any interesting traffic so far. However, we're not going to give up this easily! So, how can we capture more network traffic? As mentioned in the room description, we could try to launch a MAC flooding attack against the L2-Switch.
+
+    - **Beware: MAC flooding could trigger an alarm in a SOC. No, seriously, suspicious layer 2 traffic can easily be detected and reported by state-of-the-art and properly configured network devices.** 
+    - Even worse, your network port could even get blocked by the network device altogether, rendering your machine locked out of the network. 
+    - In case of production services running on or production traffic being routed through that network connection, **this could even result in an effective Denial-of-Service!**
+
+
 
 
 
