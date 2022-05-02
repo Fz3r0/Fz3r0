@@ -144,10 +144,27 @@
 
     - `tcpdump -A -i eth1`
 
+![image](https://user-images.githubusercontent.com/94720207/166315229-f1f193e1-10d0-44a4-be99-074d354502cc.png)
+
 - **Now, let's take a closer look at the captured packets! We can redirect them into a pcap file providing a destination file via the `-w` argument:**
 
     - `tcpdump -A -i eth1 -w /tmp/tcpdump.pcap`
 
+![image](https://user-images.githubusercontent.com/94720207/166315748-7d74eb1b-cd7e-4a01-8658-c836198bb91b.png)
+
+- Capture traffic for about a minute, then transfer the pcap to either your machine or the AttackBox to open it in `Wireshark`.
+
+![image](https://user-images.githubusercontent.com/94720207/166316424-4a33587f-97d7-45fa-8434-972f41085fa8.png)
+
+- I will use SCP to transfer the file but it could be done in many ways, mounting a python HTTP server is another easy way.
+    
+    - SCP - `scp admin@$ip_target:/tmp/Fz3r0_NetSec_PCap1.pcap .` 
+
+![image](https://user-images.githubusercontent.com/94720207/166317931-def6931f-c8b3-488e-8f8b-7031236c330e.png)
+
+- `Wireshark` PCAP:
+
+![image](https://user-images.githubusercontent.com/94720207/166318386-720217fb-8bfc-4548-a5bb-1424e0c5409e.png)
 
 
 
