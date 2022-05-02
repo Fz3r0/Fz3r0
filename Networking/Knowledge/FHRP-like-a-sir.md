@@ -36,7 +36,9 @@
 
 - **Before anything else!**
 
-    - Just as the redundancy in Layer 2 _(STP/Etherchannel in switches)_ you can configure redundancy on Layer 3 _(Routers)_ with **First Hop Redundancy Protocols (FHRPs)**. 
+    - Just as the redundancy in Layer 2 _(STP/Etherchannel in switches)_ you can configure redundancy on Layer 3 _(Routers)_ with **First Hop Redundancy Protocols (FHRPs)**.
+    
+    - This protocols use  
 
     - For example: 
     
@@ -90,7 +92,7 @@
 
 - The IPv4 address of the virtual router _(Center Router)_ is configured as the default gateway for the workstations on a specific IPv4 segment.
 
-- In a "normal" setup, when frames are sent from host devices to the default gateway, the hosts use ARP to resolve the MAC address that is associated with the IPv4 address of the default gateway _(MAC of the interface like Gi 0/1)_ .
+- In a "normal" setup, when frames are sent from host devices to the default gateway, the hosts use ARP to resolve the MAC address that is associated with the IPv4 address of the default gateway _(MAC of the interface like Gi 0/1)_
 
 - **But! with a virtual router is configured like a sir: the ARP resolution returns the `MAC address of the virtual router`.** _(NOT the physical interface, like MAC of Gi 0/1)_ 
 
@@ -104,7 +106,18 @@
 
 - **The ability of a network to dynamically recover from the failure of a device acting as a default gateway is known as first-hop redundancy.**
 
---- 
+---
+
+### Steps for Router Failover
+
+- When the `active router` fails, the redundancy protocol transitions the `standby router` to the `new active router` role, as shown in the figure. These are the steps that take place when the active router fails:
+
+1. The `standby router` **stops seeing Hello messages** from the `forwarding router`.
+
+2. The `standby router` **assumes the role** of the `forwarding router`.
+
+3. Because the `new forwarding router` **assumes both the IPv4 and MAC addresses of the virtual router**, the host devices see no disruption in service _(or maybe just a little micro tiny tiny cut)_.
+
 
 
 
