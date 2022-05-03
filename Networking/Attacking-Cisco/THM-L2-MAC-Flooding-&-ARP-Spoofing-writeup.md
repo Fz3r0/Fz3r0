@@ -322,7 +322,7 @@ _https://commons.wikimedia.org/wiki/File:ARP_Spfing.svg_
 
 ![image](https://user-images.githubusercontent.com/94720207/166404207-8e0943c2-d525-4be7-b8b2-edfd0c94a2ab.png)
 
-- Just to dig a little bit more about this command, let's try another MITM attack instead of `ARP` 
+- Just to dig a little bit more about this command and cyber-weaponry... let's try another MITM attack instead of `ARP poisoning`...hmm how about `ICMP redirection` attack? It sounds Sci-Fi!  
 
     - https://www.mankier.com/8/ettercap#Examples
     
@@ -421,40 +421,7 @@ You will intercept and visualize all the traffic for 10.0.0.1.
 
 ![image](https://user-images.githubusercontent.com/94720207/166406256-b44e94e5-6e13-4c66-a901-33d32a91311b.png)
 
-- I could not find anything interesting here, but at least I have noticed a different behaivor betweeen ARP MITM and ICMP MITM. 
-
-<!--
-- bob
-
-![image](https://user-images.githubusercontent.com/94720207/166409404-08072b78-19aa-4e83-91bb-c5f22fc9293a.png)
-
-![image](https://user-images.githubusercontent.com/94720207/166409627-da81eb1f-9d8a-4ac2-abdf-95dc96e83f35.png)
-
-![image](https://user-images.githubusercontent.com/94720207/166410044-ddd3a5a7-6211-4194-8d8a-f3a7eb53b8cc.png)
-
-![image](https://user-images.githubusercontent.com/94720207/166410190-614a4734-1e99-4f74-bd00-da28610a8777.png)
-
-![image](https://user-images.githubusercontent.com/94720207/166410469-f8b407b7-f4e6-4a45-88e4-836b3b726bce.png)
-
-- OK! so... at this point, if we use bob IP we get the same ICMP 666 size as the first task.
-
-- Those are the "whispers" between bob and eve.  
-
-- alice 
-
-![image](https://user-images.githubusercontent.com/94720207/166410827-92c17d87-0493-4f65-8b81-ae2fc085fb5a.png)
-
-![image](https://user-images.githubusercontent.com/94720207/166410966-b1038e3e-5dd7-4980-8c27-053575f1f769.png)
-
-![image](https://user-images.githubusercontent.com/94720207/166407313-56badb53-d7b4-452f-b564-bf91a30af062.png)
-
-- Surprise! We can "hear" the "whisper" (unicast) coming from `bob` with destination `alice`, that's because we are **spoofing** `alice` MAC
-
-- But how it works? Easy! because the switch is not protected with ARP snooping, the switch don't realize that the same MAC address is comming from different switchports and now when the switch send traffic to `alice` MAC from `bob`, we can hear it!
-    
-    - Just as the last task, but this time was not a "crazyness" it was more like this: 
-
--->
+- I could not find anything interesting here, but at least we have noticed a different behaivor betweeen `ARP poisoning`, `ICMP redirection` or other MITM attacks that we can perform with `ettercap`
 
 ---
 
@@ -496,7 +463,7 @@ You will intercept and visualize all the traffic for 10.0.0.1.
 
 ![image](https://user-images.githubusercontent.com/94720207/166413961-b21aeb71-6680-4cc9-945d-3a799ef2b7f0.png)
 
-- There's a HTTP serving something on default Port 80, **but I have a 401 response from it:**
+- There's a HTTP serving something on default Port 80, **but I have a 401 "No Authorized" response from it:**
 
 ![image](https://user-images.githubusercontent.com/94720207/166414615-8152ebc1-0287-4c65-ab0f-35b69f6b0034.png)
 
