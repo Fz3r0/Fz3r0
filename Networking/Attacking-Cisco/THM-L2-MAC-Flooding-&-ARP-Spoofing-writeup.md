@@ -534,7 +534,7 @@ You will intercept and visualize all the traffic for 10.0.0.1.
 
 - That's everything we got from that attack, now let's end it with `"Q"` 
 
-- ![image](https://user-images.githubusercontent.com/94720207/166418272-63dd34a3-729b-4b0f-8a75-c57a400ee0ac.png)
+![image](https://user-images.githubusercontent.com/94720207/166418272-63dd34a3-729b-4b0f-8a75-c57a400ee0ac.png)
 
 
 
