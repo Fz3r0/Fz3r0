@@ -119,9 +119,6 @@
 
 ![image](https://user-images.githubusercontent.com/94720207/166314835-1c7304f1-b55c-4ed9-af1f-00cc98d2a0e4.png)
 
-
-
-
 - OK we have recognized all the hosts, we did't find something useful in last 2 hosts using NMap.
 
 - However, **now we know the physical and logical topology of the Network and we can try to sniff the new broadcast domain we have discovered.**
@@ -138,7 +135,7 @@
 
 - As you can see, from `Eve` we can "see" 2 different Broadcast Domains for 2 different LANs, 
 
-- **I found in my old write ups of Networking something very useful for the next tasks and this room in general, it talks about Layer 2 types of comunication and how devices like Switches and Hubs at Layer 2 creates Broadcast and Collision Domains, also how Layer 2 devices uses MAC Addresses to identify who is every host inside the LAN:
+### **I've found in my old write ups of Networking something very useful for the next tasks and this room in general, it talks about Layer 2 types of comunication and how devices like Switches and Hubs at Layer 2 creates Broadcast and Collision Domains, also how Layer 2 devices uses MAC Addresses to identify who is every host inside the LAN:
 
 ![image](https://user-images.githubusercontent.com/94720207/166326956-69553eaf-4a36-4494-9f37-9e19753ed742.png)
 
