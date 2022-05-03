@@ -566,17 +566,78 @@ You will intercept and visualize all the traffic for 10.0.0.1.
                 2. **...causing any traffic meant for that IP address to be sent to the attacker instead.**
                 3. _ARP spoofing may allow an attacker to intercept data frames on a network, modify the traffic, or stop all traffic._(we will see this on next task) 
 
-    - Now, let's break the command we did on `ettercap`:
+        - Now, let's break the command we did on `ettercap`:
 
-        - `ettercap -T -i eth1 -M arp` 
+            - `ettercap -T -i eth1 -M arp` 
 
-| Instruction       | Result                       |
-|:-----------------:|:----------------------------:|
-| `ettercap`        | launch ettercap            
-| `-T`              |
-| `-i eth1`         | Using Interface Ethernet1      
-| `-M arp`          | Mode ARP -         
-        
+| Instruction       | Result                                                   |
+|:-----------------:|:--------------------------------------------------------:|
+| `ettercap`        | Launch ettercap                                          |          
+| `-T`              | Text Only                                                |
+| `-i eth1`         | Using Interface Ethernet1                                |
+| `-M arp`          | **Man-in-the-Middle (MITM) Attack using ARP poisoning**  |      
+
+- This is the information that I found on `man ettercap` https://www.mankier.com/8/ettercap
+
+```
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+-M, --mitm <METHOD:ARGS>
+MITM attack
+This option will activate the man in the middle attack. The mitm attack is totally independent from the sniffing. The aim of the attack is to hijack packets and redirect them to ettercap. The sniffing engine will forward them if necessary.
+You can choose the mitm attack that you prefer and also combine some of them to perform different attacks at the same time.
+If a mitm method requires some parameters you can specify them after the colon. (e.g.  -M dhcp:ip_pool,netmask,etc )
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+ARP:
+
+arp ([remote],[oneway])
+This method implements the ARP poisoning mitm attack. ARP requests/replies are sent to the victims to poison their ARP cache. Once the cache has been poisoned the victims will send all packets to the attacker which, in turn, can modify and forward them to the real destination.
+
+In silent mode (-z option) only the first target is selected, if you want to poison multiple target in silent mode use the -j option to load a list from a file.
+
+You can select empty targets and they will be expanded as 'ANY' (all the hosts in the LAN). The target list is joined with the hosts list (created by the arp scan) and the result is used to determine the victims of the attack.
+
+The parameter "remote" is optional and you have to specify it if you want to sniff remote ip address poisoning a gateway. Indeed if you specify a victim and the gw in the TARGETS, ettercap will sniff only connection between them, but to enable ettercap to sniff connections that pass thru the gw, you have to use this parameter.
+
+The parameter "oneway" will force ettercap to poison only from TARGET1 to TARGET2. Useful if you want to poison only the client and not the router (where an arp watcher can be in place).
+
+Example:
+
+the targets are: /10.0.0.1-5/ /10.0.0.15-20/
+and the host list is: 10.0.0.1 10.0.0.3 10.0.0.16 10.0.0.18
+
+the associations between the victims will be:
+1 and 16, 1 and 18, 3 and 16, 3 and 18
+
+if the targets overlap each other, the association with identical ip address will be skipped.
+
+NOTE: if you manage to poison a client, you have to set correct routing table in the kernel specifying the GW. If your routing table is incorrect, the poisoned clients will not be able to navigate the Internet.
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+USER INTERFACES OPTIONS
+
+-T, --text
+
+The text only interface, only printf ;)
+It is quite interactive, press 'h' in every moment to get help on what you can do.
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+Examples:
+
+ettercap -T -M arp // //
+
+Perform the ARP poisoning attack against all the hosts in the LAN. BE CAREFUL !!
+
+ettercap -T -M arp:remote /192.168.1.1/ /192.168.1.2-10/
+
+Perform the ARP poisoning against the gateway and the host in the lan between 2 and 10. The 'remote' option is needed to be able to sniff the remote traffic the hosts make through the gateway.
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+```
         
         
 - "Normal" LAN behavior:
