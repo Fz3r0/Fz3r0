@@ -311,11 +311,13 @@
 ![image](https://user-images.githubusercontent.com/94720207/166403377-49c6012d-6689-4763-8419-cfdd08a86387.png)
 _https://commons.wikimedia.org/wiki/File:ARP_Spfing.svg_
 
-    - There are, however, measures and controls available to detect and prevent such attacks. 
+- There are, however, measures and controls available to detect and prevent such attacks. 
     
     - **We can configure our Cisco Layer 2 Devices with `ARP Snooping`, again, just as we saw in CCNA v7 Module 2 - Security - Layer 2 Attacks.**
 
 - In the current scenario, both hosts are running an ARP implementation that takes pains to validate incoming ARP replies. Without further ado, we are using ettercap to launch an ARP Spoofing attack against Alice and Bob and see how they react:
+
+    - `ettercap -T -i eth1 -M arp` 
 
 
 
