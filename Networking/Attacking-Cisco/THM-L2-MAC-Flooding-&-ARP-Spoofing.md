@@ -132,7 +132,7 @@
 
 - The diagram below describes your current situation where you are the Attacker and have persistent access to eve.
 
-![image](https://user-images.githubusercontent.com/94720207/166345799-ac2becb9-3251-47db-9a87-f000d9517efc.png)
+![image](https://user-images.githubusercontent.com/94720207/166346328-52d96489-be03-4127-b39b-e416bc291098.png)
 
 - As you can see, from `Eve` we can "see" 2 different Broadcast Domains for 2 different LANs, 
 
