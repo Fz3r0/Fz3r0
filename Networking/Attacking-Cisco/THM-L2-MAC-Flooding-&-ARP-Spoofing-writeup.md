@@ -3,7 +3,9 @@
 
 ![My Video](https://user-images.githubusercontent.com/94720207/165892585-b830998d-d7c5-43b4-a3ad-f71a07b9077e.gif)
 
-### THM - Layer 2 MAC Flooding & ARP Spoofing 
+### Try Hack Me - Layer 2 MAC Flooding & ARP Spoofing - Writeup by [Fz3r0 💀](https://github.com/Fz3r0/)
+
+- Link: https://tryhackme.com/room/layer2
 
 ---
 
@@ -12,17 +14,17 @@
 
 ---
  
-#### Keywords: `Networking` `Routing & Switching` `CCNA` `CCNP` `Layer 2 Attack` `Hacking` `Pentesting` `MAC Flooding` `ARP Spoofing`
+#### Keywords: `Networking` `Routing & Switching` `CCNA` `CCNP` `Layer 2 Attack` `Hacking` `Pentesting` `MAC Flooding` `ARP Spoofing` `Try Hack Me` `Writeup`
 
 ---
    
-### Configure on Cisco Routers FHRP (First Hop Redundancy) & HSRP (Hot Standby Router) like a Sir! 
+### Index 
 
 - < **Before anything else!!!** >
 
-- < **Option1**: Straight to the point Configuration >
+- < **Section 1**: Network Discovery >
 
-- < **Option2**: Step by Step Configuration >s
+- < **Section 1**: Network Discovery >
 
 - < **Troubleshooting** & **show commands** for this configuration >** 
 
