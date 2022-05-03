@@ -554,27 +554,22 @@ You will intercept and visualize all the traffic for 10.0.0.1.
 
 - We got the **user flag** and we also found the "OK" message in the other .txt
 
-- But, how it worked?! 
+    - But, how it worked?! 
 
-    - Let's break the information we found at Wikipedia about "ARP Spoofing"
+        - Let's break the information we found at Wikipedia about "ARP Spoofing"
 
-        1. An attacker sends (spoofed) ARP messages to associate the attacker's MAC address with the IP address of another host...
-        
-            - We sent from `eve` into the Network some ARP (broadcast) messages, but! using 
-        
-        2.  […] causing any traffic meant for that IP address to be sent to the attacker instead. ARP spoofing may allow an attacker to intercept data frames on a network, modify the traffic, or stop all traffic. Often the attack is used as an opening for other attacks, such as denial of service, man in the middle, or session hijacking attacks." - Wikipedia - ARP spoofing
+            - ARP spoofing, ARP cache poisoning, or ARP poison routing, is a technique by which an attacker sends (spoofed) Address Resolution Protocol (ARP) messages onto a local area network. (For spoofed it means "disgused" as other host ot gateway) 
 
-- ARP spoofing, ARP cache poisoning, or ARP poison routing, is a technique by which an attacker sends (spoofed) Address Resolution Protocol (ARP) messages onto a local area network. (For spoofed it means "disgused" as other host ot gateway) 
+            - **Generally, the aim is to associate the attacker's MAC address with the IP address of another host, such as the default gateway, causing any traffic meant for that IP address to be sent to the attacker instead.**
 
-- **Generally, the aim is to associate the attacker's MAC address with the IP address of another host, such as the default gateway, causing any traffic meant for that IP address to be sent to the attacker instead.**
+                1. **An attacker sends (spoofed) ARP messages to associate the attacker's MAC address with the IP address of another host...**
+                2. **...causing any traffic meant for that IP address to be sent to the attacker instead.**
+                3. _ARP spoofing may allow an attacker to intercept data frames on a network, modify the traffic, or stop all traffic._(we will see this on next task) 
 
-    1. **An attacker sends (spoofed) ARP messages to associate the attacker's MAC address with the IP address of another host...**
-    2. **...causing any traffic meant for that IP address to be sent to the attacker instead.**
-    3. _ARP spoofing may allow an attacker to intercept data frames on a network, modify the traffic, or stop all traffic._(we will see this on next task) 
+    - Now, let's break the command we did on `ettercap`:
 
-- Now, let's break the command we did on `ettercap`:
+        - `ettercap -T -i eth1 -M arp` 
 
-    - `ettercap -T -i eth1 -M arp` 
 | Instruction       | Result                       |
 |:-----------------:|:----------------------------:|
 | `ettercap`        | launch ettercap            
