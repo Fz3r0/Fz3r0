@@ -251,6 +251,8 @@
 
 ![image](https://user-images.githubusercontent.com/94720207/166393923-496a224b-2c4d-4557-b3f8-dfd34ae47489.png)
 
+![image](https://user-images.githubusercontent.com/94720207/166394716-9f12b0d8-f06f-4c92-9a9b-afa4ea454ab8.png)
+
 - As in the previous task, transfer the pcap to your machine _(kali/AttackBox)_ and take a look.
 
     - `scp admin@$ip_target:/tmp/tcpdump2.pcap .` 
