@@ -478,6 +478,15 @@ You will intercept and visualize all the traffic for 10.0.0.1.
 
 - We have more connection in this scenario, even a docker, the topology could be a little bit different, I will continue with the 192.168.12.0/24 Network tho. 
 
+![image](https://user-images.githubusercontent.com/94720207/166412853-a5e079f8-d64f-4025-b628-f7dc137dbba8.png)
+
+- We have again 3 hosts _(in this case with different IPs)_
+
+    1. alice (192.168.12.10) MAC Address: FE:C2:FD:1A:B0:54 (Unknown)
+    2. bob (192.168.12.20) MAC Address: F2:28:1A:40:F1:56 (Private)
+    3. eve (192.168.12.66) _We are in this machine_
+
+- I will not scan each host with NMap for now, because we already know where are going somehow...
 
 
 
