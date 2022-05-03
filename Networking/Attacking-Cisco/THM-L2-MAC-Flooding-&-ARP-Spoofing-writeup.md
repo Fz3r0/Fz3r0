@@ -546,9 +546,13 @@ You will intercept and visualize all the traffic for 10.0.0.1.
 
 ![image](https://user-images.githubusercontent.com/94720207/166420790-7f13ee61-0931-412c-8c5f-90d9dd093214.png)
 
-- Good! we got an HTML response, we can see a reference to 2 different .txt files, maybe we can read them:
+- Good! we got an HTML response, we can see a reference to 2 different .txt files, maybe we can read them using again the credentials:
 
 ![image](https://user-images.githubusercontent.com/94720207/166421625-e4fe8cb3-0c47-4467-94c4-e4518ee9d74e.png)
+
+- We got the **user flag** and we also found the "OK" message in the other .txt
+
+- But, how it worked?! 
 
 - "Normal" LAN behavior:
 
