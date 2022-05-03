@@ -520,7 +520,7 @@ You will intercept and visualize all the traffic for 10.0.0.1.
     
         - `YWRtaW46czNjcjN0X1A0eno=`
         
-            - Let's decode it, looking at it I can bet is Base54 encoding:
+            - Let's decode it, looking at it I can bet is Base64 encoding:
 
 ![image](https://user-images.githubusercontent.com/94720207/166416664-36201e11-651a-4ba8-b05a-47b9952cd64a.png)
 
