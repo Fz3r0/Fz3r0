@@ -506,7 +506,7 @@ You will intercept and visualize all the traffic for 10.0.0.1.
 
 - Ok, now I will try to perform an `ARP spoofing` attack as in the previous task and search for some interesting traffic:
 
-    - `ettercap` 
+    - `ettercap -T -i eth1 -M arp` 
 
 ![image](https://user-images.githubusercontent.com/94720207/166525187-7adff6b4-9da9-44ba-8c72-2e268eb8c813.png)
 
@@ -564,6 +564,9 @@ You will intercept and visualize all the traffic for 10.0.0.1.
         
         2.  […] causing any traffic meant for that IP address to be sent to the attacker instead. ARP spoofing may allow an attacker to intercept data frames on a network, modify the traffic, or stop all traffic. Often the attack is used as an opening for other attacks, such as denial of service, man in the middle, or session hijacking attacks." - Wikipedia - ARP spoofing
 
+- Now, let's break the command we did on `ettercap`:
+
+    - `ettercap -T -i eth1 -M arp` 
 
 - "Normal" LAN behavior:
 
