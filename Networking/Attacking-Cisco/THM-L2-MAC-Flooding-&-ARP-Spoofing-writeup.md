@@ -266,7 +266,7 @@
 
         - `ettercap -T -i eth1 -P rand_flood -q -w /tmp/tcpdump3.pcap` _(Quit with q)_
 
-- It worked for me with `tcpdump` + `macof` at first try without problems...just try to start and end both commands at same time, because `macof` will spam MACs and we are trying to trick some broadcasts, we need to capture at same time while we are performing the `tcpdump`. 
+- It worked for me with `tcpdump` + `macof` at first try without problems...just try to start and end both commands at same time, because `macof` will spam MACs and we are trying to trick the Network and the Switch to show us all his traffic, **`just like a hub would do`**, we need to capture at same time while we are performing the `tcpdump`. 
 
     - Anyways, here's how is performed with `ettercap`:
 
@@ -292,6 +292,11 @@
     - ** Port Security is also another option configuring out switchport to only hold a max of 10 MAC on the CAM table**
     
     - We can also use more defensive techniques but in this case I'm just remarking the configs of best practices and security on our Layer 2 Devices.
+
+--- 
+
+### Man-in-the-Middle: Intro to ARP Spoofing
+
 
 
 
