@@ -405,6 +405,11 @@ You will intercept and visualize all the traffic for 10.0.0.1.
 
 ```
 
+- Since we already have the IPs and MACs from `bob`, `alice` & `eve` we can try to perform an ICMP MITM attack:
+
+    - `icmp (MAC/IP)`
+
+    - `` 
 
 
 
