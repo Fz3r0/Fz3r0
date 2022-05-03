@@ -627,15 +627,15 @@ Perform the ARP poisoning against the gateway and the host in the lan between 2 
 
 5. **The attacker `eve` is now secretly in the middle of all communications.**
 
-- Finally let's see how an ARP CACHE table with the command `arp -a`, this is how an ARP Poisoning looks from inside an attacked machine, this is just an example to realize in the easiest way how it looks, in real life you will se real MACs:
+- Finally, let's see how an ARP CACHE table with the command `arp -a` looks like when we perform a: **`MITM attack using ARP Poisoning to Spoof MAC Addresses`**, this is how an ARP Poisoning looks from inside an attacked machine when we analize the `cache of the MAC Table` _(this is just an example to realize in the easiest way how it looks, in real life you will se real MACs)_:
 
-- I will break the ARP Cache tables in 3 parts:
+- I will show 3 different ARP Tables:
 
-    1. From Broadcast Domain point of view = All MACs used inside the `Broadcast Domain`
-    2. From alice ARP Cache = Inside `alice` PC using command `arp -a` 
-    3. From bob ARP Cache = Inside `bob` PC using command `arp -a` 
+    1. From Broadcast Domain point of view = All MACs used within the `Broadcast Domain` _(All Hosts, interfaces, etc)_
+    2. From alice ARP Table Cache = Inside `alice` PC using command `arp -a` 
+    3. From bob ARP Table Cache = Inside `bob` PC using command `arp -a` 
 
-1. Broadcast Domain (All MACs):
+1. **Broadcast Domain (All MACs) during an ARP Poisoning Attack:**
 
 ```
 
@@ -652,7 +652,7 @@ Internet Address    Physical Address
 
 ```
 
-2. `alice` point of view, using `arp -a`
+2. **`alice` point of view, using `arp -a` during an ARP Poisoning Attack:**
 
 ```
 
@@ -661,24 +661,22 @@ alice@Fz3r0# arp -a
 Internet Address    Physical Address
 
 192.168.12.2        BO-BO-BO-BO-BO-BO       <---- ( The "real" Bob with his IP & MAC )
-
-192.168.12.66       EV-EV-EV-EV-EV-EV       <---- ( The "real" Eve with her IP & MAC )
+192.168.12.66       EV-66-EV-66-EV-66       <---- ( The "real" Eve with her IP & MAC )
 192.168.12.66       BO-BO-BO-BO-BO-BO       <---- ( FAKE Bob! look at that IP :O )      <Attacker "eve">
 
 ```
 
-3. `alice` point of view, using `arp -a`
+2. **`bob` point of view, using `arp -a` during an ARP Poisoning Attack:**
 
 ```
 
-alice@Fz3r0# arp -a
+bob@Fz3r0# arp -a
 
 Internet Address    Physical Address
 
-192.168.12.2        BO-BO-BO-BO-BO-BO       <---- ( The "real" Bob with his IP & MAC )
-
-192.168.12.66       EV-EV-EV-EV-EV-EV       <---- ( The "real" Eve with her IP & MAC )
-192.168.12.66       BO-BO-BO-BO-BO-BO       <---- ( FAKE Bob! look at that IP :O )      <Attacker "eve">
+192.168.12.1        AL-AL-AL-AL-AL-AL       <---- ( The "real" Alice with his IP & MAC )
+192.168.12.66       EV-66-EV-66-EV-66       <---- ( The "real" Eve with her IP & MAC )
+192.168.12.66       AL-AL-AL-AL-AL-AL       <---- ( FAKE Alice! look at that IP :O )      <Attacker "eve">
 
 ```
 
