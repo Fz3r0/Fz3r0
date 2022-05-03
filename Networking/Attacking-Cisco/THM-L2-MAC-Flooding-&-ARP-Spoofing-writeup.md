@@ -284,6 +284,10 @@
 
 - **That's how we just performed a MAC flooding attack while sniffing the Network, and we have "listened" the "whispering" (`unicast`) betweeen `bob` and `alice`.**
 
+- Just for a better idea this is somehow what it just happened:
+
+![image](https://user-images.githubusercontent.com/94720207/166399966-e3b6c77b-473c-44ee-bb1d-70d767817bee.png)
+
 - **Mitigation** Configuring `Dynamic ARP Inspection (DAI)` on our Layer 2 Devices, for example Cisco Switches.**
     - ** Port Security is also another option configuring out switchport to only hold a max of 10 MAC on the CAM table**
     
