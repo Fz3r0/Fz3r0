@@ -15,7 +15,6 @@
 ---
  
 #### Keywords: `Networking` `Routing & Switching` `CCNA` `CCNP` `Layer 2 Attack` `Hacking` `Pentesting` `MAC Flooding` `ARP Spoofing` `Try Hack Me` `Writeup`
-
 ---
    
 ### Index 
@@ -422,9 +421,11 @@ You will intercept and visualize all the traffic for 10.0.0.1.
 
 ![image](https://user-images.githubusercontent.com/94720207/166406256-b44e94e5-6e13-4c66-a901-33d32a91311b.png)
 
-![image](https://user-images.githubusercontent.com/94720207/166407313-56badb53-d7b4-452f-b564-bf91a30af062.png)
+
   
 <!--
+
+![image](https://user-images.githubusercontent.com/94720207/166407313-56badb53-d7b4-452f-b564-bf91a30af062.png)
 
 - Surprise! We can "hear" the "whisper" (unicast) coming from `bob` with destination `alice`, that's because we are **spoofing** `alice` MAC
 
