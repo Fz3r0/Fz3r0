@@ -550,11 +550,11 @@ You will intercept and visualize all the traffic for 10.0.0.1.
 
 ![image](https://user-images.githubusercontent.com/94720207/166421625-e4fe8cb3-0c47-4467-94c4-e4518ee9d74e.png)
 
--
+- "Normal" LAN behavior:
 
-![image](https://user-images.githubusercontent.com/94720207/166424105-666888eb-361b-4732-87a6-41365395b464.png)
+![image](https://user-images.githubusercontent.com/94720207/166515214-25327df5-abd1-4060-9523-c4769544aba3.png)
 
-
+- "MAC Spoofing" scenario on a LAN:
 
 
 
