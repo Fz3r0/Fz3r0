@@ -488,6 +488,11 @@ You will intercept and visualize all the traffic for 10.0.0.1.
 
 - I will not scan each host with NMap for now, because we already know where are going somehow...
 
+1. Alice:
+
+![image](https://user-images.githubusercontent.com/94720207/166413690-a5055086-6448-4ee3-b12e-36251f62d16e.png)
+
+2. Bob:
 
 
 
