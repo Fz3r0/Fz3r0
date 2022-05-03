@@ -418,7 +418,9 @@ You will intercept and visualize all the traffic for 10.0.0.1.
     
     - Example: `icmp (MAC/IP)`
     
-    - `ettercap -T -i eth1 -M icmp:00:50:79:66:68:01/192.168.12.2` 
+    - `ettercap -T -i eth1 -M icmp:00:50:79:66:68:00/192.168.12.1` 
+
+
 
 
 
