@@ -266,12 +266,14 @@
 
         - `ettercap -T -i eth1 -P rand_flood -q -w /tmp/tcpdump3.pcap` _(Quit with q)_
 
-- It worked for me at first try without problems...just try to start and end both commands at same time, because `macof` will spam MACs and we are trying to trick some broadcasts, we need to capture with just at same time we are performing the `tcpdump`. Anyways, here's how is performed with `ettercap`:
+- It worked for me with `tcpdump` + `macof` at first try without problems...just try to start and end both commands at same time, because `macof` will spam MACs and we are trying to trick some broadcasts, we need to capture at same time while we are performing the `tcpdump`. 
 
--   
+    - Anyways, here's how is performed with `ettercap`:
+
+![image](https://user-images.githubusercontent.com/94720207/166396579-a7ff04b2-0236-4eea-9447-767089ab5602.png)
+
+- You can send the file with SCP. Now, let's analize that PCAP:
  
-
-
 ![image](https://user-images.githubusercontent.com/94720207/166396144-f37ca138-1395-46cf-aa7e-b8f653ca102d.png)
 
 
