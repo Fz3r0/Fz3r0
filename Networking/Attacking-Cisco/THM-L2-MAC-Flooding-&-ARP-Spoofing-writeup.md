@@ -229,7 +229,7 @@
         
         2. The switch might be a consumer or prosumer (**unmanaged**) switch OR:
             
-            - **The network admins haven't configured mitigations such as Dynamic ARP Inspection (DAI) for instance AND ARP and MAC spoofing attacks are explicitly permitted in the rules of engagement.**
+        3. **The network admins haven't configured mitigations such as Dynamic ARP Inspection (DAI) for instance AND ARP and MAC spoofing attacks are explicitly permitted in the rules of engagement.**
             
             - **THAT'S WHY WE NEED TO CONFIGURE `DYNAMIC ARP INSPECTION (DAI)` IN OUR `CISCO SWITCHES`, JUST AS WE SAW IN CISCO CCNAV7 MODULE-2 SECURITY**
             
