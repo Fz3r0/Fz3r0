@@ -496,10 +496,29 @@ You will intercept and visualize all the traffic for 10.0.0.1.
 
 ![image](https://user-images.githubusercontent.com/94720207/166413961-b21aeb71-6680-4cc9-945d-3a799ef2b7f0.png)
 
-- There's a HTTP serving something on default Port 80, but I have a 401 response from it:
+- There's a HTTP serving something on default Port 80, **but I have a 401 response from it:**
 
 ![image](https://user-images.githubusercontent.com/94720207/166414615-8152ebc1-0287-4c65-ab0f-35b69f6b0034.png)
 
+- I've also tried to **sniff on my interface Eth1 to search for someone trying to send traffic to eve** _(just as the precious task)_, but this time I was unlucky: 
+
+![image](https://user-images.githubusercontent.com/94720207/166414791-90295843-4b46-4d88-bfbd-332c26143d27.png)
+
+- Ok, now I will try to perform an `ARP spoofing` attack as in the previous task and search for some interesting traffic:
+
+![image](https://user-images.githubusercontent.com/94720207/166415353-ada2af32-c9b6-4744-942b-5fce86428f10.png)
+
+![image](https://user-images.githubusercontent.com/94720207/166415434-e7d09a7f-912a-4bb7-88e0-64b015d7117e.png)
+
+- BOOM! this time we were lucky, we found something!
+
+    - First we have an encoded string:
+    
+        - `YWRtaW46czNjcjN0X1A0eno=`
+    
+    - Then, we have some credentials and links to a .txt file inside an URL:  
+    
+        - `HTTP : 192.168.12.20:80 -> USER: admin  PASS: s3cr3t_P4zz  INFO: www.server.bob/test.txt`
 
 
 
