@@ -554,6 +554,15 @@ You will intercept and visualize all the traffic for 10.0.0.1.
 
 - But, how it worked?! 
 
+    - Let's break the information we found at Wikipedia about "ARP Spoofing"
+
+        1. An attacker sends (spoofed) ARP messages to associate the attacker's MAC address with the IP address of another host...
+        
+            - We sent from `eve` into the Network some ARP (broadcast) messages, but! using 
+        
+        2.  […] causing any traffic meant for that IP address to be sent to the attacker instead. ARP spoofing may allow an attacker to intercept data frames on a network, modify the traffic, or stop all traffic. Often the attack is used as an opening for other attacks, such as denial of service, man in the middle, or session hijacking attacks." - Wikipedia - ARP spoofing
+
+
 - "Normal" LAN behavior:
 
 ![image](https://user-images.githubusercontent.com/94720207/166515214-25327df5-abd1-4060-9523-c4769544aba3.png)
