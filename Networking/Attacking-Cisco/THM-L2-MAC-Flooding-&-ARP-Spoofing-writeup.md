@@ -654,7 +654,7 @@ Perform the ARP poisoning against the gateway and the host in the lan between 2 
 
 4. The two devices update their **`ARP cache entries`** and from that point onwards, **communicate with the attacker instead of directly with each other.**
 
-5. **The attacker is now secretly in the middle of all communications.**
+5. **The attacker `eve` is now secretly in the middle of all communications.**
 
 - Finally let's see how an ARP CACHE table with the command `arp -a`, this is how an ARP Poisoning looks from inside an attacked machine, this is just an example to realize in the easiest way how it looks, in real life you will se real MACs:
 
