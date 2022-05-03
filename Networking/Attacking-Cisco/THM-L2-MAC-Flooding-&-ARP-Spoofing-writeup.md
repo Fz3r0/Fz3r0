@@ -510,8 +510,6 @@ You will intercept and visualize all the traffic for 10.0.0.1.
 
 ![image](https://user-images.githubusercontent.com/94720207/166415434-e7d09a7f-912a-4bb7-88e0-64b015d7117e.png)
 
-![image](https://user-images.githubusercontent.com/94720207/166416035-787751dc-232c-418b-b5b9-27a20c498565.png)
-
 - BOOM! this time we were lucky, we found something!
 
     - It seems there are some TCP packets "flying" between `alice` 192.168.12.10 and `bob` 192.168.12.20 using HTTP Port 80.  
@@ -526,11 +524,18 @@ You will intercept and visualize all the traffic for 10.0.0.1.
 
 - We also found that the request are sent to the domain `www.server.bob`
 
-- Then, we have some credentials and links to a .txt file inside an URL:  
+- Then, we have some credentials and a link to **a .txt file that is being requested**:  
     
-- `HTTP : 192.168.12.20:80 -> USER: admin  PASS: s3cr3t_P4zz  INFO: www.server.bob/test.txt`
+    - **`HTTP : 192.168.12.20:80 -> USER: admin  PASS: s3cr3t_P4zz  INFO: www.server.bob/test.txt`**
 
-    - OK, let me guess... `USER: admin PASS: s3cr3t_P4zz` do we need to use those credentials somewhere? hehe  
+- We also found the response to this HTTP:
+
+![image](https://user-images.githubusercontent.com/94720207/166417905-4ef877b6-d3eb-4e40-9858-7577f0166fac.png)
+
+- 
+
+
+
 
 
 
