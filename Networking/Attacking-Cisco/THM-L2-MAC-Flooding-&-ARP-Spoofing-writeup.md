@@ -239,9 +239,15 @@
 
     - For better usability, open a second SSH session. This way, you can leave the tcpdump process running in the foreground on the first SSH session:
     
+        - `tcpdump -A -i eth1 -w /tmp/tcpdump2.pcap`
+        
 ![image](https://user-images.githubusercontent.com/94720207/166393591-bb42bbb8-d3c7-4a31-8e05-719c733183d5.png)
         
-    - 
+- Now, on the second SSH session, buckle up and let macof run against the interface to start flooding the switch:
+
+    - `macof -i eth1`
+    
+    - After around 30 seconds, stop both macof and tcpdump `(Ctrl+C)`. 
 
 ![image](https://user-images.githubusercontent.com/94720207/166393923-496a224b-2c4d-4557-b3f8-dfd34ae47489.png)
 
