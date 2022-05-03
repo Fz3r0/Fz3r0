@@ -233,7 +233,14 @@
             
             - **THAT'S WHY WE NEED TO CONFIGURE `DYNAMIC ARP INSPECTION (DAI)` IN OUR `CISCO SWITCHES`, JUST AS WE SAW IN CISCO CCNAV7 MODULE-2 SECURITY**
             
-            - I'm making a guide to achieve Best Practices & Security to our Cisco Layer 2 devices [here](https://github.com/Fz3r0/Fz3r0#-networking--1) _(I still need to update the info)_:
+            - I'm making a guide to achieve Best Practices & Security to our Cisco Layer 2 devices [here](https://github.com/Fz3r0/Fz3r0#-networking--1) _(I still need to update the info, meanwhile just google for Cisco DAI on IOS)_
+
+- _- "Anyhow, let's assume you've met the well-thought decision to give it a try."_
+
+    - For better usability, open a second SSH session. This way, you can leave the tcpdump process running in the foreground on the first SSH session:
+    
+    
+    -   
 
 
 
