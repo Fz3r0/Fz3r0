@@ -506,7 +506,9 @@ You will intercept and visualize all the traffic for 10.0.0.1.
 
 - Ok, now I will try to perform an `ARP spoofing` attack as in the previous task and search for some interesting traffic:
 
-![image](https://user-images.githubusercontent.com/94720207/166415353-ada2af32-c9b6-4744-942b-5fce86428f10.png)
+    - `ettercap` 
+
+![image](https://user-images.githubusercontent.com/94720207/166525187-7adff6b4-9da9-44ba-8c72-2e268eb8c813.png)
 
 ![image](https://user-images.githubusercontent.com/94720207/166415434-e7d09a7f-912a-4bb7-88e0-64b015d7117e.png)
 
