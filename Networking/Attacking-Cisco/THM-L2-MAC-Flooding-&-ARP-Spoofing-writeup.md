@@ -138,9 +138,11 @@
 
 - As you can see, from `Eve` we can "see" 2 different Broadcast Domains for 2 different LANs, 
 
-- **I found in my old write ups of Networking something very useful for the next tasks, it talks about Layer 2 types of comunication and how devices at Layer 2 uses MAC Addresses to identify who is every host inside the LAN:
+- **I found in my old write ups of Networking something very useful for the next tasks and this room in general, it talks about Layer 2 types of comunication and how devices like Switches and Hubs at Layer 2 creates Broadcast and Collision Domains, also how Layer 2 devices uses MAC Addresses to identify who is every host inside the LAN:
 
 ![image](https://user-images.githubusercontent.com/94720207/166326956-69553eaf-4a36-4494-9f37-9e19753ed742.png)
+
+![image](https://user-images.githubusercontent.com/94720207/166401242-48df1b04-c013-4390-a599-afd74da26ae0.png)
 
 - _(I promise i will upload more of my networking writeups to my github, I have some mor good stuff! :D)_ 
     
