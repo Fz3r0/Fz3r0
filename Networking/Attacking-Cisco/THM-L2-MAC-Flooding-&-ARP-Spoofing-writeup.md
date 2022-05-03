@@ -496,6 +496,9 @@ You will intercept and visualize all the traffic for 10.0.0.1.
 
 ![image](https://user-images.githubusercontent.com/94720207/166413961-b21aeb71-6680-4cc9-945d-3a799ef2b7f0.png)
 
+- There's a HTTP serving something on default Port 80, but I have a 401 response from it:
+
+![image](https://user-images.githubusercontent.com/94720207/166414615-8152ebc1-0287-4c65-ab0f-35b69f6b0034.png)
 
 
 
