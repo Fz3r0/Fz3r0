@@ -273,8 +273,15 @@
 ![image](https://user-images.githubusercontent.com/94720207/166396579-a7ff04b2-0236-4eea-9447-767089ab5602.png)
 
 - You can send the file with SCP. Now, let's analize that PCAP:
- 
+
+    - This PCAP is HUGE! we have half million packets 😂 that' why I used the next filter:
+    
+        - `ip.addr == 192.168.12.1 || ip.addr == 192.168.12.2`
+    
+    - I'm filtering just the traffic containing IPs from `bob` (192.168.12.2) and `alice` (192.168.12.1). And maybe, we can find a "conversation" between both of them:  
 ![image](https://user-images.githubusercontent.com/94720207/166396144-f37ca138-1395-46cf-aa7e-b8f653ca102d.png)
+
+- 
 
 
 
