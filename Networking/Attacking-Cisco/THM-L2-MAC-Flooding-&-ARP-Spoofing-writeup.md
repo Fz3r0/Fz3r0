@@ -563,7 +563,11 @@ You will intercept and visualize all the traffic for 10.0.0.1.
             - **Generally, the aim is to associate the attacker's MAC address with the IP address of another host, such as the default gateway, causing any traffic meant for that IP address to be sent to the attacker instead.**
 
                 1. **An attacker sends (spoofed) ARP messages to associate the attacker's MAC address with the IP address of another host...**
+                    - We are the attacker located in `eve`, sending forged "spoofed" messages using `ethercap` into 192.168.12.0/24 to all hosts (`alice` & `bob`)
+                    
                 2. **...causing any traffic meant for that IP address to be sent to the attacker instead.**
+                    -  
+                
                 3. _ARP spoofing may allow an attacker to intercept data frames on a network, modify the traffic, or stop all traffic._(we will see this on next task) 
 
         - Now, let's break the command we did on `ettercap`:
