@@ -690,6 +690,7 @@ Internet Address    Physical Address
 
 - "MAC Spoofing" scenario on a LAN:
 
+![image](https://user-images.githubusercontent.com/94720207/166572221-f2a383ea-323f-4bd8-b7b4-dfd27a80df90.png)
 
 
 
