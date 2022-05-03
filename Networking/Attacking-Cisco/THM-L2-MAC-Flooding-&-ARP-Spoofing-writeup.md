@@ -671,16 +671,21 @@ Perform the ARP poisoning against the gateway and the host in the lan between 2 
 1. Broadcast Domain (All MACs):
 
 ```
-alice@Fz3r0# arp -a
+
+=-=-=-=-=-=-=-=- 192.168.12.0/24 Network ALL MACs  =-=-=-=-=-=-=-=-=-=-
 
 Internet Address    Physical Address
 
 192.168.12.2        BO-BO-BO-BO-BO-BO       <---- ( The "real" Bob with his IP & MAC )
 192.168.12.1        AL-AL-AL-AL-AL-AL       <---- ( The "real" Alice with her IP & MAC )
-192.168.12.66       EV-EV-EV-EV-EV-EV       <---- ( The "real" Eve with her IP & MAC )
-192.168.12.66       BO-BO-BO-BO-BO-BO
-192.168.12.66       AL-AL-AL-AL-AL-AL
+192.168.12.66       EV-66-EV-66-EV-66       <---- ( The "real" Eve with her IP & MAC )  <Attacker "eve">
+192.168.12.66       BO-BO-BO-BO-BO-BO       <---- ( FAKE Bob! look at that IP :O )      <Attacker "eve">
+192.168.12.66       AL-AL-AL-AL-AL-AL       <---- ( FAKE Alice! look at that IP :O )    <Attacker "eve">
 
+
+```
+
+2. `alice` point of view, using `arp -a`
 
 ```
 
@@ -689,10 +694,27 @@ alice@Fz3r0# arp -a
 Internet Address    Physical Address
 
 192.168.12.2        BO-BO-BO-BO-BO-BO       <---- ( The "real" Bob with his IP & MAC )
-192.168.12.1        AL-AL-AL-AL-AL-AL       <---- ( The "real" Alice with her IP & MAC )
+
 192.168.12.66       EV-EV-EV-EV-EV-EV       <---- ( The "real" Eve with her IP & MAC )
-192.168.12.66       BO-BO-BO-BO-BO-BO
-192.168.12.66       AL-AL-AL-AL-AL-AL
+192.168.12.66       BO-BO-BO-BO-BO-BO       <---- ( FAKE Bob! look at that IP :O )      <Attacker "eve">
+
+```
+
+3. `alice` point of view, using `arp -a`
+
+```
+
+alice@Fz3r0# arp -a
+
+Internet Address    Physical Address
+
+192.168.12.2        BO-BO-BO-BO-BO-BO       <---- ( The "real" Bob with his IP & MAC )
+
+192.168.12.66       EV-EV-EV-EV-EV-EV       <---- ( The "real" Eve with her IP & MAC )
+192.168.12.66       BO-BO-BO-BO-BO-BO       <---- ( FAKE Bob! look at that IP :O )      <Attacker "eve">
+
+```
+
 
         
 - "Normal" LAN behavior:
