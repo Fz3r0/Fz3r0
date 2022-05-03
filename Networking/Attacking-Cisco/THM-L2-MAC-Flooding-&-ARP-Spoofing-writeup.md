@@ -304,10 +304,19 @@
 
 - Instead, we are going to perform so-called `ARP cache poisoning` attacks against `Alice` and `Bob`, in an attempt to become a **fully-fledged `Man-in-the-Middle (MITM)**`.
 
+- For a deeper understanding of this technique, [read the Wikipedia article on ARP spoofing](https://en.wikipedia.org/wiki/ARP_spoofing)
 
-For a deeper understanding of this technique, read the Wikipedia article on ARP spoofing.
+    – _"an attacker sends (spoofed) ARP messages […] to associate the attacker's MAC address with the IP address of another host […] causing any traffic meant for that IP address to be sent to the attacker instead. ARP spoofing may allow an attacker to intercept data frames on a network, modify the traffic, or stop all traffic. Often the attack is used as an opening for other attacks, such as denial of service, man in the middle, or session hijacking attacks." - Wikipedia - ARP spoofing_
 
-tl;dr – "an attacker sends (spoofed) ARP messages […] to associate the attacker's MAC address with the IP address of another host […] causing any traffic meant for that IP address to be sent to the attacker instead. ARP spoofing may allow an attacker to intercept data frames on a network, modify the traffic, or stop all traffic. Often the attack is used as an opening for other attacks, such as denial of service, man in the middle, or session hijacking attacks." - Wikipedia - ARP spoofing
+![image](https://user-images.githubusercontent.com/94720207/166403377-49c6012d-6689-4763-8419-cfdd08a86387.png)
+_https://commons.wikimedia.org/wiki/File:ARP_Spfing.svg_
+
+    - There are, however, measures and controls available to detect and prevent such attacks. 
+    
+    - **We can configure our Cisco Layer 2 Devices with `ARP Snooping`, again, just as we saw in CCNA v7 Module 2 - Security - Layer 2 Attacks.**
+
+- In the current scenario, both hosts are running an ARP implementation that takes pains to validate incoming ARP replies. Without further ado, we are using ettercap to launch an ARP Spoofing attack against Alice and Bob and see how they react:
+
 
 
 
