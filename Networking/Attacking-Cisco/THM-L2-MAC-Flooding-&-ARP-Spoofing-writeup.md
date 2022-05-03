@@ -287,6 +287,8 @@
 
 ![image](https://user-images.githubusercontent.com/94720207/166399966-e3b6c77b-473c-44ee-bb1d-70d767817bee.png)
 
+- Maybe is not that "crazy" as those lines, but you can understand better the attack now! [The reality is that we just made the `switch` "go crazy" and start working as a `hub` due to evermwhelming spam of MAC address inside the CAM table of the switch](/Networking/Attacking-Cisco/THM-L2-MAC-Flooding-&-ARP-Spoofing-writeup.md)
+
 - **Mitigation** Configuring `Dynamic ARP Inspection (DAI)` on our Layer 2 Devices, for example Cisco Switches.**
     - ** Port Security is also another option configuring out switchport to only hold a max of 10 MAC on the CAM table**
     
