@@ -421,6 +421,7 @@ You will intercept and visualize all the traffic for 10.0.0.1.
 
 ![image](https://user-images.githubusercontent.com/94720207/166406256-b44e94e5-6e13-4c66-a901-33d32a91311b.png)
 
+- I could not find anything interesting here, but at least I have noticed a different behaivor betweeen ARP MITM and ICMP MITM. 
 
 ---
 
