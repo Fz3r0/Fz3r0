@@ -139,7 +139,7 @@
 
 ![image](https://user-images.githubusercontent.com/94720207/166326956-69553eaf-4a36-4494-9f37-9e19753ed742.png)
 
-![image](https://user-images.githubusercontent.com/94720207/166401242-48df1b04-c013-4390-a599-afd74da26ae0.png)
+![image](https://user-images.githubusercontent.com/94720207/166402151-e29d22e6-c954-4e1d-a012-41c016e35b0c.png)
 
 - _(I promise i will upload more of my networking writeups to my github, I have some mor good stuff! :D)_ 
     
