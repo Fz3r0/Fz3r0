@@ -407,9 +407,19 @@ You will intercept and visualize all the traffic for 10.0.0.1.
 
 - Since we already have the IPs and MACs from `bob`, `alice` & `eve` we can try to perform an ICMP MITM attack:
 
-    - `icmp (MAC/IP)`
+![image](https://user-images.githubusercontent.com/94720207/166405349-c5ff93b3-ea39-43e6-af4d-730ea9353b78.png)
 
-    - `` 
+- Ethernet II Frame:
+
+    - Src: `alice` MAC: `00:50:79:66:68:00` IP: `192.168.12.1`
+    - Dst: `bob` MAC: `00:50:79:66:68:01` IP: `192.168.12.2`
+
+- `ettercap` command:
+    
+    - Example: `icmp (MAC/IP)`
+    
+    - `ettercap -T -i eth1 -M icmp:00:50:79:66:68:01/192.168.12.2` 
+
 
 
 
