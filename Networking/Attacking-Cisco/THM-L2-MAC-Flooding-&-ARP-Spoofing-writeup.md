@@ -686,7 +686,7 @@ Internet Address    Physical Address
         
 - "Normal" LAN behavior:
 
-![image](https://user-images.githubusercontent.com/94720207/166515214-25327df5-abd1-4060-9523-c4769544aba3.png)
+![image](https://user-images.githubusercontent.com/94720207/166569305-5f4ad3fb-8129-443b-9a2a-03cfee4d9c49.png)
 
 - "MAC Spoofing" scenario on a LAN:
 
