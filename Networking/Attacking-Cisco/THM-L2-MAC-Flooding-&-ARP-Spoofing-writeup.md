@@ -536,6 +536,17 @@ You will intercept and visualize all the traffic for 10.0.0.1.
 
 ![image](https://user-images.githubusercontent.com/94720207/166418272-63dd34a3-729b-4b0f-8a75-c57a400ee0ac.png)
 
+- Maybe with those credentials that we found, we can make again a Request to the HTTP server where we were **unauthorized**:
+
+![image](https://user-images.githubusercontent.com/94720207/166420790-7f13ee61-0931-412c-8c5f-90d9dd093214.png)
+
+- Good! we got an HTML response, we can see a reference to 2 different .txt files, maybe we can read them:
+
+
+
+
+
+
 
 
 
