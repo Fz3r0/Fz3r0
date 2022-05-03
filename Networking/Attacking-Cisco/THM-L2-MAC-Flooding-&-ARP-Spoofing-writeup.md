@@ -486,13 +486,16 @@ You will intercept and visualize all the traffic for 10.0.0.1.
     2. bob (192.168.12.20) MAC Address: F2:28:1A:40:F1:56 (Private)
     3. eve (192.168.12.66) _We are in this machine_
 
-- I will not scan each host with NMap for now, because we already know where are going somehow...
+- I will scan alice & bob:
 
 1. Alice:
 
 ![image](https://user-images.githubusercontent.com/94720207/166413690-a5055086-6448-4ee3-b12e-36251f62d16e.png)
 
 2. Bob:
+
+![image](https://user-images.githubusercontent.com/94720207/166413961-b21aeb71-6680-4cc9-945d-3a799ef2b7f0.png)
+
 
 
 
