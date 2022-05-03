@@ -532,9 +532,11 @@ You will intercept and visualize all the traffic for 10.0.0.1.
 
 ![image](https://user-images.githubusercontent.com/94720207/166417905-4ef877b6-d3eb-4e40-9858-7577f0166fac.png)
 
-- We can see some commands Request too
+- We can see some commands Request too and some files listed, including **root.txt**
 
 ![image](https://user-images.githubusercontent.com/94720207/166426127-cfb424a2-89e9-4176-8b7a-2c5ad828847b.png)
+
+![image](https://user-images.githubusercontent.com/94720207/166426264-20cce0c5-9c46-46a2-9efa-fe19981caf4e.png)
 
 - That's everything we got from that attack, now let's end it with `"Q"` 
 
