@@ -326,6 +326,7 @@ _https://commons.wikimedia.org/wiki/File:ARP_Spfing.svg_
 - Just to dig a little bit more about this command, let's try another MITM attack instead of `ARP` 
 
     - https://www.mankier.com/8/ettercap#Examples
+    
 
 ```
 
