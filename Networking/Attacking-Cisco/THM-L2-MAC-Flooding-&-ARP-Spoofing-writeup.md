@@ -420,6 +420,13 @@ You will intercept and visualize all the traffic for 10.0.0.1.
     
     - `ettercap -T -i eth1 -M icmp:00:50:79:66:68:00/192.168.12.1` 
 
+![image](https://user-images.githubusercontent.com/94720207/166406256-b44e94e5-6e13-4c66-a901-33d32a91311b.png)
+
+- Surprise! We can "hear" the "whisper" (unicast) coming from `bob` with destination `alice`, that's because we are **spoofing** `alice` MAC
+
+- But how it works? Easy! because the switch is not protected with ARP snooping, the switch don't realize that the same MAC address is comming from different switchports and now when the switch send traffic to `alice` MAC from `bob`, we can hear it!
+    
+    - Just as the last task, but this time was not a "crazyness" it was more like this: 
 
 
 
