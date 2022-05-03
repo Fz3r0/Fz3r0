@@ -510,6 +510,8 @@ You will intercept and visualize all the traffic for 10.0.0.1.
 
 ![image](https://user-images.githubusercontent.com/94720207/166415434-e7d09a7f-912a-4bb7-88e0-64b015d7117e.png)
 
+![image](https://user-images.githubusercontent.com/94720207/166416035-787751dc-232c-418b-b5b9-27a20c498565.png)
+
 - BOOM! this time we were lucky, we found something!
 
     - First we have an encoded string:
