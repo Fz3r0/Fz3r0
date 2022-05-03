@@ -679,6 +679,15 @@ Internet Address    Physical Address
 192.168.12.66       AL-AL-AL-AL-AL-AL       <---- ( FAKE Alice! look at that IP :O )      <Attacker "eve">
 
 ```
+        
+- "Normal" LAN behavior:
+
+![image](https://user-images.githubusercontent.com/94720207/166569305-5f4ad3fb-8129-443b-9a2a-03cfee4d9c49.png)
+
+- "MAC Spoofing" scenario on a LAN:
+
+![image](https://user-images.githubusercontent.com/94720207/166572221-f2a383ea-323f-4bd8-b7b4-dfd27a80df90.png)
+
 
 ### Mitigation
 
@@ -699,35 +708,6 @@ Internet Address    Physical Address
 - The combination of all security best practices will be the best solution, Cisco switches also includo features like Port Security or we can use external hardware/software like Firewalls or network analyzers. 
 
 ---
-
-        
-- "Normal" LAN behavior:
-
-![image](https://user-images.githubusercontent.com/94720207/166569305-5f4ad3fb-8129-443b-9a2a-03cfee4d9c49.png)
-
-- "MAC Spoofing" scenario on a LAN:
-
-![image](https://user-images.githubusercontent.com/94720207/166572221-f2a383ea-323f-4bd8-b7b4-dfd27a80df90.png)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 ---
