@@ -278,10 +278,17 @@
     
         - `ip.addr == 192.168.12.1 || ip.addr == 192.168.12.2`
     
-    - I'm filtering just the traffic containing IPs from `bob` (192.168.12.2) and `alice` (192.168.12.1). And maybe, we can find a "conversation" between both of them:  
+    - I'm filtering just the traffic containing IPs from `bob` (192.168.12.2) and `alice` (192.168.12.1). And maybe, we can find a "conversation" between both of them:
+     
 ![image](https://user-images.githubusercontent.com/94720207/166396144-f37ca138-1395-46cf-aa7e-b8f653ca102d.png)
 
-- 
+- **That's how we just performed a MAC flooding attack while sniffing the Network, and we have "listened" the "whispering" (`unicast`) betweeen `bob` and `alice`.**
+
+- **Mitigation** Configuring `Dynamic ARP Inspection (DAI)` on our Layer 2 Devices, for example Cisco Switches.**
+    - ** Port Security is also another option configuring out switchport to only hold a max of 10 MAC on the CAM table**
+    
+    - We can also use more defensive techniques but in this case I'm just remarking the configs of best practices and security on our Layer 2 Devices.
+
 
 
 
