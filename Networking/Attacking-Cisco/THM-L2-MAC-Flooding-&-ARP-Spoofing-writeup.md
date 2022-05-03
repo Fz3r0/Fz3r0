@@ -434,6 +434,11 @@ You will intercept and visualize all the traffic for 10.0.0.1.
 
 ![image](https://user-images.githubusercontent.com/94720207/166410190-614a4734-1e99-4f74-bd00-da28610a8777.png)
 
+![image](https://user-images.githubusercontent.com/94720207/166410469-f8b407b7-f4e6-4a45-88e4-836b3b726bce.png)
+
+- OK! so... at this point, if we use bob IP we get the same ICMP 666 size as the first task.
+
+- Those are the "whispers" between bob and eve.  
 
 
 - alice 
