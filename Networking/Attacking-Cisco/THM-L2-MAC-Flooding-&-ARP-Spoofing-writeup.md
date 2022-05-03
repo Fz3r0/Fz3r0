@@ -652,7 +652,7 @@ Perform the ARP poisoning against the gateway and the host in the lan between 2 
 
 1. We are using `ettercap` to send out **"forged"** and **"tricky"**  `ARP responses` to the Network 192.168.12.0/24 (Broadcast Domain). 
 
-2. The forged responses advertise that the correct MAC address for both IP addresses, belonging to **`bob`** and **`alice`** PCs, is the attacker’s MAC address (**`eve`**). 
+2. The forged responses advertise that the "correct" **MAC address for both IP addresses**, belonging to **`bob`** and **`alice`** PCs, is actually the **attacker’s MAC address!!!** (**`eve`**). 
 
 3. This fools both **`bob`** & **`alice`** to connect to the attacker’s machine **`eve`**, instead of to each other.
 
