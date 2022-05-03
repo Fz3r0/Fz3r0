@@ -141,7 +141,7 @@
 
 ![image](https://user-images.githubusercontent.com/94720207/166402151-e29d22e6-c954-4e1d-a012-41c016e35b0c.png)
 
-- _(I promise i will upload more of my networking writeups to my github, I have some mor good stuff! :D)_ 
+- _(I promise that I will upload more of my networking writeups to my github, I have some good stuff! :D)_ 
     
     - Here's the deal! We can "hear" any broadcast sent inside the network 192.168.12.0 or if there's someone trying to connect with us `eve`: 
         
