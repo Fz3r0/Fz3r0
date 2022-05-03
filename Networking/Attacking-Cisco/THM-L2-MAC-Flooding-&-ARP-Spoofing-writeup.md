@@ -637,8 +637,59 @@ ettercap -T -M arp:remote /192.168.1.1/ /192.168.1.2-10/
 Perform the ARP poisoning against the gateway and the host in the lan between 2 and 10. The 'remote' option is needed to be able to sniff the remote traffic the hosts make through the gateway.
 
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
 ```
-        
+
+- So! The manual says:
+
+    - **"This method _(ARP)_ implements the ARP poisoning mitm attack. ARP requests/replies are sent to the victims to poison their ARP cache. Once the cache has been poisoned the victims will send all packets to the attacker which, in turn, can modify and forward them to the real destination."**   
+
+- Let's break that sentence more! we are close! 
+
+1. We are using `ettercap` to send out **"forged"** and **"tricky"**  `ARP responses` to the Network 192.168.12.0/24 (Broadcast Domain). 
+
+2. The forged responses advertise that the correct MAC address for both IP addresses, belonging to **`bob`** and **`alice`** PCs, is the attacker’s MAC address (**`eve`**). 
+
+3. This fools both **`bob`** & **`alice`** to connect to the attacker’s machine **`eve`**, instead of to each other.
+
+4. The two devices update their **`ARP cache entries`** and from that point onwards, **communicate with the attacker instead of directly with each other.**
+
+5. **The attacker is now secretly in the middle of all communications.**
+
+- Finally let's see how an ARP CACHE table with the command `arp -a`, this is how an ARP Poisoning looks from inside an attacked machine, this is just an example to realize in the easiest way how it looks, in real life you will se real MACs:
+
+- I will break the ARP Cache tables in 3 parts:
+
+    1. From Broadcast Domain point of view = All MACs used inside the `Broadcast Domain`
+    2. From alice ARP Cache = Inside `alice` PC using command `arp -a` 
+    3. From bob ARP Cache = Inside `bob` PC using command `arp -a` 
+
+1. Broadcast Domain (All MACs):
+
+```
+alice@Fz3r0# arp -a
+
+Internet Address    Physical Address
+
+192.168.12.2        BO-BO-BO-BO-BO-BO       <---- ( The "real" Bob with his IP & MAC )
+192.168.12.1        AL-AL-AL-AL-AL-AL       <---- ( The "real" Alice with her IP & MAC )
+192.168.12.66       EV-EV-EV-EV-EV-EV       <---- ( The "real" Eve with her IP & MAC )
+192.168.12.66       BO-BO-BO-BO-BO-BO
+192.168.12.66       AL-AL-AL-AL-AL-AL
+
+
+```
+
+alice@Fz3r0# arp -a
+
+Internet Address    Physical Address
+
+192.168.12.2        BO-BO-BO-BO-BO-BO       <---- ( The "real" Bob with his IP & MAC )
+192.168.12.1        AL-AL-AL-AL-AL-AL       <---- ( The "real" Alice with her IP & MAC )
+192.168.12.66       EV-EV-EV-EV-EV-EV       <---- ( The "real" Eve with her IP & MAC )
+192.168.12.66       BO-BO-BO-BO-BO-BO
+192.168.12.66       AL-AL-AL-AL-AL-AL
+
         
 - "Normal" LAN behavior:
 
