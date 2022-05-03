@@ -298,7 +298,16 @@
 
 ### Man-in-the-Middle: Intro to ARP Spoofing
 
+- As you may have noticed, MAC Flooding can be considered a real "noisy" technique _**(making the switch go crazy and doing a DoS like attack is not so ninja)**_. 
 
+- In order to reduce the risk of detection and DoS we will leave `macof` aside for now. 
+
+- Instead, we are going to perform so-called `ARP cache poisoning` attacks against `Alice` and `Bob`, in an attempt to become a **fully-fledged `Man-in-the-Middle (MITM)**`.
+
+
+For a deeper understanding of this technique, read the Wikipedia article on ARP spoofing.
+
+tl;dr – "an attacker sends (spoofed) ARP messages […] to associate the attacker's MAC address with the IP address of another host […] causing any traffic meant for that IP address to be sent to the attacker instead. ARP spoofing may allow an attacker to intercept data frames on a network, modify the traffic, or stop all traffic. Often the attack is used as an opening for other attacks, such as denial of service, man in the middle, or session hijacking attacks." - Wikipedia - ARP spoofing
 
 
 
