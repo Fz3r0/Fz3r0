@@ -724,6 +724,13 @@ Internet Address    Physical Address
 ### References
 
 - https://tryhackme.com/room/layer2
+- https://en.wikipedia.org/wiki/ARP_spoofing
+- https://www.mankier.com/8/ettercap#Examples
+- https://www.imperva.com/learn/application-security/arp-spoofing/
+- https://community.cisco.com/t5/networking-blogs/troubleshooting-l2-issues-arp-poisoning/ba-p/3103189
+- https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst_pon/software/configuration_guide/sec/b-gpon-config-security/preventing_arf_spoofing_and_flood_attack.html
+- https://community.cisco.com/t5/network-security/protect-my-lan-against-arp-spoofing-poisoning/td-p/3950323
+- https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst4500/12-2/25ew/configuration/guide/conf/dynarp.html
 
 ---
 
