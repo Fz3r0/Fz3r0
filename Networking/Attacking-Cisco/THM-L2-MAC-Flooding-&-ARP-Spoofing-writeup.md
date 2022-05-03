@@ -514,13 +514,21 @@ You will intercept and visualize all the traffic for 10.0.0.1.
 
 - BOOM! this time we were lucky, we found something!
 
-    - First we have an encoded string:
+    - It seems there are some TCP packets "flying" between `alice` 192.168.12.10 and `bob` 192.168.12.20 using HTTP Port 80.  
+
+    - We found an encoded string:
     
         - `YWRtaW46czNjcjN0X1A0eno=`
+        
+            - Let's decode it, looking at it I can bet is Base54 encoding:
+
+![image](https://user-images.githubusercontent.com/94720207/166416664-36201e11-651a-4ba8-b05a-47b9952cd64a.png)
+
+- Then, we have some credentials and links to a .txt file inside an URL:  
     
-    - Then, we have some credentials and links to a .txt file inside an URL:  
-    
-        - `HTTP : 192.168.12.20:80 -> USER: admin  PASS: s3cr3t_P4zz  INFO: www.server.bob/test.txt`
+- `HTTP : 192.168.12.20:80 -> USER: admin  PASS: s3cr3t_P4zz  INFO: www.server.bob/test.txt`
+
+    - OK, let me guess... `USER: admin PASS: s3cr3t_P4zz` do we need to use those credentials somewhere? hehe  
 
 
 
