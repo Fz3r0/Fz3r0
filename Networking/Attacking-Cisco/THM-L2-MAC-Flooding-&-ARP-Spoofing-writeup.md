@@ -472,7 +472,12 @@ You will intercept and visualize all the traffic for 10.0.0.1.
 
 1. Network Discovery:
 
-    - Just as we did on Discovery phase on the other machine, I will use NMap to scan the new Network:
+    - Just as we did on Discovery phase on the other machine, first I'll look to my interfaces and IP configuration:
+
+![image](https://user-images.githubusercontent.com/94720207/166412391-3dae2d9b-48b8-4c9b-9331-f7f15b8875d7.png)
+
+- We have more connection in this scenario, even a docker, the topology could be a little bit different, I will continue with the 192.168.12.0/24 Network tho. 
+
 
 
 
