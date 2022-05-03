@@ -524,6 +524,8 @@ You will intercept and visualize all the traffic for 10.0.0.1.
 
 ![image](https://user-images.githubusercontent.com/94720207/166416664-36201e11-651a-4ba8-b05a-47b9952cd64a.png)
 
+- We also found that the request are sent to the domain `www.server.bob`
+
 - Then, we have some credentials and links to a .txt file inside an URL:  
     
 - `HTTP : 192.168.12.20:80 -> USER: admin  PASS: s3cr3t_P4zz  INFO: www.server.bob/test.txt`
