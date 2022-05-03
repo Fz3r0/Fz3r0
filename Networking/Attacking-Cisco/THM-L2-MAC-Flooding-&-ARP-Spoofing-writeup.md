@@ -542,6 +542,9 @@ You will intercept and visualize all the traffic for 10.0.0.1.
 
 - Good! we got an HTML response, we can see a reference to 2 different .txt files, maybe we can read them:
 
+![image](https://user-images.githubusercontent.com/94720207/166421625-e4fe8cb3-0c47-4467-94c4-e4518ee9d74e.png)
+
+- 
 
 
 
