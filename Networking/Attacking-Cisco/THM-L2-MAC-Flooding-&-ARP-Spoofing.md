@@ -65,7 +65,7 @@
 
 - As mentioned previously, the host is connected to one or more additional networks. You are currently connected to the machine via SSH on Ethernet adapter eth0. The network of interest is connected with Ethernet adapter eth1.
 
-![image](https://user-images.githubusercontent.com/94720207/166306269-e37da4c6-7e21-4cda-bec2-8d9f098635d7.png)
+![image](https://user-images.githubusercontent.com/94720207/166345518-a54c21ea-fffe-4ccf-a5d5-dc46101008fc.png)
 
 1. First, have a look at the adapter:
 
@@ -132,7 +132,7 @@
 
 - The diagram below describes your current situation where you are the Attacker and have persistent access to eve.
 
-![image](https://user-images.githubusercontent.com/94720207/166329055-98178c61-af51-4703-89e9-374447f490f7.png)
+![image](https://user-images.githubusercontent.com/94720207/166345799-ac2becb9-3251-47db-9a87-f000d9517efc.png)
 
 - As you can see, from `Eve` we can "see" 2 different Broadcast Domains for 2 different LANs, 
 
