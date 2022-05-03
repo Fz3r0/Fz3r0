@@ -680,6 +680,25 @@ Internet Address    Physical Address
 
 ```
 
+### Mitigation
+
+- I will use in this example the Cisco method to prevent ARP Poisoning, but it's very similar or the same approach for different vendors or systems. 
+
+- Cisco uses `Dynamic ARP inspection` which is a security feature that validates ARP packets in a network. It intercepts, logs,and discards ARP packets with invalid IP-to-MAC address bindings. This capability protects the network from certain man-in-the-middle attacks.
+
+- Dynamic ARP inspection ensures that only valid ARP requests and responses are relayed. The switch performs these activities:
+
+    - Intercepts all ARP requests and responses on untrusted ports
+    - Verifies that each of these intercepted packets has a valid IP-to-MAC address binding before updating the local ARP cache or before forwarding the packet to the appropriate destination
+    - Drops invalid ARP packets
+    - Dynamic ARP inspection determines the validity of an ARP packet based on valid IP-to-MAC address bindings stored in a trusted database, the DHCP snooping binding database. 
+    - This database is built by DHCP snooping if DHCP snooping is enabled on the VLANs and on the switch. If the ARP packet is received on a trusted interface, the switch forwards the packet without any checks. On untrusted interfaces, the switch forwards the packet only if it is valid
+    
+- As you can see, is not so difficult to get rid of this kind of attacks but is mandatory to make some configurations manually, like configure our own trusted MACs databases.
+
+- The combination of all security best practices will be the best solution, Cisco switches also includo features like Port Security or we can use external hardware/software like Firewalls or network analyzers. 
+
+---
 
         
 - "Normal" LAN behavior:
