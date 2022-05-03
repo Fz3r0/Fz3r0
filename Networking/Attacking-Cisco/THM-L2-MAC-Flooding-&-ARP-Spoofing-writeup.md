@@ -688,8 +688,14 @@ Internet Address    Physical Address
 
 ![image](https://user-images.githubusercontent.com/94720207/166572221-f2a383ea-323f-4bd8-b7b4-dfd27a80df90.png)
 
-
+   
 ### Mitigation
+
+- In this scenario I showed how the MAC Tables of Hosts `alice` and `bob` were poisoned, but you can attack hosts, switches, and routers connected to your Layer 2 network by "poisoning" their ARP caches.
+
+- As we saw in other task, switches also have CAM Tables containing MAC/IPs of the "trusted traffic".
+
+- In this case the author said that _"Alice and Bob are running a different OS (Ubuntu) with its default ARP implementation and no protective controls on their machines."_ so, maybe with their own protection would be enough, maybe not! That's why we need to protect switches, hosts, routers, gateways, etc.  
 
 - I will use in this example the Cisco method to prevent ARP Poisoning, but it's very similar or the same approach for different vendors or systems. 
 
