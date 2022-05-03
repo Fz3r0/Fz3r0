@@ -424,6 +424,7 @@ You will intercept and visualize all the traffic for 10.0.0.1.
 
 ---
 
+<!--
 - bob
 
 ![image](https://user-images.githubusercontent.com/94720207/166409404-08072b78-19aa-4e83-91bb-c5f22fc9293a.png)
@@ -446,12 +447,6 @@ You will intercept and visualize all the traffic for 10.0.0.1.
 ![image](https://user-images.githubusercontent.com/94720207/166410827-92c17d87-0493-4f65-8b81-ae2fc085fb5a.png)
 
 ![image](https://user-images.githubusercontent.com/94720207/166410966-b1038e3e-5dd7-4980-8c27-053575f1f769.png)
-
-
-
-
-  
-<!--
 
 ![image](https://user-images.githubusercontent.com/94720207/166407313-56badb53-d7b4-452f-b564-bf91a30af062.png)
 
