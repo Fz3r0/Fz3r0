@@ -231,7 +231,7 @@
             
         3. **The network admins haven't configured mitigations such as Dynamic ARP Inspection (DAI) for instance AND ARP and MAC spoofing attacks are explicitly permitted in the rules of engagement.**
             
-            - **THAT'S WHY WE NEED TO CONFIGURE `DYNAMIC ARP INSPECTION (DAI)` IN OUR `CISCO SWITCHES`, JUST AS WE SAW IN CISCO CCNAV7 MODULE-2 SECURITY**
+            - **THAT'S WHY WE NEED TO CONFIGURE `DYNAMIC ARP INSPECTION (DAI)` IN OUR `CISCO SWITCHES`, JUST AS WE SAW IN CISCO CCNAV7 MODULE-2 SECURITY "LAYER 2 ATTACKS"**
             
             - I'm making a guide to achieve Best Practices & Security to our Cisco Layer 2 devices [here](https://github.com/Fz3r0/Fz3r0#-networking--1) _(I still need to update the info, meanwhile just google for Cisco DAI on IOS)_
 
@@ -239,8 +239,12 @@
 
     - For better usability, open a second SSH session. This way, you can leave the tcpdump process running in the foreground on the first SSH session:
     
-    
-    -   
+![image](https://user-images.githubusercontent.com/94720207/166393591-bb42bbb8-d3c7-4a31-8e05-719c733183d5.png)
+        
+    - 
+
+![image](https://user-images.githubusercontent.com/94720207/166393923-496a224b-2c4d-4557-b3f8-dfd34ae47489.png)
+
 
 
 
