@@ -219,6 +219,21 @@
     - Even worse, your network port could even get blocked by the network device altogether, rendering your machine locked out of the network. 
     - In case of production services running on or production traffic being routed through that network connection, **this could even result in an effective Denial-of-Service!**
 
+- However, if we're successful, the switch will resort to fail-open mode and temporarily operate similarly to a network hub – forwarding all received frames to every connected port (aside from the port the traffic originated from). 
+
+- This would allow an adversary or pentester to sniff the network traffic between other hosts that normally wouldn't be received by their device if the switch were functioning properly.
+
+    - **Considering such an attack vector is only recommended when you have reasons to believe that:**
+
+        1. It is in fact a switched network (and not a virtual bridge) AND
+        
+        2. The switch might be a consumer or prosumer (**unmanaged**) switch OR:
+            
+            - **The network admins haven't configured mitigations such as Dynamic ARP Inspection (DAI) for instance AND ARP and MAC spoofing attacks are explicitly permitted in the rules of engagement.**
+            
+            - **THAT'S WHY WE NEED TO CONFIGURE `DYNAMIC ARP INSPECTION (DAI)` IN OUR `CISCO SWITCHES`, JUST AS WE SAW IN CISCO CCNAV7 MODULE-2 SECURITY**
+            
+            - I'm making a guide to achieve Best Practices & Security to our Cisco Layer 2 devices here _(I still need to update the info)_:
 
 
 
