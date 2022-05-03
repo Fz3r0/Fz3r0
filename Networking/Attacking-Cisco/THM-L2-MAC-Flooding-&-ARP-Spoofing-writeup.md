@@ -264,7 +264,7 @@
     - If it still won't work, give it one last try with a capture duration of one minute.
     - As the measure of last resort, try using ettercap (introduced in the following tasks) with the `rand_flood` plugin:
 
-        - `ettercap -T -i eth1 -P rand_flood -q -w /tmp/tcpdump3.pcap (Quit with q)`
+        - `ettercap -T -i eth1 -P rand_flood -q -w /tmp/tcpdump3.pcap` _(Quit with q)_
 
 - It worked for me at first try without problems...just try to start and end both commands at same time, because `macof` will spam MACs and we are trying to trick some broadcasts, we need to capture with just at same time we are performing the `tcpdump`. Anyways, here's how is performed with `ettercap`:
 
