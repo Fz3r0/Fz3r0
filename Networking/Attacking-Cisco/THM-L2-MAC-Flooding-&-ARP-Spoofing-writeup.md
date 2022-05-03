@@ -423,8 +423,6 @@ You will intercept and visualize all the traffic for 10.0.0.1.
 
 - I could not find anything interesting here, but at least I have noticed a different behaivor betweeen ARP MITM and ICMP MITM. 
 
----
-
 <!--
 - bob
 
@@ -441,7 +439,6 @@ You will intercept and visualize all the traffic for 10.0.0.1.
 - OK! so... at this point, if we use bob IP we get the same ICMP 666 size as the first task.
 
 - Those are the "whispers" between bob and eve.  
-
 
 - alice 
 
@@ -461,7 +458,21 @@ You will intercept and visualize all the traffic for 10.0.0.1.
 
 ---
 
+### Man-in-the-Middle: Sniffing
 
+- _We have just started another VM, so I refreshed the variable $ip_target_
+
+- In this somewhat altered scenario, Alice and Bob are running a different OS (Ubuntu) with its default ARP implementation and no protective controls on their machines. 
+
+- As in the previous task, we need to try to establish a MITM using ettercap and see if Ubuntu (by default) is falling prey to it.
+
+    - OK, let's start from the beginning, we will do the next tasks:
+
+        1. Network Discovery
+
+1. Network Discovery:
+
+    - Just as we did on Discovery phase on the other machine, I will use NMap to scan the new Network:
 
 
 
