@@ -258,7 +258,17 @@
     - `scp admin@$ip_target:/tmp/tcpdump2.pcap .` 
 
 ![image](https://user-images.githubusercontent.com/94720207/166394524-aa7e5cad-0ff3-449b-84e1-7e4e5b27d42b.png)
- 
+
+- Note: If it didn't work, try to capture for 30 seconds, again (while macof is running).
+
+    - If it still won't work, give it one last try with a capture duration of one minute.
+    - As the measure of last resort, try using ettercap (introduced in the following tasks) with the `rand_flood` plugin:
+
+        - `ettercap -T -i eth1 -P rand_flood -q -w /tmp/tcpdump3.pcap (Quit with q)`
+
+- It worked for me at first try without problems...just try to start and end both commands at same time, because `macof` will spam MACs and we are trying to trick some broadcasts, we need to capture with just at same time we are performing the `tcpdump`. Anyways, here's how is performed with `ettercap`:
+
+-   
  
 
 
