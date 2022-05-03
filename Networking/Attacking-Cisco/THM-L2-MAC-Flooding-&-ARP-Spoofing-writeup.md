@@ -567,7 +567,15 @@ You will intercept and visualize all the traffic for 10.0.0.1.
 - Now, let's break the command we did on `ettercap`:
 
     - `ettercap -T -i eth1 -M arp` 
-
+| Instruction       | Result                       |
+|:-----------------:|:----------------------------:|
+| `ettercap`        | launch ettercap            
+| `-T`              |
+| `-i eth1`         | Using Interface Ethernet1      
+| `-M arp`          | Mode ARP -         
+        
+        
+        
 - "Normal" LAN behavior:
 
 ![image](https://user-images.githubusercontent.com/94720207/166515214-25327df5-abd1-4060-9523-c4769544aba3.png)
