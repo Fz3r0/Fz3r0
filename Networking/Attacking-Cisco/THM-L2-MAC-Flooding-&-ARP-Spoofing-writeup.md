@@ -900,8 +900,11 @@ if (ip.proto == TCP && tcp.src == 4444 && search(DATA.data, "whoami") ) {
         - ![image](https://user-images.githubusercontent.com/94720207/166817277-6cc75c81-01e7-4c18-90fd-a6c36ba3aafd.png) 
         - ![image](https://user-images.githubusercontent.com/94720207/166817123-d6de9a28-272f-4bcd-9f3e-1f721c83a7c0.png)
 
+- And that's all! we did it! **We gained a root shell to bob server tampering the packets inserting our payload which has been executed in bob's server, then we catched it with netcat**, we also did the same with the cat command. 
+
 ### How it worked?!
 
+- This is just one step more after the MITM Attack using ARP Posing that we reviewed on last task, we already performed the attack
 
 
 ---
