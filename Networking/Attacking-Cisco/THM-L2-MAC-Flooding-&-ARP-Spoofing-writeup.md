@@ -55,7 +55,7 @@
         
 - **Login & Root:**
 
-![image](https://user-images.githubusercontent.com/94720207/166289827-3062f316-1057-4f90-9dd9-ce03cf603571.png)
+![image](https://user-images.githubusercontent.com/94720207/166800191-fc9513dc-5d14-4e2e-b3ba-d09d3d46f41e.png)
 ![image](https://user-images.githubusercontent.com/94720207/166290085-b08e918d-f03a-4f26-99e4-a415b0e373c0.png)
 
 - **OK...let's keep going...**
