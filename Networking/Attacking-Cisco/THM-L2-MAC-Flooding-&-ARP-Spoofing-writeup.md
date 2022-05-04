@@ -918,9 +918,11 @@ if (ip.proto == TCP && tcp.src == 4444 && search(DATA.data, "whoami") ) {
 
 ### Conclusions & Proof of Concept
 
-- And that's how we performed an:
+- 
 
-    -  **MITM attack using ARP Poisoning to Spoof the MAC Addresses of the Hosts within the Subnet, then we tampered a packet to send a Payload with a Reverse Shell within, gaining Root Privileges in Bob Server**
+- And here's how we performed an:
+
+    -  **MITM attack using ARP Poisoning & Spoofing the MAC Addresses of the Hosts within the "Subnet-A", then we tampered a TCP packet to send a Payload with a Reverse Shell, gaining Root Privileges in Bob Server, pivoting from Eve Workstation (Subnet-A) which was already compromised from our Attacker Machine (Subnet-B)**
 
 ---
 
