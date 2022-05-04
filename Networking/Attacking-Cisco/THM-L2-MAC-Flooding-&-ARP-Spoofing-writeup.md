@@ -728,7 +728,21 @@ Internet Address    Physical Address
 
 - So, let's advance our ongoing **ARP poisoning attack** into a > `fully-fledged MITM` that includes > `packet manipulation`! As Alice's packets pass through your attacker machine (`eve`), we can tamper_(modify the script, code, data)_ with them.
 
-- 
+- How can we go about doing this? Ettercap comes with an `-F` option that allows you to **apply filters in the form of specified etterfilter.ef** files for the session. 
+    
+    - These .ef files, however, have to be compiled from etterfilter source filter files (.ecf) first. 
+    
+    - Their source code syntax is **similar to `C code`**.  
+    
+    - **We will assume it won't matter if Alice detects our manipulation activities. For the sake of this room, we are only going to manipulate her commands and won't be taking any OPSEC precautions.**
+
+- Which brave command of hers should volunteer for our audacious endeavor? How about… yes, `whoami`, of course!
+
+    - Before you copy and paste the filter below, it's best to understand the etterfilter command and its source file syntax: 
+    
+        - http://linux.die.net/man/8/etterfilter
+        
+        
 
 ---
 
