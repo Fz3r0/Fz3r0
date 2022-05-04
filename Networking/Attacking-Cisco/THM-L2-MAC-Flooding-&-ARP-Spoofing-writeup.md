@@ -686,11 +686,14 @@ Internet Address    Physical Address
 
 ```
         
-- "Normal" LAN behavior:
+- "Normal" Subnet/LAN behavior:
 
 ![image](https://user-images.githubusercontent.com/94720207/166569305-5f4ad3fb-8129-443b-9a2a-03cfee4d9c49.png)
 
-- "MAC Spoofing" scenario on a LAN:
+- ARP Poisoning Attack, Spoofing the MAC Address of all hosts within the Subnet:
+
+![image](https://user-images.githubusercontent.com/94720207/166614633-3c89828e-9b1e-46fb-a9b3-3eff9ed5d5a0.png)
+
 
 ![image](https://user-images.githubusercontent.com/94720207/166572221-f2a383ea-323f-4bd8-b7b4-dfd27a80df90.png)
 
