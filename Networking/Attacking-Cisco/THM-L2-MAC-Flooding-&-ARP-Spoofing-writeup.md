@@ -153,7 +153,7 @@
 
 - So, we will sniff on ETH1 as shown in the diagram:
 
-![image](https://user-images.githubusercontent.com/94720207/166329870-6b0ff09a-56d9-4a11-93c4-afa87ef0c2f1.png)
+![image](https://user-images.githubusercontent.com/94720207/166613478-3f4fa9c2-044a-40ff-b4f0-a35de72ccbbc.png)
 
 - Let's try running tcpdump on the eth1 network interface:
 
