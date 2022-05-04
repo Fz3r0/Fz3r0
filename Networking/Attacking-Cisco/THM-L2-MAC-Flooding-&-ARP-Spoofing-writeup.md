@@ -804,6 +804,14 @@ if (ip.proto == TCP && tcp.src == 4444 && search(DATA.data, "whoami") ) {
 
 ```
 
+- Note: Quotation marks need to be [escaped](https://linux.die.net/abs-guide/escapingsection.html). 
+
+- So, in case you want your filter to replace e.g. `whoami` with `echo -e "whoami\nroot"`, then the quotation marks around `whoami\nroot` would have to be escaped like this: 
+
+    - `replace("whoami", "echo -e \"whoami\nroot\" " )`
+
+- **The following is an example `reverse shell` in `Golang` with quotation marks already escaped:**
+
 ---
 
 ![giphy](https://user-images.githubusercontent.com/94720207/166587250-292d9a9f-e590-4c25-a678-d457e2268e85.gif)
