@@ -860,6 +860,8 @@ if (ip.proto == TCP && tcp.src == 4444 && search(DATA.data, "whoami") ) {
     
         - `ufw disable`
         
+        - `ufw status verbose` 
+        
         - ![image](https://user-images.githubusercontent.com/94720207/166804853-62231d5f-4939-49fe-8638-7841df783308.png)
  
     - Now, run ettercap specifying your newly created etterfilter file:
