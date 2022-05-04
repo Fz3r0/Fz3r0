@@ -290,8 +290,7 @@
 
 - ARP attack
 
-
-![image](https://user-images.githubusercontent.com/94720207/166399966-e3b6c77b-473c-44ee-bb1d-70d767817bee.png)
+![image](https://user-images.githubusercontent.com/94720207/166605388-88fc9c07-dadd-4bfd-932c-31dc70bc774a.png)
 
 - Maybe is not that "crazy" as those lines, but you can understand better the attack now! [The reality is that we just made the `switch` "go crazy" and start working as a `hub` due to evermwhelming spam of MAC address inside the CAM table of the switch](/Networking/Attacking-Cisco/THM-L2-MAC-Flooding-&-ARP-Spoofing-writeup.md#ive-found-in-my-old-write-ups-of-networking-something-very-useful-for-the-next-tasks-and-this-room-in-general-it-talks-about-layer-2-types-of-comunication-and-how-devices-like-switches-and-hubs-at-layer-2-creates-broadcast-and-collision-domains-also-how-layer-2-devices-uses-mac-addresses-to-identify-who-is-every-host-inside-the-lan)
 
