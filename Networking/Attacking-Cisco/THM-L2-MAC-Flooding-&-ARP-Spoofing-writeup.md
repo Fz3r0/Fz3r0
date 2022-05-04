@@ -893,11 +893,16 @@ if (ip.proto == TCP && tcp.src == 4444 && search(DATA.data, "whoami") ) {
 
 ```
 
-![image](https://user-images.githubusercontent.com/94720207/166815967-156fae60-d57e-4677-beed-5b651bd851b7.png)
+-  ![image](https://user-images.githubusercontent.com/94720207/166815967-156fae60-d57e-4677-beed-5b651bd851b7.png)
 
-- **File read with Root Permisions:**
+    - **File read with Root Permisions:**
 
-- 
+        - ![image](https://user-images.githubusercontent.com/94720207/166817277-6cc75c81-01e7-4c18-90fd-a6c36ba3aafd.png) 
+        - ![image](https://user-images.githubusercontent.com/94720207/166817123-d6de9a28-272f-4bcd-9f3e-1f721c83a7c0.png)
+
+- And that's how we performed an:
+
+    -  **`MITM attack using ARP Poisoning to Spoof the MAC Addresses of the Hosts within the Subnet, then we tampered a packet to send a Payload with a Reverse Shell within, gaining Root Privileges in Bob Server`**
 
 ---
 
