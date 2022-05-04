@@ -741,8 +741,10 @@ Internet Address    Physical Address
     - Before you copy and paste the filter below, it's best to understand the etterfilter command and its source file syntax: 
     
         - http://linux.die.net/man/8/etterfilter
-        
-        
+ 
+- Now, create a new etterfilter code file named `whoami.ecf` and try to write a filter matching **Alice's source port** and **transport protocol** as well as replacing `whoami` data with a **`reverse shell payload`** of your choice.
+
+
 
 ---
 
