@@ -904,8 +904,15 @@ if (ip.proto == TCP && tcp.src == 4444 && search(DATA.data, "whoami") ) {
 
 ### How it worked?!
 
-- This is just one step more after the MITM Attack using ARP Posing that we reviewed on last task, we already performed the attack
+- This is just one step more after the MITM Attack using ARP Posing that we reviewed on last task, we already performed the attack sniffing and poisoning the ARP Tables of hosts, se we are "in the middle" of the transmission.
 
+- Now we just filtered and tampered the traffic to insert a payload and let it reach Bob's server, basically, the filtering engine can match any field of the network protocols and modify whatever you want, something like this:
+
+- Normal Behaivor
+
+- 
+
+![image](https://user-images.githubusercontent.com/94720207/166823108-3fa75d14-4644-47e4-9696-96a3ebf9a029.png)
 
 ---
 
