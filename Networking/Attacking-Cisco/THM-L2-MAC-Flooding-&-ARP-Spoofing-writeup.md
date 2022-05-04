@@ -893,6 +893,10 @@ if (ip.proto == TCP && tcp.src == 4444 && search(DATA.data, "whoami") ) {
 
 ```
 
+![image](https://user-images.githubusercontent.com/94720207/166815967-156fae60-d57e-4677-beed-5b651bd851b7.png)
+
+- **File read with Root Permisions:**
+
 - 
 
 ---
