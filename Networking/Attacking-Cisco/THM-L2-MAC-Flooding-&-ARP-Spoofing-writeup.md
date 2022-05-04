@@ -827,8 +827,11 @@ if (ip.proto == TCP && tcp.src == 4444 && search(DATA.data, "whoami") ) {
     msg("###### ETTERFILTER: Fz3r0 substituted a HAPPY COMMAND >'whoami'< with an EVIL PAYLOAD >'reverse rhell'<). ######\n");
 }
 
-
 ```
+
+- Finally, we need to compile the `.ecf` into an `.ef` file:
+
+    - `etterfilter whoami.ecf -o whoami.ef `
 
 ---
 
