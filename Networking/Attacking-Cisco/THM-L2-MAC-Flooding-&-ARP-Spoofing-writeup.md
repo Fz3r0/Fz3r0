@@ -742,6 +742,60 @@ Internet Address    Physical Address
     
         - http://linux.die.net/man/8/etterfilter
  
+```
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+Synopsis
+
+etterfilter [OPTIONS] FILE
+
+Description
+
+* The etterfilter utility is used to compile **source filter files into binary filter files** that can be interpreted by the **JIT** interpreter in the ettercap(8) filter engine. 
+
+* You have to compile your filter scripts in order to use them in ettercap. 
+
+* All syntax/parse errors will be checked at compile time, so you will be sure to produce a correct binary filter for ettercap.
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+GENERAL OPTIONS
+
+-o, --output <FILE>
+you can specify the output file for a source filter file. By default the output is filter.ef.
+
+-t, --test <FILE>
+you can analyze a compiled filter file with this option. etterfilter will print in a human readable form all the instructions contained in it. It is a sort of "disassembler" for binary filter files.
+
+-d, --debug
+prints some debug messages during the compilation. Use it more than once to increase the debug level ( etterfilter -ddd ... ).
+
+-w, --suppress-warnings
+Don't exit on warnings. With this option the compiler will compile the script even if it contains warnings.
+
+STANDARD OPTIONS
+
+-v, --version
+Print the version and exit.
+-h, --help
+prints the help screen with a short summary of the available options.
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+                        (For syntax & functions visit the mac page:  (http://linux.die.net/man/8/etterfilter)
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+```
+
+- Now, create a new **etterfilter code file** named `whoami.ecf` and try to **write a filter matching Alice's source port and transport protocol** as well as **replacing whoami data with a reverse shell payload** of your choice.
+
+- 
+
+
+
+```
+
 - Now, create a new etterfilter code file named `whoami.ecf` and try to write a filter matching **Alice's source port** and **transport protocol** as well as replacing `whoami` data with a **`reverse shell payload`** of your choice.
 
 
