@@ -720,6 +720,18 @@ Internet Address    Physical Address
 
 ---
 
+### Man-in-the-Middle: Manipulation
+
+- As a pentester, your first approach would be to **try to hack `Bob's` web server**. 
+
+- For the purpose of this room, let's assume it's impossible. Also, capturing basic auth credentials won't help for password reuse or similar attacks.
+
+- So, let's advance our ongoing **ARP poisoning attack** into a > `fully-fledged MITM` that includes > `packet manipulation`! As Alice's packets pass through your attacker machine (`eve`), we can tamper_(modify the script, code, data)_ with them.
+
+- 
+
+---
+
 ![giphy](https://user-images.githubusercontent.com/94720207/166587250-292d9a9f-e590-4c25-a678-d457e2268e85.gif)
 
 
