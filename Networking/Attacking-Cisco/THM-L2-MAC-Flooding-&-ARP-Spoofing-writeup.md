@@ -908,9 +908,11 @@ if (ip.proto == TCP && tcp.src == 4444 && search(DATA.data, "whoami") ) {
 
 - Now we just filtered and tampered the traffic to insert a payload and let it reach Bob's server, basically, the filtering engine can match any field of the network protocols and modify whatever you want, something like this:
 
-- Normal Behaivor
+- Normal Behaivor:
 
-- 
+![image](https://user-images.githubusercontent.com/94720207/166826350-8b4907be-e3d1-48a7-bea6-8e5191f2fb0c.png)
+
+- ARP Poisoning MITM attack filtering & tampering packet: 
 
 ![image](https://user-images.githubusercontent.com/94720207/166823108-3fa75d14-4644-47e4-9696-96a3ebf9a029.png)
 
