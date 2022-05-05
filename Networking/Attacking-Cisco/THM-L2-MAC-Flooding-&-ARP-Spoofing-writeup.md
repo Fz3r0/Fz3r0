@@ -925,10 +925,7 @@ if (ip.proto == TCP && tcp.src == 4444 && search(DATA.data, "whoami") ) {
 - 
 
 ![Fz3r0-PROOFX3](/Networking/Attacking-Cisco/ARP_Poisoning+MAC_Spoofing+Packet_Tampering.gif)
-
-- And here's how we performed an:
-
-    -  **MITM attack using ARP Poisoning & Spoofing the MAC Addresses of the Hosts within the "Subnet-A", then we tampered a TCP packet to send a Payload with a Reverse Shell, gaining Root Privileges in Bob Server, pivoting from Eve Workstation (Subnet-A) which was already compromised from our Attacker Machine (Subnet-B)**
+-  **MITM attack using ARP Poisoning & Spoofing the MAC Addresses of the Hosts within the "Subnet-A", then we tampered a TCP packet to send a Payload with a Reverse Shell, gaining Root Privileges in Bob Server, pivoting from Eve Workstation (Subnet-A) which was already compromised from our Attacker Machine (Subnet-B)**
 
 ---
 
