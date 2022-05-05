@@ -79,7 +79,7 @@
 
 - I will scan the subnet 192.168.12.0/24 with `nmap` to search for some hosts.
 
-<span align="center"> <p align="center"> ![image](https://user-images.githubusercontent.com/94720207/166609555-b75b318c-b7e5-4cc1-bcd3-10f23a16602c.png) </p> </span>
+<span align="center"> <p align="center"> ![image](https://user-images.githubusercontent.com/94720207/167043123-7eacd1ed-a3cd-40b4-91f4-098ffb14593d.png) </p> </span>
 
 1. First, have a look at the adapter:
 
