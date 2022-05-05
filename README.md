@@ -190,11 +190,14 @@
 
 -->    
  
-<span align="center"> <h1 align="center"> INDEX </h3> </span>   
+<span align="center"> <h3 align="center"> INDEX </h3> </span>   
     
-- [About] 
-    - [Who am I?](/Networking/Labs/) 
-    - [Contact](/Networking/Labs/)
+### About 
+
+- [Who am I?](/Networking/Labs/) 
+- [Contact](/Networking/Labs/)
+- [Licence](/Networking/Labs/)
+- [Disclaimer](/Networking/Labs/)
   
 <!--
 
@@ -204,9 +207,9 @@
 
 -->    
 
-<span align="center"> <h3 align="center"> NETWORKING </h3> </span> 
+### Networking 
   
-- **[Fz3r0](https://github.com/Fz3r0/)'s - Dark Wizardy for Networking & NetSec** Tables, Models, Cheat-Sheets, Mind-maps & Resources 
+- **Fz3r0 >> Dark Wizardy for Networking & NetSec:** Tables, Models, Cheat-Sheets, Mind-Maps & Resources 
     - [TCP-IP Hybrid Model by Fz3r0 (TCP+OSI)](/Networking/Knowledge/Tables-Models-Cheatsheets/Tables-Models/TCP-IP-Model-fz3r0_Hybrid.md) _A model I made with love for TCP-IP/OSI, all in one! :)_
     - [Reserved IPv4 & IPv6 Addresses by Fz3r0](/Networking/Knowledge/Tables-Models-Cheatsheets/Tables-Models/reserved_ip_fz3r0.md)
     - [Cisco Newtorks Routing & Switching CLI/IOS Bible by Fz3r0](/Networking/Labs/) _My CCNA+CCNP Pocket Bible_
@@ -216,15 +219,15 @@
     - [all commands ios](https://itexamanswers.net/cisco-ios-commands-help-ccna-commands-cheat-sheet.html)
 
 
-- [Fz3r0 - **Configure it Like a Sir!** _series (Pro and Secure Network Configurations Guides made by me)_
+- **Fz3r0 >> Configure it Like a Sir!** Pro and Secure Network Configurations Guides made by me _(Protocols & Techs)_
     - [Configurar **VLANs** de Noob a Pro! _En Español_](/Networking/Knowledge/VLANS_full!.png)
     - [Configure **Spaning Tree Protocol** like a Sir **(STP, RSTP+, PVSTP & R-PVSTP)**](/Networking/Knowledge/STP-for-dummies.md)
     - [Configure **Ether-Channel** like a sir **(Etherport, PAgP, LACL, Static)** | STP)](/Networking/Knowledge/EtherChannel-like-a-sir.md)
-   - [Configure **DHCPv4** like a Sir **(DHCPv4, Client, Server, Cisco Router, Home Router)**](/Networking/Knowledge/DHCPv4-like-a-sir.md)
+    - [Configure **DHCPv4** like a Sir **(DHCPv4, Client, Server, Cisco Router, Home Router)**](/Networking/Knowledge/DHCPv4-like-a-sir.md)
  
-- [Secure Network Labs by @ Fz3r0]
-    - Lab f0 > [Pro Configs @ Best Practices, Security Standards & SSH Logins](/Networking/Labs/SSH-Minimum-Requeriments-for-Cisco.md) _For any Cisco device (IOS)_
-    - Lab f0 > [Pro Configs @ Best Practices & Security Standards for Switchports & Interfaces](/Networking/Labs/Full-Interface-Port_Configuration.md)
+- **Fz3r0 >> Secure Network Labs by @ Fz3r0
+    - Lab f0 > 
+
     - Lab 01 > [Secure Home Network + Internet to Home (FTTH) Simulation](/Networking/Labs/Router-on-a-Stick.md) _Packet Tracer_
     - Lab 02 > [Secure InterVLAN Routing: Router on a Stick](/Networking/Labs/Router-on-a-Stick.md) _Packet Tracer_
     - Lab 03 > [Secure InterVLAN Routing: Switch Virtual Interface SVI](/Networking/Labs/Switch-Virtual-Interface-SVI.md) _Packet Tracer_ 
@@ -240,11 +243,13 @@
     - [Find & Troubleshoot **Access Layer Issues**, **Output & Input Errors** {Runt, Giants, CRC, Collisions} (**show interface**)](/Networking/Knowledge/Troubleshooting/Output_&_Input-Errors-show-interfaces.md) _Find and repair shitty errors in the transmission_
     - [Cut-Throught & Store-and-forward Switching](https://user-images.githubusercontent.com/94720207/164997743-d42dbae9-edb4-4f83-ae44-16cb5eab2fd4.png) _Spoiler-alert: Store-and-Forward for the win! Checksum FTW_
     - [Fixing **Kali VM Bridge Network** [VMware] (GNS3 + Hacking Labs = ETH kaput!)](/Networking/Knowledge/Troubleshooting/Kali-Bridge-Issue-ETH.md) _Easy fix to the bridge VMware incidence_
-
-
  
-### Attacking Network Infraestructure
+### Attacking & Defending Network Infraestructure
  
+- Security & Best Practices configurations for Cisco Devices & IOS
+    - [Pro Configs @ Best Practices, Security Standards & SSH Logins](/Networking/Labs/SSH-Minimum-Requeriments-for-Cisco.md) _For any Cisco device (IOS)_ 
+    - [Pro Configs @ Best Practices & Security Standards for Switchports & Interfaces](/Networking/Labs/Full-Interface-Port_Configuration.md)
+
 - Layer 2 Attacks
     - [Attacking & Defending Layer 2 - MAC Flooding/CAM Overflow | Man-In-The-Middle (MITM) > ARP Poisoning + MAC Spoofing + TCP Packet Tamper | Pivot + PrivEsc](/Networking/Attacking-Cisco/THM-L2-MAC-Flooding-&-ARP-Spoofing-writeup.md) _A writeup and project I made comprompising a Switched Network using the machine "l2macof_v11" from THM_  
     - VLAN Attack - Double Tagging
