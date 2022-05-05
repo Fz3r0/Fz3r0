@@ -72,17 +72,20 @@
 
     -  **I will call the different Subnets/Networks as:**
     
-    -  **Broadcast Domain 1 : `192.168.12.0/24`**
-    -  **Broadcast Domain 2 : `10.x.x.0`**
+        -  **Broadcast Domain 1 : `192.168.12.0/24`**
+        -  **Broadcast Domain 2 : `10.x.x.0`**
+
+- We have already managed to breach host `eve`, and I can "see" both Broadcast Domains from there. 
+
+- I will scan the subnet 192.168.12.0/24 with `nmap` to search for some hosts.
 
 <span align="center"> <p align="center"> ![image](https://user-images.githubusercontent.com/94720207/166609555-b75b318c-b7e5-4cc1-bcd3-10f23a16602c.png) </p> </span>
-
 
 1. First, have a look at the adapter:
 
     - `ip address show eth1` or the shorthand version: `ip a s eth1`
 
-![image](https://user-images.githubusercontent.com/94720207/166290765-190266f9-0234-40ae-ad23-2bab0a5af312.png)
+        - ![image](https://user-images.githubusercontent.com/94720207/166290765-190266f9-0234-40ae-ad23-2bab0a5af312.png)
 
 2. Now I will scan the Network using NMap to discover more hosts _(It's supposed that I don't know the topology at this point, so let's just rol play...)._
 
