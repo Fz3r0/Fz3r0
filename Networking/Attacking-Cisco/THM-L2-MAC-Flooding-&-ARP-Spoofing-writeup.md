@@ -149,7 +149,7 @@
     
     - ![image](https://user-images.githubusercontent.com/94720207/166314835-1c7304f1-b55c-4ed9-af1f-00cc98d2a0e4.png)
 
-- I tried different commands and flags for `nmap` to scan both hosts, but I found nothing.
+- I've tried different commands and flags for `nmap` to scan both hosts, but I found nothing.
 
     - However, **we know the design of the `physical and logical topology` of the Network, and we can try to `sniff` into the new `broadcast domain` that we have discovered.**
 
@@ -167,17 +167,13 @@
 
 - As you can see, from `eve` we can _"see"_ 2 different `Broadcast Domains` for 2 different LANs/Subnets, 
 
-### I've found in my old write ups of Networking something very useful for the next tasks and this room in general, it talks about Layer 2 types of comunication and how devices like Switches and Hubs at Layer 2 creates Broadcast and Collision Domains, also how Layer 2 devices uses MAC Addresses to identify who is every host inside the LAN:
+### I've found in my old write ups of Networking something very useful for the next tasks and this room in general. It talks about Layer 2 types of comunication & how devices like Switches & Hubs at Layer 2 creates Broadcast and Collision Domains. Also, how Layer 2 devices uses MAC Addresses to identify who is every host within the LAN:
 
 <span align="center"> <p align="center"> ![image](https://user-images.githubusercontent.com/94720207/166326956-69553eaf-4a36-4494-9f37-9e19753ed742.png) </p> </span>
 
 <span align="center"> <p align="center"> ![image](https://user-images.githubusercontent.com/94720207/166402151-e29d22e6-c954-4e1d-a012-41c016e35b0c.png) </p> </span>
-
-
-
-- _(I promise that I will upload more of my networking writeups to my github, I have some good stuff! :D)_ 
     
-    - Here's the deal! We can "hear" any broadcast sent inside the network 192.168.12.0 or if there's someone trying to connect with us `eve`: 
+- Here's the deal! **We can _"hear"_ any `broadcast` sent _"inside"_ the network `192.168.12.0` or if there's someone trying to connect with us `eve`:** 
         
         - Imagine we are inside a "room", if someone scream everyone inside will hear that person, including us. That's `broadcast`
     
