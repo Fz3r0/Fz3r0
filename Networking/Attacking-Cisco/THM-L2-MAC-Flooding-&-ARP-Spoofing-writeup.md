@@ -132,20 +132,18 @@
             - I took the liberty of reviewing the Lab that the author has shared **(thank to you sir!)**, in this case a generic GNS3 Switch is being used (not an IOS image of a Cisco Switch for example).
         
             - The L2 Switch **DO NOT HAVE** any security configuration, it's just switching the LAN  
-        
-            - **NOTE:** _Don't let your eyes fool you when you see those "telnet" protocols, we will NOT sniff plain text in this room, it's part of the GNS3 Lab._
-        
+                
             - Anyway! I will scan now the other 2 Hosts I discovered: 
 
 2. **Host: `alice` (192.168.12.1) MAC Address: 00:50:79:66:68:00** (Private)
 
     - `nmap -sV -sC -Pn -T4 -n -p- 192.168.12.1 -o 1___recon_nmap_ALLPORTS_LAYER2_attack.txt`
 
-    - ![image](https://user-images.githubusercontent.com/94720207/166314063-f84ab825-a76f-4de8-acd6-95d2f79a5946.png)
+        - ![image](https://user-images.githubusercontent.com/94720207/166314063-f84ab825-a76f-4de8-acd6-95d2f79a5946.png)
 
 3. **Host: `bob` (192.168.12.2) MAC Address: 00:50:79:66:68:01** (Private)
 
-    - `nmap -sV -sC -Pn -T4 -n -p- 192.168.12.2 -o 1___recon_nmap_ALLPORTS_LAYER2_attack.txt`
+        - `nmap -sV -sC -Pn -T4 -n -p- 192.168.12.2 -o 1___recon_nmap_ALLPORTS_LAYER2_attack.txt`
     
     - ![image](https://user-images.githubusercontent.com/94720207/166314835-1c7304f1-b55c-4ed9-af1f-00cc98d2a0e4.png)
 
@@ -204,23 +202,23 @@
 
     - `tcpdump -A -i eth1`
 
-![image](https://user-images.githubusercontent.com/94720207/166315229-f1f193e1-10d0-44a4-be99-074d354502cc.png)
+        - ![image](https://user-images.githubusercontent.com/94720207/166315229-f1f193e1-10d0-44a4-be99-074d354502cc.png)
 
 - **Now, let's take a closer look at the captured packets! We can redirect them into a pcap file providing a destination file via the `-w` argument:**
 
     - `tcpdump -A -i eth1 -w /tmp/tcpdump.pcap`
 
-![image](https://user-images.githubusercontent.com/94720207/166315748-7d74eb1b-cd7e-4a01-8658-c836198bb91b.png)
+        - ![image](https://user-images.githubusercontent.com/94720207/166315748-7d74eb1b-cd7e-4a01-8658-c836198bb91b.png)
 
-- Capture traffic for about a minute, then transfer the pcap to either your machine or the AttackBox to open it in `Wireshark`.
+- Capture traffic for about a minute, then transfer the `PCAP` to the Attacker Machine & open it in `Wireshark`.
 
-![image](https://user-images.githubusercontent.com/94720207/166316424-4a33587f-97d7-45fa-8434-972f41085fa8.png)
+    - ![image](https://user-images.githubusercontent.com/94720207/166316424-4a33587f-97d7-45fa-8434-972f41085fa8.png)
 
-- I will use SCP to transfer the file but it could be done in many ways, mounting a python HTTP server is another easy way.
+- I will use `SCP` to transfer the file, but it could be done in many ways. _(mounting a python HTTP server is another easy way)_.
     
-    - SCP - `scp admin@$ip_target:/tmp/Fz3r0_NetSec_PCap1.pcap .` 
+    - `scp admin@$ip_target:/tmp/Fz3r0_NetSec_PCap1.pcap .` 
 
-![image](https://user-images.githubusercontent.com/94720207/166317931-def6931f-c8b3-488e-8f8b-7031236c330e.png)
+        - ![image](https://user-images.githubusercontent.com/94720207/166317931-def6931f-c8b3-488e-8f8b-7031236c330e.png)
 
 - `Wireshark` PCAP:
 
