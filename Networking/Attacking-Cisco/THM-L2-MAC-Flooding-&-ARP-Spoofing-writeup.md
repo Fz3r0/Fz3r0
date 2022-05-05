@@ -119,51 +119,61 @@
 
 1. First, I will scan "myself" `eve` (the machine where I logon with ssh & "gained" root privileges, it's supposed that we already have compromised that machine... but I don't know where i'm steping up, so!)
 
+    - `nmap -sV -sC -Pn -T4 -n -p- 192.168.12.66 -o 1___recon_nmap_ALLPORTS_LAYER2_attack.txt`
+
     - ![image](https://user-images.githubusercontent.com/94720207/166293441-32e43138-a1b4-41b3-9bd8-667747c6dbf8.png)
 
         - There are some open ports in `eve`: 
         
-        - It's actually a very beautiful & clever setup of a `GNS3` lab. Where different devices such as a `Layer 2 Switch` and some hosts are simulated and/or virtualized, so we can experiment with it.
+            - Those ports are actually a very beautiful & clever setup of a `GNS3` lab. Where different devices such as a `Layer 2 Switch` and some hosts are simulated and/or virtualized, so we can experiment with it.
 
-        - _During the lab, the machine changes its setup and we must start a new virtual machine, which has the hosts configured differently._
+            - _During the lab, the machine changes its setup and we must start a new virtual machine, which has the hosts configured differently._
 
-        - I took the liberty of reviewing the Lab that the author has shared **(thank to you sir!)**, in this case a generic GNS3 Switch is being used (not an IOS image of a Cisco Switch for example).
+            - I took the liberty of reviewing the Lab that the author has shared **(thank to you sir!)**, in this case a generic GNS3 Switch is being used (not an IOS image of a Cisco Switch for example).
         
-        - The L2 Switch **DO NOT HAVE** any security configuration, it's just switching the LAN  
+            - The L2 Switch **DO NOT HAVE** any security configuration, it's just switching the LAN  
         
-        - NOTE: Don't let your eyes fool you when you see those "telnet" protocols, we will NOT sniff plain text in this room, it's part of the GNS3 Lab.
+            - **NOTE:** _Don't let your eyes fool you when you see those "telnet" protocols, we will NOT sniff plain text in this room, it's part of the GNS3 Lab._
         
-        - Anyway! I will scan now the other 2 Hosts I discover: 
+            - Anyway! I will scan now the other 2 Hosts I discovered: 
 
-2. Host: `alice` (192.168.12.1) MAC Address: 00:50:79:66:68:00 (Private)
+2. **Host: `alice` (192.168.12.1) MAC Address: 00:50:79:66:68:00** (Private)
+
+    - `nmap -sV -sC -Pn -T4 -n -p- 192.168.12.1 -o 1___recon_nmap_ALLPORTS_LAYER2_attack.txt`
 
     - ![image](https://user-images.githubusercontent.com/94720207/166314063-f84ab825-a76f-4de8-acd6-95d2f79a5946.png)
 
-3. Host: `bob` (192.168.12.2) MAC Address: 00:50:79:66:68:01 (Private)
+3. **Host: `bob` (192.168.12.2) MAC Address: 00:50:79:66:68:01** (Private)
 
+    - `nmap -sV -sC -Pn -T4 -n -p- 192.168.12.2 -o 1___recon_nmap_ALLPORTS_LAYER2_attack.txt`
+    
     - ![image](https://user-images.githubusercontent.com/94720207/166314835-1c7304f1-b55c-4ed9-af1f-00cc98d2a0e4.png)
 
-- I made different commands and flags for `nmap` and scan both hosts, but I found nothing.
+- I tried different commands and flags for `nmap` to scan both hosts, but I found nothing.
 
-    - However, **we know the `physical and logical topology` of the Network and we can try to `sniff` into the new `broadcast domain` that we have discovered.**
+    - However, **we know the design of the `physical and logical topology` of the Network, and we can try to `sniff` into the new `broadcast domain` that we have discovered.**
 
 ---
 
 ### Passive Network Sniffing
 
-- Simply scanning those hosts won't help us gather any useful information, and you may be asking, what could a pentester do in this situation? Depending on the rules of engagement and scope, you could try sniffing traffic on this network.
+- Simply scanning those hosts won't help us gather any useful information, and you may be asking, what could a pentester do in this situation? 
 
-- The diagram below describes your current situation where you are the Attacker and have persistent access to eve.
+- Depending on the rules of engagement and scope, you could try **`sniffing traffic on this network`**.
 
-![image](https://user-images.githubusercontent.com/94720207/166610614-eca095b9-24c8-4db6-b283-babd313eef87.png)
+    - The diagram below describes our current situation where **we are the `Attacker` and have persistent access to `eve`**.
 
-- As you can see, from `Eve` we can "see" 2 different Broadcast Domains for 2 different LANs, 
+        - ![image](https://user-images.githubusercontent.com/94720207/166610614-eca095b9-24c8-4db6-b283-babd313eef87.png)
+
+- As you can see, from `eve` we can _"see"_ 2 different `Broadcast Domains` for 2 different LANs/Subnets, 
 
 ### I've found in my old write ups of Networking something very useful for the next tasks and this room in general, it talks about Layer 2 types of comunication and how devices like Switches and Hubs at Layer 2 creates Broadcast and Collision Domains, also how Layer 2 devices uses MAC Addresses to identify who is every host inside the LAN:
 
-![image](https://user-images.githubusercontent.com/94720207/166326956-69553eaf-4a36-4494-9f37-9e19753ed742.png)
+<span align="center"> <p align="center"> ![image](https://user-images.githubusercontent.com/94720207/166326956-69553eaf-4a36-4494-9f37-9e19753ed742.png) </p> </span>
 
-![image](https://user-images.githubusercontent.com/94720207/166402151-e29d22e6-c954-4e1d-a012-41c016e35b0c.png)
+<span align="center"> <p align="center"> ![image](https://user-images.githubusercontent.com/94720207/166402151-e29d22e6-c954-4e1d-a012-41c016e35b0c.png) </p> </span>
+
+
 
 - _(I promise that I will upload more of my networking writeups to my github, I have some good stuff! :D)_ 
     
