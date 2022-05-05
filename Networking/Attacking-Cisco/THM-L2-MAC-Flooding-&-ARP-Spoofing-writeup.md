@@ -939,8 +939,7 @@ if (ip.proto == TCP && tcp.src == 4444 && search(DATA.data, "whoami") ) {
 &nbsp;
 
 <span align="center"> <p align="center"> _Don't forget to enjoy your days..._ </p> </span> 
-<span align="center"> <p align="center"> _Seeking for your own Sun..._ </p> </span> 
-<span align="center"> <p align="center"> _It is getting dark... so dark._ </p> </span> 
+<span align="center"> <p align="center"> _...It's getting dark... so dark._ </p> </span> 
 
 &nbsp;
 
