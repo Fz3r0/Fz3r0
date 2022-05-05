@@ -978,7 +978,7 @@ if (ip.proto == TCP && tcp.src == 4444 && search(DATA.data, "whoami") ) {
 
     -  `MITM attack` using `ARP Poisoning` for `Spoofing the MAC Addresses` of all Hosts within the "Subnet-A".
     -   Then, I intercepted Unicast traffic from Host-1 (`alice`) to Host-2 (`bob`) using the `spoofed MACs` to "disguse" as both hosts. 
-    -   Finally, I `tampered a TCP packet` sent by Host-1(`alice`) to send a `compiled Payload` that contains `Reverse Shell` to Host-2, gaining `Root Privileges` in `bob` Server, pivoting from `eve` Workstation (Subnet-A/Broadcast Domain 1) which was already compromised from our Attacker Machine (Subnet-B/Broadcast Domain 2)**
+    -   Finally, I `tampered a TCP packet` sent by Host-1(`alice`) to send a `compiled Payload` that contains `Reverse Shell` to Host-2, gaining `Root Privileges` in `bob` Server, pivoting from `eve` Workstation or `RHOST` (Subnet-A/Broadcast Domain 1) which was already compromised and had `persisnent access` from our `Attacker` Machine or `LHOST` (Subnet-B/Broadcast Domain 2)**
 
 ---
 
