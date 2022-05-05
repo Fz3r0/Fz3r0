@@ -188,9 +188,9 @@
 
         - **We CAN hear if `bob` or `alice` try to whisper with us `eve`**.
         
-        - **We CAN hear if `bob` or `alice` scream to everyone. 
+        - **We CAN hear if `bob` or `alice` scream to everyone.** 
 
-- So, we will sniff on ETH1 as shown in the diagram:
+- So, we will sniff on `eth1` as shown in the diagram:
 
     - ![image](https://user-images.githubusercontent.com/94720207/166613478-3f4fa9c2-044a-40ff-b4f0-a35de72ccbbc.png)
 
@@ -224,7 +224,7 @@
 
     - Note: If you receive an error _"tcpdump: /tmp/tcpdump.pcap: Permission denied"_ and cannot overwrite the existing /tmp/tcpdump.pcap file, specify a new filename such as `tcpdump2.pcap`, or run `rm -f /tmp/*.pcap` then re-run tcpdump. 
 
-![image](https://user-images.githubusercontent.com/94720207/166318386-720217fb-8bfc-4548-a5bb-1424e0c5409e.png)
+<span align="center"> <p align="center"> ![image](https://user-images.githubusercontent.com/94720207/166318386-720217fb-8bfc-4548-a5bb-1424e0c5409e.png) </p> </span>
 
 - This is a very easy PCAP to read, I captured a little bit more than 1 minute and I got just 68 packets.
 
