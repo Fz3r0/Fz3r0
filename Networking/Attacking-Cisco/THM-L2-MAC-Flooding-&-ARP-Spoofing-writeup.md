@@ -252,23 +252,31 @@
 
 - Unfortunately, we weren't able to capture any interesting traffic so far. However, we're not going to give up this easily! So, how can we capture more network traffic? As mentioned in the room description, we could try to launch a MAC flooding attack against the L2-Switch.
 
-    - **Beware: MAC flooding could trigger an alarm in a SOC. No, seriously, suspicious layer 2 traffic can easily be detected and reported by state-of-the-art and properly configured network devices.** 
-    - Even worse, your network port could even get blocked by the network device altogether, rendering your machine locked out of the network. 
-    - In case of production services running on or production traffic being routed through that network connection, **this could even result in an effective Denial-of-Service!**
+    - **Beware:** 
+    
+        - **MAC flooding could trigger an alarm in a SOC. No, seriously, suspicious `Layer 2 traffic` can easily be detected and reported by state-of-the-art and properly configured network devices.** 
+        
+        - Even worse, **your network `port` could even get blocked by the network device altogether, rendering your machine locked out of the network**. 
+    
+        - In case of production services running on or production traffic being routed through that network connection, **this could even result in an effective Denial-of-Service!**
 
-- However, if we're successful, the switch will resort to fail-open mode and temporarily operate similarly to a network hub – forwarding all received frames to every connected port (aside from the port the traffic originated from). 
+        - ![image](https://user-images.githubusercontent.com/94720207/166886881-7bdfda21-5c57-4592-9a28-438e5e5441fc.png)
+
+- However, if we're successful, the **`switch` will resort to fail-open mode and temporarily operate similarly to a network `hub` _(Remember those collisions & broadcast domains?)_**. 
+
+- If the `switch` start operating like a `hub`, **it will forward all received frames to every connected port (aside from the port the traffic originated from)**. 
 
 - This would allow an adversary or pentester to sniff the network traffic between other hosts that normally wouldn't be received by their device if the switch were functioning properly.
 
     - **Considering such an attack vector is only recommended when you have reasons to believe that:**
 
-        1. It is in fact a switched network (and not a virtual bridge) AND
+        1. It is in fact a **switched network** (and not a virtual bridge) AND
         
         2. The switch might be a consumer or prosumer (**unmanaged**) switch OR:
             
-        3. **The network admins haven't configured mitigations such as Dynamic ARP Inspection (DAI) for instance AND ARP and MAC spoofing attacks are explicitly permitted in the rules of engagement.**
+        3. **The network admins haven't configured mitigations such as `Dynamic ARP Inspection (DAI)` for instance AND `ARP` and `MAC spoofing` attacks are explicitly permitted in the rules of engagement.**
             
-            - **THAT'S WHY WE NEED TO CONFIGURE `DYNAMIC ARP INSPECTION (DAI)` IN OUR `CISCO SWITCHES`, JUST AS WE SAW IN CISCO CCNAV7 MODULE-2 SECURITY "LAYER 2 ATTACKS"**
+
             
             - I'm making a guide to achieve Best Practices & Security to our Cisco Layer 2 devices [here](https://github.com/Fz3r0/Fz3r0#-networking--1) _(I still need to update the info, meanwhile just google for Cisco DAI on IOS)_
 
@@ -335,7 +343,7 @@
 
 - **Mitigation** Configuring `Dynamic ARP Inspection (DAI)` on our Layer 2 Devices, for example Cisco Switches.**
     - ** Port Security is also another option configuring out switchport to only hold a max of 10 MAC on the CAM table**
-    
+    - Note: **THAT'S WHY WE NEED TO CONFIGURE `DYNAMIC ARP INSPECTION (DAI)` IN OUR `CISCO SWITCHES`, JUST AS WE SAW IN CISCO CCNAV7 MODULE-2 SECURITY "LAYER 2 ATTACKS"**
     - We can also use more defensive techniques but in this case I'm just remarking the configs of best practices and security on our Layer 2 Devices.
 
 --- 
