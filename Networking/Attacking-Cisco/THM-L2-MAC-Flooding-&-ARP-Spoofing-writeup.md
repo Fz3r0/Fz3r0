@@ -87,11 +87,11 @@
 
         - ![image](https://user-images.githubusercontent.com/94720207/166290765-190266f9-0234-40ae-ad23-2bab0a5af312.png)
 
-2. Now I will scan the Network using NMap to discover more hosts _(It's supposed that I don't know the topology at this point, so let's just rol play...)._
+2. Let's suppose that I don't know what's the LAN Topology, so I will scan the Network using NMap to discover more hosts.
 
-    - First I will use the IPv4 Address of the target machine (The machine I'm already in!) to check for more hosts in the Network who share the same `Network ID`.
+    - First, I will use the IPv4 Address of the RHOST/Attacker **(The machine I'm already in! `eve`)** to check for more hosts in the Network who share the same **`Network ID`**.
      
-    - The IP that we are using have the default Subnet Mask /24 Class C and is the typical "192.168.x.x", so it's very easy to figure out the Network ID and more:
+    - The IP of out Host is using `CIDR /24` (255.255.255.0) `Class C` and is the typical "192.168.x.x", so it's very easy to figure out the Network ID and more details:
     
         - PWNED host: `192.168.12.66/24`
         
@@ -104,8 +104,10 @@
         - Wildcard  : `0.0.0.255`
         
     - Fire in the hole:      
+    
+        - `sudo nmap -PR -sn 192.168.12.0/24` 
 
-![image](https://user-images.githubusercontent.com/94720207/166302924-fffd0a0b-13a4-4bc1-b97c-62f315f941c8.png)
+            - ![image](https://user-images.githubusercontent.com/94720207/166302924-fffd0a0b-13a4-4bc1-b97c-62f315f941c8.png)
 
 - There are a total of 3 hosts in the Network:
 
