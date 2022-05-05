@@ -173,20 +173,30 @@
 
 <span align="center"> <p align="center"> ![image](https://user-images.githubusercontent.com/94720207/166402151-e29d22e6-c954-4e1d-a012-41c016e35b0c.png) </p> </span>
     
-- Here's the deal! **We can _"hear"_ any `broadcast` sent _"inside"_ the network `192.168.12.0` or if there's someone trying to connect with us `eve`:** 
+- Here's the deal! **We can _"hear"_ any `broadcast` sent _"inside"_ the network `192.168.12.0`, we also can _"hear"_ if someone is trying to connect with us `eve` with `unicast` traffic:** 
+
+    - Imagine we are inside a "room", if someone **"scream"** **everyone inside the room will hear that person, including us. That's `broadcast` traffic.**
+    
+    - But! If 2 persons **"whisper"** together, even if we are in the same room we **CAN'T" hear them!. That's `unicast` traffic.**
+    
+        - For example, a `ping` is composed of 2 types of "messages":
         
-        - Imagine we are inside a "room", if someone scream everyone inside will hear that person, including us. That's `broadcast`
+            -  `ARP`: Broadcast
+            -  `ICMP`: Unicast  
     
-        - But! If 2 persons whisper together, even if we are in the same room we CAN NOT hear them. That's `unicast`
-    
-             - **At this point, we can only "hear" if someone is screaming to everyone (broadcasting) or whispering tu us (unicast)**  
-             - **We can't hear if `bob` or `alice` are whispering together!
+    - **At this point:**  
+            
+        - **We CAN'T hear if `bob` or `alice` are whispering together.**
+
+        - **We CAN hear if `bob` or `alice` try to whisper with us `eve`**.
+        
+        - **We CAN hear if `bob` or `alice` scream to everyone. 
 
 - So, we will sniff on ETH1 as shown in the diagram:
 
-![image](https://user-images.githubusercontent.com/94720207/166613478-3f4fa9c2-044a-40ff-b4f0-a35de72ccbbc.png)
+    - ![image](https://user-images.githubusercontent.com/94720207/166613478-3f4fa9c2-044a-40ff-b4f0-a35de72ccbbc.png)
 
-- Let's try running tcpdump on the eth1 network interface:
+- Let's try running `tcpdump` on the `eth1` **network interface**:
 
     - `tcpdump -i eth1`
 
