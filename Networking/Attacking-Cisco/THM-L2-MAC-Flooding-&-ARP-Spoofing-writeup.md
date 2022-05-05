@@ -51,22 +51,32 @@
         
 - **Topology of the GNS3 Lab:**
 
-![image](https://user-images.githubusercontent.com/94720207/166299318-bd8ac75a-92b6-4847-a2f4-2433197606ab.png)
+<span align="center"> <p align="center"> ![image](https://user-images.githubusercontent.com/94720207/166299318-bd8ac75a-92b6-4847-a2f4-2433197606ab.png) </p> </span> 
         
 - **Login & Root:**
 
 ![image](https://user-images.githubusercontent.com/94720207/166800191-fc9513dc-5d14-4e2e-b3ba-d09d3d46f41e.png)
 ![image](https://user-images.githubusercontent.com/94720207/166290085-b08e918d-f03a-4f26-99e4-a415b0e373c0.png)
 
-- **OK...let's keep going...**
+- OK...let's keep going...
 
 ---
 
 ### Network Discovery
 
-- As mentioned previously, the host is connected to one or more additional networks. You are currently connected to the machine via SSH on Ethernet adapter eth0. The network of interest is connected with Ethernet adapter eth1.
+- As mentioned previously, the **host** `eve` is connected to **''one or more additional networks''**. 
 
-![image](https://user-images.githubusercontent.com/94720207/166609555-b75b318c-b7e5-4cc1-bcd3-10f23a16602c.png)
+- I'm are currently **connected to the machine via SSH on Ethernet adapter `eth0`**. 
+
+- The network of interest is connected with Ethernet adapter `eth1`.
+
+    -  **I will call the different Subnets/Networks as:**
+    
+    -  **Broadcast Domain 1 : `192.168.12.0/24`**
+    -  **Broadcast Domain 2 : `10.x.x.0`**
+
+<span align="center"> <p align="center"> ![image](https://user-images.githubusercontent.com/94720207/166609555-b75b318c-b7e5-4cc1-bcd3-10f23a16602c.png) </p> </span>
+
 
 1. First, have a look at the adapter:
 
