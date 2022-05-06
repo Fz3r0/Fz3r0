@@ -304,7 +304,7 @@
 
     - For better usability, open a second SSH session. This way, you can leave the tcpdump process running in the foreground: 
         
-            - ![image](https://user-images.githubusercontent.com/94720207/166393591-bb42bbb8-d3c7-4a31-8e05-719c733183d5.png)
+        - ![image](https://user-images.githubusercontent.com/94720207/166393591-bb42bbb8-d3c7-4a31-8e05-719c733183d5.png)
 
     1. On the `First SSH session` (Top Screen) I will run `tcpdump` so I can **capture all the packets during the Attack.** 
         
@@ -312,44 +312,45 @@
  
     2. On the `Second SSH session` (Bottom Screen) I will run `macof` to launch a `Mac Flooding Attack` against the `Switch` (**CAM Table**). 
 
-- Now, on the second SSH session, buckle up and let macof run against the interface to start flooding the switch:
-
-    - `macof -i eth1`
+        - `macof -i eth1`
     
-    - After around 30 seconds, stop both macof and tcpdump `(Ctrl+C)`. 
+            - After around 30 seconds, stop both `macof` and `tcpdump` `(Ctrl+C)`. 
 
-![image](https://user-images.githubusercontent.com/94720207/166393923-496a224b-2c4d-4557-b3f8-dfd34ae47489.png)
+        - ![image](https://user-images.githubusercontent.com/94720207/166393923-496a224b-2c4d-4557-b3f8-dfd34ae47489.png)
 
-![image](https://user-images.githubusercontent.com/94720207/166394716-9f12b0d8-f06f-4c92-9a9b-afa4ea454ab8.png)
+        - ![image](https://user-images.githubusercontent.com/94720207/166394716-9f12b0d8-f06f-4c92-9a9b-afa4ea454ab8.png)
 
-- As in the previous task, transfer the pcap to your machine _(kali/AttackBox)_ and take a look.
+    3. As in the previous task, transfer the pcap to your machine _(kali/AttackBox)_ and take a look.
 
-    - `scp admin@$ip_target:/tmp/tcpdump2.pcap .` 
+        - `scp admin@$ip_target:/tmp/tcpdump2.pcap .` 
 
-![image](https://user-images.githubusercontent.com/94720207/166394524-aa7e5cad-0ff3-449b-84e1-7e4e5b27d42b.png)
+            - ![image](https://user-images.githubusercontent.com/94720207/166394524-aa7e5cad-0ff3-449b-84e1-7e4e5b27d42b.png)
 
-- Note: If it didn't work, try to capture for 30 seconds, again (while macof is running).
+- Note: If it didn't work, try to capture for 30 seconds, again while `macof` is running.
 
-    - If it still won't work, give it one last try with a capture duration of one minute.
+- If it still won't work, give it one last try with a capture duration of one minute.
+    
     - As the measure of last resort, try using ettercap (introduced in the following tasks) with the `rand_flood` plugin:
 
         - `ettercap -T -i eth1 -P rand_flood -q -w /tmp/tcpdump3.pcap` _(Quit with q)_
 
-- It worked for me with `tcpdump` + `macof` at first try without problems...just try to start and end both commands at same time, because `macof` will spam MACs and we are trying to trick the Network and the Switch to show us all his traffic, **`just like a hub would do`**, we need to capture at same time while we are performing the `tcpdump`. 
+            -  ![image](https://user-images.githubusercontent.com/94720207/166396579-a7ff04b2-0236-4eea-9447-767089ab5602.png)
+            
+- It worked for me with `tcpdump` + `macof` at first try without problems...The trick is **start and end both commands at same time**, because `macof` will spam MACs and we need to capture all that "crazy traffic", so we can try to crash that `CAM Table` of the `switch` and make it show us all his traffic, , **`just like a hub would do`**. So just try to capture at same time!. 
 
-    - Anyways, here's how is performed with `ettercap`:
+- You can send the file with `SCP` again. 
 
-![image](https://user-images.githubusercontent.com/94720207/166396579-a7ff04b2-0236-4eea-9447-767089ab5602.png)
+- Now, let's analize that PCAP:
 
-- You can send the file with SCP. Now, let's analize that PCAP:
-
-    - This PCAP is HUGE! we have half million packets 😂 that's why I used the next filter:
+    - This PCAP is HUUUUGE! we have **half million packets** in less than one minute... (That's why is a noise attack! that could provoque a `DoS`).
+    
+    - That's why I used the next filter:
     
         - `ip.addr == 192.168.12.1 || ip.addr == 192.168.12.2`
     
-    - I'm filtering just the traffic containing IPs from `bob` (192.168.12.2) and `alice` (192.168.12.1). And maybe, we can find a "conversation" between both of them:
+    - I'm filtering just the traffic containing IPs from `bob` (192.168.12.2) and `alice` (192.168.12.1). So maybe, I can find a "conversation" between both of them:
      
-![image](https://user-images.githubusercontent.com/94720207/166396144-f37ca138-1395-46cf-aa7e-b8f653ca102d.png)
+<span align="center"> <p align="center"> ![image](https://user-images.githubusercontent.com/94720207/166396144-f37ca138-1395-46cf-aa7e-b8f653ca102d.png) </p> </span>
 
 - **That's how we just performed a MAC flooding attack while sniffing the Network, and we have "listened" the "whispering" (`unicast`) betweeen `bob` and `alice`.**
 
