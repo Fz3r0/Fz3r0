@@ -206,8 +206,6 @@
 
         - ![image](https://user-images.githubusercontent.com/94720207/167053431-859f9536-eb1f-4421-9de1-a171f602f404.png)
 
-
-
 - **Now, let's take a closer look at the captured packets! We can redirect them into a pcap file providing a destination file via the `-w` argument:**
 
     - `tcpdump -A -i eth1 -w /tmp/tcpdump.pcap`
