@@ -197,12 +197,16 @@
 - Let's try running `tcpdump` on the `eth1` **network interface**:
 
     - `tcpdump -i eth1`
+        
+        - ![image](https://user-images.githubusercontent.com/94720207/166315229-f1f193e1-10d0-44a4-be99-074d354502cc.png) 
 
 - Optionally, for a more verbose output that prints each packet (minus its link level header) in ASCII format:
 
     - `tcpdump -A -i eth1`
 
-        - ![image](https://user-images.githubusercontent.com/94720207/166315229-f1f193e1-10d0-44a4-be99-074d354502cc.png)
+        - ![image](https://user-images.githubusercontent.com/94720207/167053431-859f9536-eb1f-4421-9de1-a171f602f404.png)
+
+
 
 - **Now, let's take a closer look at the captured packets! We can redirect them into a pcap file providing a destination file via the `-w` argument:**
 
@@ -282,12 +286,16 @@
 
 - _- "Anyhow, let's assume you've met the well-thought decision to give it a try."_
 
-    - For better usability, open a second SSH session. This way, you can leave the tcpdump process running in the foreground on the first SSH session:
-    
-        - `tcpdump -A -i eth1 -w /tmp/tcpdump2.pcap`
+    - For better usability, open a second SSH session. This way, you can leave the tcpdump process running in the foreground: 
         
-![image](https://user-images.githubusercontent.com/94720207/166393591-bb42bbb8-d3c7-4a31-8e05-719c733183d5.png)
+            - ![image](https://user-images.githubusercontent.com/94720207/166393591-bb42bbb8-d3c7-4a31-8e05-719c733183d5.png)
+
+    1. On the `First SSH session` (Top Screen) I will run `tcpdump` so I can **capture all the packets during the Attack.** 
         
+        - `tcpdump -A -i eth1 -w /tmp/tcpdump2.pcap` 
+ 
+    2. On the `Second SSH session` (Bottom Screen) I will run `macof` to launch a `Mac Flooding Attack` against the `Switch` (**CAM Table**). 
+
 - Now, on the second SSH session, buckle up and let macof run against the interface to start flooding the switch:
 
     - `macof -i eth1`
