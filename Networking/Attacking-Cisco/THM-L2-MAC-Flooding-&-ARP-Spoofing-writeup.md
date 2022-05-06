@@ -371,6 +371,10 @@
 
 <span align="center"> <p align="center"> ![image](https://user-images.githubusercontent.com/94720207/167070863-837ec492-31d6-4fa8-955f-c12bccc18fdf.png) </p> </span>
 
+- With that filter I also can compare & analyze 2 different PCAPs I captured, one during a `MAC Flooding Attack`, other on a "normal" scenario:
+
+<span align="center"> <p align="center"> ![image](https://user-images.githubusercontent.com/94720207/167184382-e1585496-d7df-48f5-8197-020400077fcb.png)</p> </span>
+
 - I've found them! Analyzing the half million packets I've found 57 unicast packets between `bob` & `alice`, _I can read their minds..._
 
 - Now, I can read all the "conversation" between `alice` & `bob`, in this case those are only `ICMP Request` & `ICMP Replies` between them, but it proves: 
