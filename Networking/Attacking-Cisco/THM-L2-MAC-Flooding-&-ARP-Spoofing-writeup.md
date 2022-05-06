@@ -278,17 +278,27 @@
 
 - If the `switch` start operating like a `hub`, **it will forward all received frames to every connected port (aside from the port the traffic originated from)**. 
 
-- This would allow an adversary or pentester to sniff the network traffic between other hosts that normally wouldn't be received by their device if the switch were functioning properly.
+    - This would allow a "third person" (`eve`) to `sniff` the **network traffic between other hosts **(`alice` >> << `bob`)**
+     
+    - That traffic normally wouldn't be received by the "third person" `eve` if the switch were functioning properly.
+   
+    - That means, `eve` could be able to `sniff` `unicast traffic` between `bob` and `alice`.
+     
+    - Just like if the network were using a `hub` instead of a `switch` (using the same `collision domain` and `broadcast domain`). 
+    
+    - **Actually, all the traffic in the subnet could be heard from any Eth Port by anyone during the attack.** 
+
+- This means 
 
     - **Considering such an attack vector is only recommended when you have reasons to believe that:**
 
         1. It is in fact a **switched network** (and not a virtual bridge) AND
         
-        2. The switch might be a consumer or prosumer (**unmanaged**) switch OR:
+        2. The `switch` might be a consumer or prosumer (**unmanaged** switches: better known as "cheap shitty switch-hubs") switch OR:
             
-        3. **The network admins haven't configured mitigations such as `Dynamic ARP Inspection (DAI)` for instance AND `ARP` and `MAC spoofing` attacks are explicitly permitted in the rules of engagement.**
+        3. **The network admins haven't configured mitigations such as `Dynamic ARP Inspection (DAI)` for instance AND `ARP` and `MAC spoofing` attacks are explicitly permitted in the rules of engagement. And expensive and Pro switches even like Cisco Catalyst could be breached!**
             
-            - I'm making a guide to achieve Best Practices & Security to our Cisco Layer 2 devices [here](https://github.com/Fz3r0/Fz3r0#-networking--1) _(I still need to update the info, meanwhile just google for Cisco DAI on IOS)_
+            - **I'm making a guide to achieve Best Practices & Security to Cisco Layer 2 devices [here]**(https://github.com/Fz3r0/Fz3r0#-networking--1) _(I still need to update the info)_
 
 - _- "Anyhow, let's assume you've met the well-thought decision to give it a try."_
 
