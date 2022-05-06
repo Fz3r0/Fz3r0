@@ -206,15 +206,13 @@
 
         - ![image](https://user-images.githubusercontent.com/94720207/167053431-859f9536-eb1f-4421-9de1-a171f602f404.png)
 
-- **Now, let's take a closer look at the captured packets! We can redirect them into a pcap file providing a destination file via the `-w` argument:**
+- Now, let's take a closer look at the captured packets! We can redirect them into a `PCAP` file providing a destination file via the `-w` argument.
 
-    - `tcpdump -A -i eth1 -w /tmp/tcpdump.pcap`
+- Capture traffic for about a minute, then transfer the `PCAP` to the Attacker Machine & open it in `Wireshark`:
 
-        - ![image](https://user-images.githubusercontent.com/94720207/166315748-7d74eb1b-cd7e-4a01-8658-c836198bb91b.png)
+    - `tcpdump -A -i eth1 -w /tmp/Fz3r0_NetSec_PCap1.pcap`
 
-- Capture traffic for about a minute, then transfer the `PCAP` to the Attacker Machine & open it in `Wireshark`.
-
-    - ![image](https://user-images.githubusercontent.com/94720207/166316424-4a33587f-97d7-45fa-8434-972f41085fa8.png)
+        - ![image](https://user-images.githubusercontent.com/94720207/166316424-4a33587f-97d7-45fa-8434-972f41085fa8.png)
 
 - I will use `SCP` to transfer the file, but it could be done in many ways. _(mounting a python HTTP server is another easy way)_.
     
@@ -228,31 +226,43 @@
 
 <span align="center"> <p align="center"> ![image](https://user-images.githubusercontent.com/94720207/166318386-720217fb-8bfc-4548-a5bb-1424e0c5409e.png) </p> </span>
 
-- This is a very easy PCAP to read, I captured a little bit more than 1 minute and I got just 68 packets.
+- This is a very easy `PCAP` to read, I captured more than 1 minute and I got just 68 packets.
 
-- Even without filters we can notice that there are only traffic betweet 2 hosts: `eve` (us / 192.168.12.66) `bob` (192.168.12.2)
+- Even without filters I can notice that there are only traffic betweet 2 hosts: `eve` (LHOST)>(192.168.12.66) `bob` (192.168.12.2)
 
-- The type of packets sent are `ICMP`, that means `bob` is the `source` who is sending ping to us `eve`, we are the `destination`
+- The type of packets sent are `ICMP`(**unicast**), that means `bob` is the `source` who is sending `Ping/ICMP` to us `eve`, we are the `destination`
 
-- Then, `eve` send back ACKs to respond those ICMP. 
+- Then, `eve` send back `ICMP-ACKs` to respond those `ICMP`. 
 
-![image](https://user-images.githubusercontent.com/94720207/166323557-81003b11-b587-4267-b473-c1c2c906ff33.png)
+<span align="center"> <p align="center"> ![image](https://user-images.githubusercontent.com/94720207/166323557-81003b11-b587-4267-b473-c1c2c906ff33.png) </p> </span>
 
-- We can also analyze the data sent throught ICMP, we can identify is in plain text...and is nothing useful.
+- We can also analyze the data sent throught `ICMP`, this is a crafted `ICMP` with random characteres to fit X o Y size in bytes so we can experiment with that traffic, no useful information tho.
 
-    - **At this point, we can't do very much with that packets, those are only ICMPs (ping) with random data "abcdefghij.... but! we have the IP & MAC address from `bob`, we can use that MAC!**   
+    - **At this point, we can't do very much with that intercepted packets, those are only ICMPs (ping) with random data "abcdefghij.... 
 
-        - **Remember that I said: "WE CAN'T HEAR IF BOB AND ALICE ARE "WHISPERING" (UNICAST) TO EACH OTHER")**
+    - Anyways... I proved the point shown un the diagram:
     
-            - **Maybe we can! We can "disguse" as `bob` because now we have something that only that user have...`MAC address` from `bob`!!! 
-    
-            - **As the diagram of Layer 2 I uploaded says, MAC Address is used in Layer 2 Transmission to identify hosts, if we take that MAC, then we become `bob` for the other devices, just like Agent 47, easy! let's go:** 
+        1. **I can "hear" if `bob` is sending to me (`eve`) unicast traffic: he is sending `ICMP Request`(**"Hello"**) and `eve` is replying with `ICMP Replies` (**"ACK"**)
 
+        2. **We can't hear nothing from `alice`, she is NOT sending unicast traffic to us `eve` or broadcasts to the Network.
+    
+        3. **We can't "hear" if `alice` is sendig unicast traffic to `bob`**  (if they are whispering together)
+
+- **It could be a way to "hear" the "whispering" between `bob` and `alice`???...**
+
+- **Yes! of course there are some ways and different aproaches to achieve this _(unless the Network is configured properly with security protocols and best practices)_
+
+    - All aboard ayeee!:
+ 
 ---
 
 ### Sniffing while MAC Flooding
 
-- Unfortunately, we weren't able to capture any interesting traffic so far. However, we're not going to give up this easily! So, how can we capture more network traffic? As mentioned in the room description, we could try to launch a MAC flooding attack against the L2-Switch.
+- Unfortunately, we weren't able to capture any interesting traffic so far. However, we're not going to give up this easily! 
+
+- So, how can we capture more network traffic? how we can "hear" those "whispering"(unicast traffic other hosts)? -
+
+- **In this task I will start with `MAC flooding attack against the L2-Switch`**.
 
     - **Beware:** 
     
@@ -277,8 +287,6 @@
         2. The switch might be a consumer or prosumer (**unmanaged**) switch OR:
             
         3. **The network admins haven't configured mitigations such as `Dynamic ARP Inspection (DAI)` for instance AND `ARP` and `MAC spoofing` attacks are explicitly permitted in the rules of engagement.**
-            
-
             
             - I'm making a guide to achieve Best Practices & Security to our Cisco Layer 2 devices [here](https://github.com/Fz3r0/Fz3r0#-networking--1) _(I still need to update the info, meanwhile just google for Cisco DAI on IOS)_
 
