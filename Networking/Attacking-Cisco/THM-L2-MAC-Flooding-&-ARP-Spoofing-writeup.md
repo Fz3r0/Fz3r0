@@ -358,13 +358,23 @@
      
 <span align="center"> <p align="center"> ![image](https://user-images.githubusercontent.com/94720207/166396144-f37ca138-1395-46cf-aa7e-b8f653ca102d.png) </p> </span>
 
-- Another very good filter to prove the point of this attack is filtering **ONLY UNICAST TRAFFIC**
+- Another very good filter to prove the point is the next command I made, I will break it up:
 
-    - If I filter only `unicast` traffic in a "normal" scenario, I would only "hear" the ICMP Request from `bob` remember? because I only can "hear" him (he is sending to me ICMPs...)
+    - `((ip.dst == 192.168.12.2) && (ip.src == 192.168.12.1)) && (ip.proto == 1)`
     
-    - But, if I found unicast filtered messages between `alice` & `bob` it means it worked! I can recognize that is from them very easy looking at the IP & MAC Address just as the last example:
+        - `(ip.dst == 192.168.12.2)` = Filter IPv4 from `bob` as `Destiny` 
+        - `(ip.src == 192.168.12.1)` = Filter IPv4 from `alice` as `Source`
+        - `&&` and `()` = group `bob` & `alice` so there will me shown only results that have that rule
+        -  `&& (ip.proto == 1)` = Filter only `ICMP` packets
 
-- I've found it! Analyzing the PCAP I can read all the "conversation" between `alice` & `bob`, in this case those are only `ICMP Request` & `ICMP Replies` between them, but it proves: 
+    - Then, with that filter I will only see `ICMP unicast traffic` sent **from** `SRC: alice` **to** `DST: bob` (Their "whispers"!)
+
+![image](https://user-images.githubusercontent.com/94720207/167070863-837ec492-31d6-4fa8-955f-c12bccc18fdf.png)
+<span align="center"> <p align="center"> ![image](https://user-images.githubusercontent.com/94720207/167070863-837ec492-31d6-4fa8-955f-c12bccc18fdf.png) </p> </span>
+
+- I've found them! Analyzing the half million packets I've found 57 unicast packets between `bob` & `alice`, I can read their mind...
+
+- Now, I can read all the "conversation" between `alice` & `bob`, in this case those are only `ICMP Request` & `ICMP Replies` between them, but it proves: 
 
     -MAC Flooding Attacks could provoque that unicast traffic like ICMP between other hosts in the network (`alice` & `bob`) can be "visible" for other hosts in the Network (`eve`). 
     
