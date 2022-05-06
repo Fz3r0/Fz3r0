@@ -336,20 +336,28 @@
 
             -  ![image](https://user-images.githubusercontent.com/94720207/166396579-a7ff04b2-0236-4eea-9447-767089ab5602.png)
             
-- It worked for me with `tcpdump` + `macof` at first try without problems...The trick is **start and end both commands at same time**, because `macof` will spam MACs and we need to capture all that "crazy traffic", so we can try to crash that `CAM Table` of the `switch` and make it show us all his traffic, , **`just like a hub would do`**. So just try to capture at same time!. 
+- The trick of the attack is **start and end both commands at same time**, because `macof` will spam MACs and we need to capture all that "crazy traffic", so we can try to crash that `CAM Table` of the `switch` and make it show us all his traffic, , **`just like a hub would do`**. So just try to capture at same time!. 
 
-- You can send the file with `SCP` again. 
+    - You can send the file with `SCP` again to the attacker machine to analize the PCAP with `Wireshark`. 
 
-- Now, let's analize that PCAP:
+- To be clear what is just happened, I will compare without filters the PCAPs during a MAC Flooding Attack VS normal LAN scenario:
+
+    - On a normal scenario I would only capture few packets **`(I've captured 8 packets in 15 seconds)`**, the pings that **`bob (192.168.12.2)`** is sending to me **`eve (192.168.12.66)`**, remember? he is the only one whispering to me in this Lab, so...I captured 8 ICMP pings from `bob` to me `eve`.  
+    
+    - But! during a MAC Flooding Attack, I will see thousands of "random" `IPv4 packets` with "random" `MAC Address` & `IPv4` caused by my attack...
+    
+    - Hidding somewhere between that "noise" and "randomness" there are the `ICMP unicast traffic`:
+    
+        1. ICMP unicast "whispers" between me `eve` & `bob`  
+          
+        3. ICMP unicast "whispers" between `alice` & `bob`!!! **It means I can hear them!!!!**
+
+- Now, let's analize the PCAP during the Attack, this time I captured 45 seconds of attack:
 
     - This PCAP is HUUUUGE! it collected **half million packets** in less than one minute... 
     
         - That's why this is considered a very noisy attack! that could even provoque a `DoS`.
-
-    - **I will use a capture filter to make things easier! I use this wiki, it's very useful ;)**
-
-        - https://wiki.wireshark.org/CaptureFilters      
-    
+        
     - I will use the next `Wireshark filter`:
     
         - `ip.addr == 192.168.12.1 || ip.addr == 192.168.12.2`
@@ -375,6 +383,8 @@
 
 <span align="center"> <p align="center"> ![image](https://user-images.githubusercontent.com/94720207/167184382-e1585496-d7df-48f5-8197-020400077fcb.png)</p> </span>
 
+
+        
 - I've found them! Analyzing the half million packets I've found 57 unicast packets between `bob` & `alice`, _I can read their minds..._
 
 - Now, I can read all the "conversation" between `alice` & `bob`, in this case those are only `ICMP Request` & `ICMP Replies` between them, but it proves: 
