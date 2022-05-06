@@ -364,7 +364,7 @@
   
     - I'm filtering only the traffic containing IPs from `bob` (192.168.12.2) and `alice` (192.168.12.1). So maybe, I can find a "conversation" between both of them:
      
-<span align="center"> <p align="center"> ![image](https://user-images.githubusercontent.com/94720207/166396144-f37ca138-1395-46cf-aa7e-b8f653ca102d.png) </p> </span>
+<span align="center"> <p align="center"> ![image](https://user-images.githubusercontent.com/94720207/167195198-5ad07f6f-bae9-4089-a9de-62735ae53d08.png) </p> </span>
 
 - Another very good filter to prove the point is the next command I made, I will break it up:
 
