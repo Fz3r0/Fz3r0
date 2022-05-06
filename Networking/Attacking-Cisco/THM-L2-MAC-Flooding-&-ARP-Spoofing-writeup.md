@@ -342,21 +342,29 @@
 
 - Now, let's analize that PCAP:
 
-    - This PCAP is HUUUUGE! we have **half million packets** in less than one minute... (That's why is a noise attack! that could provoque a `DoS`).
+    - This PCAP is HUUUUGE! it collected **half million packets** in less than one minute... 
     
-    - That's why I used the next filter:
+        - That's why this is considered a very noisy attack! that could even provoque a `DoS`.
+    
+    - I will use the next `Wireshark filter` to make all things easier:
     
         - `ip.addr == 192.168.12.1 || ip.addr == 192.168.12.2`
     
-    - I'm filtering just the traffic containing IPs from `bob` (192.168.12.2) and `alice` (192.168.12.1). So maybe, I can find a "conversation" between both of them:
+    - I'm filtering only the traffic containing IPs from `bob` (192.168.12.2) and `alice` (192.168.12.1). So maybe, I can find a "conversation" between both of them:
      
 <span align="center"> <p align="center"> ![image](https://user-images.githubusercontent.com/94720207/166396144-f37ca138-1395-46cf-aa7e-b8f653ca102d.png) </p> </span>
 
-- **That's how we just performed a MAC flooding attack while sniffing the Network, and we have "listened" the "whispering" (`unicast`) betweeen `bob` and `alice`.**
+- I've found it! Analyzing the PCAP I can read all the "conversation" between `alice` & `bob`, in this case those are only `ICMP Request` & `ICMP Replies` between them, but it proves: 
+
+    -MAC Flooding Attacks could provoque that unicast traffic like ICMP between other hosts in the network (`alice` & `bob`) can be "visible" for other hosts in the Network (`eve`). 
+    
+    - This is performed Sniffing the traffic while performing the MAC Flooding.
+
+    - **I've "heard" the "whispering" (`unicast`) betweeen `bob` and `alice` inside the "room" (`Network,Subnet,LAN,VLAN...`).**
 
 - Just for a better idea this is somehow what it just happened:
 
-- Normal behavior
+    - Normal behavior
 
 ![image](https://user-images.githubusercontent.com/94720207/166591522-1e1a8ac6-c570-4d2f-8097-dc4d8e28a07d.png)
 
