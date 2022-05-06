@@ -365,22 +365,21 @@
         - `(ip.dst == 192.168.12.2)` = Filter IPv4 from `bob` as `Destiny` 
         - `(ip.src == 192.168.12.1)` = Filter IPv4 from `alice` as `Source`
         - `&&` and `()` = group `bob` & `alice` so there will me shown only results that have that rule
-        -  `&& (ip.proto == 1)` = Filter only `ICMP` packets
+        - `&& (ip.proto == 1)` = Filter only `ICMP` packets
 
     - Then, with that filter I will only see `ICMP unicast traffic` sent **from** `SRC: alice` **to** `DST: bob` (Their "whispers"!)
 
-![image](https://user-images.githubusercontent.com/94720207/167070863-837ec492-31d6-4fa8-955f-c12bccc18fdf.png)
 <span align="center"> <p align="center"> ![image](https://user-images.githubusercontent.com/94720207/167070863-837ec492-31d6-4fa8-955f-c12bccc18fdf.png) </p> </span>
 
-- I've found them! Analyzing the half million packets I've found 57 unicast packets between `bob` & `alice`, I can read their mind...
+- I've found them! Analyzing the half million packets I've found 57 unicast packets between `bob` & `alice`, _I can read their minds..._
 
 - Now, I can read all the "conversation" between `alice` & `bob`, in this case those are only `ICMP Request` & `ICMP Replies` between them, but it proves: 
 
-    -MAC Flooding Attacks could provoque that unicast traffic like ICMP between other hosts in the network (`alice` & `bob`) can be "visible" for other hosts in the Network (`eve`). 
+    - `MAC Flooding Attacks` could provoque that `unicast` traffic like `ICMP` between other hosts in the network (`alice` & `bob`) can be "visible" for other hosts in the Network (`eve`). 
     
-    - This is performed Sniffing the traffic while performing the MAC Flooding.
+    - This is performed `sniffing` the traffic while performing the `MAC Flooding`. It means:
 
-    - **I've "heard" the "whispering" (`unicast`) betweeen `bob` and `alice` inside the "room" (`Network,Subnet,LAN,VLAN...`).**
+        - **I've "heard" the "whispering" (`unicast`) betweeen `bob` and `alice` inside the "room" (`Network,Subnet,LAN,VLAN...`).**
 
 - Just for a better idea this is somehow what it just happened:
 
