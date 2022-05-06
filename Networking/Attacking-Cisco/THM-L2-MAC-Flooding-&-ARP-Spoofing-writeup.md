@@ -345,14 +345,24 @@
     - This PCAP is HUUUUGE! it collected **half million packets** in less than one minute... 
     
         - That's why this is considered a very noisy attack! that could even provoque a `DoS`.
+
+    - **I will use a capture filter to make things easier! I use this wiki, it's very useful ;)**
+
+        - https://wiki.wireshark.org/CaptureFilters      
     
-    - I will use the next `Wireshark filter` to make all things easier:
+    - I will use the next `Wireshark filter`:
     
         - `ip.addr == 192.168.12.1 || ip.addr == 192.168.12.2`
-    
+  
     - I'm filtering only the traffic containing IPs from `bob` (192.168.12.2) and `alice` (192.168.12.1). So maybe, I can find a "conversation" between both of them:
      
 <span align="center"> <p align="center"> ![image](https://user-images.githubusercontent.com/94720207/166396144-f37ca138-1395-46cf-aa7e-b8f653ca102d.png) </p> </span>
+
+- Another very good filter to prove the point of this attack is filtering **ONLY UNICAST TRAFFIC**
+
+    - If I filter only `unicast` traffic in a "normal" scenario, I would only "hear" the ICMP Request from `bob` remember? because I only can "hear" him (he is sending to me ICMPs...)
+    
+    - But, if I found unicast filtered messages between `alice` & `bob` it means it worked! I can recognize that is from them very easy looking at the IP & MAC Address just as the last example:
 
 - I've found it! Analyzing the PCAP I can read all the "conversation" between `alice` & `bob`, in this case those are only `ICMP Request` & `ICMP Replies` between them, but it proves: 
 
@@ -1052,7 +1062,8 @@ if (ip.proto == TCP && tcp.src == 4444 && search(DATA.data, "whoami") ) {
 - https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst_pon/software/configuration_guide/sec/b-gpon-config-security/preventing_arf_spoofing_and_flood_attack.html
 - https://community.cisco.com/t5/network-security/protect-my-lan-against-arp-spoofing-poisoning/td-p/3950323
 - https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst4500/12-2/25ew/configuration/guide/conf/dynarp.html
-
+- https://wiki.wireshark.org/CaptureFilters
+ 
 ---
 
 > ![hecho en mexico 5](https://user-images.githubusercontent.com/94720207/166068790-fa1f243d-2db9-4810-a6e4-eb3c4ad23700.png)
