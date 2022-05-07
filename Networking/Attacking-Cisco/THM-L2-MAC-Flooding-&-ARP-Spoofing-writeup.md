@@ -66,7 +66,7 @@
 
 - As mentioned previously, the **host** `eve` is connected to **''one or more additional networks''**. 
 
-- I'm are currently **connected to the machine via SSH on Ethernet adapter `eth0`**. 
+- I'm are currently **connected to the machine `eve` via SSH on Ethernet adapter `eth0`**. 
 
 - The network of interest is connected with Ethernet adapter `eth1`.
 
@@ -75,7 +75,7 @@
         -  **Broadcast Domain 1 : `192.168.12.0/24`**
         -  **Broadcast Domain 2 : `10.x.x.0`**
 
-- We have already managed to breach host `eve`, and I can "see" both Broadcast Domains from there. 
+- We have already managed to breach host `eve`, and I can "see" both `Broadcast Domains` from there. 
 
 - I will scan the subnet 192.168.12.0/24 with `nmap` to search for some hosts.
 
@@ -411,7 +411,7 @@
 
         - ![image](https://user-images.githubusercontent.com/94720207/166606307-bc4066c9-926a-4d79-be2c-f0a8b6c40e8c.png)
 
-- I've just made the `switch` "go crazy" and start working as a `hub` due to evermwhelming spam of MAC address inside the CAM table of the switch, then I captured the traffic to "see" the conversation between `alice` and `bob`, [remember the broadcast & collision domains?](/Networking/Attacking-Cisco/THM-L2-MAC-Flooding-&-ARP-Spoofing-writeup.md#ive-found-in-my-old-write-ups-of-networking-something-very-useful-for-the-next-tasks-and-this-room-in-general-it-talks-about-layer-2-types-of-comunication-and-how-devices-like-switches-and-hubs-at-layer-2-creates-broadcast-and-collision-domains-also-how-layer-2-devices-uses-mac-addresses-to-identify-who-is-every-host-inside-the-lan)
+- I've just made the `switch` "go crazy" and start working as a `hub` due to overwhelming spam of MAC Addresses inside the `CAM Table` of the `switch`, then I captured the traffic to "see" the conversation between `alice` and `bob`, [remember the broadcast & collision domains?](/Networking/Attacking-Cisco/THM-L2-MAC-Flooding-&-ARP-Spoofing-writeup.md#ive-found-in-my-old-write-ups-of-networking-something-very-useful-for-the-next-tasks-and-this-room-in-general-it-talks-about-layer-2-types-of-comunication-and-how-devices-like-switches-and-hubs-at-layer-2-creates-broadcast-and-collision-domains-also-how-layer-2-devices-uses-mac-addresses-to-identify-who-is-every-host-inside-the-lan)
 
 ### Mitigation of MAC Flooding Attacks on Cisco Layer 2 Devices
 
@@ -424,9 +424,9 @@
 
 ### Man-in-the-Middle: Intro to ARP Spoofing
 
-- As you may have noticed, MAC Flooding can be considered a real "noisy" technique _**(making the switch go crazy and doing a DoS like attack is not so ninja)**_. 
+- As you may have noticed, `MAC Flooding` can be considered a real "noisy" technique _**(making the switch go crazy and doing a "DoS like" attack is not so ninja)**_. 
 
-- In order to reduce the risk of detection and DoS we will leave `macof` aside for now. 
+- In order to reduce the risk of detection and `DoS` we will leave `macof` aside for now. 
 
 - Instead, we are going to perform so-called `ARP cache poisoning` attacks against `Alice` and `Bob`, in an attempt to become a **fully-fledged `Man-in-the-Middle (MITM)**`.
 
@@ -439,21 +439,20 @@ _https://commons.wikimedia.org/wiki/File:ARP_Spfing.svg_
 
 - There are, however, measures and controls available to detect and prevent such attacks. 
     
-    - **We can configure our Cisco Layer 2 Devices with `ARP Snooping`, again, just as we saw in CCNA v7 Module 2 - Security - Layer 2 Attacks.**
+    - **For example, `Cisco Layer 2 Devices` can be configured with `ARP Snooping`.
 
-- In the current scenario, both hosts are running an ARP implementation that takes pains to validate incoming ARP replies. Without further ado, we are using ettercap to launch an ARP Spoofing attack against Alice and Bob and see how they react:
+- In the current scenario, both hosts are running an `ARP` implementation that takes pains to validate incoming `ARP` replies. Without further ado, we are using `ettercap` to launch an `ARP Spoofing attack` against `alice` and `bob` and see how they react:
 
     - `ettercap -T -i eth1 -M arp` 
 
-![image](https://user-images.githubusercontent.com/94720207/166403965-3e7f755f-748b-4d58-b047-aa658fbf2f6f.png)
+        - ![image](https://user-images.githubusercontent.com/94720207/166403965-3e7f755f-748b-4d58-b047-aa658fbf2f6f.png)
 
-![image](https://user-images.githubusercontent.com/94720207/166404207-8e0943c2-d525-4be7-b8b2-edfd0c94a2ab.png)
+        - ![image](https://user-images.githubusercontent.com/94720207/166404207-8e0943c2-d525-4be7-b8b2-edfd0c94a2ab.png)
 
-- Just to dig a little bit more about this command and cyber-weaponry... let's try another MITM attack instead of `ARP poisoning`...hmm how about `ICMP redirection` attack? It sounds Sci-Fi!  
+- Just to dig a little bit more about this command and cyber-weaponry... let's try another MITM attack instead of `ARP poisoning`...hmm how about `ICMP redirection` attack? 
 
     - https://www.mankier.com/8/ettercap#Examples
     
-
 ```
 
 -M, --mitm <METHOD:ARGS>
@@ -531,7 +530,7 @@ You will intercept and visualize all the traffic for 10.0.0.1.
 
 ```
 
-- Since we already have the IPs and MACs from `bob`, `alice` & `eve` we can try to perform an ICMP MITM attack:
+- Since we already have the IPs and MACs from `bob`, `alice` & `eve` we can try to perform an `ICMP Redirection MITM attack`:
 
 ![image](https://user-images.githubusercontent.com/94720207/166405349-c5ff93b3-ea39-43e6-af4d-730ea9353b78.png)
 
@@ -544,35 +543,35 @@ You will intercept and visualize all the traffic for 10.0.0.1.
     
     - Example: `icmp (MAC/IP)`
     
-    - `ettercap -T -i eth1 -M icmp:00:50:79:66:68:00/192.168.12.1` 
+        - `ettercap -T -i eth1 -M icmp:00:50:79:66:68:00/192.168.12.1` 
 
-![image](https://user-images.githubusercontent.com/94720207/166406256-b44e94e5-6e13-4c66-a901-33d32a91311b.png)
+            - ![image](https://user-images.githubusercontent.com/94720207/166406256-b44e94e5-6e13-4c66-a901-33d32a91311b.png)
 
-- I could not find anything interesting here, but at least we have noticed a different behaivor betweeen `ARP poisoning`, `ICMP redirection` or other MITM attacks that we can perform with `ettercap`
+- **I couldn't find anything interesting here, but at least we have noticed a different behaivor betweeen `ARP poisoning`, `ICMP redirection` or other MITM attacks that we can perform with `ettercap`**
 
 ---
 
 ### Man-in-the-Middle: Sniffing
 
-- _We have just started another VM, so I refreshed the variable $ip_target_
+- _We have just started another VM, so I refreshed the variable $ip_target & also hosts `bob` & `alice` chianged their IPs & traffic inside the Network._
 
-- In this somewhat altered scenario, Alice and Bob are running a different OS (Ubuntu) with its default ARP implementation and no protective controls on their machines. 
+- In this somewhat altered scenario, `alice` and `bob` are **running a different OS (Ubuntu) with its default ARP implementation and no protective controls on their machines.** 
 
-- As in the previous task, we need to try to establish a MITM using ettercap and see if Ubuntu (by default) is falling prey to it.
+- As in the previous task, **we need to try to establish a `MITM` using `ettercap` and see if Ubuntu (by default) is falling prey to it.**
 
-    - OK, let's start from the beginning, we will do the next tasks:
+    - OK, let's start from the beginning again:
 
-        1. Network Discovery
-
-1. Network Discovery:
+1. **Network Discovery:**
 
     - Just as we did on Discovery phase on the other machine, first I'll look to my interfaces and IP configuration:
 
-![image](https://user-images.githubusercontent.com/94720207/166412391-3dae2d9b-48b8-4c9b-9331-f7f15b8875d7.png)
+        - ![image](https://user-images.githubusercontent.com/94720207/166412391-3dae2d9b-48b8-4c9b-9331-f7f15b8875d7.png)
 
-- We have more connection in this scenario, even a docker, the topology could be a little bit different, I will continue with the 192.168.12.0/24 Network tho. 
+    - It looks a little bit different from the first scenario, that's because the lab changed a little bit, but we still with the same broadcast domains, and we still on network `192.168.12.66/24`
+    
+    - Physical Topology remains the same.  
 
-![image](https://user-images.githubusercontent.com/94720207/166412853-a5e079f8-d64f-4025-b628-f7dc137dbba8.png)
+        - ![image](https://user-images.githubusercontent.com/94720207/166412853-a5e079f8-d64f-4025-b628-f7dc137dbba8.png)
 
 - We have again 3 hosts _(in this case with different IPs)_
 
