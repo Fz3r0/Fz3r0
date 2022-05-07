@@ -83,7 +83,9 @@
 
         - ![image](https://user-images.githubusercontent.com/94720207/167273476-2586eaba-c0a2-4157-b1ad-c0dd90f30b46.png)
 
-# What makes PrintNightmare dangerous? 
+        - https://nvd.nist.gov/vuln/detail/CVE-2021-34527
+       
+### What makes PrintNightmare dangerous? 
 
 1. **It can be exploited over the network; the attacker doesn't need direct access to the machine.**
 
@@ -92,5 +94,8 @@
 3. **The Print Spooler service is enabled by DEFAULT on domain controllers and computers with SYSTEM privileges.**
 
 --- 
+
+### Exploiting Vulnerability
+
 
 
