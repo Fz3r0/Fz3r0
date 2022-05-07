@@ -111,7 +111,7 @@
 
 - We have already managed to breach host `eve`, and I can "see" both `Broadcast Domains` from there. 
 
-- I will scan the subnet 192.168.12.0/24 with `nmap` to search for some hosts.
+- I will scan the subnet 192.168.12.0/24 with `nmap` to search for some hosts/attack surfaces.
 
 <span align="center"> <p align="center"> ![image](https://user-images.githubusercontent.com/94720207/167043123-7eacd1ed-a3cd-40b4-91f4-098ffb14593d.png) </p> </span>
 
