@@ -68,4 +68,29 @@
 - As Microsoft states in the FAQ, the PrintNightmare (CVE-2021-34527) vulnerability _is similar but distinct from the vulnerability that is assigned CVE-2021-1675. The attack vector is different as well."_
 
 - Per Microsoft's definition, PrintNightmare vulnerability is: 
-    <ote code execution vulnerability exists when the Windows Print Spooler service improperly performs privileged file operations. An attacker who successfully exploited this vulnerability could run arbitrary code with SYSTEM privileges. An attacker could then install programs; view, change, or delete data; or create new accounts with full user rights.".
+
+     - "A Remote code execution vulnerability exists when the Windows Print Spooler service improperly performs privileged file operations. An attacker who successfully exploited this vulnerability could run arbitrary code with SYSTEM privileges. An attacker could then install programs; view, change, or delete data; or create new accounts with full user rights."._
+
+- **To exploit the CVE-2021-1675 vulnerability, the attacker would need to have direct or local access to the machine to use a malicious DLL file to escalate privileges.** 
+
+- **To exploit the CVE-2021-34527 vulnerability successfully, the attacker can remotely inject the malicious DLL file. **
+
+    - **Vulnerability metrics for CVE-2021-1675:** 
+    
+        - ![image](https://user-images.githubusercontent.com/94720207/167273470-1b8bca11-4d1d-40af-96e0-1ec8debe9b60.png)
+
+    - **Vulnerability metrics for CVE-2021-34527:**
+
+        - ![image](https://user-images.githubusercontent.com/94720207/167273476-2586eaba-c0a2-4157-b1ad-c0dd90f30b46.png)
+
+# What makes PrintNightmare dangerous? 
+
+1. **It can be exploited over the network; the attacker doesn't need direct access to the machine.**
+
+2. **The proof-of-concept was made public on the Internet.**
+
+3. **The Print Spooler service is enabled by DEFAULT on domain controllers and computers with SYSTEM privileges.**
+
+--- 
+
+
