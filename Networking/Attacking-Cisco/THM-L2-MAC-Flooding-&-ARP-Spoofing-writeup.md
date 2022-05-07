@@ -19,7 +19,7 @@
    
 ### Index 
 
-- [< **Before anything else!!!** >](/Networking/Attacking-Cisco/THM-L2-MAC-Flooding-&-ARP-Spoofing-writeup.md#layer-2-mac-flooding--arp-spoofing)
+- < **[Before anything else!!!](/Networking/Attacking-Cisco/THM-L2-MAC-Flooding-&-ARP-Spoofing-writeup.md#layer-2-mac-flooding--arp-spoofing)** >
 
 - < **Task 1**: [Network Discovery] >
 
@@ -42,6 +42,20 @@
 ### Layer 2 MAC Flooding & ARP Spoofing
 
 - **Before anything else!**
+    
+    - First of all, I want to thank the creator of this Cyber-Security laboratory focused on Layer 2 Network Security. I really enjoyed experimenting and learning with it! I'm looking forward to the next labs that will be released!
+    
+    - The machine is hosted on Try Hack Me and you can try it -here- (using this write up of course!) 
+    
+- **Scope:**
+
+    - At the moment I'm preparing for some Cisco certifications so I will focus the Mitigation of the Layer 2 Attacks reviewed in this room mainly to Cisco Infraescturcture like Cisco Layer 2 Switches.
+    
+    - I've included some more Cisco References and Best Practices for this write up whic I included at the end of the document. 
+    
+    - I've also used the material of my courses on the Cisco Network Academy      
+
+- **Author Introduction for the Lab**
 
     - For the sake of this room, let's assume the following:
 
