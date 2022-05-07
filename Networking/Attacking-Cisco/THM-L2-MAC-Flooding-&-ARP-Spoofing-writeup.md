@@ -338,7 +338,11 @@
             
 - The trick of the attack is **start and end both commands at same time**, because `macof` will spam MACs and we need to capture all that "crazy traffic", so we can try to crash that `CAM Table` of the `switch` and make it show us all his traffic, , **`just like a hub would do`**. So just try to capture at same time!. 
 
-    - You can send the file with `SCP` again to the attacker machine to analize the PCAP with `Wireshark`. 
+    - You can send the file with `SCP` again to the attacker machine to analize the PCAP with `Wireshark`.
+    
+- **Full MAC Flooding Attack:**  
+
+<span align="center"> <p align="center"> ![image](/Networking/Attacking-Cisco/MAC_Flooding_Attack.gif) </p> </span>
 
 - To be clear what is just happened, I will compare without filters the PCAPs during a MAC Flooding Attack VS normal LAN scenario:
 
