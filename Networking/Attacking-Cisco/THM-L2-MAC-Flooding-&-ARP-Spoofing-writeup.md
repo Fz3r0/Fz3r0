@@ -350,19 +350,23 @@
     
     - But! during a MAC Flooding Attack, I will see thousands of "random" `IPv4 packets` with "random" `MAC Address` & `IPv4` caused by my attack...
     
+        - ![image](https://user-images.githubusercontent.com/94720207/167235738-30f60ea2-bfb9-4b9b-8853-c06c18521ee6.png)
+    
     - Hidding somewhere between that "noise" and "randomness" there are the `ICMP unicast traffic`:
     
-        1. ICMP unicast "whispers" between me `eve` & `bob`  
+        1. ICMP unicast "whispers" between me `eve 192.168.12.66` & `bob 192.168.12.2` **(Normal behavior)**  
           
-        3. ICMP unicast "whispers" between `alice` & `bob`!!! **It means I can hear them!!!!**
+        3. ICMP unicast "whispers" between `alice 192.168.12.1` & `bob 192.168.12.2`!!! **It means I can hear them!!!!** **(MAC Flooding Attack)**
 
-- Now, let's analize the PCAP during the Attack, this time I captured 45 seconds of attack:
+- Let's analize another `PCAP` during a M`AC Flooding Attack`, **this time I captured more than 45 seconds of attack**:
 
-    - This PCAP is HUUUUGE! it collected **half million packets** in less than one minute... 
-    
-        - That's why this is considered a very noisy attack! that could even provoque a `DoS`.
+    - This PCAP is HUUUUGE! it collected more than **half million packets** in less than one minute...
         
-    - I will use the next `Wireshark filter`:
+        - Remember, **on a "normal scenario" I collected only 10 packets in 15 seconds!! Now I collected more than half million in 45 secs!!!**
+    
+        - **That's why this is considered a very noisy attack! that could even provoque a `DoS`.**
+        
+    - Anyway...I will use the next `Wireshark filter` to search inside that noise for the IPs that I want (`alice` & `bob`):
     
         - `ip.addr == 192.168.12.1 || ip.addr == 192.168.12.2`
   
@@ -386,30 +390,30 @@
 - With that filter I also can compare & analyze 2 different PCAPs I captured, one during a `MAC Flooding Attack`, other on a "normal" scenario:
 
 <span align="center"> <p align="center"> ![image](https://user-images.githubusercontent.com/94720207/167184382-e1585496-d7df-48f5-8197-020400077fcb.png)</p> </span>
-
-
         
 - I've found them! Analyzing the half million packets I've found 57 unicast packets between `bob` & `alice`, _I can read their minds..._
 
 - Now, I can read all the "conversation" between `alice` & `bob`, in this case those are only `ICMP Request` & `ICMP Replies` between them, but it proves: 
 
-    - `MAC Flooding Attacks` could provoque that `unicast` traffic like `ICMP` between other hosts in the network (`alice` & `bob`) can be "visible" for other hosts in the Network (`eve`). 
+    - **`MAC Flooding Attacks` could provoque that `unicast` traffic like `ICMP` between other hosts in the network (`alice` & `bob`) can be "visible" for other hosts in the Network (`eve`).** 
     
-    - This is performed `sniffing` the traffic while performing the `MAC Flooding`. It means:
+    - **This is performed `sniffing` the traffic while performing the `MAC Flooding`. It means:**
 
         - **I've "heard" the "whispering" (`unicast`) betweeen `bob` and `alice` inside the "room" (`Network,Subnet,LAN,VLAN...`).**
 
 - Just for a better idea this is somehow what it just happened:
 
-    - Normal behavior
+    - Normal Switch & LAN behaviour & traffic between `bob` & `alice`:
 
-![image](https://user-images.githubusercontent.com/94720207/166591522-1e1a8ac6-c570-4d2f-8097-dc4d8e28a07d.png)
+        - ![image](https://user-images.githubusercontent.com/94720207/166591522-1e1a8ac6-c570-4d2f-8097-dc4d8e28a07d.png)
 
-- ARP attack
+    - `Switch` crash and faulty behaviour during a `MAC Flooding Attack`:
 
-![image](https://user-images.githubusercontent.com/94720207/166606307-bc4066c9-926a-4d79-be2c-f0a8b6c40e8c.png)
+        - ![image](https://user-images.githubusercontent.com/94720207/166606307-bc4066c9-926a-4d79-be2c-f0a8b6c40e8c.png)
 
-- Maybe is not that "crazy" as those lines, but you can understand better the attack now! [The reality is that we just made the `switch` "go crazy" and start working as a `hub` due to evermwhelming spam of MAC address inside the CAM table of the switch](/Networking/Attacking-Cisco/THM-L2-MAC-Flooding-&-ARP-Spoofing-writeup.md#ive-found-in-my-old-write-ups-of-networking-something-very-useful-for-the-next-tasks-and-this-room-in-general-it-talks-about-layer-2-types-of-comunication-and-how-devices-like-switches-and-hubs-at-layer-2-creates-broadcast-and-collision-domains-also-how-layer-2-devices-uses-mac-addresses-to-identify-who-is-every-host-inside-the-lan)
+- I've just made the `switch` "go crazy" and start working as a `hub` due to evermwhelming spam of MAC address inside the CAM table of the switch, then I captured the traffic to "see" the conversation between `alice` and `bob`, [remember the broadcast & collision domains?](/Networking/Attacking-Cisco/THM-L2-MAC-Flooding-&-ARP-Spoofing-writeup.md#ive-found-in-my-old-write-ups-of-networking-something-very-useful-for-the-next-tasks-and-this-room-in-general-it-talks-about-layer-2-types-of-comunication-and-how-devices-like-switches-and-hubs-at-layer-2-creates-broadcast-and-collision-domains-also-how-layer-2-devices-uses-mac-addresses-to-identify-who-is-every-host-inside-the-lan)
+
+### Mitigation of MAC Flooding Attacks on Cisco Layer 2 Devices
 
 - **Mitigation** Configuring `Dynamic ARP Inspection (DAI)` on our Layer 2 Devices, for example Cisco Switches.**
     - ** Port Security is also another option configuring out switchport to only hold a max of 10 MAC on the CAM table**
