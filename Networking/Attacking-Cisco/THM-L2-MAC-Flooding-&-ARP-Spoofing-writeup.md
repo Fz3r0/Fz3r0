@@ -19,17 +19,23 @@
    
 ### Index 
 
-- < **Before anything else!!!** >
+- [< **Before anything else!!!** >](/Networking/Attacking-Cisco/THM-L2-MAC-Flooding-&-ARP-Spoofing-writeup.md#layer-2-mac-flooding--arp-spoofing)
 
-- < **Section 1**: Network Discovery >
+- < **Task 1**: [Network Discovery] >
 
-- < **Section 1**: Network Discovery >
+- < **Task 2**: [Passive Network Sniffing] >
 
-- < **Troubleshooting** & **show commands** for this configuration >** 
+- < **Task 3**: [Sniffing while MAC Flooding] >
 
-### Background Knowledge about this config:
+    - < **Task 3.1**: [Mitigation of MAC Flooding Attacks on Cisco Layer 2 Devices] >
 
-- < **Nerd Pocket-Bible about this configuration** >
+- < **Task 4**: [MITM Man-in-the-Middle (MITM): Intro to ARP Poisoning + Sniffing] >
+
+- < **Task 5**: [MITM Man-in-the-Middle (MITM): ARP Posoning + MAC Spoofing + Sniffing || Reverse Shell Payload + PrivEsc] >
+
+    - < **Task 5.1**: [Mitigation of ARP Poisoning + MAC Spoofing Attacks on Cisco Layer 2 Devices] >
+
+- [< **Conclusions & Proof of Concept** >](/Networking/Attacking-Cisco/THM-L2-MAC-Flooding-&-ARP-Spoofing-writeup.md#layer-2-mac-flooding--arp-spoofing)
 
 ---
 
