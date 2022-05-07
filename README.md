@@ -251,6 +251,10 @@
     - [Pro Configs @ Best Practices, Security Standards & SSH Logins](/Networking/Labs/SSH-Minimum-Requeriments-for-Cisco.md) _For any Cisco device (IOS)_ 
     - [Pro Configs @ Best Practices & Security Standards for Switchports & Interfaces](/Networking/Labs/Full-Interface-Port_Configuration.md)
     - [E-Mail & Raw Source Analysis for Secure Theat detection](https://mediatemple.net/community/products/grid/204644060/how-do-i-view-email-headers-for-a-message)
+
+- Network Security Defensive Tools, Shields & Tanks
+    - SysInternals > [SysInternals Tricks for Pro Strongholds]() 
+
 - Layer 2 Attacks
     - [Attacking & Defending Layer 2 - MAC Flooding/CAM Overflow | Man-In-The-Middle (MITM) > ARP Poisoning + MAC Spoofing + TCP Packet Tamper | Pivot + PrivEsc](/Networking/Attacking-Cisco/THM-L2-MAC-Flooding-&-ARP-Spoofing-writeup.md) _A writeup and project I made comprompising a Switched Network using the machine "l2macof_v11" from THM_  
     - VLAN Attack - Double Tagging
