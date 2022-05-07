@@ -46,16 +46,30 @@
     - First of all, I want to thank the creator of this Cyber-Security laboratory focused on Layer 2 Network Security. I really enjoyed experimenting and learning with it! I'm looking forward to the next labs that will be released!
     
     - The machine is hosted on Try Hack Me and you can try it -here- (using this write up of course!) 
-    
-- **Scope:**
 
-    - At the moment I'm preparing for some Cisco certifications so I will focus the Mitigation of the Layer 2 Attacks reviewed in this room mainly to Cisco Infraescturcture like Cisco Layer 2 Switches.
-    
-    - I've included some more Cisco References and Best Practices for this write up whic I included at the end of the document. 
-    
-    - I've also used the material of my courses on the Cisco Network Academy      
+&nbsp;
 
-- **Author Introduction for the Lab**
+<span align="center"> <p align="center"> ![3456b9bc-c5b2-4b16-862f-adbf7480e47b](https://user-images.githubusercontent.com/94720207/167259274-fe141a10-7f9e-48d9-bd08-4f8f69aa6281.png) </p> </span>
+
+&nbsp;
+
+- **Scope**
+    
+    - This write up is mainly focused in 2 different types of attacks to the Layer 2 of the OSI Model: `MAC Flooding Attacks` & `ARP Posoning Attacks`, using secondary techniques like `sniffing`, `packet tampering`, `network mapping`, among others... to fulfill the main purpose of a hacker attack or penetration test in this scenario: the escalation to root privileges on a given host or server. 
+    
+    - At the moment I'm preparing for some Cisco certifications and I'm looking forward to gain more experience & knowledge for my Cisco career focused in Network & Infraestructure Security, so I will focus the Mitigation of the Layer 2 Attacks reviewed in this room mainly for secure & harden Cisco Infraescturcture like Cisco Layer 2 Switches Catalyst Series.
+    
+    - I've included some more Cisco References about Security and Best Practices for this write up, which I've included at the end of the document. 
+    
+    - I've also used the material reviewed during my courses at the Cisco Network Academy.     
+
+&nbsp;
+
+<span align="center"> <p align="center"> ![image](https://user-images.githubusercontent.com/94720207/167259452-b5d52098-9039-4ed9-8e71-c9292dda0d54.png) </p> </span>
+
+&nbsp;
+
+- **Author Introduction & Setup Instructions for the Lab**
 
     - For the sake of this room, let's assume the following:
 
