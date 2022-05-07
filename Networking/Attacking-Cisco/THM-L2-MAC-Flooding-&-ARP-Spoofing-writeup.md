@@ -579,25 +579,27 @@ You will intercept and visualize all the traffic for 10.0.0.1.
     2. bob (192.168.12.20) MAC Address: F2:28:1A:40:F1:56 (Private)
     3. eve (192.168.12.66) _We are in this machine_
 
-- I will scan alice & bob:
+2. **Hosts enum**
 
-1. Alice:
+    - I will scan `alice` & `bob`:
 
-![image](https://user-images.githubusercontent.com/94720207/166413690-a5055086-6448-4ee3-b12e-36251f62d16e.png)
+        1. `alice` 192.168.12.1:
 
-2. Bob:
+            - ![image](https://user-images.githubusercontent.com/94720207/166413690-a5055086-6448-4ee3-b12e-36251f62d16e.png)
 
-![image](https://user-images.githubusercontent.com/94720207/166413961-b21aeb71-6680-4cc9-945d-3a799ef2b7f0.png)
+        2. `bob` 192.168.12.2:
 
-- There's a HTTP serving something on default Port 80, **but I have a 401 "No Authorized" response from it:**
+            - ![image](https://user-images.githubusercontent.com/94720207/166413961-b21aeb71-6680-4cc9-945d-3a799ef2b7f0.png)
 
-![image](https://user-images.githubusercontent.com/94720207/166414615-8152ebc1-0287-4c65-ab0f-35b69f6b0034.png)
+        - There's a HTTP serving something on default Port 80, **but I have a 401 "No Authorized" response from it, I saw it in the `nmap -sC` scan and also doing manually a request:**
 
-- I've also tried to **sniff on my interface Eth1 to search for someone trying to send traffic to eve** _(just as the precious task)_, but this time I was unlucky: 
+            - ![image](https://user-images.githubusercontent.com/94720207/166414615-8152ebc1-0287-4c65-ab0f-35b69f6b0034.png)
 
-![image](https://user-images.githubusercontent.com/94720207/166414791-90295843-4b46-4d88-bfbd-332c26143d27.png)
+        3. I've also tried to **sniff on my interface Eth1 to search for someone trying to send traffic to eve** _(just as the precious task)_, but this time I was unlucky: 
 
-- Ok, now I will try to perform an `ARP spoofing` attack as in the previous task and search for some interesting traffic:
+            - ![image](https://user-images.githubusercontent.com/94720207/166414791-90295843-4b46-4d88-bfbd-332c26143d27.png)
+
+- **Ok, now I will try to perform an `ARP spoofing` attack as in the previous task and search for some interesting traffic:**
 
     - `ettercap -T -i eth1 -M arp` 
 
