@@ -344,7 +344,8 @@
         - [Awesome Hacking](https://github.com/Fz3r0/Awesome-Hacking) _A collection of awesome lists for hackers, pentesters & security researchers._
         - [Tib3rius FULL Pentesting Black Magics](https://github.com/Tib3rius/Pentest-Cheatsheets) _Cheatsheets, Tools, PrivEsc, Checklist, Exploits_
         - [Aldeid](https://www.aldeid.com/wiki/Main_Page) _Wiki about Network and Web Applications Security, Ethical Hacking and Network Forensics._
-  
+        - [Shodan: The Complete Guide](https://skerritt.blog/shodan/) _Complete guide for Shodan.io: a search engine for the Internet of Things._
+        
     - [Privilege Escalation (PrivEsc)]
   
         - Linux PrivEsc
