@@ -307,7 +307,8 @@ Troubleshooting & Incidence Response for Notworking Hardware & Software by _Fz3r
 - Networking Tools/Weaponry Crafting, Programming, DevOps & Automation
  
     - [Tools & Weapons for Networking]
-        - [Domain to IP Converter](https://www.rankwatch.com/free-tools/domain-to-iP-converter-tool)
+        - [Domain to IP Converter](https://www.rankwatch.com/free-tools/domain-to-iP-converter-tool) _URL to IP Address online_
+        - [IP Info](https://ipinfo.io/) _Accurate IP address data "whois" online_
         - [LDWin - Link Discovery for Windows](https://github.com/Fz3r0/LDWin) _Discover connected ports on Switch using CDP & tcpdump.exe__
          
     - [Handcrafted Tools & Weapons for Networking] 
