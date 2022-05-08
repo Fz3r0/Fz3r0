@@ -226,9 +226,7 @@
     - [Configure **Ether-Channel** like a sir **(Etherport, PAgP, LACL, Static)** | STP)](/Networking/Knowledge/EtherChannel-like-a-sir.md)
     - [Configure **DHCPv4** like a Sir **(DHCPv4, Client, Server, Cisco Router, Home Router)**](/Networking/Knowledge/DHCPv4-like-a-sir.md)
  
-- **Fz3r0 >> Secure Network Labs by @ Fz3r0
-    - Lab f0 > 
-
+- **Fz3r0 >> Secure Network Labs** 
     - Lab 01 > [Secure Home Network + Internet to Home (FTTH) Simulation](/Networking/Labs/Router-on-a-Stick.md) _Packet Tracer_
     - Lab 02 > [Secure InterVLAN Routing: Router on a Stick](/Networking/Labs/Router-on-a-Stick.md) _Packet Tracer_
     - Lab 03 > [Secure InterVLAN Routing: Switch Virtual Interface SVI](/Networking/Labs/Switch-Virtual-Interface-SVI.md) _Packet Tracer_ 
@@ -238,7 +236,7 @@
     - Lab 07 > [EtherChannel All-in-One! LACP, PAgP & Static + RSTP+](/Networking/Labs/EtherChannel-Like-a-Sir.md) _Packet Tracer_
     - Lab 08 > [DHCPv4 All-in-One! DHCP Servers, DHCP Clients & DHCP Frame Relay Agents of all types!](/Networking/Labs/DHCPv4-All-in-One-lab.md) _Packet Tracer_
      
-- [Network Troubleshooting & Ass-Savers]
+- **Fz3r0 >> Network Troubleshooting & Ass-Savers**
     - [**Boot/Start-up** from a Binary **.bin** or **config.text** & **Recover** from a **System Crash**](/Networking/Knowledge/Troubleshooting/Boot-From-Init-BIN_&_Restore_Device_from_crash.md) _The tricks and hints for booting_
     - [**Reset config of Cisco device Back to Factory Default settings**](/Networking/Knowledge/Troubleshooting/Boot-From-Init-BIN_&_Restore_Device_from_crash.md) _Shiny as new, it also smells! yummm_
     - [Find & Troubleshoot **Access Layer Issues**, **Output & Input Errors** {Runt, Giants, CRC, Collisions} (**show interface**)](/Networking/Knowledge/Troubleshooting/Output_&_Input-Errors-show-interfaces.md) _Find and repair shitty errors in the transmission_
@@ -276,6 +274,10 @@
         - Man-in-the-Middle Attack (MITM)
  
 - Networking Tools/Weaponry Crafting, Programming, DevOps & Automation
+ 
+    - [Tools & Weapons for Networking]
+        - [Domain to IP Converter](https://www.rankwatch.com/free-tools/domain-to-iP-converter-tool)
+         
     - [Handcrafted Tools & Weapons for Networking] 
         - [Dark Art of Packet Crafting with Scapy](https://0xbharath.github.io/art-of-packet-crafting-with-scapy/index.html) _@ Python + Scapy_
         - [Creating malicious packets & breaking TCP/IP rules](Fz3r0/Networking/Attacking-Cisco/weird_TCP_fz3r0.py )  _@ Python + Scapy_
