@@ -279,6 +279,7 @@ Pro and Secure Network Configurations Guides made by me _(Protocols & Techs)_
  
     - [Tools & Weapons for Networking]
         - [Domain to IP Converter](https://www.rankwatch.com/free-tools/domain-to-iP-converter-tool)
+        - [LDWin - Link Discovery for Windows](https://github.com/Fz3r0/LDWin) _Discover connected ports on Switch using CDP & tcpdump.exe__
          
     - [Handcrafted Tools & Weapons for Networking] 
         - [Dark Art of Packet Crafting with Scapy](https://0xbharath.github.io/art-of-packet-crafting-with-scapy/index.html) _@ Python + Scapy_
