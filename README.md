@@ -306,20 +306,20 @@ Guides for performing Penetration Attacks involving the Network Infrastructure E
     - Rogue Access Points
     - Man-in-the-Middle Attack (MITM)
  
-### Fz3r0 >> Networking Tools/Weaponry Crafting, Programming, DevOps & Automation
+### Fz3r0 >> Networking Tools & Weapons: Training, Crafting & Arsenal
 Guides, Tips & Tricks, Downloads, Binaries, Executables, Scripts, Open Source Codes
 
-- Networking Tools Guides
+- **Networking Tools Guides & Writeups by @ Fz3r0**
     - **Wireshark - From Nemo to Black Megalodon: Pro Sniffing & Network Traffic Audit/Analysis.** by @ Fz3r0    
     - **Snort @ Cisco Talos - The foremost IPS in the world. Define malicious network activity.** by @ Fz3r0
 
-- [Tools & Weapons for Networking]
+- **Tools for the Pro Networking Engineer**
     - [Wireshark]()
     - [Domain to IP Converter](https://www.rankwatch.com/free-tools/domain-to-iP-converter-tool) _URL to IP Address online_
     - [IP Info](https://ipinfo.io/) _Accurate IP address data "whois" online_
     - [LDWin - Link Discovery for Windows](https://github.com/Fz3r0/LDWin) _Discover connected ports on Switch using CDP & tcpdump.exe__
          
-- [Net Blacksmithing - Handcrafted Tools & Weaponry for Networking by @ Fz3r0] 
+- **Net Blacksmithing: Handcrafted Tools & Weaponry for Networking by @ Fz3r0** 
     - [Dark Art of Packet Crafting with Scapy](https://0xbharath.github.io/art-of-packet-crafting-with-scapy/index.html) _@ Python + Scapy_
     - [Creating malicious packets & breaking TCP/IP rules](Fz3r0/Networking/Attacking-Cisco/weird_TCP_fz3r0.py )  _@ Python + Scapy_
     - [Simple Network Scanner](https://gist.github.com/Fz3r0/3e26fdf87b5e223b13578db9d150c815) _@ Python + Scapy_
