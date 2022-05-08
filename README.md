@@ -219,6 +219,7 @@ Tables, Models, Cheat-Sheets, Mind-Maps & Resources
 - https://github.com/Fz3r0/cisco-cheatsheet
 - https://github.com/Fz3r0/Cisco-IOS-Command-CheatSheets
 - [all commands ios](https://itexamanswers.net/cisco-ios-commands-help-ccna-commands-cheat-sheet.html)
+- [shodan.io Hacks, Dorks & Bonus](https://0ut3r.space/2020/07/25/shodan-dorks/)
 
 <!--
 
