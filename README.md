@@ -163,7 +163,7 @@
 ** =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=- INFIERNO 
 *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
 
--->
+
     
 <span align="center"> <h3 align="center">   </h3> </span>  
 <span align="center"> <h3 align="center"> 💀 Infierno: Canto I 💀 </h3> </span>  
@@ -182,7 +182,7 @@
   
 
   
-<!--
+
 
 *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
 ** =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=- INDEX TITLE,ABOUT,CONTACT 
@@ -284,27 +284,27 @@ Troubleshooting & Incidence Response for Notworking Hardware & Software by _Fz3r
     - [E-Mail & Raw Source Analysis for Secure Theat detection](https://mediatemple.net/community/products/grid/204644060/how-do-i-view-email-headers-for-a-message)
 
 - Network Security Defensive Tools, Shields & Tanks
-    - SysInternals > [SysInternals Tricks for Pro Strongholds]() 
-
-- Layer 2 Attacks ⚔️ 
-    - [Attacking & Defending Layer 2 - MAC Flooding/CAM Overflow | Man-In-The-Middle (MITM) > ARP Poisoning + MAC Spoofing + TCP Packet Tamper | Pivot + PrivEsc](/Networking/Attacking-Cisco/THM-L2-MAC-Flooding-&-ARP-Spoofing-writeup.md) _A writeup and project I made comprompising a Switched Network using the machine "l2macof_v11" from THM_  
-    - VLAN Attack - Double Tagging
-    - VLAN Attack - Attack Between Devices
-    - DHCP Attack - DHCP Starvation
-    - DHCP Attack - DHCP Spoofing
-    - [DHCP Attack - Rougue DHCP Server | MiTM](https://www.youtube.com/watch?v=eWVzteyRFYo) _@ Ettercap_
-    - [ARP Attack - ARP Spoofing](https://www.youtube.com/watch?v=mchrDyBdMmc)
-    - [ARP Attack - ARP Poisoning](/Networking/Attacking-Network-Infraestructure/Layer-2-Attacks/ARP-Attack-ARP-Poisoning.md)
-    - Address Spoofing - MAC & IP Spoofing
-    - STP Attack - Spaning Tree Protocol Manipulation
-    - CDP Attack - CDP Recon & Crafting
+    - SysInternals > [SysInternals Tricks for Pro Strongholds](/Networking/Attacking-Cisco/THM-L2-MAC-Flooding-&-ARP-Spoofing-writeup.md) 
+    - SysInternals > [SysInternals Tricks for Pro Strongholds](/Networking/Attacking-Cisco/THM-L2-MAC-Flooding-&-ARP-Spoofing-writeup.md)
+    
+- Layer 2 Attacks 
+    - [MAC Flooding/CAM Overflow, Man-In-The-Middle (MITM) ARP Poisoning + MAC Spoofing + TCP Packet Tamper, Pivot + PrivEsc](/Networking/Attacking-Cisco/THM-L2-MAC-Flooding-&-ARP-Spoofing-writeup.md)
+    - [VLAN Attack Double Tagging]()
+    - [VLAN Attack  Attack Between Devices]()
+    - [DHCP Attack DHCP Starvation]()
+    - [DHCP Attack DHCP Spoofing]()
+    - [DHCP Attack Rougue DHCP Server | MiTM](https://www.youtube.com/watch?v=eWVzteyRFYo) _@ Ettercap_
+    - [ARP Attack ARP Spoofing](https://www.youtube.com/watch?v=mchrDyBdMmc)
+    - [ARP Attack ARP Poisoning](/Networking/Attacking-Network-Infraestructure/Layer-2-Attacks/ARP-Attack-ARP-Poisoning.md)
+    - [Address Spoofing MAC & IP Spoofing]()
+    - [STP Attack Spaning Tree Protocol Manipulation]()
+    - [CDP Attack CDP Recon & Crafting]()
     - [Attacking STP & BPDUs crafting packs](https://github.com/tomac/yersinia) _@ Yersenia_
-    - [THM - L2 MAC Flooding & ARP Spoofing](/Networking/Attacking-Cisco/THM-L2-MAC-Flooding-&-ARP-Spoofing.md) 2x1! _MAC Flooding to sniff traffic and ARP Cache Poisoning to manipulate network traffic as a MITM._
 
-    - Wireless Threats & Attacks
-        - DoS Attack - Interference & Misconfigurations
-        - Rogue Access Points
-        - Man-in-the-Middle Attack (MITM)
+- Wireless Threats & Attacks
+    - DoS Attack - Interference & Misconfigurations
+    - Rogue Access Points
+    - Man-in-the-Middle Attack (MITM)
  
 ### Fz3r0 >> Networking Tools/Weaponry Crafting, Programming, DevOps & Automation
 Guides, Tips & Tricks, Downloads, Binaries, Executables, Scripts, Open Source Codes
