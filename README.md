@@ -219,7 +219,7 @@ Tables, Models, Cheat-Sheets, Mind-Maps & Resources
 - https://github.com/Fz3r0/cisco-cheatsheet
 - https://github.com/Fz3r0/Cisco-IOS-Command-CheatSheets
 - [all commands ios](https://itexamanswers.net/cisco-ios-commands-help-ccna-commands-cheat-sheet.html)
-- [shodan.io Hacks, Dorks & Bonus](https://0ut3r.space/2020/07/25/shodan-dorks/)
+
 
 <!--
 
@@ -372,19 +372,21 @@ Troubleshooting & Incidence Response for Notworking Hardware & Software by _Fz3r
 
 -->  
   
-- [Cyber-Security & Hacking]
+# Offensive Security & Hacking
   
-    - [Hacking Bibles]
-        - [The Book of the Secret Knowledge](https://github.com/Fz3r0/the-book-of-secret-knowledge) _A collection of lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools & more._
-        - [The Art of Hacking](https://github.com/The-Art-of-Hacking/h4cker) _Over 9,000 References, Scripts, Tools, Code & Resources for Offensive/Defensive Security_
-        - [Awesome Hacking](https://github.com/Fz3r0/Awesome-Hacking) _A collection of awesome lists for hackers, pentesters & security researchers._
-        - [Tib3rius FULL Pentesting Black Magics](https://github.com/Tib3rius/Pentest-Cheatsheets) _Cheatsheets, Tools, PrivEsc, Checklist, Exploits_
-        - [Aldeid](https://www.aldeid.com/wiki/Main_Page) _Wiki about Network and Web Applications Security, Ethical Hacking and Network Forensics._
-        - [Shodan: The Complete Guide](https://skerritt.blog/shodan/) _Complete guide for Shodan.io: a search engine for the Internet of Things._
-        
-    - [Privilege Escalation (PrivEsc)]
+### Hacking Bibles
+- [The Book of the Secret Knowledge](https://github.com/Fz3r0/the-book-of-secret-knowledge) _A collection of lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools & more._
+- [The Art of Hacking](https://github.com/The-Art-of-Hacking/h4cker) _Over 9,000 References, Scripts, Tools, Code & Resources for Offensive/Defensive Security_
+- [Awesome Hacking](https://github.com/Fz3r0/Awesome-Hacking) _A collection of awesome lists for hackers, pentesters & security researchers._
+- [Tib3rius FULL Pentesting Black Magics](https://github.com/Tib3rius/Pentest-Cheatsheets) _Cheatsheets, Tools, PrivEsc, Checklist, Exploits_
+- [Aldeid](https://www.aldeid.com/wiki/Main_Page) _Wiki about Network and Web Applications Security, Ethical Hacking and Network Forensics._
+- [Shodan: The Complete Guide](https://skerritt.blog/shodan/) _Complete guide for Shodan.io: a search engine for the Internet of Things._
+- [shodan.io Hacks, Dorks & Bonus](https://0ut3r.space/2020/07/25/shodan-dorks/)
+- [OSINT like Agent 007 - Cipher Knowledge](https://github.com/Fz3r0/osint_stuff_tool_collection?organization=Fz3r0&organization=Fz3r0)        
+    
+### Privilege Escalation (PrivEsc)
   
-        - Linux PrivEsc
+- Linux PrivEsc
             - Fz3r0 Linux PrivEsc Ninjitsu(/Networking/Labs/) _My own logs & writeups about Linux PrivEsc_
             - [Linux | Pergamino I](https://github.com/netbiosX/Checklists/blob/master/Linux-Privilege-Escalation.md)
             - [Linux | Pergamino II - swisskyrepo](https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Linux%20-%20Privilege%20Escalation.md)
