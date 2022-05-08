@@ -258,6 +258,7 @@ Pro and Secure Network Configurations Guides by _Fz3r0_
 
 ### Fz3r0 >> Secure Network Labs 🧪 🛡️  
 Networking Labs using simulators, emulators like Packet Tracer, GNS3 & eve / and/or physical infraestructure by _Fz3r0_
+
 - Lab 01 > [Secure Home Network + Internet to Home (FTTH) Simulation](/Networking/Labs/Router-on-a-Stick.md) _Packet Tracer_
 - Lab 02 > [Secure InterVLAN Routing: Router on a Stick](/Networking/Labs/Router-on-a-Stick.md) _Packet Tracer_
 - Lab 03 > [Secure InterVLAN Routing: Switch Virtual Interface SVI](/Networking/Labs/Switch-Virtual-Interface-SVI.md) _Packet Tracer_ 
@@ -275,7 +276,7 @@ Troubleshooting & Incidence Response for Notworking Hardware & Software by _Fz3r
 - [Cut-Throught & Store-and-forward Switching](https://user-images.githubusercontent.com/94720207/164997743-d42dbae9-edb4-4f83-ae44-16cb5eab2fd4.png) _Spoiler-alert: Store-and-Forward for the win! Checksum FTW_
 - [Fixing **Kali VM Bridge Network** [VMware] (GNS3 + Hacking Labs = ETH kaput!)](/Networking/Knowledge/Troubleshooting/Kali-Bridge-Issue-ETH.md) _Easy fix to the bridge VMware incidence_
  
-### Attacking & Defending Network Infraestructure ⚔️ 
+### Fz3r0 >> Attacking & Defending Network Infraestructure ⚔️ 
  
 - Security & Best Practices configurations for Networking
     - [Pro Configs @ Best Practices, Security Standards & SSH Logins](/Networking/Labs/SSH-Minimum-Requeriments-for-Cisco.md) _For any Cisco device (IOS)_ 
@@ -305,25 +306,31 @@ Troubleshooting & Incidence Response for Notworking Hardware & Software by _Fz3r
         - Rogue Access Points
         - Man-in-the-Middle Attack (MITM)
  
-- Networking Tools/Weaponry Crafting, Programming, DevOps & Automation
- 
-    - [Tools & Weapons for Networking]
-        - [Domain to IP Converter](https://www.rankwatch.com/free-tools/domain-to-iP-converter-tool) _URL to IP Address online_
-        - [IP Info](https://ipinfo.io/) _Accurate IP address data "whois" online_
-        - [LDWin - Link Discovery for Windows](https://github.com/Fz3r0/LDWin) _Discover connected ports on Switch using CDP & tcpdump.exe__
+### Fz3r0 >> Networking Tools/Weaponry Crafting, Programming, DevOps & Automation
+Guides, Tips & Tricks, Downloads, Binaries, Executables, Scripts, Open Source Codes
+
+- Networking Tools Guides
+    - **Wireshark - From Nemo to Black Megalodon: Pro Sniffing & Network Traffic Audit/Analysis.** by @ Fz3r0    
+    - **Snort @ Cisco Talos - The foremost IPS in the world. Define malicious network activity.** by @ Fz3r0
+
+- [Tools & Weapons for Networking]
+    - [Wireshark]()
+    - [Domain to IP Converter](https://www.rankwatch.com/free-tools/domain-to-iP-converter-tool) _URL to IP Address online_
+    - [IP Info](https://ipinfo.io/) _Accurate IP address data "whois" online_
+    - [LDWin - Link Discovery for Windows](https://github.com/Fz3r0/LDWin) _Discover connected ports on Switch using CDP & tcpdump.exe__
          
-    - [Handcrafted Tools & Weapons for Networking] 
-        - [Dark Art of Packet Crafting with Scapy](https://0xbharath.github.io/art-of-packet-crafting-with-scapy/index.html) _@ Python + Scapy_
-        - [Creating malicious packets & breaking TCP/IP rules](Fz3r0/Networking/Attacking-Cisco/weird_TCP_fz3r0.py )  _@ Python + Scapy_
-        - [Simple Network Scanner](https://gist.github.com/Fz3r0/3e26fdf87b5e223b13578db9d150c815) _@ Python + Scapy_
-        - [Medium Network Scanner](https://gist.github.com/Fz3r0/2cc8f8699a829e06f5d70e86a6be53c0) _@ Python + Scapy_
-        - [Full Network Scanner](https://github.com/Fz3r0/netScan_Python) _@ Python_
-        - [Simple Port Scanner](https://github.com/Fz3r0/pythscan_port_scan_simple) _@ Python + Sockets_ 
-        - [Full Port Scanner](https://github.com/Fz3r0/Python-Port-Scanner_large) _@ Python + Sockets_
-        - [Subnet Calculator](https://github.com/Fz3r0/subnetcalc_python) _@ Python_
-        - [OS Identifier using TTL](https://github.com/Fz3r0/WichSystem.py/blob/main/wichSystem.py) _@ Python_
+- [Net Blacksmithing - Handcrafted Tools & Weaponry for Networking by @ Fz3r0] 
+    - [Dark Art of Packet Crafting with Scapy](https://0xbharath.github.io/art-of-packet-crafting-with-scapy/index.html) _@ Python + Scapy_
+    - [Creating malicious packets & breaking TCP/IP rules](Fz3r0/Networking/Attacking-Cisco/weird_TCP_fz3r0.py )  _@ Python + Scapy_
+    - [Simple Network Scanner](https://gist.github.com/Fz3r0/3e26fdf87b5e223b13578db9d150c815) _@ Python + Scapy_
+    - [Medium Network Scanner](https://gist.github.com/Fz3r0/2cc8f8699a829e06f5d70e86a6be53c0) _@ Python + Scapy_
+    - [Full Network Scanner](https://github.com/Fz3r0/netScan_Python) _@ Python_
+    - [Simple Port Scanner](https://github.com/Fz3r0/pythscan_port_scan_simple) _@ Python + Sockets_ 
+    - [Full Port Scanner](https://github.com/Fz3r0/Python-Port-Scanner_large) _@ Python + Sockets_
+    - [Subnet Calculator](https://github.com/Fz3r0/subnetcalc_python) _@ Python_
+    - [OS Identifier using TTL](https://github.com/Fz3r0/WichSystem.py/blob/main/wichSystem.py) _@ Python_
  
-    - [Network Automation]
+- [Network Automation]
         - [Network Automation @ NAPALM](https://github.com/Fz3r0/napalm) _Network Automation and Programmability Abstraction Layer with Multivendor support_
         - [Network Automation @ Trigger](https://github.com/Fz3r0/trigger)
         - [Automate Cisco IOS Commands](https://github.com/cbferguson/cisco_commands) _@ Python_
