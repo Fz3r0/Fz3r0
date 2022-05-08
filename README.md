@@ -180,7 +180,7 @@
 
 <p align="center"> <img src="https://user-images.githubusercontent.com/94720207/164912570-d86e1783-fcad-43eb-9fae-f5e6ff48cdac.png" alt="skull3" width="20%" height="auto"/> </p>  
   
----
+
   
 <!--
 
@@ -190,7 +190,7 @@
 
 -->    
  
-<span align="center"> <h3 align="center"> INDEX </h3> </span>   
+<span align="center"> <h1 align="center"> INDEX </h3> </span>   
     
 ### About 
 
@@ -207,30 +207,32 @@
 
 -->    
 
-### Networking 
+## Networking 
   
-- **Fz3r0 >> Dark Wizardy for Networking & NetSec:** Tables, Models, Cheat-Sheets, Mind-Maps & Resources 
-    - [TCP-IP Hybrid Model by Fz3r0 (TCP+OSI)](/Networking/Knowledge/Tables-Models-Cheatsheets/Tables-Models/TCP-IP-Model-fz3r0_Hybrid.md) _A model I made with love for TCP-IP/OSI, all in one! :)_
-    - [Reserved IPv4 & IPv6 Addresses by Fz3r0](/Networking/Knowledge/Tables-Models-Cheatsheets/Tables-Models/reserved_ip_fz3r0.md)
-    - [Cisco Newtorks Routing & Switching CLI/IOS Bible by Fz3r0](/Networking/Labs/) _My CCNA+CCNP Pocket Bible_
-    - [TCP/UDP Port Number IANA list @ Python - WhatPortIs](https://github.com/Fz3r0/whatportis)
-    - [Cisco CCNA Cheat Sheet I](https://github.com/Fz3r0/CCNA-Cheat-Sheet)
-    - https://github.com/Fz3r0/cisco-cheatsheet
-    - https://github.com/Fz3r0/Cisco-IOS-Command-CheatSheets
-    - [all commands ios](https://itexamanswers.net/cisco-ios-commands-help-ccna-commands-cheat-sheet.html)
+### **Fz3r0 >> Dark Wizardy for Networking & NetSec** 🖧 🧙‍♂️
+Tables, Models, Cheat-Sheets, Mind-Maps & Resources
+- [TCP-IP Hybrid Model by Fz3r0 (TCP+OSI)](/Networking/Knowledge/Tables-Models-Cheatsheets/Tables-Models/TCP-IP-Model-fz3r0_Hybrid.md) _A model I made with love for TCP-IP/OSI, all in one! :)_
+- [Reserved IPv4 & IPv6 Addresses by Fz3r0](/Networking/Knowledge/Tables-Models-Cheatsheets/Tables-Models/reserved_ip_fz3r0.md)
+- [Cisco Newtorks Routing & Switching CLI/IOS Bible by Fz3r0](/Networking/Labs/) _My CCNA+CCNP Pocket Bible_
+- [TCP/UDP Port Number IANA list @ Python - WhatPortIs](https://github.com/Fz3r0/whatportis)
+- [Cisco CCNA Cheat Sheet I](https://github.com/Fz3r0/CCNA-Cheat-Sheet)
+- https://github.com/Fz3r0/cisco-cheatsheet
+- https://github.com/Fz3r0/Cisco-IOS-Command-CheatSheets
+- [all commands ios](https://itexamanswers.net/cisco-ios-commands-help-ccna-commands-cheat-sheet.html)
 
 
-- **Fz3r0 >> Configure it Like a Sir!** Pro and Secure Network Configurations Guides made by me _(Protocols & Techs)_
-    - [Configurar **VLANs** de Noob a Pro! _En Español_](/Networking/Knowledge/VLANS_full!.png)
-    - [Configure **Spaning Tree Protocol** like a Sir **(STP, RSTP+, PVSTP & R-PVSTP)**](/Networking/Knowledge/STP-for-dummies.md)
-    - [Configure **Ether-Channel** like a sir **(Etherport, PAgP, LACL, Static)** | STP)](/Networking/Knowledge/EtherChannel-like-a-sir.md)
-    - [Configure **DHCPv4** like a Sir **(DHCPv4, Client, Server, Cisco Router, Home Router)**](/Networking/Knowledge/DHCPv4-like-a-sir.md)
+### Fz3r0 >> Configure it Like a Sir! 🖧 ⚙️ 🔐
+Pro and Secure Network Configurations Guides made by me _(Protocols & Techs)_
+- [Configurar **VLANs** de Noob a Pro! _En Español_](/Networking/Knowledge/VLANS_full!.png)
+- [Configure **Spaning Tree Protocol** like a Sir **(STP, RSTP+, PVSTP & R-PVSTP)**](/Networking/Knowledge/STP-for-dummies.md)
+- [Configure **Ether-Channel** like a sir **(Etherport, PAgP, LACL, Static)** | STP)](/Networking/Knowledge/EtherChannel-like-a-sir.md)
+- [Configure **DHCPv4** like a Sir **(DHCPv4, Client, Server, Cisco Router, Home Router)**](/Networking/Knowledge/DHCPv4-like-a-sir.md)
  
-- **Fz3r0 >> Secure Network Labs** 
-    - Lab 01 > [Secure Home Network + Internet to Home (FTTH) Simulation](/Networking/Labs/Router-on-a-Stick.md) _Packet Tracer_
-    - Lab 02 > [Secure InterVLAN Routing: Router on a Stick](/Networking/Labs/Router-on-a-Stick.md) _Packet Tracer_
-    - Lab 03 > [Secure InterVLAN Routing: Switch Virtual Interface SVI](/Networking/Labs/Switch-Virtual-Interface-SVI.md) _Packet Tracer_ 
-    - Lab 04 > [Secure Routing Dual Stack Topology + InterVLAN Routing](https://user-images.githubusercontent.com/94720207/164995003-71eaecd4-b6ee-4c6f-a7e4-1eb7fe7d8948.png)
+### Fz3r0 >> Secure Network Labs 🖧 🧪 🛡️  
+- Lab 01 > [Secure Home Network + Internet to Home (FTTH) Simulation](/Networking/Labs/Router-on-a-Stick.md) _Packet Tracer_
+- Lab 02 > [Secure InterVLAN Routing: Router on a Stick](/Networking/Labs/Router-on-a-Stick.md) _Packet Tracer_
+- Lab 03 > [Secure InterVLAN Routing: Switch Virtual Interface SVI](/Networking/Labs/Switch-Virtual-Interface-SVI.md) _Packet Tracer_ 
+- Lab 04 > [Secure Routing Dual Stack Topology + InterVLAN Routing](https://user-images.githubusercontent.com/94720207/164995003-71eaecd4-b6ee-4c6f-a7e4-1eb7fe7d8948.png)
     - Lab 05 > [Secure RSTP & Rapid PVST+STP (aka STP) in 3-leaf-spine Data Center](/Networking/Labs/STP-3-Leaf-Spine-(1VLAN).md) _Packet Tracer_
     - Lab 06 > [Secure RSTP & Rapid PVST+STP (aka STP) in 3-leaf-spine Data Center](/Networking/Labs/STP-3-Leaf-Spine-(1VLAN).md) _GNS3_
     - Lab 07 > [EtherChannel All-in-One! LACP, PAgP & Static + RSTP+](/Networking/Labs/EtherChannel-Like-a-Sir.md) _Packet Tracer_
