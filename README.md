@@ -220,30 +220,59 @@ Tables, Models, Cheat-Sheets, Mind-Maps & Resources
 - https://github.com/Fz3r0/Cisco-IOS-Command-CheatSheets
 - [all commands ios](https://itexamanswers.net/cisco-ios-commands-help-ccna-commands-cheat-sheet.html)
 
+<!--
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+
+====================================
+
+** =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=- Fz3r0 >> Configure it Like a Sir! ⚙️ 🔐 
+
+====================================
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+
+--> 
 
 ### Fz3r0 >> Configure it Like a Sir! ⚙️ 🔐
-Pro and Secure Network Configurations Guides made by me _(Protocols & Techs)_
+Pro and Secure Network Configurations Guides by _Fz3r0_
 - [Configurar **VLANs** de Noob a Pro! _En Español_](/Networking/Knowledge/VLANS_full!.png)
 - [Configure **Spaning Tree Protocol** like a Sir **(STP, RSTP+, PVSTP & R-PVSTP)**](/Networking/Knowledge/STP-for-dummies.md)
 - [Configure **Ether-Channel** like a sir **(Etherport, PAgP, LACL, Static)** | STP)](/Networking/Knowledge/EtherChannel-like-a-sir.md)
 - [Configure **DHCPv4** like a Sir **(DHCPv4, Client, Server, Cisco Router, Home Router)**](/Networking/Knowledge/DHCPv4-like-a-sir.md)
- 
+
+<!--
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+
+====================================
+
+** =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=- Fz3r0 >> Secure Network Labs 🧪 🛡️  
+
+====================================
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+
+--> 
+
 ### Fz3r0 >> Secure Network Labs 🧪 🛡️  
+Networking Labs using simulators, emulators like Packet Tracer, GNS3 & eve / and/or physical infraestructure by _Fz3r0_
 - Lab 01 > [Secure Home Network + Internet to Home (FTTH) Simulation](/Networking/Labs/Router-on-a-Stick.md) _Packet Tracer_
 - Lab 02 > [Secure InterVLAN Routing: Router on a Stick](/Networking/Labs/Router-on-a-Stick.md) _Packet Tracer_
 - Lab 03 > [Secure InterVLAN Routing: Switch Virtual Interface SVI](/Networking/Labs/Switch-Virtual-Interface-SVI.md) _Packet Tracer_ 
 - Lab 04 > [Secure Routing Dual Stack Topology + InterVLAN Routing](https://user-images.githubusercontent.com/94720207/164995003-71eaecd4-b6ee-4c6f-a7e4-1eb7fe7d8948.png)
-    - Lab 05 > [Secure RSTP & Rapid PVST+STP (aka STP) in 3-leaf-spine Data Center](/Networking/Labs/STP-3-Leaf-Spine-(1VLAN).md) _Packet Tracer_
-    - Lab 06 > [Secure RSTP & Rapid PVST+STP (aka STP) in 3-leaf-spine Data Center](/Networking/Labs/STP-3-Leaf-Spine-(1VLAN).md) _GNS3_
-    - Lab 07 > [EtherChannel All-in-One! LACP, PAgP & Static + RSTP+](/Networking/Labs/EtherChannel-Like-a-Sir.md) _Packet Tracer_
-    - Lab 08 > [DHCPv4 All-in-One! DHCP Servers, DHCP Clients & DHCP Frame Relay Agents of all types!](/Networking/Labs/DHCPv4-All-in-One-lab.md) _Packet Tracer_
+- Lab 05 > [Secure RSTP & Rapid PVST+STP (aka STP) in 3-leaf-spine Data Center](/Networking/Labs/STP-3-Leaf-Spine-(1VLAN).md) _Packet Tracer_
+- Lab 06 > [Secure RSTP & Rapid PVST+STP (aka STP) in 3-leaf-spine Data Center](/Networking/Labs/STP-3-Leaf-Spine-(1VLAN).md) _GNS3_
+- Lab 07 > [EtherChannel All-in-One! LACP, PAgP & Static + RSTP+](/Networking/Labs/EtherChannel-Like-a-Sir.md) _Packet Tracer_
+- Lab 08 > [DHCPv4 All-in-One! DHCP Servers, DHCP Clients & DHCP Frame Relay Agents of all types!](/Networking/Labs/DHCPv4-All-in-One-lab.md) _Packet Tracer_
      
-- **Fz3r0 >> Network Troubleshooting & Ass-Savers** ⚠️ 🆘
-    - [**Boot/Start-up** from a Binary **.bin** or **config.text** & **Recover** from a **System Crash**](/Networking/Knowledge/Troubleshooting/Boot-From-Init-BIN_&_Restore_Device_from_crash.md) _The tricks and hints for booting_
-    - [**Reset config of Cisco device Back to Factory Default settings**](/Networking/Knowledge/Troubleshooting/Boot-From-Init-BIN_&_Restore_Device_from_crash.md) _Shiny as new, it also smells! yummm_
-    - [Find & Troubleshoot **Access Layer Issues**, **Output & Input Errors** {Runt, Giants, CRC, Collisions} (**show interface**)](/Networking/Knowledge/Troubleshooting/Output_&_Input-Errors-show-interfaces.md) _Find and repair shitty errors in the transmission_
-    - [Cut-Throught & Store-and-forward Switching](https://user-images.githubusercontent.com/94720207/164997743-d42dbae9-edb4-4f83-ae44-16cb5eab2fd4.png) _Spoiler-alert: Store-and-Forward for the win! Checksum FTW_
-    - [Fixing **Kali VM Bridge Network** [VMware] (GNS3 + Hacking Labs = ETH kaput!)](/Networking/Knowledge/Troubleshooting/Kali-Bridge-Issue-ETH.md) _Easy fix to the bridge VMware incidence_
+### Fz3r0 >> Network Troubleshooting & Ass-Savers ⚠️ 🆘
+Troubleshooting & Incidence Response for Notworking Hardware & Software by _Fz3r0_
+- [**Boot/Start-up** from a Binary **.bin** or **config.text** & **Recover** from a **System Crash**](/Networking/Knowledge/Troubleshooting/Boot-From-Init-BIN_&_Restore_Device_from_crash.md) _The tricks and hints for booting_
+- [**Reset config of Cisco device Back to Factory Default settings**](/Networking/Knowledge/Troubleshooting/Boot-From-Init-BIN_&_Restore_Device_from_crash.md) _Shiny as new, it also smells! yummm_
+- [Find & Troubleshoot **Access Layer Issues**, **Output & Input Errors** {Runt, Giants, CRC, Collisions} (**show interface**)](/Networking/Knowledge/Troubleshooting/Output_&_Input-Errors-show-interfaces.md) _Find and repair shitty errors in the transmission_
+- [Cut-Throught & Store-and-forward Switching](https://user-images.githubusercontent.com/94720207/164997743-d42dbae9-edb4-4f83-ae44-16cb5eab2fd4.png) _Spoiler-alert: Store-and-Forward for the win! Checksum FTW_
+- [Fixing **Kali VM Bridge Network** [VMware] (GNS3 + Hacking Labs = ETH kaput!)](/Networking/Knowledge/Troubleshooting/Kali-Bridge-Issue-ETH.md) _Easy fix to the bridge VMware incidence_
  
 ### Attacking & Defending Network Infraestructure ⚔️ 
  
