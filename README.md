@@ -277,17 +277,17 @@ Troubleshooting & Incidence Response for Notworking Hardware & Software by _Fz3r
 - [Fixing **Kali VM Bridge Network** [VMware] (GNS3 + Hacking Labs = ETH kaput!)](/Networking/Knowledge/Troubleshooting/Kali-Bridge-Issue-ETH.md) _Easy fix to the bridge VMware incidence_
  
 ### Fz3r0 >> Attacking & Defending Network Infraestructure ⚔️ 
- 
-- Security & Best Practices configurations for Networking
+Guides for performing Penetration Attacks involving the Network Infrastructure Exploiting Known Vulverabilities and how to Mitigate and Secure the Network Against those threats  
+- **Security & Best Practices Configurations for Networking**
     - [Pro Configs @ Best Practices, Security Standards & SSH Logins](/Networking/Labs/SSH-Minimum-Requeriments-for-Cisco.md) _For any Cisco device (IOS)_ 
     - [Pro Configs @ Best Practices & Security Standards for Switchports & Interfaces](/Networking/Labs/Full-Interface-Port_Configuration.md)
     - [E-Mail & Raw Source Analysis for Secure Theat detection](https://mediatemple.net/community/products/grid/204644060/how-do-i-view-email-headers-for-a-message)
 
-- Network Security Defensive Tools, Shields & Tanks
+- **Network Security Defensive Tools, Shields & Tanks**
     - SysInternals > [SysInternals Tricks for Pro Strongholds](/Networking/Attacking-Cisco/THM-L2-MAC-Flooding-&-ARP-Spoofing-writeup.md) 
     - SysInternals > [SysInternals Tricks for Pro Strongholds](/Networking/Attacking-Cisco/THM-L2-MAC-Flooding-&-ARP-Spoofing-writeup.md)
     
-- Layer 2 Attacks 
+- **Layer 2 Attacks** 
     - [MAC Flooding/CAM Overflow, Man-In-The-Middle (MITM) ARP Poisoning + MAC Spoofing + TCP Packet Tamper, Pivot + PrivEsc](/Networking/Attacking-Cisco/THM-L2-MAC-Flooding-&-ARP-Spoofing-writeup.md)
     - [VLAN Attack Double Tagging]()
     - [VLAN Attack  Attack Between Devices]()
@@ -301,7 +301,7 @@ Troubleshooting & Incidence Response for Notworking Hardware & Software by _Fz3r
     - [CDP Attack CDP Recon & Crafting]()
     - [Attacking STP & BPDUs crafting packs](https://github.com/tomac/yersinia) _@ Yersenia_
 
-- Wireless Threats & Attacks
+- **Wireless Threats & Attacks**
     - DoS Attack - Interference & Misconfigurations
     - Rogue Access Points
     - Man-in-the-Middle Attack (MITM)
