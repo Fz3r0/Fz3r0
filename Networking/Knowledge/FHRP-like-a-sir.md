@@ -136,7 +136,7 @@
 6. **GLBP for IPv6 (`GLBP-IPv6`)**
 7. **ICMP Router Discovery Protocol (`IRDP`)**
 
-### 1. Hot Standby Router Protocol (`HSRP`)** 
+### 1. Hot Standby Router Protocol (`HSRP`)
 
 - HRSP is a Cisco-proprietary First Hop Redundancy Protocol (FHRP) that is designed to allow for transparent failover of a first-hop IPv4 device.
 
@@ -148,7 +148,7 @@
 
 - The function of the HSRP standby router is to monitor the operational status of the First Hop Redundancy Protocols (HSRP) group and to quickly assume packet-forwarding responsibility if the active router fails.
 
-### 2. **HSRP for IPv6 (`HSRP-IPv6`)**
+### 2. HSRP for IPv6 (`HSRP-IPv6`)
 
 - This is a Cisco-proprietary FHRP that provides the same functionality of HSRP, but in an IPv6 environment. 
 
@@ -158,13 +158,29 @@
 
     - When the group becomes inactive, these RAs stop after a final RA is sent.
 
-### 3. **Virtual Router Redundancy Protocol v2 (`VRRPv2`)**
+### 3. Virtual Router Redundancy Protocol v2 (`VRRPv2`)
 
+- This is a non-proprietary election protocol that dynamically assigns responsibility for one or more virtual routers to the VRRP routers on an IPv4 LAN. 
+- This allows several routers on a multiaccess link to use the same virtual IPv4 address.
 
+### 4. VRRPv3
 
+- This provides the capability to support IPv4 and IPv6 addresses. 
+- VRRPv3 works in multi-vendor environments and is more scalable than VRRPv2.
 
+### 5. Gateway Load Balancing Protocol (GLBP)
 
+- This is a Cisco-proprietary FHRP that protects data traffic from a failed router or circuit, like HSRP and VRRP, while also allowing load balancing (also called load sharing) between a group of redundant routers.
 
+### 6. GLBP for IPv6
+
+- This is a Cisco-proprietary FHRP that provides the same functionality of GLBP, but in an IPv6 environment. 
+- GLBP for IPv6 provides automatic router backup for IPv6 hosts configured with a single default gateway on a LAN. 
+- Multiple first-hop routers on the LAN combine to offer a single virtual first-hop IPv6 router while sharing the IPv6 packet forwarding load.
+
+### 7. ICMP Router Discovery Protocol (IRDP)
+
+- Specified in RFC 1256, IRDP is a legacy FHRP solution. IRDP allows IPv4 hosts to locate routers that provide IPv4 connectivity to other (nonlocal) IP networks.
 
 ---
 
