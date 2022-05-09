@@ -455,29 +455,29 @@ Guides, Tips & Tricks, Downloads, Binaries, Executables, Scripts, Open Source Co
         - [Bash]
         - [Go]
  
-### Malware
+## Malware
   
-- [fz3r0 - My Malware] CAUTION!
+### fz3r0 - My Malware CAUTION!
   
-- [Malware Databases] CAUTION!
+### Malware Databases CAUTION!
   
-    - https://github.com/Fz3r0/theZoo
-    - [VX-Underground (PASS: infected)](https://www.vx-underground.org/)_The largest collection of malware source code, samples, and papers on the internet._
-    - [Malware Traffic Analysis PCAPs (PASS: infected)](https://malware-traffic-analysis.net/2020/05/28/index.html) _Almost every post on this site has pcap files or malware samples (or both)._
-    - [Malware Samples & Sources](https://github.com/Fz3r0/Malware-Sample-Sources) _Malware Archives & Databases_
-    - https://github.com/Fz3r0/CuteVirusCollection
-    - https://github.com/Fz3r0/MalwareDatabase
-    - https://github.com/Fz3r0/malwaredatabase-1
-    - https://github.com/Fz3r0/MalwareDatabase-2
-    - https://github.com/Fz3r0/reversed-malwares
-    - https://github.com/Fz3r0/MalwareScripts
+- https://github.com/Fz3r0/theZoo
+- [VX-Underground (PASS: infected)](https://www.vx-underground.org/)_The largest collection of malware source code, samples, and papers on the internet._
+- [Malware Traffic Analysis PCAPs (PASS: infected)](https://malware-traffic-analysis.net/2020/05/28/index.html) _Almost every post on this site has pcap files or malware samples (or both)._
+- [Malware Samples & Sources](https://github.com/Fz3r0/Malware-Sample-Sources) _Malware Archives & Databases_
+- https://github.com/Fz3r0/CuteVirusCollection
+- https://github.com/Fz3r0/MalwareDatabase
+- https://github.com/Fz3r0/malwaredatabase-1
+- https://github.com/Fz3r0/MalwareDatabase-2
+- https://github.com/Fz3r0/reversed-malwares
+- https://github.com/Fz3r0/MalwareScripts
   
-     - [Malware Standalone] CAUTION!
+### Malware Codes, Scripts, Reversed & Open Source CAUTION!
   
-        - https://github.com/Fz3r0/BatchPower _Batch Scripts_
-        - https://github.com/Fz3r0/Defender-disabler
+- https://github.com/Fz3r0/BatchPower _Batch Scripts_
+- https://github.com/Fz3r0/Defender-disabler
   
-    - [Piracy + Privacy = Ayeeeeee]
+### Piracy + Privacy
 
         - []
  
