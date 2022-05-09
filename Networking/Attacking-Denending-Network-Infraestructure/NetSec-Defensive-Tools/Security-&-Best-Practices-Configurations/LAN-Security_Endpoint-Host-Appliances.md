@@ -105,6 +105,51 @@
 
 ![image](https://user-images.githubusercontent.com/94720207/167505669-5baa271b-6ca2-4470-8a63-1c2adea48824.png)
 
+---
+
+### Cisco Email Security Appliance
+
+- https://www.cisco.com/c/en/us/products/collateral/security/email-security-appliance/data-sheet-c78-729751.html
+
+- The Cisco ESA is a device that is designed to monitor Simple Mail Transfer Protocol (SMTP). 
+- The Cisco ESA is constantly updated by real-time feeds from the Cisco Talos, which detects and correlates threats and solutions by using a worldwide database monitoring system. 
+- This threat intelligence data is pulled by the Cisco ESA every three to five minutes. 
+
+    - These are some of the functions of the Cisco ESA:
+
+        - Block known threats.
+        - Remediate against stealth malware that evaded initial detection.
+        - Discard emails with bad links (as shown in the figure).
+        - Block access to newly infected sites.
+        - Encrypt content in outgoing email to prevent data loss.
+
+- In the figure, the Cisco ESA discards the email with bad links.
+
+![image](https://user-images.githubusercontent.com/94720207/167508145-fa289869-6b03-4293-b01c-0e6a202a5aca.png)
+
+--- 
+
+### Cisco Web Security Appliance
+
+- https://www.cisco.com/c/en/us/products/security/web-security-appliance/index.html
+
+--- 
+
+- The Cisco Web Security Appliance (WSA) is a mitigation technology for web-based threats. 
+- It helps organizations address the challenges of securing and controlling web traffic. 
+- The Cisco WSA combines advanced malware protection, application visibility and control, acceptable use policy controls, and reporting.
+
+    - Cisco WSA provides complete control over how users access the internet. 
+    - Certain features and applications, such as chat, messaging, video and audio, can be allowed, restricted with time and bandwidth limits, or blocked, according to the organization’s requirements. 
+    - The WSA can perform blacklisting of URLs, URL-filtering, malware scanning, URL categorization, Web application filtering, and encryption and decryption of web traffic.
+
+        - In the figure, an internal corporate employee uses a smartphone to attempt to connect to a known blacklisted site.
+
+![image](https://user-images.githubusercontent.com/94720207/167508415-99aa415b-f78b-4025-9aa0-d202bedaf9cc.png)
+
+---
+
+
 
 
 
@@ -113,8 +158,8 @@
 
 ### References
 
-- https://tryhackme.com/room/layer2
-- 
+- https://www.cisco.com/c/en/us/products/collateral/security/email-security-appliance/data-sheet-c78-729751.html
+- https://www.cisco.com/c/en/us/products/security/web-security-appliance/index.html 
  
 ---
 
