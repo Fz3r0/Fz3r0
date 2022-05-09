@@ -149,3 +149,46 @@ user@ubuntu$ sudo ./traffic-generator.sh
         - This model helps detect policy violations.
         
 ---
+
+### Summary 
+
+- Let's summarise the overall functions of the IDS and IPS in a nutshell.
+
+    - **`IDS` can identify threats but require user assistance to stop them.**
+    
+    - **`IPS` can identify and block the threats with less user assistance at the detection time.**
+
+--- 
+
+### Snort... snort snort! 
+
+- Here is the rest of the official description of the snort:
+
+    - "Snort can be deployed inline to stop these packets, as well. Snort has three primary uses: As a packet sniffer like tcpdump, as a packet logger — which is useful for network traffic debugging, or it can be used as a full-blown network intrusion prevention system. Snort can be downloaded and configured for personal and business use alike."
+    
+- SNORT is an open-source, rule-based Network Intrusion Detection and Prevention System (NIDS/NIPS). 
+
+- It was developed and still maintained by Martin Roesch, open-source contributors, and the Cisco Talos team.    
+
+![image](https://user-images.githubusercontent.com/94720207/167324514-531d74e7-a315-488d-ba61-560093f4509c.png)
+
+### Capabilities of Snort
+
+- Live traffic analysis
+- Attack and probe detection
+- Packet logging
+- Protocol analysis
+- Real-time alerting
+- Modules & plugins
+- Pre-processors
+- Cross-platform support! (Linux & Windows)
+
+    - **Snort has three main use models:**
+
+        - `Sniffer Mode` - Read IP packets and prompt them in the console application.
+
+        - `Packet Logger Mode` - Log all IP packets (inbound and outbound) that visit the network.
+
+        - `NIDS` (Network Intrusion Detection System) and `NIPS` (Network Intrusion Prevention System) Modes - Log/drop the packets that are deemed as malicious according to the user-defined rules.
+        
+---
