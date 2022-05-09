@@ -185,10 +185,34 @@ user@ubuntu$ sudo ./traffic-generator.sh
 
     - **Snort has three main use models:**
 
-        - `Sniffer Mode` - Read IP packets and prompt them in the console application.
+        1. `Sniffer Mode` - Read IP packets and prompt them in the console application.
 
-        - `Packet Logger Mode` - Log all IP packets (inbound and outbound) that visit the network.
+        2. `Packet Logger Mode` - Log all IP packets (inbound and outbound) that visit the network.
 
-        - `NIDS` (Network Intrusion Detection System) and `NIPS` (Network Intrusion Prevention System) Modes - Log/drop the packets that are deemed as malicious according to the user-defined rules.
+        3. `NIDS` (Network Intrusion Detection System) and `NIPS` (Network Intrusion Prevention System) Modes - Log/drop the packets that are deemed as malicious according to the user-defined rules.
         
 ---
+
+### The First Interaction with Snort
+
+- First, let's verify snort is installed. The following command will show you the instance version.
+
+- `snort -V` 
+
+```
+fz3r0@kali$ snort -V
+
+   ,,_     -*> Snort! <*-
+  o"  )~   Version 2.9.7.0 GRE (Build XXXXXX) 
+   ''''    By Martin Roesch & The Snort Team: http://www.snort.org/contact#team
+           Copyright (C) 2014 Cisco and/or its affiliates. All rights reserved.
+           Copyright (C) 1998-2013 Sourcefire, Inc., et al.
+           Using libpcap version 1.9.1 (with TPACKET_V3)
+           Using PCRE version: 8.39 2016-06-14
+           Using ZLIB version: 1.2.11
+```           
+
+- Before getting your hands dirty, we should ensure our configuration file is valid.
+
+- Here `-T` is used for testing configuration, and ` c identifying the configuration file (snort.conf).
+Note that it is possible to use an additional configuration file by pointing it with "-c".  
