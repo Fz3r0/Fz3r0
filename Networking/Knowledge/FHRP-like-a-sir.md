@@ -182,6 +182,63 @@
 
 ---
 
+### HSRP Overview
+
+- Cisco provides HSRP and HSRP for IPv6 as a way to avoid losing outside network access if your default router fails.
+
+- HSRP is a Cisco-proprietary FHRP that is designed to allow for transparent failover of a first-hop IP device.
+
+- HSRP ensures high network availability by providing first-hop routing redundancy for IP hosts on networks configured with an IP default gateway address. HSRP is used in a group of routers for selecting an active device and a standby device. 
+
+    - In a group of device interfaces, the active device is the device that is used for routing packets; 
+    - the standby device is the device that takes over when the active device fails, or when pre-set conditions are met. 
+    - The function of the HSRP standby router is to monitor the operational status of the HSRP group and to quickly assume packet-forwarding responsibility if the active router fails.
+
+### HSRP Priority & Preemprion
+
+- The role of the active and standby routers is determined during the HSRP election process. 
+- By default, the router with the numerically highest IPv4 address is elected as the active router. 
+- However, it is always better to control how your network will operate under normal conditions rather than leaving it to chance.
+
+    - **HSRP Priority**
+    
+        - HSRP priority can be used to determine the active router. 
+        - The router with the highest HSRP priority will become the active router. 
+        - By default, the HSRP priority is 100. 
+        - If the priorities are equal, the router with the numerically highest IPv4 address is elected as the active router.
+            
+            - **To configure a router to be the active router, use the standby priority interface command.**
+            - **The range of the HSRP priority is 0 to 255.**
+
+    - **HSRP Preemption**
+    
+        - By default, after a router becomes the active router, it will remain the active router even if another router comes online with a higher HSRP priority.
+        - To force a new HSRP election process to take place when a higher priority router comes online, preemption must be enabled using the standby preempt interface command. 
+        - Preemption is the ability of an HSRP router to trigger the re-election process. 
+        - With preemption enabled, a router that comes online with a higher HSRP priority will assume the role of the active router.
+        
+            - Preemption only allows a router to become the active router if it has a higher priority. 
+            - A router enabled for preemption, with equal priority but a higher IPv4 address will not preempt an active router. _Refer to the topology in the figure._ 
+
+![image](https://user-images.githubusercontent.com/94720207/167488452-4122bedc-b0b4-4ac2-b330-0bb82e3f1d53.png)
+
+- R1 has been configured with the HSRP priority of 150 while R2 has the default HSRP priority of 100. 
+- Preemption has been enabled on R1. 
+- With a higher priority, R1 is the active router and R2 is the standby router. 
+    
+    - Due to a power failure affecting only R1, the active router is no longer available and the standby router, R2, assumes the role of the active router. 
+    - After power is restored, R1 comes back online. 
+    - **Because R1 has a higher priority and preemption is enabled, it will force a new election process.** 
+    - **R1 will re-assume the role of the active router and R2 will fall back to the role of the standby router.**
+
+**Note: With preemption disabled, the router that boots up first will become the active router if there are no other routers online during the election process.**
+
+### HSRP States and Timers
+
+
+
+---
+
 ### References
 
 - https://contenthub.netacad.com/srwe-dl/1.3.6
