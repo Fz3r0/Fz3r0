@@ -676,8 +676,31 @@ Verifying Preprocessor Configurations!
 ERROR: Active response: can't open ip!
 Fatal Error, Quitting..
 
-
 ```
+
+### Operation Mode 1: Sniffer Mode
+
+![image](https://user-images.githubusercontent.com/94720207/167327315-6094c97b-8608-4458-93e3-0a751904257f.png)
+
+- **Let's run Snort in Sniffer Mode**
+
+- Like `tcpdump`, `Snort` has various flags capable of viewing various data about the packet it is ingesting.
+
+    - `Sniffer mode **parameters**` are explained in the table below:
+
+| **Parameter** | **Description **                              |
+|---------------|------------------------------------------------------------------|
+| **-v**        | Verbose. Display the TCP/IP output in the console.                               |
+| **-d**        | Display the packet data (payload).      |
+| **-e**        | Display the link-layer (TCP/IP/UDP/ICMP) headers.      |
+| **-X**        | Display the full packet details in HEX.    |
+| **-i**        | This parameter helps to define a specific network interface to listen/sniff. Once you have multiple interfaces, you can choose a specific interface to sniff.  |
+
+- Let's start using each parameter and see the difference between them. 
+- Snort needs active traffic on your interface, so we need to generate traffic to see Snort in action.
+
+    - **To do this, use the traffic-generator script**
+
 
 ---
 
