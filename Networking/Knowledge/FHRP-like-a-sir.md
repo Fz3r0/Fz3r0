@@ -3,9 +3,7 @@
 
 ![My Video](https://user-images.githubusercontent.com/94720207/165892585-b830998d-d7c5-43b4-a3ad-f71a07b9077e.gif)
 
-### Configure on Cisco Routers FHRP (First Hop Redundancy) & HSRP (Hot Standby Router) like a Sir! 
-
----
+## Configure FHRP (First Hop Redundancy) on Cisco Routers, using HSRP (Hot Standby Router) like a Sir! 
 
 ##### Twitter  : [@fz3r0_OPs](https://twitter.com/Fz3r0_OPs) 
 ##### Github  : [Fz3r0](https://github.com/fz3r0) 
@@ -16,7 +14,7 @@
 
 ---
    
-### Configure on Cisco Routers FHRP (First Hop Redundancy) & HSRP (Hot Standby Router) like a Sir! 
+### Index
 
 - < **Before anything else!!!** >
 
