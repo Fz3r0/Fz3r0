@@ -3,7 +3,7 @@
 
 ![My Video](https://user-images.githubusercontent.com/94720207/165892585-b830998d-d7c5-43b4-a3ad-f71a07b9077e.gif)
 
-## LAN-Security: Endpoints, Hosts, & Security Appliances
+## LAN-Security: Endpoints, Hosts, Network Security Devices & Appliances
 
 ##### Twitter  : [@fz3r0_OPs](https://twitter.com/Fz3r0_OPs) 
 ##### Github  : [Fz3r0](https://github.com/fz3r0) 
@@ -60,6 +60,51 @@
     
         - This is an attack in which an organization’s hosts are infected with malicious software that cause a variety of problems. 
         - For example, ransomware such as WannaCry, shown in the figure, encrypts the data on a host and locks access to it until a ransom is paid.
+
+![ransom](https://www.pcrisk.com/images/stories/screenshots201703/wanna-decrypt0r-gif.gif)
+
+---
+
+### Network Security Devices
+
+- Various network security devices are required to protect the network perimeter from outside access. 
+- These devices could include a `virtual private network (VPN) enabled router`, a `next-generation firewall (NGFW)`, and a `network access control (NAC)` device.
+
+    - **Virtual Private Network (VPN) enabled router**  
+        - A VPN-enabled router provides a secure connection to remote users across a public network and into the enterprise network. 
+        - VPN services can be integrated into the firewall.
+       
+    - **Next-Generation Firewall (NGFW)**
+        - An NGFW provides stateful packet inspection, application visibility and control, a next-generation intrusion prevention system (NGIPS), advanced malware protection (AMP), and URL filtering.
+
+    - **Network Access Control (NAC)**
+        - A NAC device includes authentication, authorization, and accounting (AAA) services. 
+        - In larger enterprises, these services might be incorporated into an appliance that can manage access policies across a wide variety of users and device types. 
+        - The Cisco Identity Services Engine (ISE) is an example of a NAC device.    
+
+---
+
+### Endpoint Protection
+
+- LAN devices such as switches, wireless LAN controllers (WLCs), and other access point (AP) devices interconnect endpoints. Most of these devices are susceptible to the LAN-related attacks that are covered in this module.
+
+- But many attacks can also originate from inside the network. 
+- If an internal host is infiltrated, it can become a starting point for a threat actor to gain access to critical system devices, such as servers and sensitive data.
+
+    - **Endpoints:**
+
+        - Endpoints are hosts which commonly consist of laptops, desktops, servers, and IP phones, as well as employee-owned devices that are typically referred to as bring your own devices (BYODs). 
+        - Endpoints are particularly susceptible to malware-related attacks that originate through email or web browsing. 
+        
+            - **These endpoints have typically used traditional host-based security features, such as antivirus/antimalware, host-based firewalls, and host-based intrusion prevention systems (HIPSs).** 
+        
+            - **However, today endpoints are best protected by a combination of NAC, host-based AMP software, an email security appliance (ESA), and a web security appliance (WSA).** 
+            - **Advanced Malware Protection (AMP) products include endpoint solutions such as Cisco AMP for Endpoints.**
+
+- The figure is a simple topology representing all the network security devices and endpoint solutions discussed in this module.
+
+![image](https://user-images.githubusercontent.com/94720207/167505669-5baa271b-6ca2-4470-8a63-1c2adea48824.png)
+
 
 
 
