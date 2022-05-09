@@ -57,6 +57,35 @@ user@ubuntu$ sudo ./traffic-generator.sh
 
 ![image](https://user-images.githubusercontent.com/94720207/167321703-d3816047-ea9c-49fb-849e-f5c50250e063.png)
 
+---
+
+### Introduction to IDS/IPS
+
+![image](https://user-images.githubusercontent.com/94720207/167321847-1d8c926b-936b-4c88-8316-a4834e0228ec.png)
+
+- Before diving into Snort and analysing traffic, let's have a brief overview of what an **Intrusion Detection System (IDS) and Intrusion Prevention System (IPS)** is. 
+
+- It is possible to configure your network infrastructure and use both of them, but before starting to use any of them, let's learn the differences.
+
+### Intrusion Detection System (IDS)
+
+- **IDS is a passive monitoring solution** for detecting possible malicious activities/patterns, abnormal incidents, and policy violations. 
+
+- It is responsible for generating alerts for each suspicious event.
+
+    - **There are two main types of IDS systems:**
+
+        1. **Network Intrusion Detection System (NIDS)**
+            
+            - NIDS monitors the traffic flow from various areas of the network. 
+            - The aim is to investigate the traffic on the entire subnet. 
+            - If a signature is identified, an alert is created.
+
+        2. **Host-based Intrusion Detection System (HIDS)**
+        
+            - HIDS monitors the traffic flow from a single endpoint device. 
+            - The aim is to investigate the traffic on a particular device. 
+            - If a signature is identified, an alert is created.  
 
 
 ---
