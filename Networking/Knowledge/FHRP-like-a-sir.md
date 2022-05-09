@@ -235,7 +235,24 @@
 
 ### HSRP States and Timers
 
+- A router can either be the active HSRP router responsible for forwarding traffic for the segment, or it can be a passive HSRP router on standby, ready to assume the active role if the active router fails. 
+- When an interface is configured with HSRP or is first activated with an existing HSRP configuration, the router sends and receives HSRP hello packets to begin the process of determining which state it will assume in the HSRP group.
 
+    - The table summarizes the HSRP states.
+
+| **HSRP State** | **Description**                          |
+|----------------|-------------------------------------------------------|
+| **Initial**    | This state is entered through a configuration change or when an interface first becomes available.    |
+| **Learn**      | The router has not determined the virtual IP address and has not yet seen a hello message from the active router. In this state, the router waits to hear from the active router.  |
+| **Listen**     | The router knows the virtual IP address, but the router is neither the active router nor the standby router. It listens for hello messages from those routers.       |
+| **Speak**      | The router sends periodic hello messages and actively participates in the election of the active and/or standby router.   |
+| **Standby**    | The router is a candidate to become the next active router and sends periodic hello messages.    |
+| **Active**     | The router won the election.    |
+
+- The active and standby HSRP routers send hello packets to the HSRP group multicast address every 3 seconds by default. 
+- The standby router will become active if it does not receive a hello message from the active router after 10 seconds. 
+- You can lower these timer settings to speed up the failover or preemption. 
+- However, to avoid increased CPU usage and unnecessary standby state changes, do not set the hello timer below 1 second or the hold timer below 4 seconds.
 
 ---
 
