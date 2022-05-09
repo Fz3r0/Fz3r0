@@ -59,11 +59,11 @@ user@ubuntu$ sudo ./traffic-generator.sh
 
 ---
 
-### Introduction to IDS/IPS
+### Introduction to IDS & IPS
 
 ![image](https://user-images.githubusercontent.com/94720207/167321847-1d8c926b-936b-4c88-8316-a4834e0228ec.png)
 
-- Before diving into Snort and analysing traffic, let's have a brief overview of what an **Intrusion Detection System (IDS) and Intrusion Prevention System (IPS)** is. 
+- Before diving into `Snort` and **analysing traffic**, let's have a brief overview of what an **Intrusion Detection System (IDS) and Intrusion Prevention System (IPS)** is. 
 
 - It is possible to configure your network infrastructure and use both of them, but before starting to use any of them, let's learn the differences.
 
@@ -86,6 +86,53 @@ user@ubuntu$ sudo ./traffic-generator.sh
             - HIDS monitors the traffic flow from a single endpoint device. 
             - The aim is to investigate the traffic on a particular device. 
             - If a signature is identified, an alert is created.  
+
+### Intrusion Prevention System (IPS)
+
+- **IPS is an active protecting solution** for preventing possible malicious activities/patterns, abnormal incidents, and policy violations. 
+
+- It is responsible for stopping/preventing/terminating the suspicious event as soon as the detection is performed.
+
+    - **There are four main types of IPS systems:**
+
+        1. Network Intrusion Prevention System (NIPS)
+        
+            - NIPS monitors the traffic flow from various areas of the network. 
+            - The aim is to protect the traffic on the entire subnet. 
+            - If a signature is identified, the connection is terminated.
+
+        2. Behaviour-based Intrusion Prevention System (Network Behaviour Analysis - NBA):
+        
+            - Behaviour-based systems monitor the traffic flow from various areas of the network. 
+            - The aim is to protect the traffic on the entire subnet. 
+            - If a signature is identified, the connection is terminated.
+        
+    - Network Behaviour Analysis System works similar to NIPS. 
+    - The difference between NIPS and Behaviour-based is; behaviour based systems require a training period (also known as "baselining") to learn the normal traffic and differentiate the malicious traffic and threats. This model provides more efficient results against new threats.
+    - The system is trained to know the "normal" to detect "abnormal". 
+    - The training period is crucial to avoid any false positives. 
+    - In case of any security breach during the training period, the results will be highly problematic. 
+    - Another critical point is to ensure that the system is well trained to recognise benign activities. 
+    
+        3. Wireless Intrusion Prevention System (WIPS)
+        
+            - WIPS monitors the traffic flow from of wireless network. 
+            - The aim is to protect the wireless traffic and stop possible attacks launched from there. 
+            - If a signature is identified, the connection is terminated.
+
+        4. Host-based Intrusion Prevention System (HIPS)
+        
+            - HIPS actively protects the traffic flow from a single endpoint device. 
+            - The aim is to investigate the traffic on a particular device. 
+            - If a signature is identified, the connection is terminated.
+    
+    - **HIPS working mechanism is similar to HIDS.** 
+    - **The difference between them is that while HIDS creates alerts for threats, HIPS stops the threats by terminating the connection.**
+
+---
+
+### Detection/Prevention Techniques
+
 
 
 ---
