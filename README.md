@@ -239,8 +239,9 @@ Tables, Models, Cheat-Sheets, Mind-Maps & Resources
 Pro and Secure Network Configurations Guides by _Fz3r0_
 - [Configurar **VLANs** de Noob a Pro! _En Español_](/Networking/Knowledge/VLANS_full!.png)
 - [Configure **Spaning Tree Protocol** like a Sir **(STP, RSTP+, PVSTP & R-PVSTP)**](/Networking/Knowledge/STP-for-dummies.md)
-- [Configure **Ether-Channel** like a sir **(Etherport, PAgP, LACL, Static)** | STP)](/Networking/Knowledge/EtherChannel-like-a-sir.md)
+- [Configure **Ether-Channel** like a Sir! **(Etherport, PAgP, LACL, Static)** | STP)](/Networking/Knowledge/EtherChannel-like-a-sir.md)
 - [Configure **DHCPv4** like a Sir **(DHCPv4, Client, Server, Cisco Router, Home Router)**](/Networking/Knowledge/DHCPv4-like-a-sir.md)
+- [Configure **FHRP** like a Sir! **(Pro HSRP + intro to VRRP, GLBP, IRDP)** ](/Networking/Knowledge/FHRP-like-a-sir.md)
 
 <!--
 
