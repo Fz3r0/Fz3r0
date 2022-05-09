@@ -133,6 +133,19 @@ user@ubuntu$ sudo ./traffic-generator.sh
 
 ### Detection/Prevention Techniques
 
+- There are three main detection and prevention techniques used in IDS and IPS solutions:
 
-
+    1. Signature-Based
+        - This technique relies on rules that identify the specific patterns of the known malicious behaviour. 
+        - This model helps detect known threats. 
+    
+    2. Behaviour-Based
+        - This technique identifies new threats with new patterns that pass through signatures. 
+        - The model compares the known/normal with unknown/abnormal behaviours. 
+        - This model helps detect previously unknown or new threats.
+    
+    3. Policy-Based  
+        - This technique compares detected activities with system configuration and security policies. 
+        - This model helps detect policy violations.
+        
 ---
