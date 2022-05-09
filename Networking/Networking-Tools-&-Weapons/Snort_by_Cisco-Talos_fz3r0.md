@@ -701,7 +701,141 @@ Fatal Error, Quitting..
 
     - **To do this, use the traffic-generator script**
 
+### Sniffing with parameter `-i`
 
+- Start the Snort instance in verbose mode `-v` and use the interface `-i` `eth0`:
+    
+    - `sudo snort -v-i eth0` 
+
+- In case you have only one interface, Snort uses it by default. 
+- The above example demonstrates to sniff on the interface named "eth0". Once you simulate the parameter -v, you will notice it will automatically use the "eth0" interface and prompt it.
+
+```
+ubuntu@ip-10-10-39-43:~/Desktop/Task-Exercises$ sudo snort -v -i eth0
+Running in packet dump mode
+
+        --== Initializing Snort ==--
+Initializing Output Plugins!
+pcap DAQ configured to passive.
+Acquiring network traffic from "eth0".
+Decoding Ethernet
+
+        --== Initialization Complete ==--
+
+   ,,_     -*> Snort! <*-
+  o"  )~   Version 2.9.7.0 GRE (Build 149) 
+   ''''    By Martin Roesch & The Snort Team: http://www.snort.org/contact#team
+           Copyright (C) 2014 Cisco and/or its affiliates. All rights reserved.
+           Copyright (C) 1998-2013 Sourcefire, Inc., et al.
+           Using libpcap version 1.9.1 (with TPACKET_V3)
+           Using PCRE version: 8.39 2016-06-14
+           Using ZLIB version: 1.2.11
+
+Commencing packet processing (pid=2013)
+05/09-02:12:54.021378 10.10.39.43:80 -> 10.100.1.202:60266
+TCP TTL:64 TOS:0x0 ID:48838 IpLen:20 DgmLen:52 DF
+***A**** Seq: 0x54CF68E  Ack: 0xD2E232FF  Win: 0x1BA  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 980332753 2814672190 
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+
+
+WARNING: No preprocessors configured for policy 0.
+05/09-02:12:54.042983 10.100.1.202:60266 -> 10.10.39.43:80
+TCP TTL:64 TOS:0x0 ID:57493 IpLen:20 DgmLen:84 DF
+***AP*** Seq: 0xD2E232FF  Ack: 0x54CF68E  Win: 0x232D  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 2814672254 980332753 
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+
+
+.
+.
+.
+.
+.
+.
+
+WARNING: No preprocessors configured for policy 0.
+05/09-02:12:54.915745 10.100.1.202:60266 -> 10.10.39.43:80
+TCP TTL:64 TOS:0x0 ID:57506 IpLen:20 DgmLen:52 DF
+***A**** Seq: 0xD2E233BF  Ack: 0x54DF2F0  Win: 0x232D  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 2814673127 980333647 
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+
+
+^C*** Caught Int-Signal
+(snort_decoder) WARNING: IP dgm len > captured len
+WARNING: No preprocessors configured for policy 0.
+===============================================================================
+Run time for packet processing was 2.39734 seconds
+Snort processed 27 packets.
+Snort ran for 0 days 0 hours 0 minutes 2 seconds
+   Pkts/sec:           13
+===============================================================================
+Memory usage summary:
+  Total non-mmapped bytes (arena):       786432
+  Bytes in mapped regions (hblkhd):      12906496
+  Total allocated space (uordblks):      679312
+  Total free space (fordblks):           107120
+  Topmost releasable block (keepcost):   105344
+===============================================================================
+Packet I/O Totals:
+   Received:           80
+   Analyzed:           27 ( 33.750%)
+    Dropped:            0 (  0.000%)
+   Filtered:            0 (  0.000%)
+Outstanding:           53 ( 66.250%)
+   Injected:            0
+===============================================================================
+Breakdown by protocol (includes rebuilt packets):
+        Eth:           27 (100.000%)
+       VLAN:            0 (  0.000%)
+        IP4:           27 (100.000%)
+       Frag:            0 (  0.000%)
+       ICMP:            0 (  0.000%)
+        UDP:            0 (  0.000%)
+        TCP:           22 ( 81.481%)
+        IP6:            0 (  0.000%)
+    IP6 Ext:            0 (  0.000%)
+   IP6 Opts:            0 (  0.000%)
+      Frag6:            0 (  0.000%)
+      ICMP6:            0 (  0.000%)
+       UDP6:            0 (  0.000%)
+       TCP6:            0 (  0.000%)
+     Teredo:            0 (  0.000%)
+    ICMP-IP:            0 (  0.000%)
+    IP4/IP4:            0 (  0.000%)
+    IP4/IP6:            0 (  0.000%)
+    IP6/IP4:            0 (  0.000%)
+    IP6/IP6:            0 (  0.000%)
+        GRE:            0 (  0.000%)
+    GRE Eth:            0 (  0.000%)
+   GRE VLAN:            0 (  0.000%)
+    GRE IP4:            0 (  0.000%)
+    GRE IP6:            0 (  0.000%)
+GRE IP6 Ext:            0 (  0.000%)
+   GRE PPTP:            0 (  0.000%)
+    GRE ARP:            0 (  0.000%)
+    GRE IPX:            0 (  0.000%)
+   GRE Loop:            0 (  0.000%)
+       MPLS:            0 (  0.000%)
+        ARP:            0 (  0.000%)
+        IPX:            0 (  0.000%)
+   Eth Loop:            0 (  0.000%)
+   Eth Disc:            0 (  0.000%)
+   IP4 Disc:            5 ( 18.519%)
+   IP6 Disc:            0 (  0.000%)
+   TCP Disc:            0 (  0.000%)
+   UDP Disc:            0 (  0.000%)
+  ICMP Disc:            0 (  0.000%)
+All Discard:            5 ( 18.519%)
+      Other:            0 (  0.000%)
+Bad Chk Sum:            8 ( 29.630%)
+    Bad TTL:            0 (  0.000%)
+     S5 G 1:            0 (  0.000%)
+     S5 G 2:            0 (  0.000%)
+      Total:           27
+===============================================================================
+Snort exiting
+ubuntu@ip-10-10-39-43:~/Desktop/Task-Exercises$
+
+```
 ---
 
 ### 
