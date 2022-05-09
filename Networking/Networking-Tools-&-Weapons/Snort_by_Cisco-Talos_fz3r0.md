@@ -838,5 +838,46 @@ ubuntu@ip-10-10-39-43:~/Desktop/Task-Exercises$
 ```
 ---
 
-### 
+### Sniffing with parameter `-v`
+
+- Start the Snort instance in verbose mode `-v`: 
+
+    - `sudo snort -v`
+
+- Now run the traffic-generator script as sudo and start `ICMP/HTTP` traffic. 
+
+- Once the traffic is generated, snort will start showing the  packets in verbosity mode as follows:
+
+```
+user@ubuntu$ sudo snort -v
+                             
+Running in packet dump mode
+
+        --== Initializing Snort ==--
+...
+Commencing packet processing (pid=64)
+12/01-20:10:13.846653 192.168.175.129:34316 -> 192.168.175.2:53
+UDP TTL:64 TOS:0x0 ID:23826 IpLen:20 DgmLen:64 DF
+Len: 36
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+
+
+12/01-20:10:13.846794 192.168.175.129:38655 -> 192.168.175.2:53
+UDP TTL:64 TOS:0x0 ID:23827 IpLen:20 DgmLen:64 DF
+Len: 36
+===============================================================================
+.
+.
+.
+.
+.
+Snort exiting
+```
+
+- As you can see in the given output, verbosity mode provides tcpdump like output information. Once we interrupt the sniffing with CTRL+C, it stops and summarises the sniffed packets.
+
+### Sniffing with parameter `-d`
+
+- Start the Snort instance in dumping packet data mode `-d`
+
+    - `sudo snort -d`
 
