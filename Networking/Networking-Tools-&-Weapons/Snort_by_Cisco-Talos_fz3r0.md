@@ -1,3 +1,6 @@
+Hello moto
+
+
 ---
 
 ### Intro
@@ -14,15 +17,7 @@
 
 - The machine is offline, but there is a script `traffic-generator.sh` for you to generate traffic to your `snort` interface.
 
-- You will use this script to trigger traffic to the snort interface. 
-
-- Once you run the script, it will ask you to choose the exercise type and then automatically open another terminal to show you the output of the selected action. 
-
-- Run the `traffic generator.sh` file by executing it as `sudo`. 
-
-```
-user@ubuntu$ sudo ./traffic-generator.sh
-```
+    - Bash script: 
 
 ```bash
 #!/bin/bash
@@ -43,6 +38,25 @@ case "$selection" in
 "6) TASK-10 IPS Exercise - Torrent Traffic")gnome-terminal --hide-menubar --title="TASK-10 IPS - Torrent Traffic" --geometry=120x32 -e 'tcpreplay -v --mbps=0.009 -i eth0 /home/ubuntu/Desktop/Task-Exercises/.traffic-generator-source/torrent.pcap';;
 esac
 ```
+
+- You will use this script to trigger traffic to the snort interface. 
+
+- Once you run the script, it will ask you to choose the exercise type and then automatically open another terminal to show you the output of the selected action. 
+
+- Run the `traffic generator.sh` file by executing it as `sudo`. 
+
+```
+user@ubuntu$ sudo ./traffic-generator.sh
+```
+
+- General desktop overview. Traffic generator script in action.
+
+![image](https://user-images.githubusercontent.com/94720207/167321690-020469ea-0297-4361-b70d-eb46d253e7a7.png)
+
+- Once you choose an action, the menu disappears and opens a terminal instance to show you the output of the action.
+
+![image](https://user-images.githubusercontent.com/94720207/167321703-d3816047-ea9c-49fb-849e-f5c50250e063.png)
+
 
 
 ---
