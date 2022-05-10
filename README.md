@@ -209,7 +209,7 @@
 
 ## Networking 
   
-### **Fz3r0 >> Dark Wizardy for Networking & NetSec** 🧙‍♂️
+### **Fz3r0 >> Dark Wizardy for Networking & NetSec** 🧙‍♂️ 📖 🔮
 Tables, Models, Cheat-Sheets, Mind-Maps & Resources
 - [TCP-IP Hybrid Model by Fz3r0 (TCP+OSI)](/Networking/Knowledge/Tables-Models-Cheatsheets/Tables-Models/TCP-IP-Model-fz3r0_Hybrid.md) _A model I made with love for TCP-IP/OSI, all in one! :)_
 - [Reserved IPv4 & IPv6 Addresses by Fz3r0](/Networking/Knowledge/Tables-Models-Cheatsheets/Tables-Models/reserved_ip_fz3r0.md)
@@ -235,7 +235,7 @@ Tables, Models, Cheat-Sheets, Mind-Maps & Resources
 
 --> 
 
-### Fz3r0 >> Configure it Like a Sir! ⚙️ 🔐
+### Fz3r0 >> Configure it Like a Sir! ⚙️ 🛠️ 🔐
 Pro and Secure Network Configurations Guides by _Fz3r0_
 - [Configurar **VLANs** de Noob a Pro! _En Español_](/Networking/Knowledge/VLANS_full!.png)
 - [Configure **Spaning Tree Protocol** like a Sir **(STP, RSTP+, PVSTP & R-PVSTP)**](/Networking/Knowledge/STP-for-dummies.md)
@@ -257,7 +257,7 @@ Pro and Secure Network Configurations Guides by _Fz3r0_
 
 --> 
 
-### Fz3r0 >> Secure Network Labs 🧪 🛡️  
+### Fz3r0 >> Secure Network Labs 🧪 👩‍🔬 🛡️  
 Networking Labs using simulators, emulators like Packet Tracer, GNS3 & eve / and/or physical infraestructure by _Fz3r0_
 
 - Lab 01 > [Secure Home Network + Internet to Home (FTTH) Simulation](/Networking/Labs/Router-on-a-Stick.md) _Packet Tracer_
@@ -269,7 +269,7 @@ Networking Labs using simulators, emulators like Packet Tracer, GNS3 & eve / and
 - Lab 07 > [EtherChannel All-in-One! LACP, PAgP & Static + RSTP+](/Networking/Labs/EtherChannel-Like-a-Sir.md) _Packet Tracer_
 - Lab 08 > [DHCPv4 All-in-One! DHCP Servers, DHCP Clients & DHCP Frame Relay Agents of all types!](/Networking/Labs/DHCPv4-All-in-One-lab.md) _Packet Tracer_
      
-### Fz3r0 >> Network Troubleshooting & Ass-Savers ⚠️ 🆘
+### Fz3r0 >> Network Troubleshooting & Ass-Savers ⚠️ 🚨 🆘
 Troubleshooting & Incidence Response for Notworking Hardware & Software by _Fz3r0_
 - [**Boot/Start-up** from a Binary **.bin** or **config.text** & **Recover** from a **System Crash**](/Networking/Knowledge/Troubleshooting/Boot-From-Init-BIN_&_Restore_Device_from_crash.md) _The tricks and hints for booting_
 - [**Reset config of Cisco device Back to Factory Default settings**](/Networking/Knowledge/Troubleshooting/Boot-From-Init-BIN_&_Restore_Device_from_crash.md) _Shiny as new, it also smells! yummm_
@@ -277,7 +277,7 @@ Troubleshooting & Incidence Response for Notworking Hardware & Software by _Fz3r
 - [Cut-Throught & Store-and-forward Switching](https://user-images.githubusercontent.com/94720207/164997743-d42dbae9-edb4-4f83-ae44-16cb5eab2fd4.png) _Spoiler-alert: Store-and-Forward for the win! Checksum FTW_
 - [Fixing **Kali VM Bridge Network** [VMware] (GNS3 + Hacking Labs = ETH kaput!)](/Networking/Knowledge/Troubleshooting/Kali-Bridge-Issue-ETH.md) _Easy fix to the bridge VMware incidence_
  
-### Fz3r0 >> Attacking & Defending Network Infraestructure ⚔️ 
+### Fz3r0 >> Attacking & Defending Network Infraestructure ⚔️ 🛡️ 🐱‍👤 
 Guides for performing Penetration Attacks involving the Network Infrastructure Exploiting Known Vulverabilities and how to Mitigate and Secure the Network Against those threats  
 - **Security & Best Practices Configurations for Networking**
     - [Pro Configs @ **Best Practices, Security Standards** & **SSH LOCAL**-Logins](/Networking/Labs/SSH-Minimum-Requeriments-for-Cisco.md) _For any Cisco device (IOS)_ 
