@@ -192,9 +192,34 @@ R1(config-line)# login local
 
     - **A better solution is to have all devices refer to the same database of usernames and passwords from a central server (RADIUS).**
 
----  
+--- 
 
-AAA Components    
+### AAA Components    
+
+(link to AAA)
+
+---
+
+### 802.1X
+
+- The **IEEE 802.1X standard** is a port-based access control and authentication protocol. 
+- This protocol restricts unauthorized workstations from connecting to a LAN through publicly accessible switch ports. 
+- The authentication server authenticates each workstation that is connected to a switch port before making available any services offered by the switch or the LAN.
+
+- With 802.1X port-based authentication, the devices in the network have specific roles, as shown in the figure.
+
+![image](https://user-images.githubusercontent.com/94720207/167523122-f5297bdd-f882-41d5-9a6b-875c2f06ba0d.png)
+
+- **Client (Supplicant)** 
+    - This is a device running 802.1X-compliant client software, which is available for wired or wireless devices.
+
+- **Switch (Authenticator)**
+    - The switch acts as an intermediary between the client and the authentication server. 
+    - It requests identifying information from the client, verifies that information with the authentication server, and relays a response to the client. 
+    - Another device that could act as authenticator is a **wireless access point.**
+- **Authentication server**
+    - The server validates the identity of the client and notifies the switch or wireless access point that the client is or is not authorized to access the LAN and switch services.
+
 
 
 
