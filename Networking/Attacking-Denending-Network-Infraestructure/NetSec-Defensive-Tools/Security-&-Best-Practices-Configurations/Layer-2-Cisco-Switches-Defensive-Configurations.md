@@ -100,6 +100,67 @@
         - Use a dedicated management VLAN where nothing but management traffic resides.
         - Use ACLs to filter unwanted access.
 
+--- 
+
+### MAC Address Table Attack
+
+- **Switch Operation Review**
+
+    - In this topic, the focus is still on switches, specifically their MAC address tables and how these tables are vulnerable to attacks.
+    - Recall that to make forwarding decisions, a Layer 2 LAN switch builds a table based on the source MAC addresses in received frames. 
+    - Shown in the figure, this is called a MAC address table. 
+    - **MAC address tables** are stored in memory and are used to more efficiently forward frames. 
+
+```
+S1# show mac address-table dynamic
+          Mac Address Table
+-------------------------------------------
+Vlan    Mac Address       Type        Ports
+----    -----------       --------    -----
+   1    0001.9717.22e0    DYNAMIC     Fa0/4
+   1    000a.f38e.74b3    DYNAMIC     Fa0/1
+   1    0090.0c23.ceca    DYNAMIC     Fa0/3
+   1    00d0.ba07.8499    DYNAMIC     Fa0/2
+S1#
+```
+
+### MAC Address Table Flooding
+
+- All MAC tables have a fixed size and consequently, a switch can run out of resources in which to store MAC addresses. 
+- MAC address flooding attacks take advantage of this limitation by bombarding the switch with fake source MAC addresses until the switch MAC address table is full.
+- When this occurs, the switch treats the frame as an unknown unicast and begins to flood all incoming traffic out all ports on the same VLAN without referencing the MAC table. 
+- This condition now allows a threat actor to capture all of the frames sent from one host to another on the local LAN or local VLAN.
+
+![image](https://user-images.githubusercontent.com/94720207/167533324-11527668-1974-414c-86fc-87d50bfcfdfd.png)
+
+- Note: 
+    - Traffic is flooded only within the local LAN or VLAN. 
+    - The threat actor can only capture traffic within the local LAN or VLAN to which the threat actor is connected.
+
+- The figure shows how a threat actor can easily use the network attack tool `macof` to overflow a MAC address table.
+
+![image](https://user-images.githubusercontent.com/94720207/167533504-b6487d0a-9600-464c-bc9a-4ad6cafcca91.png)
+
+### MAC Address Table Attack Mitigation
+
+- What makes tools such as macof so dangerous is that an attacker can create a MAC table overflow attack very quickly. 
+- For instance, a Catalyst 6500 switch can store 132,000 MAC addresses in its MAC address table. 
+- A tool such as `macof` **can flood a switch with up to 8,000 bogus frames per second**; creating a MAC address table overflow attack in a matter of a few seconds. 
+- The example shows a sample output of the macof command on a Linux host:
+
+![image](https://user-images.githubusercontent.com/94720207/167533679-b36d3917-5b9c-44ef-9b34-ae6226defb21.png)
+
+- **Another reason why these attack tools are dangerous is because they not only affect the local switch, they can also affect other connected Layer 2 switches:** 
+
+    - When the MAC address table of a switch is full, it starts flooding out all ports including those connected to other Layer 2 switches.
+
+- **To mitigate MAC address table overflow attacks, network administrators must implement `port security`.** 
+
+    - `Port security` will only allow a specified number of source MAC addresses to be learned on the port. (Port security is further discussed in another module.)
+
+--- 
+
+
 
 
 ---
