@@ -133,8 +133,6 @@
 
 - https://www.cisco.com/c/en/us/products/security/web-security-appliance/index.html
 
---- 
-
 - The Cisco Web Security Appliance (WSA) is a mitigation technology for web-based threats. 
 - It helps organizations address the challenges of securing and controlling web traffic. 
 - The Cisco WSA combines advanced malware protection, application visibility and control, acceptable use policy controls, and reporting.
