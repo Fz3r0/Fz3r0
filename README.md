@@ -285,6 +285,9 @@ Guides for performing Penetration Attacks involving the Network Infrastructure E
     - [Pro Configs @ Best Practices & Security Standards for **Switchports & Interfaces**](/Networking/Labs/Full-Interface-Port_Configuration.md)
     - [E-Mail & Raw Source Analysis for Secure Theat detection](https://mediatemple.net/community/products/grid/204644060/how-do-i-view-email-headers-for-a-message)
     - [LAN-Security: Endpoints, Hosts, & Security Appliances](/Networking/Attacking-Denending-Network-Infraestructure/NetSec-Defensive-Tools/Security-&-Best-Practices-Configurations/LAN-Security_Endpoint-Host-Appliances.md)
+    - [Layer 2 - Cisco Switches Defensive Configurations for a Pro Stronghold!]()
+
+
 - **Network Security Defensive Tools, Shields & Tanks**
     - SysInternals > [SysInternals Tricks for Pro Strongholds](/Networking/Attacking-Cisco/THM-L2-MAC-Flooding-&-ARP-Spoofing-writeup.md) 
     - SysInternals > [SysInternals Tricks for Pro Strongholds](/Networking/Attacking-Cisco/THM-L2-MAC-Flooding-&-ARP-Spoofing-writeup.md)
