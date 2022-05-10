@@ -280,8 +280,9 @@ Troubleshooting & Incidence Response for Notworking Hardware & Software by _Fz3r
 ### Fz3r0 >> Attacking & Defending Network Infraestructure ⚔️ 
 Guides for performing Penetration Attacks involving the Network Infrastructure Exploiting Known Vulverabilities and how to Mitigate and Secure the Network Against those threats  
 - **Security & Best Practices Configurations for Networking**
-    - [Pro Configs @ Best Practices, Security Standards & SSH Logins](/Networking/Labs/SSH-Minimum-Requeriments-for-Cisco.md) _For any Cisco device (IOS)_ 
-    - [Pro Configs @ Best Practices & Security Standards for Switchports & Interfaces](/Networking/Labs/Full-Interface-Port_Configuration.md)
+    - [Pro Configs @ **Best Practices, Security Standards** & **SSH LOCAL**-Logins](/Networking/Labs/SSH-Minimum-Requeriments-for-Cisco.md) _For any Cisco device (IOS)_ 
+    - [Pro Configs @ **Best Practices, Security Standards** & **AAA - SSH REMOTE- RADIUS SERVER**]()
+    - [Pro Configs @ Best Practices & Security Standards for **Switchports & Interfaces**](/Networking/Labs/Full-Interface-Port_Configuration.md)
     - [E-Mail & Raw Source Analysis for Secure Theat detection](https://mediatemple.net/community/products/grid/204644060/how-do-i-view-email-headers-for-a-message)
     - [LAN-Security: Endpoints, Hosts, & Security Appliances](/Networking/Attacking-Denending-Network-Infraestructure/NetSec-Defensive-Tools/Security-&-Best-Practices-Configurations/LAN-Security_Endpoint-Host-Appliances.md)
 - **Network Security Defensive Tools, Shields & Tanks**
