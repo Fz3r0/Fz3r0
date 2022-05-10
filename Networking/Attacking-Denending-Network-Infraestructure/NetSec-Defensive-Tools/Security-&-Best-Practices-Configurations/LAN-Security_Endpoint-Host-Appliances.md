@@ -220,6 +220,7 @@ R1(config-line)# login local
 - **Authentication server**
     - The server validates the identity of the client and notifies the switch or wireless access point that the client is or is not authorized to access the LAN and switch services.
 
+---
 
 
 
