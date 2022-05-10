@@ -146,9 +146,9 @@ S1#
 - What makes tools such as macof so dangerous is that an attacker can create a MAC table overflow attack very quickly. 
 - For instance, a Catalyst 6500 switch can store 132,000 MAC addresses in its MAC address table. 
 - A tool such as `macof` **can flood a switch with up to 8,000 bogus frames per second**; creating a MAC address table overflow attack in a matter of a few seconds. 
-- The example shows a sample output of the macof command on a Linux host:
+- The example shows a sample output of the `macof` launching a Mac Flooding attack for 15 seconds:
 
-![image](https://user-images.githubusercontent.com/94720207/167533679-b36d3917-5b9c-44ef-9b34-ae6226defb21.png)
+<span align="center"> <p align="center"> ![image](/Networking/Attacking-Cisco/MAC_Flooding_Attack.gif) </p> </span>
 
 - **Another reason why these attack tools are dangerous is because they not only affect the local switch, they can also affect other connected Layer 2 switches:** 
 
