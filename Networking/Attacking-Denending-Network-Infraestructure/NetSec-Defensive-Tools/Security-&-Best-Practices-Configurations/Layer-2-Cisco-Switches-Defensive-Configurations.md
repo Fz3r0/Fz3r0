@@ -191,7 +191,22 @@ S1#
             - ![image](https://user-images.githubusercontent.com/94720207/167534940-7cd8701f-84df-40c4-b5c5-75f8dde811dc.png)
 
         - Step2:
-            - 
+            - The frame arrives on the first switch, which looks at the first 4-byte 802.1Q tag. 
+            - The switch sees that the frame is destined for VLAN 10, which is the native VLAN. 
+            - The switch forwards the packet out all VLAN 10 ports after stripping the VLAN 10 tag. 
+            - The frame is not retagged because it is part of the native VLAN. 
+            - At this point, the VLAN 20 tag is still intact and has not been inspected by the first switch.
+            
+            - ![image](https://user-images.githubusercontent.com/94720207/167538945-c135809a-cccd-4982-8343-2deaeaa09f57.png)
+ 
+        - Step3:
+            - The frame arrives at the second switch which has no knowledge that it was supposed to be for VLAN 10. 
+            - Native VLAN traffic is not tagged by the sending switch as specified in the 802.1Q specification. 
+            - The second switch looks only at the inner 802.1Q tag that the threat actor inserted and sees that the frame is destined for VLAN 20, the target VLAN. 
+            - The second switch sends the frame on to the target or floods it, depending on whether there is an existing MAC address table entry for the target. 
+            
+            - ![image](https://user-images.githubusercontent.com/94720207/167539108-c51f2c2c-c0a3-47c6-9f76-ec8370db0489.png)
+
 
 
 
