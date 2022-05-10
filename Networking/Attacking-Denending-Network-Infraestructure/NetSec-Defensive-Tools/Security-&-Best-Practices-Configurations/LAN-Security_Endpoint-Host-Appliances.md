@@ -147,8 +147,54 @@
 
 ---
 
+### Authentication with a Local Password
 
+- In the previous topic, you learned that a NAC device provides AAA services. 
+- Many types of authentication can be performed on networking devices, and each method offers varying levels of security. 
+- The simplest method of remote access authentication is to configure a login and password combination on console, vty lines, and aux ports, as shown in the vty lines in the following example. 
+- This method is the easiest to implement, but it is also the weakest and least secure. 
+- This method provides no accountability and the password is sent in plaintext. 
+- Anyone with the password can gain entry to the device. 
 
+    - Insecure Config for Login **(CAUTION!)**
+
+```
+R1(config)# line vty 0 4
+R1(config-line)# password ci5c0
+R1(config-line)# login
+```
+
+- **SSH is a more secure form of remote access:**
+
+- It requires a username and a password, both of which are encrypted during transmission.
+- The username and password can be authenticated by the local database method.
+- It provides more accountability because the username is recorded when a user logs in.
+- The following example illustrates SSH and local database methods of remote access.
+
+```
+R1(config)# ip domain-name fz3r0.gov
+R1(config)# crypto key generate rsa general-keys modulus 2048
+R1(config)# username Admin secret Str0ng3rPa55w0rd
+R1(config)# ssh version 2
+R1(config)# line vty 0 4
+R1(config-line)# transport input ssh
+R1(config-line)# login local
+```
+
+- **The local database method has some limitations:**
+
+    - User accounts must be configured locally on each device. 
+    - In a large enterprise environment with multiple routers and switches to manage, it can take time to implement and change local databases on each device.
+    - The local database configuration provides no fallback authentication method. 
+        - For example: 
+            - What if the administrator forgets the username and password for that device? 
+            - With no backup method available for authentication, password recovery becomes the only option.
+
+    - **A better solution is to have all devices refer to the same database of usernames and passwords from a central server (RADIUS).**
+
+---  
+
+AAA Components    
 
 
 
