@@ -3,7 +3,7 @@
 
 ![My Video](https://user-images.githubusercontent.com/94720207/165892585-b830998d-d7c5-43b4-a3ad-f71a07b9077e.gif)
 
-## LAN-Security: Endpoints, Hosts, Network Security Devices & Appliances
+## Layer 2 Cisco Switches Defensive Configurations
 
 ##### Twitter  : [@fz3r0_OPs](https://twitter.com/Fz3r0_OPs) 
 ##### Github  : [Fz3r0](https://github.com/fz3r0) 
@@ -42,9 +42,65 @@
     
 ---
 
-### Network Attacks Today
+### Layer 2 Vulnerabilities & Mitigations Introduction
 
-- Switch Attack Categories 
+- Network administrators routinely implement security solutions to protect the elements in Layer 3 up through Layer 7. 
+- They use VPNs, firewalls, and IPS devices to protect these elements. 
+- However, if Layer 2 is compromised, then all the layers above it are also affected. 
+- For example, if a threat actor with access to the internal network captured Layer 2 frames, then all the security implemented on the layers above would be useless. 
+- The threat actor could cause a lot of damage on the Layer 2 LAN networking infrastructure.
+
+![image](https://user-images.githubusercontent.com/94720207/167526943-63ca7fd8-325d-48b7-83d6-e82c9c481ab6.png)
+
+### Switch Attack Categories
+
+- Security is only as strong as the weakest link in the system, and Layer 2 is considered to be that weak link. This is because LANs were traditionally under the administrative control of a single organization. 
+- We inherently trusted all persons and devices connected to our LAN. 
+- Today, with BYOD and more sophisticated attacks, our LANs have become more vulnerable to penetration. 
+- Therefore, in addition to protecting Layer 3 to Layer 7, network security professionals must also mitigate attacks to the Layer 2 LAN infrastructure.
+
+- The first step in mitigating attacks on the Layer 2 infrastructure is to understand the underlying operation of Layer 2 and the threats posed by the Layer 2 infrastructure.
+
+    - Attacks against the Layer 2 LAN infrastructure are described in the table and are discussed in more detail later in this module.
+
+    - Layer 2 Attacks
+
+| **Category**                 | **Examples**                            |
+|------------------------------|-----------------------------------------|
+| **MAC Table Attacks**        | Includes MAC address flooding attacks.  |
+| **VLAN Attacks**             | Includes VLAN hopping and VLAN double-tagging attacks. It also includes attacks between devices on a common VLAN.  |
+| **DHCP Attacks**             | Includes DHCP starvation and DHCP spoofing attacks.            |
+| **ARP Attacks**              | Includes ARP spoofing and ARP poisoning attacks.     |
+| **Address Spoofing Attacks** | Includes MAC address and IP address spoofing attacks.        |
+| **STP Attacks**              | Includes Spanning Tree Protocol manipulation attacks.      |
+
+### Switch Attack Mitigation Techniques
+
+- The table provides an overview of Cisco solutions to help mitigate Layer 2 attacks.
+
+   - Layer 2 Attack Mitigation
+
+| **Solution**                     | **Description **           |
+|----------------------------------|--------------------------------|
+| **Port Security**                | Prevents many types of attacks including MAC address flooding attacks and DHCP starvation attacks.  |
+| **DHCP Snooping**                | Prevents DHCP starvation and DHCP spoofing attacks.    |
+| **Dynamic ARP Inspection (DAI)** | Prevents ARP spoofing and ARP poisoning attacks.       |
+| **IP Source Guard (IPSG)**       | Prevents MAC and IP address spoofing attacks.          |
+
+- These Layer 2 solutions will not be effective if the management protocols are not secured. 
+    
+    - For example:   
+   
+        - The management protocols Syslog, Simple Network Management Protocol (SNMP), Trivial File Transfer Protocol (TFTP), telnet, File Transfer Protocol (FTP) and most other common protocols are insecure; 
+    
+    - Therefore, the following strategies are recommended:
+
+        - Always use secure variants of these protocols such as SSH, Secure Copy Protocol (SCP), Secure FTP (SFTP), and Secure Socket Layer/Transport Layer Security (SSL/TLS).
+        - Consider using out-of-band management network to manage devices.
+        - Use a dedicated management VLAN where nothing but management traffic resides.
+        - Use ACLs to filter unwanted access.
+
+
 
 ---
 
