@@ -319,10 +319,12 @@ Guides, Tips & Tricks, Downloads, Binaries, Executables, Scripts, Open Source Co
     - **Snort @ Cisco Talos - The foremost IPS in the world. Define malicious network activity.** by @ Fz3r0
 
 - **Tools for the Pro Networking Engineer**
-    - [Wireshark]()
+    - [Wireshark]() _The world’s foremost and widely-used network protocol analyzer._
+    - [Snort]() _The foremost IPS in the world supported by Cisco Talos_
     - [Domain to IP Converter](https://www.rankwatch.com/free-tools/domain-to-iP-converter-tool) _URL to IP Address online_
     - [IP Info](https://ipinfo.io/) _Accurate IP address data "whois" online_
-    - [LDWin - Link Discovery for Windows](https://github.com/Fz3r0/LDWin) _Discover connected ports on Switch using CDP & tcpdump.exe__
+    - [LDWin - Link Discovery for Windows](https://github.com/Fz3r0/LDWin) _Discover connected ports on Switch using CDP & tcpdump.exe_
+    - [iPerf](https://iperf.fr/) _The ultimate speed test tool for TCP, UDP and SCTP_
          
 - **Net Blacksmithing: Handcrafted Tools & Weaponry for Networking by @ Fz3r0** 
     - [Dark Art of Packet Crafting with Scapy](https://0xbharath.github.io/art-of-packet-crafting-with-scapy/index.html) _@ Python + Scapy_
