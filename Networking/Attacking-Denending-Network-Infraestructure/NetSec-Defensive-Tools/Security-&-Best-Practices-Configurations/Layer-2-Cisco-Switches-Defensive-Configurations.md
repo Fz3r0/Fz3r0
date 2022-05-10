@@ -160,6 +160,38 @@ S1#
 
 --- 
 
+### VLAN and DHCP Attacks
+
+- This topic investigates the many different types of LAN attacks and their mitigation techniques. 
+- Like the previous topics, these attacks tend to be specific to switches and Layer 2.
+
+### VLAN Hopping Attacks
+
+- **A VLAN hopping attack enables traffic from one VLAN to be seen by another VLAN without the aid of a router.** 
+- In a basic VLAN hopping attack, the **threat actor configures a host to act like a switch to take advantage of the automatic trunking port feature enabled by default on most switch ports.**
+    - The threat actor configures the host to spoof 802.1Q signaling and Cisco-proprietary `Dynamic Trunking Protocol (DTP)` signaling to trunk with the connecting switch. 
+    - If successful, the switch establishes a trunk link with the host, as shown in the figure. 
+    - **Now the threat actor can access all the VLANs on the switch.** 
+    - **The threat actor can send and receive traffic on any VLAN, effectively hopping between VLANs.**
+
+![image](https://user-images.githubusercontent.com/94720207/167534607-97492657-0f11-420b-87f4-20accc5fc8f4.png)
+
+### VLAN Double-Tagging Attack
+
+- A threat actor in specific situations could embed a hidden 802.1Q tag inside the frame that already has an 802.1Q tag. This tag allows the frame to go to a VLAN that the original 802.1Q tag did not specify.
+
+    - **Steps of a VLAN double-Tagging Attack:**
+    
+        - Step1:
+            - The threat actor sends a double-tagged 802.1Q frame to the switch. 
+            - The outer header has the VLAN tag of the threat actor, which is the same as the native VLAN of the trunk port. 
+            - For the purposes of this example, assume that this is VLAN 10. 
+            - The inner tag is the victim VLAN, in this example, VLAN 20.  
+
+            - ![image](https://user-images.githubusercontent.com/94720207/167534940-7cd8701f-84df-40c4-b5c5-75f8dde811dc.png)
+
+        - Step2:
+            - 
 
 
 
