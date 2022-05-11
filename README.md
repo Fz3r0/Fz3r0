@@ -397,34 +397,36 @@ Guides, Tips & Tricks, Downloads, Binaries, Executables, Scripts, Open Source Co
 - [Aldeid](https://www.aldeid.com/wiki/Main_Page) _Wiki about Network and Web Applications Security, Ethical Hacking and Network Forensics._
 - [Shodan: The Complete Guide](https://skerritt.blog/shodan/) _Complete guide for Shodan.io: a search engine for the Internet of Things._
 - [shodan.io Hacks, Dorks & Bonus](https://0ut3r.space/2020/07/25/shodan-dorks/)
-- [OSINT like Agent 007 - Cipher Knowledge](https://github.com/Fz3r0/osint_stuff_tool_collection?organization=Fz3r0&organization=Fz3r0)        
-    
+- [OSINT like Agent 007 - Cipher Knowledge](https://github.com/Fz3r0/osint_stuff_tool_collection?organization=Fz3r0&organization=Fz3r0)
+- [Dorks Collection List](https://github.com/Fz3r0/Dorks-collections-list)        
+
+### Scripts & Commands for Digital Black Magic & Hacking
+ 
+- [Pentester Book](https://pentestbook.six2dez.com/post-exploitation/linux)
+- https://github.com/Fz3r0/CheatSheet
+- https://github.com/Fz3r0/PowerTools powershell
+
 ### Privilege Escalation (PrivEsc)
   
 - Linux PrivEsc
-            - Fz3r0 Linux PrivEsc Ninjitsu(/Networking/Labs/) _My own logs & writeups about Linux PrivEsc_
-            - [Linux | Pergamino I](https://github.com/netbiosX/Checklists/blob/master/Linux-Privilege-Escalation.md)
-            - [Linux | Pergamino II - swisskyrepo](https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Linux%20-%20Privilege%20Escalation.md)
-            - [Linux | Pergamino III - OSCP Guide](https://sushant747.gitbooks.io/total-oscp-guide/privilege_escalation_-_linux.html)
-            - [Linux | Pergamino IV - Payatu](https://payatu.com/guide-linux-privilege-escalation)
-            - [Fz3r0 @ Linux PrivEsc]()
+        - Fz3r0 Linux PrivEsc Ninjitsu(/Networking/Labs/) _My own logs & writeups about Linux PrivEsc_
+        - [Linux | Pergamino I](https://github.com/netbiosX/Checklists/blob/master/Linux-Privilege-Escalation.md)
+        - [Linux | Pergamino II - swisskyrepo](https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Linux%20-%20Privilege%20Escalation.md)
+        - [Linux | Pergamino III - OSCP Guide](https://sushant747.gitbooks.io/total-oscp-guide/privilege_escalation_-_linux.html)
+        - [Linux | Pergamino IV - Payatu](https://payatu.com/guide-linux-privilege-escalation)
+        - [Fz3r0 @ Linux PrivEsc]()
 
-        - Windows PrivEsc
-            - Fz3r0 Windows PrivEsc Ninjitsu(/Networking/Labs/) _My own logs & writeups about Windows PrivEsc_
-            - [Pergamino I - ](https://github.com/Fz3r0/Checklists_PrivEsc) _Detailed Checklist for Windows PrivEsc & Scenarios_
-            - [Mimicatz I](https://www.youtube.com/watch?v=AZirvtZNIEw)
-             
-            - https://github.com/Fz3r0/windows-privesc-check
+- Windows PrivEsc
+        - Fz3r0 Windows PrivEsc Ninjitsu(/Networking/Labs/) _My own logs & writeups about Windows PrivEsc_
+        - [Pergamino I - ](https://github.com/Fz3r0/Checklists_PrivEsc) _Detailed Checklist for Windows PrivEsc & Scenarios_
+        - [Mimicatz I](https://www.youtube.com/watch?v=AZirvtZNIEw)
+        - https://github.com/Fz3r0/windows-privesc-check
  
-        - Windows Server PrivEsc
-            - [Windows Server | Pergamino I](https://github.com/Fz3r0/Checklists_PrivEsc) _Detailed Checklist for Windows Server PrivEsc & Scenarios_ 
-            - [Active Directory Exploitation Cheat-Sheet by Tib3rius](https://github.com/Tib3rius/Active-Directory-Exploitation-Cheat-Sheet)
+- Windows Server & Active Directory PrivEsc
+        - [Windows Server | Pergamino I](https://github.com/Fz3r0/Checklists_PrivEsc) _Detailed Checklist for Windows Server PrivEsc & Scenarios_ 
+        - [Active Directory Exploitation Cheat-Sheet by Tib3rius](https://github.com/Tib3rius/Active-Directory-Exploitation-Cheat-Sheet)
   
-    - [Scripts & Commands for Digital Black Magic or Hacking Purposes]
- 
-        - [Pentester Book](https://pentestbook.six2dez.com/post-exploitation/linux)
-        - https://github.com/Fz3r0/CheatSheet
-        - https://github.com/Fz3r0/PowerTools powershell
+
  
   - [Cyber-Weapons & Tools]
      - [Blackhat Arsenal Tools](https://github.com/toolswatch/blackhat-arsenal-tools) _Official Black Hat Arsenal Database_
@@ -435,9 +437,9 @@ Guides, Tips & Tricks, Downloads, Binaries, Executables, Scripts, Open Source Co
      - [Payload All the Things](https://github.com/Fz3r0/PayloadsAllTheThings) _Payloads and bypasses for Web App Security._
      - [TheFatRat](https://github.com/screetsec/TheFatRat) _Payload Automation,Listener Generator,Bypass anti-virus backdoors & more..._
   
-  - [SQL injection]
+# SQL injection
   
-     - https://github.com/Fz3r0/Advanced-SQL-Injection-Cheatsheet
+ - https://github.com/Fz3r0/Advanced-SQL-Injection-Cheatsheet
   
     - [PrivEsc]
   
