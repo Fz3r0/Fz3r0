@@ -283,9 +283,10 @@ Guides for performing Penetration Attacks involving the Network Infrastructure E
     - [Pro Configs @ **Best Practices, Security Standards** & **SSH LOCAL**-Logins](/Networking/Labs/SSH-Minimum-Requeriments-for-Cisco.md) _For any Cisco device (IOS)_ 
     - [Pro Configs @ **Best Practices, Security Standards** & **AAA - SSH REMOTE- RADIUS SERVER**]()
     - [Pro Configs @ Best Practices & Security Standards for **Switchports & Interfaces**](/Networking/Labs/Full-Interface-Port_Configuration.md)
+    - [Pro Configs @ **Defending Layer 2 Attacks** - Cisco Switches **Defensive Security Configurations** for a Pro Stronghold!](/Networking/Attacking-Denending-Network-Infraestructure/NetSec-Defensive-Tools/Security-&-Best-Practices-Configurations/Layer-2-Cisco-Switches-Defensive-Security-Configurations.md)
     - [E-Mail & Raw Source Analysis for Secure Theat detection](https://mediatemple.net/community/products/grid/204644060/how-do-i-view-email-headers-for-a-message)
     - [LAN-Security: Endpoints, Hosts, & Security Appliances](/Networking/Attacking-Denending-Network-Infraestructure/NetSec-Defensive-Tools/Security-&-Best-Practices-Configurations/LAN-Security_Endpoint-Host-Appliances.md)
-    - [Layer 2 - Cisco Switches Defensive Configurations for a Pro Stronghold!]()
+
 
 
 - **Network Security Defensive Tools, Shields & Tanks**
