@@ -156,13 +156,13 @@ Fz3r0_Switch(config-if-range)#
 
 - **Enable Port Security:**
 
-- Notice in the example, the switchport port-security command was rejected. 
-- This is because port security can only be configured on manually configured access ports or manually configured trunk ports. 
+    - Notice in the example, the switchport port-security command was rejected. 
+    - This is because port security can only be configured on manually configured access ports or manually configured trunk ports. 
 
-    - **By default, Layer 2 switch ports are set to dynamic auto (trunking on).** 
-    - **Therefore, in the example, the port is configured with the `switchport mode access` interface configuration command.**
+        - **By default, Layer 2 switch ports are set to dynamic auto (trunking on).** 
+        - **Therefore, in the example, the port is configured with the `switchport mode access` interface configuration command.**
 
-        - Note: Trunk port security is beyond the scope of CCNA.
+            - Note: Trunk port security is beyond the scope of CCNA.
 
 ```
 Fz3r0_Switch(config)# interface f0/1
