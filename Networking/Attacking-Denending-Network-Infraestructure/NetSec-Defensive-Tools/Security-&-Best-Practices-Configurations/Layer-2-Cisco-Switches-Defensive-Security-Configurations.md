@@ -102,112 +102,46 @@
 
 --- 
 
-### MAC Address Table Attack
+### Implement Port Security
 
-- **Switch Operation Review**
+1. **Secure Unused Ports**
 
-    - In this topic, the focus is still on switches, specifically their MAC address tables and how these tables are vulnerable to attacks.
-    - Recall that to make forwarding decisions, a Layer 2 LAN switch builds a table based on the source MAC addresses in received frames. 
-    - Shown in the figure, this is called a MAC address table. 
-    - **MAC address tables** are stored in memory and are used to more efficiently forward frames. 
-
-```
-S1# show mac address-table dynamic
-          Mac Address Table
--------------------------------------------
-Vlan    Mac Address       Type        Ports
-----    -----------       --------    -----
-   1    0001.9717.22e0    DYNAMIC     Fa0/4
-   1    000a.f38e.74b3    DYNAMIC     Fa0/1
-   1    0090.0c23.ceca    DYNAMIC     Fa0/3
-   1    00d0.ba07.8499    DYNAMIC     Fa0/2
-S1#
-```
-
-### MAC Address Table Flooding
-
-- All MAC tables have a fixed size and consequently, a switch can run out of resources in which to store MAC addresses. 
-- MAC address flooding attacks take advantage of this limitation by bombarding the switch with fake source MAC addresses until the switch MAC address table is full.
-- When this occurs, the switch treats the frame as an unknown unicast and begins to flood all incoming traffic out all ports on the same VLAN without referencing the MAC table. 
-- This condition now allows a threat actor to capture all of the frames sent from one host to another on the local LAN or local VLAN.
-
-![image](https://user-images.githubusercontent.com/94720207/167533324-11527668-1974-414c-86fc-87d50bfcfdfd.png)
-
-- Note: 
-    - Traffic is flooded only within the local LAN or VLAN. 
-    - The threat actor can only capture traffic within the local LAN or VLAN to which the threat actor is connected.
-
-- The figure shows how a threat actor can easily use the network attack tool `macof` to overflow a MAC address table.
-
-![image](https://user-images.githubusercontent.com/94720207/167533504-b6487d0a-9600-464c-bc9a-4ad6cafcca91.png)
-
-### MAC Address Table Attack Mitigation
-
-- What makes tools such as macof so dangerous is that an attacker can create a MAC table overflow attack very quickly. 
-- For instance, a Catalyst 6500 switch can store 132,000 MAC addresses in its MAC address table. 
-- A tool such as `macof` **can flood a switch with up to 8,000 bogus frames per second**; creating a MAC address table overflow attack in a matter of a few seconds. 
-- The example shows a sample output of the `macof` launching a Mac Flooding attack for 15 seconds:
-
-<span align="center"> <p align="center"> ![image](/Networking/Attacking-Cisco/MAC_Flooding_Attack.gif) </p> </span>
-
-- **Another reason why these attack tools are dangerous is because they not only affect the local switch, they can also affect other connected Layer 2 switches:** 
-
-    - When the MAC address table of a switch is full, it starts flooding out all ports including those connected to other Layer 2 switches.
-
-- **To mitigate MAC address table overflow attacks, network administrators must implement `port security`.** 
-
-    - `Port security` will only allow a specified number of source MAC addresses to be learned on the port. (Port security is further discussed in another module.)
-
---- 
-
-### VLAN and DHCP Attacks
-
-- This topic investigates the many different types of LAN attacks and their mitigation techniques. 
-- Like the previous topics, these attacks tend to be specific to switches and Layer 2.
-
-### VLAN Hopping Attacks
-
-- **A VLAN hopping attack enables traffic from one VLAN to be seen by another VLAN without the aid of a router.** 
-- In a basic VLAN hopping attack, the **threat actor configures a host to act like a switch to take advantage of the automatic trunking port feature enabled by default on most switch ports.**
-    - The threat actor configures the host to spoof 802.1Q signaling and Cisco-proprietary `Dynamic Trunking Protocol (DTP)` signaling to trunk with the connecting switch. 
-    - If successful, the switch establishes a trunk link with the host, as shown in the figure. 
-    - **Now the threat actor can access all the VLANs on the switch.** 
-    - **The threat actor can send and receive traffic on any VLAN, effectively hopping between VLANs.**
-
-![image](https://user-images.githubusercontent.com/94720207/167534607-97492657-0f11-420b-87f4-20accc5fc8f4.png)
-
-### VLAN Double-Tagging Attack
-
-- A threat actor in specific situations could embed a hidden 802.1Q tag inside the frame that already has an 802.1Q tag. This tag allows the frame to go to a VLAN that the original 802.1Q tag did not specify.
-
-    - **Steps of a VLAN double-Tagging Attack:**
+    - Layer 2 devices are considered to be the weakest link in a company’s security infrastructure. 
+    - Layer 2 attacks are some of the easiest for hackers to deploy but these threats can also be mitigated with some common Layer 2 solutions.
     
-        - Step1:
-            - The threat actor sends a double-tagged 802.1Q frame to the switch. 
-            - The outer header has the VLAN tag of the threat actor, which is the same as the native VLAN of the trunk port. 
-            - For the purposes of this example, assume that this is VLAN 10. 
-            - The inner tag is the victim VLAN, in this example, VLAN 20.  
+        - All **switch ports (interfaces)** should be secured **before the switch is deployed for production use.** 
+        - **How a port is secured depends on its function.**
 
-            - ![image](https://user-images.githubusercontent.com/94720207/167534940-7cd8701f-84df-40c4-b5c5-75f8dde811dc.png)
+    - A simple method that many administrators use to help secure the network from unauthorized access is to disable all unused ports on a switch. 
+        
+        - For example: 
+        
+            - If a Catalyst 2960 switch has 24 ports and there are three Fast Ethernet connections in use, it is good practice to disable the 21 unused ports!!! 
+            - Navigate to each unused port and issue the Cisco IOS `shutdown` command. 
+            - If a port must be reactivated at a later time, it can be enabled with the `no shutdown` command.
 
-        - Step2:
-            - The frame arrives on the first switch, which looks at the first 4-byte 802.1Q tag. 
-            - The switch sees that the frame is destined for VLAN 10, which is the native VLAN. 
-            - The switch forwards the packet out all VLAN 10 ports after stripping the VLAN 10 tag. 
-            - The frame is not retagged because it is part of the native VLAN. 
-            - At this point, the VLAN 20 tag is still intact and has not been inspected by the first switch.
-            
-            - ![image](https://user-images.githubusercontent.com/94720207/167538945-c135809a-cccd-4982-8343-2deaeaa09f57.png)
- 
-        - Step3:
-            - The frame arrives at the second switch which has no knowledge that it was supposed to be for VLAN 10. 
-            - Native VLAN traffic is not tagged by the sending switch as specified in the 802.1Q specification. 
-            - The second switch looks only at the inner 802.1Q tag that the threat actor inserted and sees that the frame is destined for VLAN 20, the target VLAN. 
-            - The second switch sends the frame on to the target or floods it, depending on whether there is an existing MAC address table entry for the target. 
-            
-            - ![image](https://user-images.githubusercontent.com/94720207/167539108-c51f2c2c-c0a3-47c6-9f76-ec8370db0489.png)
+- To configure a range of ports, use the interface range command:
 
---- 
+```
+Fz3r0_Switch(config)# interface range type module/first-number – last-number
+```
+
+- For example: 
+
+    - To `shutdown` ports for `Fa0/8 through Fa0/24` on `S1`, you would enter the following command:
+
+```
+Fz3r0_Switch(config)# interface range fa0/8 - 24      <<<-----| Selecting range of Switchports
+Fz3r0_Switch(config-if-range)# shutdown               <<<-----| Shutdown
+
+%LINK-5-CHANGED: Interface FastEthernet0/8, changed state to administratively down
+(output omitted)
+%LINK-5-CHANGED: Interface FastEthernet0/24, changed state to administratively down
+
+Fz3r0_Switch(config-if-range)#
+```
+
+2. **Mitigate MAC Address Table Attacks**
 
 
 
