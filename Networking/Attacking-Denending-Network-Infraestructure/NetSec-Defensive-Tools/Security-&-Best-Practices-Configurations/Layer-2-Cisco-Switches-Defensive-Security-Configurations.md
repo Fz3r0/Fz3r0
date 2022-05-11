@@ -106,19 +106,21 @@
 
 1. **Secure Unused Ports**
 
-    - Layer 2 devices are considered to be the weakest link in a company’s security infrastructure. 
-    - Layer 2 attacks are some of the easiest for hackers to deploy but these threats can also be mitigated with some common Layer 2 solutions.
-    
-        - All **switch ports (interfaces)** should be secured **before the switch is deployed for production use.** 
-        - **How a port is secured depends on its function.**
+### 1. Secure Unused Ports - `shutdown`
 
-    - A simple method that many administrators use to help secure the network from unauthorized access is to disable all unused ports on a switch. 
+- Layer 2 devices are considered to be the weakest link in a company’s security infrastructure. 
+- Layer 2 attacks are some of the easiest for hackers to deploy but these threats can also be mitigated with some common Layer 2 solutions.
+    
+    - All **switch ports (interfaces)** should be secured **before the switch is deployed for production use.** 
+    - **How a port is secured depends on its function.**
+
+- A simple method that many administrators use to help secure the network from unauthorized access is to disable all unused ports on a switch. 
         
-        - For example: 
+    - For example: 
         
-            - If a Catalyst 2960 switch has 24 ports and there are three Fast Ethernet connections in use, it is good practice to disable the 21 unused ports!!! 
-            - Navigate to each unused port and issue the Cisco IOS `shutdown` command. 
-            - If a port must be reactivated at a later time, it can be enabled with the `no shutdown` command.
+        - If a Catalyst 2960 switch has 24 ports and there are three Fast Ethernet connections in use, it is good practice to disable the 21 unused ports!!! 
+        - Navigate to each unused port and issue the Cisco IOS `shutdown` command. 
+        - If a port must be reactivated at a later time, it can be enabled with the `no shutdown` command.
 
 - To configure a range of ports, use the interface range command:
 
@@ -141,9 +143,72 @@ Fz3r0_Switch(config-if-range)# shutdown               <<<-----| Shutdown
 Fz3r0_Switch(config-if-range)#
 ```
 
-2. **Mitigate MAC Address Table Attacks**
+### 2. Mitigate MAC Address Table Attacks - `port security` 
 
+- The simplest and most effective method to prevent `MAC address table overflow attacks` is to enable `port security`.
+- `port security` **limits the number of valid MAC addresses allowed on a port.** 
+- It allows an administrator to manually configure `MAC addresses` for a port or to permit the switch to dynamically learn a **limited number of `MAC addresses`**. 
 
+    - **When a port configured with port security receives a frame, the source MAC address of the frame is compared to the list of secure source MAC addresses that were manually configured or dynamically learned on the port.**
+    - **By limiting the number of permitted MAC addresses on a port to one, port security can be used to control unauthorized access to the network, as shown in the figure.**
+
+![image](https://user-images.githubusercontent.com/94720207/167964079-8ffb76d7-73df-4864-8e2b-8864633ff929.png)
+
+- **Enable Port Security:**
+
+- Notice in the example, the switchport port-security command was rejected. 
+- This is because port security can only be configured on manually configured access ports or manually configured trunk ports. 
+
+    - **By default, Layer 2 switch ports are set to dynamic auto (trunking on).** 
+    - **Therefore, in the example, the port is configured with the `switchport mode access` interface configuration command.**
+
+        - Note: Trunk port security is beyond the scope of CCNA.
+
+```
+Fz3r0_Switch(config)# interface f0/1
+Fz3r0_Switch(config-if)# switchport port-security              
+Command rejected: FastEthernet0/1 is a dynamic port.   <<<----| Rejected (because TRUNK DYNAMIC)
+
+Fz3r0_Switch(config-if)# switchport mode access        <<<----| It must be << ACCESS >>
+Fz3r0_Switch(config-if)# switchport port-security             |         or
+Fz3r0_Switch(config-if)# end                                  |  Manual Trunk (not dynamic default)  
+Fz3r0_Switch#
+```
+
+- Use the `show port-security` interface command to display the current port security settings for `FastEthernet 0/1`, as shown in the example. 
+- Notice how `port security` is enabled, port status is Secure-down which means there are no devices attached and no violation has occurred, the violation mode is Shutdown, and how the maximum number of MAC addresses is 1. 
+- If a device is connected to the port, the switch port status would display Secure-up and the switch will automatically add the device’s MAC address as a secure MAC. In this example, no device is connected to the port.
+
+```
+Fz3r0_Switch# show port-security interface f0/1
+Port Security              : Enabled
+Port Status                : Secure-down
+Violation Mode             : Shutdown
+Aging Time                 : 0 mins
+Aging Type                 : Absolute
+SecureStatic Address Aging : Disabled
+Maximum MAC Addresses      : 1
+Total MAC Addresses        : 0
+Configured MAC Addresses   : 0
+Sticky MAC Addresses       : 0
+Last Source Address:Vlan   : 0000.0000.0000:0
+Security Violation Count   : 0
+Fz3r0_Switch#
+```
+
+- **Note: If an active port is configured with the switchport port-security command and more than one device is connected to that port, the port will transition to the error-disabled state.** _This condition is discussed later in this topic._
+
+- After port security is enabled, other port security specifics can be configured, as shown in the example:
+
+```
+Fz3r0_Switch(config-if)# switchport port-security ?
+  aging        Port-security aging commands
+  mac-address  Secure mac address
+  maximum      Max secure addresses
+  violation    Security violation mode  
+Fz3r0_Switch(config-if)# switchport port-security
+```
+- Limit and Learn MAC Addresses
 
 
 ---
