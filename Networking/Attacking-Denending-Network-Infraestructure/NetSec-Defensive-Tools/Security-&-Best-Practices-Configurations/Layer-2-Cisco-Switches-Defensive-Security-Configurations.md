@@ -543,7 +543,43 @@ Fz3r0_Switch#
 
 ![image](https://user-images.githubusercontent.com/94720207/167978298-6a0bf48a-4871-4f34-931e-d4512acfd9be.png)
 
+- Notice that the rogue DHCP server would be on an untrusted port after enabling DHCP snooping. 
+- All interfaces are treated as untrusted by default. 
+- Trusted interfaces are typically trunk links and ports directly connected to a legitimate DHCP server. 
+- These interfaces must be explicitly configured as trusted.
+- A DHCP table is built that includes the source MAC address of a device on an untrusted port and the IP address assigned by the DHCP server to that device. 
+- The MAC address and IP address are bound together. 
 
+    - Therefore, this table is called the DHCP snooping binding table.
+
+- **Steps to Implement DHCP Snooping:**
+
+    - Step 1. Enable DHCP snooping by using the `ip dhcp snooping` **global configuration command**.
+
+    - Step 2. On trusted ports, use the `ip dhcp snooping trust` interface configuration command.
+
+    - Step 3. Limit the number of DHCP discovery messages that can be received per second on untrusted ports by using the `ip dhcp snooping limit rate` interface configuration command.
+
+    - Step 4. **Enable DHCP snooping by VLAN, or by a range of VLANs**, by using the ip `dhcp snooping vlan` global configuration command.
+
+- **DHCP Snooping Configuration Example:**
+
+    - The reference topology for this DHCP snooping example is shown in the figure. 
+
+        - Notice that F0/5 is an untrusted port because it connects to a PC. 
+        - F0/1 is a trusted port because it connects to the DHCP server.
+
+![image](https://user-images.githubusercontent.com/94720207/167979425-f4f48089-25a9-475a-aa66-1fff88de4f05.png)
+
+- The following is an example of how to configure DHCP snooping on S1. 
+    - Notice how DHCP snooping is first enabled. 
+    - Then the upstream interface to the DHCP server is explicitly trusted.(F0/1) 
+    - Next, the range of FastEthernet ports from F0/5 to F0/24 are untrusted by default, so a rate limit is set to six packets per second. 
+    - Finally, DHCP snooping is enabled on VLANS 5, 10, 50, 51, and 52.
+
+- Use the `show ip dhcp snooping`rivileged EXEC command to verify DHCP snooping and `ow ip dhcp snooping binding to view the clients that have received DHCP information, as shown in the example.
+
+Note: DHCP snooping is also required by Dynamic ARP Inspection (DAI), which is the next topic
 
 ---
 
