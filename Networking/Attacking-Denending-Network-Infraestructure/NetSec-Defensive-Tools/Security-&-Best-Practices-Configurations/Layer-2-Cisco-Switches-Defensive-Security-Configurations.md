@@ -882,10 +882,9 @@ switchport nonegotiate
 shutdown
 
 interface f0/7
-description << TRUNKS >>
+description << TRUNKS (manual selection / no vlan1) >>
 switchport mode trunk
 switchport trunk native vlan 99
-switchport nonegotiate
 
    4. Mitigate DHCP Attacks `DHCP snooping`
 
