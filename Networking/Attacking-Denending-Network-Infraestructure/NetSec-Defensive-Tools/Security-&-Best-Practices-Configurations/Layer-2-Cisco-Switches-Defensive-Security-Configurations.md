@@ -450,7 +450,39 @@ show port-security address
 
 ---
 
-###
+### Mitigate VLAN Attacks
+
+- As a quick review, a VLAN hopping attack can be launched in one of three ways:
+
+    1. Spoofing DTP messages from the attacking host to cause the switch to enter trunking mode. 
+        - From here, the attacker can send traffic tagged with the target VLAN, and the switch then delivers the packets to the destination.
+    2.Introducing a rogue switch and enabling trunking. 
+        - The attacker can then access all the VLANs on the victim switch from the rogue switch.
+    3.Another type of VLAN hopping attack is a double-tagging (or double-encapsulated) attack. 
+        - This attack takes advantage of the way hardware on most switches operate.
+
+- **Steps to Mitigate VLAN Hopping Attacks:**
+
+    - Step 1: **Disable DTP (auto trunking) negotiations on non-trunking ports** by using the `switchport mode access` interface configuration command.
+
+    - Step 2: **Disable unused ports and put them in an unused VLAN.**
+
+    - Step 3: **Manually enable the trunk link on a trunking port** by using the `switchport mode trunk` command.
+
+    - Step 4: **Disable DTP (auto trunking) negotiations on trunking ports** by using the `switchport nonegotiate` command.
+
+    - Step 5: **Set the native VLAN to a VLAN other than VLAN 1** by using the `switchport trunk native vlan vlan_number` command.
+
+- For example, assume the following:
+
+    - FastEthernet ports 0/1 through fa0/16 are active access ports
+    - FastEthernet ports 0/17 through 0/20 are not currently in use
+    - FastEthernet ports 0/21 through 0/24 are trunk ports.
+
+        - **VLAN hopping can be mitigated by implementing the following configuration.**
+
+
+
 
 ---
 
