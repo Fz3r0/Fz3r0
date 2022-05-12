@@ -208,9 +208,94 @@ Fz3r0_Switch(config-if)# switchport port-security ?
   violation    Security violation mode  
 Fz3r0_Switch(config-if)# switchport port-security
 ```
-- Limit and Learn MAC Addresses
 
+- **Limit and Learn MAC Addresses**
 
+- To set the maximum number of MAC addresses allowed on a port, use the following command:
+
+```
+Fz3r0_Switch(config-if)# switchport port-security maximum value 
+```
+
+- The default port security value is `1`. The maximum number of secure MAC addresses that can be configured depends the switch and the IOS. In this example, the maximum is `8192`.
+
+```
+Fz3r0_Switch(config)# interface f0/1
+Fz3r0_Switch(config-if)# switchport port-security maximum ? 
+  <1-8192>  Maximum addresses
+Fz3r0_Switch(config-if)# switchport port-security maximum 10
+```
+
+- The switch can be configured to learn about MAC addresses on a secure port in one of three ways:
+    
+1. Manually Configured:
+    -  The administrator manually configures a static MAC address(es) by using the following command for each secure MAC address on the port: 
+```
+Fz3r0_Switch(config-if)# switchport port-security mac-address mac-address
+```
+
+2. Dynamically Learned:
+    - When the switchport port-security command is entered, the current source MAC for the device connected to the port is automatically secured but is not added to the startup configuration. 
+    - If the switch is rebooted, the port will have to re-learn the device’s MAC address. 
+
+3. Dynamically Learned – Sticky
+    - The administrator can enable the switch to dynamically learn the MAC address and "stick" them to the running configuration by using the following command:
+
+```
+Fz3r0_Switch(config-if)# switchport port-security mac-address sticky 
+```
+
+- Saving the running configuration will commit the dynamically learned MAC address to NVRAM.
+
+    - Full example:
+    
+        - The following example demonstrates a complete `port security` configuration for `FastEthernet 0/1` with a **host connected to port `Fa0/1`**. 
+        - The administrator specifies a **maximum of 2 MAC addresses**, manually configures one secure MAC address, and then configures the port to dynamically learn additional secure MAC addresses up to the 2 secure MAC address maximum. 
+        - Use the show port-security interface and the show port-security address command to verify the configuration.  
+
+```
+Fz3r0_Switch#configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+
+Fz3r0_Switch(config)#
+Fz3r0_Switch(config)# interface fa0/1
+Fz3r0_Switch(config-if)# switchport mode access                                   <<<----| Access (or Manual trunk)
+Fz3r0_Switch(config-if)# switchport port-security                                 <<<----| Enable it!
+Fz3r0_Switch(config-if)# switchport port-security maximum 2                       <<<----| Max 2 MAC Address
+Fz3r0_Switch(config-if)# switchport port-security mac-address aaaa.bbbb.1234      <<<----| Manual
+Fz3r0_Switch(config-if)# switchport port-security mac-address sticky              <<<----| Sticky
+
+Fz3r0_Switch# show port-security interface fa0/1
+Port Security              : Enabled
+Port Status                : Secure-up
+Violation Mode             : Shutdown
+Aging Time                 : 0 mins
+Aging Type                 : Absolute
+SecureStatic Address Aging : Disabled
+Maximum MAC Addresses      : 2
+Total MAC Addresses        : 2
+Configured MAC Addresses   : 1
+Sticky MAC Addresses       : 1
+Last Source Address:Vlan   : a41f.7272.676a:1
+Security Violation Count   : 0
+S1# show port-security address
+               Secure Mac Address Table
+-----------------------------------------------------------------------------
+Vlan    Mac Address       Type                          Ports   Remaining Age
+                                                                   (mins)    
+----    -----------       ----                          -----   -------------
+1    a41f.7272.676a    SecureSticky                  Fa0/1        -
+1    aaaa.bbbb.1234    SecureConfigured              Fa0/1        -
+-----------------------------------------------------------------------------
+Total Addresses in System (excluding one mac per port)     : 1
+Max  Addresses limit in System (excluding one mac per port) : 8192
+
+Fz3r0_Switch#
+```
+
+- The output of the show port-security interface command verifies that port security is enabled, there is a host connected to the port (i.e., Secure-up), a total of 2 MAC addresses will be allowed, and S1 has learned one MAC address statically and one MAC address dynamically (i.e., sticky).
+
+- The output of the show port-security address command lists the two learned MAC addresses.
 ---
 
 ### References
