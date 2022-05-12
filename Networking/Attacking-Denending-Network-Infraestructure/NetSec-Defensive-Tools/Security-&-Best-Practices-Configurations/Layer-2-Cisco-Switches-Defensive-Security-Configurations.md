@@ -662,8 +662,20 @@ The sample topology in the figure identifies trusted and untrusted ports.
 
 - **DAI Configuration Example**:
 
-    - 
+    - In the previous topology, S1 is connecting `two users on VLAN 10`. 
+    - DAI will be configured to mitigate against ARP spoofing and ARP poisoning attacks on those switchports (both users).
+    - As shown in the example, DHCP snooping is enabled because DAI requires the DHCP snooping binding table to operate. 
+        - **Next, DHCP snooping and ARP inspection are enabled for the PCs on VLAN10.** 
+        - **The uplink port to the router is trusted, and therefore, is configured as trusted for DHCP snooping and ARP inspection.** 
 
+```
+Fz3r0_Switch(config)# ip dhcp snooping
+Fz3r0_Switch(config)# ip dhcp snooping vlan 10
+Fz3r0_Switch(config)# ip arp inspection vlan 10
+Fz3r0_Switch(config)# interface fa0/24
+Fz3r0_Switch(config-if)# ip dhcp snooping trust
+Fz3r0_Switch(config-if)# ip arp inspection trust
+```
 
 ---
 
