@@ -360,6 +360,17 @@ Fz3r0_Switch#
 Fz3r0_Switch(config-if)# switchport port-security violation { protect | restrict | shutdown}
 ```
 
+- Violation Modes Comparations:
+
+| **Violation Mode** | **Discards Offending Traffic** | **Sends Syslog Message** | **Increase Violation Counter** | **Shuts Down Port** |
+|--------------------|--------------------------------|--------------------------|--------------------------------|----------------------|
+| **Protect**        | Yes                            | No                       | No                             | No                   |
+| **Restrict**       | Yes                            | Yes                      | Yes                            | No                   |
+| **Shutdown**       | Yes                            | Yes                      | Yes                            | Yes                  |
+
+
+
+
 - The following example shows an administrator changing the security violation to “restrict”. The output of the show port-security interface command confirms that the change has been made.
 
 ```
@@ -382,6 +393,7 @@ Last Source Address:Vlan   : a41f.7272.676a:1
 Security Violation Count   : 0
 Fz3r0_Switch#
 ```
+
 
 
 
