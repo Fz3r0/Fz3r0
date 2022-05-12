@@ -512,6 +512,9 @@ Fz3r0_Switch#
     - Are trunk links and are manually enabled as trunks with DTP disabled. 
     - The native VLAN is also changed from the default VLAN 1 to an unused VLAN 999.
 
+---
+
+### 3. Mitigate DHCP Attacks `DHCP snooping`
 
 
 ---
