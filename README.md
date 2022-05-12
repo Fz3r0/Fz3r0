@@ -389,8 +389,22 @@ Guides, Tips & Tricks, Downloads, Binaries, Executables, Scripts, Open Source Co
 
 -->  
   
-# Offensive Security & Hacking
-  
+# Offensive Security & Hacking 😈
+
+I'm the master, machine controller, human interface. Maybe one day I'll work for you... 
+
+Here's the machine the strangers use to amplify their thoughts, the machine that changes their world... 
+You must take control of it. You must make the machine yours. 
+I know you can beat them, but you must concentrate...
+
+You'll find strength within yourself...and you will prevail. 
+
+There is no time for romance. The world can be what you make it. You have the power to make anything happen...but you must act now!
+
+I can control their machines.
+
+I can read people's minds...
+
 ### Hacking Bibles
 - [The Book of the Secret Knowledge](https://github.com/Fz3r0/the-book-of-secret-knowledge) _A collection of lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools & more._
 - [The Art of Hacking](https://github.com/The-Art-of-Hacking/h4cker) _Over 9,000 References, Scripts, Tools, Code & Resources for Offensive/Defensive Security_
