@@ -279,6 +279,7 @@ Troubleshooting & Incidence Response for Notworking Hardware & Software by _Fz3r
  
 ### Fz3r0 >> Attacking & Defending Network Infraestructure ⚔️ 🛡️ 🐱‍👤 
 Guides for performing Penetration Attacks involving the Network Infrastructure Exploiting Known Vulverabilities and how to Mitigate and Secure the Network Against those threats  
+
 - **Security & Best Practices Configurations for Networking**
     - [Pro Configs @ **Best Practices, Security Standards** & **SSH LOCAL**-Logins](/Networking/Labs/SSH-Minimum-Requeriments-for-Cisco.md) _For any Cisco device (IOS)_ 
     - [Pro Configs @ **Best Practices, Security Standards** & **AAA - SSH REMOTE- RADIUS SERVER**]()
