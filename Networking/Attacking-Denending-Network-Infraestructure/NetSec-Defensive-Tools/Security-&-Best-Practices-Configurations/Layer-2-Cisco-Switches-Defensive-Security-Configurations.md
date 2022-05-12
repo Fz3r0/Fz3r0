@@ -211,7 +211,7 @@ Fz3r0_Switch(config-if)# switchport port-security
 
 - **Limit and Learn MAC Addresses**
 
-- To set the maximum number of MAC addresses allowed on a port, use the following command:
+    - To set the maximum number of MAC addresses allowed on a port, use the following command:
 
 ```
 Fz3r0_Switch(config-if)# switchport port-security maximum value 
@@ -295,7 +295,40 @@ Fz3r0_Switch#
 
 - The output of the show port-security interface command verifies that port security is enabled, there is a host connected to the port (i.e., Secure-up), a total of 2 MAC addresses will be allowed, and S1 has learned one MAC address statically and one MAC address dynamically (i.e., sticky).
 
-- The output of the show port-security address command lists the two learned MAC addresses.
+- The output of the `show port-security` address command lists the two learned MAC addresses.
+
+- **Port Security Aging**
+
+    - Port security aging can be used to set the aging time for static and dynamic secure addresses on a port. 
+    - Two types of aging are supported per port:
+
+        - Absolute: The secure addresses on the port are deleted after the specified aging time.
+        
+        - Inactivity: The secure addresses on the port are deleted only if they are inactive for the specified aging time.
+    
+    - Use aging to remove secure MAC addresses on a secure port without manually deleting the existing secure MAC addresses. 
+    - Aging time limits can also be increased to ensure past secure MAC addresses remain, even while new MAC addresses are added. 
+    - Aging of statically configured secure addresses can be enabled or disabled on a per-port basis.
+
+ Use the switchport port-security aging command to enable or disable static aging for the secure port, or to set the aging time or type.  
+
+```
+Fz3r0_Switch(config-if)# switchport port-security aging { static | time time | type {absolute | inactivity}}
+```
+
+- The parameters for the command are described in the table.
+
+| **Parameter**        | **Description**                  |
+|----------------------|----------------------------------|
+| **static**          | Enable aging for statically configured secure addresses on this port.         |
+| **time time**      | Specify the aging time for this port. The range is 0 to 1440 minutes. If the time is 0, aging is disabled for this port.                                               |
+| **type absolute**   | Set the absolute aging time. All the secure addresses on this port age out exactly after the time (in minutes) specified and are removed from the secure address list. |
+| **type inactivity** | Set the inactivity aging type. The secure addresses on this port age out only if there is no data traffic from the secure source address for the specified time period |
+
+
+
+
+
 ---
 
 ### References
