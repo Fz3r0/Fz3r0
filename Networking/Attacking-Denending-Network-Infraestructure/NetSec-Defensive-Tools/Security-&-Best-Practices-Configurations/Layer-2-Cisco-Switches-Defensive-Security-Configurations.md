@@ -732,9 +732,10 @@ Fz3r0_Switch(config)#
             - BPDU guard immediately error disables a port that receives a BPDU. 
             - Like PortFast, BPDU guard should only be configured on interfaces attached to end devices. 
           
-- Portfast 
+- **Configure `Portfast`** 
 
-    - Use only in Access Ports! (To hosts) 
+    - **Use only in Access Ports! (To hosts)**
+    - **Portfast is Disabled as default, so Trunks are OK with disabled config** 
     
         - **PortFast can be enabled on an interface by using the `spanning-tree portfast` interface configuration command.** 
         - **Alternatively, Portfast can be configured globally on all access ports by using the `spanning-tree portfast default` global configuration command.**
@@ -743,25 +744,29 @@ Fz3r0_Switch(config)#
     - To verify if PortFast is enabled an interface, use the `show running-config interface` type/number command, as shown in the following example. 
     - The `show spanning-tree interface` type/number detail command can also be used for verification. 
 
-- Notice that when PortFast is enabled, warning messages are displayed.
+- _Notice that when PortFast is enabled, warning messages are displayed._
 
 ```
-S1(config)# interface fa0/1
-S1(config-if)# switchport mode access
-S1(config-if)# spanning-tree portfast
+Fz3r0_Switch(config)# interface fa0/1
+Fz3r0_Switch(config-if)# switchport mode access
+Fz3r0_Switch(config-if)# spanning-tree portfast
+
 %Warning: portfast should only be enabled on ports connected to a single
  host. Connecting hubs, concentrators, switches, bridges, etc... to this
  interface when portfast is enabled, can cause temporary bridging loops.
  Use with CAUTION
 %Portfast has been configured on FastEthernet0/1 but will only
  have effect when the interface is in a non-trunking mode.
-S1(config-if)# exit
-S1(config)# spanning-tree portfast default
+Fz3r0_Switch(config-if)# exit
+
+Fz3r0_Switch(config)# spanning-tree portfast default
+
 %Warning: this command enables portfast by default on all interfaces. You
  should now disable portfast explicitly on switched ports leading to hubs,
  switches and bridges as they may create temporary bridging loops.
-S1(config)# exit
-S1# show running-config | begin span
+Fz3r0_Switch(config)# exit
+
+Fz3r0_Switch# show running-config | begin span
 spanning-tree mode pvst
 spanning-tree portfast default
 spanning-tree extend system-id
@@ -779,12 +784,15 @@ interface FastEthernet0/4
 interface FastEthernet0/5
 ! 
 (output omitted)
-S1#
+Fz3r0_Switch#
 ```
-
 
 ---
 
+- **Configure `BPDU guard`** 
+
+
+---
 
 - Complete rimambouuuu
 
@@ -877,7 +885,7 @@ spanning-tree portfast bpduguard default
 
 interface fa0/1
 description << Portfast & BPDUguard config on interface (default is for global[all ports]) >>
-description << BPDU guard & portfast is only for access Hosts!!! >>
+description << BPDU guard & portfast is only for ACCESS HOSTS!!! >>
 switchport mode access
 spanning-tree portfast
 spanning-tree bpduguard enable
