@@ -531,7 +531,19 @@ Fz3r0_Switch#
 
 - **DHCP Snooping**
 
-    -   
+    - **DHCP snooping does not rely on source MAC addresses.** 
+        - Instead, DHCP snooping determines whether DHCP messages are from an administratively configured trusted or untrusted source. 
+        - It then filters DHCP messages and rate-limits DHCP traffic from untrusted sources.
+
+    - Devices under your administrative control, such as switches, routers, and servers, are trusted sources. 
+        - **Any device beyond the firewall or outside your network is an untrusted source.** 
+        - **In addition, **all access ports are generally treated as untrusted sources.** 
+    
+    - The figure shows an example of trusted and untrusted ports:
+
+![image](https://user-images.githubusercontent.com/94720207/167978298-6a0bf48a-4871-4f34-931e-d4512acfd9be.png)
+
+
 
 ---
 
