@@ -716,6 +716,178 @@ ip arp inspection validate src-mac dst-mac ip
 Fz3r0_Switch(config)#
 ```
 
+---
+
+### 6. Mitigate STP Attacks - `portfast` & `BPDU guard`
+
+- **PortFast and BPDU Guard** 
+
+    - Recall that network attackers can manipulate the **Spanning Tree Protocol (STP)** to conduct an attack by spoofing the root bridge and changing the topology of a network. 
+    - To mitigate Spanning Tree Protocol (STP) manipulation attacks, use `PortFast` and `Bridge Protocol Data Unit (BPDU) Guard`:
+
+        - PortFast
+            - PortFast immediately brings an interface configured as an access port to the forwarding state from a blocking state, bypassing the listening and learning states. 
+            - Apply to all end-user ports. PortFast should only be configured on ports attached to end devices.
+        - BPDU Guard
+            - BPDU guard immediately error disables a port that receives a BPDU. 
+            - Like PortFast, BPDU guard should only be configured on interfaces attached to end devices. 
+          
+- Portfast 
+
+    - Use only in Access Ports! (To hosts) 
+    
+        - **PortFast can be enabled on an interface by using the `spanning-tree portfast` interface configuration command.** 
+        - **Alternatively, Portfast can be configured globally on all access ports by using the `spanning-tree portfast default` global configuration command.**
+        
+    - To verify whether PortFast is enabled globally you can use either the `show running-config | begin span` command or the `show spanning-tree summary` command. 
+    - To verify if PortFast is enabled an interface, use the `show running-config interface` type/number command, as shown in the following example. 
+    - The `show spanning-tree interface` type/number detail command can also be used for verification. 
+
+- Notice that when PortFast is enabled, warning messages are displayed.
+
+```
+S1(config)# interface fa0/1
+S1(config-if)# switchport mode access
+S1(config-if)# spanning-tree portfast
+%Warning: portfast should only be enabled on ports connected to a single
+ host. Connecting hubs, concentrators, switches, bridges, etc... to this
+ interface when portfast is enabled, can cause temporary bridging loops.
+ Use with CAUTION
+%Portfast has been configured on FastEthernet0/1 but will only
+ have effect when the interface is in a non-trunking mode.
+S1(config-if)# exit
+S1(config)# spanning-tree portfast default
+%Warning: this command enables portfast by default on all interfaces. You
+ should now disable portfast explicitly on switched ports leading to hubs,
+ switches and bridges as they may create temporary bridging loops.
+S1(config)# exit
+S1# show running-config | begin span
+spanning-tree mode pvst
+spanning-tree portfast default
+spanning-tree extend system-id
+!
+interface FastEthernet0/1
+ switchport mode access
+ spanning-tree portfast
+!
+interface FastEthernet0/2
+!
+interface FastEthernet0/3
+!
+interface FastEthernet0/4
+!
+interface FastEthernet0/5
+! 
+(output omitted)
+S1#
+```
+
+
+---
+
+
+- Complete rimambouuuu
+
+
+```
+   1. Secure Unused Ports - `shutdown`
+
+interface range fa0/8 - 24
+description << Unused Switchports (shutdown) >>
+shutdown
+
+   2. Mitigate MAC Address Table Attacks - `port security`  
+
+interface range f0/1 - 7
+description << Access Switchports: To Hosts >>
+switchport mode access
+
+switchport port-security
+switchport port-security maximum 2
+
+switchport port-security mac-address AA:BB:CC:DD
+switchport port-security mac-address sticky 
+
+switchport port-security aging 1440
+switchport port-security aging type inactivity
+
+switchport port-security violation
+
+show port-security interface f0/1
+show port-security
+show run interface fa0/1
+show port-security address
+
+   3. Mitigate VLAN Attacks - DTP `nonegotiate` & manual vlans
+
+interface range f0/1 - 6
+description << ACCESS USED >>
+switchport mode access
+switchport access vlan 10
+switchport nonegotiate
+
+interface range f0/8 - 24
+description << ACCESS NOT USED >>
+switchport mode access
+switchport access vlan 666
+switchport nonegotiate
+shutdown
+
+interface f0/7
+description << TRUNKS >>
+switchport mode trunk
+switchport trunk native vlan 99
+switchport nonegotiate
+
+   4. Mitigate DHCP Attacks `DHCP snooping`
+
+ip dhcp snooping 
+
+ip dhcp snooping vlan 1,10,50-52,99,666
+
+interface f0/1
+description << DHCP Server Trusted & Real >>
+ip dhcp snooping trust
+exit
+
+interface range f0/2 - 24
+description << Untrusted (NO-DHCP Servers) >>
+ip dhcp snooping limit rate 6
+end
+
+show ip dhcp snooping
+
+   5. Mitigate ARP Attacks `Dynamic ARP Inspection`
+
+ip dhcp snooping
+ip dhcp snooping vlan 10,20,30-49
+
+ip arp inspection vlan 10,20,30-49
+
+interface range g0/1 - 2
+description << Trusted ARPs (switches & routers) NO-ACCESS-HOSTS >>
+ip dhcp snooping trust
+ip arp inspection trust
+exit
+
+    6. Mitigate STP Attacks `portfast` & `BPDU guard`
+
+spanning-tree portfast default
+spanning-tree portfast bpduguard default
+
+interface fa0/1
+description << Portfast & BPDUguard config on interface (default is for global[all ports]) >>
+description << BPDU guard & portfast is only for access Hosts!!! >>
+switchport mode access
+spanning-tree portfast
+spanning-tree bpduguard enable
+exit
+
+show running-config | begin span
+show spanning-tree summary
+
+
+```
 
 ---
 
