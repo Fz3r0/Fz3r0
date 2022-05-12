@@ -450,7 +450,7 @@ show port-security address
 
 ---
 
-### Mitigate VLAN Attacks
+### 3. Mitigate VLAN Attacks - DTP `nonegotiate` & manual vlans
 
 - As a quick review, a VLAN hopping attack can be launched in one of three ways:
 
@@ -514,7 +514,7 @@ Fz3r0_Switch#
 
 ---
 
-### 3. Mitigate DHCP Attacks `DHCP snooping`
+### 4. Mitigate DHCP Attacks -  `DHCP snooping`
 
 - **DHCP Attack Review**
 
@@ -628,7 +628,7 @@ Fz3r0_Switch#
 
 ---
 
-### 4. Mitigate ARP Attacks `Dynamic ARP Inspection`
+### 5. Mitigate ARP Attacks `Dynamic ARP Inspection`
 
 - **Dynamic ARP Inspection**
 
@@ -652,7 +652,18 @@ Fz3r0_Switch#
         - **Enable DAI on selected VLANs.**
         - **Configure trusted interfaces for DHCP snooping and ARP inspection.**   
  
- 
+     - **It is generally advisable to configure `all access switch ports as UNTRUSTED`** 
+     
+     - **And configure `all uplink ports that are connected to other switches as TRUSTED.`**
+
+The sample topology in the figure identifies trusted and untrusted ports.
+
+![image](https://user-images.githubusercontent.com/94720207/167986541-6f2d5b0f-a4a2-43c3-a51f-de8e422bf238.png)
+
+- **DAI Configuration Example**:
+
+    - 
+
 
 ---
 
