@@ -791,11 +791,26 @@ Fz3r0_Switch#
 
 - **Configure `BPDU guard`** 
 
+    - **Always enable BPDU Guard on all PortFast-enabled ports.**
+    - **Use only in Access Ports! (To hosts)**
+    - **bpdu GUARD is Disabled as default, so Trunks are OK with disabled config**
+
+- Even though PortFast is enabled, the interface will still listen for BPDUs. 
+- Unexpected BPDUs might be accidental, or part of an unauthorized attempt to add a switch to the network.
+
+    - If any BPDUs are received on a BPDU Guard enabled port, that port is put into error-disabled state. 
+    - This means the port is shut down and must be manually re-enabled or automatically recovered through the errdisable recovery cause bpduguard global command.
+    
+- **BPDU Guard can be enabled on a port by using the `spanning-tree bpduguard enable` interface configuration command.**
+- **Alternatively, Use the `spanning-tree portfast bpduguard default` global configuration command to globally enable BPDU guard on all PortFast-enabled ports.** 
+
+    - To display information about the state of spanning tree, use the `show spanning-tree summary` command. 
+
+        - In the example, PortFast default and BPDU Guard are both enabled as the default state for ports configured as access mode.
 
 ---
 
 - Complete rimambouuuu
-
 
 ```
    1. Secure Unused Ports - `shutdown`
@@ -893,7 +908,6 @@ exit
 
 show running-config | begin span
 show spanning-tree summary
-
 
 ```
 
