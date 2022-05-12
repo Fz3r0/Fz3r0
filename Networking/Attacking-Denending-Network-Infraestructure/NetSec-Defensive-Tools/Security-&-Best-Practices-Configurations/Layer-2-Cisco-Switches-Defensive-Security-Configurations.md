@@ -577,9 +577,61 @@ Fz3r0_Switch#
     - Next, the range of FastEthernet ports from F0/5 to F0/24 are untrusted by default, so a rate limit is set to six packets per second. 
     - Finally, DHCP snooping is enabled on VLANS 5, 10, 50, 51, and 52.
 
+```
+Fz3r0_Switch(config)# ip dhcp snooping
+Fz3r0_Switch(config)# interface f0/1
+Fz3r0_Switch(config-if)# ip dhcp snooping trust
+Fz3r0_Switch(config-if)# exit
+
+Fz3r0_Switch(config)# interface range f0/5 - 24
+Fz3r0_Switch(config-if-range)# ip dhcp snooping limit rate 6
+Fz3r0_Switch(config-if-range)# exit
+Fz3r0_Switch(config)# ip dhcp snooping vlan 5,10,50-52
+Fz3r0_Switch(config)# end
+Fz3r0_Switch#
+```
+
 - Use the `show ip dhcp snooping`rivileged EXEC command to verify DHCP snooping and `ow ip dhcp snooping binding to view the clients that have received DHCP information, as shown in the example.
 
 Note: DHCP snooping is also required by Dynamic ARP Inspection (DAI), which is the next topic
+
+```
+Fz3r0_Switch# show ip dhcp snooping
+Switch DHCP snooping is enabled
+DHCP snooping is configured on following VLANs:
+5,10,50-52
+DHCP snooping is operational on following VLANs:
+none
+DHCP snooping is configured on the following L3 Interfaces:
+Insertion of option 82 is enabled
+   circuit-id default format: vlan-mod-port
+   remote-id: 0cd9.96d2.3f80 (MAC)
+Option 82 on untrusted port is not allowed
+Verification of hwaddr field is enabled
+Verification of giaddr field is enabled
+DHCP snooping trust/rate is configured on the following Interfaces:
+Interface                  Trusted    Allow option    Rate limit (pps)
+-----------------------    -------    ------------    ----------------   
+FastEthernet0/1            yes        yes             unlimited
+  Custom circuit-ids:
+FastEthernet0/5            no         no              6         
+  Custom circuit-ids:
+FastEthernet0/6            no         no              6         
+  Custom circuit-ids:
+S1# show ip dhcp snooping binding
+MacAddress         IpAddress       Lease(sec) Type          VLAN Interface
+------------------ --------------- ---------- ------------- ---- --------------------
+00:03:47:B5:9F:AD  192.168.10.11   193185     dhcp-snooping 5    FastEthernet0/5
+
+Fz3r0_Switch#
+```
+
+---
+
+### 4. Mitigate ARP Attacks `Dynamic ARP Inspection`
+
+- Mitigate ARP Attacks
+
 
 ---
 
