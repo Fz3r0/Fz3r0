@@ -481,6 +481,36 @@ show port-security address
 
         - **VLAN hopping can be mitigated by implementing the following configuration.**
 
+```
+Fz3r0_Switch(config)# interface range fa0/1 - 16
+Fz3r0_Switch(config-if-range)# switchport mode access
+Fz3r0_Switch(config-if-range)# exit
+Fz3r0_Switch(config)# 
+
+Fz3r0_Switch(config)# interface range fa0/17 - 20
+Fz3r0_Switch(config-if-range)# switchport mode access
+Fz3r0_Switch(config-if-range)# switchport access vlan 1000
+Fz3r0_Switch(config-if-range)# shutdown
+Fz3r0_Switch(config-if-range)# exit
+Fz3r0_Switch(config)# 
+
+Fz3r0_Switch(config)# interface range fa0/21 - 24
+Fz3r0_Switch(config-if-range)# switchport mode trunk
+Fz3r0_Switch(config-if-range)# switchport nonegotiate
+Fz3r0_Switch(config-if-range)# switchport trunk native vlan 999
+Fz3r0_Switch(config-if-range)# end
+Fz3r0_Switch#
+```
+
+- FastEthernet ports 0/1 to 0/16: 
+    - Are access ports and therefore trunking is disabled by explicitly making them access ports.
+
+- FastEthernet ports 0/17 to 0/20:  
+    - Are unused ports and are disabled and assigned to an unused VLAN.
+
+- FastEthernet ports 0/21 to 0/24:
+    - Are trunk links and are manually enabled as trunks with DTP disabled. 
+    - The native VLAN is also changed from the default VLAN 1 to an unused VLAN 999.
 
 
 
