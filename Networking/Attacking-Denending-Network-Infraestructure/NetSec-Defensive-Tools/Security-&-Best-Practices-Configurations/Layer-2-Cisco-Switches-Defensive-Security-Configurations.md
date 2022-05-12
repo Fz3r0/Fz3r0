@@ -394,9 +394,49 @@ Security Violation Count   : 0
 Fz3r0_Switch#
 ```
 
+- **Ports in error-disabled State**
 
+- What happens when the port security violation is shutdown and a port violation occurs? 
+- The port is physically shutdown and placed in the error-disabled state, and no traffic is sent or received on that port.
+- In the example, the show interface command identifies the port status as err-disabled. 
+- The output of the show port-security interface command now shows the port status as Secure-shutdown instead of Secure-up. 
+- The Security Violation counter increments by 1.
 
+```
+Fz3r0_Switch# show interface fa0/1 | include down
+FastEthernet0/18 is down, line protocol is down (err-disabled)
+(output omitted)
+Fz3r0_Switch# show port-security interface fa0/1
+Port Security              : Enabled
+Port Status                : Secure-shutdown
+Violation Mode             : Shutdown
+Aging Time                 : 10 mins
+Aging Type                 : Inactivity
+SecureStatic Address Aging : Disabled
+Maximum MAC Addresses      : 2
+Total MAC Addresses        : 2
+Configured MAC Addresses   : 1
+Sticky MAC Addresses       : 1
+Last Source Address:Vlan   : a41f.7273.018c:1
+Security Violation Count   : 1
+Fz3r0_Switch#
+```
 
+- The administrator should determine what caused the security violation If an unauthorized device is connected to a secure port, the security threat is eliminated before re-enabling the port.
+
+- In the next example, the first host is reconnected to Fa0/1. To re-enable the port, first use the shutdown command, then, use the no shutdown command to make the port operational, as shown in the example.
+
+```
+Fz3r0_Switch(config)# interface fa0/1
+Fz3r0_Switch(config-if)# shutdown
+Fz3r0_Switch(config-if)#
+*Mar  1 00:39:54.981: %LINK-5-CHANGED: Interface FastEthernet0/1, changed state to administratively down
+Fz3r0_Switch(config-if)# no shutdown
+Fz3r0_Switch(config-if)#
+*Mar  1 00:40:04.275: %LINK-3-UPDOWN: Interface FastEthernet0/1, changed state to up
+*Mar  1 00:40:05.282: %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthernet0/1, changed state to up
+Fz3r0_Switch(config-if)#
+```
 
 
 ---
