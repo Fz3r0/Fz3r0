@@ -516,6 +516,22 @@ Fz3r0_Switch#
 
 ### 3. Mitigate DHCP Attacks `DHCP snooping`
 
+- **DHCP Attack Review**
+
+    -  The goal of a DHCP starvation attack is to create a Denial of Service (DoS) for connecting clients. 
+    -  DHCP starvation attacks require an attack tool such as Gobbler. 
+    -  Recall that DHCP starvation attacks can be effectively mitigated by using port security because Gobbler uses a unique source MAC address for each DHCP request sent.
+        
+        - However, mitigating DHCP spoofing attacks requires more protection. 
+        - Gobbler could be configured to use the actual interface MAC address as the source Ethernet address, but specify a different Ethernet address in the DHCP payload. 
+        
+            - **This would render port security ineffective because the source MAC address would be legitimate.**
+
+    - **DHCP spoofing attacks can be mitigated by using `DHCP snooping` on `trusted ports`.**
+
+- **DHCP Snooping**
+
+    -   
 
 ---
 
