@@ -106,6 +106,8 @@
 
 1. **Secure Unused Ports**
 
+---
+
 ### 1. Secure Unused Ports - `shutdown`
 
 - Layer 2 devices are considered to be the weakest link in a company’s security infrastructure. 
@@ -142,6 +144,8 @@ Fz3r0_Switch(config-if-range)# shutdown               <<<-----| Shutdown
 
 Fz3r0_Switch(config-if-range)#
 ```
+
+---
 
 ### 2. Mitigate MAC Address Table Attacks - `port security` 
 
@@ -368,9 +372,6 @@ Fz3r0_Switch(config-if)# switchport port-security violation { protect | restrict
 | **Restrict**       | Yes                            | Yes                      | Yes                            | No                   |
 | **Shutdown**       | Yes                            | Yes                      | Yes                            | Yes                  |
 
-
-
-
 - The following example shows an administrator changing the security violation to “restrict”. The output of the show port-security interface command confirms that the change has been made.
 
 ```
@@ -438,6 +439,18 @@ Fz3r0_Switch(config-if)#
 Fz3r0_Switch(config-if)#
 ```
 
+- **Verify Port Security**
+
+```
+show port-security interface f0/1
+show port-security
+show run interface fa0/1
+show port-security address
+```
+
+---
+
+###
 
 ---
 
