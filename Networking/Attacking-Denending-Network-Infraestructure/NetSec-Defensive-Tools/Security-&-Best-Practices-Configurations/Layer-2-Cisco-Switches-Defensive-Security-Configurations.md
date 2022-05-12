@@ -672,10 +672,50 @@ The sample topology in the figure identifies trusted and untrusted ports.
 Fz3r0_Switch(config)# ip dhcp snooping
 Fz3r0_Switch(config)# ip dhcp snooping vlan 10
 Fz3r0_Switch(config)# ip arp inspection vlan 10
+
 Fz3r0_Switch(config)# interface fa0/24
 Fz3r0_Switch(config-if)# ip dhcp snooping trust
 Fz3r0_Switch(config-if)# ip arp inspection trust
 ```
+
+- DAI can also be configured to check for both destination or source MAC and IP addresses:
+
+    - Destination MAC: 
+    
+        - Checks the destination MAC address in the Ethernet header against the target MAC address in ARP body.
+
+    - Source MAC:
+    
+        - Checks the source MAC address in the Ethernet header against the sender MAC address in the ARP body.
+
+    - IP address:
+    
+        - Checks the ARP body for invalid and unexpected IP addresses including addresses 0.0.0.0, 255.255.255.255, and all IP multicast addresses.
+
+- The `ip arp inspection validate {[src-mac] [dst-mac] [ip]}` global configuration command is used to configure DAI to drop ARP packets when the IP addresses are invalid. 
+- It can be used when the MAC addresses in the body of the ARP packets do not match the addresses that are specified in the Ethernet header. 
+
+    - Notice in the following example how only one command can be configured. 
+    - **Therefore, entering multiple ip arp inspection validate commands overwrites the previous command.** 
+    - **To include more than one validation method, enter them on the same command line as shown and verified in the following output.**
+    
+```
+Fz3r0_Switch(config)# ip arp inspection validate ?
+dst-mac  Validate destination MAC address
+  ip       Validate IP addresses
+  src-mac  Validate source MAC address
+  
+Fz3r0_Switch(config)# ip arp inspection validate src-mac
+Fz3r0_Switch(config)# ip arp inspection validate dst-mac
+Fz3r0_Switch(config)# ip arp inspection validate ip
+Fz3r0_Switch(config)# do show run | include validate
+ip arp inspection validate ip 
+Fz3r0_Switch(config)# ip arp inspection validate src-mac dst-mac ip
+Fz3r0_Switch(config)# do show run | include validate
+ip arp inspection validate src-mac dst-mac ip 
+Fz3r0_Switch(config)#
+```
+
 
 ---
 
