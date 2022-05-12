@@ -80,7 +80,7 @@
 
    - Layer 2 Attack Mitigation
 
-| **Solution**                     | **Description **           |
+| **Solution**                     | **Description**                |
 |----------------------------------|--------------------------------|
 | **Port Security**                | Prevents many types of attacks including MAC address flooding attacks and DHCP starvation attacks.  |
 | **DHCP Snooping**                | Prevents DHCP starvation and DHCP spoofing attacks.    |
