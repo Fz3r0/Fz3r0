@@ -325,6 +325,64 @@ Fz3r0_Switch(config-if)# switchport port-security aging { static | time time | t
 | **type absolute**   | Set the absolute aging time. All the secure addresses on this port age out exactly after the time (in minutes) specified and are removed from the secure address list. |
 | **type inactivity** | Set the inactivity aging type. The secure addresses on this port age out only if there is no data traffic from the secure source address for the specified time period |
 
+- Note: MAC addresses are shown as 24 bits for simplicity.
+
+- The example shows an administrator configuring the aging type to 10 minutes of inactivity and by using the show port-security interface command to verify the configuration.
+
+```
+Fz3r0_Switch(config)# interface fa0/1
+Fz3r0_Switch(config-if)# switchport port-security aging time 10 
+Fz3r0_Switch(config-if)# switchport port-security aging type inactivity 
+Fz3r0_Switch(config-if)# end
+Fz3r0_Switch# show port-security interface fa0/1
+Port Security              : Enabled
+Port Status                : Secure-up
+Violation Mode             : Shutdown
+Aging Time                 : 10 mins
+Aging Type                 : Inactivity
+SecureStatic Address Aging : Disabled
+Maximum MAC Addresses      : 2
+Total MAC Addresses        : 2
+Configured MAC Addresses   : 1
+Sticky MAC Addresses       : 1
+Last Source Address:Vlan   : a41f.7272.676a:1
+Security Violation Count   : 0
+Fz3r0_Switch#
+```
+
+- **Port Security Violation Modes**
+
+- If the MAC address of a device attached to the port differs from the list of secure addresses, then a port violation occurs. By default, the port enters the error-disabled state.
+
+    - To set the port security violation mode, use the following command:
+
+```
+Fz3r0_Switch(config-if)# switchport port-security violation { protect | restrict | shutdown}
+```
+
+- The following example shows an administrator changing the security violation to “restrict”. The output of the show port-security interface command confirms that the change has been made.
+
+```
+Fz3r0_Switch(config)# interface f0/1
+Fz3r0_Switch(config-if)# switchport port-security violation restrict
+Fz3r0_Switch(config-if)# end
+Fz3r0_Switch#
+Fz3r0_Switch# show port-security interface f0/1
+Port Security              : Enabled
+Port Status                : Secure-up
+Violation Mode             : Restrict
+Aging Time                 : 10 mins
+Aging Type                 : Inactivity
+SecureStatic Address Aging : Disabled
+Maximum MAC Addresses      : 2
+Total MAC Addresses        : 2
+Configured MAC Addresses   : 1
+Sticky MAC Addresses       : 1
+Last Source Address:Vlan   : a41f.7272.676a:1
+Security Violation Count   : 0
+Fz3r0_Switch#
+```
+
 
 
 
