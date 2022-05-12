@@ -808,6 +808,31 @@ Fz3r0_Switch#
 
         - In the example, PortFast default and BPDU Guard are both enabled as the default state for ports configured as access mode.
 
+```
+Fz3r0_Switch(config)# interface fa0/1
+Fz3r0_Switch(config-if)# spanning-tree bpduguard enable
+Fz3r0_Switch(config-if)# exit
+
+Fz3r0_Switch(config)# spanning-tree portfast bpduguard default
+Fz3r0_Switch(config)# end
+
+Fz3r0_Switch# show spanning-tree summary
+
+Switch is in pvst mode
+Root bridge for: none
+Extended system ID           is enabled
+Portfast Default             is enabled
+PortFast BPDU Guard Default  is enabled
+Portfast BPDU Filter Default is disabled
+Loopguard Default            is disabled
+EtherChannel misconfig guard is enabled
+UplinkFast                   is disabled
+BackboneFast                 is disabled
+Configured Pathcost method used is short
+(output omitted)
+Fz3r0_Switch#
+```
+
 ---
 
 - Complete rimambouuuu
@@ -910,6 +935,8 @@ show running-config | begin span
 show spanning-tree summary
 
 ```
+
+
 
 ---
 
