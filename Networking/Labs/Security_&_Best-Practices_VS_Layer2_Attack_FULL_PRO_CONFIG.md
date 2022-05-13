@@ -11,6 +11,23 @@
 
 ## SWITCH-1 >> `Fz3r0_SW1` 
 
+- **NOTES:**
+
+    - This switch is the main configuration for this Lab
+    - The idea of this Lab is make a full configuration of security and best practices against ALL Layer 2 Attacks available
+    - This switch have different variables and scenarios in its interfaces like:
+        
+        - Access VLANS to Hosts (PCs)
+        - Access VLANS to Hosts (Servers) 
+        - Access VLANS to Trusted DHCP Server 
+        - Trunk VLANs to Other Switch
+        - Trunk VLANs to Router / Gateway
+        - Different VLANs
+        - Hosts with static IPs
+        - Hosts with dynamic IPs
+        - SVI support
+        - Multiple VLAN support
+
 ```
 enable
 configure terminal 
@@ -811,6 +828,11 @@ exit
 
 ## SWITCH-2 >> `Fz3r0_SW2` 
 
+- **NOTES:**
+
+    - This switch is only for having a switch variable at the other side og Gi 0/1 on SW1
+    - It have the same config as SW1, only copy and paste again config from SW1 and then:
+    - Copy and Paste the next config (different hostname and shutdown all switchports except Gi 0/1)
 
 ```
 enable
@@ -985,6 +1007,13 @@ exit
 
 ## ROUTER-1 >> `Fz3r0_R1` 
 
+- **NOTES:**
+
+    - Basic Setup for Routing the VLANs and subnets within this LAN
+        
+        - **BONUS: It support DHCP Relay Agent! :D**
+            - This router is the DHCP Relay Agent for the DHCP Server in this LAN
+            - This means the server can serve all the VLANs and solve DHCP for different subnets due to `ip-helper`  
 
 ```
 enable
