@@ -27,6 +27,8 @@
         - Hosts with dynamic IPs
         - SVI support
         - Multiple VLAN support
+        - Used/Unused Ports
+        - etc
 
 ```
 enable
