@@ -409,6 +409,8 @@ I can read people's minds...
 
 ### Hacking Bibles
 - [The Book of the Secret Knowledge](https://github.com/Fz3r0/the-book-of-secret-knowledge) _A collection of lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools & more._
+- [Pentester Book](https://pentestbook.six2dez.com/post-exploitation/linux) _This book contains a bunch of info, scripts and knowledge by six2dez_
+- [Hacktricks](https://book.hacktricks.xyz/) _Hacking trick/technique/whatever by Carlos Plop jooooodeeer!!! _
 - [The Art of Hacking](https://github.com/The-Art-of-Hacking/h4cker) _Over 9,000 References, Scripts, Tools, Code & Resources for Offensive/Defensive Security_
 - [Awesome Hacking](https://github.com/Fz3r0/Awesome-Hacking) _A collection of awesome lists for hackers, pentesters & security researchers._
 - [Tib3rius FULL Pentesting Black Magics](https://github.com/Tib3rius/Pentest-Cheatsheets) _Cheatsheets, Tools, PrivEsc, Checklist, Exploits_
@@ -420,7 +422,7 @@ I can read people's minds...
 
 ### Scripts & Commands for Digital Black Magic & Hacking
  
-- [Pentester Book](https://pentestbook.six2dez.com/post-exploitation/linux)
+
 - https://github.com/Fz3r0/CheatSheet
 - https://github.com/Fz3r0/PowerTools powershell
 
