@@ -268,6 +268,8 @@ Networking Labs using simulators, emulators like Packet Tracer, GNS3 & eve / and
 - Lab 06 > [Secure RSTP & Rapid PVST+STP (aka STP) in 3-leaf-spine Data Center](/Networking/Labs/STP-3-Leaf-Spine-(1VLAN).md) _GNS3_
 - Lab 07 > [EtherChannel All-in-One! LACP, PAgP & Static + RSTP+](/Networking/Labs/EtherChannel-Like-a-Sir.md) _Packet Tracer_
 - Lab 08 > [DHCPv4 All-in-One! DHCP Servers, DHCP Clients & DHCP Frame Relay Agents of all types!](/Networking/Labs/DHCPv4-All-in-One-lab.md) _Packet Tracer_
+- Lab 09 > [Secure Layer 2 - Semi-FULL Security + Best Practices VS Layer 2 Attacks (No SSH)](/Networking/Labs/Security_&_Best-Practices_VS_Layer2_Attack_FULL_PRO_CONFIG.md)
+- Lab 10 > [Secure Layer 2 + SSH Local Login = FULL Security + Best Practices VS Layer 2 Attacks (No AAA)](/Networking/Labs/Security_&_Best-Practices_VS_Layer2_Attack_FULL_PRO_CONFIG.md)
      
 ### Fz3r0 >> Network Troubleshooting & Ass-Savers ⚠️ 🚨 🆘
 Troubleshooting & Incidence Response for Notworking Hardware & Software by _Fz3r0_
