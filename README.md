@@ -455,9 +455,15 @@ I can read people's minds...
      - [Payload All the Things](https://github.com/Fz3r0/PayloadsAllTheThings) _Payloads and bypasses for Web App Security._
      - [TheFatRat](https://github.com/screetsec/TheFatRat) _Payload Automation,Listener Generator,Bypass anti-virus backdoors & more..._
   
-# SQL injection
+# Databases Offensive & Defensive Security
+
+- **Pentesting Microsoft SQL Server (MSSQL)**
+    - [Hacktricks - Pentesting MSSQL Server](https://book.hacktricks.xyz/network-services-pentesting/pentesting-mssql-microsoft-sql-server)
+    - [PTM - MSSQL Server Cheatsheet](https://pentestmonkey.net/cheat-sheet/sql-injection/mssql-sql-injection-cheat-sheet) 
+
+- **SQLi (SQL injection)**
   
- - https://github.com/Fz3r0/Advanced-SQL-Injection-Cheatsheet
+    - https://github.com/Fz3r0/Advanced-SQL-Injection-Cheatsheet
   
     - [PrivEsc]
   
