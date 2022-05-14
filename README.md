@@ -421,6 +421,16 @@ I can read people's minds...
 - [OSINT like Agent 007 - Cipher Knowledge](https://github.com/Fz3r0/osint_stuff_tool_collection?organization=Fz3r0&organization=Fz3r0)
 - [Dorks Collection List](https://github.com/Fz3r0/Dorks-collections-list)        
 
+### Cyber-Weapons & Tools
+    
+- Databases & Arsenals     
+    - [Blackhat Arsenal Tools](https://github.com/toolswatch/blackhat-arsenal-tools) _Official Black Hat Arsenal Database_
+    - [Kali Tools](/Cyber-Security-&-Hacking/Cyber-Weapons-Tools/Cyber-Weapons-Tools-DB.md)
+    
+- Standalone
+    - [Windows - Advanced Archive Password Recovery (.zip, .rar, etc) ](https://github.com/Fz3r0/Fz3r0/files/8693722/advanced-archive-password-recovery-4-54-110.zip)  
+
+
 ### Scripts & Commands for Digital Black Magic & Hacking
  
 
@@ -448,10 +458,7 @@ I can read people's minds...
         - [Active Directory Exploitation Cheat-Sheet by Tib3rius](https://github.com/Tib3rius/Active-Directory-Exploitation-Cheat-Sheet)
   
 
- 
-  - [Cyber-Weapons & Tools]
-     - [Blackhat Arsenal Tools](https://github.com/toolswatch/blackhat-arsenal-tools) _Official Black Hat Arsenal Database_
-     - [Cyber-Weapons & Tools Database](/Cyber-Security-&-Hacking/Cyber-Weapons-Tools/Cyber-Weapons-Tools-DB.md)
+
   
   - [Payloads & Reverse Shell]
   
@@ -570,6 +577,7 @@ _The world is a messy place, at least you now have a way of structuring your que
 > _"In the mist of the night you could see me come, where shadows move and Demons lie..."_  
   
 
+[advanced-archive-password-recovery-4-54-110.zip]()
 
   
 <!--
