@@ -330,6 +330,7 @@ Guides, Tips & Tricks, Downloads, Binaries, Executables, Scripts, Open Source Co
     - [IP Info](https://ipinfo.io/) _Accurate IP address data "whois" online_
     - [LDWin - Link Discovery for Windows](https://github.com/Fz3r0/LDWin) _Discover connected ports on Switch using CDP & tcpdump.exe_
     - [iPerf](https://iperf.fr/) _The ultimate speed test tool for TCP, UDP and SCTP_
+    - [Security Headers - HTTP Header Analyzer](https://securityheaders.com/)
          
 - **Net Blacksmithing: Handcrafted Tools & Weaponry for Networking by @ Fz3r0** 
     - [Dark Art of Packet Crafting with Scapy](https://0xbharath.github.io/art-of-packet-crafting-with-scapy/index.html) _@ Python + Scapy_
