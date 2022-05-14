@@ -428,7 +428,8 @@ I can read people's minds...
     - [Kali Tools](/Cyber-Security-&-Hacking/Cyber-Weapons-Tools/Cyber-Weapons-Tools-DB.md)
     
 - Standalone
-    - [Windows - Advanced Archive Password Recovery (.zip, .rar, etc) ](https://github.com/Fz3r0/Fz3r0/files/8693722/advanced-archive-password-recovery-4-54-110.zip)  
+    - [Windows - Advanced Archive Password Recovery (.zip, .rar, etc) ](https://github.com/Fz3r0/Fz3r0/files/8693722/advanced-archive-password-recovery-4-54-110.zip)
+    - [Kaspersky - Cybermap](https://cybermap.kaspersky.com/es)  
 
 
 ### Scripts & Commands for Digital Black Magic & Hacking
@@ -523,7 +524,7 @@ I can read people's minds...
   
 ### Piracy + Privacy
 
-        - []
+- []
  
   - [Fuzzing]
   
@@ -547,7 +548,7 @@ I can read people's minds...
         - https://github.com/Fz3r0/ctf-tools
         - https://github.com/Fz3r0/katana
   
-  - [fz3r0 - Security Labs]
+ - [fz3r0 - Security Labs]
  
  - Channels & Streams
  
