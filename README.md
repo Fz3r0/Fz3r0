@@ -314,6 +314,7 @@ Guides for performing Penetration Attacks involving the Network Infrastructure E
     - DoS Attack - Interference & Misconfigurations
     - Rogue Access Points
     - Man-in-the-Middle Attack (MITM)
+    - [Log4j Vulnerability @ Unify Access PWN!](https://www.sprocketsecurity.com/blog/another-log4j-on-the-fire-unifi)
  
 ### Fz3r0 >> Networking Tools & Weapons: Training, Crafting & Arsenal
 Guides, Tips & Tricks, Downloads, Binaries, Executables, Scripts, Open Source Codes
