@@ -439,7 +439,7 @@ I can read people's minds...
 
 - Pivoting & Port Forwarding
     - [Chisel](https://github.com/jpillora/chisel) _server/client. Fast TCP/UDP tunnel, transported over HTTP, secured via SSH_
-
+    - [Chisel Releases](https://github.com/jpillora/chisel/releases)
 
 ### Scripts & Commands for Digital Black Magic & Hacking
  
