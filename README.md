@@ -526,6 +526,12 @@ I can read people's minds...
   
 - https://github.com/Fz3r0/BatchPower _Batch Scripts_
 - https://github.com/Fz3r0/Defender-disabler
+
+## Cross-Site Scripting (XSS)
+
+- **Guides**
+    - [Portswigger Guide](https://portswigger.net/research/server-side-template-injection
+    - )
   
 ### Piracy + Privacy
 
