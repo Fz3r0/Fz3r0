@@ -127,7 +127,7 @@
 <p align="center"> <a href="https://tryhackme.com/p/fz3r0.carlos" target="_blank" rel="noreferrer"> <img src="https://user-images.githubusercontent.com/94720207/164392862-2fe8bf14-1e20-48b0-8d41-3b4e87927218.png" alt="TryHackMe2"> </a> </p>
 
 <h4 align="center">Hack the Box</h3>
-<h5 align="center">Fz3r0 @ Top 100 Mexico Rank</h3>  
+<h5 align="center">Fz3r0 @ Top 30 Mexico Rank</h3>  
 <p align="center"> <a href="https://tryhackme.com/p/fz3r0.carlos" target="_blank" rel="noreferrer"> <img src="https://user-images.githubusercontent.com/94720207/168461418-4e6428f2-16fc-4050-9bde-fe7f11ec5442.png" alt="htb"> </a> </p> 
  <!--
 
