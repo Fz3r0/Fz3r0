@@ -414,6 +414,7 @@ I can control their machines.
 I can read people's minds...
 
 ### Hacking Bibles
+
 - [The Book of the Secret Knowledge](https://github.com/Fz3r0/the-book-of-secret-knowledge) _A collection of lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools & more._
 - [Pentester Book](https://pentestbook.six2dez.com/post-exploitation/linux) _This book contains a bunch of info, scripts and knowledge by six2dez_
 - [Hacktricks](https://book.hacktricks.xyz/) _Hacking trick/technique/whatever by Carlos Plop jooooodeeer!!! _
@@ -471,7 +472,7 @@ I can read people's minds...
      - [Payload All the Things](https://github.com/Fz3r0/PayloadsAllTheThings) _Payloads and bypasses for Web App Security._
      - [TheFatRat](https://github.com/screetsec/TheFatRat) _Payload Automation,Listener Generator,Bypass anti-virus backdoors & more..._
   
-# Databases Offensive & Defensive Security
+### Databases Offensive & Defensive Security
 
 - **Pentesting Microsoft SQL Server (MSSQL)**
     - [Hacktricks - Pentesting MSSQL Server](https://book.hacktricks.xyz/network-services-pentesting/pentesting-mssql-microsoft-sql-server)
@@ -535,7 +536,7 @@ I can read people's minds...
   
 ### Piracy + Privacy
 
-- []
+- hol[]
  
   - [Fuzzing]
   
@@ -561,16 +562,15 @@ I can read people's minds...
   
  - [fz3r0 - Security Labs]
  
- - Channels & Streams
+### Comunity, Forums, Discords, Channels & Streams of Freak Weirdos
  
-     - Networking
+- [Breach Forums (after Raid Forums were raided by the feds lol)](https://breached.co/)
+     
+- [InfoSec Streams](https://infosecstreams.github.io/) _Actively maintained list of Information Security-related Twitch streams_
  
-     - Cyber-Security, Hacking, CTFs
-         - [InfoSec Streams](https://infosecstreams.github.io/) _Actively maintained list of Information Security-related Twitch streams_
+- Programming, Scripting, Databases
  
-     - Programming, Scripting, Databases
- 
-     - IT & Computer Science
+- IT & Computer Science
 
 ### Misc Tools
 
