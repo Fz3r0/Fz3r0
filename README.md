@@ -434,8 +434,11 @@ I can read people's minds...
     - [Kali Tools](/Cyber-Security-&-Hacking/Cyber-Weapons-Tools/Cyber-Weapons-Tools-DB.md)
     
 - Standalone
-    - [Windows - Advanced Archive Password Recovery (.zip, .rar, etc) ](https://github.com/Fz3r0/Fz3r0/files/8693722/advanced-archive-password-recovery-4-54-110.zip)
+    - [Windows - Advanced Archive Password Recovery (.zip, .rar, etc)](https://github.com/Fz3r0/Fz3r0/files/8693722/advanced-archive-password-recovery-4-54-110.zip)
     - [Kaspersky - Cybermap](https://cybermap.kaspersky.com/es)  
+
+- Pivoting & Port Forwarding
+    - [Chisel](https://github.com/jpillora/chisel) _server/client. Fast TCP/UDP tunnel, transported over HTTP, secured via SSH_
 
 
 ### Scripts & Commands for Digital Black Magic & Hacking
