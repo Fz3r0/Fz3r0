@@ -578,7 +578,8 @@ I can read people's minds...
 
 
 
-_The world is a messy place, at least you now have a way of structuring your queries about it, right?_
+_The world is a messy place, at least you now have a way of choosing a path... right?..._
+_There is no path...
 
 ---
 
