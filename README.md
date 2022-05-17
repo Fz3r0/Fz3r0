@@ -340,7 +340,8 @@ Guides, Tips & Tricks, Downloads, Binaries, Executables, Scripts, Open Source Co
         - Furious
  
     - **Sniffers, IPS, Analyzers, Testers**
-        - [Wireshark]() _The world’s foremost and widely-used network protocol analyzer._
+        - [WireShark]() _The world’s foremost and widely-used network protocol analyzer._
+        - [BruteShark](https://github.com/Fz3r0/BruteShark)
         - [Snort]() _The foremost IPS in the world supported by Cisco Talos_
         - [LDWin - Link Discovery for Windows](https://github.com/Fz3r0/LDWin) _Discover connected ports on Switch using CDP & tcpdump.exe_   
         - [iPerf](https://iperf.fr/) _The ultimate speed test tool for TCP, UDP and SCTP_
