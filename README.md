@@ -37,7 +37,7 @@
 
 ![index_banner_final](https://user-images.githubusercontent.com/94720207/165896925-bb6403fc-e3b3-480f-971b-874401e43708.gif)
 
-<h3 align="center">💀 Fz3r0 💀</h3>
+<h1 align="center">💀 Fz3r0 💀</h1>
 
 ##### ![twitter](https://user-images.githubusercontent.com/94720207/168743521-b8c142ae-e221-40c9-8d1f-bd9520027717.png) **Twitter**  : [@fz3r0_OPs](https://twitter.com/Fz3r0_OPs) 
 ##### ![githubicon](https://user-images.githubusercontent.com/94720207/168743591-ca20efa5-f692-46b0-ba84-f2681486009f.png) **Github**   : [Fz3r0](https://github.com/fz3r0) 
@@ -162,7 +162,7 @@ https://www.hackthebox.com/badge/image/897009
 ---
 --- 
 
-![index_banner_final2](https://metro.co.uk/wp-content/uploads/2022/03/Cyberwarfare-is-the-battleground-of-the-21st-century-and-were-all-involved-BP-29e0.gif)
+![index_banner_final2](https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/a2f7c9d8-a913-4273-847f-705be41395df/d9ebz2w-66957331-3bd7-4c21-9da4-f42cb7b178c5.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2EyZjdjOWQ4LWE5MTMtNDI3My04NDdmLTcwNWJlNDEzOTVkZlwvZDllYnoydy02Njk1NzMzMS0zYmQ3LTRjMjEtOWRhNC1mNDJjYjdiMTc4YzUuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.fN24kFldhLDg1ad0rzTWYCia2LsbNjnlST2iOVRJ934)
 
 <!--
 
