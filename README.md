@@ -460,6 +460,10 @@ I can read people's minds...
     - [Chisel](https://github.com/jpillora/chisel) _server/client. Fast TCP/UDP tunnel, transported over HTTP, secured via SSH_
     - [Chisel Releases](https://github.com/jpillora/chisel/releases)
 
+- Enum & PrivEsc
+    - [pspy](https://github.com/DominicBreuker/pspy) _Process viewer_
+    - [peas (winpeas, linpeas)]() _Tasty peas :3_  
+
 ### Scripts & Commands for Digital Black Magic & Hacking
  
 
