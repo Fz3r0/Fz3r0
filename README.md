@@ -39,7 +39,6 @@
 
 <h3 align="center">💀 Fz3r0 💀</h3>
 
-
 ##### ![twitter](https://user-images.githubusercontent.com/94720207/168743521-b8c142ae-e221-40c9-8d1f-bd9520027717.png) **Twitter**  : [@fz3r0_OPs](https://twitter.com/Fz3r0_OPs) 
 ##### ![githubicon](https://user-images.githubusercontent.com/94720207/168743591-ca20efa5-f692-46b0-ba84-f2681486009f.png) **Github**   : [Fz3r0](https://github.com/fz3r0) 
 
@@ -162,7 +161,9 @@ https://www.hackthebox.com/badge/image/897009
   
 ---
 --- 
- 
+
+![index_banner_final2](https://metro.co.uk/wp-content/uploads/2022/03/Cyberwarfare-is-the-battleground-of-the-21st-century-and-were-all-involved-BP-29e0.gif)
+
 <!--
 
 *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
