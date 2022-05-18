@@ -602,7 +602,9 @@ I can read people's minds...
 ### Misc Tools
 
 - [Mark Down Table Editor](https://tableconvert.com/markdown-generator)
-
+- [WinDirStat](https://windirstat.net/) _Disk usage statistics viewer and cleanup tool for various versions of Microsoft Windows._
+- [CPU-Z]
+- [HW Monitor]
 
 
 _The world is a messy place, at least you now have a way of choosing a path... right?..._
