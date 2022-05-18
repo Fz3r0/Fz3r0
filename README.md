@@ -330,10 +330,10 @@ Guides for performing Penetration Attacks involving the Network Infrastructure E
 Guides, Tips & Tricks, Downloads, Binaries, Executables, Scripts, Open Source Codes
 
 - **Networking Tools Guides & Writeups**
-    - **Wireshark - From Nemo to Black Megalodon: Pro Sniffing & Network Traffic Audit/Analysis.** by @ Fz3r0
+    - [**Wireshark - From Nemo to Black Megalodon: Pro Sniffing & Network Traffic Audit/Analysis.** by @ Fz3r0]
     - [**Wireshark - Troubleshooting Slow Networks - Presented by Megalodon Chris Greer @ UC Berkeley**](https://www.youtube.com/watch?v=h9stVIfug5Y)
     - [**Snort @ Cisco Talos - Introduction** by @ Hackersploit](https://www.youtube.com/watch?v=RzF5-fVz7Oc)    
-    - **Snort @ Cisco Talos - The foremost IDS + IPS in the world. Define malicious network activity.** by @ Fz3r0
+    - [**Snort @ Cisco Talos - The foremost IDS + IPS in the world. Define malicious network activity.** by @ Fz3r0](/Networking/Networking-Tools-&-Weapons/Snort_by_Cisco-Talos_fz3r0.md)
 
 
 - **Tools for the Pro Networking Engineer**
