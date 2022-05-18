@@ -333,7 +333,7 @@ Guides, Tips & Tricks, Downloads, Binaries, Executables, Scripts, Open Source Co
     - **Wireshark - From Nemo to Black Megalodon: Pro Sniffing & Network Traffic Audit/Analysis.** by @ Fz3r0
     - [**Wireshark - Troubleshooting Slow Networks - Presented by Megalodon Chris Greer @ UC Berkeley**](https://www.youtube.com/watch?v=h9stVIfug5Y)
     - [**Snort @ Cisco Talos - Introduction** by @ Hackersploit](https://www.youtube.com/watch?v=RzF5-fVz7Oc)    
-    - **Snort @ Cisco Talos - The foremost IPS in the world. Define malicious network activity.** by @ Fz3r0
+    - **Snort @ Cisco Talos - The foremost IDS + IPS in the world. Define malicious network activity.** by @ Fz3r0
 
 
 - **Tools for the Pro Networking Engineer**
