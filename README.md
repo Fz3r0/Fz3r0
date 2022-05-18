@@ -71,6 +71,13 @@
 
 &nbsp;
 
+
+<p align="center"> <a href="https://www.credly.com/badges/7611ce7f-e699-4426-888b-ab4f4fe7d785" target="_blank" rel="noreferrer"> <img src="https://images.credly.com/size/340x340/images/70d71df5-f3dc-4380-9b9d-f22513a70417/CCNAITN__1_.png" alt="cisco1"  width="127" height="127"> </a>   &emsp; &emsp; &emsp;   <a href="https://www.credly.com/badges/72488bf8-8ed7-4d31-bff9-9e5c2555af36" target="_blank" rel="noreferrer"> <img src="https://images.credly.com/size/340x340/images/f4ccdba9-dd65-4349-baad-8f05df116443/CCNASRWE__1_.png" alt="cisco2" width="127" height="127"> </a>   &emsp; &emsp; &emsp;   <a href="https://www.linkedin.com/in/fzerocarlos/" target="_blank" rel="noreferrer"> <img src="https://user-images.githubusercontent.com/94720207/168743658-0a5101f0-49fd-494f-9a79-cf70ad860d12.png" alt="cisco3"> </a> </p> 
+
+
+
+
+
 <!--
 
 *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
