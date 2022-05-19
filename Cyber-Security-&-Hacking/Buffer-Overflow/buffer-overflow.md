@@ -187,8 +187,14 @@ s_string_variable("0");
         
         - ![image](https://user-images.githubusercontent.com/94720207/169217034-ed973f4b-51c5-4c7d-bc69-e267b0ab93ba.png)
 
-
     - **We crashed it! That means: `TRUN` COMMAND IS VULNERABLE!!!**
+    
+- If we look closer we can find that we sent the `TRUN` command with a bunch of "A" 
+
+- ![image](https://user-images.githubusercontent.com/94720207/169217335-2e20e09b-ef9b-417e-95cb-6f08ae53433b.png)
+
+- Remembering the buffer space... in a "perfect world" this line would fit exactly the buffer space, somehting like:
+
 
 
 
