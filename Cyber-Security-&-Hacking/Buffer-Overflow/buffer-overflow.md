@@ -41,12 +41,11 @@
 1. Victim Machine: Windows 10 Pro
 2. Vulnerable Software: [Vulnserver](https://github.com/stephenbradshaw/vulnserver) Direct Download: [.zip fz3r0 Sp3ci4l :D DOWNLOAD!](https://github.com/Fz3r0/Fz3r0/files/8721984/vulnserver.zip)
 3. Attacker Machine: Kali Linux
-4. Debugger: Immunity Debugger
+4. Debugger: [Immunity Debugger](https://debugger.immunityinc.com/ID_register.py) Direct Download: [.zip fz3r0 Sp3ci4l :3 DOWNLOAD!](https://github.com/Fz3r0/Fz3r0/files/8722812/immunity.debugger.zip)
 
 ---
 
 
-[vulnserver.zip]
 
 
 
