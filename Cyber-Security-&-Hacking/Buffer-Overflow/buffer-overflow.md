@@ -855,6 +855,8 @@ while True:
            
            - Now, we goinf to hit `F2` in the keyboard, and it will turn the value aqua-blue.
            
+           - ![image](https://user-images.githubusercontent.com/94720207/169417320-19cd709e-66ee-4c0b-b820-3474317b1212.png)
+           
            - **What we have just done is we've set a breakpoint:**
            
                - We have the `breakpoint` running, what this means is we're gonna overflow the buffer but if we hit this "specific spot" or `jump code` it's not going to jump to a further instruction.
@@ -865,15 +867,16 @@ while True:
                
     - **Press "Play" in the `Immunity Debugger`:
           
-        - ![image](https://user-images.githubusercontent.com/94720207/169416737-1daba024-9713-4431-be80-6c04cf6bb50f.png)
+        - ![image](https://user-images.githubusercontent.com/94720207/169417411-8fc85d31-919b-44c0-ba7e-37b19edf49d7.png)
        
     - **And then execute the script in Kali:**
 
         - ![image](https://user-images.githubusercontent.com/94720207/169416805-ed3e64f1-7286-4e04-a5b4-71c69aed4a4b.png)
     
-    - It crashes instantly again.
+    - It crashes instantly again, and it shows the message **`Breakpoint at essfunc.625011AF`**
     
-    - 
+        - ![image](https://user-images.githubusercontent.com/94720207/169417565-18094b0e-83b8-4158-a5d7-db0fc2dd4f2f.png)
+ 
   
         
 
