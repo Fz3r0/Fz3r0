@@ -418,6 +418,16 @@ while True:
 
 - Don't forget to change the mod `chmod +x` for running the program:
 
+    - ![image](https://user-images.githubusercontent.com/94720207/169320429-186eefad-3311-4987-8e3c-8c5922879dee.png)
+
+- Run it!
+
+    - ![image](https://user-images.githubusercontent.com/94720207/169321204-855e748c-f018-4ba8-a24d-5dd530588b81.png)
+
+- It throw the exceptions right away, and if we look at the `Registers` we see the following:
+
+    -  
+
 
      
  
