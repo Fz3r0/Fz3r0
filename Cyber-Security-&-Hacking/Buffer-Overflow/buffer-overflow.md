@@ -80,10 +80,24 @@
             
             - ![image](https://user-images.githubusercontent.com/94720207/169188968-e1437e10-af9f-4077-a6a7-8356bfe557e4.png)
 
+- **It looks that this program `Vuln Server` take `commands` based on what you type AKA `strings`**
+
 - **Spoiler Alert: TRUN command is vulnerable, but how to know it?!**
 
-    - 
-
+    - **To find the vulnerability we do something called `spinking`**
+    
+    - For example:
+    
+        - Let's take a command like `STATS` (first on the list)
+        - I want to try to send a bunch of characters (like "A") and try to overflow it. 
+        - **If we can overflow the command, then the program will `crash`** 
+        - **If the program crash, then it's mean it's vulnerable!**
+        - _If the command is not vulnerable then we move to the next one..._
+    
+    - To compare how a vulnerable command looks like VS a non vulnerable command we will compare `STATS`(not vuln) VS `TRUN` vuln, that's the way we will learn how to identify the difference. 
+      
+ 
+ 
 
 
 
