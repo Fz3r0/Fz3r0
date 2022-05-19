@@ -532,9 +532,16 @@ while True:
                 - _buffer_ ...**AAAAAAAAAAAAAAAAAAAAAAAAAAAA** <|EIP Starts|> **BBBB** <|EIP Endss|> _outside_**
                 
                 - ![image](https://user-images.githubusercontent.com/94720207/169358167-6936c801-2f6b-423d-bbbb-fe2811395a9e.png)
-  
+                    
+        - So! in theory when we run the script, we need to see the value of HEX `B` in `EIP`:
         
-        -     
+            - HEX "B" (_Mayus B_) = `42`
+            
+            - **HEX "BBBB" = `42424242`**
+        
+        - Let's run it! que chille! 
+       
+       
 
 
 
