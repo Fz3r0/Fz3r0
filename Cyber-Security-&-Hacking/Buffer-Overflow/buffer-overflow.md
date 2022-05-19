@@ -363,7 +363,7 @@ while True:
 
     - Because controlling EIP means control the shellcode of the program (so we can send malicious scripts like a reverse shell).
     
-- **For this step, we will use the tool `Pattern Create` by Metasploit:**
+- **For this step, we will use the tool `pattern_create` by Metasploit:**
 
 - ![image](https://user-images.githubusercontent.com/94720207/169311872-83277c19-e042-4cab-8b48-197682ac4d15.png)
  
@@ -414,8 +414,9 @@ while True:
     1. We send the crazy code and we know that in some point it will crash (because it have more than **2700** characters)
     2. After the crash, we going to say to Metasppoit:
     
-        - The program have crashed with the `pattern`
+        - **The program have crashed with the `pattern_create`, identify exactly where it crashed.**    
 
+- Don't forget to change the mod `chmod +x` for running the program:
 
 
      
