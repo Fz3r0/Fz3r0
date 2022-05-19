@@ -193,24 +193,28 @@ s_string_variable("0");
     
 - If we look closer THE `Registers` we can find that we sent the `TRUN` command with a bunch of "A" 
 
-    - ![image](https://user-images.githubusercontent.com/94720207/169217335-2e20e09b-ef9b-417e-95cb-6f08ae53433b.png)
+    - ![image](https://user-images.githubusercontent.com/94720207/169220715-4fcb460b-1346-4447-9122-39b04009c37c.png)
 
 - Remembering the buffer space... in a "perfect world" this line **"TRUN+AAAA..."** would fit exactly the buffer space, somehting like:
 
-    - ![image](https://user-images.githubusercontent.com/94720207/169217774-48ace48e-464e-4b4f-9e08-55412013c909.png)
+    - ![image](https://user-images.githubusercontent.com/94720207/169220829-afd4a106-a004-47eb-ba55-506b12573f50.png)
 
-- But, we actually overflowed it after that with more "A's":
+- But, we actually overflowed it after that with more "A's" after:
 
-    - ![image](https://user-images.githubusercontent.com/94720207/169218750-a4538b95-6090-40d4-90f1-c6609425d8a8.png)
+    - ![image](https://user-images.githubusercontent.com/94720207/169221396-5559c058-b227-4791-b96d-852e6b44a144.png)
 
-- If we lok at `EBP` we can see `41414141`: THA'TS THE HEX CODE FOR: `AAAA`
+1. If we look at `EBP` we can see `41414141`: **THA'TS THE HEX CODE FOR: `AAAA`**
 
-- Also, we went over `ESP` with a bunch of "A"
+2. Also, we went over `ESP` with **a bunch of "A"**
+
+3. Finally, we get into `EIP` too with `41414141`: **THA'TS THE HEX CODE FOR: `AAAA`**
 
     - Something like this:
 
-        - ![image](https://user-images.githubusercontent.com/94720207/169219202-41cf1513-64ea-4b43-83ae-d00a2a23f654.png)
+        - ![image](https://user-images.githubusercontent.com/94720207/169222216-273e11d9-35c1-4f9b-b715-0386318b046f.png)
 
+
+- 
 
 
 
