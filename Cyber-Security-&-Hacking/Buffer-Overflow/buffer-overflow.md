@@ -219,14 +219,16 @@ s_string_variable("0");
 
     - If we control `EIP` we can point somethin malicious! But for that, we need to locate "where's `EIP` now?"
 
+- NOTE: The program has crashed, so we will need to restart the `Vuln Server` and attach it again to the `Immunity Debugger`
+
 ---
 
 ### Fuzzing
 
-- Fuzzing is very similar to spiking...
-- We will try to send a bunch of characters at a specific command and try to break it, the difference is:
+- Fuzzing is very similar to spiking:
 
-    -  
+    - We will try to send a bunch of characters at a specific command and try to break it... 
+    - The difference is that we already know which command is vulnerable (`TRUN`) 
 
 
 
