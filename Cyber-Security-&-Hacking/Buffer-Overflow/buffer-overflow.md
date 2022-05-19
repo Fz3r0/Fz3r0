@@ -58,8 +58,13 @@
     - On Immunitu Debugger:
 
         1. File > Attach > Vuln Server 
+            - ![image](https://user-images.githubusercontent.com/94720207/169189657-1fc8ab40-54e7-4323-81af-f6dbb9897d29.png)
+
+            - ![image](https://user-images.githubusercontent.com/94720207/169189603-5ebfccbf-18e9-4439-86d4-aa79ebd7cbc4.png)
         2. Press Play!
-        3. Running and ready to go!
+        3. Running and ready to go! _(Bottom Right Corner)_
+       
+            - ![image](https://user-images.githubusercontent.com/94720207/169189986-6b8b761f-a087-4c14-90c2-e9d21eff2a81.png)
 
 3. Run Kali Linux
 
