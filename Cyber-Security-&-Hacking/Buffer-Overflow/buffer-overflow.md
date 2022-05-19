@@ -802,7 +802,7 @@ while True:
             
             - We can do something special in `Immunity Debugger` to actually catch this.
             
-                - So, we will save our new script then:
+                - So, we will save our new script:
                 
 ```python
 #!/usr/bin/python
@@ -830,6 +830,25 @@ while True:
                 print "Error connecting to server"
                 sys.exit()
 ```
+
+- Again, save it as `5.py` and `chmod +x`:
+
+    - ![image](https://user-images.githubusercontent.com/94720207/169371638-106e87df-3314-4524-889e-bc43acb8b475.png)
+    
+    - And now let's open `Immunity Debugger` and make something special ;) 
+    
+    - First of all, in the top left corner we need to click `go to address in disassembler` (the blue arrow) 
+    
+        - ![image](https://user-images.githubusercontent.com/94720207/169414780-ae96ab60-33be-4d28-81b4-2039a41d61b5.png)
+    
+    - Then we will add the value of `625011AF` (Remember the original `pointer address` AKA our `jump code`?)
+    
+        - ![image](https://user-images.githubusercontent.com/94720207/169415237-8c38ae0b-e4fe-4392-bf73-eda13eb5f309.png)
+
+    - We press enter or "ok", and it will find automatically `FFE4` !!! Remember???:
+    
+       - _"3. Now we know that the `JMP ESP` equivalent in `HEX` is = `FFE4`!!!"_
+
   
         
 
