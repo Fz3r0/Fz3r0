@@ -272,10 +272,14 @@ import sys, socket
 # We will use it for wait 1 second "sleep(1)"
 from time import sleep
 
+# Declaring a "buffer" variable
+# Inside "buffer" variable, we have 100 A's (one hunded "A")
 buffer = "A" * 100
 
+# While True, we will loop and try something:
 while True:
         try:
+                # test
                 s=socket.socket(socket.AF_INET,socket.SOCK_STREAM)
                 s.connect(('192.168.1.100', 9999))
                 
