@@ -258,7 +258,11 @@ while True:
 
 - You can call it something like: `l.py`
 
-    - I will comment it line by line:
+    - **IMPORTANT: You need to chmod 600** 
+    
+    - ![image](https://user-images.githubusercontent.com/94720207/169232080-48f74ed9-8baf-4f7f-90da-1cdce163c867.png)
+ 
+- Now, I will comment it line by line:
 
 ```python
 # We declare we are using python:
