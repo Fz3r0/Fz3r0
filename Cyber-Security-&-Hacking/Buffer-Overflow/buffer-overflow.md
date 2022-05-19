@@ -681,7 +681,15 @@ while True:
 
         - Right away in the first line we saw a "weird" sequence: **1,2,3... `B0`, `B0` ...6, 7, 8**
         
-        - This means 
+        - This means `B0` is a `bad char`, we need to note all `B0`s including the missing numbers that this miss-sequence originates.
+    
+    - **Write down all this numbers, because we need them to generate the final shellcode to gain root!!!**
+    
+        - NOTE: Remember, in this lab there are NOT `bad chars` this was just an example! 
+
+---
+
+
 
       
 
