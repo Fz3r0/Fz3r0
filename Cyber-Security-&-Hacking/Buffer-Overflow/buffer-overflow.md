@@ -677,6 +677,11 @@ while True:
 
 - **Just as an example** of a `bad char` let's see this Dump from **another Lab** 
 
+    - ![image](https://user-images.githubusercontent.com/94720207/169384923-46ad25d7-56bb-4323-ba5d-05576cdae939.png)
+
+        - Right away in the first line we saw a "weird" sequence: **1,2,3... `B0`, `B0` ...6, 7, 8**
+        
+        - This means 
 
       
 
