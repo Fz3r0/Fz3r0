@@ -847,8 +847,33 @@ while True:
 
     - We press enter or "ok", and it will find automatically `FFE4` !!! Remember???:
     
-       - _"3. Now we know that the `JMP ESP` equivalent in `HEX` is = `FFE4`!!!"_
+        - ![image](https://user-images.githubusercontent.com/94720207/169416506-99db9054-de4e-4739-a098-c5fe7e589341.png) 
+    
+        - _"3. Now we know that the `JMP ESP` equivalent in `HEX` is = `FFE4`!!!"_
+           
+           - This means, it took us to our `jump code` = `JMP ESP` and that's exactly what we want!
+           
+           - Now, we goinf to hit `F2` in the keyboard, and it will turn the value aqua-blue.
+           
+           - **What we have just done is we've set a breakpoint:**
+           
+               - We have the `breakpoint` running, what this means is we're gonna overflow the buffer but if we hit this "specific spot" or `jump code` it's not going to jump to a further instruction.
+               
+               - **It's actually going to break the program (Vuln Server) and pause right here for further instruction from us**
+               
+               - So for now, we just want to know that we are hitting this > overriding the `EIP` > Located in the specific spot `breakpoint` > And we're gonna be able to jump forward.
+               
+    - **Press "Play" in the `Immunity Debugger`:
+          
+        - ![image](https://user-images.githubusercontent.com/94720207/169416737-1daba024-9713-4431-be80-6c04cf6bb50f.png)
+       
+    - **And then execute the script in Kali:**
 
+        - ![image](https://user-images.githubusercontent.com/94720207/169416805-ed3e64f1-7286-4e04-a5b4-71c69aed4a4b.png)
+    
+    - It crashes instantly again.
+    
+    - 
   
         
 
