@@ -764,10 +764,20 @@ while True:
         - `-s` is used to find
         - `-m` is used for "module" 
         
-    - ![image](https://user-images.githubusercontent.com/94720207/169409614-b21d5226-ff0f-4e27-9daa-f6164f6e3b18.png)
-
+    - ![image](https://user-images.githubusercontent.com/94720207/169409906-6d42fc15-289f-40d8-a002-f345a843fa86.png)
     
-        -       
+        - We are searching here a `return address`
+        
+        - For example, the first row means the `retrun addresses`, so, if we start from the top we found:
+        
+            - **Return Address = `625011AF`** for `ssfunc.dll`
+            
+        
+
+  
+        
+    - 
+         
 
     
 
