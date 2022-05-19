@@ -213,8 +213,14 @@ s_string_variable("0");
 
         - ![image](https://user-images.githubusercontent.com/94720207/169222216-273e11d9-35c1-4f9b-b715-0386318b046f.png)
 
+- Remember: **The `EIP` is the important factor!**
 
-- 
+    - If we control `EIP` we can point somethin malicious! But for that, we need to locate "where's `EIP` now?"
+
+---
+
+### Fuzzing
+
 
 
 
