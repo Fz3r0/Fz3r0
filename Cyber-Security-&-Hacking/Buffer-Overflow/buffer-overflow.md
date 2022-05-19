@@ -691,8 +691,21 @@ while True:
 
 ### Finding the right module
 
-- 
+- Finding the right module means that we are looking for a `.dll` or something similar inside our program (Vuln Server) that has no memory protections.  
 
+- No memory protections means: `no depth`, `no ASLR`, `no safe SEH`, etc.
+
+    - **There's a tool called `Mona Modules` that makes the life much easier for that... ;)**
+    
+        - `**Mona` is used within `Immunity Debugger` to achieve this. [Direct Link to Mona Modules](https://github.com/corelan/mona)**
+        
+        - You only need to **[download the mona.py file](https://raw.githubusercontent.com/corelan/mona/master/mona.py)**
+        
+        - Then, put it on the same folder as Immunity Debugger...that's all!!! We got `Mona` ready to use
+        
+        - ![image](https://user-images.githubusercontent.com/94720207/169389404-7cc5433c-e6a2-43ff-8249-ffb546b107e2.png)
+
+- 
 
       
 
@@ -721,4 +734,4 @@ while True:
 - https://www.youtube.com/watch?v=qSnPayW6F7U&list=PLLKT__MCUeix3O0DPbmuaRuR_4Hxo4m3G
 - https://www.asciihex.com/character/control/0/0x00/nul-null-character
 - https://cryptii.com/pipes/hex-decoder
-- 
+- https://github.com/corelan/mona 
