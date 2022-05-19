@@ -661,7 +661,7 @@ while True:
     
     - Now, let's take a look at the dump (bottom left corner):
     
-        - ![image](https://user-images.githubusercontent.com/94720207/169377022-5e6faff9-ee8a-46ac-acd5-7ff247ba2a8a.png)
+        - ![image](https://user-images.githubusercontent.com/94720207/169379579-5b2bf949-f519-4847-8a74-e7c7e854db3d.png)
     
     - **It's easy to read it, it's just a sequence number going: 1,2,3,4,5,6,7,8,9,10<---- but in HEX...**
     
@@ -671,7 +671,14 @@ while True:
         
             - **In this Lab of Vuln Server, there are NOT bad chars!!! That's why we cannot see any "weird" sequence like: 1,2,3,5,6...**
         
-    -      
+            - In technic words, we are specting all that characters to happen.
+            
+            - The last thing we sent was `FF`, so if we search for `FF` at the end of the list, that means that we need to search only from the beginning to `FF`.
+
+- **Just as an example** of a `bad char` let's see this Dump from **another Lab** 
+
+
+      
 
 
   
