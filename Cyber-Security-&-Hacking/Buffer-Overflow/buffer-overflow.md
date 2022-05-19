@@ -43,6 +43,11 @@
 3. Attacker Machine: Kali Linux
 4. Debugger: [Immunity Debugger](https://debugger.immunityinc.com/ID_register.py) Direct Download: [.zip fz3r0 Sp3ci4l :3 DOWNLOAD!](https://github.com/Fz3r0/Fz3r0/files/8722812/immunity.debugger.zip)
 
+- **Setup**
+    
+    - Run Windows 10 as Base OS 
+    - VMware Pro Running Kali Linux
+
 ---
 
 
