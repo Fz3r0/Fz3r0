@@ -151,7 +151,9 @@ s_string_variable("0");
 
 - Save both as `stats.spk` & `trun.spk`
 
-    -  
+    - ![image](https://user-images.githubusercontent.com/94720207/169211415-d71051aa-2aa2-4955-a50c-c959b4e49dde.png)
+
+
 
 
 
