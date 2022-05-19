@@ -112,7 +112,27 @@
 | **spike_script**       | (Spike File) something.spk |
 | **SKIPVAR**            | ()0                        |
 
- 
+### Spike Script
+
+- We will generate a file called "stats.spk"
+
+```
+s_readline();              <<<-----| 1. We will read the line
+s_string("STATS ");        <<<-----| 2. We will take the string (STATS in this case)
+s_string_variable("0");    <<<-----| 3. We will send a variable to the "STATS" string
+
+```
+
+- The trick for the spike is this:
+    
+    - **We will send variables in all different forms and itterations, for example 1000 at a time, 10K at a time, 100K at a time, etc...** 
+    - We do this because we are looking for something to break the program! "Buscando la aguja en el pajar"
+    
+        - **Spike is sending all kind of different characters randomly to try to break this part of the program**
+
+- Essentialy we can do that exact same process for all the commands, but instead `s_string("STATS ");` it will use another different command like "TRUN": `s_string("TRUN ");` 
+
+- 
  
 
 
