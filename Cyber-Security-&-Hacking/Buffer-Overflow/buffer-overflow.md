@@ -95,7 +95,23 @@
         - _If the command is not vulnerable then we move to the next one..._
     
     - To compare how a vulnerable command looks like VS a non vulnerable command we will compare `STATS`(not vuln) VS `TRUN` vuln, that's the way we will learn how to identify the difference. 
-      
+
+- For spiking we will use a tool called:
+
+    - **`generic_send_tcp`** 
+
+        - Usage:
+        
+            - `**./generic_send_tcp host port spike_script SKIPVAR SKIPSTR**`
+            
+| **Instruction**        | **Result**                 |
+|------------------------|----------------------------|
+| **./generic_send_tcp** | Command                    |
+| **host**               | (Target) 192.168.1.100     |
+| **port**               | (Target) 9999              |
+| **spike_script**       | (Spike File) something.spk |
+| **SKIPVAR**            | ()0                        |
+
  
  
 
