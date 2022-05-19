@@ -540,8 +540,27 @@ while True:
             - **HEX "BBBB" = `42424242`**
         
         - Let's run it! que chille! 
+        
+            - ![image](https://user-images.githubusercontent.com/94720207/169361983-02f9bfaf-7f5f-436c-8959-9ebfe68c5ba8.png)
+         
+            - It crashes instantly after I run it (stop with `ctrl+c` again) 
+            
+            - And this is how it looks our precious `BBBB` or `42424242` in the `Immunity Debugger`:
        
-       
+            - ![image](https://user-images.githubusercontent.com/94720207/169362232-8ebe4838-7514-47b2-8459-f0b776f0421c.png)
+            
+            - ![image](https://user-images.githubusercontent.com/94720207/169358167-6936c801-2f6b-423d-bbbb-fe2811395a9e.png) 
+            
+            - **Boooom!!!** 
+            
+    - **We succesfully overwritten the `EIP` and we have control of it**, but just with an inocent "BBBB" (4 bytes)...
+    
+        - **It's time to overwirte it with some malicious shellcode containung a 4 bytes of deadly poison!**  
+
+---
+
+### Finding Bad Characters
+
 
 
 
