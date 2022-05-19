@@ -120,7 +120,6 @@
 s_readline();              <<<-----| 1. We will read the line
 s_string("STATS ");        <<<-----| 2. We will take the string (STATS in this case)
 s_string_variable("0");    <<<-----| 3. We will send a variable to the "STATS" string
-
 ```
 
 - The trick for the spike is this:
@@ -132,10 +131,27 @@ s_string_variable("0");    <<<-----| 3. We will send a variable to the "STATS" s
 
 - Essentialy we can do that exact same process for all the commands, but instead `s_string("STATS ");` it will use another different command like "TRUN": `s_string("TRUN ");` 
 
-- 
- 
+- And here are all the spikes for `STATS` & `TRUN`:
 
+- **STATS**
 
+``` 
+s_readline();
+s_string("STATS ");
+s_string_variable("0");
+``` 
+
+- **TRUN**
+
+``` 
+s_readline();
+s_string("TRUN ");
+s_string_variable("0");
+``` 
+
+- Save both as `stats.spk` & `trun.spk`
+
+    -  
 
 
 
