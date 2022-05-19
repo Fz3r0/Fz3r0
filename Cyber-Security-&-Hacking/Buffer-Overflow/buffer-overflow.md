@@ -747,11 +747,13 @@ while True:
         
             1. Run the `nasm_shell` script (directly from the original path, otherwise it doesn't work):
             
+                - `/usr/share/metasploit-framework/tools/exploit/nasm_shell.rb` 
+            
                 - ![image](https://user-images.githubusercontent.com/94720207/169401488-3dd91bcb-c2ea-4fcf-be75-7abdb76bc0c9.png)
                 
             2. Type in `assembly language` `JMP ESP` which means: "Jump(command) to ESP(pointer)" 
             
-                - ![image](https://user-images.githubusercontent.com/94720207/169402251-e73c0ee8-b52c-44da-b2d5-d7588a672574.png)
+                - ![image](https://user-images.githubusercontent.com/94720207/169410984-674a4a45-bcbf-49eb-ac3c-5e88371da587.png)
 
             3. Now we know that the `JMP ESP` equivalent in `HEX` is = `FFE4`!!!
             
