@@ -334,6 +334,14 @@ while True:
     - We can watch Immunity Device until the crash, it will happen soon or later: 
     
         - ![image](https://user-images.githubusercontent.com/94720207/169235297-527abfaf-258b-4f4f-871e-76e7cc793330.png)
+    
+    - Finally, we go back to our Kali and `ctrl+c` the script to force stop
+    
+    - We can see we have crashed it **somewhere around 2700 bytes**
+    
+- Let's look at the crash in the `Immunity Debugger`:
+
+- 
  
 
 
