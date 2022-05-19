@@ -161,7 +161,14 @@ s_string_variable("0");
     
     - `generic_send_tcp 192.168.1.100 9999 stats.spk 0 0`
     
--    
+        - The tool starts to spike Vuln Server:
+        
+        - ![image](https://user-images.githubusercontent.com/94720207/169212389-fa99d1f6-d8e8-4a62-bdaa-d944fd3a3fa6.png)
+
+        - We can see the program running and recieveng threads (not crashing at all and running normal)
+        
+        - ![image](https://user-images.githubusercontent.com/94720207/169212162-686702c2-75f5-4c72-a2cc-9d0666ef3a89.png)
+   
 
 
 
