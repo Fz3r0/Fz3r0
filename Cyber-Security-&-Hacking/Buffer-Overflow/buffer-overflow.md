@@ -39,13 +39,14 @@
 ### Tools for the Buffer Overflow Lab
 
 1. Victim Machine: Windows 10 Pro
-2. Vulnerable Software: [Vulnserver](https://github.com/stephenbradshaw/vulnserver) _download all in the same folder_
+2. Vulnerable Software: [Vulnserver](https://github.com/stephenbradshaw/vulnserver) Direct Download: [.zip fz3r0 Sp3ci4l :D DOWNLOAD!](https://github.com/Fz3r0/Fz3r0/files/8721984/vulnserver.zip)
 3. Attacker Machine: Kali Linux
 4. Debugger: Immunity Debugger
 
 ---
 
 
+[vulnserver.zip]
 
 
 
