@@ -195,9 +195,11 @@ s_string_variable("0");
 
     - ![image](https://user-images.githubusercontent.com/94720207/169220715-4fcb460b-1346-4447-9122-39b04009c37c.png)
 
-- Remembering the buffer space... in a "perfect world" this line **"TRUN+AAAA..."** would fit exactly the buffer space, somehting like:
+- Remembering the buffer space... in a "perfect world" this line **"TRUN+AAAA..."** would fit exactly the buffer space...
+    
+    -  somehting like:
 
-    - ![image](https://user-images.githubusercontent.com/94720207/169220829-afd4a106-a004-47eb-ba55-506b12573f50.png)
+        - ![image](https://user-images.githubusercontent.com/94720207/169220829-afd4a106-a004-47eb-ba55-506b12573f50.png)
 
 - But, we actually overflowed it after that with more "A's" after:
 
@@ -220,6 +222,12 @@ s_string_variable("0");
 ---
 
 ### Fuzzing
+
+- Fuzzing is very similar to spiking...
+- We will try to send a bunch of characters at a specific command and try to break it, the difference is:
+
+    -  
+
 
 
 
