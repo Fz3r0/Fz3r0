@@ -731,9 +731,25 @@ while True:
         
             - This means: **We are looking for something attached to Vuln Server (like a .dll) that doesn't have any protection, for example `essfunc.dll`, let's take a note of this and now do this other process:**    
 
-- **Finding the upcoding equivalent**
+- **Finding the opcode equivalent of a jump**
 
-- 
+    - In Kali Linux:
+    
+        - We're going to locate something called `NASM shell`:
+        
+        - ![image](https://user-images.githubusercontent.com/94720207/169400501-202dd0b7-58fa-47ad-b3a2-1f120b7d8b02.png)
+        
+    - Ok, let's do this!
+    
+        - We're looking for the `opcode equivalent`
+        
+        - We are trying to convert `assambly language` into `HEX code` so we need to do:
+        
+            1. Run the `nasm_shell` script (directly from the original path, otherwise it doesn't work):
+            
+                `![image](https://user-images.githubusercontent.com/94720207/169401488-3dd91bcb-c2ea-4fcf-be75-7abdb76bc0c9.png)
+`
+    
 
  
 
