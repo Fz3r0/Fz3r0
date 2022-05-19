@@ -45,12 +45,30 @@
 
 - **Setup**
     
-    - Run Windows 10 as Base OS 
+    - Run Windows 10 as Base OS (TURN OFF WINDOWS DEFENDER)
     - VMware Pro Running Kali Linux
 
 ---
 
 ### Spiking
+
+1. Run vulnserver.exe as Administrator
+2. Run Immunity Debugger as Administrator
+
+- On Immunitu Debugger:
+
+    - File > Attach > Vuln Server 
+    - Press Play!
+    - Running and ready to go!
+
+- On Kali Linux
+
+1. Connect to VulnServer
+
+    - Using the IP Address of the Windows Machine **192.168.10.100** + VulnServer Port **9999** 
+    - On Kali: `nc -nv 192.168.10.100 9999`
+
+
 
 
 
