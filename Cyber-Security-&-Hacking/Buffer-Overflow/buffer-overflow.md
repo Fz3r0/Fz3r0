@@ -195,6 +195,8 @@ s_string_variable("0");
 
 - Remembering the buffer space... in a "perfect world" this line would fit exactly the buffer space, somehting like:
 
+    - ![image](https://user-images.githubusercontent.com/94720207/169217774-48ace48e-464e-4b4f-9e08-55412013c909.png)
+
 
 
 
