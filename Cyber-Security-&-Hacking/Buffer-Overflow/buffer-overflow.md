@@ -349,7 +349,25 @@ while True:
 
 - It's ok, we just need to know aprox where we crashed the program, and we know is somewhere around **2700 bytes**
 
+    - Now, that we know that the crash is somewhere aroung 2700 bytes, we need to know: **where's the `EIP` value at?**
 
+    - Remember, controlling the `EIP` is the puprose of all of this attack. 
+
+--- 
+
+### Step4 - Finding the Offset
+
+- First of all, restart everything because the last crash...
+
+- We are going to be looking for where the overwirte the `EIP`: 
+
+    - Because controlling EIP means control the shellcode of the program (so we can send malicious scripts like a reverse shell).
+    
+- **For this step, we will use the tool `Pattern Create` by Metasploit:**
+
+    - In Kali machine:
+
+     
  
 
 
