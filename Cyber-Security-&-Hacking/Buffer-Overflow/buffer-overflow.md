@@ -717,8 +717,23 @@ while True:
 
         - ![image](https://user-images.githubusercontent.com/94720207/169392574-6d6d7ca4-04c8-4749-a1a0-b726ee7fc08d.png)
 
-- NOTE: If the windows if Immunityu Debugger goes crazy, just close all windows, select: view > cpu, maximize it, and move the tiles again ;)
+- _NOTE: If the windows if Immunityu Debugger goes crazy, just close all windows, select: view > cpu, maximize it, and move the tiles again ;)_
 
+    - After pressing enter using the command `!mona modules` this window pop-up _(click to enlarge)_:
+    
+    - ![image](https://user-images.githubusercontent.com/94720207/169396750-98021efd-9586-4236-9926-e9fbef89540c.png)
+
+        - First of all, that rows marked with `blue` are the `Protection Settings`
+        
+        - Some are `False` and others are `True`...
+        
+        - We are looking for `False`, because that means that "something" does not have any protection, for example, `essfunc.dll` down not have any protection = `False,False,False,False`
+        
+            - This means: **We are looking for something attached to Vuln Server (like a .dll) that doesn't have any protection, for example `essfunc.dll`, let's take a note of this and now do this other process:**    
+
+- **Finding the upcoding equivalent**
+
+- 
 
  
 
