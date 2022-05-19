@@ -701,9 +701,27 @@ while True:
         
         - You only need to **[download the mona.py file](https://raw.githubusercontent.com/corelan/mona/master/mona.py)**
         
-        - Then, put it on the same folder as Immunity Debugger...that's all!!! We got `Mona` ready to use
+        - Then, put it on the same folder as **Immunity Debugger PyCommands**:
         
-        - ![image](https://user-images.githubusercontent.com/94720207/169389404-7cc5433c-e6a2-43ff-8249-ffb546b107e2.png)
+            - `C:\Program Files (x86)\Immunity Inc\Immunity Debugger\PyCommands`
+            
+            - ![image](https://user-images.githubusercontent.com/94720207/169390146-a78e60dc-5218-4877-8f35-6b39c243313b.png)
+                    
+        - That's all!!! We got `Mona` ready to use.
+
+- Once everything is ready, we can start `vuln server` and `Immunity Debugger`, attach the program, etc.
+
+    - **To use `Mona Modules`, the only extra thing to do now is typingon the bottom bar before `play` it:
+    
+        - `!mona modules` (and hit >Enter<) 
+
+        - ![image](https://user-images.githubusercontent.com/94720207/169392574-6d6d7ca4-04c8-4749-a1a0-b726ee7fc08d.png)
+
+- NOTE: If the windows if Immunityu Debugger goes crazy, just close all windows, select: view > cpu, maximize it, and move the tiles again ;)
+
+
+ 
+
 
 - 
 
@@ -735,3 +753,4 @@ while True:
 - https://www.asciihex.com/character/control/0/0x00/nul-null-character
 - https://cryptii.com/pipes/hex-decoder
 - https://github.com/corelan/mona 
+- https://reverseengineering.stackexchange.com/questions/13161/immunity-debugger-reset-windows-to-default-tiling
