@@ -55,13 +55,15 @@
 1. Run vulnserver.exe as Administrator
 2. Run Immunity Debugger as Administrator
 
-- On Immunitu Debugger:
+    - On Immunitu Debugger:
 
-    - File > Attach > Vuln Server 
-    - Press Play!
-    - Running and ready to go!
+        - File > Attach > Vuln Server 
+        - Press Play!
+        - Running and ready to go!
 
-- On Kali Linux
+3. Run Kali Linux
+
+    - On Kali Linux
 
 1. Connect to VulnServer
 
