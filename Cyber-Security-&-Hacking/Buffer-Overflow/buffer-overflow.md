@@ -282,6 +282,7 @@ while True:
                 # Try to connect to this socket:
                     # socket.AF_INET = IPv4
                     # socket.SOCK_STREAM = PORT
+                    
                 s=socket.socket(socket.AF_INET,socket.SOCK_STREAM)
                 s.connect(('192.168.1.100', 9999))
                 
@@ -300,6 +301,7 @@ while True:
                     # Finally, we add to the variable "buffer" other A*100, so now, it will send 200...
                     
                     # The loop repeats: 100,200,300,400,500,600... the buffer will get bigger and bigger until the program breaks.
+        
         # THE TRICK IS, WE ARE TRYING TO NARROW DOWN WHERE THE PROGRAM IS BREAKING AND WITH WHICH SPECIFIC BYTE SIZE.
         # SO, WE GOING TO FUZZ IT:
                                                         
