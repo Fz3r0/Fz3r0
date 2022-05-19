@@ -764,7 +764,8 @@ while True:
         - `-s` is used to find
         - `-m` is used for "module" 
         
-    - So, to resume:
+    - ![image](https://user-images.githubusercontent.com/94720207/169409614-b21d5226-ff0f-4e27-9daa-f6164f6e3b18.png)
+
     
         -       
 
