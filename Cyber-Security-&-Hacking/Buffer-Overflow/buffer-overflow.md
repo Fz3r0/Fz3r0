@@ -25,18 +25,18 @@
       
 ![image](https://user-images.githubusercontent.com/94720207/169181279-72b722a1-fb3f-4e3b-af8f-e06b649d71d2.png)
 
-
-
 ### Steps to conduct a buffer overflow
 
-1. Spiking
-2. Fuzzing
-3. Finding the Offset
-4. Overwhelming the EIP
-5. Finding Bad Characters
-6. Finding the Right Module
-7. Generating Shellcode
+1. Spiking - Method to find vuln part of the program
+2. Fuzzing - Send a bunch of characters and see if we can break it
+3. Finding the Offset - At what point did we break it
+4. Overwriting the EIP - Overwriting the Poiting Address and control it
+5. Finding Bad Characters - ...
+6. Finding the Right Module - ...
+7. Generating Shellcode - Once we know the bad characters and right module we can generate a shellcode
 8. Root!
+
+
 
 
 
