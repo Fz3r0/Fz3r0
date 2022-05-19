@@ -323,11 +323,10 @@ while True:
 
 - **Time to fuzz!!!**
 
-    - We only need to execute the python script `l.py`:
+    - We only need to execute the python script `l.py` **NOTE: This script was made for python2**:
     
         - ![image](https://user-images.githubusercontent.com/94720207/169234404-7e47cdfc-38d0-440d-8679-7cbe005e50b3.png)
 
-    
     - We can see the connections coming to the Vuln Server **(everytime with 100 more bytes or "A's")**:  
     
         - ![image](https://user-images.githubusercontent.com/94720207/169234708-0ef2edc7-e501-40bb-a830-aa4ec14aef3e.png) 
