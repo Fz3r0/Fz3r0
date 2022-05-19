@@ -155,7 +155,7 @@ s_string_variable("0");
 
     - ![image](https://user-images.githubusercontent.com/94720207/169211415-d71051aa-2aa2-4955-a50c-c959b4e49dde.png)
 
-- Send the spike from Kali (Attacker) to the Target program (Vuln Server):
+- Sending the `STATS spike` from Kali (Attacker) to the Target program (Vuln Server):
 
     - `generic_send_tcp host port spike_script SKIPVAR SKIPSTR`
     
@@ -168,8 +168,27 @@ s_string_variable("0");
         - We can see the program running and recieveng threads (not crashing at all and running normal)
         
         - ![image](https://user-images.githubusercontent.com/94720207/169212162-686702c2-75f5-4c72-a2cc-9d0666ef3a89.png)
-   
 
+    - **We waited until the end and it never crashes, it means: STATS IS NOT VULNERABLE**
+ 
+- Doing the same with TRUN: 
+
+    - `generic_send_tcp host port spike_script SKIPVAR SKIPSTR`
+    
+    - `generic_send_tcp 192.168.1.100 9999 trun.spk 0 0`
+
+        - The tool starts to spike Vuln Server:
+        
+        - ![image](https://user-images.githubusercontent.com/94720207/169216745-aa7f7fe6-a98b-4469-9434-b9d9e258ef45.png)
+        
+        - ![image](https://user-images.githubusercontent.com/94720207/169216923-7ebf1fc5-b09f-4fa6-bd7f-ade0696143f7.png)
+
+        - We can see the program running and recieveng threads (CRAAAASHHHHH!!!)
+        
+        - ![image](https://user-images.githubusercontent.com/94720207/169217034-ed973f4b-51c5-4c7d-bc69-e267b0ab93ba.png)
+
+
+    - **We crashed it! That means: `TRUN` COMMAND IS VULNERABLE!!!**
 
 
 
