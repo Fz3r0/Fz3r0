@@ -112,6 +112,8 @@
 | **spike_script**       | (Spike File) something.spk |
 | **SKIPVAR**            | ()0                        |
 
+---
+
 ### Spike Script
 
 - We will generate a file called "stats.spk"
@@ -153,6 +155,13 @@ s_string_variable("0");
 
     - ![image](https://user-images.githubusercontent.com/94720207/169211415-d71051aa-2aa2-4955-a50c-c959b4e49dde.png)
 
+- Send the spike from Kali (Attacker) to the Target program (Vuln Server):
+
+    - `generic_send_tcp host port spike_script SKIPVAR SKIPSTR`
+    
+    - `generic_send_tcp 192.168.1.100 9999 stats.spk 0 0`
+    
+-    
 
 
 
