@@ -747,8 +747,14 @@ while True:
         
             1. Run the `nasm_shell` script (directly from the original path, otherwise it doesn't work):
             
-                `![image](https://user-images.githubusercontent.com/94720207/169401488-3dd91bcb-c2ea-4fcf-be75-7abdb76bc0c9.png)
-`
+                - ![image](https://user-images.githubusercontent.com/94720207/169401488-3dd91bcb-c2ea-4fcf-be75-7abdb76bc0c9.png)
+                
+            2. Type in `assembly language` `JMP ESP` which means: "Jump(command) to ESP(pointer)" 
+            
+                - ![image](https://user-images.githubusercontent.com/94720207/169402076-a3b5f5ed-8b4b-4e36-b977-f0beb95aea35.png)
+
+            3. 
+
     
 
  
