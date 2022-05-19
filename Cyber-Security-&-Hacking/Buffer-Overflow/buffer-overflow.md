@@ -661,7 +661,7 @@ while True:
     
     - Now, let's take a look at the dump (bottom left corner):
     
-        - ![image](https://user-images.githubusercontent.com/94720207/169379579-5b2bf949-f519-4847-8a74-e7c7e854db3d.png)
+        - ![image](https://user-images.githubusercontent.com/94720207/169404087-16cb598f-7fed-435e-846f-07977252a354.png)
     
     - **It's easy to read it, it's just a sequence number going: 1,2,3,4,5,6,7,8,9,10<---- but in HEX...**
     
