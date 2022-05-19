@@ -792,7 +792,7 @@ while True:
             
                 - Original = `625011AF`
                 - Spaced   = `62 50 11 AF`
-                - Reversed = **`AF 11 50 62`**
+                - **Reversed** = **`AF 11 50 62`**
             
         - This **"Special Reverse"** actually is called technically `little endian format` whic is used when we "talk" with `x86 Architecture`
         
