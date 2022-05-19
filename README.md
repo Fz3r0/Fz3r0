@@ -476,9 +476,12 @@ I can read people's minds...
 
 ### Scripts & Commands for Digital Black Magic & Hacking
  
-
 - https://github.com/Fz3r0/CheatSheet
 - https://github.com/Fz3r0/PowerTools powershell
+
+### Buffer Overflow
+
+- [Buffer Overflow guide](/Cyber-Security-&-Hacking/Buffer-Overflow/buffer-overflow.md)
 
 ### Privilege Escalation (PrivEsc)
   
