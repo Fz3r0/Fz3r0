@@ -757,6 +757,17 @@ while True:
             
                 - So, now I will keep that HEX `FFE4` and take it to the `Immunity Debugger`
 
+- Once in the `Immunity Debugger` we will type:
+
+    -  `!mona find -s "xff\xe4" -m essfunc.dll`
+
+        - `-s` is used to find
+        - `-m` is used for "module" 
+        
+    - So, to resume:
+    
+        -       
+
     
 
  
