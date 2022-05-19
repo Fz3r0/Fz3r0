@@ -258,9 +258,9 @@ while True:
 
 - You can call it something like: `l.py`
 
-    - **IMPORTANT: You need to chmod 600** 
+    - **IMPORTANT: You need to chmod +x to make it executable** 
     
-    - ![image](https://user-images.githubusercontent.com/94720207/169232080-48f74ed9-8baf-4f7f-90da-1cdce163c867.png)
+    - ![image](https://user-images.githubusercontent.com/94720207/169233444-86a86f86-205e-405b-9972-8f69a75d365a.png)
  
 - Now, I will comment it line by line:
 
@@ -321,7 +321,21 @@ while True:
                 sys.exit()
 ```
 
+- **Time to fuzz!!!**
 
+    - We only need to execute the python script `l.py`:
+    
+        - ![image](https://user-images.githubusercontent.com/94720207/169234404-7e47cdfc-38d0-440d-8679-7cbe005e50b3.png)
+
+    
+    - We can see the connections coming to the Vuln Server **(everytime with 100 more bytes or "A's")**:  
+    
+        - ![image](https://user-images.githubusercontent.com/94720207/169234708-0ef2edc7-e501-40bb-a830-aa4ec14aef3e.png) 
+    
+    - We can watch Immunity Device until the crash, it will happen soon or later: 
+    
+        - ![image](https://user-images.githubusercontent.com/94720207/169235297-527abfaf-258b-4f4f-871e-76e7cc793330.png)
+ 
 
 
 
