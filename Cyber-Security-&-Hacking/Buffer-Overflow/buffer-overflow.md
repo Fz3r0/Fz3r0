@@ -447,7 +447,7 @@ while True:
             - **The important and critic value here then is the `EIP`:**
             
                 - **`386F4337`** 
-            
+                            
             - Let's use this value to abuse the vulnerability!
 
 - This step is similar to the last one, but instead of using `pattern_create` tool, we will use `pattern_offset`:
@@ -460,7 +460,7 @@ while True:
    
     - After we press "enter", we should find a **pattern offset**:
     
-        - ![image](https://user-images.githubusercontent.com/94720207/169337292-8822b365-271d-430a-994d-5a37b81ca3a0.png)
+        - ![image](https://user-images.githubusercontent.com/94720207/169356829-c9ce74af-bce2-488b-abe1-e530f8b63684.png)
 
     - **Now we know that the exact offset value si `2003`** but how?
     
@@ -511,6 +511,10 @@ while True:
                 sys.exit()
 ```
 
+- Again, same change mode process:
+
+    - ![image](https://user-images.githubusercontent.com/94720207/169357234-54d0f78f-32b7-47c2-99c7-803a841faa03.png)
+ 
 - With this change adding the "shellcode" variable this is what happen: 
 
     - **We replaced what we sent before (crazy code) and now we are sending 2003 A's (2003 bytes) + 4 B's (4 bytes)**
@@ -523,7 +527,14 @@ while True:
         
         - **So, the idea here is filling the exact value we need to reach the offset with A's, and then fill `EIP` with B's, so we can identify where is exactly `EIP` located at the memory**
         
-        -    
+            - **Something like: 
+            
+                - _buffer_ ...**AAAAAAAAAAAAAAAAAAAAAAAAAAAA** <|EIP Starts|> **BBBB** <|EIP Endss|> _outside_**
+                
+                - ![image](https://user-images.githubusercontent.com/94720207/169358167-6936c801-2f6b-423d-bbbb-fe2811395a9e.png)
+  
+        
+        -     
 
 
 
