@@ -649,7 +649,32 @@ while True:
     
 - The program crashed again, so let's take a look to the `Immunity Debugger`:
 
-    -   
+    - ![image](https://user-images.githubusercontent.com/94720207/169375704-1d43d637-6a2c-480c-a3fa-60c7cffe8d14.png)
+    
+    - We can see again the `42424242` on the `EIP`
+    
+    - But now, what we really want to know is the `HEX dump`:
+    
+        - To look at the Hex dump, just `right+click` on the value > `follow the Dump`-
+        
+        - ![image](https://user-images.githubusercontent.com/94720207/169376138-73ea3f95-2b92-4050-9d08-72cc92246a1c.png)
+    
+    - Now, let's take a look at the dump (bottom left corner):
+    
+        - ![image](https://user-images.githubusercontent.com/94720207/169377022-5e6faff9-ee8a-46ac-acd5-7ff247ba2a8a.png)
+    
+    - **It's easy to read it, it's just a sequence number going: 1,2,3,4,5,6,7,8,9,10<---- but in HEX...**
+    
+        - This means:
+    
+            - We are looking for a bad char in between all that sequence, if any number is missing on the sequence, then, it means that char is being used and it's a `bad char`, just like that...
+        
+            - **In this Lab of Vuln Server, there are NOT bad chars!!! That's why we cannot see any "weird" sequence like: 1,2,3,5,6...**
+        
+    -      
+
+
+  
  
   
 
