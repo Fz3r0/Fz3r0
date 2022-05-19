@@ -881,12 +881,17 @@ while True:
     
         - ![image](https://user-images.githubusercontent.com/94720207/169418035-8263d336-6e30-47e8-8090-7423ba6ed2e4.png)
 
-    - **We have hit our `breakpoint` that means we control this EIP!!!** :D
+    - **We have hit our `breakpoint` that means we `control this EIP`!!!** :D
     
         - ![image](https://user-images.githubusercontent.com/94720207/169418355-82a7ff51-b8d5-4cb7-8210-b7875b13dde1.png)
     
-    - **We control the EIP! and now the only thing to do is generate a `shellcode` to gain a `root shell`**
-  
+    - **We control the `EIP`! and now the only thing to do is generate a `shellcode` to gain a `root shell`**
+
+--- 
+
+### Generating and Gaining Shells
+
+
         
 
          
