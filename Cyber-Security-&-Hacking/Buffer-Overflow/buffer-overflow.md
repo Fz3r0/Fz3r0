@@ -72,13 +72,17 @@
 
         1. Connect to VulnServer:
         
-            - Using the IP Address of the Windows Machine **192.168.10.100** + VulnServer Port **9999** 
+            - Using the IP Address of the Windows Machine **192.168.10.100** + VulnServer Port **9999** (Default)
             
             - ![image](https://user-images.githubusercontent.com/94720207/169188519-02fab4e5-91e4-4272-a788-9239ad878c4a.png)
            
             - On Kali: `nc -nv 192.168.1.100 9999`
             
             - ![image](https://user-images.githubusercontent.com/94720207/169188968-e1437e10-af9f-4077-a6a7-8356bfe557e4.png)
+
+- **Spoiler Alert: TRUN command is vulnerable, but how to know it?!**
+
+    - 
 
 
 
