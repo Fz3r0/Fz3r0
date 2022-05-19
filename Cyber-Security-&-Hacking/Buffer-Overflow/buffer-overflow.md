@@ -337,11 +337,19 @@ while True:
     
     - Finally, we go back to our Kali and `ctrl+c` the script to force stop
     
-    - We can see we have crashed it **somewhere around 2700 bytes**
+    - We can see we have crashed it **somewhere around 2700 bytes**:
     
+        - ![image](https://user-images.githubusercontent.com/94720207/169239179-c998f771-843b-4476-b633-4caf0eb23ffd.png)
+     
 - Let's look at the crash in the `Immunity Debugger`:
 
-- 
+    - ![image](https://user-images.githubusercontent.com/94720207/169236414-9e00a545-bce7-4c71-88d4-6086e8a64077.png)
+
+- We can see the bunch of "A" and the crash, but EIP seems good and we did't overwrote it...
+
+- It's ok, we just need to know aprox where we crashed the program, and we know is somewhere around **2700 bytes**
+
+
  
 
 
