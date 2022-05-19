@@ -408,7 +408,13 @@ while True:
                 print "Error connecting to server"
                 sys.exit()
 ```
+
+- When we send that crazy string we going to get the value on the `EIP` like magic, but how it works?
+
+    1. We send the crazy code and we know that in some point it will crash (because it have more than **2700** characters)
+    2. After the crash, we going to say to Metasppoit:
     
+        - The program have crashed with the `pattern`
 
 
 
