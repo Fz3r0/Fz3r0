@@ -296,7 +296,7 @@ while True:
                     # The registers /.:/ are the strings that the command needs to "understand" the command (those appear in the string of the Regs in Immunity Debugger)
                     # + buffer: We are adding the buffer variable "A * 100", so...
                         
-                        # WE ARE SENDING: TRUN/.:/ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+                        # WE ARE SENDING: TRUN /.:/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
                         
                     # Then, we are closing the connection with "s.close()"
                     
