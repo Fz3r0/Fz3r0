@@ -191,13 +191,22 @@ s_string_variable("0");
 
     - **We crashed it! That means: `TRUN` COMMAND IS VULNERABLE!!!**
     
-- If we look closer we can find that we sent the `TRUN` command with a bunch of "A" 
+- If we look closer THE `Registers` we can find that we sent the `TRUN` command with a bunch of "A" 
 
-- ![image](https://user-images.githubusercontent.com/94720207/169217335-2e20e09b-ef9b-417e-95cb-6f08ae53433b.png)
+    - ![image](https://user-images.githubusercontent.com/94720207/169217335-2e20e09b-ef9b-417e-95cb-6f08ae53433b.png)
 
-- Remembering the buffer space... in a "perfect world" this line would fit exactly the buffer space, somehting like:
+- Remembering the buffer space... in a "perfect world" this line **"TRUN+AAAA..."** would fit exactly the buffer space, somehting like:
 
     - ![image](https://user-images.githubusercontent.com/94720207/169217774-48ace48e-464e-4b4f-9e08-55412013c909.png)
+
+- But, we actually overflowed it after that with more "A's":
+
+    - ![image](https://user-images.githubusercontent.com/94720207/169218750-a4538b95-6090-40d4-90f1-c6609425d8a8.png)
+
+- Something like this:
+
+    - ![image](https://user-images.githubusercontent.com/94720207/169219202-41cf1513-64ea-4b43-83ae-d00a2a23f654.png)
+ 
 
 
 
