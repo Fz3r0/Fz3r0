@@ -759,7 +759,7 @@ while True:
 
 - Once in the `Immunity Debugger` we will type:
 
-    -  `!mona find -s "xff\xe4" -m essfunc.dll`
+    -  `!mona find -s "\xff\xe4" -m essfunc.dll`
 
         - `-s` is used to find
         - `-m` is used for "module" 
