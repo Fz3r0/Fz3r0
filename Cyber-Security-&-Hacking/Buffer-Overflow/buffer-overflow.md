@@ -561,6 +561,16 @@ while True:
 
 ### Finding Bad Characters
 
+- When we generate a `shellcode` we need to know what are the `good characters for the shellcode` and the `bad characters for the shellcode`.
+
+    - We can do that by running **ALL THE HEX CHARACTERS** throught our program and see if any of them act up.
+    
+    - By default, the `Null Byte` : `x00` acts up
+    
+    - ![image](https://user-images.githubusercontent.com/94720207/169364386-bed635cb-9074-4648-8e94-3692e5cf79d7.png)
+
+- So, we going to see how it's look like
+   
 
 
 
@@ -579,3 +589,6 @@ while True:
 ### References
 
 - https://www.youtube.com/watch?v=qSnPayW6F7U&list=PLLKT__MCUeix3O0DPbmuaRuR_4Hxo4m3G
+- https://www.asciihex.com/character/control/0/0x00/nul-null-character
+- https://cryptii.com/pipes/hex-decoder
+- 
