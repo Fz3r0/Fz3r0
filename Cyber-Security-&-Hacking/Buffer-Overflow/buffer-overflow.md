@@ -751,9 +751,11 @@ while True:
                 
             2. Type in `assembly language` `JMP ESP` which means: "Jump(command) to ESP(pointer)" 
             
-                - ![image](https://user-images.githubusercontent.com/94720207/169402076-a3b5f5ed-8b4b-4e36-b977-f0beb95aea35.png)
+                - ![image](https://user-images.githubusercontent.com/94720207/169402251-e73c0ee8-b52c-44da-b2d5-d7588a672574.png)
 
-            3. 
+            3. Now we know that the `JMP ESP` equivalent in `HEX` is = `FFE4`!!!
+            
+                - So, now I will keep that HEX `FFE4` and take it to the `Immunity Debugger`
 
     
 
