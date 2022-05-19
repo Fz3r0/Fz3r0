@@ -203,11 +203,13 @@ s_string_variable("0");
 
     - ![image](https://user-images.githubusercontent.com/94720207/169218750-a4538b95-6090-40d4-90f1-c6609425d8a8.png)
 
-- If we lok at `ESP` we can see `41414141`: THA'TS THE HEX CODE FOR: `AAAA`
+- If we lok at `EBP` we can see `41414141`: THA'TS THE HEX CODE FOR: `AAAA`
 
-- Something like this:
+- Also, we went over `ESP` with a bunch of "A"
 
-    - ![image](https://user-images.githubusercontent.com/94720207/169219202-41cf1513-64ea-4b43-83ae-d00a2a23f654.png)
+    - Something like this:
+
+        - ![image](https://user-images.githubusercontent.com/94720207/169219202-41cf1513-64ea-4b43-83ae-d00a2a23f654.png)
 
 
 
