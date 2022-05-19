@@ -773,9 +773,32 @@ while True:
         - For example, the first row means the `retrun addresses`, so, if we start from the top we found:
         
             - **Return Address = `625011AF`** for `ssfunc.dll`
-            
-        
 
+- **In Kali Machine**
+
+    - Again, We only need to copy that code and modify the `l.py` or `2.py` or `3.py` or `4.py` that we made on past tasks.
+    
+    - We can make another file called `5.py` with the modification.
+    
+        - **We will delete from `shellcode = "A" * 2003 + "B" * 4 + badchars`; the ending: `"B" * 4 + badchars`:
+        
+            - Result: **`shellcode = "A" * 2003 +`**
+            
+        - **Now, remember the `BBBB`?... -it's the same script we used back then! ;)**   
+        
+        - **Now instead of using inocent `BBBB` we going to put out pointer "Return Address" =  `625011AF`
+        
+            - But we going to put it in a special mode! in **"reverse"** : **"2 by 2"**! 
+            
+                - Original = `625011AF`
+                - Spaced   = `62 50 11 AF`
+                - Reversed = **`AF 11 50 62`**
+            
+        - This **"Special Reverse"** actually is called technically `little endian format` whic is used when we "talk" with `x86 Architecture`
+        
+        - This means, `x86 Architecture` actually stores the low order byte at the lowest address and the hugh order byte at the highest address. So we need to put it in reverse order...
+        
+        - 
   
         
     - 
