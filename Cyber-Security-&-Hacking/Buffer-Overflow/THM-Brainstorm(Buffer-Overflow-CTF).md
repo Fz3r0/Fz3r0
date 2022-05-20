@@ -187,6 +187,63 @@ print "A" * 5000
     
     - ![image](https://user-images.githubusercontent.com/94720207/169460983-5457be7f-4a12-4f88-b31d-1d11a6a07153.png)
  
+        - Now, instead of sending a bunch of `A`'s we will send the "crazy code", or better said, the pattern algorythm to find the offset.
+        
+            - **Note: Again, the difference with `vuln server` is that we don't need a string before or something else, se just copy and paste the pattern just like we did with the A's**
+            
+        - ![image](https://user-images.githubusercontent.com/94720207/169463114-bdcc5a86-fa84-4572-8170-17a11ac09095.png)
+        
+            - We crashed the `chatserver.exe` again, this time with the pattern:
+            
+        - ![image](https://user-images.githubusercontent.com/94720207/169463344-8af7eaf7-4f5b-4ceb-a11c-03d35fc51146.png)
+ 
+ - When we send that crazy string we going to get the value on the `EIP` like magic, but how it works?
+
+    1. We send the "crazy code" and we know that in some point it will crash (because it have more than **2700** characters).
+    
+        - **That "crazy code" is actually a pattern alogythm of characters, so Metasploit can identify the bytes where the crash exactly happened! booom!!!**
+    
+    3. After the crash, we going to say to Metasppoit:
+    
+        - **The program have crashed with the `pattern_create`, identify exactly where it crashed, plz! :3.**    
+
+    - Just like in fuzzing: We sent _"TRUN /.:/ Cr4zyCodeCr4zyCodeCodeCr4zyCode..."_ (instead of A's) and matched "the perfect world"
+    - We also overwrite `ESP`, `EBP` and `EIP`.
+    - It's very similar to the A's, **but in this case we used the Metasploit character `pattern_creator` AKA "the crazy code"**
+    
+        - NOTE: We can know that we passed by far the crash zone (just like with A's) because we can see a large string on ESP-
+        - Remember!: 
+        
+            1. The perfect world is the large string in `EAX`
+            2. Any other large string means that we overwrite that register (`ESP`) by a looooot of chars 
+            3. But, the important thing here is that we overwrite `EIP`
+        
+                - ![image](https://user-images.githubusercontent.com/94720207/169463344-8af7eaf7-4f5b-4ceb-a11c-03d35fc51146.png)
+       
+            - **The important and critic value here then is the `EIP`:**
+            
+                - **`31704330`** 
+                            
+            - Let's use this value to abuse the vulnerability!
+
+- This step is similar to the last one, but instead of using `pattern_create` tool, we will use `pattern_offset`:
+
+- ![image](https://user-images.githubusercontent.com/94720207/169327203-1bd951d1-a149-4e20-ba65-cecb5cad7020.png)
+
+    - In Kali machine (-l is for lenght), (-q is for query, our finding of the exact **pattern**):
+    
+        - `/usr/share/metasploit-framework/tools/exploit/pattern_offset.rb -l 50000 -q 31704330`
+   
+    - After we press "enter", we should find a **pattern offset**:
+    
+        - ![image](https://user-images.githubusercontent.com/94720207/169464317-4549f6d6-6022-4964-bbf1-e126d1bad552.png)
+
+    - **Now we know that the exact offset value si `2012`** but how?
+    
+        - Metasploit just searched between the 5000 pattern the pattern which match exactly "31704330"
+        - That exact pattern started just at `2012 bytes`, like a "crossover" ot better said: the offset
+        
+            - **This information is critical, because this means that exactly at `2012 bytes`, we can control `EIP` overwriting it**
 
 
 
