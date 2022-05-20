@@ -11,7 +11,7 @@
 
 ### Accesing Files
 
-1. First I will check that `FTP` port accesing with `anonymous` login and download the `chatserver.exe` and the `essfunc.dll` from it
+1. First I will check that `FTP` port accesing with `anonymous` login and download the `chatserver.exe` and the `essfunc.dll` from the folder "chatserver".
     
     - ![image](https://user-images.githubusercontent.com/94720207/169436929-93cad986-8310-402d-aa84-c4f39d72d45c.png)
     
@@ -19,20 +19,32 @@
     
     - **Note: It's a little bit obvious that this room is based on the "Vuln Server" exploit, using default port 9999 and `essfunc.dll`...**
     
-    - **Actually, `Vuln Server` is allmost the same walkthrought, so I recommend doing it before doing `Brainstorm`** 
+    - **Actually, `Vuln Server` is allmost the same walkthrought as `Brainstorm`, I reccomend read that write up too since it's explained in detail the buffer overflow process** 
         
-    - [**Click here to read the full write up I did of `Vuln Server`**](/Cyber-Security-&-Hacking/Buffer-Overflow/buffer-overflow.md)
-    
-        - I will use the same setup for `Vuln Server`:
+    - [**Click here to read the full write up I did for `Vuln Server`**](/Cyber-Security-&-Hacking/Buffer-Overflow/buffer-overflow.md)
+
+### Lab Setup:
+
+- I will use the same setup for `Vuln Server`:
         
-            - Using Windows 10 Pro on a bare metal CPU
-            - Using Kali Linux in a VMware Pro VM
+    - Using Windows 10 Pro on a bare metal CPU
+        - `chatserver.exe` + `.dll` running here
+        - `Immunity Debugger` + `mona` running here
+                
+    - Using Kali Linux in a VMware Pro VM
+        - `python` scripts and tricky tricks running here
+            
+    - Both machines connected on the same Network 192.168.1.0/24 (My local Network)
+            
+    - Once I've exploited the program `vulnserver.exe` in my own machine, then I can exploit "the real" server with the final script:
+            
+        - `TryHackMe - Brainstorm` Network, UK.    
         
-        - So I will transfer the files to a folder to the Windows 10 and use from there `Immunity Debugger` and also run the `chatserver.exe` binary.
+    - So I will transfer the files from the TryHackMe Machine-FTP to a folder to my Windows 10 and use from there `Immunity Debugger` and also run the `chatserver.exe` binary.
         
-            - ![image](https://user-images.githubusercontent.com/94720207/169447433-211b2e85-534b-4bd5-9f2f-ff799b1472d1.png)
+        - ![image](https://user-images.githubusercontent.com/94720207/169447433-211b2e85-534b-4bd5-9f2f-ff799b1472d1.png)
           
-        - Easy! 
+    - Easy! Let's do it! 
 
 ---
 
