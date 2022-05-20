@@ -77,6 +77,13 @@
             
         - ![image](https://user-images.githubusercontent.com/94720207/169448471-a117bef5-2d59-40e8-9a37-19f0aeb3b263.png)
  
+ - **It looks that this program `Chat Server` take commands based on what you type AKA `strings` to generate a `username`**
+ 
+ - **The username request a `max of 20 characters`**
+ 
+     - This means, maybe the buffer overlfow and/or the pointer that we need is located after those 20 characters...maybe 21...maybe 3739? who knows?!
+     
+     - So, we will do our `spiking` process to know how many bytes do we need to crash the program `chatserver.exe`   
 
 ---
 
