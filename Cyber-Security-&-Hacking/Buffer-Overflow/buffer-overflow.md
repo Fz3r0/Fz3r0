@@ -1019,7 +1019,11 @@ while True:
      
     - **And now...run the `666_THE_SHELLCODE.py` muuaaahhahaha!** 
     
-        - NOTE: If you not get the reverse shell maybe is because the firewall of Windows is enabled, disable it!:
+        - NOTE: If you not get the reverse shell maybe is maybe because one of the following: 
+        
+        - **First of all, check the `msfvenom` payload again!!! Maybe a finger error!**
+        
+        - **The firewall of Windows is enabled, disable it!:**
         
         - Before running the the VMware or Virtual Machine with Kali, firewall of the "Host OS" must be turned off, so restart Kali!. 
         
@@ -1048,7 +1052,10 @@ while True:
       
     - **And now...run the `666_THE_SHELLCODE.py` muuaaahhahaha!x2**
     
-        -   
+    - **PoC:** 
+    
+        - ![image](https://user-images.githubusercontent.com/94720207/169430510-e116e0d0-5826-4a43-9527-05c0cfd0d0bb.png)
+   
 
 
   
