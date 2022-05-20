@@ -556,7 +556,30 @@ except:
 - No memory protections means: `no depth`, `no ASLR`, `no safe SEH`, etc.
 
     - **There's a tool called `Mona Modules` that makes the life much easier for that... ;)**
+  
+        - `**Mona` is used within `Immunity Debugger` to achieve this. [Direct Link to Mona Modules](https://github.com/corelan/mona)**
+        
+        - You only need to **[download the mona.py file](https://raw.githubusercontent.com/corelan/mona/master/mona.py)**
+        
+        - Then, put it on the same folder as **Immunity Debugger PyCommands**:
+        
+            - `C:\Program Files (x86)\Immunity Inc\Immunity Debugger\PyCommands`
+            
+            - ![image](https://user-images.githubusercontent.com/94720207/169390146-a78e60dc-5218-4877-8f35-6b39c243313b.png)
+                    
+        - That's all!!! We got `Mona` ready to use.
 
+- Once everything is ready, we can start `vuln server` and `Immunity Debugger`, attach the program, etc.
+
+    - **To use `Mona Modules`, the only extra thing to do now is typingon the bottom bar before `play` it:
+    
+        - `!mona modules` (and hit >Enter<) 
+
+        - ![image](https://user-images.githubusercontent.com/94720207/169392574-6d6d7ca4-04c8-4749-a1a0-b726ee7fc08d.png)
+
+- _NOTE: If the windows if Immunityu Debugger goes crazy, just close all windows, select: view > cpu, maximize it, and move the tiles again ;)_
+
+    - After pressing enter using the command `!mona modules` this window pop-up _(click to enlarge)_:
 
 
 ---
