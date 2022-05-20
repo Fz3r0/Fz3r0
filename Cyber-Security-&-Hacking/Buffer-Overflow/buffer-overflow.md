@@ -208,6 +208,8 @@ s_string_variable("0");
 
 1. If we look at `EBP` we can see `41414141`: **THA'TS THE HEX CODE FOR: `AAAA`**
 
+    - ![image](https://user-images.githubusercontent.com/94720207/169456840-ea5ceb0a-f6e7-4e77-84e8-a05bccb3d38f.png)
+
 2. Also, we went over `ESP` with **a bunch of "A"**
 
 3. Finally, we get into `EIP` too with `41414141`: **THA'TS THE HEX CODE FOR: `AAAA`**
