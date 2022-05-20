@@ -388,7 +388,17 @@ except:
         sys.exit()
 ```
 
+- `chmod +x` to the script to make it executable:
 
+    - ![image](https://user-images.githubusercontent.com/94720207/169585902-a9fdffe6-3798-45c9-a748-a2ad4d5ba6a4.png)
+
+- Check that `chatserver.exe` and `immunity debugger` are running (otherwise restar) and...
+
+    - Execute it! Que chille!!! 
+    
+        - **`python3 1_fz3r0_brainstorm.py`**  
+
+- 
 
 
 ---
