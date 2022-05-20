@@ -85,9 +85,9 @@
      
      - So, **we will do our `spiking` process to know how many bytes do we need to crash the program `chatserver.exe`**
      
-- As difference with `Vuln Server` Lab, here we are NOT using commands, just a user `string`
+- **As difference with `Vuln Server` Lab, here we are NOT using commands, just a user `string`**
 
-- So, instead of using **`generic_send_tcp`**, I will write a simple python script doing the following:
+    - **So, instead of using **`generic_send_tcp`** technique, I will write a simple python script doing the following:**
 
 ```python
 #!/usr/bin/python
@@ -103,47 +103,53 @@ print "A" * 5000
 
     - ![image](https://user-images.githubusercontent.com/94720207/169452006-9a56b1a1-57e0-4207-bebd-3ab5640cb374.png)
 
-- And we will copy and paste it to the program, it's just like a "manual fuzzing":
+- And we will copy and paste it to the program, it's just like a "manual fuzzing" adn then press `enter`:
 
     - ![image](https://user-images.githubusercontent.com/94720207/169452204-f1194a76-9fce-4845-8ed0-0b7618825ffb.png)
 
-- 
+- The program didn't crash, it still working and is prompting for more info, meanwhile the `chatserver.exe` looks like this:
 
-
-
-
-
-
-- For spiking we will use a tool called:
-
-    - **`generic_send_tcp`** 
-
-        - Usage:
+    - ![image](https://user-images.githubusercontent.com/94720207/169454155-e667ae59-3089-4558-8e01-4ca8d70afb6d.png)
+    
+        - **It looks like there are no more than 20 A's, this means, this string is protected and IS NOT VULNERABLE because it's handling correctly the `buffer space`**
         
-            - `**./generic_send_tcp host port spike_script SKIPVAR SKIPSTR**`
-            
-| **Instruction**        | **Result**                 |
-|------------------------|----------------------------|
-| **./generic_send_tcp** | Command                    |
-| **host**               | (Target) 192.168.1.100     |
-| **port**               | (Target) 9999              |
-| **spike_script**       | (Spike File) something.spk |
-| **SKIPVAR**            | ()0                        |
-| **SKIPSTR**            | ()0                        |
+- After we press enter we found another prompt asking for a message: 
 
----
+    - ![image](https://user-images.githubusercontent.com/94720207/169453925-09edcc12-9a61-46f8-9578-33c4e0c3e970.png)
 
-### Spike Script
+- We can add any string we want and it don't show a maximum of chars, maybe the developer forgot to sanitize this input ;) 
 
-- We will generate a file called "stats.spk"
+    - ![image](https://user-images.githubusercontent.com/94720207/169455148-cc60b367-2882-49e1-874c-570e3d92f791.png)
 
-```
-s_readline();              <<<-----| 1. We will read the line
-s_string("AAAAAAAAAAAAAAAAAAAA");        <<<-----| 2. We will take the string ("AAAAAAAAAAAAAAAAAAAA" [A*20] in this case)
-s_string_variable("0");    <<<-----| 3. We will send a variable to the "AAAAAAAAAAAAAAAAAAAA" string
-```
+- Hoew about trying to crash this prompt then?... 5000 A's I choose you!!!
 
-- The trick for the spike is this:  
+    - ![image](https://user-images.githubusercontent.com/94720207/169455285-758afe2b-f9ab-46a9-a663-14e637ccfa4b.png)
+    
+- BOOM!!! We did it!!! The `chatserver.exe` have just crashed
+
+    - ![image](https://user-images.githubusercontent.com/94720207/169455495-f7924ac6-a8da-42e6-ae57-f6c1c10e08db.png)
+
+- Bota fixa papai!
+
+    - If we look at `EBP` we can see `41414141`: THAT'S THE HEX CODE FOR: `AAAA`
+
+    - Also, we went over `ESP` with a bunch of "A"
+
+    - Finally, we get into `EIP` too with `41414141`: THA'TS THE HEX CODE FOR: `AAAA`
+
+        - Something like this: 
+        
+            - ![image](https://user-images.githubusercontent.com/94720207/169455788-c8e5d6de-ef79-4b4d-9de3-1aee3aa4c8a1.png)
+
+
+ 
+
+
+
+
+
+
+
 
 ---
 
