@@ -797,7 +797,7 @@ while True:
                 - Spaced   = `62 50 11 AF`
                 - **Reversed** = **`AF 11 50 62`**
             
-        - This **"Special Reverse"** actually is called technically `little endian format` whic is used when we "talk" with `x86 Architecture`
+        - This **"Special Reverse"** actually is called technically `little endian format` whicH is used when we "talk" with `x86 Architecture`
         
         - This means, `x86 Architecture` actually stores the **low order byte at the lowest address** and the **high order byte at the highest address**. So we need to put it in reverse order...
         
