@@ -505,6 +505,47 @@ except:
         sys.exit()
 ```
 
+- `chmod +x` to make it executable:
+
+    - ![image](https://user-images.githubusercontent.com/94720207/169592442-abecb077-b523-42d1-b476-fbdc0d000f13.png)
+
+- Execute it! Que chille!!!
+
+    - ![image](https://user-images.githubusercontent.com/94720207/169593101-dc91ca54-8890-4ea4-ae0d-536a5fbae2ed.png)
+
+    - The program crashes, that's perfect! let's see `Immunity Debugger` and send `ESP` to follow in dump (bottom left corner) 
+    
+        - ![image](https://user-images.githubusercontent.com/94720207/169593293-0d3b0763-2978-4e96-81f3-45dcc1b72d25.png)
+
+- Now, let's take a look at the dump (bottom left corner):
+    
+    - ![image](https://user-images.githubusercontent.com/94720207/169594119-14deb603-ddc5-419e-a153-4b0750df1585.png)
+    
+    - **It's easy to read it, it's just a sequence number going: 1,2,3,4,5,6,7,8,9,10<---- but in HEX...**
+    
+        - This means:
+    
+            - We are looking for a bad char in between all that sequence, if any number is missing on the sequence, then, it means that char is being used and it's a `bad char`, just like that...
+        
+            - **In this Lab of Vuln Server, there are NOT bad chars!!! That's why we cannot see any "weird" sequence like: 1,2,3,5,6...**
+        
+            - In technic words, we are specting all that characters to happen.
+            
+            - The last thing we sent was `FF`, so if we search for `FF` at the end of the list, that means that we need to search only from the beginning to `FF`.
+
+- **Just as an example** of a `bad char` let's see this Dump from **another Lab** 
+
+    - ![image](https://user-images.githubusercontent.com/94720207/169384923-46ad25d7-56bb-4323-ba5d-05576cdae939.png)
+
+        - Right away in the first line we saw a "weird" sequence: **1,2,3... `B0`, `B0` ...6, 7, 8**
+        
+        - This means `B0` is a `bad char`, we need to note all `B0`s including the missing numbers that this miss-sequence originates.
+    
+    - **Write down all this numbers, because we need them to generate the final shellcode to gain root!!!**
+    
+        - NOTE: Remember, in this lab there are NOT `bad chars` this was just an example! 
+
+---
 
 
 
