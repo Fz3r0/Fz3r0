@@ -111,6 +111,7 @@
 | **port**               | (Target) 9999              |
 | **spike_script**       | (Spike File) something.spk |
 | **SKIPVAR**            | ()0                        |
+| **SKIPSTR**            | ()0                        |
 
 ---
 
