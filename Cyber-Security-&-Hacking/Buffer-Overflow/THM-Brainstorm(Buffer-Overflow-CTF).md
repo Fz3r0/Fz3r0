@@ -398,7 +398,30 @@ except:
     
         - **`python3 1_fz3r0_brainstorm.py`**  
 
-- 
+    - ![image](https://user-images.githubusercontent.com/94720207/169586705-8ff8a617-c2ac-4c9a-b5b4-bb0f483378cd.png)
+
+        - Note: Close it with Ctrl+C to end script
+        
+    - The program crashes, that's perfect! let's see `Immunity Debugger`
+    
+        - ![image](https://user-images.githubusercontent.com/94720207/169587176-021d61a0-50f4-4756-943d-f8344083911e.png)
+
+     - And this is how it looks our precious `BBBB` or `42424242`
+     
+     - We did it, and the EIP looks something like this: 
+    
+         - ![image](https://user-images.githubusercontent.com/94720207/169587833-81ba2c87-7669-47e8-b791-489563530da9.png) 
+            
+            - **Boooom!!!** 
+            
+    - **We succesfully overwritten the `EIP` and we have control of it**, but just with an inocent "BBBB" (4 bytes)...
+    
+        - **It's time to overwirte it with some malicious shellcode containung a 4 bytes of deadly poison!**  
+
+---
+
+### Finding Bad Characters
+
 
 
 ---
