@@ -1001,7 +1001,14 @@ while True:
 
 - Again, save it as `666_THE_SHELLCODE.py` and `chmod +x`:
 
-    - ![image](https://user-images.githubusercontent.com/94720207/169371638-106e87df-3314-4524-889e-bc43acb8b475.png)
+    - ![image](https://user-images.githubusercontent.com/94720207/169425688-fbcf47d9-760c-4272-8673-93685ddbc841.png)
+    
+- Now on the Kali Machine:
+
+    - I'm gonna setup a `netcat` listener using the port `4444`
+    
+        - ![image](https://user-images.githubusercontent.com/94720207/169425779-3d872e37-fb32-4ac7-8353-50ebc8955800.png)
+  
     
 
    
