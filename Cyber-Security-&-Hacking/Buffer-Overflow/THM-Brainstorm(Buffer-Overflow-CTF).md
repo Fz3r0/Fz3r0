@@ -886,6 +886,26 @@ except:
         sys.exit()
 ```
 
+- `chmod +x` to make it executable
+
+    - ![image](https://user-images.githubusercontent.com/94720207/169606819-56192b4f-8c4b-4f45-afee-914590478b10.png)
+
+- Now on the Kali Machine:
+
+    - I'm gonna setup a `netcat` listener using the port `4444`
+    
+        - ![image](https://user-images.githubusercontent.com/94720207/169607294-785d5f85-1063-4723-b95c-2e0616971c5d.png)
+
+- Finally:
+
+    - **Run `Chat Server` as Admin** (we don't need `immunity debugger` this time, we are simulating the "final attack" to "the real server")
+    
+    - ![image](https://user-images.githubusercontent.com/94720207/169607138-d68b9d10-bc30-47e0-8c51-611f2fbd967d.png)
+     
+    - **And now...run the `666_INSANE_IN_THE_BRAINSTORM.py` muuaaahhahaha!** 
+    
+        -  
+
 ---
 
 ### References
