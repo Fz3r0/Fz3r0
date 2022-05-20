@@ -255,22 +255,11 @@ print "A" * 5000
     
     - **The `EIP` itself is `4 bytes` long** 
     
-- So, we going to overwrite this specific `4 bytes`! ;)  
+- So, we going to overwrite this specific `4 bytes` just after we fill those `2012` bytes ;)  
 
-- We know that EIP is 4 bytes because is the lenght of size we overwrite it:
-
-- ![image](https://user-images.githubusercontent.com/94720207/169572789-2bd05515-926e-4dfd-9f99-b08529fa412f.png)
- 
-
-    - Again, We only need to copy that code and modify the `l.py` or `2.py` that we made on past tasks.
+    - **I will use the next python script for the whole Lab, so I will comment line by line _(Script without comment below)_**
     
-    - We can make another file called `3.py` with the modification.
-    
-        - **We delete de "offset" variable, we don't need it anymore.**
-        
-        - **And instead of "offset" we will place "shellcode" variable.**
-        
-            - **"shellcode" variable will be = "A" * 2003 + "B" * 4**
+    - This will be saved as `1_fz3r0_brainstorm.py`  
 
 ```python
     # We declare we are using python:
