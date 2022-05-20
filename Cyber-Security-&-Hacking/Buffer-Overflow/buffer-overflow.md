@@ -909,6 +909,8 @@ while True:
 
         - Remeber, Vuln Server does not have `badchars` so, in this case, we only will use x00 Null Byte as a badchar.
         - Otherwise, add the other `badchar` here!
+        
+            - **IN CASE OF BADCHAR THE SYNTHAX IS:  `-b "\x00\x02\x66\xF1"`**
     
     - **Command:**
     
