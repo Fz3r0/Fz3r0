@@ -360,6 +360,7 @@ Guides, Tips & Tricks, Downloads, Binaries, Executables, Scripts, Open Source Co
         - [Domain to IP Converter](https://www.rankwatch.com/free-tools/domain-to-iP-converter-tool) _URL to IP Address online_
         - [IP Info](https://ipinfo.io/) _Accurate IP address data "whois" online_
         - [Hexadecimal to Text Converter](https://cryptii.com/pipes/hex-decoder) _For Networking & Exploiting Buffer Overflow hohoho_
+        - [UTF-8 string lenght & byte counter](https://mothereff.in/byte-counter) _chars to bytes!_
 
     - **Simulators & Emulators**
         - [Cisco Packet Tracer]()
