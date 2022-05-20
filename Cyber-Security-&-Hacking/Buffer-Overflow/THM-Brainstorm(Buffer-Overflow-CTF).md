@@ -527,7 +527,9 @@ except:
     
             - We are looking for a bad char in between all that sequence, if any number is missing on the sequence, then, it means that char is being used and it's a `bad char`, just like that...
         
-            - **In this Lab of Vuln Server, there are NOT bad chars!!! That's why we cannot see any "weird" sequence like: 1,2,3,5,6...**
+            - **In this Lab of `Brainstorm`, there are NOT bad chars!!! That's why we cannot see any "weird" sequence like: 1,2,3,5,6...**
+            
+            - All numbers flow correctly from `1` to `FF` 
         
             - In technic words, we are specting all that characters to happen.
             
@@ -546,6 +548,14 @@ except:
         - NOTE: Remember, in this lab there are NOT `bad chars` this was just an example! 
 
 ---
+
+### Finding the right module
+
+- Finding the right module means that we are looking for a `.dll` or something similar inside our program (Vuln Server) that has no memory protections.  
+
+- No memory protections means: `no depth`, `no ASLR`, `no safe SEH`, etc.
+
+    - **There's a tool called `Mona Modules` that makes the life much easier for that... ;)**
 
 
 
