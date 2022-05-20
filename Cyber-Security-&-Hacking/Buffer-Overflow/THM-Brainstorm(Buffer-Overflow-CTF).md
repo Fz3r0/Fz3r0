@@ -697,6 +697,44 @@ except:
         sys.exit()
 ```
 
+- `chmod +x` to make it executable:
+
+    - ![image](https://user-images.githubusercontent.com/94720207/169599203-1ccde0a8-c74c-4285-b686-dedf7f742a6b.png)
+
+- **Before execution!!! It's time for something special :D** 
+
+    - First of all, in the top left corner we need to click `go to address in disassembler` (the blue arrow) 
+    
+        - ![image](https://user-images.githubusercontent.com/94720207/169600586-d3a2ce7f-afe5-4700-9b91-040438b5a275.png)
+    
+    - Then we will add the value of `625014DF` (Remember the **original** `pointer address` AKA our `jump code`?)
+    
+        - ![image](https://user-images.githubusercontent.com/94720207/169600691-7f222cd4-1db7-4e78-9f06-8aa865da4513.png)
+
+    - We press enter or "ok", and it will find automatically `FFE4` !!! Remember??? The JMP ESP!!!:
+    
+        - ![image](https://user-images.githubusercontent.com/94720207/169600766-fb5bda6f-965a-4571-a10c-6b23c6b5bd69.png)
+    
+        - _"3. Now we know that the `JMP ESP` equivalent in `HEX` is = `FFE4`!!!"_
+           
+           - This means, it took us to our `jump code` = `JMP ESP` and that's exactly what we want!
+           
+           - Now, we goinf to hit `F2` in the keyboard, and it will turn the value aqua-blue.
+           
+           - ![image](https://user-images.githubusercontent.com/94720207/169600878-0c5ff5b7-b029-4fbf-8cd8-18abffb2f4e3.png)
+           
+           - **What we have just done is we've set a breakpoint:**
+           
+               - We have the `breakpoint` running, what this means is we're gonna overflow the buffer but if we hit this "specific spot" or `jump code` it's not going to jump to a further instruction.
+               
+               - **It's actually going to break the program (Vuln Server) and pause right here for further instruction from us**
+               
+               - So for now, we just want to know that we are hitting this > overriding the `EIP` > Located in the specific spot `breakpoint` > And we're gonna be able to jump forward.
+               
+    - **Press "Play" in the `Immunity Debugger`: 
+
+
+
 
 ---
 
