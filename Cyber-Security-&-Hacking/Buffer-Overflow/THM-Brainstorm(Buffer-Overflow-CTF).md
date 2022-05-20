@@ -636,6 +636,34 @@ except:
 
 - **In Kali Machine**
 
+    - Again, We only need to copy that code and modify the last python script or make new one.
+    
+    - In my case I will do a new python script called: `3_fz3r0_brainstorm.py`
+    
+        - **We will delete from `shellcode = "A" * 2012 + "B" * 4 + badchars`; the ending: `"B" * 4 + badchars`:
+        
+            - Result: **`shellcode = "A" * 2012 +`**
+            
+        - **Now, remember the `BBBB`?... -it's the same script we used back then! ;)**   
+        
+        - **Now instead of using inocent `BBBB` we going to put out pointer "Return Address" =  `625014DF`
+        
+            - But we going to put it in a special mode! in **"reverse"** : **"2 by 2"**! 
+            
+                - Original = `625014DF`
+                - Spaced   = `62 50 14 DF`
+                - **Reversed** = **`DF 14 50 62`**
+            
+        - This **"Special Reverse"** actually is called technically `little endian format` whicH is used when we "talk" with `x86 Architecture`
+        
+        - This means, `x86 Architecture` actually stores the **low order byte at the lowest address** and the **high order byte at the highest address**. So we need to put it in reverse order...
+        
+            - What this should do now is this should throw the same "air" before, but it's going to hit a `jump point`.
+            
+            - We can do something special in `Immunity Debugger` to actually catch this.
+            
+                - So, we will save our new script:
+
 
 
 ---
