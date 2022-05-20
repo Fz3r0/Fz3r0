@@ -1059,7 +1059,15 @@ while True:
         - At same time, `Vuln Server` continue running, without crashing, sending and recivieng connection...using our malicious `shellcode`.
         
              - **That's it!!! Buffer Overflow is done!! :D**
-   
+             
+                 - Bonus Hacker stuff:
+                 
+                 - ![image](https://user-images.githubusercontent.com/94720207/169431693-03ecff42-393a-475e-a004-fdc2ef6a8923.png)
+
+                 - ![image](https://user-images.githubusercontent.com/94720207/169431940-3a88e4a4-b22c-41e9-9a10-1c6089ecab4e.png)
+
+---
+
 ### References
 
 - https://www.youtube.com/watch?v=qSnPayW6F7U&list=PLLKT__MCUeix3O0DPbmuaRuR_4Hxo4m3G
