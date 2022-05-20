@@ -1008,6 +1008,18 @@ while True:
     - I'm gonna setup a `netcat` listener using the port `4444`
     
         - ![image](https://user-images.githubusercontent.com/94720207/169425779-3d872e37-fb32-4ac7-8353-50ebc8955800.png)
+
+- Finally:
+
+    - **Run `Vuln Server` as Admin** (we don't need immunity debugger this time, we are simulating the "final attack" to "the real server")
+    
+    - ![image](https://user-images.githubusercontent.com/94720207/169426242-85dc6929-f3c9-429c-99d6-276e28c20c77.png)
+     
+    - **And now...run the `666_THE_SHELLCODE.py` muuaaahhahaha!** 
+    
+        -   
+
+
   
     
 
