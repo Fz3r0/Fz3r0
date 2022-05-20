@@ -81,9 +81,40 @@
  
  - **The username request a `max of 20 characters`**
  
-     - This means, maybe the buffer overlfow and/or the pointer that we need is located after those 20 characters...maybe 21...maybe 3739? who knows?!
+     - This means, maybe the buffer overflow and/or the pointer of `EIP` that we need to exploit is located after those 20 characters...maybe 21...maybe 2739?, 666?!, who knows?!
      
-     - So, we will do our `spiking` process to know how many bytes do we need to crash the program `chatserver.exe`   
+     - So, **we will do our `spiking` process to know how many bytes do we need to crash the program `chatserver.exe`**
+     
+- For spiking we will use a tool called:
+
+    - **`generic_send_tcp`** 
+
+        - Usage:
+        
+            - `**./generic_send_tcp host port spike_script SKIPVAR SKIPSTR**`
+            
+| **Instruction**        | **Result**                 |
+|------------------------|----------------------------|
+| **./generic_send_tcp** | Command                    |
+| **host**               | (Target) 192.168.1.100     |
+| **port**               | (Target) 9999              |
+| **spike_script**       | (Spike File) something.spk |
+| **SKIPVAR**            | ()0                        |
+| **SKIPSTR**            | ()0                        |
+
+---
+
+### Spike Script
+
+- We will generate a file called "stats.spk"
+
+```
+s_readline();              <<<-----| 1. We will read the line
+s_string("STATS ");        <<<-----| 2. We will take the string (STATS in this case)
+s_string_variable("0");    <<<-----| 3. We will send a variable to the "STATS" string
+```
+
+- The trick for the spike is this:  
 
 ---
 
