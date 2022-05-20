@@ -731,7 +731,31 @@ except:
                
                - So for now, we just want to know that we are hitting this > overriding the `EIP` > Located in the specific spot `breakpoint` > And we're gonna be able to jump forward.
                
-    - **Press "Play" in the `Immunity Debugger`: 
+    - **Press "Play" in the `Immunity Debugger`:
+          
+        - ![image](https://user-images.githubusercontent.com/94720207/169601062-2337489a-7b5e-4cdf-a048-1d4dc41ee99c.png)
+       
+    - **And then execute the script in Kali:**
+
+        - ![image](https://user-images.githubusercontent.com/94720207/169416805-ed3e64f1-7286-4e04-a5b4-71c69aed4a4b.png)
+    
+    - It crashes instantly again, and it shows the message **`Breakpoint at essfunc.625011AF`**
+    
+        - ![image](https://user-images.githubusercontent.com/94720207/169417565-18094b0e-83b8-4158-a5d7-db0fc2dd4f2f.png)
+
+    - And the program (Vuln Server) is now paused:
+    
+        - ![image](https://user-images.githubusercontent.com/94720207/169418035-8263d336-6e30-47e8-8090-7423ba6ed2e4.png)
+
+    - **We have hit our `breakpoint` that means we `control this EIP`!!!** :D
+    
+        - ![image](https://user-images.githubusercontent.com/94720207/169418355-82a7ff51-b8d5-4cb7-8210-b7875b13dde1.png)
+    
+    - **We control the `EIP`! and now the only thing to do is generate a `shellcode` to gain a `root shell`**
+
+--- 
+
+### Generating and Gaining Shells
 
 
 
