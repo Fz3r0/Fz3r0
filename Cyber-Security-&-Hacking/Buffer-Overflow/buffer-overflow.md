@@ -1055,47 +1055,11 @@ while True:
     - **PoC:** 
     
         - ![image](https://user-images.githubusercontent.com/94720207/169430510-e116e0d0-5826-4a43-9527-05c0cfd0d0bb.png)
-   
-
-
-  
-    
-
-   
-
         
-
-         
-
-    
-
- 
-
-
-- 
-
-      
-
-
-  
- 
-  
-
-
-
-
-
-
-     
- 
-
-
-
-
-
-
-
-
+        - At same time, `Vuln Server` continue running, without crashing, sending and recivieng connection...using our malicious `shellcode`.
+        
+             - **That's it!!! Buffer Overflow is done!! :D**
+   
 ### References
 
 - https://www.youtube.com/watch?v=qSnPayW6F7U&list=PLLKT__MCUeix3O0DPbmuaRuR_4Hxo4m3G
