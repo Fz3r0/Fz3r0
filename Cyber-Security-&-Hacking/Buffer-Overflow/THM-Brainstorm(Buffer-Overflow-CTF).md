@@ -364,10 +364,11 @@ try:
        
         s.close()
 
-    # Exception script in case some error happen
+    # Exception script in case some error happen, return a message and exit. 
 
 except:
         print("X:\>Fz3r0.buffer_overflow> Error connecting to server!!! Do'nt ask me, I'm just a script!!! >.<")
+        sys.exit()
 ```
 
 
