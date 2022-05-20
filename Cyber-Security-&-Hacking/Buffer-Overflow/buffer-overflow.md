@@ -1017,6 +1017,35 @@ while True:
      
     - **And now...run the `666_THE_SHELLCODE.py` muuaaahhahaha!** 
     
+        - NOTE: If you not get the reverse shell maybe is because the firewall of Windows is enabled, disable it!:
+        
+        - Before running the the VMware or Virtual Machine with Kali, firewall of the "Host OS" must be turned off, so restart Kali!. 
+        
+        - ![image](https://user-images.githubusercontent.com/94720207/169427179-75dc9b44-bb28-4401-8233-cb32bc8722f5.png)
+
+        - NOTE: If still not working, do this trick! ;):
+
+            - Open up the Windows Firewall from within the Control Panel or search for it.
+                - ![image](https://user-images.githubusercontent.com/94720207/169427496-233d0d3a-d7d4-4258-8beb-76dbcab54fb9.png)
+                
+            - Click Advanced Settings on the left.
+                - ![image](https://user-images.githubusercontent.com/94720207/169427551-3c7f16e2-db78-4cb0-8fce-0ea3ae27adce.png)
+ 
+            - From the left pane of the resulting window, click Inbound Rules.
+                - ![image](https://user-images.githubusercontent.com/94720207/169427651-25c71a57-827b-4fc0-85e5-711195dd06b8.png)
+            
+            - In the right pane, find the rules titled File and Printer Sharing (Echo Request - ICMPv4-In).
+      
+            - Right-click each rule and choose Enable Rule.
+                - ![image](https://user-images.githubusercontent.com/94720207/169427888-e9639ebe-b056-4481-a4bc-187550f86154.png)
+            
+            - Also try to ping both devices `Windows 10` and Virtual Machine `Kali`, if the super fz3r0 troubleshooting (found in my index page) does not work, or try to change the settigns of the network on VMWare (I'm using bridged)
+            
+            - ![image](https://user-images.githubusercontent.com/94720207/169428950-d1b5f22b-4088-44fd-93bf-0e5f65450a63.png)
+            - ![image](https://user-images.githubusercontent.com/94720207/169429001-500270d7-8f6b-4446-9d5b-dbfd97628fb4.png)
+      
+    - **And now...run the `666_THE_SHELLCODE.py` muuaaahhahaha!x2**
+    
         -   
 
 
