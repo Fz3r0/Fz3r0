@@ -527,7 +527,7 @@ except:
     
             - We are looking for a bad char in between all that sequence, if any number is missing on the sequence, then, it means that char is being used and it's a `bad char`, just like that...
         
-            - **In this Lab of `Brainstorm`, there are NOT bad chars!!! That's why we cannot see any "weird" sequence like: 1,2,3,5,6...**
+            - **In this Lab of `Brainstorm`, there are NOT bad chars!!! (Well...only x00 that we deleted since start) That's why we cannot see any "weird" sequence like: 1,2,3,5,6...**
             
             - All numbers flow correctly from `1` to `FF` 
         
