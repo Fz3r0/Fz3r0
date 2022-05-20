@@ -459,7 +459,7 @@ badchars = ("\x00\x01\x02\x03\x04\x05\x06\x07\x08\x09\x0a\x0b\x0c\x0d\x0e\x0f\x1
 
 - Then, we will copy the badchars code to a new variable called `badchars`
 
-    - **Important!** Erase the Nullbyte `\x00` and initial string `badchars =`
+    - **Important!** Erase the Nullbyte `\x00` and initial string `badchars =` **that's a `badchar` that makes a lot of issues by default**
     
     - **Inser "b"'s before each shellcode line (to convert to bytes each string)** 
     
