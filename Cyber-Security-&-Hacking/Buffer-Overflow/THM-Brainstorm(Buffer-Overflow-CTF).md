@@ -53,7 +53,7 @@
 
 ---
 
-### Spiking
+### Spiking + Fuzzing
 
 - First of all, I will run `chatserver.exe` as administrator and then start `Immunity Debugger` and attach the program. 
     
@@ -85,11 +85,13 @@
  
      - This means, maybe the buffer overflow and/or the pointer of `EIP` that we need to exploit is located after those 20 characters...maybe 21...maybe 2739?, 666?!, who knows?!
      
-     - So, **we will do our `spiking` process to know how many bytes do we need to crash the program `chatserver.exe`**
+     - So, **we will do our `spiking` and `fuzzing` process to know how many bytes do we need to crash the program `chatserver.exe`**
+     
+         - _Actually, in this scenario is more only `fuzzing` process, because we don't need a command or string before_ 
      
 - **As difference with `Vuln Server` Lab, here we are NOT using commands, just a user `string`**
 
-    - **So, instead of using **`generic_send_tcp`** technique, I will write a simple python script doing the following:**
+    - **So, instead of using **`generic_send_tcp`** technique and spiking the strings, I will write a simple python script doing the following:**
 
 ```python
 #!/usr/bin/python
@@ -152,10 +154,6 @@ print "A" * 5000
 - NOTE: The program has crashed, so we will need to restart the `Chat Server` and attach it again to the `Immunity Debugger`
 
     - **It's better to close everything and start from 0 to avoid errors** 
-
----
-
-### Fuzzing 
 
 - We already know that the program `Chat Server` can crash somewhere if we send a string overflow of 5000 bytes (A's)
 
@@ -254,7 +252,8 @@ while True:
                 print "Fuzzing crashed at %s bytes" % str(len(buffer))
                 sys.exit()
 ```
- 
+
+- Now that 
 
 
 
