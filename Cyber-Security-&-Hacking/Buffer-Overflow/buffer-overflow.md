@@ -999,6 +999,9 @@ while True:
                 sys.exit()
 ```
 
+- Again, save it as `666_THE_SHELLCODE.py` and `chmod +x`:
+
+    - ![image](https://user-images.githubusercontent.com/94720207/169371638-106e87df-3314-4524-889e-bc43acb8b475.png)
     
 
    
