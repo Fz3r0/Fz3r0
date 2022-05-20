@@ -580,6 +580,62 @@ except:
 - _NOTE: If the windows if Immunityu Debugger goes crazy, just close all windows, select: view > cpu, maximize it, and move the tiles again ;)_
 
     - After pressing enter using the command `!mona modules` this window pop-up _(click to enlarge)_:
+    
+    - ![image](https://user-images.githubusercontent.com/94720207/169595591-f0057f77-897b-4148-b6bc-3e85d22d1b28.png)
+
+        - First of all, that rows marked with `blue` are the `Protection Settings`
+        
+        - Some are `False` and others are `True`...
+        
+        - We are looking for `False`, because that means that "something" does not have any protection, for example, `essfunc.dll` down not have any protection = `False,False,False,False`
+        
+            - This means: **We are looking for something attached to Vuln Server (like a .dll) that doesn't have any protection, for example `essfunc.dll`, let's take a note of this and now do this other process:**    
+
+- **Finding the opcode equivalent of a jump**
+
+    - In Kali Linux:
+    
+        - We're going to locate something called `NASM shell`:
+        
+        - ![image](https://user-images.githubusercontent.com/94720207/169400501-202dd0b7-58fa-47ad-b3a2-1f120b7d8b02.png)
+        
+    - Ok, let's do this!
+    
+        - We're looking for the `opcode equivalent`
+        
+        - We are trying to convert `assambly language` into `HEX code` so we need to do:
+        
+            1. Run the `nasm_shell` script (directly from the original path, otherwise it doesn't work):
+            
+                - `/usr/share/metasploit-framework/tools/exploit/nasm_shell.rb` 
+            
+                - ![image](https://user-images.githubusercontent.com/94720207/169401488-3dd91bcb-c2ea-4fcf-be75-7abdb76bc0c9.png)
+                
+            2. Type in `assembly language` `JMP ESP` which means: "Jump(command) to ESP(pointer)" 
+            
+                - ![image](https://user-images.githubusercontent.com/94720207/169410984-674a4a45-bcbf-49eb-ac3c-5e88371da587.png)
+
+            3. Now we know that the `JMP ESP` equivalent in `HEX` is = `FFE4`!!!
+            
+                - So, now I will keep that HEX `FFE4` and take it to the `Immunity Debugger`
+
+- Once in the `Immunity Debugger` we will type:
+
+    -  `!mona find -s "\xff\xe4" -m essfunc.dll`
+
+        - `-s` is used to find
+        - `-m` is used for "module" 
+        
+    - ![image](https://user-images.githubusercontent.com/94720207/169596135-5d6ebaea-f0ae-42dd-b095-f1037ba74595.png)
+    
+        - We are searching here a `return address`
+        
+        - For example, the first row means the `retrun addresses`, so, if we start from the top we found:
+        
+            - **Return Address = `625014DF`** for `ssfunc.dll`
+
+- **In Kali Machine**
+
 
 
 ---
