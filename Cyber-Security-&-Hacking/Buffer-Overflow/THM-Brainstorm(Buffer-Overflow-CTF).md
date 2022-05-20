@@ -85,6 +85,29 @@
      
      - So, **we will do our `spiking` process to know how many bytes do we need to crash the program `chatserver.exe`**
      
+- As difference with `Vuln Server` Lab, here we are NOT using commands, just a user `string`
+
+- So, instead of using **`generic_send_tcp`**, I will write a simple python script doing the following:
+
+```python
+#!/usr/bin/python
+
+print "A" * 5000
+```
+
+- Or just using a python command:
+
+    - `python -c 'print "A" * 5000'` 
+
+- With this simple script we will generate 5000 bytes of "A's" at once:
+
+    - ![image](https://user-images.githubusercontent.com/94720207/169452006-9a56b1a1-57e0-4207-bebd-3ab5640cb374.png)
+
+- And we will copy and paste it to the program, it's just like a "manual fuzzing":
+
+    - ![image](https://user-images.githubusercontent.com/94720207/169452204-f1194a76-9fce-4845-8ed0-0b7618825ffb.png)
+ 
+
 - For spiking we will use a tool called:
 
     - **`generic_send_tcp`** 
@@ -110,8 +133,8 @@
 
 ```
 s_readline();              <<<-----| 1. We will read the line
-s_string("STATS ");        <<<-----| 2. We will take the string (STATS in this case)
-s_string_variable("0");    <<<-----| 3. We will send a variable to the "STATS" string
+s_string("AAAAAAAAAAAAAAAAAAAA");        <<<-----| 2. We will take the string ("AAAAAAAAAAAAAAAAAAAA" [A*20] in this case)
+s_string_variable("0");    <<<-----| 3. We will send a variable to the "AAAAAAAAAAAAAAAAAAAA" string
 ```
 
 - The trick for the spike is this:  
@@ -120,4 +143,6 @@ s_string_variable("0");    <<<-----| 3. We will send a variable to the "STATS" s
 
 ### References
 
+- https://tryhackme.com/room/brainstorm
+- https://github.com/Fz3r0/Fz3r0/blob/main/Cyber-Security-&-Hacking/Buffer-Overflow/buffer-overflow.md
 - https://www.youtube.com/watch?v=T1-Sds8ZHBU
