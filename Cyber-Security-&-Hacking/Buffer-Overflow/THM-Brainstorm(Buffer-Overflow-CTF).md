@@ -56,4 +56,4 @@
 
 ### References
 
-- tps://www.youtube.com/watch?v=T1-Sds8ZHBU
+- https://www.youtube.com/watch?v=T1-Sds8ZHBU
