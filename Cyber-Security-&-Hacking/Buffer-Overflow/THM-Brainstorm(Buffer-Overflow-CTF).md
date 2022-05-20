@@ -106,7 +106,13 @@ print "A" * 5000
 - And we will copy and paste it to the program, it's just like a "manual fuzzing":
 
     - ![image](https://user-images.githubusercontent.com/94720207/169452204-f1194a76-9fce-4845-8ed0-0b7618825ffb.png)
- 
+
+- 
+
+
+
+
+
 
 - For spiking we will use a tool called:
 
