@@ -1,4 +1,90 @@
 
+# Fz3r0 Operations : Offensive Security & Hacking
+
+![My Video](https://user-images.githubusercontent.com/94720207/165892585-b830998d-d7c5-43b4-a3ad-f71a07b9077e.gif)
+
+### Try Hack Me - Brainstorm (Buffer Overflow) - Writeup by [Fz3r0 💀](https://github.com/Fz3r0/)
+
+- Link: https://tryhackme.com/room/brainstorm
+
+![image](https://user-images.githubusercontent.com/94720207/169634219-c5504fd1-4e4e-4967-af4a-84fa3d67a1c1.png)
+
+---
+
+##### Twitter  : [@fz3r0_OPs](https://twitter.com/Fz3r0_OPs) 
+##### Github  : [Fz3r0](https://github.com/fz3r0) 
+
+---
+ 
+#### Keywords: `Cyber Security` `Red Team` `OSCP` `Offensive Security` `Buffer Overflow` `Stack Overflow` `Reverse Engineering` `Binary Exploit` `Assembly Language` `Try Hack Me` `Writeup`
+---
+   
+### Index 
+
+- < **[Before anything else!!!](/Networking/Attacking-Cisco/THM-L2-MAC-Flooding-&-ARP-Spoofing-writeup.md#layer-2-mac-flooding--arp-spoofing)** >
+
+- < **Task 1**: [Network Discovery](/Networking/Attacking-Cisco/THM-L2-MAC-Flooding-&-ARP-Spoofing-writeup.md#network-discovery) >
+
+- < **Task 2**: [Passive Network Sniffing](/Networking/Attacking-Cisco/THM-L2-MAC-Flooding-&-ARP-Spoofing-writeup.md#passive-network-sniffing) >
+
+- < **Task 3**: [Sniffing while MAC Flooding](/Networking/Attacking-Cisco/THM-L2-MAC-Flooding-&-ARP-Spoofing-writeup.md#sniffing-while-mac-flooding) >
+
+    - < **Task 3.1**: [Mitigation of MAC Flooding Attacks on Cisco Layer 2 Devices](/Networking/Attacking-Cisco/THM-L2-MAC-Flooding-&-ARP-Spoofing-writeup.md#mitigation-of-mac-flooding-attacks-on-cisco-layer-2-devices) >
+
+- < **Task 4**: [MITM Man-in-the-Middle (MITM): Intro to ARP Poisoning + Sniffing](/Networking/Attacking-Cisco/THM-L2-MAC-Flooding-&-ARP-Spoofing-writeup.md#man-in-the-middle-intro-to-arp-spoofing) >
+
+- < **Task 5**: [MITM Man-in-the-Middle (MITM): ARP Posoning + MAC Spoofing + Sniffing || Reverse Shell Payload + PrivEsc](/Networking/Attacking-Cisco/THM-L2-MAC-Flooding-&-ARP-Spoofing-writeup.md#man-in-the-middle-sniffing) >
+
+    - < **Task 5.1**: [Mitigation of ARP Poisoning + MAC Spoofing Attacks on Cisco Layer 2 Devices]() >
+
+- [< **Conclusions & Proof of Concept** >](/Networking/Attacking-Cisco/THM-L2-MAC-Flooding-&-ARP-Spoofing-writeup.md#layer-2-mac-flooding--arp-spoofing)
+
+---
+
+### Layer 2 MAC Flooding & ARP Spoofing
+
+- **Before anything else!**
+    
+    - First of all, I want to thank the creator of this Cyber-Security laboratory focused on Layer 2 Network Security. I really enjoyed experimenting and learning with it! I'm looking forward to the next labs that will be released!
+    
+    - The machine is hosted on Try Hack Me and you can try it -here- (using this write up of course!) 
+
+&nbsp;
+
+<span align="center"> <p align="center"> ![3456b9bc-c5b2-4b16-862f-adbf7480e47b](https://user-images.githubusercontent.com/94720207/167259274-fe141a10-7f9e-48d9-bd08-4f8f69aa6281.png) </p> </span>
+
+&nbsp;
+
+- **Scope**
+    
+    - This write up is mainly focused in 2 different types of attacks to the Layer 2 of the OSI Model: `MAC Flooding Attacks` & `ARP Posoning Attacks`, using secondary techniques like `sniffing`, `packet tampering`, `network mapping`, among others... to fulfill the main purpose of a hacker attack or penetration test in this scenario: the escalation to root privileges on a given host or server. 
+    
+    - At the moment I'm preparing for some Cisco certifications and I'm looking forward to gain more experience & knowledge for my Cisco career focused in Network & Infraestructure Security, so I will focus the Mitigation of the Layer 2 Attacks reviewed in this room mainly for secure & harden Cisco Infraescturcture like Cisco Layer 2 Switches Catalyst Series.
+    
+    - I've included some more Cisco References about Security and Best Practices for this write up, which I've included at the end of the document. 
+    
+    - I've also used the material reviewed during my courses at the Cisco Network Academy.     
+
+&nbsp;
+
+<span align="center"> <p align="center"> ![image](https://user-images.githubusercontent.com/94720207/167259452-b5d52098-9039-4ed9-8e71-c9292dda0d54.png) </p> </span>
+
+&nbsp;
+
+- **Author Introduction & Setup Instructions for the Lab**
+
+    - For the sake of this room, let's assume the following:
+
+        - While conducting a pentest, you have gained initial access to a network and escalated privileges to root on a Linux machine. 
+        - During your routine OS enumeration, you realize it's a dual-homed host, meaning it is connected to two (or more) networks. 
+        - Being the curious hacker you are, you decided to explore this network to see if you can move laterally.
+        
+        - After having established persistence, you can access the compromised host via SSH:
+        
+            - `ssh -o StrictHostKeyChecking=accept-new admin:Layer2@$ip_target`
+            
+        - Note: The admin user is in the sudo group. I suggest using the root user to complete this room: `sudo su -` 
+
 ---
 
 ### Deploy Machine and Scan Network
@@ -15,11 +101,11 @@
     
     - ![image](https://user-images.githubusercontent.com/94720207/169436929-93cad986-8310-402d-aa84-c4f39d72d45c.png)
     
-2. As this is a buffer overflow Lab, it seems we got out `.exe` and `.dll` to exploit, so, nothing much more to do here...
+2. This is a buffer overflow Lab, and it seems we have our `.exe` and `.dll` to exploit, so, nothing much more to do here...
     
     - **Note: It's a little bit obvious that this room is based on the "Vuln Server" exploit, using default port 9999 and `essfunc.dll`...**
     
-    - **Actually, `Vuln Server` is allmost the same walkthrought as `Brainstorm`, I reccomend read that write up too since it's explained in detail the buffer overflow process** 
+    - **Actually, `Vuln Server` is allmost the same walkthrought as `Brainstorm`, I reccomend read that write up too, since it's explained in detail the buffer overflow process, including a more detailed spiking process** 
         
     - [**Click here to read the full write up I did for `Vuln Server`**](/Cyber-Security-&-Hacking/Buffer-Overflow/buffer-overflow.md)
 
@@ -54,18 +140,18 @@
 
 - **Steps to conduct a buffer overflow:**
 
-    1. Spiking - Method to find vuln part of the program
+    1. _Spiking - Method to find vuln part of the program_ Not necessary in this Lab
     2. Fuzzing - Send a bunch of characters and see if we can break it
-    3. Finding the Offset - At what point did we break it
-    4. Overwriting the EIP - Overwriting the Poiting Address and control it
-    5. Finding Bad Characters - ...
-    6. Finding the Right Module - ...
-    7. Generating Shellcode - Once we know the bad characters and right module we can generate a shellcode
-    8. Root!
+    4. Finding the Offset - At what point did we break it
+    5. Overwriting the EIP - Overwriting the Poiting Address and control it
+    6. Finding Bad Characters - ...
+    7. Finding the Right Module - ...
+    8. Generating Shellcode - Once we know the bad characters and right module we can generate a shellcode
+    9. Root!
 
 ---
 
-### Spiking + Fuzzing
+### Fuzzing
 
 - First of all, I will run `chatserver.exe` as administrator and then start `Immunity Debugger` and attach the program. 
     
@@ -97,13 +183,11 @@
  
      - This means, maybe the buffer overflow and/or the pointer of `EIP` that we need to exploit is located after those 20 characters...maybe 21...maybe 2739?, 666?!, who knows?!
      
-     - So, **we will do our `spiking` and `fuzzing` process to know how many bytes do we need to crash the program `chatserver.exe`**
-     
-         - _Actually, in this scenario is more only `fuzzing` process, because we don't need a command or string before_ 
+     - So, **we will do our `fuzzing` process to know how many bytes (characters) do we need to crash the program `chatserver.exe`**
      
 - **As difference with `Vuln Server` Lab, here we are NOT using commands, just a user `string`**
 
-    - **So, instead of using **`generic_send_tcp`** technique and spiking the strings, I will write a simple python script doing the following:**
+    - **So, instead of using **`generic_send_tcp`** technique and spiking the strings, I will write a simple python script doing the following large strings and "jump" the spiking process, I really don't care very much being so precise with the breaking point at this moment, so I will only spam thousands of bytes and see what happen.**
 
 ```python
 #!/usr/bin/python
@@ -119,17 +203,17 @@ print "A" * 5000
 
     - ![image](https://user-images.githubusercontent.com/94720207/169452006-9a56b1a1-57e0-4207-bebd-3ab5640cb374.png)
 
-- And we will copy and paste it to the program, it's just like a "manual fuzzing" adn then press `enter`:
+- And we will copy and paste it to the program, it's just like a basic "manual fuzzing" and then press `enter`:
 
     - ![image](https://user-images.githubusercontent.com/94720207/169452204-f1194a76-9fce-4845-8ed0-0b7618825ffb.png)
 
-- The program didn't crash, it still working and is prompting for more info, meanwhile the `chatserver.exe` looks like this:
+- The program didn't crash, it still working and it's prompting for more info, meanwhile the `chatserver.exe` looks like this:
 
     - ![image](https://user-images.githubusercontent.com/94720207/169454155-e667ae59-3089-4558-8e01-4ca8d70afb6d.png)
     
-        - **It looks like there are no more than 20 A's, this means, this string is protected and IS NOT VULNERABLE because it's handling correctly the `buffer space`**
+        - It looks like there are no more than 20 A's, this means, this string is protected and **IS NOT VULNERABLE** because **it's handling correctly the `buffer space`**
         
-- After we press enter we found another prompt asking for a message: 
+- Then, press enter and there's another prompt asking for a message: 
 
     - ![image](https://user-images.githubusercontent.com/94720207/169453925-09edcc12-9a61-46f8-9578-33c4e0c3e970.png)
 
@@ -137,11 +221,11 @@ print "A" * 5000
 
     - ![image](https://user-images.githubusercontent.com/94720207/169455148-cc60b367-2882-49e1-874c-570e3d92f791.png)
 
-- Hoew about trying to crash this prompt then?... 5000 A's I choose you!!!
+- How about trying to crash this prompt then?... 5000 A's I choose you!!!
 
     - ![image](https://user-images.githubusercontent.com/94720207/169455285-758afe2b-f9ab-46a9-a663-14e637ccfa4b.png)
     
-- BOOM!!! We did it!!! The `chatserver.exe` have just crashed
+- BOOM!!! We did it!!! The `chatserver.exe` have just crashed, it means the `buffer space` of "message" is not sanitized and we can exploit it. 
 
     - ![image](https://user-images.githubusercontent.com/94720207/169455495-f7924ac6-a8da-42e6-ae57-f6c1c10e08db.png)
 
@@ -1051,9 +1135,9 @@ except:
 
         - ![image](https://user-images.githubusercontent.com/94720207/169633644-3aa27c04-b7ed-40b4-b0d4-0241d72af145.png)
 
-- It's done :) We have root privileges and total control in the real Chat Server, we have exploited this `buffer overflow` like a Sir.
+    - It's done :) We have root privileges and total control in the real Chat Server, we have exploited this `buffer overflow` like a Sir.
 
-- **Finally, you can pick the root flag, open and close the CD tray of the Windows Server over and over, and execute some notepads with creepy messages to scare the IT guy working in that remote Site.**
+- **Finally, you can pick the root flag, open and close the CD-tray of the Server over and over, and execute some notepads with creepy messages to scare the hell out of the poor IT guy working in that remote Site _(It's his first day on that job)_.**
   
 ---
 
