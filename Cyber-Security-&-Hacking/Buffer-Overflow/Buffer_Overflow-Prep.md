@@ -190,9 +190,21 @@ print()
         
             - ![image](https://user-images.githubusercontent.com/94720207/169384923-46ad25d7-56bb-4323-ba5d-05576cdae939.png)
 
-        - Right away in the first line we saw a "weird" sequence: **1,2,3... `B0`, `B0` ...6, 7, 8**
+                - Right away in the first line we saw a "weird" sequence: **1,2,3... `B0`, `B0` ...6, 7, 8**
         
-        - This means `B0` is a `bad char`, we need to note all `B0`s including the missing numbers that this miss-sequence originates.
+                - This means `B0` is a `bad char`, we need to note all `B0`s including the missing numbers that this miss-sequence originates.
+
+- **Find Badchars:**
+    
+    1. The first badchar in the list should be the null byte (\x00) since we already removed it from the file. 
+    
+    2. Make a note of any others. 
+    
+    3. Generate a new `bytearray` in `mona`, specifying these new `badchars` along with `\x00`. 
+    
+    4. Then update the `payload` variable in your `python_exploit.py` script and remove the **new badchars** as well.
+
+    5. Restart `oscp.exe` in `Immunity Debugger` and run the modified exploit.py script again. Repeat the badchar comparison until the results status returns "Unmodified". This indicates that no more badchars exist. 
         
         
 
