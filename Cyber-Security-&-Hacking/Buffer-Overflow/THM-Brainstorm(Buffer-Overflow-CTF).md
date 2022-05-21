@@ -488,7 +488,7 @@ except:
 
     - ![image](https://user-images.githubusercontent.com/94720207/169585902-a9fdffe6-3798-45c9-a748-a2ad4d5ba6a4.png)
 
-- Check that `chatserver.exe` and `immunity debugger` are running (otherwise restar) and...
+- Check that `chatserver.exe` and `immunity debugger` are running (otherwise restart) and...
 
     - Execute it! Que chille!!! 
     
