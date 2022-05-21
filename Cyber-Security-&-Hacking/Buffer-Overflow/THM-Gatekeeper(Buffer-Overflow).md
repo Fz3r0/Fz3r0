@@ -33,7 +33,7 @@
 
 ### Lab Setup:
 
-- I will use the same setup for `Vuln Server`:
+- I will use the same setup for `Vuln Server` Lab:
         
     - Using Windows 10 Pro on a bare metal CPU
         - `gatekeeper.exe` running here
@@ -44,7 +44,7 @@
             
     - Both machines connected on the same Network 192.168.1.0/24 (My local Network)
             
-    - Once I've exploited the program `vulnserver.exe` in my own machine, then I can exploit "the real" server with the final script:
+    - Once I've exploited the program `gatekeeper.exe` in my own machine, then I can exploit "the real" server with the final script:
             
         - `TryHackMe - Gatekeeper` Network, UK.    
         
@@ -73,6 +73,99 @@
 
 ---
 
+---
+
+### Fuzzing
+
+- First of all, I will run `gatekeeper.exe` as administrator and then start `Immunity Debugger` and attach the program. 
+    
+    - ![image](https://user-images.githubusercontent.com/94720207/169637970-252158e3-9967-41e1-a6ac-587a548bde3f.png)
+
+    - ![image](https://user-images.githubusercontent.com/94720207/169637996-c25fa35e-bcd9-4026-b12b-110bc8870e04.png)
+
+- Then, I will run the Immunity Debugger with "play".
+
+    - ![image](https://user-images.githubusercontent.com/94720207/169638036-2ab7bd99-0fea-484a-af2f-7c2e09a96df6.png)
+
+        - Running and ready to go!
+
+- On Kali Linux:
+
+    1. Connect to `gatekeeper.exe`:
+        
+        - Using the IP Address of the Windows Machine **192.168.10.100** + gatekeeper.exe Port **31337** (We've seen that port on `nmap` typing "help, help, help")
+            
+        - ![image](https://user-images.githubusercontent.com/94720207/169188519-02fab4e5-91e4-4272-a788-9239ad878c4a.png)
+           
+        - On Kali: `nc -nv 192.168.1.100 9999`
+            
+        - ![image](https://user-images.githubusercontent.com/94720207/169638159-af1130de-075d-47b0-b6ab-a43b1ca45838.png)
+ 
+ - **It looks that this program `Gatekeeper` take commands based on what you type AKA `strings` to generate an `answer` with the instruction `Hello ("%variable%")!!!`**
+  
+     - This means, maybe the buffer overflow and/or the pointer of `EIP` that we need to exploit is located there, maybe I need to send 100 bytes of characters, maybe 3000...who knows!?
+     
+     - So, **we will do our `fuzzing` process to know how many bytes (characters) do we need to crash the program `gatekeeper.exe`**
+     
+- **As difference with `Vuln Server` Lab, here we are NOT using commands, just a string to make the `gatekeeper server` respond with a `string`**
+
+    - **So, instead of using **`generic_send_tcp`** technique and spiking the strings, I will write a simple python script doing the following large strings and "jump" the spiking process, I really don't care very much being so precise with the breaking point at this moment, so I will only spam thousands of bytes and see what happen.**
+    
+```python
+#!/usr/bin/python
+
+print "A" * 5000
+```
+
+- Or just using a python command:
+
+    - `python -c 'print "A" * 5000'` 
+
+- With this simple script we will generate 5000 bytes of "A's" at once:
+
+    - ![image](https://user-images.githubusercontent.com/94720207/169638415-43d37e2b-079b-4bd0-a8e2-e96c3a00c6dd.png)
+
+- And we will copy and paste it to the program, it's just like a basic "manual fuzzing" and then press `enter`:
+
+    - ![image](https://user-images.githubusercontent.com/94720207/169638479-071a4226-18aa-4c60-8247-eeef445f0750.png)
+
+- BOOM!!! We did it!!! The `chatserver.exe` have just crashed, it means the `buffer space` of "message" is not sanitized and we can exploit it. 
+
+    - ![image](https://user-images.githubusercontent.com/94720207/169638574-63ddd521-886b-4327-a82b-c0bfdff6feb1.png)
+
+- Bota fixa papai!
+
+    - If we look at `EBP` we can see `41414141`: THAT'S THE HEX CODE FOR: `AAAA`
+    
+        - ![image](https://user-images.githubusercontent.com/94720207/169456928-65563691-936f-441c-9ade-edf2f7c31752.png) 
+
+    - Also, we went over `ESP` with a bunch of "A"
+
+    - Finally, we get into `EIP` too with `41414141`: THA'TS THE HEX CODE FOR: `AAAA`
+
+- Remember: **The `EIP` is the important factor!**
+
+    - If we control `EIP` we can point somethin malicious! But for that, we need to locate "where's `EIP` now?"
+
+- NOTE: The program has crashed, so we will need to restart the `Chat Server` and attach it again to the `Immunity Debugger`
+
+    - **It's better to close everything and start from 0 to avoid errors** 
+
+- We already know that the program `Chat Server` can crash somewhere if we send a string overflow of 5000 bytes (A's)
+
+- **As difference with `vuln server` we did this process a lot quickier, that's because in this scenario we did not needed `spiking`.**
+
+    - **Instead, with just a bunch of "A's" we did realize that the string can crash the program, that means now we need to `find the offset`
+    
+- we just need to know aprox where we crashed the program, and we know is somewhere around **less than 5000 bytes**
+
+    - Now, that we know that the crash is somewhere less 5000 bytes, we need to know: **where's the `EIP` value at?**
+
+    - Remember, controlling the `EIP` is the puprose of all of this attack. 
+
+---  
+
+### Finding the Offset
 
 
 
