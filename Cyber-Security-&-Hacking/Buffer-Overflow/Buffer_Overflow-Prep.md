@@ -13,6 +13,12 @@
 
 2. Fuzzing
 
+    - The fuzzer will send increasingly long strings comprised of `A`. 
+    
+    - If the fuzzer crashes the server with one of the strings, the fuzzer should exit with an error message. 
+    
+    - Make a note of the largest number of bytes that were sent.
+
 - `python_fuzzing.py` (chmod +x)
 
 ```python
@@ -44,17 +50,17 @@ while True:
   time.sleep(1)
 ```
 
-- `python3 fuzzer.py`
+- `python3_fuzzer.py`
 
 ---
 
 3. Crash Replication & Controlling EIP
 
-- Pattern creation:
+- Run the following command to generate a cyclic pattern of a length `400 bytes` longer ([Ax100,Ax100]:200+400) that the string that crashed the server (change the -l value to this):
 
     - `/usr/share/metasploit-framework/tools/exploit/pattern_create.rb -l 600` 
 
-- Copy the output and place it into the payload variable of the exploit.py script. 
+- Copy the output and place it into the payload variable of the `exploit.py` script. 
 
 - Create:
 
@@ -87,27 +93,29 @@ except:
   print("Could not connect.")
 ```
 
-- The script should crash the oscp.exe server again. 
+- The script should crash the `oscp.exe` server again. 
 
-- This time, in Immunity Debugger, in the command input box at the bottom of the screen, run the following mona command, changing the distance to the same length as the pattern you created:
+- This time, in `Immunity Debugger`, in the **command input box at the bottom of the screen**, run the following **mona command**, changing the distance to the same length as the pattern you created:
 
     - `!mona findmsp -distance 600`
     
-- Mona should display a log window with the output of the command. If not, click the "Window" menu and then "Log data" to view it (choose "CPU" to switch back to the standard view).
+- Mona should display a log window with the output of the command. 
 
-In this output you should see a line which states:
+    - If not, click the `Window` menu and then `Log data` to view it (choose "CPU" to switch back to the standard view).
+
+- In this output you should see a line which states:
 
     - `EIP contains normal pattern : ... (offset XXXX)` 
     
-- Update your exploit.py script and set the offset variable to this value (was previously set to 0). 
+1. Update your `exploit.py` script and set the `offset` variable to this value **(was previously set to 0)**. 
 
-- Set the payload variable to an empty string again. 
+2. Set the `payload` variable to an **empty string again**. 
 
-- Set the retn variable to "BBBB".
+3. Set the `retn` variable to `BBBB`.
 
-- Restart oscp.exe in Immunity and run the modified exploit.py script again. 
+4. Restart `oscp.exe` in `Immunity Debugger` and run the modified `python_exploit.py` script again. 
 
-- The EIP register should now be overwritten with the 4 B's (e.g. 42424242). 
+    - The `EIP` register should now be overwritten with the 4 B's **(BBBB)** `42424242`. 
 
 ---  
 
