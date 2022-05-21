@@ -122,7 +122,7 @@
             
     - Both machines connected on the same Network 192.168.1.0/24 (My local Network)
             
-    - Once I've exploited the program `vulnserver.exe` in my own machine, then I can exploit "the real" server with the final script:
+    - Once I've exploited the program `chatserver.exe` in my own machine, then I can exploit "the real" server with the final script:
             
         - `TryHackMe - Brainstorm` Network, UK.    
         
