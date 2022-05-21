@@ -1049,10 +1049,9 @@ except:
 
     - Execute the final script!!! Kill it!!!
 
-        - 
+        - ![image](https://user-images.githubusercontent.com/94720207/169633644-3aa27c04-b7ed-40b4-b0d4-0241d72af145.png)
 
-```
-```
+- It's done :) We have root privileges in the real Chat Server
   
 
 ---
