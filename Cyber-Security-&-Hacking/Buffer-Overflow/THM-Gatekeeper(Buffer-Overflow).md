@@ -73,8 +73,6 @@
 
 ---
 
----
-
 ### Fuzzing
 
 - First of all, I will run `gatekeeper.exe` as administrator and then start `Immunity Debugger` and attach the program. 
@@ -147,15 +145,15 @@ print "A" * 5000
 
     - If we control `EIP` we can point somethin malicious! But for that, we need to locate "where's `EIP` now?"
 
-- NOTE: The program has crashed, so we will need to restart the `Chat Server` and attach it again to the `Immunity Debugger`
+- NOTE: The program has crashed, so we will need to restart the `Gatekeeper Server` and attach it again to the `Immunity Debugger`
 
     - **It's better to close everything and start from 0 to avoid errors** 
 
-- We already know that the program `Chat Server` can crash somewhere if we send a string overflow of 5000 bytes (A's)
+- We already know that the program `Gatekeeper Server` can crash somewhere if we send a string overflow of 5000 bytes (A's)
 
-- **As difference with `vuln server` we did this process a lot quickier, that's because in this scenario we did not needed `spiking`.**
+- **As difference with `vuln server` we did this process a lot quickier, that's because in this scenario we did not needed `spiking` adn threw random 5000 bytes at once, maybe not so much precise as `spiking` but it's fasterr.**
 
-    - **Instead, with just a bunch of "A's" we did realize that the string can crash the program, that means now we need to `find the offset`
+    - **With just a bunch of "A's" we did realize that the string can crash the program, that means now we need to `find the offset`
     
 - we just need to know aprox where we crashed the program, and we know is somewhere around **less than 5000 bytes**
 
@@ -167,6 +165,84 @@ print "A" * 5000
 
 ### Finding the Offset
 
+- First of all, restart everything because the last crash...
+
+- We are going to be looking for where the overwirte the `EIP`: 
+
+    - Because controlling EIP means control the shellcode of the program (so we can send malicious scripts like a reverse shell).
+    
+- **For this step, we will use the tool `pattern_create` by Metasploit:**
+
+- ![image](https://user-images.githubusercontent.com/94720207/169657801-7163e03f-ad5e-4de0-accc-f963221b781b.png)
+ 
+    - In Kali machine (-l is for lenght):
+    
+        - `/usr/share/metasploit-framework/tools/exploit/pattern_create.rb -l 5000`
+    
+    - ![image](https://user-images.githubusercontent.com/94720207/169460983-5457be7f-4a12-4f88-b31d-1d11a6a07153.png)
+ 
+        - Now, instead of sending a bunch of `A`'s we will send the "crazy code", or better said, the pattern algorythm to find the offset.
+        
+            - **Note: Again, the difference with `vuln server` is that we don't need a string before or something else, se just copy and paste the pattern just like we did with the A's**
+            
+        - ![image](https://user-images.githubusercontent.com/94720207/169657959-c9040268-2d11-4088-9bcb-1c85ae828abe.png)
+        
+            - We crashed the `gatekeeper.exe` again, this time with the pattern:
+            
+        - ![image](https://user-images.githubusercontent.com/94720207/169658066-3761e84e-fbe0-4f81-90e5-1e258f7cf214.png)
+ 
+ - When we send that crazy string we going to get the value on the `EIP` like magic, but how it works?
+
+    1. We send the "crazy code" and we know that in some point it will crash (because it have 5000 bytes and we know it crashes at some point).
+    
+        - **That "crazy code" is actually a pattern alogythm of characters, so Metasploit can identify the bytes where the crash exactly happened! booom!!!**
+    
+    3. After the crash, we going to say to Metasppoit:
+    
+        - **The program have crashed with the `pattern_create`, identify exactly where it crashed, plz! :3.**    
+
+    - Just like in fuzzing: We sent _"TRUN /.:/ Cr4zyCodeCr4zyCodeCodeCr4zyCode..."_ (instead of A's) and matched "the perfect world"
+    - We also overwrite `ESP`, `EBP` and `EIP`.
+    - It's very similar to the A's, **but in this case we used the Metasploit character `pattern_creator` AKA "the crazy code"**
+    
+        - NOTE: We can know that we passed by far the crash zone (just like with A's) because we can see a large string on ESP-
+        - Remember!: 
+        
+            1. The perfect world is the large string in `EAX`
+            2. Any other large string means that we overwrite that register (`ESP`) by a looooot of chars 
+            3. But, the important thing here is that we overwrite `EIP`
+        
+                - ![image](https://user-images.githubusercontent.com/94720207/169658161-98e52e8c-8083-49af-98da-ba77092e8d56.png)
+       
+            - **The important and critic value here then is the `EIP`:**
+            
+                - **`39654138`** 
+                            
+            - Let's use this value to abuse the vulnerability!
+
+- This step is similar to the last one, but instead of using `pattern_create` tool, we will use `pattern_offset`:
+
+- ![image](https://user-images.githubusercontent.com/94720207/169327203-1bd951d1-a149-4e20-ba65-cecb5cad7020.png)
+
+    - In Kali machine (-l is for lenght), (-q is for query, our finding of the exact **pattern**):
+    
+        - `/usr/share/metasploit-framework/tools/exploit/pattern_offset.rb -l 50000 -q 39654138`
+   
+    - After we press "enter", we should find a **pattern offset**:
+    
+        - ![image](https://user-images.githubusercontent.com/94720207/169658272-bd4dbdcc-d60d-432d-a619-5aa86f752195.png)
+        
+            - **NOTE: We have 3 different exact matches this time (in vuln server or brainstorm there was only 1 at more than `2000` bytes), this is because the real offset is very close to the beginning `146` bytes, this means that 5000 bytes for fuzzing were too much! I needed just 200 to test maybe...**
+            
+            - **That's why spiking is used!!! With spiking before fuzzing I would know that the offset would be near from 200 maybe, but I've decided to trhow randomly 5000 chars at once. 
+            
+            - That's why I used 5000 bytes again in this lab, so spiking is now clear! :D**  
+        
+            - **This information is critical, because this means that exactly at `146 bytes`, we can control `EIP` overwriting it**
+
+---
+
+### Overwriting the EIP
 
 
 
