@@ -171,3 +171,9 @@ for x in range(1, 256):
   print("\\x" + "{:02x}".format(x), end='')
 print()
 ```
+
+---
+
+### References
+
+- https://github.com/Tib3rius/Pentest-Cheatsheets/blob/master/exploits/buffer-overflows.rst
