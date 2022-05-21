@@ -172,6 +172,30 @@ for x in range(1, 256):
 print()
 ```
 
+- Update your `python_exploit.py` script and set the `payload` variable **to the string of bad chars the script generates.**
+
+- Restart `oscp.exe` in `Immunity Debugger` and run the **modified `python_exploit.py` script** again. 
+
+    - **Make a note of the address to which the `ESP` register points and use it in the following `mona` command:**
+    
+        - `!mona compare -f C:\mona\oscp\bytearray.bin -a <address>`
+
+- A popup window should appear labelled "mona Memory comparison results". _If not, use the Window menu to switch to it._
+
+    - **The window shows the results of the comparison**, indicating any characters that are different in memory to what they are in the generated `bytearray.bin` file.
+
+    - **IMPORTANT: Not all of these might be `badchars`! Sometimes badchars cause the next byte to get corrupted as well, or even effect the rest of the string. (Just like the example in the vuln server lab)**
+    
+        - Example: 
+        
+            - ![image](https://user-images.githubusercontent.com/94720207/169384923-46ad25d7-56bb-4323-ba5d-05576cdae939.png)
+
+        - Right away in the first line we saw a "weird" sequence: **1,2,3... `B0`, `B0` ...6, 7, 8**
+        
+        - This means `B0` is a `bad char`, we need to note all `B0`s including the missing numbers that this miss-sequence originates.
+        
+        
+
 ---
 
 ### References
