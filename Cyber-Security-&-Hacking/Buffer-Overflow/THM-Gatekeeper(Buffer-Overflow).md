@@ -358,6 +358,27 @@ except:
 
     - Execute it! Que chille!!! 
 
+        - **`python3 1_fz3r0_gatekeeper.py`**  
+
+    - ![image](https://user-images.githubusercontent.com/94720207/169660788-df5eec00-3491-4249-9f76-7f3c982e1d88.png)
+
+        - Note: Close it with Ctrl+C to end script if needed
+        
+    - The program crashes, that's perfect! let's see `Immunity Debugger`
+    
+        - ![image](https://user-images.githubusercontent.com/94720207/169660871-61f0051d-664f-4cde-8600-33d371a707b2.png)
+
+     - And this is how it looks our precious `BBBB` or `42424242`
+            
+    - **We succesfully overwritten the `EIP` and we have control of it**, but just with an inocent "BBBB" (4 bytes)...
+    
+        - **It's time to overwirte it with some malicious shellcode containung a 4 bytes of deadly poison!**  
+
+---
+
+### Finding Bad Characters
+
+
 
 
 
