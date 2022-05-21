@@ -1051,9 +1051,10 @@ except:
 
         - ![image](https://user-images.githubusercontent.com/94720207/169633644-3aa27c04-b7ed-40b4-b0d4-0241d72af145.png)
 
-- It's done :) We have root privileges in the real Chat Server
-  
+- It's done :) We have root privileges and total control in the real Chat Server, we have exploited this `buffer overflow` like a Sir.
 
+- **Finally, you can pick the root flag, open and close the CD tray of the Windows Server over and over, and execute some notepads with creepy messages to scare the IT guy working in that remote Site.**
+  
 ---
 
 ### References
