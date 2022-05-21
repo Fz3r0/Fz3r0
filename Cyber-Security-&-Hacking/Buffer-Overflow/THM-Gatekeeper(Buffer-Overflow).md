@@ -17,9 +17,16 @@
 
 ### Services Enumeration
 
--
+- `smbclient -N -L \\\\$ip_target\\`
 
+- ![image](https://user-images.githubusercontent.com/94720207/169636978-f9fc5e1c-08a2-4e13-a051-7b259bcf8ff4.png)
 
-- 
+    - **"Users" share is available for login without password, let's sniff inside.**
 
-- 
+- `smbclient -N -L \\\\$ip_target\\Users`
+
+    - I've found a .exe 
+
+### References
+
+https://github.com/hamza07-w/gatekeeper-tryHackme-writeup
