@@ -150,7 +150,24 @@ except:
   print("Could not connect.")
 ```
 
-
 ---  
 
 ### 3. Finding Bad Characters
+
+- Generate a `bytearray` using `mona`, and **exclude the null byte `\x00` by default.** 
+
+- Note the location of the `bytearray.bin` file that is generated (if the working folder was set per the Mona Configuration section of this guide, then the location should be `C:\mona\oscp\bytearray.bin`).
+
+    - `!mona bytearray -b "\x00"`
+
+- Now generate a **string of bad chars** that is **identical to the bytearray**. 
+
+    - The following python script can be used to **generate a string of bad chars from \x01 to \xff**:
+
+```python
+# Byte Array (badchars) creator
+
+for x in range(1, 256):
+  print("\\x" + "{:02x}".format(x), end='')
+print()
+```
