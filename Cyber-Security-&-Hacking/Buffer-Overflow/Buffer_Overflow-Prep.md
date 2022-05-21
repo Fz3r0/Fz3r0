@@ -223,13 +223,15 @@ except:
 
     - **IMPORTANT: Not all of these might be `badchars`! Sometimes badchars cause the next byte to get corrupted as well, or even effect the rest of the string. (Just like the example in the vuln server lab)**
     
-        - Example: 
+        - Example (I took this example from another Lab with a very obvious badchar `B0`): 
         
             - ![image](https://user-images.githubusercontent.com/94720207/169384923-46ad25d7-56bb-4323-ba5d-05576cdae939.png)
 
                 - Right away in the first line we saw a "weird" sequence: **1,2,3... `B0`, `B0` ...6, 7, 8**
         
                 - This means `B0` is a `bad char`, we need to note all `B0`s including the missing numbers that this miss-sequence originates.
+                
+                    - **In this example the badchars would be `"\x00\xB0"`** 
 
 - **Find Badchars:**
     
