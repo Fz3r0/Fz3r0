@@ -25,7 +25,11 @@
 
 - `smbclient -N -L \\\\$ip_target\\Users`
 
-    - I've found a .exe 
+    - I've found the executable `gatekeeper.exe` I will download it and prepare the `Buffer Overflow Lab` in my own bare metal Windows 10. 
+
+- ![image](https://user-images.githubusercontent.com/94720207/169637348-142c6a3f-de24-4c58-8bee-b1c7c6046552.png)
+
+---
 
 ### References
 
