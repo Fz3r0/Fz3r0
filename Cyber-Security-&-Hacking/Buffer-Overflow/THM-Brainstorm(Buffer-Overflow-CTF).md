@@ -906,9 +906,10 @@ except:
     
         - ![image](https://user-images.githubusercontent.com/94720207/169608282-170da54c-6b25-4c96-8a2e-7036cb256484.png)
 
-    - **BOOOOM!!!!** We got root!! (to my bare metal computer)
+    - **BOOOOM!!!!** We got root!! **(inside my own bare metal Windows 10)**
     
-    - now it's time for the real shaiiits! 
+        - **w that we exploited the program and we control the `EIP` and sent succesfully a reverse shell with root privs, it's time to make the jump to the "real server".
+        
 
 ---
 
