@@ -352,6 +352,12 @@ except:
 
 - `chmod +x` to the script to make it executable:
 
+    - ![image](https://user-images.githubusercontent.com/94720207/169660625-1ed3c045-9a8e-4bcc-badf-e99ef17a335b.png)
+
+- Check that `chatserver.exe` and `immunity debugger` are running (otherwise restart) and...
+
+    - Execute it! Que chille!!! 
+
 
 
 
