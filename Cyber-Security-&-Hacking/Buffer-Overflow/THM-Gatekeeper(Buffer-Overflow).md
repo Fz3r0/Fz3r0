@@ -441,10 +441,117 @@ except:
         sys.exit()
 ```
 
+- `chmod +x` to make it executable:
+
+    - ![image](https://user-images.githubusercontent.com/94720207/169661089-55e221d8-b349-4af4-a434-021938bee1a0.png)
+
+- Execute it! Que chille!!!
+
+    - ![image](https://user-images.githubusercontent.com/94720207/169661162-93b97210-e0e8-4b1b-86c6-d99534f1d512.png)
+
+    - The program crashes, that's perfect! let's see `Immunity Debugger` and send `ESP` to follow in dump (bottom left corner) 
+    
+        - ![image](https://user-images.githubusercontent.com/94720207/169593293-0d3b0763-2978-4e96-81f3-45dcc1b72d25.png)
+
+- Now, let's take a look at the dump (bottom left corner):
+    
+    - ![image](https://user-images.githubusercontent.com/94720207/169661713-5dfcd752-8d3c-45e6-8511-319fe51059e8.png)
+    
+    - **It's easy to read it, it's just a sequence number going: 1,2,3,4,5,6,7,8,9,10<---- but in HEX...**
+    
+        - This means:
+
+            - We are looking for a bad char in between all that sequence, if any number is missing on the sequence, then, it means that char is being used and it's a `bad char`, just like that...
+        
+            - **In this Lab of `Gatekeeper`, there are 2 different `badchars`!!! 
+            
+            - Null byte, a default badchar `\x00` 
+            
+            - `\x0A` Is missing, so it's another `badchar` 
+        
+            - In technic words, we are specting all that characters to happen except for `\x0A`.
+            
+            - The last thing we sent was `FF`, so if we search for `FF` at the end of the list, that means that we need to search only from the beginning to `FF`.
+    
+    - **Write down all this numbers, because we need them to generate the final shellcode to gain root!!!**
+    
+---
+
+### Finding the right module
+
+- Finding the right module means that we are looking for a `.dll` or something similar inside our program (gatekeeper) that has no memory protections.  
+
+- Once everything is ready, we can start `vuln server` and `Immunity Debugger`, attach the program, etc.
+
+    - **To use `Mona Modules`, the only extra thing to do now is typingon the bottom bar before `play` it:
+    
+        - `!mona modules` (and hit >Enter<) 
+
+        - ![image](https://user-images.githubusercontent.com/94720207/169392574-6d6d7ca4-04c8-4749-a1a0-b726ee7fc08d.png)
+
+    - After pressing enter using the command `!mona modules` this window pop-up _(click to enlarge)_:
+    
+    - ![image](https://user-images.githubusercontent.com/94720207/169595591-f0057f77-897b-4148-b6bc-3e85d22d1b28.png)
+
+        - First of all, that rows marked with `blue` are the `Protection Settings`
+        
+        - Some are `False` and others are `True`...
+        
+        - We are looking for `False`, because that means that "something" does not have any protection, for example, `essfunc.dll` down not have any protection = `False,False,False,False`
+        
+            - This means: **We are looking for something attached to Vuln Server (like a .dll) that doesn't have any protection, for example `essfunc.dll`, let's take a note of this and now do this other process:**    
+
+- **Finding the opcode equivalent of a jump**
+
+    - In Kali Linux:
+    
+        - We're going to locate something called `NASM shell`:
+        
+        - ![image](https://user-images.githubusercontent.com/94720207/169400501-202dd0b7-58fa-47ad-b3a2-1f120b7d8b02.png)
+        
+    - Ok, let's do this!
+    
+        - We're looking for the `opcode equivalent`
+        
+        - We are trying to convert `assambly language` into `HEX code` so we need to do:
+        
+            1. Run the `nasm_shell` script (directly from the original path, otherwise it doesn't work):
+            
+                - `/usr/share/metasploit-framework/tools/exploit/nasm_shell.rb` 
+            
+                - ![image](https://user-images.githubusercontent.com/94720207/169401488-3dd91bcb-c2ea-4fcf-be75-7abdb76bc0c9.png)
+                
+            2. Type in `assembly language` `JMP ESP` which means: "Jump(command) to ESP(pointer)" 
+            
+                - ![image](https://user-images.githubusercontent.com/94720207/169410984-674a4a45-bcbf-49eb-ac3c-5e88371da587.png)
+
+            3. Now we know that the `JMP ESP` equivalent in `HEX` is = `FFE4`!!!
+            
+                - So, now I will keep that HEX `FFE4` and take it to the `Immunity Debugger`
+
+- Once in the `Immunity Debugger` we will type:
+
+    -  `!mona find -s "\xff\xe4" -m essfunc.dll`
+
+        - `-s` is used to find
+        - `-m` is used for "module" 
+        
+    - ![image](https://user-images.githubusercontent.com/94720207/169596135-5d6ebaea-f0ae-42dd-b095-f1037ba74595.png)
+    
+        - We are searching here a `return address`
+        
+        - For example, the first row means the `retrun addresses`, so, if we start from the top we found:
+        
+            - **Return Address = `625014DF`** for `ssfunc.dll`
+
+- **In Kali Machine**
+
+
 
 
 ---
 
 ### References
 
-https://github.com/hamza07-w/gatekeeper-tryHackme-writeup
+- https://steflan-security.com/tryhackme-gatekeeper-walkthrough/
+- https://github.com/hamza07-w/gatekeeper-tryHackme-writeup
