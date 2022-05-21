@@ -31,6 +31,57 @@
 
 ---
 
+### Lab Setup:
+
+- I will use the same setup for `Vuln Server`:
+        
+    - Using Windows 10 Pro on a bare metal CPU
+        - `gatekeeper.exe` running here
+        - `Immunity Debugger` + `mona` running here
+                
+    - Using Kali Linux in a VMware Pro VM
+        - `python` scripts and tricky tricks running here
+            
+    - Both machines connected on the same Network 192.168.1.0/24 (My local Network)
+            
+    - Once I've exploited the program `vulnserver.exe` in my own machine, then I can exploit "the real" server with the final script:
+            
+        - `TryHackMe - Gatekeeper` Network, UK.    
+        
+    - So I will transfer the files from the TryHackMe Machine-FTP to a folder to my Windows 10 and use from there `Immunity Debugger` and also run the `chatserver.exe` binary.
+        
+        - ![image](https://user-images.githubusercontent.com/94720207/169637748-1ae93fc6-73a3-4e21-88ae-14f3e833c142.png)
+          
+    - Easy! Let's do it! 
+
+---
+
+### Buffer Overflow
+
+- I will use the same steps used in `Vuln Server` lab... this steps work with allmost all the buffer overflow procedures:
+
+- **Steps to conduct a buffer overflow:**
+
+    1. _Spiking - Method to find vuln part of the program_ Not necessary in this Lab
+    2. Fuzzing - Send a bunch of characters and see if we can break it
+    4. Finding the Offset - At what point did we break it
+    5. Overwriting the EIP - Overwriting the Poiting Address and control it
+    6. Finding Bad Characters - ...
+    7. Finding the Right Module - ...
+    8. Generating Shellcode - Once we know the bad characters and right module we can generate a shellcode
+    9. Root!
+
+---
+
+
+
+
+
+
+
+
+---
+
 ### References
 
 https://github.com/hamza07-w/gatekeeper-tryHackme-writeup
