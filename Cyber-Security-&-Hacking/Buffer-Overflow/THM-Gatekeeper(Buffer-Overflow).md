@@ -98,18 +98,18 @@
 ```python
 #!/usr/bin/python
 
-    # Command: python -c 'print "A" * 5000'
+    # Command: python3 -c 'print ("A" * 5000)'
 
-print "A" * 5000
+print ('A' * 5000)
 ```
 
 - Or just using a python command:
 
-    - `python -c 'print "A" * 5000'` 
+    - `python3 -c 'print ("A" * 5000)'` 
 
 - With this simple script we will generate 5000 bytes of "A's" at once:
 
-    - ![image](https://user-images.githubusercontent.com/94720207/169638415-43d37e2b-079b-4bd0-a8e2-e96c3a00c6dd.png)
+    - ![image](https://user-images.githubusercontent.com/94720207/169703432-c792cfff-9b98-4475-bd8f-9332af2a3c63.png)
 
 - And we will copy and paste it to the program, it's just like a basic "manual fuzzing" and then press `enter`:
 
@@ -161,17 +161,15 @@ print "A" * 5000
     
 - **For this step, we will use the tool `pattern_create` by Metasploit:**
 
-- ![image](https://user-images.githubusercontent.com/94720207/169657801-7163e03f-ad5e-4de0-accc-f963221b781b.png)
- 
     - In Kali machine (-l is for lenght):
     
         - `/usr/share/metasploit-framework/tools/exploit/pattern_create.rb -l 5000`
     
-    - ![image](https://user-images.githubusercontent.com/94720207/169460983-5457be7f-4a12-4f88-b31d-1d11a6a07153.png)
+    - ![image](https://user-images.githubusercontent.com/94720207/169657801-7163e03f-ad5e-4de0-accc-f963221b781b.png)
  
         - Now, instead of sending a bunch of `A`'s we will send the "crazy code", or better said, the pattern algorythm to find the offset.
         
-            - **Note: Again, the difference with `vuln server` is that we don't need a string before or something else, se just copy and paste the pattern just like we did with the A's**
+            - **Note: Again, the difference with `vuln server` is that we don't need a string before or `Suffix`, just copy and paste the pattern just like we did with the A's**
             
         - ![image](https://user-images.githubusercontent.com/94720207/169657959-c9040268-2d11-4088-9bcb-1c85ae828abe.png)
         
@@ -230,7 +228,9 @@ print "A" * 5000
 
 ### Results
 
-- **Crashing with an exact offset of `146` bytes**
+1. **Crashing with `5000` bytes flooding at once**
+
+2. **Crashing with an exact offset of `146` bytes**
 
 ---
 
@@ -278,21 +278,25 @@ try:
 except:
   print("Could not connect.")
 ```
-- ![image](https://user-images.githubusercontent.com/94720207/169674891-1c4ecc23-5571-4dc0-a23b-8e73278c2808.png)
+- ![image](https://user-images.githubusercontent.com/94720207/169703776-31ae3bba-3102-4c62-9d05-89c594ec9eeb.png)
 
     - **Execute it:**
 
-        - **`overflow1_step3_controllingEIP.py`**
+        - **`python3 overflow1_step3_controllingEIP.py`**
     
-    - ![image](https://user-images.githubusercontent.com/94720207/169674956-b6c8fa60-0e9c-4fab-80b8-9c479ccb2f1e.png)
+    - ![image](https://user-images.githubusercontent.com/94720207/169703821-6b445a04-2d58-443b-ac0d-0f75d66db579.png)
         
-    - ![image](https://user-images.githubusercontent.com/94720207/169674990-141ae8c6-d03d-4304-ae11-481d9294fc87.png)
+    - ![image](https://user-images.githubusercontent.com/94720207/169703863-9ec7cd5c-b6e5-4439-a5ba-6efe93aa274c.png)
 
 - The EIP register should now be overwritten with the 4 B's (e.g. 42424242).
 
 ### Results
 
+1. **Crashing with `5000` bytes flooding at once**
 
+2. **Crashing with an exact offset of `146` bytes**
+
+3. **Controlling EIP adding `BBBB` / `42424242` at offset `146` +1+2+3+4 bytes**
 
 ---
 
