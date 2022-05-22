@@ -98,6 +98,8 @@
 ```python
 #!/usr/bin/python
 
+    # Command: python -c 'print "A" * 5000'
+
 print "A" * 5000
 ```
 
