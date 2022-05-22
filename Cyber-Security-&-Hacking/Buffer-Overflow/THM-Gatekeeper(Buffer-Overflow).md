@@ -717,9 +717,9 @@ except:
 
 ---
 
-### Attacking the real OSCP Server
+### Attacking the real Gatekeeper Server
 
-- This final step is very easy, we only need to point agains the `Real OSCP Server` instead my bare metal Windows 10 PC.
+- This final step is very easy, we only need to point agains the `Real Gatekeeper Server` instead my bare metal Windows 10 PC.
 
     - To do that, we only need to change the payload from `msfvenom` with another LHOST & LPORT poining my THM-VPN (instead my local  192.168.1.100/24) 
     
@@ -737,7 +737,7 @@ except:
     - **`overflow1_step666_fz3r0_kill_OSCP.py`**
  
 ```python
-
+```
 
 
 
