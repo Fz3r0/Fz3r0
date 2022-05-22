@@ -800,10 +800,20 @@ except:
 
     - ![image](https://user-images.githubusercontent.com/94720207/169710594-dca8bb91-27a4-45bd-8475-28652151f88f.png)
 
-- **Reverse shell with root privileges gained from OSCP Server!!! It's done! :D** 
+- **Reverse shell user privileges gained from gatekeeper Server!!! It's done! :D** 
+
+    - NOTE: Ignore the "root shell" message from my script hehe, it look cooler in scenarios where App is executed as root (as many apps hosted in servers in "real life") 
 
 ---
 
+### Privilege Escalation
+
+- **I will use this technique for PrivEsc that I've found for this scenario, the original writeup recomend to use Metasploit but I will do it manual OSCP style.**
+
+    - https://www.howtogeek.com/69051/stupid-geek-tricks-hacking-the-firefox-profile-data-storage/
+
+- ![image](https://user-images.githubusercontent.com/94720207/169711177-9dc7d8f8-8439-47b6-86b6-41c31d4932c1.png)
+   
 
 
 
@@ -819,5 +829,7 @@ except:
 
 ### References
 
+- https://tryhackme.com/room/gatekeeper
 - https://steflan-security.com/tryhackme-gatekeeper-walkthrough/
 - https://github.com/hamza07-w/gatekeeper-tryHackme-writeup
+- https://w33vils.medium.com/gatekeeper-walkthrough-try-hack-me-97603ad3758c
