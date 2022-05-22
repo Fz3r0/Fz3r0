@@ -662,13 +662,25 @@ except:
   print("Could not connect.")
 ```
 
+- ![image](https://user-images.githubusercontent.com/94720207/169680580-e0f8d7c1-7b80-42a8-8bd2-6348356f8742.png)
+
 - **You can now exploit the buffer overflow to get a reverse shell!**
 
     - Start a netcat listener on your Kali box using the `LPORT` you specified in the `msfvenom` command eg. `4444`
-
-    - Restart `oscp.exe` and `Immunity Debugger` id needed and run the modified `overflow1_step567_Final_Payload.py` script. 
     
+        - `rlwrap nc -nlvp 4444`
+        
+        - ![image](https://user-images.githubusercontent.com/94720207/169680605-851bab0d-b416-4123-b949-7c12af9a8a37.png)
+  
+    - Restart `oscp.exe` (`Immunity Debugger` not needed anymore) and run the modified `overflow1_step567_Final_Payload.py` script.
+    
+    - Que chille!!!
+    
+        - `python3 overflow1_step567_Final_Payload.py` 
+
         - **Your netcat listener should catch a reverse shell!**
+        
+            -  
 
 ---
 
