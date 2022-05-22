@@ -149,6 +149,12 @@ print ('A' * 5000)
 
     - Remember, controlling the `EIP` is the puprose of all of this attack. 
 
+### Results
+
+1. **Crashing with `5000` bytes flooding at once**
+
+    - NOTE: Restart `Immunity Debugger` + `gatekeeper.exe` (`CTRL + F12`)
+
 ---  
 
 ### 2. Finding the Offset
@@ -232,6 +238,8 @@ print ('A' * 5000)
 
 2. **Crashing with an exact offset of `146` bytes**
 
+    - NOTE: Restart `Immunity Debugger` + `gatekeeper.exe` (`CTRL + F12`)
+
 ---
 
 ### 3. Controlling EIP
@@ -297,6 +305,8 @@ except:
 2. **Crashing with an exact offset of `146` bytes**
 
 3. **Controlling EIP adding `BBBB` / `42424242` at offset `146` +1+2+3+4 bytes**
+
+    - NOTE: Restart `Immunity Debugger` + `gatekeeper.exe` (`CTRL + F12`)
 
 ---
 
