@@ -125,19 +125,21 @@
 *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
 
 -->
-  
+
+--- 
+ 
 <h3 align="center">Cyber-Security Learning, Challenges & Hacking Labs</h3>
  
 <h4 align="center">Try Hack Me</h3>
-<h5 align="center">Fz3r0 @ Top 25 Mexico Rank | Top 1% Worldwide | [0xD] [GOD] </h3> 
+<h5 align="center">Fz3r0 @ Top 23 Mexico Rank | Top 1% Worldwide | [0xD] [GOD] </h3> 
   
 <p align="center"> <a href="https://tryhackme.com/p/fz3r0.carlos" target="_blank" rel="noreferrer"> <img src="https://user-images.githubusercontent.com/94720207/164392862-2fe8bf14-1e20-48b0-8d41-3b4e87927218.png" alt="TryHackMe2"> </a> </p>
-
+ 
 <h4 align="center">Hack the Box</h3>
-<h5 align="center">Fz3r0 @ Top 25 Mexico Rank | Top 495 Global | [Hacker] </h3> 
+<h5 align="center">Fz3r0 @ Top 16 Mexico Rank | Top 420 Global | [Hacker] </h3> 
  
 <p align="center"> <a href="https://tryhackme.com/p/fz3r0.carlos" target="_blank" rel="noreferrer"> <img src="https://user-images.githubusercontent.com/94720207/168684431-57d1290f-ab73-4daf-b9b1-a2688f64ed4e.png" alt="htb"> </a> </p> 
-  
+
  <!--
 
 https://www.hackthebox.com/badge/image/897009
