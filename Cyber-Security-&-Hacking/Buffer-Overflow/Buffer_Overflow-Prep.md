@@ -251,6 +251,8 @@ except:
         
     - ![image](https://user-images.githubusercontent.com/94720207/169674990-141ae8c6-d03d-4304-ae11-481d9294fc87.png)
 
+- The EIP register should now be overwritten with the 4 B's (e.g. 42424242).
+
 ### Results
 
 - << **Initial Crash at: `2000 bytes` (A * 2000)** >> 
@@ -275,7 +277,7 @@ except:
     
     - ![image](https://user-images.githubusercontent.com/94720207/169675175-14ed4dc9-45f5-4193-a625-7e26aa5d09cd.png)
 
-- **Another option for the array** is the following python script can be used to **generate a string of bad chars from \x01 to \xff**:
+- Now, generate a string of bad chars from \x01 to \xff**:
 
 ```python
 # Byte Array (badchars) creator
@@ -342,19 +344,19 @@ except:
     
     - ![image](https://user-images.githubusercontent.com/94720207/169675534-8abf7836-f498-48cf-a0be-34bfb613cb39.png)
         
-    - ![image](https://user-images.githubusercontent.com/94720207/169675591-19409bfe-8283-4a46-8296-19a94209ede5.png)
+    - ![image](https://user-images.githubusercontent.com/94720207/169676966-a0828e86-f6de-4b32-a4d0-65fb07a7439b.png)
 
-- **Make a note of the address to which the `ESP` register points:
+1. **Make a note of the address to which the `ESP` register points:
 
-    - **ESP points: `010EFA18`**
+    - **ESP points: `011EFA18`**
 
--  and use it in the following `mona` command:**
+2.  and use it in the following `mona` command:**
     
-    - `!mona compare -f C:\mona\oscp\bytearray.bin -a 010EFA18`
+    - `!mona compare -f C:\mona\oscp\bytearray.bin -a 011EFA18`
 
-- A popup window should appear labelled "mona Memory comparison results". _If not, use the Window menu to switch to it._
+3. A popup window should appear labelled "mona Memory comparison results". _If not, use the Window menu to switch to it._
 
-- ![image](https://user-images.githubusercontent.com/94720207/169675922-3f22bb88-aaa0-4b11-9d6a-62ad57c6274d.png)
+- ![image](https://user-images.githubusercontent.com/94720207/169677013-decb7889-d6a6-4ebd-97e3-1498563e487d.png)
 
 - **The window shows the results of the comparison**, indicating any characters that are different in memory to what they are in the generated `bytearray.bin` file.
 
@@ -384,11 +386,13 @@ except:
         
         - Pass 2 (badchar `x00` , `x01` removed from python script): 
         
-            - **ESP points: `0107FA18`**
-
-            - `!mona compare -f C:\mona\oscp\bytearray.bin -a 0107FA18`
+            - ![image](https://user-images.githubusercontent.com/94720207/169677289-2ab186ae-0512-4012-baec-e8656a6dc1a1.png)
             
-            - ![image](https://user-images.githubusercontent.com/94720207/169676131-bbd14181-8099-40ba-997f-8f067e819974.png)
+            - **ESP points: `0116FA18`**
+
+            - `!mona compare -f C:\mona\oscp\bytearray.bin -a 0116FA18`
+            
+            - ![image](https://user-images.githubusercontent.com/94720207/169677321-bdc4c93d-edb7-491e-8d63-e137c2317ef1.png)
  
         - Pass 3 (badchar `x00` , `x01` , `x07` , `x08` , `x21` removed from python script): 
         
