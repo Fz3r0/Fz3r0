@@ -346,73 +346,116 @@ except:
 
 - Step by step:
 
-1. Run `oscp.exe` and `immunity debugger` and **make the byte array in mona:**
+1. Run the python script for first time with all the badchars from \x01 to \xFF:
+
+    - ![image](https://user-images.githubusercontent.com/94720207/169677957-8f6774fe-64eb-439e-8ba4-6cf09c193c36.png)
+    
+    - ![image](https://user-images.githubusercontent.com/94720207/169678141-097d89ab-a46c-4bbc-a198-a244f996c545.png)
+ 
+2. **Make a note of the address to which the `ESP` register points:
+
+    - **ESP points: `011DFA18`**
+
+3. Run `oscp.exe` and `immunity debugger` and **make the byte array in mona:**
 
     - `!mona bytearray -b "\x00"`
     
     - ![image](https://user-images.githubusercontent.com/94720207/169675140-ff7dd2ea-207e-4318-ab84-7b22a94af7b9.png)` 
 
-2. Run the python script for first time with all the badchars from \x01 to \xFF:
-
-    -  
-
-3. **Make a note of the address to which the `ESP` register points:
-
-    - **ESP points: `011EFA18`**
-
 4.  Now use it in the following `mona` command for compare de previously generated array:**
     
-    - `!mona compare -f C:\mona\oscp\bytearray.bin -a 011EFA18`
+    - `!mona compare -f C:\mona\oscp\bytearray.bin -a 011DFA18`
 
 5. A popup window should appear labelled "mona Memory comparison results". _If not, use the Window menu to switch to it._
 
-- ![image](https://user-images.githubusercontent.com/94720207/169677013-decb7889-d6a6-4ebd-97e3-1498563e487d.png)
+    - ![image](https://user-images.githubusercontent.com/94720207/169678216-9e299a17-2eb7-4153-a06a-d127cb456ab3.png)
 
-- **The window shows the results of the comparison**, indicating any characters that are different in memory to what they are in the generated `bytearray.bin` file.
+        - **The window shows the results of the comparison**, indicating any characters that are different in memory to what they are in the generated `bytearray.bin` file.
 
-    - **IMPORTANT: Not all of these might be `badchars`! Sometimes badchars cause the next byte to get corrupted as well, or even effect the rest of the string. _(Just like the example in the vuln server lab)_**
-    
-- **Find Badchars:**
-    
-    1. The first badchar in the list should be the null byte `\x00` since we already removed it from the file. 
-    
-    2. Make a note of any others. 
-    
-    3. Generate a new `bytearray` in `mona`, specifying these new `badchars` along with `\x00`. 
-    
-    4. Then update the `payload` variable in your `overflow1_step4_findBadchars.py` script and remove the **new badchars** as well.
+        - **IMPORTANT: Not all of these might be `badchars`! Sometimes badchars cause the next byte to get corrupted as well, or even effect the rest of the string. _(Just like the example in the vuln server lab)_**
 
-    5. Restart `oscp.exe` in `Immunity Debugger` and run the `overflow1_step4_findBadchars.py` script again. 
+        - The first badchar in the list should be the null byte `\x00` since we already removed it from the file. 
     
-    6. **Repeat the badchar comparison until the results status returns `Unmodified`. This indicates that no more badchars exist.** 
+        - **Make a note of any others.** 07, 08, 21 
+    
+6. Generate a new `bytearray` in `mona`, specifying these new `badchars` along with `\x00`.
 
-        - Pass 1:
-         
-            - **ESP points: `010EFA18`** 
-            
-            - `!mona compare -f C:\mona\oscp\bytearray.bin -a 010EFA18`
+    - `!mona bytearray -b "\x00\x07\x08\x21"`
+    
+    - ![image](https://user-images.githubusercontent.com/94720207/169678313-d27dfa8d-550f-4d25-bf8b-847ad99e7afb.png)
+     
+7. Then update the `payload` variable in your `overflow1_step4_findBadchars.py` script and remove the **new badchars** as well `"\x00\x07\x08\x21"`.
 
-            - ![image](https://user-images.githubusercontent.com/94720207/169675947-9063f186-7836-4f9d-9195-44e014049934.png)
+    - ![image](https://user-images.githubusercontent.com/94720207/169678372-8b208219-4eb3-4d3f-83ce-105073646520.png)
+
+8. Restart `oscp.exe` in `Immunity Debugger` and run the `overflow1_step4_findBadchars.py` script again.
+
+    - ![image](https://user-images.githubusercontent.com/94720207/169678420-ac75679f-40f9-436b-b01d-87aeb2516a68.png)
+    
+    - ![image](https://user-images.githubusercontent.com/94720207/169678485-15817988-fc69-4854-af77-ea9f0e74c7ff.png)
+      
+9. **Repeat the badchar comparison until the results status returns `Unmodified`. This indicates that no more badchars exist.** 
+
+    - **ESP points: `011BFA18`**
+    
+    - `!mona compare -f C:\mona\oscp\bytearray.bin -a 011BFA18` 
+    
+    - ![image](https://user-images.githubusercontent.com/94720207/169678507-e1390bff-45ac-4545-86ee-5f9241586753.png)
+
+- **Repeating:** (Loop to **step 6**) (adding \x22)
+
+8. Generate a new `bytearray` in `mona`, specifying these new `badchars` along with `\x00`.
+
+    - `!mona bytearray -b "\x00\x07\x08\x21\x22"`
+    
+    - ![image](https://user-images.githubusercontent.com/94720207/169678572-1046be7e-b00f-4408-a2de-4e7c89b95070.png)
+
+9. Then update the `payload` variable in your `overflow1_step4_findBadchars.py` script and remove the **new badchars** as well `"\x00\x07\x08\x21\x22"`.
+
+    - ![image](https://user-images.githubusercontent.com/94720207/169678633-2a583905-a4db-4341-a506-561db6a2b913.png)
+
+10. Restart `oscp.exe` in `Immunity Debugger` and run the `overflow1_step4_findBadchars.py` script again.
+
+    - ![image](https://user-images.githubusercontent.com/94720207/169678679-aff860b2-127d-400e-b17e-20567a098672.png)
+    
+    - ![image](https://user-images.githubusercontent.com/94720207/169678697-13cf1341-f763-4de2-b820-aec6576281a4.png)
+      
+11. **Repeat the badchar comparison until the results status returns `Unmodified`. This indicates that no more badchars exist.** 
+
+    - **ESP points: `0105FA18`**
+    
+    - `!mona compare -f C:\mona\oscp\bytearray.bin -a 0105FA18` 
+    
+    - ![image](https://user-images.githubusercontent.com/94720207/169678704-c0f9c862-68ea-428d-a8f6-3378f10e4fd8.png)
+
+- **Repeating:** (Loop to **step 6**) (adding \x23)
+
+12. Generate a new `bytearray` in `mona`, specifying these new `badchars` along with `\x00`.
+
+    - `!mona bytearray -b "\x00\x07\x08\x21\x22\x23"`
+    
+    - ![image](https://user-images.githubusercontent.com/94720207/169678751-c14c7dd4-4e7e-4f72-b105-b2c8040bf3e2.png)
+
+9. Then update the `payload` variable in your `overflow1_step4_findBadchars.py` script and remove the **new badchars** as well `"\x00\x07\x08\x21\x22\x23"`.
+
+    - ![image](https://user-images.githubusercontent.com/94720207/169678769-5356627a-98a9-4083-8462-b5cf3928272f.png)
+
+10. Restart `oscp.exe` in `Immunity Debugger` and run the `overflow1_step4_findBadchars.py` script again.
+
+    - ![image](https://user-images.githubusercontent.com/94720207/169678794-3a38c212-bcd9-455d-a9ef-35d7ce2063bd.png)
+    
+    - ![image](https://user-images.githubusercontent.com/94720207/169678821-15d989db-79ff-4272-9206-b7e0a2056489.png)
+      
+11. **Repeat the badchar comparison until the results status returns `Unmodified`. This indicates that no more badchars exist.** 
+
+    - **ESP points: `0108FA18`**
+    
+    - `!mona compare -f C:\mona\oscp\bytearray.bin -a 0108FA18` 
+    
+    - ![image](https://user-images.githubusercontent.com/94720207/169678850-24ea71b3-4599-4764-a069-d7e41d64cd37.png)
+
+- **Repeating:** (Loop to **step 6**) (adding \x23)
         
-        - Pass 2 (badchar `x00` , `x01` removed from python script): 
-        
-            - ![image](https://user-images.githubusercontent.com/94720207/169677289-2ab186ae-0512-4012-baec-e8656a6dc1a1.png)
-            
-            - **ESP points: `0116FA18`**
-
-            - `!mona compare -f C:\mona\oscp\bytearray.bin -a 0116FA18`
-            
-            - ![image](https://user-images.githubusercontent.com/94720207/169677321-bdc4c93d-edb7-491e-8d63-e137c2317ef1.png)
- 
-        - Pass 3 (badchar `x00` , `x01` , `x07` , `x08` , `x21` removed from python script): 
-        
-            - **ESP points: `0118FA18`**
-
-            - `!mona compare -f C:\mona\oscp\bytearray.bin -a 0118FA18`
-            
-            - ![image](https://user-images.githubusercontent.com/94720207/169676282-9e22aec6-c759-415c-af6e-5cc52ea9c9e9.png)
-            
-                - Pass 3 shows the same results as Pass 2. 
 --- 
 
 ### 4. Finding a Jump Point
