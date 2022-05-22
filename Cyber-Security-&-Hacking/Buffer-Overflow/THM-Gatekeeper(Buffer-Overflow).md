@@ -644,7 +644,7 @@ except:
     4. padding
     5. payload set
 
-- **Final Payload Script = `overflow1_step567_Final_Payload.py`**
+- **Final Payload Script = `overflow_gatekeeper_step567_Final_Payload.py`**
 
 ```python
 import socket
@@ -705,11 +705,11 @@ except:
         
         - ![image](https://user-images.githubusercontent.com/94720207/169708775-d35349cf-2ecb-4cec-8e3b-6bff31f3c72a.png)
   
-    - Restart `gatekeeper.exe` (`Immunity Debugger` not needed anymore) and run the modified `overflow1_step567_Final_Payload.py` script.
+    - Restart `gatekeeper.exe` (`Immunity Debugger` not needed anymore) and run the modified `overflow_gatekeeper_step567_Final_Payload.py` script.
     
     - Que chille!!!
     
-        - `python3 overflow1_step567_Final_Payload.py` 
+        - `python3 overflow_gatekeeper_step567_Final_Payload.py` 
 
         - **Your netcat listener should catch a reverse shell!**
         
