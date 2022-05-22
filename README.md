@@ -617,6 +617,7 @@ You must take control of it. You must make the machine yours.
 _The world is a messy place, at least you now have a way of choosing a path... right?..._
 _There is no path...
 
+_The Strength Of The Human Heart. The Difference Between Us And Machines_
 ---
 
 > ![hecho en mex3 (1)mini](https://user-images.githubusercontent.com/94720207/163919294-2754caa3-c98c-4df3-b782-00703e4d3343.png)
