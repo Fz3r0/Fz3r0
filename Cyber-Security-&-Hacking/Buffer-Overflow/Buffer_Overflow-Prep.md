@@ -1,7 +1,33 @@
 
 
+### Lab Setup
 
----
+- Instead of using the Windows VM of THM I will download the folder `Vulnerable Apps` to my bare metal Windows 10 and do the exploits local in my network. 
+
+- To do the exploit and take the flag of each task, I will change the `RHOST` and `RPORT` of my python scripts to point to the THM Lab and Buffer `Overflow PREP` Machine instead of my `Local fz3r0 Lab Machine`. 
+
+- I will use the same setup for `Vuln Server` or other buffer overflow Labs:
+        
+    - Using Windows 10 Pro on a bare metal CPU
+        - `chatserver.exe` + `.dll` running here
+        - `Immunity Debugger` + `mona` running here
+                
+    - Using Kali Linux in a VMware Pro VM
+        - `python` scripts and tricky tricks running here
+            
+    - Both machines connected on the same Network 192.168.1.0/24 (My local Network)
+            
+    - Once I've exploited the program `chatserver.exe` in my own machine, then I can exploit "the real" server with the final script:
+            
+        - `TryHackMe - Buffer Overflow Prep` Network, UK.    
+        
+    - So I will transfer the files from the TryHackMe Machine-FTP to a folder to my Windows 10 and use from there `Immunity Debugger` and also run the `oscp.exe` binary.
+        
+        - ![image](https://user-images.githubusercontent.com/94720207/169673734-7b549b57-8efc-46d2-8d3f-a99a5d7aee7a.png)
+          
+    - Easy! Let's do it! 
+
+--- 
 
 ### Mona Configuration
 
