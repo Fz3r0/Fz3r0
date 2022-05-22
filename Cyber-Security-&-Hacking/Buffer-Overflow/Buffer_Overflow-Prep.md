@@ -187,7 +187,7 @@ except:
 
     - `EIP contains normal pattern : ... (offset XXXX)`
 
-- **Results:**
+### Results
 
 - << **Initial Crash at: `2000 bytes` (A * 2000)** >> 
 
@@ -247,12 +247,19 @@ except:
 
         - **`overflow1_step3_controllingEIP.py`**
     
-    - ![image](https://user-images.githubusercontent.com/94720207/169674431-bafa5cbc-a013-4ea0-891a-65af5359d3f5.png)
+    - ![image](https://user-images.githubusercontent.com/94720207/169674956-b6c8fa60-0e9c-4fab-80b8-9c479ccb2f1e.png)
         
-    - ![image](https://user-images.githubusercontent.com/94720207/169674447-06bbf9c3-4c89-4f99-b335-b8dd727d3254.png)
- 
-        - << **Crashed at: `2000 bytes` (A * 2000)** >> 
+    - ![image](https://user-images.githubusercontent.com/94720207/169674990-141ae8c6-d03d-4304-ae11-481d9294fc87.png)
 
+### Results
+
+- << **Initial Crash at: `2000 bytes` (A * 2000)** >> 
+
+- << **Exact Offset for Crash: `1978 bytes` (A * 1978)** >> 
+
+- << **"Perfect world" buffer gap A = 1978 bytes + (EIP) B = 4 bytes, controlling EIP just at `1978(A's) + 4(B's)` with `42424242` `BBBB`** >> 
+    
+    - _Note: Restart the Lab after the crash._
 
 ---  
 
