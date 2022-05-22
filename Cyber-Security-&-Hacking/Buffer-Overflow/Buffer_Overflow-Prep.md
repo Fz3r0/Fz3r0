@@ -275,8 +275,6 @@ except:
     
     - ![image](https://user-images.githubusercontent.com/94720207/169675140-ff7dd2ea-207e-4318-ab84-7b22a94af7b9.png)
     
-    - ![image](https://user-images.githubusercontent.com/94720207/169675175-14ed4dc9-45f5-4193-a625-7e26aa5d09cd.png)
-
 - Now, generate a string of bad chars from \x01 to \xff**:
 
 ```python
@@ -346,15 +344,27 @@ except:
         
     - ![image](https://user-images.githubusercontent.com/94720207/169676966-a0828e86-f6de-4b32-a4d0-65fb07a7439b.png)
 
-1. **Make a note of the address to which the `ESP` register points:
+- Step by step:
+
+1. Run `oscp.exe` and `immunity debugger` and **make the byte array in mona:**
+
+    - `!mona bytearray -b "\x00"`
+    
+    - ![image](https://user-images.githubusercontent.com/94720207/169675140-ff7dd2ea-207e-4318-ab84-7b22a94af7b9.png)` 
+
+2. Run the python script for first time with all the badchars from \x01 to \xFF:
+
+    -  
+
+3. **Make a note of the address to which the `ESP` register points:
 
     - **ESP points: `011EFA18`**
 
-2.  and use it in the following `mona` command:**
+4.  Now use it in the following `mona` command for compare de previously generated array:**
     
     - `!mona compare -f C:\mona\oscp\bytearray.bin -a 011EFA18`
 
-3. A popup window should appear labelled "mona Memory comparison results". _If not, use the Window menu to switch to it._
+5. A popup window should appear labelled "mona Memory comparison results". _If not, use the Window menu to switch to it._
 
 - ![image](https://user-images.githubusercontent.com/94720207/169677013-decb7889-d6a6-4ebd-97e3-1498563e487d.png)
 
@@ -511,4 +521,6 @@ payload = (huevos)
 
 ### References
 
+- https://tryhackme.com/room/bufferoverflowprep
 - https://github.com/Tib3rius/Pentest-Cheatsheets/blob/master/exploits/buffer-overflows.rst
+- https://youtu.be/eLIRjcI5eYU
