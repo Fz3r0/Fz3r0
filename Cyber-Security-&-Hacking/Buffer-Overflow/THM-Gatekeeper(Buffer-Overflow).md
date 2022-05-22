@@ -808,11 +808,25 @@ except:
 
 ### Privilege Escalation
 
+- After some Enummeration I found that the PrivEsc vector was using the firefox profile.
+
+    - ![image](https://user-images.githubusercontent.com/94720207/169711913-df2264c8-6b38-46a5-a891-c8213b716535.png)
+  
 - **I will use this technique for PrivEsc that I've found for this scenario, the original writeup recomend to use Metasploit but I will do it manual OSCP style.**
 
+    - https://support.mozilla.org/en-US/kb/profiles-where-firefox-stores-user-data
     - https://www.howtogeek.com/69051/stupid-geek-tricks-hacking-the-firefox-profile-data-storage/
 
-- ![image](https://user-images.githubusercontent.com/94720207/169711177-9dc7d8f8-8439-47b6-86b6-41c31d4932c1.png)
+- To perform this PrivEsc I need the following files:
+
+    1. `login.json` and `key4.db` where passwords are stored
+    2. `cert9.db` which contains all security certificate settings
+
+- These files are stored under `%APPDATA%\Mozilla\Firefox\Profiles\`
+
+    - We move to that directory and prepare to copy the files. 
+    
+    - We can set up an `smbserver` on our Kali machine to achieve this.
    
 
 
