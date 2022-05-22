@@ -34,6 +34,20 @@
 - The mona script has been preinstalled, however to make it easier to work with, you should configure a working folder using the following command, which you can run in the command input box at the bottom of the Immunity Debugger window:
 
     - `!mona config -set workingfolder c:\mona\%p`
+    
+    - ![image](https://user-images.githubusercontent.com/94720207/169673777-cf70c41e-5ce9-445f-885a-77515903a49b.png)
+ 
+---
+
+### Launching oscp.exe
+
+- Launch as admin `oscp.exe` server:
+
+   - ![image](https://user-images.githubusercontent.com/94720207/169673859-b4c4060e-b9bf-4c7c-90d4-57f365ff4106.png)
+
+- Testing connection from a `netcat`:
+
+    - ![image](https://user-images.githubusercontent.com/94720207/169673900-ac2e6ca1-fb29-45a6-93e7-c5daf539d065.png)
 
 ---
 
@@ -45,6 +59,8 @@
     
 - Make a note of the largest number of bytes that were sent.
 
+- **Local IPv4 Version `192.168.1.100`**
+
     - `overflow1_step1_fuzzing.py` (chmod +x)
 
 ```python
@@ -52,7 +68,7 @@
 
 import socket, time, sys
 
-ip = "10.10.56.134"
+ip = "192.168.1.100"
 
 port = 1337
 timeout = 5
@@ -76,7 +92,13 @@ while True:
   time.sleep(1)
 ```
 
-- `python3_fuzzer.py`
+- ![image](https://user-images.githubusercontent.com/94720207/169673843-c4473b9d-630f-4e73-b1a7-3672623c6083.png)
+
+    - **Execute it:**
+
+        - **`python3 overflow1_step1_fuzzing.py`**
+
+    - 
 
 ---
 
