@@ -405,20 +405,56 @@ except:
 
         - **IMPORTANT: Not all of these might be `badchars`! Sometimes badchars cause the next byte to get corrupted as well, or even effect the rest of the string. _(Just like the example in the vuln server lab)_**
 
-        - The first badchar in the list should be the null byte `\x00` since we already removed it from the file. 
+            - **The first badchar in the list should be the null byte `\x00` since we already removed it from the file.** 
     
-        - **Make a note of any others.** `07, 08, 09, 2e, 2f, a0, a1`
+            - **Make a note of any others.** `07, 08, 09, 2e, 2f, a0, a1`
+            
+            - **Remember to take note of the "corrupted" bytes located next the real badchars (08, 09, 2f, a1)** 
+            
+                 - Full list : `\x00\x07\x08\x09\x2E\x2F\xA0\xA1`
+                 - **Badchars**  : **`\x00\x07\x2E\xA0`**
+                 - Corrputed : `\x08\x09\x2F\xA1` 
     
-6. Generate a new `bytearray` in `mona`, specifying these new `badchars` along with `\x00`.
+6. Generate a new `bytearray` in `mona`, specifying these new **`Badchars`** along with `\x00`.
 
-    - `!mona bytearray -b "\x00\x07\x08\x09\x2E\x2F\xA0\xA1"`
+    - `!mona bytearray -b "\x00\x07\x2E\xA0"`
     
-    - ![image](https://user-images.githubusercontent.com/94720207/169705358-9c44f490-373f-43b4-bd30-c0644c941742.png)
+    - ![image](https://user-images.githubusercontent.com/94720207/169705768-f3f08f01-3588-4dff-b79c-1cab0ab799fd.png)
      
-7. Then update the `payload` variable in your `overflow_gatekeeper_find_badchars.py` script and remove the **new badchars** as well `"\x00\x07\x08\x09\x2E\x2F\xA0\xA1"`.
+7. Then update the `payload` variable in your `overflow_gatekeeper_find_badchars.py` script and remove the **new badchars** as well `"\x00\x07\x2E\xA0"`.
 
-    - ![image](https://user-images.githubusercontent.com/94720207/169679682-7ad1e822-12d7-41d2-9d5c-f0580b637593.png)
+    - ![image](https://user-images.githubusercontent.com/94720207/169705837-aff40eaf-38ac-4f3f-a135-e03b6f055f7b.png)
 
+```python
+payload = "\x01\x02\x03\x04\x05\x06\x08\x09\x0a\x0b\x0c\x0d\x0e\x0f\x10\x11\x12\x13\x14\x15\x16\x17\x18\x19\x1a\x1b\x1c\x1d\x1e\x1f\x20\x21\x22\x23\x24\x25\x26\x27\x28\x29\x2a\x2b\x2c\x2d\x2f\x30\x31\x32\x33\x34\x35\x36\x37\x38\x39\x3a\x3b\x3c\x3d\x3e\x3f\x40\x41\x42\x43\x44\x45\x46\x47\x48\x49\x4a\x4b\x4c\x4d\x4e\x4f\x50\x51\x52\x53\x54\x55\x56\x57\x58\x59\x5a\x5b\x5c\x5d\x5e\x5f\x60\x61\x62\x63\x64\x65\x66\x67\x68\x69\x6a\x6b\x6c\x6d\x6e\x6f\x70\x71\x72\x73\x74\x75\x76\x77\x78\x79\x7a\x7b\x7c\x7d\x7e\x7f\x80\x81\x82\x83\x84\x85\x86\x87\x88\x89\x8a\x8b\x8c\x8d\x8e\x8f\x90\x91\x92\x93\x94\x95\x96\x97\x98\x99\x9a\x9b\x9c\x9d\x9e\x9f\xa1\xa2\xa3\xa4\xa5\xa6\xa7\xa8\xa9\xaa\xab\xac\xad\xae\xaf\xb0\xb1\xb2\xb3\xb4\xb5\xb6\xb7\xb8\xb9\xba\xbb\xbc\xbd\xbe\xbf\xc0\xc1\xc2\xc3\xc4\xc5\xc6\xc7\xc8\xc9\xca\xcb\xcc\xcd\xce\xcf\xd0\xd1\xd2\xd3\xd4\xd5\xd6\xd7\xd8\xd9\xda\xdb\xdc\xdd\xde\xdf\xe0\xe1\xe2\xe3\xe4\xe5\xe6\xe7\xe8\xe9\xea\xeb\xec\xed\xee\xef\xf0\xf1\xf2\xf3\xf4\xf5\xf6\xf7\xf8\xf9\xfa\xfb\xfc\xfd\xfe\xff"
+```
+
+8. Restart `gatekeeper.exe` in `Immunity Debugger` and run the `overflow_gatekeeper_find_badchars.py` script again.
+
+    - ![image](https://user-images.githubusercontent.com/94720207/169678420-ac75679f-40f9-436b-b01d-87aeb2516a68.png)
+    
+    - ![image](https://user-images.githubusercontent.com/94720207/169679715-dc96830b-0605-42bc-ba6e-e40e0a98dd1c.png)
+      
+9. **Repeat the badchar comparison until the results status returns `Unmodified`. This indicates that no more badchars exist.** 
+
+    - **ESP points: `0105FA18`**
+    
+    - `!mona compare -f C:\mona\oscp\bytearray.bin -a 0105FA18` 
+    
+    - ![image](https://user-images.githubusercontent.com/94720207/169679745-27ea4da9-0929-47d3-ac00-6bedfda8c2c5.png)
+
+    - ![image](https://user-images.githubusercontent.com/94720207/169679762-cf839a68-34f9-4d43-ac90-d5b46db07de1.png)
+    
+        - Total `badchars` : `\x00\x07\x08\x2E\x2F\xA0\xA1`
+        - REAL `badchars`  : `\x00\x07\x2e\xa0`  
+ 
+ - **Visual Badchars**
+ 
+     - ![image](https://user-images.githubusercontent.com/94720207/169683987-310da220-595b-4758-ac4c-6e13ab4c8cb0.png)
+ 
+     - ![image](https://user-images.githubusercontent.com/94720207/169684268-893d5639-0048-4f6c-84b0-cf32959cad82.png)
+ 
+### Results
 
 
 
