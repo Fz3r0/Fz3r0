@@ -392,7 +392,9 @@ payload = "\x01\x02\x03\x04\x05\x06\x09\x0a\x0b\x0c\x0d\x0e\x0f\x10\x11\x12\x13\
 
     - ![image](https://user-images.githubusercontent.com/94720207/169679762-cf839a68-34f9-4d43-ac90-d5b46db07de1.png)
     
-        - Total `badchars` : `\x00\x07\x08\x2E\x2F\xA0\xA1` 
+        - Total `badchars` : `\x00\x07\x08\x2E\x2F\xA0\xA1`
+        
+        - REAL `badchars` : `\x00\x07\x2e\xa0`  
 
 ### Results
 
@@ -402,7 +404,7 @@ payload = "\x01\x02\x03\x04\x05\x06\x09\x0a\x0b\x0c\x0d\x0e\x0f\x10\x11\x12\x13\
 
 - << **"Perfect world" buffer gap A = 1978 bytes + (EIP) B = 4 bytes, controlling EIP just at `1978(A's) + 4(B's)` with `42424242` `BBBB`** >> 
 
-- << **`Badchars` : `\x00\x07\x08\x2E\x2F\xA0\xA1`** >>  
+- << **`Badchars` : `\x00\x07\x08\x2E\x2F\xA0\xA1` Real Badchars: `\x00\x07\x2e\xa0`** >>  
     
     - _Note: Restart the Lab after the crash._
 --- 
