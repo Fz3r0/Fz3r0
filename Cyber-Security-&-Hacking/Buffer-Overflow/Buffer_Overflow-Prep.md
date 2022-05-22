@@ -49,6 +49,12 @@
 
     - ![image](https://user-images.githubusercontent.com/94720207/169673900-ac2e6ca1-fb29-45a6-93e7-c5daf539d065.png)
 
+- Attach `oscp.exe` to `Immunity Debugger`
+
+    - ![image](https://user-images.githubusercontent.com/94720207/169674019-099f0c58-5760-4bbc-b527-59f142fada31.png)
+  
+- Lock and Loaded!
+
 ---
 
 ### 1. Fuzzing
