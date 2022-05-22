@@ -798,7 +798,7 @@ except:
 
 - The final victory, time to the real attack against the Gatekeeper Server, execute script!!!:
 
-    - ![image](https://user-images.githubusercontent.com/94720207/169681957-eeddd076-a653-453c-8f94-e35b3b6b4508.png)
+    - ![image](https://user-images.githubusercontent.com/94720207/169710594-dca8bb91-27a4-45bd-8475-28652151f88f.png)
 
 - **Reverse shell with root privileges gained from OSCP Server!!! It's done! :D** 
 
