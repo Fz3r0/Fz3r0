@@ -481,11 +481,13 @@ I can read people's minds...
 - https://github.com/Fz3r0/CheatSheet
 - https://github.com/Fz3r0/PowerTools powershell
 
-### Buffer Overflow
+### Buffer Overflow (OSCP Style)
 
 - [Buffer Overflow guide - Vuln Server, writeup by @ Fz3r0](/Cyber-Security-&-Hacking/Buffer-Overflow/buffer-overflow.md)
 - [Buffer Overflow Lab - THM Brainstorm, writeup by @ Fz3r0](/Cyber-Security-&-Hacking/Buffer-Overflow/THM-Brainstorm(Buffer-Overflow-CTF).md)
-
+- [Buffer Overflow guide - OSCP Peparation, writeup by @Fz3r0](/Cyber-Security-&-Hacking/Buffer-Overflow/Buffer_Overflow-Prep.md)
+- [Buffer Overflow Lab - Gatekeeper, writeup by @ Fz3r0](https://github.com/Fz3r0/Fz3r0/blob/main/Cyber-Security-%26-Hacking/Buffer-Overflow/THM-Gatekeeper(Buffer-Overflow).md)
+ 
 ### Privilege Escalation (PrivEsc)
   
 - Linux PrivEsc
