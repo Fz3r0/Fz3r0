@@ -393,9 +393,14 @@ payload = "\x01\x02\x03\x04\x05\x06\x09\x0a\x0b\x0c\x0d\x0e\x0f\x10\x11\x12\x13\
     - ![image](https://user-images.githubusercontent.com/94720207/169679762-cf839a68-34f9-4d43-ac90-d5b46db07de1.png)
     
         - Total `badchars` : `\x00\x07\x08\x2E\x2F\xA0\xA1`
-        
-        - REAL `badchars` : `\x00\x07\x2e\xa0`  
-
+        - REAL `badchars`  : `\x00\x07\x2e\xa0`  
+ 
+ - **Visual Badchars**
+ 
+     - ![image](https://user-images.githubusercontent.com/94720207/169683987-310da220-595b-4758-ac4c-6e13ab4c8cb0.png)
+ 
+     - ![image](https://user-images.githubusercontent.com/94720207/169684268-893d5639-0048-4f6c-84b0-cf32959cad82.png)
+ 
 ### Results
 
 - << **Initial Crash at: `2000 bytes` (A * 2000)** >> 
