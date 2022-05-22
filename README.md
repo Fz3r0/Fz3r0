@@ -428,21 +428,10 @@ Guides, Tips & Tricks, Downloads, Binaries, Executables, Scripts, Open Source Co
 
 -->  
   
-# Offensive Security & Hacking 😈
-
-I'm the master, machine controller, human interface. Maybe one day I'll work for you... 
+# Offensive Security & Hacking 
 
 Here's the machine the strangers use to amplify their thoughts, the machine that changes their world... 
 You must take control of it. You must make the machine yours. 
-I know you can beat them, but you must concentrate...
-
-You'll find strength within yourself...and you will prevail. 
-
-There is no time for romance. The world can be what you make it. You have the power to make anything happen...but you must act now!
-
-I can control their machines.
-
-I can read people's minds...
 
 ### Hacking Bibles
 
@@ -460,24 +449,25 @@ I can read people's minds...
 
 ### Cyber-Weapons & Tools
     
-- Databases & Arsenals     
+- **Databases & Arsenals**     
     - [Blackhat Arsenal Tools](https://github.com/toolswatch/blackhat-arsenal-tools) _Official Black Hat Arsenal Database_
     - [Kali Tools](/Cyber-Security-&-Hacking/Cyber-Weapons-Tools/Cyber-Weapons-Tools-DB.md)
     
-- Standalone
+- **Standalone**
     - [Windows - Advanced Archive Password Recovery (.zip, .rar, etc)](https://github.com/Fz3r0/Fz3r0/files/8693722/advanced-archive-password-recovery-4-54-110.zip)
     - [Kaspersky - Cybermap](https://cybermap.kaspersky.com/es)  
 
-- Pivoting & Port Forwarding
+- **Pivoting & Port Forwarding**
     - [Chisel](https://github.com/jpillora/chisel) _server/client. Fast TCP/UDP tunnel, transported over HTTP, secured via SSH_
     - [Chisel Releases](https://github.com/jpillora/chisel/releases)
 
-- Enum & PrivEsc
+- **Enum & PrivEsc**
     - [pspy](https://github.com/DominicBreuker/pspy) _Process viewer_
     - [peas (winpeas, linpeas)]() _Tasty peas :3_  
 
 ### Scripts & Commands for Digital Black Magic & Hacking
  
+- Fz3r0 > [Commands and Scripts for Dark Arts]() < Fz3r0
 - https://github.com/Fz3r0/CheatSheet
 - https://github.com/Fz3r0/PowerTools powershell
 
