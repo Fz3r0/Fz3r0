@@ -2011,7 +2011,15 @@ if __name__ == "__main__":
 
 - ![image](https://user-images.githubusercontent.com/94720207/169717317-7a0f0d05-73a1-442d-b264-bbc2b6dbc198.png)
 
-    - **It's done :) We have root privileges and total control in the real `Gatekeeper Server`: 
+    - I can login using `RDP` too: 
+    
+        - `remmina -c rdp://user*****:pass*********@$ip_target`
+    
+        - ![image](https://user-images.githubusercontent.com/94720207/169718501-76fa0a34-c821-428b-b2c1-b2351efdda0e.png)
+    
+        - ![image](https://user-images.githubusercontent.com/94720207/169718663-994970bf-f380-48cf-8bc7-62d1884489ab.png)
+
+    - **It's done :) We have root privileges and total control in the real `Gatekeeper Server`:** 
     
         1. **We have exploited this buffer overflow like a Sir.**
         2. **We Priv-Esc using Firefox Profile Data Exploit**
