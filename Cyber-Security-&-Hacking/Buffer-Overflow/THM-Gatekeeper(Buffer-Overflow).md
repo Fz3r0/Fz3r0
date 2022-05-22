@@ -1992,13 +1992,19 @@ if __name__ == "__main__":
         sys.exit(e.exitcode)
 ```
 </details>
-    
+
+### Exploit
     
 - I will copy or move the `logins.json`, `key4.db` & `cert9.db` to the same directory of `firefox_decrypt` tool
 
     - ![image](https://user-images.githubusercontent.com/94720207/169716137-effe0aee-3c1f-41ae-ab69-aa3dcd00fbb3.png)
 
-- 
+- Execute `firefox_decrypt.py` 
+
+    - ![image](https://user-images.githubusercontent.com/94720207/169716679-f5dfe627-e1c6-49c3-a561-bdc696b83f58.png)
+
+-     
+
 
 
 
