@@ -6,7 +6,7 @@
 
 - ![image](https://user-images.githubusercontent.com/94720207/169709884-f10463c3-49fe-47b6-b23a-4c7b29199467.png)
 
-- ![image](https://user-images.githubusercontent.com/94720207/169636037-e216bbad-391c-496c-b461-0e2d65dc1b94.png)
+- ![image](https://user-images.githubusercontent.com/94720207/169717460-dcdb093d-f04a-4121-b3f4-472e33a22289.png)
 
 - ![image](https://user-images.githubusercontent.com/94720207/169636850-2f3d5382-d440-4761-9dc2-d9acc64dc4d2.png)
 
@@ -2003,9 +2003,23 @@ if __name__ == "__main__":
 
     - ![image](https://user-images.githubusercontent.com/94720207/169716679-f5dfe627-e1c6-49c3-a561-bdc696b83f58.png)
 
--     
+- We can then use `smbexec` to connect to the Server via `smb` 
 
+    - You can also try with `psexec` or `wmiexec` to log into the server with the credentials provided.
+    
+        - `/usr/share/doc/python3-impacket/examples/smbexec.py 'user*****:pass******@$ip_target'`
 
+- ![image](https://user-images.githubusercontent.com/94720207/169717317-7a0f0d05-73a1-442d-b264-bbc2b6dbc198.png)
+
+    - **It's done :) We have root privileges and total control in the real `Gatekeeper Server`: 
+    
+        1. **We have exploited this buffer overflow like a Sir.**
+        2. **We Priv-Esc using Firefox Profile Data Exploit**
+        3. **User+Root Flags Obtained**
+
+- **Finally, you can pick the root flag, open and close the CD-tray of the Server over and over, and execute some notepads with creepy messages to scare the hell out of the poor IT guy working in that remote Site (It's his first day on that job).**   
+
+---     
 
 
 
