@@ -772,3 +772,4 @@ except:
 - https://tryhackme.com/room/bufferoverflowprep
 - https://github.com/Tib3rius/Pentest-Cheatsheets/blob/master/exploits/buffer-overflows.rst
 - https://youtu.be/eLIRjcI5eYU
+- https://www.trenchesofit.com/2020/09/12/oscp-buffer-overflow-write-up/
