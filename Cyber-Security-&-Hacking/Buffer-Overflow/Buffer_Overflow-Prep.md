@@ -17,11 +17,11 @@
             
     - Both machines connected on the same Network 192.168.1.0/24 (My local Network)
             
-    - Once I've exploited the program `chatserver.exe` in my own machine, then I can exploit "the real" server with the final script:
+    - Once I've exploited the program `oscp.exe` in my own machine, then I can exploit "the real" `OSCP Server` with the final script:
             
         - `TryHackMe - Buffer Overflow Prep` Network, UK.    
         
-    - So I will transfer the files from the TryHackMe Machine-FTP to a folder to my Windows 10 and use from there `Immunity Debugger` and also run the `oscp.exe` binary.
+    - So I will transfer the files from the TryHackMe Machine to a folder to my Windows 10 and use from there `Immunity Debugger` and also run the `oscp.exe` binary.
         
         - ![image](https://user-images.githubusercontent.com/94720207/169673734-7b549b57-8efc-46d2-8d3f-a99a5d7aee7a.png)
           
@@ -47,7 +47,7 @@
 
 - Testing connection from a `netcat`:
 
-    - ![image](https://user-images.githubusercontent.com/94720207/169673900-ac2e6ca1-fb29-45a6-93e7-c5daf539d065.png)
+    - ![image](https://user-images.githubusercontent.com/94720207/169682263-ff1af6d3-2609-4df8-9d34-7bb9ae9d318c.png)
 
 - Attach `oscp.exe` to `Immunity Debugger`
 
