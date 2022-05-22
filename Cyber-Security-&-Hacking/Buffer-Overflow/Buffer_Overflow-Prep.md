@@ -103,16 +103,20 @@ while True:
     - **Execute it:**
 
         - **`python3 overflow1_step1_fuzzing.py`**
-
-    - 
+    
+    - ![image](https://user-images.githubusercontent.com/94720207/169674064-e5f1e173-7342-4e1e-848a-0e9350bf70b1.png)
+        
+    - ![image](https://user-images.githubusercontent.com/94720207/169674167-39262a16-968f-40c1-a052-d7fd0f302d61.png)
+ 
+        - << **Crashed at: `2000 bytes` (A * 2000)** >> /// Note: Restart the Lab after the crash. 
 
 ---
 
 ### 2. Crash Replication & Controlling EIP
 
-- Run the following command to generate a cyclic pattern of a length `400 bytes` longer ([Ax100,Ax100]:200+400) that the string that crashed the server (change the -l value to this):
+- Run the following command to generate a cyclic pattern of a length `2400 bytes` longer **(2000+400)** that the string that crashed the server (change the -l value to this):
 
-    - `/usr/share/metasploit-framework/tools/exploit/pattern_create.rb -l 600` 
+    - `/usr/share/metasploit-framework/tools/exploit/pattern_create.rb -l 2400` 
 
 - Copy the output and place it into the payload variable of the `overflow1_step2_exploit.py` script. 
 
