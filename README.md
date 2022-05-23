@@ -562,7 +562,7 @@ You must take control of it. You must make the machine yours.
 
 ### Web Vulnerability Tools & Scanners
 
-- [Zed Attack Proxy - Guía para Scan de vulnerabilidades OWASP](https://www.youtube.com/watch?v=sVjmxjFEi6s)
+- [**Zed Attack Proxy (ZAP)** - Guía para Scan de vulnerabilidades **OWASP**](https://www.youtube.com/watch?v=sVjmxjFEi6s)
 
 ### Local/Remote File Inclusion (LFI/RFI)
 
