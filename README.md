@@ -579,8 +579,15 @@ You must take control of it. You must make the machine yours.
 
 ### Cross-Site Scripting (XSS)
 
-- [Portswigger > XSS Cheat Sheet](https://portswigger.net/research/server-side-template-injection)
-- [Pentest Book > XSS](https://pentestbook.six2dez.com/enumeration/web/xss)
+- XSS Guides, Writeups & Labs:
+    
+    - [Javascript Full Guide]()
+    - [XSS Práctica > A. Caballero](https://www.youtube.com/watch?v=lqcWIFUExNA) 
+
+- XSS Tools, Cheatsheets, Commands, Scripts
+
+    - [Portswigger > XSS Cheat Sheet](https://portswigger.net/research/server-side-template-injection)
+    - [Pentest Book > XSS](https://pentestbook.six2dez.com/enumeration/web/xss)
 
 ### SQL Injection
 
