@@ -623,6 +623,13 @@ Fz3r0 Cyber-Weaponry Crafting, Tools Programming & Open Source Projects
 - [Batch]
 - [Bash]
 - [Go]
+
+### Javascript
+
+- Guides & Labs
+    
+    - [Javascript from 0 to Junior Course](https://www.youtube.com/watch?v=z95mZVUcJ-E)
+-
  
 ## Incidence Response and Digital Forensics
 
