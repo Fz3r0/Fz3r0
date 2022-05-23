@@ -580,9 +580,9 @@ Fz3r0 Cyber-Weaponry Crafting, Tools Programming & Open Source Projects
 
 ### Incidence Response and Digital Forensics Guides
 
-- [Recolección de Evidencia Volátil @ Master Alonso Caballero](https://www.youtube.com/watch?v=LGU8vfD8jFY) _Preservar evidencia volátil la cual luego será utilizada en una investigación_
-- [Analizar una Imágen RAM con Volatility Framework @ Master Alonso Caballero](https://www.youtube.com/watch?v=uP8iu_21V5s) _Extraer y analizar artefactos digitales desde la RAM_
-- [Volatility - Write Up @ Fz3r0](/Cyber-Security-&-Hacking) _Gold standard for memory forensics in incident response_
+- [Recolección de Evidencia Volátil - Usando Redline VS Forma Manual @ Master Alonso Caballero](https://www.youtube.com/watch?v=LGU8vfD8jFY) _Preservar evidencia volátil la cual luego será utilizada en una investigación_
+- Volatility > [Analizar una Imágen RAM @ Master Alonso Caballero](https://www.youtube.com/watch?v=uP8iu_21V5s) _Extraer y analizar artefactos digitales desde la RAM_
+- Volatility > [Volatility Framework - Write Up @ Fz3r0](/Cyber-Security-&-Hacking) _Gold standard for memory forensics in incident response_
 
 ### Forensic Tools
 
