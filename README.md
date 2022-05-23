@@ -493,6 +493,7 @@ You must take control of it. You must make the machine yours.
     
     - [Passwords]()
         - [Seclist > Bibles, Cracked Hashes, Leaks, Databases, WiFi-WPA, ](https://github.com/danielmiessler/SecLists/tree/master/Passwords)
+        - [National Cyber Security Center > Top 100,000 used Passwords](https://www.ncsc.gov.uk/static-assets/documents/PwnedPasswordsTop100k.txt)
     
     - [Discovery]()
         - [Seclist > DNS, File System, Web Content, Directory, URL, Infraestructure, Variables](https://github.com/danielmiessler/SecLists/tree/master/Discovery) 
