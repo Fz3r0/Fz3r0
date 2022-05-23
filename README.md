@@ -231,7 +231,7 @@ https://www.hackthebox.com/badge/image/897009
 ### 🔮 📖 🧙‍ **Dark Wizardy for Networking & NetSec** 🧙‍♂️ 📖 🔮
 Tables, Lists, Models, Cheat-Sheets, Mind-Maps & Resources
 
-- [Cisco > Routing & Switching CLI/IOS Bible by Fz3r0](/Networking/Labs/) _My CCNA+CCNP Pocket Bible_
+- [Cisco > Routing & Switching CLI/IOS - Command Bible](/Networking/Labs/) _My CCNA+CCNP Pocket Bible_
 - [TCP-IP Hybrid Model by Fz3r0 (TCP+OSI)](/Networking/Knowledge/Tables-Models-Cheatsheets/Tables-Models/TCP-IP-Model-fz3r0_Hybrid.md) _A model I made with love for TCP-IP/OSI, all in one! :)_
 - [Reserved IPv4 & IPv6 Addresses by Fz3r0](/Networking/Knowledge/Tables-Models-Cheatsheets/Tables-Models/reserved_ip_fz3r0.md)
 - [TCP / UDP : PORT Numbers / Protocols](https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers)
