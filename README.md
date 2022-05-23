@@ -496,12 +496,12 @@ You must take control of it. You must make the machine yours.
         - [National Cyber Security Center > Top 100,000 used Passwords](https://www.ncsc.gov.uk/static-assets/documents/PwnedPasswordsTop100k.txt)
     
     - [Discovery]()
-        - [Seclist > DNS, File System, Web Content, Directory, URL, Infraestructure, Variables](https://github.com/danielmiessler/SecLists/tree/master/Discovery) 
+        - [Seclist > DNS, File System, Web Content, Directory, URL, Infraestructure, Variables](https://github.com/danielmiessler/SecLists/tree/master/Discovery)
     
     - [Services]()
     - [Devices]() 
 
-### Privilege Escalation (PrivEsc)
+### Privilege Escalation
   
 - Linux PrivEsc
         - [Fz3r0 Linux PrivEsc Ninjitsu](/Networking/Labs/) _My own logs & writeups about Linux PrivEsc_        
@@ -521,7 +521,11 @@ You must take control of it. You must make the machine yours.
 - Active Directory PrivEsc (Windows Server)
         - [Windows Server | Pergamino I](https://github.com/Fz3r0/Checklists_PrivEsc) _Detailed Checklist for Windows Server PrivEsc & Scenarios_ 
         - [Active Directory Exploitation Cheat-Sheet by Tib3rius](https://github.com/Tib3rius/Active-Directory-Exploitation-Cheat-Sheet)
-  
+
+### Enumeration
+
+
+
 ### Buffer Overflow (OSCP Style)
 
 - [Buffer Overflow guide - Vuln Server, writeup by @ Fz3r0](/Cyber-Security-&-Hacking/Buffer-Overflow/buffer-overflow.md)
@@ -537,19 +541,24 @@ You must take control of it. You must make the machine yours.
 
 ### Cross-Site Scripting (XSS)
 
-- **Guides**
-    - [Portswigger Guide](https://portswigger.net/research/server-side-template-injection
-    - )
+- [Portswigger > XSS Cheat Sheet](https://portswigger.net/research/server-side-template-injection)
+- [Pentest Book > XSS](https://pentestbook.six2dez.com/enumeration/web/xss)
 
 ### SQL Injection
 
 - **SQLi (SQL injection)**
-  
+    - [NETSPI > SQL Injection Wiki](https://sqlwiki.netspi.com/#mysql)
+    - [PortSwigger > SQLi Cheat Sheet](https://portswigger.net/web-security/sql-injection/cheat-sheet)
+    - [Pentest Book > SQLi queries](https://pentestbook.six2dez.com/enumeration/web/sqli)
     - https://github.com/Fz3r0/Advanced-SQL-Injection-Cheatsheet
 
 - **Pentesting Microsoft SQL Server (MSSQL)**
     - [Hacktricks - Pentesting MSSQL Server](https://book.hacktricks.xyz/network-services-pentesting/pentesting-mssql-microsoft-sql-server)
-    - [PTM - MSSQL Server Cheatsheet](https://pentestmonkey.net/cheat-sheet/sql-injection/mssql-sql-injection-cheat-sheet)  
+    - [PTM - MSSQL Server Cheatsheet](https://pentestmonkey.net/cheat-sheet/sql-injection/mssql-sql-injection-cheat-sheet) 
+    
+### Server-Side Request Forgery (SSRF)
+
+- [Pentest Book > SSRF Attacks](https://pentestbook.six2dez.com/enumeration/web/sqli)
 
 ### Broken Access Control
 
