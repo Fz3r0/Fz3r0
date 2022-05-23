@@ -528,6 +528,8 @@ You must take control of it. You must make the machine yours.
 - [Buffer Overflow guide - OSCP Peparation, writeup by @Fz3r0](/Cyber-Security-&-Hacking/Buffer-Overflow/Buffer_Overflow-Prep.md)
 - [Buffer Overflow Lab - Gatekeeper, writeup by @ Fz3r0](https://github.com/Fz3r0/Fz3r0/blob/main/Cyber-Security-%26-Hacking/Buffer-Overflow/THM-Gatekeeper(Buffer-Overflow).md)
 
+## Web Hacking, OWASP & Penetration Testing
+
 ### File Inclusion
 
 - [Payload All The Things - LFI Payloads](https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/File%20Inclusion)
@@ -547,9 +549,12 @@ You must take control of it. You must make the machine yours.
 - **Pentesting Microsoft SQL Server (MSSQL)**
     - [Hacktricks - Pentesting MSSQL Server](https://book.hacktricks.xyz/network-services-pentesting/pentesting-mssql-microsoft-sql-server)
     - [PTM - MSSQL Server Cheatsheet](https://pentestmonkey.net/cheat-sheet/sql-injection/mssql-sql-injection-cheat-sheet)  
- 
-  
-### Scrpting & Programming
+
+### Broken Access Control
+
+- Direct Object References (IDOR)
+
+## Scrpting & Programming
 Fz3r0 Cyber-Weaponry Crafting, Tools Programming & Open Source Projects
   
 - **Python** _Serpentium lingua et artes magicae obscurae_
@@ -643,6 +648,7 @@ _The world is a messy place, at least you now have a way of choosing a path... r
 _There is no path...
 
 _The Strength Of The Human Heart. The Difference Between Us And Machines_
+
 ---
 
 > ![hecho en mex3 (1)mini](https://user-images.githubusercontent.com/94720207/163919294-2754caa3-c98c-4df3-b782-00703e4d3343.png)
