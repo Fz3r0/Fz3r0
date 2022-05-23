@@ -430,7 +430,7 @@ Guides, Tips & Tricks, Downloads, Binaries, Executables, Scripts, Open Source Co
 
 -->  
   
-# Offensive Security & Hacking 
+## Offensive Security & Hacking 
 
 Here's the machine the strangers use to amplify their thoughts, the machine that changes their world... 
 You must take control of it. You must make the machine yours. 
@@ -454,14 +454,15 @@ You must take control of it. You must make the machine yours.
 - **Databases & Arsenals**     
     - [Blackhat Arsenal Tools](https://github.com/toolswatch/blackhat-arsenal-tools) _Official Black Hat Arsenal Database_
     - [Kali Tools](/Cyber-Security-&-Hacking/Cyber-Weapons-Tools/Cyber-Weapons-Tools-DB.md)
+    - [Black Arch Tools](https://www.blackarch.org/tools.html) _Over 2800 Tools. Every package of the BlackArch Linux repository_
     
-- **Standalone**
+- **Standalone Tools**
     - [Windows - Advanced Archive Password Recovery (.zip, .rar, etc)](https://github.com/Fz3r0/Fz3r0/files/8693722/advanced-archive-password-recovery-4-54-110.zip)
     - [Kaspersky - Cybermap](https://cybermap.kaspersky.com/es)  
 
 - **Pivoting & Port Forwarding**
     - [Chisel](https://github.com/jpillora/chisel) _server/client. Fast TCP/UDP tunnel, transported over HTTP, secured via SSH_
-    - [Chisel Releases](https://github.com/jpillora/chisel/releases)
+        - [Chisel Releases](https://github.com/jpillora/chisel/releases)
 
 - **Enum & PrivEsc**
     - [pspy](https://github.com/DominicBreuker/pspy) _Process viewer_
@@ -473,13 +474,11 @@ You must take control of it. You must make the machine yours.
 - https://github.com/Fz3r0/CheatSheet
 - https://github.com/Fz3r0/PowerTools powershell
 
-### Buffer Overflow (OSCP Style)
+### Payloads & Shells
+  
+- [Payload All the Things](https://github.com/Fz3r0/PayloadsAllTheThings) _Payloads and bypasses for Web App Security._
+- [TheFatRat](https://github.com/screetsec/TheFatRat) _Payload Automation,Listener Generator,Bypass anti-virus backdoors & more..._
 
-- [Buffer Overflow guide - Vuln Server, writeup by @ Fz3r0](/Cyber-Security-&-Hacking/Buffer-Overflow/buffer-overflow.md)
-- [Buffer Overflow Lab - THM Brainstorm, writeup by @ Fz3r0](/Cyber-Security-&-Hacking/Buffer-Overflow/THM-Brainstorm(Buffer-Overflow-CTF).md)
-- [Buffer Overflow guide - OSCP Peparation, writeup by @Fz3r0](/Cyber-Security-&-Hacking/Buffer-Overflow/Buffer_Overflow-Prep.md)
-- [Buffer Overflow Lab - Gatekeeper, writeup by @ Fz3r0](https://github.com/Fz3r0/Fz3r0/blob/main/Cyber-Security-%26-Hacking/Buffer-Overflow/THM-Gatekeeper(Buffer-Overflow).md)
- 
 ### Privilege Escalation (PrivEsc)
   
 - Linux PrivEsc
@@ -496,18 +495,21 @@ You must take control of it. You must make the machine yours.
         - [Mimicatz I](https://www.youtube.com/watch?v=AZirvtZNIEw)
         - https://github.com/Fz3r0/windows-privesc-check
  
-- Windows Server & Active Directory PrivEsc
+- Active Directory PrivEsc (Windows Server)
         - [Windows Server | Pergamino I](https://github.com/Fz3r0/Checklists_PrivEsc) _Detailed Checklist for Windows Server PrivEsc & Scenarios_ 
         - [Active Directory Exploitation Cheat-Sheet by Tib3rius](https://github.com/Tib3rius/Active-Directory-Exploitation-Cheat-Sheet)
   
+### Buffer Overflow (OSCP Style)
 
+- [Buffer Overflow guide - Vuln Server, writeup by @ Fz3r0](/Cyber-Security-&-Hacking/Buffer-Overflow/buffer-overflow.md)
+- [Buffer Overflow Lab - THM Brainstorm, writeup by @ Fz3r0](/Cyber-Security-&-Hacking/Buffer-Overflow/THM-Brainstorm(Buffer-Overflow-CTF).md)
+- [Buffer Overflow guide - OSCP Peparation, writeup by @Fz3r0](/Cyber-Security-&-Hacking/Buffer-Overflow/Buffer_Overflow-Prep.md)
+- [Buffer Overflow Lab - Gatekeeper, writeup by @ Fz3r0](https://github.com/Fz3r0/Fz3r0/blob/main/Cyber-Security-%26-Hacking/Buffer-Overflow/THM-Gatekeeper(Buffer-Overflow).md)
 
-  
-  - [Payloads & Reverse Shell]
-  
-     - [Payload All the Things](https://github.com/Fz3r0/PayloadsAllTheThings) _Payloads and bypasses for Web App Security._
-     - [TheFatRat](https://github.com/screetsec/TheFatRat) _Payload Automation,Listener Generator,Bypass anti-virus backdoors & more..._
-  
+### Forensics
+
+- [Volatility - Write Up](/Cyber-Security-&-Hacking)_gold standard for memory forensics in incident response_
+
 ### Databases Offensive & Defensive Security
 
 - **Pentesting Microsoft SQL Server (MSSQL)**
