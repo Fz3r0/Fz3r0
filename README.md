@@ -440,6 +440,7 @@ You must take control of it. You must make the machine yours.
 - [The Book of the Secret Knowledge](https://github.com/Fz3r0/the-book-of-secret-knowledge) _A collection of lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools & more._
 - [Pentester Book](https://pentestbook.six2dez.com/post-exploitation/linux) _This book contains a bunch of info, scripts and knowledge by six2dez_
 - [Hacktricks](https://book.hacktricks.xyz/) _Hacking trick/technique/whatever by Carlos Plop jooooodeeer!!! _
+- [High On Coffee](https://highon.coffee/blog/) _Security Research and Penetration Testing Blog - Cheat Sheets, Techniques, Hardening, WalkThroughs_
 - [The Art of Hacking](https://github.com/The-Art-of-Hacking/h4cker) _Over 9,000 References, Scripts, Tools, Code & Resources for Offensive/Defensive Security_
 - [Awesome Hacking](https://github.com/Fz3r0/Awesome-Hacking) _A collection of awesome lists for hackers, pentesters & security researchers._
 - [Tib3rius FULL Pentesting Black Magics](https://github.com/Tib3rius/Pentest-Cheatsheets) _Cheatsheets, Tools, PrivEsc, Checklist, Exploits_
@@ -477,6 +478,9 @@ You must take control of it. You must make the machine yours.
 ### Payloads & Shells
   
 - [Payload All the Things](https://github.com/Fz3r0/PayloadsAllTheThings) _Payloads and bypasses for Web App Security._
+- [Payload All the Things - Reverse Shells](https://github.com/Fz3r0/PayloadsAllTheThings) _Payloads and bypasses for Web App Security._
+- [High on Coffee - Reverse Shells](https://highon.coffee/blog/reverse-shell-cheat-sheet/)
+- [Pentest Book - Reverse Shells]()
 - [TheFatRat](https://github.com/screetsec/TheFatRat) _Payload Automation,Listener Generator,Bypass anti-virus backdoors & more..._
 
 ### Privilege Escalation (PrivEsc)
