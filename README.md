@@ -560,7 +560,11 @@ You must take control of it. You must make the machine yours.
 
 ## Web Hacking, OWASP & Penetration Testing
 
-### File Inclusion
+### Web Vulnerability Tools & Scanners
+
+- [Zed Attack Proxy - Guía para Scan de vulnerabilidades OWASP](https://www.youtube.com/watch?v=sVjmxjFEi6s)
+
+### Local/Remote File Inclusion (LFI/RFI)
 
 - [Payload All The Things - LFI Payloads](https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/File%20Inclusion)
 
