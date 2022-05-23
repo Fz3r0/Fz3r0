@@ -324,6 +324,7 @@ Guides for performing Penetration Attacks involving the Network Infrastructure E
 
 
 
+
 - **Network Security Defensive Tools, Shields & Tanks**
     - SysInternals > [SysInternals Tricks for Pro Strongholds](/Networking/Attacking-Cisco/THM-L2-MAC-Flooding-&-ARP-Spoofing-writeup.md) 
     - SysInternals > [SysInternals Tricks for Pro Strongholds](/Networking/Attacking-Cisco/THM-L2-MAC-Flooding-&-ARP-Spoofing-writeup.md)
@@ -348,8 +349,16 @@ Guides for performing Penetration Attacks involving the Network Infrastructure E
     - Man-in-the-Middle Attack (MITM)
     - [Log4j Vulnerability @ Unify Access PWN!](https://www.sprocketsecurity.com/blog/another-log4j-on-the-fire-unifi)
  
-### Fz3r0 >> Networking Tools & Weapons: Training, Crafting & Arsenal
-Guides, Tips & Tricks, Downloads, Binaries, Executables, Scripts, Open Source Codes
+### The Packet Level
+Deep dive into the Packet / PCAP Analysis
+
+- Packet Headers and Flags:
+    - TCP & UDP : Headers
+    - ETHII > Ethernet II : Header
+    - WiFi > 802.11 : Header
+
+### Networking Tools & Cyber-Weaponry
+Guides, Tips & Tricks, Downloads, Training, Crafting, Arsenal, Binaries, Executables, Scripts, Open Source Codes
 
 - **Networking Tools Guides & Writeups**
     - [**Wireshark - From Nemo to Black Megalodon: Pro Sniffing & Network Traffic Audit/Analysis.** by @ Fz3r0]
