@@ -36,13 +36,21 @@
 
     - `PsService.exe /?`
 
+- **PS Tools - PsList.exe** (Processes, CPU, Handlers, etc)
+
+    - `PsList.exe /?`
+
+- **hashmyfiles** (hashes)
+
+    - `HashMyFiles.exe /?` 
+
 ### Nirsoft
 
 - **driverview-x64** (Drivers)
 
 - **OpenesFilesView** (Opened Files at the moment)
 
-    `OpenesFilesView.exe /stext output.txt`   
+    - `OpenesFilesView.exe /stext output.txt`   
 
 - 
 
