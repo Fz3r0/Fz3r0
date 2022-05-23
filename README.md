@@ -228,7 +228,7 @@ https://www.hackthebox.com/badge/image/897009
 
 ## Networking 
   
-### **Fz3r0 >> Dark Wizardy for Networking & NetSec** 🧙‍♂️ 📖 🔮
+### 🔮 📖 🧙‍ **Dark Wizardy for Networking & NetSec** 🧙‍♂️ 📖 🔮
 Tables, Models, Cheat-Sheets, Mind-Maps & Resources
 - [TCP-IP Hybrid Model by Fz3r0 (TCP+OSI)](/Networking/Knowledge/Tables-Models-Cheatsheets/Tables-Models/TCP-IP-Model-fz3r0_Hybrid.md) _A model I made with love for TCP-IP/OSI, all in one! :)_
 - [Reserved IPv4 & IPv6 Addresses by Fz3r0](/Networking/Knowledge/Tables-Models-Cheatsheets/Tables-Models/reserved_ip_fz3r0.md)
@@ -254,7 +254,7 @@ Tables, Models, Cheat-Sheets, Mind-Maps & Resources
 
 --> 
 
-### Fz3r0 >> Configure it Like a Sir! ⚙️ 🛠️ 🔐
+### 🔐 🛠️ ⚙️ Configure it Like a Sir! ⚙️ 🛠️ 🔐
 Pro and Secure Network Configurations Guides by _Fz3r0_
 - [Configurar **VLANs** de Noob a Pro! _En Español_](/Networking/Knowledge/VLANS_full!.png)
 - [Configure **Spaning Tree Protocol** like a Sir **(STP, RSTP+, PVSTP & R-PVSTP)**](/Networking/Knowledge/STP-for-dummies.md)
@@ -276,7 +276,7 @@ Pro and Secure Network Configurations Guides by _Fz3r0_
 
 --> 
 
-### Fz3r0 >> Secure Network Labs 🧪 👩‍🔬 🛡️  
+### 🛡️ 👩‍🔬 🧪  Secure Network Labs 🧪 👩‍🔬 🛡️  
 Networking Labs using simulators, emulators like Packet Tracer, GNS3 & eve / and/or physical infraestructure by _Fz3r0_
 
 - Lab 01 > [Secure Home Network + Internet to Home (FTTH) Simulation](/Networking/Labs/Router-on-a-Stick.md) _Packet Tracer_
@@ -298,7 +298,7 @@ Troubleshooting & Incidence Response for Notworking Hardware & Software by _Fz3r
 - [Cut-Throught & Store-and-forward Switching](https://user-images.githubusercontent.com/94720207/164997743-d42dbae9-edb4-4f83-ae44-16cb5eab2fd4.png) _Spoiler-alert: Store-and-Forward for the win! Checksum FTW_
 - [Fixing **Kali VM Bridge Network** [VMware] (GNS3 + Hacking Labs = ETH kaput!)](/Networking/Knowledge/Troubleshooting/Kali-Bridge-Issue-ETH.md) _Easy fix to the bridge VMware incidence_
  
-### Fz3r0 >> Attacking & Defending Network Infraestructure ⚔️ 🛡️ 🐱‍👤 
+### ⚔️ 🕵️ 🦈 Attacking & Defending Network Infraestructure 🦈 🕵️ ⚔️ 
 Guides for performing Penetration Attacks involving the Network Infrastructure Exploiting Known Vulverabilities and how to Mitigate and Secure the Network Against those threats  
 
 - **Security & Best Practices Configurations for Networking**
