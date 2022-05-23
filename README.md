@@ -355,7 +355,7 @@ Guides, Tips & Tricks, Downloads, Binaries, Executables, Scripts, Open Source Co
         - [iPerf](https://iperf.fr/) _The ultimate speed test tool for TCP, UDP and SCTP_
         - [Security Headers - HTTP Header Analyzer](https://securityheaders.com/)
             
-    - **Calculators, Converters, Charts, Dumps**
+    - **Calculators, Converters, Editors, Charts, Dumps**
         - [Domain to IP Converter](https://www.rankwatch.com/free-tools/domain-to-iP-converter-tool) _URL to IP Address online_
         - [IP Info](https://ipinfo.io/) _Accurate IP address data "whois" online_
         - [Hexadecimal to Text Converter](https://cryptii.com/pipes/hex-decoder) _For Networking & Exploiting Buffer Overflow hohoho_
@@ -588,6 +588,8 @@ Fz3r0 Cyber-Weaponry Crafting, Tools Programming & Open Source Projects
 ### Forensic Tools
 
 - [Redline](https://www.fireeye.com/services/freeware/redline.html) _find signs of malicious activity through memory and file analysis_
+- [Volatility]()
+- [HxD - HEX editor & Disk Editor](https://mh-nexus.de/en/hxd/) _HEX editor & raw disk editing and modifying of RAM_
 
 ## Malware
   
