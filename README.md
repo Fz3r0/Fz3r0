@@ -534,6 +534,8 @@ You must take control of it. You must make the machine yours.
 
 ### Deep Web
 
+- [Hackeando TOR y Freenet - D. Echeverri @ CyberCamp](https://www.youtube.com/watch?v=V1msORieS4I)
+
 - Onion Search Engines
     - [Onion Search Engine](https://onionengine.com/)
     -  
