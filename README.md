@@ -227,6 +227,22 @@ https://www.hackthebox.com/badge/image/897009
 
 -->    
 
+### Fast Index
+
+- **Networking**
+
+    - 🔮 📖 🧙‍ **Dark Wizardy for Networking & NetSec** 
+    - 🔐 🛠️ ⚙️ **Configure it Like a Sir!**
+    - 🛡️ 👩‍🔬 🧪  **Secure Network Labs**
+
+<!--
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+** =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=- NETWORKING 
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+
+-->    
+
 ## Networking 
   
 ### 🔮 📖 🧙‍ **Dark Wizardy for Networking & NetSec** 🧙‍♂️ 📖 🔮
@@ -538,10 +554,9 @@ You must take control of it. You must make the machine yours.
 
 - Onion Search Engines
     - [Onion Search Engine](https://onionengine.com/)
-    -  
 
 - Onion Links
-    - [abc](def) 
+    - [Dark Web Links](https://darkweblinks.com/)
 
 ## Web Hacking, OWASP & Penetration Testing
 
