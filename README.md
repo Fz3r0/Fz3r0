@@ -482,12 +482,13 @@ You must take control of it. You must make the machine yours.
 ### Privilege Escalation (PrivEsc)
   
 - Linux PrivEsc
-        - Fz3r0 Linux PrivEsc Ninjitsu(/Networking/Labs/) _My own logs & writeups about Linux PrivEsc_
+        - [Fz3r0 Linux PrivEsc Ninjitsu](/Networking/Labs/) _My own logs & writeups about Linux PrivEsc_        
         - [Linux | Pergamino I](https://github.com/netbiosX/Checklists/blob/master/Linux-Privilege-Escalation.md)
         - [Linux | Pergamino II - swisskyrepo](https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Linux%20-%20Privilege%20Escalation.md)
         - [Linux | Pergamino III - OSCP Guide](https://sushant747.gitbooks.io/total-oscp-guide/privilege_escalation_-_linux.html)
         - [Linux | Pergamino IV - Payatu](https://payatu.com/guide-linux-privilege-escalation)
-        - [Fz3r0 @ Linux PrivEsc]()
+        - [Fz3r0 @ Linux PrivEsc](lklk)
+        - [Linux PrivEsc Workshop @ sagishahar](https://github.com/sagishahar/lpeworkshop)
 
 - Windows PrivEsc
         - Fz3r0 Windows PrivEsc Ninjitsu(/Networking/Labs/) _My own logs & writeups about Windows PrivEsc_
