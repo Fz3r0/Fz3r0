@@ -507,49 +507,52 @@ You must take control of it. You must make the machine yours.
 - [Buffer Overflow guide - OSCP Peparation, writeup by @Fz3r0](/Cyber-Security-&-Hacking/Buffer-Overflow/Buffer_Overflow-Prep.md)
 - [Buffer Overflow Lab - Gatekeeper, writeup by @ Fz3r0](https://github.com/Fz3r0/Fz3r0/blob/main/Cyber-Security-%26-Hacking/Buffer-Overflow/THM-Gatekeeper(Buffer-Overflow).md)
 
-### Forensics
+### File Inclusion
 
-- [Volatility - Write Up](/Cyber-Security-&-Hacking)_gold standard for memory forensics in incident response_
+- [Payload All The Things - LFI Payloads](https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/File%20Inclusion)
 
-### Databases Offensive & Defensive Security
+### Cross-Site Scripting (XSS)
 
-- **Pentesting Microsoft SQL Server (MSSQL)**
-    - [Hacktricks - Pentesting MSSQL Server](https://book.hacktricks.xyz/network-services-pentesting/pentesting-mssql-microsoft-sql-server)
-    - [PTM - MSSQL Server Cheatsheet](https://pentestmonkey.net/cheat-sheet/sql-injection/mssql-sql-injection-cheat-sheet) 
+- **Guides**
+    - [Portswigger Guide](https://portswigger.net/research/server-side-template-injection
+    - )
+
+### SQL Injection
 
 - **SQLi (SQL injection)**
   
     - https://github.com/Fz3r0/Advanced-SQL-Injection-Cheatsheet
-  
-    - [PrivEsc]
-  
-        - Windows
 
+- **Pentesting Microsoft SQL Server (MSSQL)**
+    - [Hacktricks - Pentesting MSSQL Server](https://book.hacktricks.xyz/network-services-pentesting/pentesting-mssql-microsoft-sql-server)
+    - [PTM - MSSQL Server Cheatsheet](https://pentestmonkey.net/cheat-sheet/sql-injection/mssql-sql-injection-cheat-sheet)  
  
-        - Windows Server & Active Directory
-            - 
+  
+### Scrpting & Programming
+Fz3r0 Cyber-Weaponry Crafting, Tools Programming & Open Source Projects
+  
+- **Python** _Serpentium lingua et artes magicae obscurae_
+- _"Parseltongue was the language of serpents (as well as other magical serpentine creatures, like the Runespoor and Basilisk) and those who could converse with them: A wizard or witch who could speak Parseltongue was known as a Parselmouth. The ability had an association with Dark Wizards. This association with the Dark Arts generally caused fear and distrust of those with the ability. Python is the actual Parseltongue, an individial who can speak Python is known as a Pythonista, the myth says they can read peoples minds..."_ [I am the Black Wizards](https://www.youtube.com/watch?v=glKbRmOmB9M)
 
-  
-        - Linux
-  
-    - [Fz3r0 Cyber-Weaponry Crafting, Tools Programming & Open Source Projects]
-  
-        - **Python** _Serpentium lingua et artes magicae obscurae_
+    - [QR Code Generator from a string]()
 
-            - _"Parseltongue was the language of serpents (as well as other magical serpentine creatures, like the Runespoor and Basilisk) and those who could converse with them: A wizard or witch who could speak Parseltongue was known as a Parselmouth. The ability had an association with Dark Wizards. This association with the Dark Arts generally caused fear and distrust of those with the ability. Python is the actual Parseltongue, an individial who can speak Python is known as a Pythonista, the myth says they can read peoples minds..."_ [I am the Black Wizards](https://www.youtube.com/watch?v=glKbRmOmB9M)
-            - [QR Code Generator from a string]()
-        - [C]
-            - [Compile C code in Linux](https://www.atechtown.com/c-program-in-linux/)
+- [C]
+    - [Compile C code in Linux](https://www.atechtown.com/c-program-in-linux/)
   
-        - [Batch]
-        - [Bash]
-        - [Go]
+- [Batch]
+- [Bash]
+- [Go]
  
+## Forensics
+
+- [Volatility - Write Up](/Cyber-Security-&-Hacking)_gold standard for memory forensics in incident response_
+
+
 ## Malware
   
-### fz3r0 - My Malware CAUTION!
+### fz3r0 - My Malware 
   
-### Malware Databases CAUTION!
+### Malware Databases
   
 - https://github.com/Fz3r0/theZoo
 - [VX-Underground (PASS: infected)](https://www.vx-underground.org/)_The largest collection of malware source code, samples, and papers on the internet._
@@ -567,11 +570,7 @@ You must take control of it. You must make the machine yours.
 - https://github.com/Fz3r0/BatchPower _Batch Scripts_
 - https://github.com/Fz3r0/Defender-disabler
 
-## Cross-Site Scripting (XSS)
 
-- **Guides**
-    - [Portswigger Guide](https://portswigger.net/research/server-side-template-injection
-    - )
   
 ### Piracy + Privacy
 
