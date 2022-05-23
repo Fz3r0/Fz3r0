@@ -161,9 +161,9 @@ https://www.hackthebox.com/badge/image/897009
  
      I believe that all people should learn about Computer Science and Technology for free and must be accesible for everyone as a human right, which would make this world a better place, in addition to leaving a small footprint of the greatness of human capacity in this tiny instant of time and in this little portion of infinite universe. I hope this can help someone!
   
-  - All the scripts, binaries, software, techniques, programs, directories, databases of this repository should be used ONLY for authorized penetration testing, networking laboratories, experimentation and/or educational purposes. 
+  - All the scripts, binaries, software, techniques, programs, directories, databases or any other resource contained in this repository should be used ONLY for authorized penetration testing, networking laboratories, ethical hacking, experimentation and/or educational purposes. 
   
-  - This repository contain codes and scripts that could harm some systems and devices. Read carefully each file documentation and/or script before download, run or compile it.  
+  - This repository contain codes and scripts that could harm some systems and devices. Read carefully each file documentation and/or script before download, extract, execute, copy or compile.
   
   - Any misuse of the information and files compiled in this repository will not be the responsibility of the author. 
  
