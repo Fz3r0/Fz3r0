@@ -441,7 +441,7 @@ You must take control of it. You must make the machine yours.
 - [Pentester Book](https://pentestbook.six2dez.com/post-exploitation/linux) _This book contains a bunch of info, scripts and knowledge by six2dez_
 - [Hacktricks](https://book.hacktricks.xyz/) _Hacking trick/technique/whatever by Carlos Plop jooooodeeer!!! _
 - [High On Coffee](https://highon.coffee/blog/) _Security Research and Penetration Testing Blog - Cheat Sheets, Techniques, Hardening, WalkThroughs_
-- [SecLists](https://github.com/danielmiessler/SecLists)
+- [SecLists](https://github.com/danielmiessler/SecLists) _Collection of multiple types of lists used during security assessments, collected in one place._
 - [The Art of Hacking](https://github.com/The-Art-of-Hacking/h4cker) _Over 9,000 References, Scripts, Tools, Code & Resources for Offensive/Defensive Security_
 - [Awesome Hacking](https://github.com/Fz3r0/Awesome-Hacking) _A collection of awesome lists for hackers, pentesters & security researchers._
 - [Tib3rius FULL Pentesting Black Magics](https://github.com/Tib3rius/Pentest-Cheatsheets) _Cheatsheets, Tools, PrivEsc, Checklist, Exploits_
