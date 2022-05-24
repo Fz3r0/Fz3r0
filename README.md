@@ -349,13 +349,15 @@ Guides for performing Penetration Attacks involving the Network Infrastructure E
     - Man-in-the-Middle Attack (MITM)
     - [Log4j Vulnerability @ Unify Access PWN!](https://www.sprocketsecurity.com/blog/another-log4j-on-the-fire-unifi)
  
-### The Packet Level
+### Packet Level
 Deep dive into the Packet / PCAP Analysis
 
-- Packet Headers and Flags:
-    - TCP & UDP : Headers
-    - ETHII > Ethernet II : Header
-    - WiFi > 802.11 : Header
+- Packet Header Parameters & Flags:
+    - TCP > Parameters
+    - UDP > Parameters
+    - ETHII > Parameters
+    - 802.11 > Parameters
+    - HTTP > [List of HTTP Header Fields](https://en.wikipedia.org/wiki/List_of_HTTP_header_fields)
 
 ### Networking Tools & Cyber-Weaponry
 Guides, Tips & Tricks, Downloads, Training, Crafting, Arsenal, Binaries, Executables, Scripts, Open Source Codes
