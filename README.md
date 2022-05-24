@@ -662,6 +662,14 @@ Fz3r0 Cyber-Weaponry Crafting, Tools Programming & Open Source Projects
 
     - [Basic HTML+CSS+Javascript Fz3r0 Defacement]() 
  
+## Database
+
+### SQL
+
+### MySQL
+
+- [MySQL guía rápida](https://www.youtube.com/watch?v=Q6sn6UMgR54&list=PLg9145ptuAihPxpM3YfQJYwPHv-Vnh_bV)
+
 ## Incidence Response and Digital Forensics
 
 ### Incidence Response and Digital Forensics Guides
