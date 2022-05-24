@@ -613,7 +613,8 @@ You must take control of it. You must make the machine yours.
 
 ## Scrpting & Programming
 Fz3r0 Cyber-Weaponry Crafting, Tools Programming & Open Source Projects
-  
+
+### Python
 - **Python** _Serpentium lingua et artes magicae obscurae_
 - _"Parseltongue was the language of serpents (as well as other magical serpentine creatures, like the Runespoor and Basilisk) and those who could converse with them: A wizard or witch who could speak Parseltongue was known as a Parselmouth. The ability had an association with Dark Wizards. This association with the Dark Arts generally caused fear and distrust of those with the ability. Python is the actual Parseltongue, an individial who can speak Python is known as a Pythonista, the myth says they can read peoples minds..."_ [I am the Black Wizards](https://www.youtube.com/watch?v=glKbRmOmB9M)
 
@@ -626,12 +627,40 @@ Fz3r0 Cyber-Weaponry Crafting, Tools Programming & Open Source Projects
 - [Bash]
 - [Go]
 
+## Web Programming
+
+### HTML
+
+- HTML WriteUps & Guides
+
+    - [HTML-5 Fast Guide by Fz3r0]() 
+    - [HTML-5 II]()
+
+- HTML Resources & Scripts
+
+    - [Basic HTML Fz3r0 Defacement]() 
+
+### CSS
+
+- CSS WriteUps & Guides
+
+    - [CSS Fast Guide by Fz3r0]() 
+    - [CSS-5 II]()
+
+- CSS Resources & Scripts
+
+    - [Basic HTML+CSS Fz3r0 Defacement]() 
+
 ### Javascript
 
-- Guides & Labs
-    
+- Javascript WriteUps & Guides
+
+    - [HTML-5 Fast Guide by Fz3r0]() 
     - [Javascript from 0 to Junior Course](https://www.youtube.com/watch?v=z95mZVUcJ-E)
--
+
+- Javascript Resources & Scripts
+
+    - [Basic HTML+CSS+Javascript Fz3r0 Defacement]() 
  
 ## Incidence Response and Digital Forensics
 
