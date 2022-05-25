@@ -755,6 +755,7 @@ Fz3r0 Cyber-Weaponry Crafting, Tools Programming & Open Source Projects
 
 - [Mark Down Table Editor](https://tableconvert.com/markdown-generator)
 - [WinDirStat](https://windirstat.net/) _Disk usage statistics viewer and cleanup tool for various versions of Microsoft Windows._
+- [Pick Color from Image - Image to HEX, RGB, CMYK](https://www.ginifab.com/feeds/pms/color_picker_from_image.php)
 - [CPU-Z]
 - [HW Monitor]
 
