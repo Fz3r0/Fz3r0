@@ -40,6 +40,9 @@
 <h1 align="center">💀 Fz3r0 💀</h1>
 
 
+---
+
+<span align="center"> <p align="center"> **🛸🌌 <<---|☠️ Index Wormhole ☠️|--->> 🌌🛸** </p> </span> 
 
 ---
 
