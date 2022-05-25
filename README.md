@@ -42,9 +42,9 @@
 
 ---
 
-<span align="center"> <p align="center"> **🛸🌌 <<---|☠️ (Index Wormhole)[README.md#-index-] ☠️|--->> 🌌🛸** </p> </span> 
-[(peroo)](https://github.com/Fz3r0/Fz3r0/blob/main/README.md#-index-)
-[Index Wormhole](/README.md#-index-)
+<span align="center"> <p align="center"> **🛸🌌 <<---|☠️ [Index Wormhole](/README.md#-index-) ☠️|--->> 🌌🛸** </p> </span> 
+
+
 
 ---
 
