@@ -243,7 +243,10 @@ https://www.hackthebox.com/badge/image/897009
 
 -->    
 
-## Networking 
+## Networking
+_Monitoring devices, know where you go, mass media, total control. Digital delight, desire in megabite. Data overflow, virtual suicide. This information, is disinformation. Truth is hidden, knowledge forbidden. The structures of power, will delegate. To speak is to lie, to lie is to collaborate. Information streams, simulating dreams. Interactive mind-control, systematic overflow. Magnetic sleep, network addiction. Be absorbed, science fiction. It's pyschological, diabolical. Societies brainwash hospital..._<br>
+
+_The sun never sets, on cyber-space... Transmit, receive, log on to interface_
   
 ### 🔮 📖 🧙‍ **Dark Wizardy for Networking & NetSec** 🧙‍♂️ 📖 🔮
 Tables, Lists, Models, Cheat-Sheets, Mind-Maps & Resources
@@ -458,8 +461,9 @@ Guides, Tips & Tricks, Downloads, Training, Crafting, Arsenal, Binaries, Executa
   
 ## Offensive Security & Hacking 
 
-Here's the machine the strangers use to amplify their thoughts, the machine that changes their world... 
-You must take control of it. You must make the machine yours. 
+_Here's the machine the strangers use to amplify their thoughts, the machine that changes their world..._<br> 
+_You must take control of it. You must make the machine yours..._<br>
+_But you must concentrate..._<br>
 
 ### Hacking Bibles
 
