@@ -319,7 +319,7 @@ Troubleshooting & Incidence Response for Notworking Hardware & Software by _Fz3r
 - [Cut-Throught & Store-and-forward Switching](https://user-images.githubusercontent.com/94720207/164997743-d42dbae9-edb4-4f83-ae44-16cb5eab2fd4.png) _Spoiler-alert: Store-and-Forward for the win! Checksum FTW_
 - [Fixing **Kali VM Bridge Network** [VMware] (GNS3 + Hacking Labs = ETH kaput!)](/Networking/Knowledge/Troubleshooting/Kali-Bridge-Issue-ETH.md) _Easy fix to the bridge VMware incidence_
  
-### ⚔️ 🕵️ 🦈 Attacking & Defending Network Infraestructure 🦈 🕵️ ⚔️ 
+### ⚔️ 🕵️ 🦈 Attacking & Defending the Network Infraestructure 🦈 🕵️ ⚔️ 
 Guides for performing Penetration Attacks involving the Network Infrastructure Exploiting Known Vulverabilities and how to Mitigate and Secure the Network Against those threats  
 
 - **Security & Best Practices Configurations for Networking**
@@ -379,19 +379,24 @@ Guides, Tips & Tricks, Downloads, Training, Crafting, Arsenal, Binaries, Executa
     - [**Snort @ Cisco Talos - The foremost IDS + IPS in the world. Define malicious network activity.** by @ Fz3r0](/Networking/Networking-Tools-&-Weapons/Snort_by_Cisco-Talos_fz3r0.md)
 
 
-- **Tools for the Pro Networking Engineer**
-    - **Recon & Network Mapping**
-        - NMap
-        - Furious
+### Tools for the Pro Networking Engineer**
+   
+- **Recon & Network Mapping**
+    
+    - [NMap]()
+    - [Furious]()
  
-    - **Sniffers, IPS, Analyzers, Testers**
-        - [WireShark]() _The world’s foremost and widely-used network protocol analyzer._
-        - [BruteShark](https://github.com/Fz3r0/BruteShark)
-        - [Snort]() _The foremost IPS in the world supported by Cisco Talos_
-        - [LDWin - Link Discovery for Windows](https://github.com/Fz3r0/LDWin) _Discover connected ports on Switch using CDP & tcpdump.exe_   
-        - [iPerf](https://iperf.fr/) _The ultimate speed test tool for TCP, UDP and SCTP_
-        - [Security Headers - HTTP Header Analyzer](https://securityheaders.com/)
-            
+- **Sniffers, Analyzers, Testers**
+
+    - [WireShark]() _The world’s foremost and widely-used network protocol analyzer._
+    - [BruteShark](https://github.com/Fz3r0/BruteShark)
+    - [LDWin - Link Discovery for Windows](https://github.com/Fz3r0/LDWin) _Discover connected ports on Switch using CDP & tcpdump.exe_   
+    - [iPerf](https://iperf.fr/) _The ultimate speed test tool for TCP, UDP and SCTP_
+    - [Security Headers - HTTP Header Analyzer](https://securityheaders.com/)
+
+- **IDS & IPS**
+    - [Snort]() _The foremost IPS in the world supported by Cisco Talos_
+
     - **Calculators, Converters, Editors, Charts, Dumps**
         - [Domain to IP Converter](https://www.rankwatch.com/free-tools/domain-to-iP-converter-tool) _URL to IP Address online_
         - [IP Info](https://ipinfo.io/) _Accurate IP address data "whois" online_
@@ -404,7 +409,7 @@ Guides, Tips & Tricks, Downloads, Training, Crafting, Arsenal, Binaries, Executa
         - [GNS3 - Appliances](https://www.gns3.com/marketplace/appliances)
         - [eve]()
          
-- **Net Blacksmithing: Handcrafted Tools & Weaponry for Networking by @ Fz3r0** 
+- **Network smithing & crafting: Handcrafted Tools & Weaponry for Networking by @ Fz3r0** 
     - [Dark Art of Packet Crafting with Scapy](https://0xbharath.github.io/art-of-packet-crafting-with-scapy/index.html) _@ Python + Scapy_
     - [Creating malicious packets & breaking TCP/IP rules](Fz3r0/Networking/Attacking-Cisco/weird_TCP_fz3r0.py )  _@ Python + Scapy_
     - [Simple Network Scanner](https://gist.github.com/Fz3r0/3e26fdf87b5e223b13578db9d150c815) _@ Python + Scapy_
