@@ -808,6 +808,8 @@ _[I am the Black Wizards](https://www.youtube.com/watch?v=glKbRmOmB9M)_
 - [Pick Color from Image - Image to HEX, RGB, CMYK](https://www.ginifab.com/feeds/pms/color_picker_from_image.php)
 - [CPU-Z]
 - [HW Monitor]
+- [https://www.ddginc-usa.com/latlong.htm](https://www.ddginc-usa.com/latlong.htm)
+ 
 
 
 _The world is a messy place, at least you now have a way of choosing a path... right?..._
