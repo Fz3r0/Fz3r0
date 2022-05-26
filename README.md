@@ -630,9 +630,11 @@ Fz3r0 Cyber-Weaponry Crafting, Tools Programming & Open Source Projects
 
 ### Tools & Cyber Weaponry for Programming, Web-Prgramming, Scripting
 
-- IDEs
+- IDEs / Source Code Editors
     
-    - [Sublime Text]()
+    - [Sublime Text](https://www.sublimetext.com/)
+    - [Visual Studio Code](https://code.visualstudio.com/)
+    - [VIM](https://www.vim.org/)
     
 ### Python
 _Serpentium lingua et artes magicae obscurae_<br><br> 
