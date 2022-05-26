@@ -628,9 +628,17 @@ _But you must concentrate..._<br>
 ## Scrpting & Programming
 Fz3r0 Cyber-Weaponry Crafting, Tools Programming & Open Source Projects
 
+### Tools & Cyber Weaponry for Programming, Web-Prgramming, Scripting
+
+- IDEs
+    
+    - [Sublime Text]()
+    
 ### Python
-- **Python** _Serpentium lingua et artes magicae obscurae_
-- _"Parseltongue was the language of serpents (as well as other magical serpentine creatures, like the Runespoor and Basilisk) and those who could converse with them: A wizard or witch who could speak Parseltongue was known as a Parselmouth. The ability had an association with Dark Wizards. This association with the Dark Arts generally caused fear and distrust of those with the ability. Python is the actual Parseltongue, an individial who can speak Python is known as a Pythonista, the myth says they can read peoples minds..."_ [I am the Black Wizards](https://www.youtube.com/watch?v=glKbRmOmB9M)
+_Serpentium lingua et artes magicae obscurae_<br><br> 
+_"Parseltongue was the language of serpents (as well as other magical serpentine creatures, like the Runespoor and Basilisk) and those who could converse with them. A wizard or witch who could speak Parseltongue was known as a Parselmouth._<br><br>
+_The ability had an association with Dark Wizards. This association with the Dark Arts generally caused fear and distrust of those with the ability.<br><br> Python is the actual Parseltongue, an individial who can speak Python is known as a Pythonista, the myth says they can read peoples minds..."_<br> 
+_[I am the Black Wizards](https://www.youtube.com/watch?v=glKbRmOmB9M)_
 
     - [QR Code Generator from a string]()
 
@@ -656,12 +664,14 @@ Fz3r0 Cyber-Weaponry Crafting, Tools Programming & Open Source Projects
 
 ### CSS
 
-- CSS WriteUps & Guides
+- CSS WriteUps, Guides & Resources
 
-    - [CSS Fast Guide by Fz3r0]() 
-    - [CSS-5 II]()
+    - [**CSS** CC - CC Mastery! Guide by Fz3r0 **En español**](https://github.com/Fz3r0/Web-Programming-Fz3r0/blob/main/Javascript-Guides-Writeups/CSS-from-zero-to-hero.md) _My CC writeup to master CSS (En español)_ 
+    - [Flexbox Froggy](https://flexboxfroggy.com/) _A game where you help Froggy and friends by writing CSS code!_
+    - [CSS Pro Cheatsheets & Resources]() _All necessary stuff for CSS scripting_
 
-- CSS Resources & Scripts
+- CSS Codes, Scripts & Examples
+ 
 
     - [Basic HTML+CSS Fz3r0 Defacement]() 
 
