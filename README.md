@@ -92,7 +92,7 @@
 #### < Networking > 
 * `NetOps` `NetSec` `CCNA`  `RICXI`  `RSP`  `CWNA`  `Wireless` `Enterprise Networking` `SOHO` `NGNs`  
 
-#### < Programming, Scripting and DBA >
+#### < Programming, Scripting & DBA >
 * `DevOps` `Python` `C++` `Ruby` `Visual Basic` `VBA` `Bash` `Batch` `PowerShell` `HTML5` `CSS3` `Javascript` `Node.js` `PHP` `SQL` `MySQL` `Mongo DB` 
 
 #### < Security >   
