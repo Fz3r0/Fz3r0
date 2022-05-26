@@ -683,7 +683,9 @@ _[I am the Black Wizards](https://www.youtube.com/watch?v=glKbRmOmB9M)_
 
 - Javascript WriteUps & Guides
 
-    - [Javascript Full writeup by Fz3r0]() 
+    - [Javascript Full writeup by Fz3r0]()
+    - [Javascript - The Original Source, the bibles of bibles](https://www.javascript.com/)
+    - [W3 Schools - CSS Bible](https://www.w3schools.com/js/DEFAULT.asp)
 
 - Javascript Resources & Scripts
 
