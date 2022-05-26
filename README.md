@@ -67,15 +67,14 @@
 <p align="center"> <a href="https://twitter.com/Fz3r0_OPs" target="_blank" rel="noreferrer"> <img src="https://user-images.githubusercontent.com/94720207/168743521-b8c142ae-e221-40c9-8d1f-bd9520027717.png" alt="twitter"> </a>   &emsp; &emsp; &emsp;   <a href="https://github.com/Fz3r0" target="_blank" rel="noreferrer"> <img src="https://user-images.githubusercontent.com/94720207/168743591-ca20efa5-f692-46b0-ba84-f2681486009f.png" alt="github"> </a>   &emsp; &emsp; &emsp;   <a href="https://www.linkedin.com/in/fzerocarlos/" target="_blank" rel="noreferrer"> <img src="https://user-images.githubusercontent.com/94720207/168743658-0a5101f0-49fd-494f-9a79-cf70ad860d12.png" alt="github"> </a> </p> 
 
 #### < Networking > 
-* `CCNA`  `RICXI`  `RSP`  `CWNA`  `NetSec` `Wireless` `Enterprise Networking` `SOHO` `NGNs` `FTTH/FFTx` `GPON` 
+* `NetSec` `CCNA`  `RICXI`  `RSP`  `CWNA`  `Wireless` `Enterprise Networking` `SOHO` `NGNs` `FTTH/FFTx` `GPON`  
 
 #### < Programming and DBA >
-* `Python` `C++` `Ruby` `Visual Basic` `VBA` `Bash` `Batch` `HTML5` `CSS3` `Javascript` `Node.js` `PHP` `SQL` `MySQL` `Mongo DB` `DevOps`
+* `DevOps` `Python` `C++` `Ruby` `Visual Basic` `VBA` `Bash` `Batch` `HTML5` `CSS3` `Javascript` `Node.js` `PHP` `SQL` `MySQL` `Mongo DB` 
 
-* `CCNA`  `RICXI`  `RSP`  `CWNA` `Network Engineer` `NetSec` `Wireless` `Enterprise Networking` `NGNs` `FTTH/FFTx` `GPON` 
 #### < Security >   
-* `Security+`  `PenTest+`  `SecOps` `CyberOps` `Ofensive Pentesting`  `Red Team` `Ethical Hacking`  `Defensive Security` `Blue Team` `Forensics`  `DevSecOps`
-* `Security+`  `PenTest+`  `Ofensive Pentesting`  `Ethical Hacking`  `Defensive Security` `Forensics`
+* `DevSecOps`  `SecOps` `CyberOps` `Security+`  `PenTest+` `Ofensive Pentesting`  `Red Team` `Ethical Hacking`  `Defensive Security` `Blue Team` `Forensics`  
+
 
 &nbsp;
 
