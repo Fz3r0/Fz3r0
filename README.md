@@ -48,7 +48,6 @@
  
 <span align="center"> <h3 align="center"> DISCLAIMER </h3> </span>
 
- - This repository has been intended to be a personal and private database that also serves as a portfolio to show to potential employers and clients my work, experience, education and resume in the area of IT, network engineering, cyber security, programming, systems administration, manage, configuration and computer science in general.
   - This repository has been intended to be a personal centralized place to store my own created data and also compile some public data that I commonly use such as databases, codes, scripts, write ups, binaries, resources, documents and some other kind of files that I use in my day to day life as an engineer.
 
  - This repository also serves as my portfolio to show to potential employers and clients my work, experience, education and resume in the area of IT, Network Engineering, Development, Programming, Cyber Security, Computer Systems and Infraestructure Management and some other branches of the Computer Science.
