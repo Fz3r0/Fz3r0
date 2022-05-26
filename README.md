@@ -722,6 +722,7 @@ _[I am the Black Wizards](https://www.youtube.com/watch?v=glKbRmOmB9M)_
  
 ### Digital Forensics Documentation & Legal Forms
 
+- [Guide to Computer Forensics and Investigations, 6th Edition](https://www.cengagebrain.com.mx/shop/isbn/9781337568944?categoryId=null&urlRequestType=Base&errorViewName=ProductDisplayErrorView&urlLangId=-1&top_category=null&parent_category_rn=null&partNumber=9781337568944)
 - [Evidence Chain of Custody Tracking Form](https://github.com/Fz3r0/Fz3r0/files/8781010/Sample-Chain-of-Custody-Form.docx)
 
 
