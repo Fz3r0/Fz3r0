@@ -29,9 +29,9 @@
 
 <!--
 
-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
-** =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=- PORTADA 
-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+*-*-*-*
+** =-=- PORTADA 
+*-*-*-*
 
 -->
 
@@ -39,12 +39,38 @@
 
 <h1 align="center">💀 Fz3r0 💀</h1>
 
-
 ---
 
 <span align="center"> <p align="center"> **🛸🌌 <<---|☠️ [Wormhole to Index](/README.md#-index-) ☠️|--->> 🌌🛸** </p> </span> 
 
 ---
+--- 
+ 
+<span align="center"> <h3 align="center"> DISCLAIMER </h3> </span>
+
+ - This repository has been intended to be a personal and private database that also serves as a portfolio to show to potential employers and clients my work, experience, education and resume in the area of IT, network engineering, cyber security, programming, systems administration, manage, configuration and computer science in general.
+  - This repository has been intended to be a personal centralized place to store my own created data and also compile some public data that I commonly use such as databases, codes, scripts, write ups, binaries, resources, documents and some other kind of files that I use in my day to day life as an engineer.
+
+ - This repository also serves as my portfolio to show to potential employers and clients my work, experience, education and resume in the area of IT, Network Engineering, Development, Programming, Cyber Security, Computer Systems and Infraestructure Management and some other branches of the Computer Science.
+
+  - The reason this repository is publicly accessible is because it shares the GNU free software ideology and philosophy, it means the freedom to run the software, to study the software, to modify the software, and to share copies of the software (whether modified or not).
+  
+     I believe that all people should learn about Computer Science and Technology for free and must be accesible for everyone as a human right, which would make this world a better place, in addition to leaving a small footprint of the greatness of human capacity in this tiny instant of time and in this little portion of infinite universe. I hope this can help someone!
+  
+  - All the scripts, binaries, software, techniques, programs, directories, databases or any other resource contained in this repository should be used ONLY for authorized penetration testing, networking laboratories, ethical hacking, experimentation and/or educational purposes. 
+  
+  - This repository contain codes and scripts that could harm some systems and devices. Read carefully each file documentation and/or script before download, extract, execute, copy or compile.
+  
+  - Any misuse of the information and files compiled in this repository will not be the responsibility of the author. 
+ 
+<p align="center"> <img src="https://user-images.githubusercontent.com/94720207/165983361-8d515dec-44f5-4a77-98de-a973705a2226.png" alt="herodotus" width="100" height="100"/> </a> </p>
+ 
+<span align="center"> <p align="center"> _**"The only good is knowledge, and the only evil is ignorance."** Herodotus_ </p> </span> 
+  
+---
+--- 
+
+
 
 <!--
 
@@ -155,32 +181,7 @@ https://www.hackthebox.com/badge/image/897009
 
 -->
   
----
---- 
- 
-<span align="center"> <h3 align="center"> DISCLAIMER </h3> </span>
 
- - This repository has been intended to be a personal and private database that also serves as a portfolio to show to potential employers and clients my work, experience, education and resume in the area of IT, network engineering, cyber security, programming, systems administration, manage, configuration and computer science in general.
-  - This repository has been intended to be a personal centralized place to store my own created data and also compile some public data that I commonly use such as databases, codes, scripts, write ups, binaries, resources, documents and some other kind of files that I use in my day to day life as an engineer.
-
- - This repository also serves as my portfolio to show to potential employers and clients my work, experience, education and resume in the area of IT, Network Engineering, Development, Programming, Cyber Security, Computer Systems and Infraestructure Management and some other branches of the Computer Science.
-
-  - The reason this repository is publicly accessible is because it shares the GNU free software ideology and philosophy, it means the freedom to run the software, to study the software, to modify the software, and to share copies of the software (whether modified or not).
-  
-     I believe that all people should learn about Computer Science and Technology for free and must be accesible for everyone as a human right, which would make this world a better place, in addition to leaving a small footprint of the greatness of human capacity in this tiny instant of time and in this little portion of infinite universe. I hope this can help someone!
-  
-  - All the scripts, binaries, software, techniques, programs, directories, databases or any other resource contained in this repository should be used ONLY for authorized penetration testing, networking laboratories, ethical hacking, experimentation and/or educational purposes. 
-  
-  - This repository contain codes and scripts that could harm some systems and devices. Read carefully each file documentation and/or script before download, extract, execute, copy or compile.
-  
-  - Any misuse of the information and files compiled in this repository will not be the responsibility of the author. 
- 
-<p align="center"> <img src="https://user-images.githubusercontent.com/94720207/165983361-8d515dec-44f5-4a77-98de-a973705a2226.png" alt="herodotus" width="100" height="100"/> </a> </p>
- 
-<span align="center"> <p align="center"> _**"The only good is knowledge, and the only evil is ignorance."** Herodotus_ </p> </span> 
-  
----
---- 
 
 ![index_banner_final2](https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/a2f7c9d8-a913-4273-847f-705be41395df/d9ebz2w-66957331-3bd7-4c21-9da4-f42cb7b178c5.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2EyZjdjOWQ4LWE5MTMtNDI3My04NDdmLTcwNWJlNDEzOTVkZlwvZDllYnoydy02Njk1NzMzMS0zYmQ3LTRjMjEtOWRhNC1mNDJjYjdiMTc4YzUuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.fN24kFldhLDg1ad0rzTWYCia2LsbNjnlST2iOVRJ934)
 
