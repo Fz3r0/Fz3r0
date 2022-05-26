@@ -50,7 +50,7 @@
 
   - This repository has been intended to be a personal centralized place to store my own created data and also compile some public data such as databases, codes, scripts, write ups, binaries, resources, documents and some other kind of files that I commonly use in my day to day life as an engineer.
 
- - This repository also serves as my portfolio to show to potential employers and clients my work, experience, education and resume in the area of IT, Network Engineering, Development, Programming, Cyber Security, Computer Systems and Infraestructure Management and some other branches of the Computer Science.
+ - This repository also serves as my portfolio to show to potential employers and clients my work, experience, education and resume in the area of IT, Network Engineering, Development, Programming, Cyber Security, Computer Systems, Infraestructure Management and other branches of Computer Science and Information Technologies.
 
   - The reason this repository is publicly accessible is because it shares the GNU free software ideology and philosophy, it means the freedom to run the software, to study the software, to modify the software, and to share copies of the software (whether modified or not).
   
