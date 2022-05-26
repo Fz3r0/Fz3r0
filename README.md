@@ -92,8 +92,8 @@
 #### < Networking > 
 * `NetOps` `NetSec` `CCNA`  `RICXI`  `RSP`  `CWNA`  `Wireless` `Enterprise Networking` `SOHO` `NGNs`  
 
-#### < Programming and DBA >
-* `DevOps` `Python` `C++` `Ruby` `Visual Basic` `VBA` `Bash` `Batch` `HTML5` `CSS3` `Javascript` `Node.js` `PHP` `SQL` `MySQL` `Mongo DB` 
+#### < Programming, Scripting and DBA >
+* `DevOps` `Python` `C++` `Ruby` `Visual Basic` `VBA` `Bash` `Batch` `PowerShell` `HTML5` `CSS3` `Javascript` `Node.js` `PHP` `SQL` `MySQL` `Mongo DB` 
 
 #### < Security >   
 * `DevSecOps`  `SecOps` `CyberOps` `Security+`  `PenTest+` `Ofensive Pentesting`  `Red Team` `Ethical Hacking`  `Defensive Security` `Blue Team` `Forensics`  
