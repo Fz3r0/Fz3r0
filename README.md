@@ -809,6 +809,21 @@ _There is no path...
 _The Strength Of The Human Heart. The Difference Between Us And Machines_
 
 ---
+ 
+_**Un recuerdo que dejo**_
+
+_"¿Con qué he de irme?_ <br>
+_¿Nada dejaré en pos de mi sobre la tierra?_ <br>
+_¿Cómo ha de actuar mi corazón?_ <br>
+_¿Acaso en vano venimos a vivir,_ <br>
+_a brotar sobre la tierra?_ <br>
+_Dejemos al menos flores_ <br>
+_Dejemos al menos cantos"_ <br>
+ 
+_Nezahualcoyotl_ 
+ 
+ 
+---
 
 > ![hecho en mex3 (1)mini](https://user-images.githubusercontent.com/94720207/163919294-2754caa3-c98c-4df3-b782-00703e4d3343.png)
 >
