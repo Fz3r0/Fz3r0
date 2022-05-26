@@ -669,8 +669,10 @@ _[I am the Black Wizards](https://www.youtube.com/watch?v=glKbRmOmB9M)_
 - CSS WriteUps, Guides & Resources
 
     - [**CSS** CC - CC Mastery! Guide by Fz3r0 **En español**](https://github.com/Fz3r0/Web-Programming-Fz3r0/blob/main/Javascript-Guides-Writeups/CSS-from-zero-to-hero.md) _My CC writeup to master CSS (En español)_ 
+    - [W3 Schools - CSS Bible](https://www.w3schools.com/Css/) _All necessary stuff for CSS scripting_
+    - [CSS Resources - CSS Bible](https://www.cssportal.com/css-resources.php)
     - [Flexbox Froggy](https://flexboxfroggy.com/) _A game where you help Froggy and friends by writing CSS code!_
-    - [CSS Pro Cheatsheets & Resources]() _All necessary stuff for CSS scripting_
+
 
 - CSS Codes, Scripts & Examples
  
