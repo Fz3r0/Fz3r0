@@ -630,6 +630,10 @@ Fz3r0 Cyber-Weaponry Crafting, Tools Programming & Open Source Projects
 
 ### Tools & Cyber Weaponry for Programming, Web-Prgramming, Scripting
 
+- Misc
+
+    - [Manifesto for Agile Software Development](http://agilemanifesto.org/) 
+
 - IDEs / Source Code Editors
     
     - [Sublime Text](https://www.sublimetext.com/)
