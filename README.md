@@ -66,16 +66,18 @@
 
 <p align="center"> <a href="https://twitter.com/Fz3r0_OPs" target="_blank" rel="noreferrer"> <img src="https://user-images.githubusercontent.com/94720207/168743521-b8c142ae-e221-40c9-8d1f-bd9520027717.png" alt="twitter"> </a>   &emsp; &emsp; &emsp;   <a href="https://github.com/Fz3r0" target="_blank" rel="noreferrer"> <img src="https://user-images.githubusercontent.com/94720207/168743591-ca20efa5-f692-46b0-ba84-f2681486009f.png" alt="github"> </a>   &emsp; &emsp; &emsp;   <a href="https://www.linkedin.com/in/fzerocarlos/" target="_blank" rel="noreferrer"> <img src="https://user-images.githubusercontent.com/94720207/168743658-0a5101f0-49fd-494f-9a79-cf70ad860d12.png" alt="github"> </a> </p> 
 
-#### < University Degree >
-* `Bachelor of Science in Computer Systems Engineering`
-
 #### < Networking > 
+* `CCNA`  `RICXI`  `RSP`  `CWNA`  `NetSec` `Wireless` `Enterprise Networking` `SOHO` `NGNs` `FTTH/FFTx` `GPON` 
+
+#### < Programming and DBA >
+* `Python` `C++` `Ruby` `Visual Basic` `VBA` `Bash` `Batch` `HTML5` `CSS3` `Javascript` `Node.js` `PHP` `SQL` `MySQL` `Mongo DB` `DevOps`
+
 * `CCNA`  `RICXI`  `RSP`  `CWNA` `Network Engineer` `NetSec` `Wireless` `Enterprise Networking` `NGNs` `FTTH/FFTx` `GPON` 
 #### < Security >   
+* `Security+`  `PenTest+`  `SecOps` `CyberOps` `Ofensive Pentesting`  `Red Team` `Ethical Hacking`  `Defensive Security` `Blue Team` `Forensics`  `DevSecOps`
 * `Security+`  `PenTest+`  `Ofensive Pentesting`  `Ethical Hacking`  `Defensive Security` `Forensics`
 
 &nbsp;
-
 
 <p align="center"> <a href="https://www.credly.com/badges/7611ce7f-e699-4426-888b-ab4f4fe7d785" target="_blank" rel="noreferrer"> <img src="https://images.credly.com/size/340x340/images/70d71df5-f3dc-4380-9b9d-f22513a70417/CCNAITN__1_.png" alt="cisco1"  width="127" height="127"> </a>   &emsp; &emsp; &emsp;   <a href="https://www.credly.com/badges/72488bf8-8ed7-4d31-bff9-9e5c2555af36" target="_blank" rel="noreferrer"> <img src="https://images.credly.com/size/340x340/images/f4ccdba9-dd65-4349-baad-8f05df116443/CCNASRWE__1_.png" alt="cisco2" width="127" height="127"> </a>   &emsp; &emsp; &emsp;   <a href="https://www.credly.com/badges/675b414f-c768-40e9-906a-b9f17a75308c" target="_blank" rel="noreferrer"> <img src="https://images.credly.com/size/340x340/images/0a6d331e-8abf-4272-a949-33f754569a76/CCNAENSA__1_.png" alt="cisco1"  width="127" height="127"> </a> </p> 
 
@@ -161,12 +163,13 @@ https://www.hackthebox.com/badge/image/897009
  
 <span align="center"> <h3 align="center"> DISCLAIMER </h3> </span>
 
+ - This repository has been intended to be a personal and private database that also serves as a portfolio to show to potential employers and clients my work, experience, education and resume in the area of IT, network engineering, cyber security, programming, systems administration, manage, configuration and computer science in general.
   - This repository has been intended to be a personal centralized place to store my own created data and also compile some public data that I commonly use such as databases, codes, scripts, write ups, binaries, resources, documents and some other kind of files that I use in my day to day life as an engineer.
- 
+
  - This repository also serves as my portfolio to show to potential employers and clients my work, experience, education and resume in the area of IT, Network Engineering, Development, Programming, Cyber Security, Computer Systems and Infraestructure Management and some other branches of the Computer Science.
-  
+
   - The reason this repository is publicly accessible is because it shares the GNU free software ideology and philosophy, it means the freedom to run the software, to study the software, to modify the software, and to share copies of the software (whether modified or not).
- 
+  
      I believe that all people should learn about Computer Science and Technology for free and must be accesible for everyone as a human right, which would make this world a better place, in addition to leaving a small footprint of the greatness of human capacity in this tiny instant of time and in this little portion of infinite universe. I hope this can help someone!
   
   - All the scripts, binaries, software, techniques, programs, directories, databases or any other resource contained in this repository should be used ONLY for authorized penetration testing, networking laboratories, ethical hacking, experimentation and/or educational purposes. 
