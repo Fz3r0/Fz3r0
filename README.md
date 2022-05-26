@@ -234,7 +234,7 @@ https://www.hackthebox.com/badge/image/897009
 
 ### Fast Index
 
-- **Networking**
+- **Networking Infraestructure**
 
     - 🔮 📖 🧙‍ **Dark Wizardy for Networking & NetSec** 
     - 🔐 🛠️ ⚙️ **Configure it Like a Sir!**
@@ -248,7 +248,7 @@ https://www.hackthebox.com/badge/image/897009
 
 -->    
 
-## Networking
+## Networking Infraestructure
 _Monitoring devices, know where you go, mass media, total control. Digital delight, desire in megabite. Data overflow, virtual suicide. This information, is disinformation. Truth is hidden, knowledge forbidden. The structures of power, will delegate. To speak is to lie, to lie is to collaborate. Information streams, simulating dreams. Interactive mind-control, systematic overflow. Magnetic sleep, network addiction. Be absorbed, science fiction. It's pyschological, diabolical. Societies brainwash hospital..._<br>
 
 _The sun never sets, on cyber-space... Transmit, receive, log on to interface_
