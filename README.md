@@ -48,7 +48,7 @@
  
 <span align="center"> <h3 align="center"> DISCLAIMER </h3> </span>
 
-  - This repository has been intended to be a personal centralized place to store my own created data and also compile some public data such as databases, codes, scripts, write ups, binaries, resources, documents and some other kind of files that I commonly use in my day to day life as an engineer.
+  - This repository has been intended to be a personal centralized place to store my own created data and also compile some public data such as databases, codes, scripts, write ups, binaries, labs, resources, documents and some other kind of files that I commonly use in my day to day life as an engineer.
 
  - This repository also serves as my portfolio to show to potential employers and clients my work, experience, education and resume in the area of IT, Network Engineering, Development, Programming, Cyber Security, Computer Systems, Infraestructure Management and other branches of Computer Science and Information Technologies.
 
