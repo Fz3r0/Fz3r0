@@ -70,9 +70,13 @@
 * `Bachelor of Science in Computer Systems Engineering`
 
 #### < Networking > 
-* `CCNA`  `RICXI`  `RSP`  `CWNA` `Network Engineer` `NetSec` `Wireless` `Enterprise Networking` `NGNs` `FTTH/FFTx` `GPON` 
+* `CCNA`  `RICXI`  `RSP`  `CWNA`  `NetSec` `Wireless` `Enterprise Networking` `SOHO` `NGNs` `FTTH/FFTx` `GPON` 
+
+#### < Programming and DBA >
+* `Python` `C++` `Ruby` `Visual Basic` `VBA` `Bash` `Batch` `HTML5` `CSS3` `Javascript` `Node.js` `PHP` `SQL` `MySQL` `Mongo DB`
+
 #### < Security >   
-* `Security+`  `PenTest+`  `Ofensive Pentesting`  `Ethical Hacking`  `Defensive Security` `Forensics`
+* `Security+`  `PenTest+`  `SecOps` `CyberOps` `Ofensive Pentesting`  `Red Team` `Ethical Hacking`  `Defensive Security` `Blue Team` `Forensics`  `DevSecOps`
 
 &nbsp;
 
