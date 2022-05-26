@@ -70,13 +70,9 @@
 * `Bachelor of Science in Computer Systems Engineering`
 
 #### < Networking > 
-* `CCNA`  `RICXI`  `RSP`  `CWNA`  `NetSec` `Wireless` `Enterprise Networking` `SOHO` `NGNs` `FTTH/FFTx` `GPON` 
-
-#### < Programming and DBA >
-* `Python` `C++` `Ruby` `Visual Basic` `VBA` `Bash` `Batch` `HTML5` `CSS3` `Javascript` `Node.js` `PHP` `SQL` `MySQL` `Mongo DB` `DevOps`
-
+* `CCNA`  `RICXI`  `RSP`  `CWNA` `Network Engineer` `NetSec` `Wireless` `Enterprise Networking` `NGNs` `FTTH/FFTx` `GPON` 
 #### < Security >   
-* `Security+`  `PenTest+`  `SecOps` `CyberOps` `Ofensive Pentesting`  `Red Team` `Ethical Hacking`  `Defensive Security` `Blue Team` `Forensics`  `DevSecOps`
+* `Security+`  `PenTest+`  `Ofensive Pentesting`  `Ethical Hacking`  `Defensive Security` `Forensics`
 
 &nbsp;
 
@@ -165,7 +161,9 @@ https://www.hackthebox.com/badge/image/897009
  
 <span align="center"> <h3 align="center"> DISCLAIMER </h3> </span>
 
-  - This repository has been intended to be a personal and private database that also serves as a portfolio to show to potential employers and clients my work, experience, education and resume in the area of IT, network engineering, cyber security, programming, systems administration, manage, configuration and computer science in general.
+  - This repository has been intended to be a personal centralized place to store my own created data and also compile some public data that I commonly use such as databases, codes, scripts, write ups, binaries, resources, documents and some other kind of files that I use in my day to day life as an engineer.
+ 
+ - This repository also serves as my portfolio to show to potential employers and clients my work, experience, education and resume in the area of IT, Network Engineering, Development, Programming, Cyber Security, Computer Systems and Infraestructure Management and some other branches of the Computer Science.
   
   - The reason this repository is publicly accessible is because it shares the GNU free software ideology and philosophy, it means the freedom to run the software, to study the software, to modify the software, and to share copies of the software (whether modified or not).
  
@@ -634,9 +632,11 @@ Fz3r0 Cyber-Weaponry Crafting, Tools Programming & Open Source Projects
 
 ### Tools & Cyber Weaponry for Programming, Web-Prgramming, Scripting
 
-- Misc
+- DevOps Methodolody & Approach
 
-    - [Manifesto for Agile Software Development](http://agilemanifesto.org/) 
+    - [Manifesto for Agile Software Development](http://agilemanifesto.org/)
+    - [DevOps Methodology]()
+    - [DevSecOps Approach]() _Development approach where security is introduced from the early stages of a development lifecycle until the final stages_ 
 
 - IDEs / Source Code Editors
     
