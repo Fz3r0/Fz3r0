@@ -679,12 +679,15 @@ _[I am the Black Wizards](https://www.youtube.com/watch?v=glKbRmOmB9M)_
 
 - Javascript WriteUps & Guides
 
-    - [HTML-5 Fast Guide by Fz3r0]() 
-    - [Javascript from 0 to Junior Course](https://www.youtube.com/watch?v=z95mZVUcJ-E)
+    - [Javascript Full writeup by Fz3r0]() 
 
 - Javascript Resources & Scripts
 
     - [Basic HTML+CSS+Javascript Fz3r0 Defacement]() 
+
+- Node.js
+
+    - [Install Node.js in Windows](https://www.softzone.es/programas/lenguajes/instalar-node-js/)  
  
 ## Database
 
