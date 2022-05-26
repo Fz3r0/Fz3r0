@@ -632,7 +632,7 @@ Fz3r0 Cyber-Weaponry Crafting, Tools Programming & Open Source Projects
 
 ### Tools & Cyber Weaponry for Programming, Web-Prgramming, Scripting
 
-- DevOps Methodolody & Approach
+- Software Development Models, DevOps & Shifting Left.
  
     - [Waterfall Model]() _Legacy: A long time ago, in a galaxy far, far away..._
     - [Manifesto for Agile Software Development](http://agilemanifesto.org/)
