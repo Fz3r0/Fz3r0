@@ -600,6 +600,7 @@ _But you must concentrate..._<br>
 - XSS Guides, Writeups & Labs:
     
     - [Javascript Full Guide]()
+    - [Laboratorio XSS en formulario sencillo](https://www.youtube.com/watch?v=uoD0QGFzPvs)
     - [XSS Práctica > A. Caballero](https://www.youtube.com/watch?v=lqcWIFUExNA) 
 
 - XSS Tools, Cheatsheets, Commands, Scripts
