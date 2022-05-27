@@ -41,7 +41,7 @@
 
 ---
 
-<span align="center"> <p align="center"> **🛸🌌 <<---|☠️ [Wormhole to Index](/README.md#-index-) ☠️|--->> 🌌🛸** </p> </span> 
+<span align="center"> <p align="center"> **🛸🌌 <<--|☠️ [Wormhole to Index](/README.md#-index-) ☠️|-->> 🌌🛸** </p> </span> 
 
 ---
 --- 
