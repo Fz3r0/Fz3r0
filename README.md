@@ -644,6 +644,9 @@ Fz3r0 Cyber-Weaponry Crafting, Tools Programming & Open Source Projects
     - [Sublime Text](https://www.sublimetext.com/)
     - [Visual Studio Code](https://code.visualstudio.com/)
     - [VIM](https://www.vim.org/)
+ 
+ - [Hacker Earth](https://www.hackerearth.com/)
+ - [Python Problems](https://codingbat.com/python)
     
 ### Python
 _Serpentium lingua et artes magicae obscurae_<br><br> 
