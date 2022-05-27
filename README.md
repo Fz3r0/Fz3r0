@@ -491,8 +491,18 @@ _But you must concentrate..._<br>
 - [Shodan: The Complete Guide](https://skerritt.blog/shodan/) _Complete guide for Shodan.io: a search engine for the Internet of Things._
 - [shodan.io Hacks, Dorks & Bonus](https://0ut3r.space/2020/07/25/shodan-dorks/)
 - [OSINT like Agent 007 - Cipher Knowledge](https://github.com/Fz3r0/osint_stuff_tool_collection?organization=Fz3r0&organization=Fz3r0)
-- [Dorks Collection List](https://github.com/Fz3r0/Dorks-collections-list)        
+- [Dorks Collection List](https://github.com/Fz3r0/Dorks-collections-list)
+ 
+### CVE & PoC
 
+- CVE Databases
+    - [Mitre - CVE](https://cve.mitre.org/)
+
+- CVE & PoCs finders and tricks
+    - [Exploit DB](https://www.exploit-db.com/)
+    - [trickest CVE](https://github.com/trickest/cve) _Almost every publicly available CVE PoC._
+    - [PoC finder in Github](https://github.com/trickest/find-gh-poc) _Finds CVE PoCs on Github._
+ 
 ### Cyber-Weapons & Tools
     
 - **Databases & Arsenals**     
