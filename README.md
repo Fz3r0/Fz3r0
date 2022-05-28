@@ -683,12 +683,13 @@ _[I am the Black Wizards](https://www.youtube.com/watch?v=glKbRmOmB9M)_
 
 - HTML WriteUps & Guides
 
-    - [HTML-5 Fast Guide by Fz3r0]() 
+    - [HTML-5 Fast Guide by Fz3r0](https://github.com/Fz3r0/Web-Programming-Fz3r0/blob/main/Javascript-Guides-Writeups/HTML-from_zero_to_hero.md) 
     - [HTML-5 II]()
 
 - HTML Resources & Scripts
 
     - [Basic HTML Fz3r0 Defacement]() 
+    - [HTML Sample Web Page - Learn HTML too!](http://www.columbia.edu/~fdc/sample.html) 
 
 ### CSS
 
