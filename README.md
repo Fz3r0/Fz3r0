@@ -657,7 +657,9 @@ Fz3r0 Cyber-Weaponry Crafting, Tools Programming & Open Source Projects
     
     - [Sublime Text](https://www.sublimetext.com/)
     - [Visual Studio Code](https://code.visualstudio.com/)
+    - [Git](https://git-scm.com/download/win) 
     - [VIM](https://www.vim.org/)
+ 
  
  - [Hacker Earth](https://www.hackerearth.com/)
  - [Python Problems](https://codingbat.com/python)
