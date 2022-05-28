@@ -478,7 +478,8 @@ Guides, Tips & Tricks, Downloads, Training, Crafting, Arsenal, Binaries, Executa
 
 _Here's the machine the strangers use to amplify their thoughts, the machine that changes their world..._<br> 
 _You must take control of it. You must make the machine yours..._<br>
-_But you must concentrate..._<br>
+_I know you can beat them...but you must concentrate..._<br>
+_I have mastered the ultimate technology, the hability to alter physical reality and read peoples minds._
 
 ### Hacking Bibles
 
