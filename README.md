@@ -382,10 +382,15 @@ Guides, Tips & Tricks, Downloads, Training, Crafting, Arsenal, Binaries, Executa
         - Wireshark
  
             - [**Wireshark - Display Filter Reference**](https://www.wireshark.org/docs/dfref/) _over 271000 fields in 3000 protocols as of version 3.6.5_
+            - [**Wireshark - Capture Filters Reference**](https://wiki.wireshark.org/CaptureFilters)
             - [**Wireshark - From Nemo to Black Megalodon: Pro Sniffing & Network Traffic Audit/Analysis.** by @ Fz3r0]
             - [**Wireshark - Troubleshooting Slow Networks - Presented by Megalodon Chris Greer @ UC Berkeley**](https://www.youtube.com/watch?v=h9stVIfug5Y)
             - [**Wireshark Map IP Address Locations @ GeoIP**](https://www.youtube.com/watch?v=IlVppluWTHw)
             - [**Wireshark - Analyzing Botnet Attack Activity + Geolocalization @ Megalodon Chris Greer](https://www.youtube.com/watch?v=jFJMt-y6ZvU)
+ 
+        - tcpdump 
+ 
+            - [**tcpdump - Ethereal Filters**](https://www.tcpdump.org/papers/ethereal-tcpdump.pdf)
     
      - T-Shark 
     
