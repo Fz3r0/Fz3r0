@@ -493,6 +493,7 @@ _I have mastered the ultimate technology, the hability to alter physical reality
 - [High On Coffee](https://highon.coffee/blog/) _Security Research and Penetration Testing Blog - Cheat Sheets, Techniques, Hardening, WalkThroughs_
 - [SecLists](https://github.com/danielmiessler/SecLists) _Collection of multiple types of lists used during security assessments, collected in one place._
 - [The Art of Hacking](https://github.com/The-Art-of-Hacking/h4cker) _Over 9,000 References, Scripts, Tools, Code & Resources for Offensive/Defensive Security_
+- [Hakin9](https://hakin9.org/) _magazine dedicated to hacking and cybersecurity. Defensive and offensive secuirty techniques_
 - [Awesome Hacking](https://github.com/Fz3r0/Awesome-Hacking) _A collection of awesome lists for hackers, pentesters & security researchers._
 - [Tib3rius FULL Pentesting Black Magics](https://github.com/Tib3rius/Pentest-Cheatsheets) _Cheatsheets, Tools, PrivEsc, Checklist, Exploits_
 - [Aldeid](https://www.aldeid.com/wiki/Main_Page) _Wiki about Network and Web Applications Security, Ethical Hacking and Network Forensics._
