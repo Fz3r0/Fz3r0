@@ -501,7 +501,6 @@ _I have mastered the ultimate technology, the hability to alter physical reality
 - [Aldeid](https://www.aldeid.com/wiki/Main_Page) _Wiki about Network and Web Applications Security, Ethical Hacking and Network Forensics._
 - [Shodan: The Complete Guide](https://skerritt.blog/shodan/) _Complete guide for Shodan.io: a search engine for the Internet of Things._
 - [shodan.io Hacks, Dorks & Bonus](https://0ut3r.space/2020/07/25/shodan-dorks/)
-- [OSINT like Agent 007 - Cipher Knowledge](https://github.com/Fz3r0/osint_stuff_tool_collection?organization=Fz3r0&organization=Fz3r0)
 - [Dorks Collection List](https://github.com/Fz3r0/Dorks-collections-list)
  
 ### ✅ 🗄️ 📈 **CVE & PoC** 📈 🗄️ ✅
@@ -549,7 +548,7 @@ _I have mastered the ultimate technology, the hability to alter physical reality
 
 ### 🔍 📕 💪 **Worldists, Fuzzing, Passwords & BruteForce** 💪 📕 🔍
 
-- Fuzzing Tools & Resources
+- **Fuzzing Tools & Resources**
                                                         
     - [Subcat](https://github.com/Fz3r0/subcat) _Subdomain discovery tool_
     - [dirsearch]()
@@ -595,8 +594,6 @@ _I have mastered the ultimate technology, the hability to alter physical reality
 
 ### Enumeration
 
-
-
 ### Buffer Overflow (OSCP Style)
 
 - [Buffer Overflow guide - Vuln Server, writeup by @ Fz3r0](/Cyber-Security-&-Hacking/Buffer-Overflow/buffer-overflow.md)
@@ -604,6 +601,11 @@ _I have mastered the ultimate technology, the hability to alter physical reality
 - [Buffer Overflow guide - OSCP Peparation, writeup by @Fz3r0](/Cyber-Security-&-Hacking/Buffer-Overflow/Buffer_Overflow-Prep.md)
 - [Buffer Overflow Lab - Gatekeeper, writeup by @ Fz3r0](https://github.com/Fz3r0/Fz3r0/blob/main/Cyber-Security-%26-Hacking/Buffer-Overflow/THM-Gatekeeper(Buffer-Overflow).md)
 
+### OSINT
+
+- [Meta OSINT](https://metaosint.github.io/table/) _The full list of 4,000+ OSINT resources_ 
+- [OSINT Tool Connection @ Cyber Detective](https://github.com/cipher387/osint_stuff_tool_collection) _Sifferent services, techniques, tricks and notes about OSINT and more_
+ 
 ### Deep Web
 
 - [Hackeando TOR y Freenet - D. Echeverri @ CyberCamp](https://www.youtube.com/watch?v=V1msORieS4I)
