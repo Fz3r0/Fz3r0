@@ -286,14 +286,51 @@ print(type(z))
 
 ```py
 
+    # lista vacía:
+
+lista_vacia = []
+
     # Creando una lista:
 
-f0_lista = ["apple", "banana", "cherry"]
+f0_lista = ["manzana", "banana", "mango"]
 
     # Imprimiendo la lista:
 
 print(f0_lista)
 ```
+
+- ![image](https://user-images.githubusercontent.com/94720207/170893706-6d0160d4-feec-410c-9974-c19bf3eeffa8.png)
+
+- También se pueden manipular las listas utilizando los siguientes `métodos`:
+
+1. `append` - Agregar datos a la lista
+
+
+```py
+    # Creando una lista:
+
+f0_lista_1 = [1, 2, 3]
+
+f0_lista_2 = ['abc', 'string', 'Fz3r0']
+
+    # Imprimiendo la lista creada:
+
+print(f0_lista_1)
+print(f0_lista_2)
+print()
+
+    # Agregando elementos a la lista usando "append":
+
+f0_lista_1.append(4)
+
+print(f0_lista_1)
+
+f0_lista_2.append('Agregando strings eh?!')
+
+print(f0_lista_2)
+```
+
+- ![image](https://user-images.githubusercontent.com/94720207/170893904-58552958-dca9-47b9-b9f1-c5c37b962cb4.png)
 
 
 
