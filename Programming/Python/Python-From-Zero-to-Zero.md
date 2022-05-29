@@ -139,17 +139,19 @@ print (X, Y, Z, email)
 
     # Declarando a, b y c en una misma linea
     
-    # Las 3 variables resultarán con el mismo valor de "10"
+    # # Las 3 variables resultarán con su respectivo valor según el orden (1º, 2º y 3º)
     
-a, b, c = 10 
+a, b, c = 10, 20, 30 
     
-    # Las 3 variables resultarán con el mismo valor de "fz3r0_string"
+    # Las 3 variables resultarán con su respectivo valor según el orden (1º, 2º y 3º)
     
-x, y, z = 'fz3r0_string'
+x, y, z = 'fz3r0_string_1', 'fz3r0_string_2', 'fz3r0_string_3', 
 
 print (a)
 print (b)
 print (c)
+
+print (a, b, c)
 
 print()
 
@@ -157,9 +159,34 @@ print (x)
 print (y)
 print (z)
 
+print (x, y, z)
+
 ```
 
 - ![image](https://user-images.githubusercontent.com/94720207/170892659-a4c9306f-b868-49c8-8852-45fa127526d1.png)
 
+- En caso de querer que las variables declaradas al mismo tiempo también tengan el mismo valor:
+
+    - Ejemplo: 
+
+```py
+
+    # Declarando valor_1, valor_2 y valor_3 en una misma linea
+    
+    # # Las 3 variables resultarán con el mismo valor:
+    
+valor_1 = valor_2 = valor_3 = '<< Triforce - 3 variables tendrán este valor >>'  
+    
+    # Las 3 variables resultarán con el mismo valor (en este caso el string)
+    
+print (valor_1)
+print (valor_2)
+print (valor_3)
+
+print (valor_1, valor_2)
+
+```
+
+- ![image](https://user-images.githubusercontent.com/94720207/170892834-42d96368-50f4-40c1-94b3-81342a06331c.png)
 
 
