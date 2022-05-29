@@ -761,10 +761,8 @@ _[I am the Black Wizards](https://www.youtube.com/watch?v=glKbRmOmB9M)_
 - [HxD - HEX editor & Disk Editor](https://mh-nexus.de/en/hxd/) _HEX editor & raw disk editing and modifying of RAM_
 
 ## Malware
-  
-### fz3r0 - My Malware 
-  
-### Malware Databases
+ 
+### Malware Black Bibles & Databases
   
 - https://github.com/Fz3r0/theZoo
 - [VX-Underground (PASS: infected)](https://www.vx-underground.org/)_The largest collection of malware source code, samples, and papers on the internet._
@@ -775,44 +773,33 @@ _[I am the Black Wizards](https://www.youtube.com/watch?v=glKbRmOmB9M)_
 - https://github.com/Fz3r0/malwaredatabase-1
 - https://github.com/Fz3r0/MalwareDatabase-2
 - https://github.com/Fz3r0/reversed-malwares
-- https://github.com/Fz3r0/MalwareScripts
+- https://github.com/Fz3r0/MalwareScripts 
   
-### Malware Codes, Scripts, Reversed & Open Source CAUTION!
+### fz3r0 - My Malware 
+  
+### Malware Codes, Scripts, Reversed & Open Source
   
 - https://github.com/Fz3r0/BatchPower _Batch Scripts_
 - https://github.com/Fz3r0/Defender-disabler
 
+## CTF & Attack Boxes Related 
 
-  
-### Piracy + Privacy
+- CTF Tools
+     - [HTB machines]() _S4vitar Machine's Resolutions_
+     - https://github.com/Fz3r0/rsatool
+     - https://github.com/Fz3r0/ctf-tools
+     - https://github.com/Fz3r0/katana
+ 
+- Bug Bounty
+        - [Bug Bounty Cheatsheet I](https://github.com/EdOverflow/bugbounty-cheatsheet) 
+ 
+- OSCP Related
+    - https://github.com/jakescheetz/OSCP
 
-- hol[]
- 
-  - [Fuzzing]
-  
-  - [Wordlists]
-  
-      - [SecLists](https://github.com/Fz3r0/SecLists) _List types include usernames, passwords, URLs, sensitive data patterns, fuzzing payloads, web shells, and many more._
-      - https://github.com/Fz3r0/wordlistctl _Script to fetch, install, update and search wordlist archives from websites offering wordlists with more than 6400 wordlists available._
-      - https://github.com/Fz3r0/Probable-Wordlists
+- [fz3r0 - CTFs]
+    - [Wgel CTF](/Cyber-Security-&-Hacking/Labs-&-CTFs/THM/Wgel-CTF.md) _THM_
 
-    - Bug Bounty
-        - [Bug Bounty Cheatsheet I](https://github.com/EdOverflow/bugbounty-cheatsheet)
- 
-        - [OSCP Related]
-            - https://github.com/jakescheetz/OSCP
-    
-     - [fz3r0 - CTFs]
-        - [Wgel CTF](/Cyber-Security-&-Hacking/Labs-&-CTFs/THM/Wgel-CTF.md) _THM_
-  
-    - [CTF Tools]
-        - https://github.com/Fz3r0/rsatool
-        - https://github.com/Fz3r0/ctf-tools
-        - https://github.com/Fz3r0/katana
-  
- - [fz3r0 - Security Labs]
- 
-### Comunity, Forums, Discords, Channels & Streams of Freak Weirdos
+## Comunity, Forums, Discords, Channels & Streams of Freak Weirdos
  
 - [Breach Forums (after Raid Forums were raided by the feds lol)](https://breached.co/)
      
@@ -822,7 +809,7 @@ _[I am the Black Wizards](https://www.youtube.com/watch?v=glKbRmOmB9M)_
  
 - IT & Computer Science
 
-### Misc Tools
+## Misc Tools
 
 - [Mark Down Table Editor](https://tableconvert.com/markdown-generator)
 - [WinDirStat](https://windirstat.net/) _Disk usage statistics viewer and cleanup tool for various versions of Microsoft Windows._
@@ -830,6 +817,7 @@ _[I am the Black Wizards](https://www.youtube.com/watch?v=glKbRmOmB9M)_
 - [CPU-Z]
 - [HW Monitor]
 - [https://www.ddginc-usa.com/latlong.htm](https://www.ddginc-usa.com/latlong.htm)
+- [advanced-archive-password-recovery-4-54-110.zip]()
  
 
 
@@ -862,7 +850,7 @@ _Nezahualcoyotl_
 > _"In the mist of the night you could see me come, where shadows move and Demons lie..."_  
   
 
-[advanced-archive-password-recovery-4-54-110.zip]()
+
 
   
 <!--
