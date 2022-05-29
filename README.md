@@ -499,6 +499,7 @@ _I have mastered the ultimate technology, the hability to alter physical reality
 - [Shodan: The Complete Guide](https://skerritt.blog/shodan/) _Complete guide for Shodan.io: a search engine for the Internet of Things._
 - [shodan.io Hacks, Dorks & Bonus](https://0ut3r.space/2020/07/25/shodan-dorks/)
 - [Dorks Collection List](https://github.com/Fz3r0/Dorks-collections-list)
+- [Awesome Threat Hunting](https://github.com/threat-hunting/awesome_Threat-Hunting) _This repository is a library for hunting and detecting cyber threats._
  
 ### ✅ 🗄️ 📈 **CVE & PoC** 📈 🗄️ ✅
 
