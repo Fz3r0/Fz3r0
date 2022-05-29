@@ -127,5 +127,36 @@ print (X, Y, Z, email)
 
 - ![image](https://user-images.githubusercontent.com/94720207/170892331-fc951651-5e62-4b37-8380-1ccc6fb6d211.png)
 
+    - **NOTA:** Las variables no pueden empezar con números (como en javascript u otros lenguajes)
+
+### Múltiples variables en una sola línea
+
+- También se pueden declarar variables utilizando una sola linea
+
+    - Ejemplo:
+
+```py
+
+    # Declarando a, b y c en una misma linea
+    
+    # Las 3 variables resultarán con el mismo valor de "10"
+    
+a, b, c = 10 
+    
+    # Las 3 variables resultarán con el mismo valor de "fz3r0_string"
+    
+x, y, z = 'fz3r0_string'
+
+print (a)
+print (b)
+print (c)
+
+print()
+
+print (x)
+print (y)
+print (z)
+
+```
 
 
