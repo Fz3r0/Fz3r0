@@ -64,7 +64,7 @@ if 5 < 3:
 
 ```py
 
-    # Variables do not need to be declared with any particular type, and can even change type after they have been set. 
+# Variables do not need to be declared with any particular type, and can even change type after they have been set. 
 
 x = 4           # x is of type "int"
 
@@ -82,6 +82,12 @@ y = int(3)      # y will be 3
 
 z = float(3)    # z will be 3.0 
 
+print(x)
+
+print(y)
+
+print(z)
+
     # Get the Type
 
     # You can get the data type of a variable with the type() function.
@@ -90,10 +96,17 @@ x = 5
 
 y = "John"
 
+print(x)
+
+print(y)
+
 print(type(x))
 
-print(type(y))
+print(type(y))        
+
 ```
+
+- ![image](https://user-images.githubusercontent.com/94720207/170892319-b32aa6a0-3a8f-4999-b7e1-25241330f119.png)
 
 - Ejemplo 2:
 
@@ -111,5 +124,7 @@ email = 'fz3r0@protonmail.com'
 
 print (X, Y, Z, email)
 ```
+
+- ![image](https://user-images.githubusercontent.com/94720207/170892331-fc951651-5e62-4b37-8380-1ccc6fb6d211.png)
 
 
