@@ -406,23 +406,20 @@ Guides, Tips & Tricks, Downloads, Training, Crafting, Arsenal, Binaries, Executa
     - [LDWin - Link Discovery for Windows](https://github.com/Fz3r0/LDWin) _Discover connected ports on Switch using CDP & tcpdump.exe_   
     - [iPerf](https://iperf.fr/) _The ultimate speed test tool for TCP, UDP and SCTP_
 
+- **Calculators, Converters, Editors, Charts, Dumps**
+    - [Domain to IP Converter](https://www.rankwatch.com/free-tools/domain-to-iP-converter-tool) _URL to IP Address online_
+    - [IP Info](https://ipinfo.io/) _Accurate IP address data "whois" online_
+    - [Hexadecimal to Text Converter](https://cryptii.com/pipes/hex-decoder) _For Networking & Exploiting Buffer Overflow hohoho_
+    - [UTF-8 string lenght & byte counter](https://mothereff.in/byte-counter) _chars to bytes!_
 
-
-
-    - **Calculators, Converters, Editors, Charts, Dumps**
-        - [Domain to IP Converter](https://www.rankwatch.com/free-tools/domain-to-iP-converter-tool) _URL to IP Address online_
-        - [IP Info](https://ipinfo.io/) _Accurate IP address data "whois" online_
-        - [Hexadecimal to Text Converter](https://cryptii.com/pipes/hex-decoder) _For Networking & Exploiting Buffer Overflow hohoho_
-        - [UTF-8 string lenght & byte counter](https://mothereff.in/byte-counter) _chars to bytes!_
-
-### **Simulators & Emulators**
+### 📊 🖥️ 👨‍🚀 **Simulators & Emulators** 👨‍🚀 🖥️ 📊
  
 - [Cisco Packet Tracer]()
 - [GNS3]()
 - [GNS3 - Appliances](https://www.gns3.com/marketplace/appliances)
 - [eve]()
          
-### ⚗️ 🛠️ **Network smithing & crafting: Handcrafted Tools & Weaponry for Networking by @ Fz3r0** 🛠️ ⚗️ 
+### 🏭 ⚗️ 🛠️ **Network smithing & crafting: Handcrafted Tools & Weaponry for Networking by @ Fz3r0** 🛠️ ⚗️ 🏭
  
 - [Dark Art of Packet Crafting with Scapy](https://0xbharath.github.io/art-of-packet-crafting-with-scapy/index.html) _@ Python + Scapy_
 - [Creating malicious packets & breaking TCP/IP rules](Fz3r0/Networking/Attacking-Cisco/weird_TCP_fz3r0.py )  _@ Python + Scapy_
@@ -434,11 +431,12 @@ Guides, Tips & Tricks, Downloads, Training, Crafting, Arsenal, Binaries, Executa
 - [Subnet Calculator](https://github.com/Fz3r0/subnetcalc_python) _@ Python_
 - [OS Identifier using TTL](https://github.com/Fz3r0/WichSystem.py/blob/main/wichSystem.py) _@ Python_
  
-## Network Automation]
-        - [Network Automation @ NAPALM](https://github.com/Fz3r0/napalm) _Network Automation and Programmability Abstraction Layer with Multivendor support_
-        - [Network Automation @ Trigger](https://github.com/Fz3r0/trigger)
-        - [Automate Cisco IOS Commands](https://github.com/cbferguson/cisco_commands) _@ Python_
-        - [Auto-Configure Cisco Routers](https://github.com/sumitmcc/auto-configure-cisco) _@ Python_
+### ♻️ 🧬 🤖 **Network Automation** 🤖 🧬 ♻️
+
+- [Network Automation @ NAPALM](https://github.com/Fz3r0/napalm) _Network Automation and Programmability Abstraction Layer with Multivendor support_
+- [Network Automation @ Trigger](https://github.com/Fz3r0/trigger)
+- [Automate Cisco IOS Commands](https://github.com/cbferguson/cisco_commands) _@ Python_
+- [Auto-Configure Cisco Routers](https://github.com/sumitmcc/auto-configure-cisco) _@ Python_
  
 - [Securing & Defending Network Infraestructure]
         
@@ -490,7 +488,7 @@ _You must take control of it. You must make the machine yours..._<br>
 _I know you can beat them...but you must concentrate..._<br>
 _I have mastered the ultimate technology, the hability to alter physical reality and read peoples minds._
 
-### Hacking Bibles
+### 😈 🏴‍☠️ 📓 Hacking Bibles 📓 🏴‍☠️ 😈
 
 - [The Book of the Secret Knowledge](https://github.com/Fz3r0/the-book-of-secret-knowledge) _A collection of lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools & more._
 - [Pentester Book](https://pentestbook.six2dez.com/post-exploitation/linux) _This book contains a bunch of info, scripts and knowledge by six2dez_
@@ -506,7 +504,7 @@ _I have mastered the ultimate technology, the hability to alter physical reality
 - [OSINT like Agent 007 - Cipher Knowledge](https://github.com/Fz3r0/osint_stuff_tool_collection?organization=Fz3r0&organization=Fz3r0)
 - [Dorks Collection List](https://github.com/Fz3r0/Dorks-collections-list)
  
-### CVE & PoC
+### ✅ 🗄️ 📈 **CVE & PoC** 📈 🗄️ ✅
 
 - CVE Databases
     - [Mitre - CVE](https://cve.mitre.org/)
