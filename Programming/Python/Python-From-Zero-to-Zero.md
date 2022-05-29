@@ -222,5 +222,46 @@ print(c_f0)
 
 - ![image](https://user-images.githubusercontent.com/94720207/170893059-ca28988e-0f29-4bf9-bba3-31637c93b8fa.png)
 
+## Python: Datatypes
+
+### [Python Datatypes](https://www.w3schools.com/python/python_datatypes.asp)
+
+- In programming, data type is an important concept.
+
+- **Variables can store data of different types, and different types can do different things.**
+
+    - **You can get the data type of any object by using the `type()` function:** 
+
+```py
+
+    # a = número entero
+    
+    # b = string
+    
+a = 5
+
+b = 'fz3r0_string'
+
+print(type(a))
+
+print(type(b))
+
+print()
+
+    # Declarando tipo de dato e imprimiendo después:
+    
+x = str(3)      # x will be '3'
+
+y = int(3)      # y will be 3
+
+z = float(3)    # z will be 3.0     
+
+print(type(x))
+
+print(type(y))
+
+print(type(z))
+    
+```
 
 
