@@ -31,7 +31,7 @@ print()    # Print a blank new line "\n":
 
 ## Python: Operators
 
-### [Python Operators](https://www.w3schools.com/python/python_operators.asp)
+### [<<< Python Operators >>>](https://www.w3schools.com/python/python_operators.asp)
 
 - Python Arithmetic Operators
 - Python Assignment Operators
@@ -60,7 +60,9 @@ if 5 < 3:
 
 ## Python: Variables
 
-### [Python Variables](https://www.w3schools.com/python/python_variables.asp)
+### [<<< Python Variables >>>](https://www.w3schools.com/python/python_variables.asp)
+
+- Variables are containers for storing data values.
 
 ```py
 
@@ -191,7 +193,7 @@ print (valor_1, valor_2)
 
 ## Python String Concatenation 
 
-- [**Python String Concatenation**](https://www.w3schools.com/python/gloss_python_string_concatenation.asp)
+### [<<< Python String Concatenation >>>](https://www.w3schools.com/python/gloss_python_string_concatenation.asp)
 
 - String concatenation means add strings together.
 
@@ -224,7 +226,7 @@ print(c_f0)
 
 ## Python: Datatypes
 
-### [Python Datatypes](https://www.w3schools.com/python/python_datatypes.asp)
+### [<<< Python Datatypes >>>](https://www.w3schools.com/python/python_datatypes.asp)
 
 - In programming, data type is an important concept.
 
@@ -254,7 +256,7 @@ x = str(3)      # x will be '3'
 
 y = int(3)      # y will be 3
 
-z = float(3)    # z will be 3.0     
+z = float(3)    # z will be 3.0   
 
 print(type(x))
 
@@ -265,6 +267,34 @@ print(type(z))
 ```
 
 - ![image](https://user-images.githubusercontent.com/94720207/170893390-ac86c2ce-b5f0-4980-a706-2a23361eed10.png)
+
+## Python Lists
+
+### [<<< Python Lists >>>](https://www.w3schools.com/python/python_lists.asp)
+
+- Lists are used to store multiple items in a single variable.
+
+- Lists are one of 4 built-in data types in Python used to store collections of data, the other 3 are: 
+
+    - Tuple 
+    - Set
+    - Dictionary
+
+- *all with different qualities and usage.
+
+- **Lists are created using square brackets: `[]`**
+
+```py
+
+    # Creando una lista:
+
+f0_lista = ["apple", "banana", "cherry"]
+
+    # Imprimiendo la lista:
+
+print(f0_lista)
+```
+
 
 
 
