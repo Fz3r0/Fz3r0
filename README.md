@@ -316,7 +316,7 @@ Networking Labs using simulators, emulators like Packet Tracer, GNS3 & eve / and
 - Lab 09 > [Secure Layer 2 - Semi-FULL Security + Best Practices VS Layer 2 Attacks (No SSH)](/Networking/Labs/Security_&_Best-Practices_VS_Layer2_Attack_FULL_PRO_CONFIG.md)
 - Lab 10 > [Secure Layer 2 + SSH Local Login = FULL Security + Best Practices VS Layer 2 Attacks (No AAA)](/Networking/Labs/Security_&_Best-Practices_VS_Layer2_Attack_FULL_PRO_CONFIG.md)
      
-### Fz3r0 >> Network Troubleshooting & Ass-Savers ⚠️ 🚨 🆘
+### 🆘 🚨 ⚠️ Network Troubleshooting & Ass-Savers ⚠️ 🚨 🆘
 Troubleshooting & Incidence Response for Notworking Hardware & Software by _Fz3r0_
 - [**Boot/Start-up** from a Binary **.bin** or **config.text** & **Recover** from a **System Crash**](/Networking/Knowledge/Troubleshooting/Boot-From-Init-BIN_&_Restore_Device_from_crash.md) _The tricks and hints for booting_
 - [**Reset config of Cisco device Back to Factory Default settings**](/Networking/Knowledge/Troubleshooting/Boot-From-Init-BIN_&_Restore_Device_from_crash.md) _Shiny as new, it also smells! yummm_
@@ -334,13 +334,6 @@ Guides for performing Penetration Attacks involving the Network Infrastructure E
     - [Pro Configs @ **Defending Layer 2 Attacks** - Cisco Switches **Defensive Security Configurations** for a Pro Stronghold!](/Networking/Attacking-Denending-Network-Infraestructure/NetSec-Defensive-Tools/Security-&-Best-Practices-Configurations/Layer-2-Cisco-Switches-Defensive-Security-Configurations.md)
     - [E-Mail & Raw Source Analysis for Secure Theat detection](https://mediatemple.net/community/products/grid/204644060/how-do-i-view-email-headers-for-a-message)
     - [LAN-Security: Endpoints, Hosts, & Security Appliances](/Networking/Attacking-Denending-Network-Infraestructure/NetSec-Defensive-Tools/Security-&-Best-Practices-Configurations/LAN-Security_Endpoint-Host-Appliances.md)
-
-
-
-
-- **Network Security Defensive Tools, Shields & Tanks**
-    - SysInternals > [SysInternals Tricks for Pro Strongholds](/Networking/Attacking-Cisco/THM-L2-MAC-Flooding-&-ARP-Spoofing-writeup.md) 
-    - SysInternals > [SysInternals Tricks for Pro Strongholds](/Networking/Attacking-Cisco/THM-L2-MAC-Flooding-&-ARP-Spoofing-writeup.md)
     
 - **Layer 2 Attacks** 
     - [MAC Flooding/CAM Overflow, Man-In-The-Middle (MITM) ARP Poisoning + MAC Spoofing + TCP Packet Tamper, Pivot + PrivEsc](/Networking/Attacking-Cisco/THM-L2-MAC-Flooding-&-ARP-Spoofing-writeup.md)
@@ -371,6 +364,7 @@ Deep dive into the Packet / PCAP Analysis
     - ETHII > Parameters
     - 802.11 > Parameters
     - HTTP > [List of HTTP Header Fields](https://en.wikipedia.org/wiki/List_of_HTTP_header_fields)
+    - [Security Headers - HTTP Header Analyzer](https://securityheaders.com/) 
 
 ### Networking Tools & Cyber-Weaponry
 Guides, Tips & Tricks, Downloads, Training, Crafting, Arsenal, Binaries, Executables, Scripts, Open Source Codes
@@ -379,7 +373,7 @@ Guides, Tips & Tricks, Downloads, Training, Crafting, Arsenal, Binaries, Executa
  
     - Sniffers
  
-        - Wireshark
+        - **Wireshark**
  
             - [**Wireshark - Display Filter Reference**](https://www.wireshark.org/docs/dfref/) _over 271000 fields in 3000 protocols as of version 3.6.5_
             - [**Wireshark - Capture Filters Reference**](https://wiki.wireshark.org/CaptureFilters)
@@ -388,33 +382,30 @@ Guides, Tips & Tricks, Downloads, Training, Crafting, Arsenal, Binaries, Executa
             - [**Wireshark Map IP Address Locations @ GeoIP**](https://www.youtube.com/watch?v=IlVppluWTHw)
             - [**Wireshark - Analyzing Botnet Attack Activity + Geolocalization @ Megalodon Chris Greer](https://www.youtube.com/watch?v=jFJMt-y6ZvU)
  
-        - tcpdump 
+        - **tcpdump** 
  
             - [**tcpdump - Ethereal Filters**](https://www.tcpdump.org/papers/ethereal-tcpdump.pdf)
     
-     - T-Shark 
+        - T-Shark 
+        
+        - [Bruteshark](https://github.com/Fz3r0/BruteShark)
     
     - **IDS & IPS**
         
-     - [Snort]() _The foremost IPS in the world supported by Cisco Talos_
- 
- - Snort
-    
-        - [**Snort @ Cisco Talos - Introduction** by @ Hackersploit](https://www.youtube.com/watch?v=RzF5-fVz7Oc)    
-        - [**Snort @ Cisco Talos - The foremost IDS + IPS in the world. Define malicious network activity.** by @ Fz3r0](/Networking/Networking-Tools-&-Weapons/Snort_by_Cisco-Talos_fz3r0.md)
+        - [Snort]() _The foremost IPS in the world supported by Cisco Talos_
+
+            - [**Snort @ Cisco Talos - Introduction** by @ Hackersploit](https://www.youtube.com/watch?v=RzF5-fVz7Oc)    
+            - [**Snort @ Cisco Talos - The foremost IDS + IPS in the world. Define malicious network activity.** by @ Fz3r0](/Networking/Networking-Tools-&-Weapons/Snort_by_Cisco-Talos_fz3r0.md)
 
 - **Recon & Network Mapping**
     
     - [NMap]()
     - [Furious]()
  
-- **Sniffers, Analyzers, Testers**
-
-    - [WireShark]() _The world’s foremost and widely-used network protocol analyzer._
-    - [BruteShark](https://github.com/Fz3r0/BruteShark)
+- **Testers & Troubleshooting**
     - [LDWin - Link Discovery for Windows](https://github.com/Fz3r0/LDWin) _Discover connected ports on Switch using CDP & tcpdump.exe_   
     - [iPerf](https://iperf.fr/) _The ultimate speed test tool for TCP, UDP and SCTP_
-    - [Security Headers - HTTP Header Analyzer](https://securityheaders.com/)
+
 
 
 
