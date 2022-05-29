@@ -189,4 +189,38 @@ print (valor_1, valor_2)
 
 - ![image](https://user-images.githubusercontent.com/94720207/170892834-42d96368-50f4-40c1-94b3-81342a06331c.png)
 
+## Python String Concatenation 
+
+- [**Python String Concatenation**](https://www.w3schools.com/python/gloss_python_string_concatenation.asp)
+
+- String concatenation means add strings together.
+
+    - Use the `+` character to **add a variable to another variable:**
+
+```py
+    # Sumare los strings "x" + "y"
+
+x = "I am "
+y = "Fz3r0"
+
+z_f0 =  x + y
+
+print(z_f0)
+
+    # Creando espacios entre strings: 
+
+    # Solo hay que sumar un blank: " "
+
+a = "Soy"
+
+b = "Fz3r0"
+
+c_f0 = a + " " + b
+
+print(c_f0) 
+```
+
+- ![image](https://user-images.githubusercontent.com/94720207/170893059-ca28988e-0f29-4bf9-bba3-31637c93b8fa.png)
+
+
 
