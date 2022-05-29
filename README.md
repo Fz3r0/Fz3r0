@@ -355,7 +355,7 @@ Guides for performing Penetration Attacks involving the Network Infrastructure E
     - Man-in-the-Middle Attack (MITM)
     - [Log4j Vulnerability @ Unify Access PWN!](https://www.sprocketsecurity.com/blog/another-log4j-on-the-fire-unifi)
  
-### Packet Level
+### ✉️ 👨‍💻 📦 Packet Level 📦 👨‍💻 ✉️ 
 Deep dive into the Packet / PCAP Analysis
 
 - Packet Header Parameters & Flags:
@@ -366,7 +366,7 @@ Deep dive into the Packet / PCAP Analysis
     - HTTP > [List of HTTP Header Fields](https://en.wikipedia.org/wiki/List_of_HTTP_header_fields)
     - [Security Headers - HTTP Header Analyzer](https://securityheaders.com/) 
 
-### Networking Tools & Cyber-Weaponry
+### 📡 🦈 🐽 Networking Tools & Cyber-Weaponry 🐽 🦈 📡
 Guides, Tips & Tricks, Downloads, Training, Crafting, Arsenal, Binaries, Executables, Scripts, Open Source Codes
 
 - **Networking Tools Guides & Writeups**
@@ -415,24 +415,26 @@ Guides, Tips & Tricks, Downloads, Training, Crafting, Arsenal, Binaries, Executa
         - [Hexadecimal to Text Converter](https://cryptii.com/pipes/hex-decoder) _For Networking & Exploiting Buffer Overflow hohoho_
         - [UTF-8 string lenght & byte counter](https://mothereff.in/byte-counter) _chars to bytes!_
 
-    - **Simulators & Emulators**
-        - [Cisco Packet Tracer]()
-        - [GNS3]()
-        - [GNS3 - Appliances](https://www.gns3.com/marketplace/appliances)
-        - [eve]()
-         
-- **Network smithing & crafting: Handcrafted Tools & Weaponry for Networking by @ Fz3r0** 
-    - [Dark Art of Packet Crafting with Scapy](https://0xbharath.github.io/art-of-packet-crafting-with-scapy/index.html) _@ Python + Scapy_
-    - [Creating malicious packets & breaking TCP/IP rules](Fz3r0/Networking/Attacking-Cisco/weird_TCP_fz3r0.py )  _@ Python + Scapy_
-    - [Simple Network Scanner](https://gist.github.com/Fz3r0/3e26fdf87b5e223b13578db9d150c815) _@ Python + Scapy_
-    - [Medium Network Scanner](https://gist.github.com/Fz3r0/2cc8f8699a829e06f5d70e86a6be53c0) _@ Python + Scapy_
-    - [Full Network Scanner](https://github.com/Fz3r0/netScan_Python) _@ Python_
-    - [Simple Port Scanner](https://github.com/Fz3r0/pythscan_port_scan_simple) _@ Python + Sockets_ 
-    - [Full Port Scanner](https://github.com/Fz3r0/Python-Port-Scanner_large) _@ Python + Sockets_
-    - [Subnet Calculator](https://github.com/Fz3r0/subnetcalc_python) _@ Python_
-    - [OS Identifier using TTL](https://github.com/Fz3r0/WichSystem.py/blob/main/wichSystem.py) _@ Python_
+### **Simulators & Emulators**
  
-- [Network Automation]
+- [Cisco Packet Tracer]()
+- [GNS3]()
+- [GNS3 - Appliances](https://www.gns3.com/marketplace/appliances)
+- [eve]()
+         
+### ⚗️ 🛠️ **Network smithing & crafting: Handcrafted Tools & Weaponry for Networking by @ Fz3r0** 🛠️ ⚗️ 
+ 
+- [Dark Art of Packet Crafting with Scapy](https://0xbharath.github.io/art-of-packet-crafting-with-scapy/index.html) _@ Python + Scapy_
+- [Creating malicious packets & breaking TCP/IP rules](Fz3r0/Networking/Attacking-Cisco/weird_TCP_fz3r0.py )  _@ Python + Scapy_
+- [Simple Network Scanner](https://gist.github.com/Fz3r0/3e26fdf87b5e223b13578db9d150c815) _@ Python + Scapy_
+- [Medium Network Scanner](https://gist.github.com/Fz3r0/2cc8f8699a829e06f5d70e86a6be53c0) _@ Python + Scapy_
+- [Full Network Scanner](https://github.com/Fz3r0/netScan_Python) _@ Python_
+- [Simple Port Scanner](https://github.com/Fz3r0/pythscan_port_scan_simple) _@ Python + Sockets_ 
+- [Full Port Scanner](https://github.com/Fz3r0/Python-Port-Scanner_large) _@ Python + Sockets_
+- [Subnet Calculator](https://github.com/Fz3r0/subnetcalc_python) _@ Python_
+- [OS Identifier using TTL](https://github.com/Fz3r0/WichSystem.py/blob/main/wichSystem.py) _@ Python_
+ 
+## Network Automation]
         - [Network Automation @ NAPALM](https://github.com/Fz3r0/napalm) _Network Automation and Programmability Abstraction Layer with Multivendor support_
         - [Network Automation @ Trigger](https://github.com/Fz3r0/trigger)
         - [Automate Cisco IOS Commands](https://github.com/cbferguson/cisco_commands) _@ Python_
