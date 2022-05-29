@@ -334,7 +334,27 @@ Guides for performing Penetration Attacks involving the Network Infrastructure E
     - [Pro Configs @ **Defending Layer 2 Attacks** - Cisco Switches **Defensive Security Configurations** for a Pro Stronghold!](/Networking/Attacking-Denending-Network-Infraestructure/NetSec-Defensive-Tools/Security-&-Best-Practices-Configurations/Layer-2-Cisco-Switches-Defensive-Security-Configurations.md)
     - [E-Mail & Raw Source Analysis for Secure Theat detection](https://mediatemple.net/community/products/grid/204644060/how-do-i-view-email-headers-for-a-message)
     - [LAN-Security: Endpoints, Hosts, & Security Appliances](/Networking/Attacking-Denending-Network-Infraestructure/NetSec-Defensive-Tools/Security-&-Best-Practices-Configurations/LAN-Security_Endpoint-Host-Appliances.md)
-    
+
+- Endpoints Protection & Security 
+ 
+    - [Traditional Host based Security,Host Firewall,Antivirus,HIPSs,etc]()
+    - [Top Security: NAC,host-based AMP, ESA, WSA]
+    - [Cisco ESA & WSA]
+  
+- Access Control
+ 
+    - Authentication with Local Password 
+    - AAA Standards
+    - IEEE 802.1X: Port-based Access Control & Authentication
+ 
+- Layer 2 & Layer 3 Attacks Mitigation on Cisco Devices
+ 
+    - [Cisco Auto Security Configuration](https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst4500/XE3-6-0E/15-22E/configuration/guide/xe-360-config/auto_sec.pdf)
+    - Port Security  
+    - DHCP Snooping
+    - Dynamic ARP Inspection (DAI)
+    - IP Source Guard (IPSG) 
+
 - **Layer 2 Attacks** 
     - [MAC Flooding/CAM Overflow, Man-In-The-Middle (MITM) ARP Poisoning + MAC Spoofing + TCP Packet Tamper, Pivot + PrivEsc](/Networking/Attacking-Cisco/THM-L2-MAC-Flooding-&-ARP-Spoofing-writeup.md)
     - [VLAN Attack Double Tagging]()
@@ -350,6 +370,7 @@ Guides for performing Penetration Attacks involving the Network Infrastructure E
     - [Attacking STP & BPDUs crafting packs](https://github.com/tomac/yersinia) _@ Yersenia_
 
 - **Wireless Threats & Attacks**
+ 
     - DoS Attack - Interference & Misconfigurations
     - Rogue Access Points
     - Man-in-the-Middle Attack (MITM)
@@ -359,6 +380,7 @@ Guides for performing Penetration Attacks involving the Network Infrastructure E
 Deep dive into the Packet / PCAP Analysis
 
 - Packet Header Parameters & Flags:
+ 
     - TCP > Parameters
     - UDP > Parameters
     - ETHII > Parameters
@@ -419,7 +441,7 @@ Guides, Tips & Tricks, Downloads, Training, Crafting, Arsenal, Binaries, Executa
 - [GNS3 - Appliances](https://www.gns3.com/marketplace/appliances)
 - [eve]()
          
-### 🏭 ⚗️ 🛠️ **Network smithing & crafting: Handcrafted Tools & Weaponry for Networking by @ Fz3r0** 🛠️ ⚗️ 🏭
+### 🏭 ⚗️ 🛠️ **Networking Tools + Cyber-Weapons: Smithing & Crafting** 🛠️ ⚗️ 🏭
  
 - [Dark Art of Packet Crafting with Scapy](https://0xbharath.github.io/art-of-packet-crafting-with-scapy/index.html) _@ Python + Scapy_
 - [Creating malicious packets & breaking TCP/IP rules](Fz3r0/Networking/Attacking-Cisco/weird_TCP_fz3r0.py )  _@ Python + Scapy_
@@ -438,32 +460,7 @@ Guides, Tips & Tricks, Downloads, Training, Crafting, Arsenal, Binaries, Executa
 - [Automate Cisco IOS Commands](https://github.com/cbferguson/cisco_commands) _@ Python_
 - [Auto-Configure Cisco Routers](https://github.com/sumitmcc/auto-configure-cisco) _@ Python_
  
-- [Securing & Defending Network Infraestructure]
-        
-    - Network Security Devices or Appliances
-        - [Firewall Appliance]
-        - [Next-Generation Firewall(NGFW)]()
-        - [Network Access ControlNAC]()
-        - [VPN-enabled Router]()
-        - [Intrusion Detection System (IDS)]
-        - [Intrusion Prevention System (IPS)]
-        
-    - Endpoints Protection & Security  
-        - [Traditional Host based Security,Host Firewall,Antivirus,HIPSs,etc]()
-        - [Top Security: NAC,host-based AMP, ESA, WSA]
-            - [Cisco ESA & WSA]
-  
-    - Access Control
-        - Authentication with Local Password 
-        - AAA Standards
-        - IEEE 802.1X: Port-based Access Control & Authentication
- 
-    - Layer 2 & Layer 3 Attacks Mitigation on Cisco Devices
-        - [Cisco Auto Security Configuration](https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst4500/XE3-6-0E/15-22E/configuration/guide/xe-360-config/auto_sec.pdf)
-        - Port Security  
-        - DHCP Snooping
-        - Dynamic ARP Inspection (DAI)
-        - IP Source Guard (IPSG)
+
           
 <!--
 
