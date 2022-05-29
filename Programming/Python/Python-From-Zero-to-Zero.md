@@ -11,11 +11,11 @@ allá vamos!!!
 
 ```py
 
-#This is a comment
+    # This is a comment
 
 print("I'm Fz3r0 and the sun no longer rises")
 
-print("In the mist of the night...") #This is a comment
+print("In the mist of the night...")     # This is a comment
 
 """
 This is a comment
@@ -24,6 +24,8 @@ more than just one line
 """
 
 print("... you could see me come. ")
+   
+print()    # Print a blank new line "\n":    
 
 ```
 
@@ -62,9 +64,35 @@ if 5 < 3:
 
 ```py
 
-    
+    # Variables do not need to be declared with any particular type, and can even change type after they have been set. 
 
-x = 4       # x is of type int
-x = "Sally" # x is now of type str
+x = 4           # x is of type "int"
+
+x = "Sally"     # x is now of type "str"
+
 print(x)
+
+    # Casting:
+    
+    # If you want to specify the data type of a variable, this can be done with casting.
+    
+x = str(3)      # x will be '3'
+
+y = int(3)      # y will be 3
+
+z = float(3)    # z will be 3.0 
+
+    # Get the Type
+
+    # You can get the data type of a variable with the type() function.
+
+x = 5
+
+y = "John"
+
+print(type(x))
+
+print(type(y))
+
+
 ```
