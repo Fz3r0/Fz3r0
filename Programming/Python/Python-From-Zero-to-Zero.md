@@ -93,6 +93,23 @@ y = "John"
 print(type(x))
 
 print(type(y))
-
-
 ```
+
+- Ejemplo 2:
+
+```py
+
+    # Imprimiendo más de una variable al mismo tiempo:
+
+X = 100
+Y = 200
+Z = 'Fz3r0 is the King!'
+
+print (X, Y, Z)
+
+email = 'fz3r0@protonmail.com'
+
+print (X, Y, Z, email)
+```
+
+
