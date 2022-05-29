@@ -301,7 +301,7 @@ print(f0_lista)
 
 - ![image](https://user-images.githubusercontent.com/94720207/170893706-6d0160d4-feec-410c-9974-c19bf3eeffa8.png)
 
-- También se pueden manipular las listas utilizando los siguientes `métodos`:
+    - También se pueden manipular las listas utilizando los siguientes `métodos`:
 
 1. **método** `.append` - Agregar datos a la lista
 
