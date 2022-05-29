@@ -683,20 +683,36 @@ Fz3r0 Cyber-Weaponry Crafting, Tools Programming & Open Source Projects
     - [Git](https://git-scm.com/download/win) 
     - [VIM](https://www.vim.org/)
  
- 
- - [Hacker Earth](https://www.hackerearth.com/)
- - [Python Problems](https://codingbat.com/python)
+- Programming Resources
+
+    - [Hacker Earth](https://www.hackerearth.com/)
     
 ### Python
 
+- Python WriteUps & Guides
+
+    - [Python - From Zero to Hero @ Fz3r0]()
+
+- Python Projects & Scripts
 
     - [QR Code Generator from a string]()
 
+- Python Misc
+ 
+    - [Python Problems](https://codingbat.com/python)
+
+    
+
 - [C]
+
     - [Compile C code in Linux](https://www.atechtown.com/c-program-in-linux/)
   
 - [Batch]
+
 - [Bash]
+ 
+    - [Git Bash - Git for Windows](https://git-scm.com/downloads) _Bash shell in Windows!_
+
 - [Go]
 
 ## Web Programming
