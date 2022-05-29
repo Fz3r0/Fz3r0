@@ -303,10 +303,15 @@ print(f0_lista)
 
 - También se pueden manipular las listas utilizando los siguientes `métodos`:
 
-1. `append` - Agregar datos a la lista
+1. **método** `.append` - Agregar datos a la lista
+
+2. **método** `.clear` - Elimina TODOS los elementos la lista
+
+3. **método** `.copy` - Copia los elementos DESDE una lista HACIA OTRA lista
 
 
 ```py
+
     # Creando una lista:
 
 f0_lista_1 = [1, 2, 3]
@@ -328,6 +333,30 @@ print(f0_lista_1)
 f0_lista_2.append('Agregando strings eh?!')
 
 print(f0_lista_2)
+print()
+
+    # Copiando lista 1 y lista 2 a nuevas variables:
+    
+666_lista_copia1 = f0_lista_1.copy
+666_lista_copia2 = f0_lista_2.copy
+
+print(f0_lista_1)
+print(666_lista_copia1)
+
+print(f0_lista_2)
+print(666_lista_copia2)
+
+    # Eliminando los datos de las primeras 2: (No se verán 4 en consola, sino solo 2)
+    
+f0_lista_1.clear
+f0_lista_2.clear
+
+print(f0_lista_1)
+print(f0_lista_2)
+
+print(f0_lista_2)
+print(666_lista_copia2)
+
 ```
 
 - ![image](https://user-images.githubusercontent.com/94720207/170893904-58552958-dca9-47b9-b9f1-c5c37b962cb4.png)
