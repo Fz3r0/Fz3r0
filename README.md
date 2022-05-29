@@ -643,9 +643,15 @@ _I have mastered the ultimate technology, the hability to alter physical reality
 - Direct Object References (IDOR)
 
 ## Scrpting & Programming
-Fz3r0 Cyber-Weaponry Crafting, Tools Programming & Open Source Projects
+_Serpentium lingua et artes magicae obscurae_<br><br> 
+_"Parseltongue was the language of serpents (as well as other magical serpentine creatures, like the Runespoor and Basilisk) and those who could converse with them. A wizard or witch who could speak Parseltongue was known as a Parselmouth._<br><br>
+_The ability had an association with Dark Wizards. This association with the Dark Arts generally caused fear and distrust of those with the ability.<br><br> Python is the actual Parseltongue, an individial who can speak Python is known as a Pythonista, the myth says they can read peoples minds..."_<br> 
+_[I am the Black Wizards](https://www.youtube.com/watch?v=glKbRmOmB9M)_
+ 
+
 
 ### Tools & Cyber Weaponry for Programming, Web-Prgramming, Scripting
+Fz3r0 Cyber-Weaponry Crafting, Tools Programming & Open Source Projects
 
 - Software Development Models, DevOps & Shifting Left.
  
@@ -666,10 +672,7 @@ Fz3r0 Cyber-Weaponry Crafting, Tools Programming & Open Source Projects
  - [Python Problems](https://codingbat.com/python)
     
 ### Python
-_Serpentium lingua et artes magicae obscurae_<br><br> 
-_"Parseltongue was the language of serpents (as well as other magical serpentine creatures, like the Runespoor and Basilisk) and those who could converse with them. A wizard or witch who could speak Parseltongue was known as a Parselmouth._<br><br>
-_The ability had an association with Dark Wizards. This association with the Dark Arts generally caused fear and distrust of those with the ability.<br><br> Python is the actual Parseltongue, an individial who can speak Python is known as a Pythonista, the myth says they can read peoples minds..."_<br> 
-_[I am the Black Wizards](https://www.youtube.com/watch?v=glKbRmOmB9M)_
+
 
     - [QR Code Generator from a string]()
 
@@ -818,6 +821,13 @@ _[I am the Black Wizards](https://www.youtube.com/watch?v=glKbRmOmB9M)_
 - [HW Monitor]
 - [https://www.ddginc-usa.com/latlong.htm](https://www.ddginc-usa.com/latlong.htm)
 - [advanced-archive-password-recovery-4-54-110.zip]()
+
+- Brownser Extensions
+
+    - Wappalyzer
+    - Cookie-Editor
+    - [Useragent Manager & Switcher](https://add0n.com/useragent-switcher.html)
+    - [Foxy Proxy]()
  
 
 
