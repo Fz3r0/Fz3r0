@@ -376,16 +376,28 @@ Deep dive into the Packet / PCAP Analysis
 Guides, Tips & Tricks, Downloads, Training, Crafting, Arsenal, Binaries, Executables, Scripts, Open Source Codes
 
 - **Networking Tools Guides & Writeups**
-    - [**Wireshark - From Nemo to Black Megalodon: Pro Sniffing & Network Traffic Audit/Analysis.** by @ Fz3r0]
-    - [**Wireshark - Troubleshooting Slow Networks - Presented by Megalodon Chris Greer @ UC Berkeley**](https://www.youtube.com/watch?v=h9stVIfug5Y)
-    - [**Wireshark Map IP Address Locations @ GeoIP**](https://www.youtube.com/watch?v=IlVppluWTHw)
-    - [**Wireshark - Analyzing Botnet Attack Activity + Geolocalization @ Megalodon Chris Greer](https://www.youtube.com/watch?v=jFJMt-y6ZvU)
-    - [**Snort @ Cisco Talos - Introduction** by @ Hackersploit](https://www.youtube.com/watch?v=RzF5-fVz7Oc)    
-    - [**Snort @ Cisco Talos - The foremost IDS + IPS in the world. Define malicious network activity.** by @ Fz3r0](/Networking/Networking-Tools-&-Weapons/Snort_by_Cisco-Talos_fz3r0.md)
+ 
+    - Sniffers
+ 
+        - Wireshark
+ 
+            - [**Wireshark - Display Filter Reference**](https://www.wireshark.org/docs/dfref/) _over 271000 fields in 3000 protocols as of version 3.6.5_
+            - [**Wireshark - From Nemo to Black Megalodon: Pro Sniffing & Network Traffic Audit/Analysis.** by @ Fz3r0]
+            - [**Wireshark - Troubleshooting Slow Networks - Presented by Megalodon Chris Greer @ UC Berkeley**](https://www.youtube.com/watch?v=h9stVIfug5Y)
+            - [**Wireshark Map IP Address Locations @ GeoIP**](https://www.youtube.com/watch?v=IlVppluWTHw)
+            - [**Wireshark - Analyzing Botnet Attack Activity + Geolocalization @ Megalodon Chris Greer](https://www.youtube.com/watch?v=jFJMt-y6ZvU)
+    
+     - T-Shark 
+    
+    - **IDS & IPS**
+        
+     - [Snort]() _The foremost IPS in the world supported by Cisco Talos_
+ 
+ - Snort
+    
+        - [**Snort @ Cisco Talos - Introduction** by @ Hackersploit](https://www.youtube.com/watch?v=RzF5-fVz7Oc)    
+        - [**Snort @ Cisco Talos - The foremost IDS + IPS in the world. Define malicious network activity.** by @ Fz3r0](/Networking/Networking-Tools-&-Weapons/Snort_by_Cisco-Talos_fz3r0.md)
 
-
-### Tools for the Pro Networking Engineer**
-   
 - **Recon & Network Mapping**
     
     - [NMap]()
@@ -399,8 +411,7 @@ Guides, Tips & Tricks, Downloads, Training, Crafting, Arsenal, Binaries, Executa
     - [iPerf](https://iperf.fr/) _The ultimate speed test tool for TCP, UDP and SCTP_
     - [Security Headers - HTTP Header Analyzer](https://securityheaders.com/)
 
-- **IDS & IPS**
-    - [Snort]() _The foremost IPS in the world supported by Cisco Talos_
+
 
     - **Calculators, Converters, Editors, Charts, Dumps**
         - [Domain to IP Converter](https://www.rankwatch.com/free-tools/domain-to-iP-converter-tool) _URL to IP Address online_
