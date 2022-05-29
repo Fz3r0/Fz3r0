@@ -547,8 +547,14 @@ _I have mastered the ultimate technology, the hability to alter physical reality
 - [Pentest Book - Reverse Shells]()
 - [TheFatRat](https://github.com/screetsec/TheFatRat) _Payload Automation,Listener Generator,Bypass anti-virus backdoors & more..._
 
-### Worldists, Fuzzing, Passwords & BruteForce
+### 🔍 📕 💪 **Worldists, Fuzzing, Passwords & BruteForce** 💪 📕 🔍
 
+- Fuzzing Tools & Resources
+                                                        
+    - [Subcat](https://github.com/Fz3r0/subcat) _Subdomain discovery tool_
+    - [dirsearch]()
+    - [dirbuster]()                                                        
+                                                        
 - **Wordlists**
     
     - [Usernames]()
@@ -564,9 +570,10 @@ _I have mastered the ultimate technology, the hability to alter physical reality
     - [Services]()
     - [Devices]() 
 
-### Privilege Escalation
+### 🔝 👑 ⏫ Privilege Escalation ⏫ 👑 🔝 
   
-- Linux PrivEsc
+- **Linux PrivEsc**
+ 
         - [Fz3r0 Linux PrivEsc Ninjitsu](/Networking/Labs/) _My own logs & writeups about Linux PrivEsc_        
         - [Linux | Pergamino I](https://github.com/netbiosX/Checklists/blob/master/Linux-Privilege-Escalation.md)
         - [Linux | Pergamino II - swisskyrepo](https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Linux%20-%20Privilege%20Escalation.md)
@@ -575,7 +582,8 @@ _I have mastered the ultimate technology, the hability to alter physical reality
         - [Fz3r0 @ Linux PrivEsc](lklk)
         - [Linux PrivEsc Workshop @ sagishahar](https://github.com/sagishahar/lpeworkshop)
 
-- Windows PrivEsc
+- **Windows PrivEsc**
+ 
         - Fz3r0 Windows PrivEsc Ninjitsu(/Networking/Labs/) _My own logs & writeups about Windows PrivEsc_
         - [Pergamino I - ](https://github.com/Fz3r0/Checklists_PrivEsc) _Detailed Checklist for Windows PrivEsc & Scenarios_
         - [Mimicatz I](https://www.youtube.com/watch?v=AZirvtZNIEw)
