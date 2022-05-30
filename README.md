@@ -85,6 +85,10 @@
 
 -->
 
+<span align="center"> <h3 align="center"> Contact </h3> </span>
+
+<p align="center"> <a href="https://twitter.com/Fz3r0_OPs" target="_blank" rel="noreferrer"> <img src="https://user-images.githubusercontent.com/94720207/168743521-b8c142ae-e221-40c9-8d1f-bd9520027717.png" alt="twitter"> </a>   &emsp; &emsp; &emsp;   <a href="https://github.com/Fz3r0" target="_blank" rel="noreferrer"> <img src="https://user-images.githubusercontent.com/94720207/168743591-ca20efa5-f692-46b0-ba84-f2681486009f.png" alt="github"> </a>   &emsp; &emsp; &emsp;   <a href="https://www.linkedin.com/in/fzerocarlos/" target="_blank" rel="noreferrer"> <img src="https://user-images.githubusercontent.com/94720207/168743658-0a5101f0-49fd-494f-9a79-cf70ad860d12.png" alt="github"> </a> </p>
+
 ![typing](https://readme-typing-svg.herokuapp.com?size=20&color=00F733&multiline=true&lines=whoami)
 
 I'm just a very lucky person who was born surrounded by IBM computers and floppy disks in the 80's...
@@ -93,9 +97,13 @@ When I was very young I entered a Data Center and a room full of computers where
 
 Computer Science and Information & Communication Technologies are my passion, my hobby, what I have studied at University, have certified and constantly updated my knowledge and skills. Fortunately, it is what I work professionally and with several years of experience in different branches of ICT, in which Networking, Programming and Cyber-Security stand out.
 
-I invite you to visit my social networks including my LinkedIn, where you will find more information regarding my professional career.
+I invite you to enter the links of my social networks that I've placed above including my LinkedIn, where you will find more information regarding my professional career.
 
-<p align="center"> <a href="https://twitter.com/Fz3r0_OPs" target="_blank" rel="noreferrer"> <img src="https://user-images.githubusercontent.com/94720207/168743521-b8c142ae-e221-40c9-8d1f-bd9520027717.png" alt="twitter"> </a>   &emsp; &emsp; &emsp;   <a href="https://github.com/Fz3r0" target="_blank" rel="noreferrer"> <img src="https://user-images.githubusercontent.com/94720207/168743591-ca20efa5-f692-46b0-ba84-f2681486009f.png" alt="github"> </a>   &emsp; &emsp; &emsp;   <a href="https://www.linkedin.com/in/fzerocarlos/" target="_blank" rel="noreferrer"> <img src="https://user-images.githubusercontent.com/94720207/168743658-0a5101f0-49fd-494f-9a79-cf70ad860d12.png" alt="github"> </a> </p>
+---
+
+
+
+---
 
 #### < University Degree >
 ##### `Bachelor of Science in Computer Systems Engineering`
