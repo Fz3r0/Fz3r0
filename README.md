@@ -354,8 +354,9 @@ Guides for performing Penetration Attacks involving the Network Infrastructure E
     - AAA Standards
     - IEEE 802.1X: Port-based Access Control & Authentication
  
-- Layer 2 & Layer 3 Attacks Mitigation on Cisco Devices
+- Attacks & Mitigation on Cisco Devices
  
+    - [Awesome Cisco Exploitation](https://github.com/lololosys/awesome_cisco_exploitation) _A curated list of awesome Cisco exploitation resources._
     - [Cisco Auto Security Configuration](https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst4500/XE3-6-0E/15-22E/configuration/guide/xe-360-config/auto_sec.pdf)
     - Port Security  
     - DHCP Snooping
