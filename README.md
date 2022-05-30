@@ -588,24 +588,25 @@ _I have mastered the ultimate technology, the hability to alter physical reality
   
 - **Linux PrivEsc**
  
-        - [Fz3r0 Linux PrivEsc Ninjitsu](/Networking/Labs/) _My own logs & writeups about Linux PrivEsc_        
-        - [Linux | Pergamino I](https://github.com/netbiosX/Checklists/blob/master/Linux-Privilege-Escalation.md)
-        - [Linux | Pergamino II - swisskyrepo](https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Linux%20-%20Privilege%20Escalation.md)
-        - [Linux | Pergamino III - OSCP Guide](https://sushant747.gitbooks.io/total-oscp-guide/privilege_escalation_-_linux.html)
-        - [Linux | Pergamino IV - Payatu](https://payatu.com/guide-linux-privilege-escalation)
-        - [Fz3r0 @ Linux PrivEsc](lklk)
-        - [Linux PrivEsc Workshop @ sagishahar](https://github.com/sagishahar/lpeworkshop)
+    - [Fz3r0 Linux PrivEsc Ninjitsu](/Networking/Labs/) _My own logs & writeups about Linux PrivEsc_        
+    - [Linux | Pergamino I](https://github.com/netbiosX/Checklists/blob/master/Linux-Privilege-Escalation.md)
+    - [Linux | Pergamino II - swisskyrepo](https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Linux%20-%20Privilege%20Escalation.md)
+    - [Linux | Pergamino III - OSCP Guide](https://sushant747.gitbooks.io/total-oscp-guide/privilege_escalation_-_linux.html)
+    - [Linux | Pergamino IV - Payatu](https://payatu.com/guide-linux-privilege-escalation)
+    - [Fz3r0 @ Linux PrivEsc](lklk)
+    - [Linux PrivEsc Workshop @ sagishahar](https://github.com/sagishahar/lpeworkshop)
 
 - **Windows PrivEsc**
  
-        - Fz3r0 Windows PrivEsc Ninjitsu(/Networking/Labs/) _My own logs & writeups about Windows PrivEsc_
-        - [Pergamino I - ](https://github.com/Fz3r0/Checklists_PrivEsc) _Detailed Checklist for Windows PrivEsc & Scenarios_
-        - [Mimicatz I](https://www.youtube.com/watch?v=AZirvtZNIEw)
-        - https://github.com/Fz3r0/windows-privesc-check
+    - Fz3r0 Windows PrivEsc Ninjitsu(/Networking/Labs/) _My own logs & writeups about Windows PrivEsc_
+    - [Pergamino I - ](https://github.com/Fz3r0/Checklists_PrivEsc) _Detailed Checklist for Windows PrivEsc & Scenarios_
+    - [Mimicatz I](https://www.youtube.com/watch?v=AZirvtZNIEw)
+    - https://github.com/Fz3r0/windows-privesc-check
  
-- Active Directory PrivEsc (Windows Server)
-        - [Windows Server | Pergamino I](https://github.com/Fz3r0/Checklists_PrivEsc) _Detailed Checklist for Windows Server PrivEsc & Scenarios_ 
-        - [Active Directory Exploitation Cheat-Sheet by Tib3rius](https://github.com/Tib3rius/Active-Directory-Exploitation-Cheat-Sheet)
+- **Active Directory PrivEsc (Windows Server)**
+
+    - [Windows Server | Pergamino I](https://github.com/Fz3r0/Checklists_PrivEsc) _Detailed Checklist for Windows Server PrivEsc & Scenarios_ 
+    - [Active Directory Exploitation Cheat-Sheet by Tib3rius](https://github.com/Tib3rius/Active-Directory-Exploitation-Cheat-Sheet)
 
 ### Enumeration
 
