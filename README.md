@@ -815,10 +815,12 @@ Fz3r0 Cyber-Weaponry Crafting, Tools Programming & Open Source Projects
 
 ### Incidence Response and Digital Forensics Guides
 
+- [Perform a cyclic redundancy check using a checksum or hashing algorithm to ensure the integrity]()
 - [Recolección de Evidencia Volátil - Usando Redline, FTK Imager & Forma Manual @ A. Caballero](https://www.youtube.com/watch?v=LGU8vfD8jFY) _Preservar evidencia volátil la cual luego será utilizada en una investigación_
 - [Volatile Evidence Manual Collect - CMD | SysInternals | Nirsoft](/Cyber-Security-&-Hacking/Digital-Forensics/Forensics-Writeups/manual_volatile_evidence_collect.md)
 - Volatility > [Analizar una Imágen RAM @ Master Alonso Caballero](https://www.youtube.com/watch?v=uP8iu_21V5s) _Extraer y analizar artefactos digitales desde la RAM_
 - Volatility > [Volatility Framework - Write Up @ Fz3r0](/Cyber-Security-&-Hacking) _Gold standard for memory forensics in incident response_
+ 
 
 ### Forensic Tools
 
