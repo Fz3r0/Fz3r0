@@ -441,7 +441,7 @@ Guides, Tips & Tricks, Downloads, Training, Crafting, Arsenal, Binaries, Executa
 - [GNS3 - Appliances](https://www.gns3.com/marketplace/appliances)
 - [eve]()
          
-### 🏭 ⚗️ 🛠️ **Networking Tools + Cyber-Weapons: Smithing & Crafting** 🛠️ ⚗️ 🏭
+### 🏭 ⚗️ 🛠️ **Network Cyber-Weapons: Smithing & Crafting** 🛠️ ⚗️ 🏭
  
 - [Dark Art of Packet Crafting with Scapy](https://0xbharath.github.io/art-of-packet-crafting-with-scapy/index.html) _@ Python + Scapy_
 - [Creating malicious packets & breaking TCP/IP rules](Fz3r0/Networking/Attacking-Cisco/weird_TCP_fz3r0.py )  _@ Python + Scapy_
@@ -452,6 +452,7 @@ Guides, Tips & Tricks, Downloads, Training, Crafting, Arsenal, Binaries, Executa
 - [Full Port Scanner](https://github.com/Fz3r0/Python-Port-Scanner_large) _@ Python + Sockets_
 - [Subnet Calculator](https://github.com/Fz3r0/subnetcalc_python) _@ Python_
 - [OS Identifier using TTL](https://github.com/Fz3r0/WichSystem.py/blob/main/wichSystem.py) _@ Python_
+- [CAM overflow/ MAC flooding attack]() _@ Python + Scapy_ 
  
 ### ♻️ 🧬 🤖 **Network Automation** 🤖 🧬 ♻️
 
@@ -696,6 +697,7 @@ Fz3r0 Cyber-Weaponry Crafting, Tools Programming & Open Source Projects
 - Python Projects & Scripts
 
     - [QR Code Generator from a string]()
+    - [Kame Hame Ha! @ Fz3r0: CAM overflow / MAC Flooding attack](/Networking/Network-Cyber-Weapons-Smithing-&-Crafting/CAM-overflow-MAC-flooding-Kame-Hame-Ha.py)
 
 - Python Misc
  
