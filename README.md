@@ -91,7 +91,7 @@
 
 ![typing](https://readme-typing-svg.herokuapp.com?size=20&color=00F733&multiline=true&lines=whoami)
 
-I'm just a very lucky person who was born surrounded by IBM computers and floppy disks in the 80's...
+I'm just a very lucky person who was born surrounded by IBM computers and floppy disks back in the 80's...
 
 When I was very young I entered a Data Center and a room full of computers where my father worked, then I met a very funny guy with long hair and a beard (The Systems Engineer) who allowed me to play Prince of Persia in DOS surrounded by huge computers with that peculiar smell of new plastic and technology. Since then I decided to focus on one thing: Let my hair and beard grow... (and dedicate my life to Computer Science).
 
@@ -99,11 +99,9 @@ Computer Science and Information & Communication Technologies are my passion, my
 
 I invite you to enter the links of my social networks that I've placed above including my LinkedIn, where you will find more information regarding my professional career.
 
-_“Welcome to my house! Enter freely. Go safely, and leave something of the happiness you bring...”_
-
 ---
 
-
+_“Welcome to my house! Enter freely. Go safely, and leave something of the happiness you bring...”_
 
 ---
 
@@ -118,7 +116,6 @@ _“Welcome to my house! Enter freely. Go safely, and leave something of the hap
 
 #### < Security >   
 ##### `DevSecOps`  `SecOps` `CyberOps` `Security+`  `PenTest+` `Ofensive Pentesting`  `Red Team` `Ethical Hacking`  `Defensive Security` `Blue Team` `Digital Forensics`  
-
 
 &nbsp;
 
