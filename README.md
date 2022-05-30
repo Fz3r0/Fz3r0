@@ -398,6 +398,10 @@ Deep dive into the Packet / PCAP Analysis
 ### 📡 🦈 🐽 Networking Tools & Cyber-Weaponry 🐽 🦈 📡
 Guides, Tips & Tricks, Downloads, Training, Crafting, Arsenal, Binaries, Executables, Scripts, Open Source Codes
 
+- **Networking Tools Databases & Arsenals**
+
+    - [Network Utilities @ friskfrysefrugt](https://github.com/friskfrysefrugt/awesome-networking) _Inexhaustive list of network utilities._ 
+
 - **Networking Tools Guides & Writeups**
  
     - Sniffers
@@ -625,6 +629,7 @@ _I have mastered the ultimate technology, the hability to alter physical reality
 
 - Onion Links
     - [Dark Web Links](https://darkweblinks.com/)
+    - [Onion Links DB 01 @ 5ky1ar](https://github.com/5ky1ar/Awesome-Onion-Links)
 
 ## Web Hacking, OWASP & Penetration Testing
 
@@ -700,7 +705,11 @@ Fz3r0 Cyber-Weaponry Crafting, Tools Programming & Open Source Projects
     
 ### Python
 
-- Python WriteUps & Guides
+- Python Bibles from ancient Pythonistas
+ 
+    - [Awesome Python](https://github.com/vinta/awesome-python) _A curated list of awesome Python frameworks, libraries, software and resources._ 
+ 
+ - Python WriteUps & Guides
 
     - [Python - From Zero to Hero @ Fz3r0]()
 
@@ -713,9 +722,7 @@ Fz3r0 Cyber-Weaponry Crafting, Tools Programming & Open Source Projects
  
     - [Python Problems](https://codingbat.com/python)
 
-    
-
-- [C]
+- C
 
     - [Compile C code in Linux](https://www.atechtown.com/c-program-in-linux/)
   
