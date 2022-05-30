@@ -87,7 +87,15 @@
 
 ![typing](https://readme-typing-svg.herokuapp.com?size=20&color=00F733&multiline=true&lines=whoami)
 
-<p align="center"> <a href="https://twitter.com/Fz3r0_OPs" target="_blank" rel="noreferrer"> <img src="https://user-images.githubusercontent.com/94720207/168743521-b8c142ae-e221-40c9-8d1f-bd9520027717.png" alt="twitter"> </a>   &emsp; &emsp; &emsp;   <a href="https://github.com/Fz3r0" target="_blank" rel="noreferrer"> <img src="https://user-images.githubusercontent.com/94720207/168743591-ca20efa5-f692-46b0-ba84-f2681486009f.png" alt="github"> </a>   &emsp; &emsp; &emsp;   <a href="https://www.linkedin.com/in/fzerocarlos/" target="_blank" rel="noreferrer"> <img src="https://user-images.githubusercontent.com/94720207/168743658-0a5101f0-49fd-494f-9a79-cf70ad860d12.png" alt="github"> </a> </p> 
+I'm just a very lucky person who was born surrounded by IBM computers and floppy disks in the 80's...
+
+When I was very young I entered a Data Center and a room full of computers where my father worked, then I met a very funny guy with long hair and a beard (The Systems Engineer) who allowed me to play Prince of Persia in DOS surrounded by huge computers with that peculiar smell of new plastic and technology. Since then I decided to focus on Computer Science... And here I am!
+
+Computer Science and Information & Communication Technologies are my passion, my hobby, what I have studied at University, have certified and constantly updated my knowledge and skills. Fortunately, it is what I work professionally and with several years of experience in different branches of ICT, in which Networking, Programming and Cyber-Security stand out.
+
+I invite you to visit my social networks including my LinkedIn, where you will find more information regarding my professional career.
+
+<p align="center"> <a href="https://twitter.com/Fz3r0_OPs" target="_blank" rel="noreferrer"> <img src="https://user-images.githubusercontent.com/94720207/168743521-b8c142ae-e221-40c9-8d1f-bd9520027717.png" alt="twitter"> </a>   &emsp; &emsp; &emsp;   <a href="https://github.com/Fz3r0" target="_blank" rel="noreferrer"> <img src="https://user-images.githubusercontent.com/94720207/168743591-ca20efa5-f692-46b0-ba84-f2681486009f.png" alt="github"> </a>   &emsp; &emsp; &emsp;   <a href="https://www.linkedin.com/in/fzerocarlos/" target="_blank" rel="noreferrer"> <img src="https://user-images.githubusercontent.com/94720207/168743658-0a5101f0-49fd-494f-9a79-cf70ad860d12.png" alt="github"> </a> </p>
 
 #### < University Degree >
 ##### `Bachelor of Science in Computer Systems Engineering`
@@ -103,6 +111,8 @@
 
 
 &nbsp;
+
+---
 
 <p align="center"> <a href="https://www.credly.com/badges/7611ce7f-e699-4426-888b-ab4f4fe7d785" target="_blank" rel="noreferrer"> <img src="https://images.credly.com/size/340x340/images/70d71df5-f3dc-4380-9b9d-f22513a70417/CCNAITN__1_.png" alt="cisco1"  width="127" height="127"> </a>    &emsp; &emsp;   <a href="https://www.credly.com/badges/72488bf8-8ed7-4d31-bff9-9e5c2555af36" target="_blank" rel="noreferrer"> <img src="https://images.credly.com/size/340x340/images/f4ccdba9-dd65-4349-baad-8f05df116443/CCNASRWE__1_.png" alt="cisco2" width="127" height="127"> </a>    &emsp; &emsp;   <a href="https://www.credly.com/badges/675b414f-c768-40e9-906a-b9f17a75308c" target="_blank" rel="noreferrer"> <img src="https://images.credly.com/size/340x340/images/0a6d331e-8abf-4272-a949-33f754569a76/CCNAENSA__1_.png" alt="cisco3"  width="127" height="127"> </a>   &emsp; &emsp; <a href="https://www.credly.com/earner/earned/badge/b4ee7469-8292-4ba6-ad6e-7c3017bb17ed" target="_blank" rel="noreferrer"> <img src="https://images.credly.com/size/340x340/images/af8c6b4e-fc31-47c4-8dcb-eb7a2065dc5b/I2CS__1_.png" alt="cisco4_security"  width="127" height="127"> </a> </p> 
 
