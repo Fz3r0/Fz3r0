@@ -287,27 +287,33 @@ Tables, Lists, Models, Cheat-Sheets, Mind-Maps & Resources
 - [ETHII > Ethernet II : Header]()
 - [WiFi > 802.11 : Header]()
 
+### 📊 🖥️ 👨‍🚀 **Simulators & Emulators** 👨‍🚀 🖥️ 📊
+ 
+- [Cisco Packet Tracer]()
+- [GNS3]()
+- [GNS3 - Appliances](https://www.gns3.com/marketplace/appliances)
+- [eve]()
+
+### ✉️ 👨‍💻 📦 Packet Level 📦 👨‍💻 ✉️ 
+Deep dive into the Packet / PCAP Analysis
+
+- Packet Header Parameters & Flags:
+ 
+    - TCP > Parameters
+    - UDP > Parameters
+    - ETHII > Parameters
+    - 802.11 > Parameters
+    - HTTP > [List of HTTP Header Fields](https://en.wikipedia.org/wiki/List_of_HTTP_header_fields)
+    - [Security Headers - HTTP Header Analyzer](https://securityheaders.com/) 
+ 
 ### 🔐 🛠️ ⚙️ Configure it Like a Sir! ⚙️ 🛠️ 🔐
 Pro and Secure Network Configurations Guides by _Fz3r0_
+ 
 - [Configurar **VLANs** de Noob a Pro! _En Español_](/Networking/Knowledge/VLANS_full!.png)
 - [Configure **Spaning Tree Protocol** like a Sir **(STP, RSTP+, PVSTP & R-PVSTP)**](/Networking/Knowledge/STP-for-dummies.md)
 - [Configure **Ether-Channel** like a Sir! **(Etherport, PAgP, LACL, Static)** | STP)](/Networking/Knowledge/EtherChannel-like-a-sir.md)
 - [Configure **DHCPv4** like a Sir **(DHCPv4, Client, Server, Cisco Router, Home Router)**](/Networking/Knowledge/DHCPv4-like-a-sir.md)
 - [Configure **FHRP** like a Sir! **(Pro HSRP + intro to VRRP, GLBP, IRDP)** ](/Networking/Knowledge/FHRP-like-a-sir.md)
-
-<!--
-
-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
-
-====================================
-
-** =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=- Fz3r0 >> Secure Network Labs 🧪 🛡️  
-
-====================================
-
-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
-
---> 
 
 ### 🛡️ 👩‍🔬 🧪  Secure Network Labs 🧪 👩‍🔬 🛡️  
 Networking Labs using simulators, emulators like Packet Tracer, GNS3 & eve / and/or physical infraestructure by _Fz3r0_
@@ -384,18 +390,6 @@ Guides for performing Penetration Attacks involving the Network Infrastructure E
     - Man-in-the-Middle Attack (MITM)
     - [Log4j Vulnerability @ Unify Access PWN!](https://www.sprocketsecurity.com/blog/another-log4j-on-the-fire-unifi)
  
-### ✉️ 👨‍💻 📦 Packet Level 📦 👨‍💻 ✉️ 
-Deep dive into the Packet / PCAP Analysis
-
-- Packet Header Parameters & Flags:
- 
-    - TCP > Parameters
-    - UDP > Parameters
-    - ETHII > Parameters
-    - 802.11 > Parameters
-    - HTTP > [List of HTTP Header Fields](https://en.wikipedia.org/wiki/List_of_HTTP_header_fields)
-    - [Security Headers - HTTP Header Analyzer](https://securityheaders.com/) 
-
 ### 📡 🦈 🐽 Networking Tools & Cyber-Weaponry 🐽 🦈 📡
 Guides, Tips & Tricks, Downloads, Training, Crafting, Arsenal, Binaries, Executables, Scripts, Open Source Codes
 
@@ -446,13 +440,6 @@ Guides, Tips & Tricks, Downloads, Training, Crafting, Arsenal, Binaries, Executa
     - [Hexadecimal to Text Converter](https://cryptii.com/pipes/hex-decoder) _For Networking & Exploiting Buffer Overflow hohoho_
     - [UTF-8 string lenght & byte counter](https://mothereff.in/byte-counter) _chars to bytes!_
 
-### 📊 🖥️ 👨‍🚀 **Simulators & Emulators** 👨‍🚀 🖥️ 📊
- 
-- [Cisco Packet Tracer]()
-- [GNS3]()
-- [GNS3 - Appliances](https://www.gns3.com/marketplace/appliances)
-- [eve]()
-         
 ### 🏭 ⚗️ 🛠️ **Network Cyber-Weapons: Smithing & Crafting** 🛠️ ⚗️ 🏭
  
 - [Dark Art of Packet Crafting with Scapy](https://0xbharath.github.io/art-of-packet-crafting-with-scapy/index.html) _@ Python + Scapy_
