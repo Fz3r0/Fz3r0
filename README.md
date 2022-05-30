@@ -867,6 +867,17 @@ Fz3r0 Cyber-Weaponry Crafting, Tools Programming & Open Source Projects
  
 - IT & Computer Science
 
+## Certifications
+
+### Cloud Certifications
+ 
+- [Cloud Certifications List (F)](https://github.com/cloudcommunity/Free-Certifications)
+- [Learning Cloud](https://github.com/lynnlangit/learning-cloud)
+
+### DevOps Certifications
+
+- [Awesome DevOps Certifications](https://github.com/jdrowne/awesome-devops-certifications) 
+ 
 ## Misc Tools
 
 - [Mark Down Table Editor](https://tableconvert.com/markdown-generator)
