@@ -897,6 +897,7 @@ Fz3r0 Cyber-Weaponry Crafting, Tools Programming & Open Source Projects
 - [HW Monitor]
 - [https://www.ddginc-usa.com/latlong.htm](https://www.ddginc-usa.com/latlong.htm)
 - [advanced-archive-password-recovery-4-54-110.zip]()
+- [LaunchPad - Debian](https://launchpad.net/) 
 
 - Brownser Extensions
 
