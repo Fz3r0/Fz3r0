@@ -455,6 +455,7 @@ Guides, Tips & Tricks, Downloads, Training, Crafting, Arsenal, Binaries, Executa
     - Ngrep
     - Kismet
     - Ettercap
+    - SIEM() _testing tool has the ability to provide details on the source of suspicious network activity._
  
 - **Testers & Troubleshooting**
     - [LDWin - Link Discovery for Windows](https://github.com/Fz3r0/LDWin) _Discover connected ports on Switch using CDP & tcpdump.exe_   
