@@ -289,7 +289,7 @@ Tables, Lists, Models, Cheat-Sheets, Mind-Maps & Resources
 - [TCP/UDP Port Number IANA list @ Python - WhatPortIs](https://github.com/Fz3r0/whatportis)
 - [BIN - HEX - DEC : Calculate & Convert]()
 - [Subneting Guide - FLSM & VLSM]()
-- [IEEE 802 Standards]()
+- []()
 - [IEEE Ethernet Cabling Standards - Full Table]()
 - [Cisco CCNA Cheat Sheet I](https://github.com/Fz3r0/CCNA-Cheat-Sheet)
 - https://github.com/Fz3r0/cisco-cheatsheet
@@ -299,6 +299,12 @@ Tables, Lists, Models, Cheat-Sheets, Mind-Maps & Resources
 - [TCP & UDP : Headers]()
 - [ETHII > Ethernet II : Header]()
 - [WiFi > 802.11 : Header]()
+
+### IEEE Standards
+ 
+- [**IEEE 802.3 Ethernet** Standards](https://en.wikipedia.org/wiki/IEEE_802.3) _Specifies the set of MAC and PHY protocols for implementing **LAN** communication_
+- [**IEEE 802.11 Wireless** Standards](https://en.wikipedia.org/wiki/IEEE_802.11) _Specifies the set of MAC and PHY protocols for implementing **WLAN** communication_
+
 
 ### 📊 🖥️ 👨‍🚀 **Simulators & Emulators** 👨‍🚀 🖥️ 📊
  
