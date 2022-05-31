@@ -873,6 +873,8 @@ Fz3r0 Cyber-Weaponry Crafting, Tools Programming & Open Source Projects
 - [Data Integrity & Preservation]()
 - [Attack Attribution]() 
 - [Perform a cyclic redundancy check using a checksum or hashing algorithm to ensure the integrity]()
+- [Cyber Kill Chain]() _The Cyber Kill Chain was developed by Lockheed Martin to identify and prevent cyber intrusions._
+- [The Diamond Model of Intrusion Analysis]()
 - [Recolección de Evidencia Volátil - Usando Redline, FTK Imager & Forma Manual @ A. Caballero](https://www.youtube.com/watch?v=LGU8vfD8jFY) _Preservar evidencia volátil la cual luego será utilizada en una investigación_
 - [Volatile Evidence Manual Collect - CMD | SysInternals | Nirsoft](/Cyber-Security-&-Hacking/Digital-Forensics/Forensics-Writeups/manual_volatile_evidence_collect.md)
 - Volatility > [Analizar una Imágen RAM @ Master Alonso Caballero](https://www.youtube.com/watch?v=uP8iu_21V5s) _Extraer y analizar artefactos digitales desde la RAM_
