@@ -855,12 +855,23 @@ Fz3r0 Cyber-Weaponry Crafting, Tools Programming & Open Source Projects
  
 ### Digital Forensics Documentation & Legal Forms
 
+- [NIST Special Publication 800-86 Guide to Integrating Forensic Techniques into Incident Response]()
 - [Guide to Computer Forensics and Investigations, 6th Edition](https://www.cengagebrain.com.mx/shop/isbn/9781337568944?categoryId=null&urlRequestType=Base&errorViewName=ProductDisplayErrorView&urlLangId=-1&top_category=null&parent_category_rn=null&partNumber=9781337568944)
 - [Evidence Chain of Custody Tracking Form](https://github.com/Fz3r0/Fz3r0/files/8781010/Sample-Chain-of-Custody-Form.docx)
 
+### The Digital Evidence Forensic Process
+
+    - Collection -> Media
+    - Examination -> Data
+    - Analysis -> Information
+    - Reporting -> Evidence 
 
 ### Incidence Response and Digital Forensics Guides
 
+- [Evidence Collection Priority - From Volatile to Non- Volatile Data]()
+- [Evidence Chain of Custody]() _Chain of custody involves the collection, handling, and secure storage of evidence._ 
+- [Data Integrity & Preservation]()
+- [Attack Attribution]() 
 - [Perform a cyclic redundancy check using a checksum or hashing algorithm to ensure the integrity]()
 - [Recolección de Evidencia Volátil - Usando Redline, FTK Imager & Forma Manual @ A. Caballero](https://www.youtube.com/watch?v=LGU8vfD8jFY) _Preservar evidencia volátil la cual luego será utilizada en una investigación_
 - [Volatile Evidence Manual Collect - CMD | SysInternals | Nirsoft](/Cyber-Security-&-Hacking/Digital-Forensics/Forensics-Writeups/manual_volatile_evidence_collect.md)
@@ -870,6 +881,7 @@ Fz3r0 Cyber-Weaponry Crafting, Tools Programming & Open Source Projects
 
 ### Forensic Tools
 
+- [MITRE ATT&CK Framework]() _Global knowledge base of threat actor behavior._
 - [Redline](https://www.fireeye.com/services/freeware/redline.html) _find signs of malicious activity through memory and file analysis_
 - [Volatility]()
 - [HxD - HEX editor & Disk Editor](https://mh-nexus.de/en/hxd/) _HEX editor & raw disk editing and modifying of RAM_
