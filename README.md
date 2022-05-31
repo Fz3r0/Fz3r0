@@ -457,6 +457,10 @@ Guides, Tips & Tricks, Downloads, Training, Crafting, Arsenal, Binaries, Executa
     - Ettercap
     - [SIEM]() _Testing tool has the ability to provide details on the source of suspicious network activity._
     - [Tripwire]() _Tripwire is used to assess if network devices are compliant with network security policies, recommended best practices, and compliance standards._
+    - [SOAR]() _Stack of compatible software programs that enables to collect data about security threats and respond to security events without human assistance._
+    - [L0phtcrack]() _Tool is used for password auditing and recovery_
+    - [GFI LANguard]()
+    - [Nessus]()
  
 - **Testers & Troubleshooting**
     - [LDWin - Link Discovery for Windows](https://github.com/Fz3r0/LDWin) _Discover connected ports on Switch using CDP & tcpdump.exe_   
