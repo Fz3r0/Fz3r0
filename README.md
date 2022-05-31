@@ -273,7 +273,7 @@ _Monitoring devices, know where you go, mass media, total control. Digital delig
 
 _The sun never sets, on cyber-space... Transmit, receive, log on to interface_
   
-### 🔮 📖 🧙‍ **Dark Wizardy for Networking & NetSec** 🧙‍♂️ 📖 🔮
+### 🔮 📖 🧙‍ Dark Wizardy for Networking & NetSec 🧙‍♂️ 📖 🔮
 Tables, Lists, Models, Cheat-Sheets, Mind-Maps & Resources
 
 - [Cisco > Routing & Switching CLI/IOS - Command Bible](/Networking/Labs/) _My CCNA+CCNP Pocket Bible_
@@ -300,18 +300,17 @@ Tables, Lists, Models, Cheat-Sheets, Mind-Maps & Resources
 - [ETHII > Ethernet II : Header]()
 - [WiFi > 802.11 : Header]()
 
-### IEEE Standards
+### 📝 👷 🏰 IEEE Standards 🏰 👷 📝
  
 - [**IEEE 802.3 Ethernet** Standards](https://en.wikipedia.org/wiki/IEEE_802.3) _Specifies the set of MAC and PHY protocols for implementing **LAN** communication_
 - [**IEEE 802.11 Wireless** Standards](https://en.wikipedia.org/wiki/IEEE_802.11) _Specifies the set of MAC and PHY protocols for implementing **WLAN** communication_
 
-
-### 📊 🖥️ 👨‍🚀 **Simulators & Emulators** 👨‍🚀 🖥️ 📊
+### 📊 🖥️ 👨‍🚀 Simulators & Emulators 👨‍🚀 🖥️ 📊
  
-- [Cisco Packet Tracer]()
-- [GNS3]()
+- [Cisco Packet Tracer]() _Network simulation tool for networking, IoT, and cybersecurity in a virtual lab_
+- [GNS3](https://gns3.com/) _Real-time network simulation for pre-deployment testing_
 - [GNS3 - Appliances](https://www.gns3.com/marketplace/appliances)
-- [eve]()
+- [Eve NG](https://www.eve-ng.net/) _Emulated Virtual Enviorment for Network, Security and DevOps_
 
 ### ✉️ 👨‍💻 📦 Packet Level 📦 👨‍💻 ✉️ 
 Deep dive into the Packet / PCAP Analysis
@@ -467,7 +466,7 @@ Guides, Tips & Tricks, Downloads, Training, Crafting, Arsenal, Binaries, Executa
     - [Hexadecimal to Text Converter](https://cryptii.com/pipes/hex-decoder) _For Networking & Exploiting Buffer Overflow hohoho_
     - [UTF-8 string lenght & byte counter](https://mothereff.in/byte-counter) _chars to bytes!_
 
-### 🏭 ⚗️ 🛠️ **Network Cyber-Weapons: Smithing & Crafting** 🛠️ ⚗️ 🏭
+### 🏭 ⚗️ 🛠️ Network Cyber-Weapons: Smithing & Crafting 🛠️ ⚗️ 🏭
  
 - [Dark Art of Packet Crafting with Scapy](https://0xbharath.github.io/art-of-packet-crafting-with-scapy/index.html) _@ Python + Scapy_
 - [Creating malicious packets & breaking TCP/IP rules](Fz3r0/Networking/Attacking-Cisco/weird_TCP_fz3r0.py )  _@ Python + Scapy_
@@ -480,7 +479,7 @@ Guides, Tips & Tricks, Downloads, Training, Crafting, Arsenal, Binaries, Executa
 - [OS Identifier using TTL](https://github.com/Fz3r0/WichSystem.py/blob/main/wichSystem.py) _@ Python_
 - [CAM overflow/ MAC flooding attack]() _@ Python + Scapy_ 
  
-### ♻️ 🧬 🤖 **Network Automation** 🤖 🧬 ♻️
+### ♻️ 🧬 🤖 Network Automation 🤖 🧬 ♻️
 Network Automation is a cross between the discipline of Network Infrastructure and the discipline of Programming. 
 
 - [CiscoDevNet - Notwork Automation & Programmability Basics](https://github.com/CiscoDevNet/netprog_basics)
@@ -577,7 +576,7 @@ _I have mastered the ultimate technology, the hability to alter physical reality
 - [Pentest Book - Reverse Shells]()
 - [TheFatRat](https://github.com/screetsec/TheFatRat) _Payload Automation,Listener Generator,Bypass anti-virus backdoors & more..._
 
-### 🔍 📕 💪 **Worldists, Fuzzing, Passwords & BruteForce** 💪 📕 🔍
+### 🔍 📕 💪 Worldists, Fuzzing, Passwords & BruteForce 💪 📕 🔍
 
 - **Fuzzing Tools & Resources**
                                                         
