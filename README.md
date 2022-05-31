@@ -498,20 +498,8 @@ Network Automation is a cross between the discipline of Network Infrastructure a
 - [Auto-Configure Cisco Routers](https://github.com/sumitmcc/auto-configure-cisco) _@ Python_
 - [Auto Secure Firewall](https://github.com/CiscoDevNet/secure-firewall) _Templates and Automation Resources for Cisco Secure Firewall on diverse cloud platforms._ 
 
-### Network Intelligence Communities
- 
-- SANS (SysAdmin, Audit, Network, Security)
-- Mitre
-- FIRST (Forum Incident Repsonse and Security Teams) 
-- SecurityNewsWire 
-- (ISC)²
-- CIS (Center for Internet Security) 
- 
-### Threat Intelligence Services
 
-- [Cisco Talos]() _Talos is one of the largest commercial threat intelligence teams in the world, and is comprised of world-class researchers, analysts and engineers._
-- [FireEye]() _FireEye offers SIEM and SOAR with the Helix Security Platform_ 
-- [AIS - Automated Indicator Sharing]() _U.S. Department of Homeland Security real-time exchange of cyber threat indicators between the U.S. Federal Government and the private sector._ 
+
           
 <!--
 
@@ -553,19 +541,47 @@ _I have mastered the ultimate technology, the hability to alter physical reality
 - [Dorks Collection List](https://github.com/Fz3r0/Dorks-collections-list)
 - [Awesome Threat Hunting](https://github.com/threat-hunting/awesome_Threat-Hunting) _This repository is a library for hunting and detecting cyber threats._
  
-### ✅ 🗄️ 📈 CVE & PoC 📈 🗄️ ✅
+### ✅ 🗄️ 📈 CVE, Vulnerabilities, Patches & PoC 📈 🗄️ ✅
 
 - CVE Databases
     - [Mitre - CVE](https://cve.mitre.org/)
+ 
+- Vulnerability Information Sources
+
+    - [Common Vulnerability Scoring System (CVSS)]()  
+    - [National Vulnerability Database (NVD)](https://nvd.nist.gov/)
 
 - CVE & PoCs finders and tricks
+ 
     - [Exploit DB](https://www.exploit-db.com/)
     - [trickest CVE](https://github.com/trickest/cve) _Almost every publicly available CVE PoC._
     - [PoC finder in Github](https://github.com/trickest/find-gh-poc) _Finds CVE PoCs on Github._
 
+### Network Intelligence Communities
+ 
+- SANS (SysAdmin, Audit, Network, Security)
+- Mitre
+- FIRST (Forum Incident Repsonse and Security Teams) 
+- SecurityNewsWire 
+- (ISC)²
+- CIS (Center for Internet Security) 
+ 
+### Threat Intelligence Services & Vuln Assessment
+
+- [Cisco Talos]() _Talos is one of the largest commercial threat intelligence teams in the world, and is comprised of world-class researchers, analysts and engineers._
+- [FireEye]() _FireEye offers SIEM and SOAR with the Helix Security Platform_ 
+- [AIS - Automated Indicator Sharing]() _U.S. Department of Homeland Security real-time exchange of cyber threat indicators between the U.S. Federal Government and the private sector._  
+
+- Enterprise Patch Management
+ 
+    - [Solarwinds]()
+    - [LANDesk]()
+    - [Microsoft System Center Configuration Manager (SCCM)]()
+ 
 ### Cyber Threat Intelligence (CTI) Communication Standards
 
 - [STIX - Structured Threat Information Expression]() _Set of specifications for exchanging cyber threat information between organizations._  
+ 
  
  
 ### Cyber-Weapons & Tools
