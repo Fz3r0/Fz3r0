@@ -310,7 +310,7 @@ Tables, Lists, Models, Cheat-Sheets, Mind-Maps & Resources
 ### ✉️ 👨‍💻 📦 Packet Level 📦 👨‍💻 ✉️ 
 Deep dive into the Packet / PCAP Analysis
 
-- Packet Header Parameters & Flags:
+- Packet Headers, Parameters & Flags:
  
     - TCP > Parameters
     - UDP > Parameters
@@ -319,24 +319,24 @@ Deep dive into the Packet / PCAP Analysis
     - HTTP > [List of HTTP Header Fields](https://en.wikipedia.org/wiki/List_of_HTTP_header_fields)
     - [Security Headers - HTTP Header Analyzer](https://securityheaders.com/) 
  
-Official RFCs from the Internet Engineering Task Force (IETF).
+- **Better Known Protocols for Networking - Official RFCs from the IETF**
 
-- [Address Resolution Protocol (ARP)](https://datatracker.ietf.org/doc/rfc826/)
-- [Border Gateway Protocol (BGP)](https://datatracker.ietf.org/doc/rfc4271/)
-- [Domain Name System (DNS)](https://datatracker.ietf.org/doc/rfc1035/)
-- [Dynamic Host Configuration Protocol (DHCP)](https://datatracker.ietf.org/doc/rfc2131/)
-- [File Transfer Protocol (FTP)](https://datatracker.ietf.org/doc/rfc959/)
-- [Hypertext Transfer Protocol (HTTP/1.1)](https://datatracker.ietf.org/doc/rfc2616/)
-- [Hypertext Transfer Protocol Version 2 (HTTP/2)](https://datatracker.ietf.org/doc/rfc7540/)
-- [Internet Protocol Version 4 (IPv4)](https://tools.ietf.org/html/rfc791/)
-- [Internet Protocol Version 6 (IPv6)](https://datatracker.ietf.org/doc/rfc2460/)
-- [Network Address Translator (NAT)](https://datatracker.ietf.org/doc/rfc1631/)
-- [Simple Mail Transfer Protocol (SMTP)](https://datatracker.ietf.org/doc/rfc5321/)
-- [Simple Network Management Protocol (SNMP)](https://datatracker.ietf.org/doc/rfc1157/)
-- [Secure Shell (SSH)](https://datatracker.ietf.org/doc/rfc4251/)
-- [Transmission Control Protocol (TCP)](https://datatracker.ietf.org/doc/rfc793/)
-- [Telnet](https://datatracker.ietf.org/doc/rfc854/)
-- [User Datagram Protocol (UDP)](https://datatracker.ietf.org/doc/rfc768/)
+    - [Address Resolution Protocol (ARP)](https://datatracker.ietf.org/doc/rfc826/)
+    - [Border Gateway Protocol (BGP)](https://datatracker.ietf.org/doc/rfc4271/)
+    - [Domain Name System (DNS)](https://datatracker.ietf.org/doc/rfc1035/)
+    - [Dynamic Host Configuration Protocol (DHCP)](https://datatracker.ietf.org/doc/rfc2131/)
+    - [File Transfer Protocol (FTP)](https://datatracker.ietf.org/doc/rfc959/)
+    - [Hypertext Transfer Protocol (HTTP/1.1)](https://datatracker.ietf.org/doc/rfc2616/)
+    - [Hypertext Transfer Protocol Version 2 (HTTP/2)](https://datatracker.ietf.org/doc/rfc7540/)
+    - [Internet Protocol Version 4 (IPv4)](https://tools.ietf.org/html/rfc791/)
+    - [Internet Protocol Version 6 (IPv6)](https://datatracker.ietf.org/doc/rfc2460/)
+    - [Network Address Translator (NAT)](https://datatracker.ietf.org/doc/rfc1631/)
+    - [Simple Mail Transfer Protocol (SMTP)](https://datatracker.ietf.org/doc/rfc5321/)
+    - [Simple Network Management Protocol (SNMP)](https://datatracker.ietf.org/doc/rfc1157/)
+    - [Secure Shell (SSH)](https://datatracker.ietf.org/doc/rfc4251/)
+    - [Transmission Control Protocol (TCP)](https://datatracker.ietf.org/doc/rfc793/)
+    - [Telnet](https://datatracker.ietf.org/doc/rfc854/)
+    - [User Datagram Protocol (UDP)](https://datatracker.ietf.org/doc/rfc768/)
  
 ### 🔐 🛠️ ⚙️ Configure it Like a Sir! ⚙️ 🛠️ 🔐
 Pro and Secure Network Configurations Guides by _Fz3r0_
