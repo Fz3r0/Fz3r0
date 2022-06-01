@@ -274,7 +274,7 @@ _The sun never sets, on cyber-space... Transmit, receive, log on to interface_
 ### 🔮 📖 🧙‍ Dark Wizardy for Networking & NetSec 🧙‍♂️ 📖 🔮
 Tables, Lists, Models, Cheat-Sheets, Mind-Maps & Resources
 
-- [Cisco > Routing & Switching CLI/IOS - Command Bible](/Networking/Labs/) _My CCNA+CCNP Pocket Bible_
+- [**Cisco** Networking Infraestructure **CLI/IOS** - **Command Bible**](/Networking/Dark-Wizardy-for-Networking-&-NetSec/Cisco-IOS-Command-Bible-Routing-&-Switching.md) _My CCNA+CCNP Commands & Configurations Pocket Bible_
 - [Networking List 01 - facyber](https://github.com/facyber/awesome-networking) 
 - [Awesome **Mesh Networking**](https://github.com/moarpepes/awesome-mesh) _Documentation, Free Software mesh protocols, and applications._
 - [Awesome **SDN**](https://github.com/sdnds-tw/awesome-sdn) _An awesome list about Software Defined Networks (SDN)_ 
