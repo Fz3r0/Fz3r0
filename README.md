@@ -659,11 +659,12 @@ _I have mastered the ultimate technology, the hability to alter physical reality
 
 - **Windows PrivEsc**
  
+    - [Windows PrivEsc - OSCP Methodology @ Conda](https://youtu.be/Qfy-traJwIs)
     - Fz3r0 Windows PrivEsc Ninjitsu(/Networking/Labs/) _My own logs & writeups about Windows PrivEsc_
     - [Juicy Potato Technique](https://www.youtube.com/watch?v=Ma_Q1yqBmEM)
     - [Pergamino I - ](https://github.com/Fz3r0/Checklists_PrivEsc) _Detailed Checklist for Windows PrivEsc & Scenarios_
-    - [Mimicatz I](https://www.youtube.com/watch?v=AZirvtZNIEw)
-    - https://github.com/Fz3r0/windows-privesc-check
+    - [Mimicatz Tutorial](https://www.youtube.com/watch?v=AZirvtZNIEw)
+    - [Windows PrivEsc Checker](https://github.com/Fz3r0/windows-privesc-check)
  
 - **Active Directory PrivEsc (Windows Server)**
 
