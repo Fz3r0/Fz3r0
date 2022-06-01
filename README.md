@@ -298,7 +298,17 @@ Tables, Lists, Models, Cheat-Sheets, Mind-Maps & Resources
 ### 📝 👷 🏰 IEEE Standards 🏰 👷 📝
  
 - [**IEEE 802.3 Ethernet** Standards](https://en.wikipedia.org/wiki/IEEE_802.3) _Specifies the set of MAC and PHY protocols for implementing **LAN** communication_
+    
+    - [802.3ab - 1000BASE-T Gbit/s Ethernet over twisted pair at 1 Gbit/s (125 MB/s)](https://en.wikipedia.org/wiki/Gigabit_Ethernet)
+    - [802.3ad - Link aggregation for parallel links, since moved to IEEE 802.1AX]() _Open standard (Etherchannel is from Cisco)_
+    - [802.3ae - 10 Gigabit Ethernet over fiber 10GBASE-SR/LR/ER/SW/LW/EW](https://en.wikipedia.org/wiki/10_Gigabit_Ethernet)
+    - [802.3af - Power over Ethernet (PoE 15.4 W)]()
+ 
+ 
+ 
 - [**IEEE 802.11 Wireless** Standards](https://en.wikipedia.org/wiki/IEEE_802.11) _Specifies the set of MAC and PHY protocols for implementing **WLAN** communication_
+ 
+802.1q  
 
 ### 📊 🖥️ 👨‍🚀 Simulators & Emulators 👨‍🚀 🖥️ 📊
  
