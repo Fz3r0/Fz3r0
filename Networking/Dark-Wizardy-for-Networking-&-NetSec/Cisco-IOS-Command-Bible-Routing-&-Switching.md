@@ -1,3 +1,46 @@
+---
+	
+
+# CCNA Switch command cheat-sheet
+#### Useful command collection for Cisco Switches. Based on Cisco Networking Academy CCNA version 6 and version 7 course material, and recommended for CCNA exam preparation.
+
+---
+## Table of contents
+
+- [Important ``show`` commands](#important-show-commands)
+- [Interface ranges](#managing-more-than-one-interface-at-the-same-time)
+- [**VLANs**](#VLANS)
+    - [Configuring VLANs](#configuring-vlans)
+    - [Deleting VLANS](#deleting-a-vlan)
+    - [Removing interface(s) from a VLAN](removing-interfaces-from-a-vlan)
+    - [Configuring Trunks](#configuring-ieee-802.1q-trunk-links)
+    - [Dynamic Trunking Protocol](#dynamic-trunking-protocol-DTP)
+    - [VLAN troubleshooting](#troubleshooting-vlans)
+    - [Trunk link troubleshooting](#troubleshooting-trunks)
+    - [Voice VLANs](#voice-vlans)
+- [Configuring SSH](#configuring-ssh)
+- [Modifying SSH configuration](#modifying-ssh-configuration)
+- [Port Security](#port-security)
+    - [Configuring Dynamic Port Security](#closed_lock_with_key-configuring-dynamic-port-security)
+    - [Configuring Sticky Port Security](#closed_lock_with_key-configuring-sticky-port-security)
+    - [Verifying Port Security & secure MAC addresses](#closed_lock_with_key-white_check_mark-verifying-port-security-&-secure-mac-addresses)
+        - [``Err-disabled`` interfaces](#bringing-an-err-disabled-interface-back-up)
+- [VLAN management with VTP](#VLAN-trunking-protocol-VTP)
+    - [VTP verification](#VTP-verification)
+- [STP](#Spanning-Tree-Protocol)
+- [EtherChannel](#etherchannel)
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ---
@@ -1115,7 +1158,83 @@ ip mtu
 | # clear ip route *      | Get rid of all routes                                    |
 
 
-## EIGRP
+## Dynamic routing: Enhanced Interior Gateway Routing Protocol (EIGRP) 
+
+### EIGRP Configuration
+Command|Description
+---|---
+``R1(config)#router eigrp [AS-number]``|[AS-number] value range: 1-65535.
+``R1(config-router)#eigrp router-id [a.b.c.d]``|(optional) manually configure a **router ID**, in an IPv4 address format
+``R1(config-router)#network [network-address]``|add the classful network address for each directly connected network
+``R1(config-router)#network [network-address] ([wildcard-mask])``|add the network address with the wildcard mask, recommended when using classless addresing
+
+
+- 💡 If no EIGRP router ID is configured, the router will use the highest IPv4 address of any active loopback interface. 
+    - If the router has NO active loopback interfaces, the router ID will be the highest IPv4 address of any active physical interface.
+
+- 👑 **Pro Tip:**
+
+    - How can I easily visualize all the directly connected networks a router has? Using:
+	
+        - **``R1(config)# do show ip route con``** 
+
+    - It will display the routing table ONLY with the directly connected networks (routes).
+
+- 💡 Recall: by default, EIGRP does NOT automatically summarize networks.
+
+### EIGRP Verification
+Command|Description
+---|---
+``R1#show ip protocols``|verifies the current configured values for EIGRP (and any additional enabled routing protocol on the device)
+``R1#show ip eigrp neighbors``|displays the nighbor table. Use it to verify the router recognizes its neighbors.
+``R1#show ip route eigrp``|display **only EIGRP** entries in the routing table
+``R1#show ip eigrp interface``|verifies which interface are enabled for EIGRP, number of peers, and transmit queues
+
+:bulb: Recall: (internal) EIGRP's default AD is ``90``  
+You can find common AD values [here](#appendix-common-administrative-distance-ad-values).
+- _The AD for an **EIGRP summary route** is 5._
+- _The AD for an **EIGRP external route** is 170._
+
+### EIGRP Fine tuning
+Command|Description
+---|---
+``R1(config-router)#variance [variance]``|change variance to perform **unequal cost load balancing**. [variance] value range: 1-128.
+``R1(config-router)#auto-summary``|enable **automatic summarization**
+``R1(config-router)#redistribute static``|propagate a **default static route**. Works on both IPv4 and IPv6. :bulb: remember to check routing tables to ensure correct/desired configuration
+``R1(config-if)#bandwidth [BW in kilobits]``|modify the EIGRP metric. :warning: this is done in **interface configuration mode**
+``R1(config-if)#ip hello-interval eigrp [AS-number] [time in seconds]``|modify hello interval on IPv4. :warning: this is done in **interface configuration mode**
+``R1(config-if)#ipv6 hello-interval eigrp [AS-number] [time in seconds]``|modify hello interval on IPv6. :warning: this is done in **interface configuration mode**
+``R1(config-if)#ip hold-time eigrp [AS-number] [time in seconds]``|modify hold timer length on IPv4 :warning: this is done in **interface configuration mode**
+``R1(config-if)#ipv6 hold-time eigrp [AS-number] [time in seconds]``|modify hold timer length on IPv6 :warning: this is done in **interface configuration mode**
+
+:bulb: Recall: **automatic summarization** is **disabled** by default
+
+:warning: When modifying EIGRP hello intervals and hold timers, ALWAYS MAKE SURE your Hello intervals are LESS THAN your hold timers. Otherwise, you could have a _flapping link_ (due to timer misconfiguration, constantly goes up, down, up, ...)
+
+
+## Dynamic routing: EIGRP for IPv6
+
+### Configuration
+Command|Description
+---|---
+``R1(config)#ipv6 unicast-routing``|this **global configuration command** enables the router to forward IPv6 packets
+``R1(config)#ipv6 router eigrp [AS-number]``|enter router configuration mode for EIGRP for IPv6, specifying the AS number
+``R1(config-rtr)#eigrp router-id [a.b.c.d]``|:bulb: The EIGRP for IPv6 process will start running **after** you enter the router ID
+``R1(config-rtr)#no shutdown``|:bulb: This is a best practice, since EIGRP for IPv6 has a **shutdown feature**
+``R1(config-rtr)#interface [int-id]``|now, go to **each interface** where you want to enable EIGRP for IPv6
+``R1(config-if)#ipv6 eigrp [AS-number]``|use this command with the AS-number you used when configuring EIGRP for IPv6 on **each desired interface**
+
+:bulb: Note that the configuration mode prompt when configuring EIGRP for IPv6 is different. While EIGRP for IPv4 is configured under the configuration mode with prompt ``R1(config-router)#``, EIGRP for IPv6 is configured under the mode/prompt ``R1(config-rtr)#``
+
+### Verification
+The same process for verification or troubleshooting for IPv4 can be used on IPv6 implementations. Replace ``ip`` for ``ipv6`` in your commands
+
+Command|Description
+---|---
+``R1#show ipv6 protocols``|verifies the current configured values for EIGRP (and any additional enabled routing protocol on the device)
+``R1#show ipv6 eigrp neighbors``|displays the nighbor table. Use it to verify the router recognizes its neighbors.
+``R1#show ipv6 route eigrp``|display **only EIGRP** entries in the routing table
+``R1#show ipv6 eigrp interface``|verifies which interface are enabled for EIGRP, number of peers, and transmit queues
 
 Note: The network command enables any interface with an ip in that net to send and receive EIGRP updates. Also it enables routes to this nets to start beeing advertised.
 
@@ -1724,112 +1843,11 @@ Command|Description
 :bulb: Recall: by default (without previously configuring version 2), RIP can **receive both** RIPv1 and RIPv2 routing updates.  
 :bulb: You can see this with the ``R1#show ip protocols`` command.
 
-## Dynamic routing: EIGRP
 
-### EIGRP Configuration
-Command|Description
----|---
-``R1(config)#router eigrp [AS-number]``|[AS-number] value range: 1-65535.
-``R1(config-router)#eigrp router-id [a.b.c.d]``|(optional) manually configure a **router ID**, in an IPv4 address format
-``R1(config-router)#network [network-address]``|add the classful network address for each directly connected network
-``R1(config-router)#network [network-address] ([wildcard-mask])``|add the network address with the wildcard mask, recommended when using classless addresing
-
-
-:bulb: If no EIGRP router ID is configured, the router will use the highest IPv4 address of any active loopback interface. If the router has NO active loopback interfaces, the router ID will be the highest IPv4 address of any active physical interface.
-
-:bulb: ProTip: How can I easily visualize all the directly connected networks a router has?  
-Issue the ``R1(config)#do show ip route con`` command.  
-It will display the routing table ONLY with the directly connected networks (routes).
-
-:bulb: Recall: by default, EIGRP does NOT automatically summarize networks.
-
-### EIGRP Verification
-Command|Description
----|---
-``R1#show ip protocols``|verifies the current configured values for EIGRP (and any additional enabled routing protocol on the device)
-``R1#show ip eigrp neighbors``|displays the nighbor table. Use it to verify the router recognizes its neighbors.
-``R1#show ip route eigrp``|display **only EIGRP** entries in the routing table
-``R1#show ip eigrp interface``|verifies which interface are enabled for EIGRP, number of peers, and transmit queues
-
-:bulb: Recall: (internal) EIGRP's default AD is ``90``  
-You can find common AD values [here](#appendix-common-administrative-distance-ad-values).
-- _The AD for an **EIGRP summary route** is 5._
-- _The AD for an **EIGRP external route** is 170._
-
-### EIGRP Fine tuning
-Command|Description
----|---
-``R1(config-router)#variance [variance]``|change variance to perform **unequal cost load balancing**. [variance] value range: 1-128.
-``R1(config-router)#auto-summary``|enable **automatic summarization**
-``R1(config-router)#redistribute static``|propagate a **default static route**. Works on both IPv4 and IPv6. :bulb: remember to check routing tables to ensure correct/desired configuration
-``R1(config-if)#bandwidth [BW in kilobits]``|modify the EIGRP metric. :warning: this is done in **interface configuration mode**
-``R1(config-if)#ip hello-interval eigrp [AS-number] [time in seconds]``|modify hello interval on IPv4. :warning: this is done in **interface configuration mode**
-``R1(config-if)#ipv6 hello-interval eigrp [AS-number] [time in seconds]``|modify hello interval on IPv6. :warning: this is done in **interface configuration mode**
-``R1(config-if)#ip hold-time eigrp [AS-number] [time in seconds]``|modify hold timer length on IPv4 :warning: this is done in **interface configuration mode**
-``R1(config-if)#ipv6 hold-time eigrp [AS-number] [time in seconds]``|modify hold timer length on IPv6 :warning: this is done in **interface configuration mode**
-
-:bulb: Recall: **automatic summarization** is **disabled** by default
-
-:warning: When modifying EIGRP hello intervals and hold timers, ALWAYS MAKE SURE your Hello intervals are LESS THAN your hold timers. Otherwise, you could have a _flapping link_ (due to timer misconfiguration, constantly goes up, down, up, ...)
-
-
-## Dynamic routing: EIGRP for IPv6
-
-### Configuration
-Command|Description
----|---
-``R1(config)#ipv6 unicast-routing``|this **global configuration command** enables the router to forward IPv6 packets
-``R1(config)#ipv6 router eigrp [AS-number]``|enter router configuration mode for EIGRP for IPv6, specifying the AS number
-``R1(config-rtr)#eigrp router-id [a.b.c.d]``|:bulb: The EIGRP for IPv6 process will start running **after** you enter the router ID
-``R1(config-rtr)#no shutdown``|:bulb: This is a best practice, since EIGRP for IPv6 has a **shutdown feature**
-``R1(config-rtr)#interface [int-id]``|now, go to **each interface** where you want to enable EIGRP for IPv6
-``R1(config-if)#ipv6 eigrp [AS-number]``|use this command with the AS-number you used when configuring EIGRP for IPv6 on **each desired interface**
-
-:bulb: Note that the configuration mode prompt when configuring EIGRP for IPv6 is different. While EIGRP for IPv4 is configured under the configuration mode with prompt ``R1(config-router)#``, EIGRP for IPv6 is configured under the mode/prompt ``R1(config-rtr)#``
-
-### Verification
-The same process for verification or troubleshooting for IPv4 can be used on IPv6 implementations. Replace ``ip`` for ``ipv6`` in your commands
-
-Command|Description
----|---
-``R1#show ipv6 protocols``|verifies the current configured values for EIGRP (and any additional enabled routing protocol on the device)
-``R1#show ipv6 eigrp neighbors``|displays the nighbor table. Use it to verify the router recognizes its neighbors.
-``R1#show ipv6 route eigrp``|display **only EIGRP** entries in the routing table
-``R1#show ipv6 eigrp interface``|verifies which interface are enabled for EIGRP, number of peers, and transmit queues
 	
 
 	
----
-	
 
-# CCNA Switch command cheat-sheet
-#### Useful command collection for Cisco Switches. Based on Cisco Networking Academy CCNA version 6 and version 7 course material, and recommended for CCNA exam preparation.
-
----
-## Table of contents
-
-- [Important ``show`` commands](#important-show-commands)
-- [Interface ranges](#managing-more-than-one-interface-at-the-same-time)
-- [**VLANs**](#VLANS)
-    - [Configuring VLANs](#configuring-vlans)
-    - [Deleting VLANS](#deleting-a-vlan)
-    - [Removing interface(s) from a VLAN](removing-interfaces-from-a-vlan)
-    - [Configuring Trunks](#configuring-ieee-802.1q-trunk-links)
-    - [Dynamic Trunking Protocol](#dynamic-trunking-protocol-DTP)
-    - [VLAN troubleshooting](#troubleshooting-vlans)
-    - [Trunk link troubleshooting](#troubleshooting-trunks)
-    - [Voice VLANs](#voice-vlans)
-- [Configuring SSH](#configuring-ssh)
-- [Modifying SSH configuration](#modifying-ssh-configuration)
-- [Port Security](#port-security)
-    - [Configuring Dynamic Port Security](#closed_lock_with_key-configuring-dynamic-port-security)
-    - [Configuring Sticky Port Security](#closed_lock_with_key-configuring-sticky-port-security)
-    - [Verifying Port Security & secure MAC addresses](#closed_lock_with_key-white_check_mark-verifying-port-security-&-secure-mac-addresses)
-        - [``Err-disabled`` interfaces](#bringing-an-err-disabled-interface-back-up)
-- [VLAN management with VTP](#VLAN-trunking-protocol-VTP)
-    - [VTP verification](#VTP-verification)
-- [STP](#Spanning-Tree-Protocol)
-- [EtherChannel](#etherchannel)
 
 
 
