@@ -474,7 +474,7 @@ Guides, Tips & Tricks, Downloads, Training, Crafting, Arsenal, Binaries, Executa
 
 ### 🏭 ⚗️ 🛠️ Network Cyber-Weapons: Smithing & Crafting 🛠️ ⚗️ 🏭
  
-- [Dark Art of Packet Crafting with Scapy](https://0xbharath.github.io/art-of-packet-crafting-with-scapy/index.html) _@ Python + Scapy_
+- [Dark Art of Packet Crafting with Scapy](https://0xbharath.github.io/art-of-packet-crafting-with-scapy/index.html) _@ Python + Scapy_ 
 - [Creating malicious packets & breaking TCP/IP rules](Fz3r0/Networking/Attacking-Cisco/weird_TCP_fz3r0.py )  _@ Python + Scapy_
 - [Simple Network Scanner](https://gist.github.com/Fz3r0/3e26fdf87b5e223b13578db9d150c815) _@ Python + Scapy_
 - [Medium Network Scanner](https://gist.github.com/Fz3r0/2cc8f8699a829e06f5d70e86a6be53c0) _@ Python + Scapy_
@@ -484,6 +484,8 @@ Guides, Tips & Tricks, Downloads, Training, Crafting, Arsenal, Binaries, Executa
 - [Subnet Calculator](https://github.com/Fz3r0/subnetcalc_python) _@ Python_
 - [OS Identifier using TTL](https://github.com/Fz3r0/WichSystem.py/blob/main/wichSystem.py) _@ Python_
 - [CAM overflow/ MAC flooding attack]() _@ Python + Scapy_ 
+- [SQL Server Exploit](https://www.youtube.com/watch?v=bYj_2p8qIew) _@ Python For RCE_
+- 
  
 ### ♻️ 🧬 🤖 Network Automation 🤖 🧬 ♻️
 Network Automation is a cross between the discipline of Network Infrastructure and the discipline of Programming. 
@@ -655,6 +657,7 @@ _I have mastered the ultimate technology, the hability to alter physical reality
 - **Windows PrivEsc**
  
     - Fz3r0 Windows PrivEsc Ninjitsu(/Networking/Labs/) _My own logs & writeups about Windows PrivEsc_
+    - [Juicy Potato Technique](https://www.youtube.com/watch?v=Ma_Q1yqBmEM)
     - [Pergamino I - ](https://github.com/Fz3r0/Checklists_PrivEsc) _Detailed Checklist for Windows PrivEsc & Scenarios_
     - [Mimicatz I](https://www.youtube.com/watch?v=AZirvtZNIEw)
     - https://github.com/Fz3r0/windows-privesc-check
@@ -901,6 +904,10 @@ Fz3r0 Cyber-Weaponry Crafting, Tools Programming & Open Source Projects
 - https://github.com/Fz3r0/MalwareDatabase-2
 - https://github.com/Fz3r0/reversed-malwares
 - https://github.com/Fz3r0/MalwareScripts 
+ 
+### Creating Evil
+ 
+- [Basics of Malware Development in C#](https://www.youtube.com/watch?v=GZW_0J2yoG8)
   
 ### fz3r0 - My Malware 
   
