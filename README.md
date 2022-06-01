@@ -760,6 +760,10 @@ Fz3r0 Cyber-Weaponry Crafting, Tools Programming & Open Source Projects
 - Programming Resources
 
     - [Hacker Earth](https://www.hackerearth.com/)
+ 
+- Misc Tools
+
+    - [Beautifier.io](https://beautifier.io/) _Beautify, unpack or deobfuscate JavaScript and HTML, make JSON/JSONP readable, etc._
     
 ### Python
 
@@ -793,7 +797,7 @@ Fz3r0 Cyber-Weaponry Crafting, Tools Programming & Open Source Projects
 - [Go]
 
 ## Web Programming
-
+  
 ### HTML
 
 - HTML WriteUps & Guides
