@@ -85,6 +85,83 @@
 
 <!-- /MarkdownTOC -->
 
+---
+## Before we start: Configuration modes
+Three basic configuration modes we MUST be familiar with already (you will see them below, a lot).  
+
+Mode (prompt)|Device configuration mode|"Mode change" command (current -> next)
+---|---|---
+``S1>``|EXEC mode|type ``enable`` to pass to next mode
+``S1#``|Privileged EXEC mode|type ``configure terminal`` to pass to next mode
+``S1(config)#``|Global congiguration mode|N/A
+
+Common abbreviations to the commands above (separated by commas):
+```
+en, ena
+conf t, config term
+```
+
+## Tips & Tricks!
+
+### Managing more than one interface at the same time
+When we want to execute a sequence on commands on more than one port, selecting an interface range makes the job a lot easier.  
+Use: ``S1(config)#interface range [typeModule/firstNumber]-[lastNumber]``
+
+*typeModule*s|some possible abbreviations
+---|---
+``FastEthernet``|``f, fa, ...``
+``GigabitEthernet``|``g, gi, gig, ...``
+
+Here's an example:
+``S1(config)#interface range f0/1-12``  
+
+Note that you can select multiple ranges on a single command.  
+Here's an example:
+``S1(config)#interface range f0/1-12, 15-24, g0/1-2``
+
+You might need to use it frequently on scenarios where the following blocks of commands are used.
+
+### Filtering information from ``show`` commands:
+Some commands, such as ``show running-config``, generate multiple lines of output.  
+
+To filter output, you can use the *pipe* (``|``) character along with a **filtering parameter** and a **filtering expression**.
+Filtering parameters|Effect
+---|---
+``section [filtering-expression]``|shows the section of the _filtering expression_
+``include [filtering-expression]``|includes all lines of output that match the _filtering expression_ **ONLY**
+``exclude [filtering-expression]``|excludes all lines of output that match the _filtering expression_
+``begin [filtering-expression]``|shows all the lines of output **beginning from** the line that matches the _filtering expression_
+
+### Usage:
+Here's an example of the usage of filtering with a ``show`` command:  
+``R1#show running-config | include line con``
+
+:bulb: ProTip: By default, the screen of output consists of 24 lines. Should you want to change the number of output lines displayed on the terminal screen, you can use the command: ``R1# terminal length [number-of-lines]``  
+:warning: Unfortunately, this command is NOT supported in Cisco Packet Tracer (tested on version 7.2.2).
+
+
+### Important Switching ``show`` commands
+Note that these commands are executed on privileged EXEC mode (``S1#`` prompt).  
+You can execute them from global configuration mode (``S1(config)#`` prompt) by adding the ``do`` keyword before the command.  
+example:  
+``S1(config)#do show ip interface brief``  
+
+Command|Description
+---|---
+``S1#show running-config``|N/A
+``S1#show history``|
+``S1#show interface [int-id]``|useful to detect errors or verify packets are being sent and received
+``S1#show mac address-table``|
+``S1#show port-security``|displays Port Security configuration for all interfaces
+``S1#show port-security interface [int-id]``|display Port Security configuration of an interface
+``S1#show vlan``|
+``S1#show vlan brief``|**only** displays VLANs, statuses, names, and assigned ports
+``S1#show interface vlan [id]``|
+``S1#show interfaces trunk``|
+
+
+
+
 ## Configure basic Networking
 
 | Command                                                         | Description                                              |
@@ -205,12 +282,95 @@ Port-security violation terms
 | # show errdisable recovery            | Check if autorecovery is enabled. Disabled by default. |
 
 
-## Configure vlans
+## Virtual Local Area Network (VLAN)
 
 Note: Even when a switch port is changed from access to trunk, its access vlan is maintained in the config.
 When automatic trunk negotiation fails (e.g. because I unplug a link between to switches and put it into
 my laptop) the configured access vlan becomes active once again and I might be able to reach network parts
 I'm not supposed to. Always disable DTP / trunk auto negotiation.
+
+### Configuring VLANs
+Command|Description
+---|---
+``S1(config)#vlan [vlan-ID]``|create VLAN and assign its VLAN number
+``S1(config-vlan)#name [someName]``| assign a name to the VLAN
+
+Now it is time to assign ports to the newly created VLAN  
+
+Command|Description
+---|---
+``S1(config)#interface [int-id]``|remember, ``interface range`` might be useful
+``S1(config-if)#switchport mode access``|
+``S1(config-if)#switchport access vlan [vlan-id]``|assign/change port VLAN
+
+### Deleting a VLAN
+Command|Description
+---|---
+``S1(config)#no vlan [vlan-id]``|:warning: deletes specified VLAN
+``S1(config)#delete flash:vlan.dat``|:warning: erases **the whole VLAN database**
+
+### Removing interface(s) from a VLAN
+Command|Description
+---|---
+``S1(config)#interface [int-id]``|
+``S1(config-if)#no switchport access vlan [vlan-id]``|remove the VLAN from the port
+
+#### Know the difference!
+
+>:bulb: When a VLAN is deleted. Any switchport assigned to that VLAN **becomes inactive**  
+:bulb: On the other hand, when the ``no switchport access vlan [vlan-id]`` is executed on a switchport, the port will be returned to VLAN 1
+
+### Configuring IEEE 802.1q trunk links
+Command|Description
+---|---
+``S1(config)#interface [int-id]``|
+``S1(config-if)#switchport mode trunk``|
+``S1(config-if)#switchport trunk native vlan [vlan-id]``|
+``S1(config-if)#switchport trunk allowed vlan [vlan-list]``|**All** allowed VLAN IDs.
+``S1(config-if)#switchport trunk allowed vlan remove [vlan-id]``|:no_pedestrians: **PROHIBITS ONLY** the VLAN with the specified ID on the trunk interface
+
+:bulb: Tip: You might also want to check out the router commands necessary for inter-VLAN-routing via [Router-On-A-Stick](https://github.com/r7perezyera/Cisco-IOS-Command-CheatSheets/blob/master/router_commands.md#configuring-Router-on-a-stick-inter-VLAN-routing)
+
+### Dynamic Trunking Protocol (DTP)
+
+This Cisco proprietary protocol contributes in the configuration of trunking interfaces between Cisco switches.
+
+:bulb: Remember: The **default** configuration for interfaces on Cisco Catalyst 2960 and 3650 switches is _dynamic auto_.
+
+Command|Description
+---|---
+``S1(config-if)#switchport mode trunk``|configures an interface to specifically be in **trunk mode**. Also negotiates to convert the neighboring link into a trunk.
+``S1(config-if)#switchport mode access``|configures an interface to specifically be in **access mode**, a NON-trunk interface, even if its neighboring interface is in mode ``trunk``
+``S1(config-if)#switchport mode dynamic auto``|interface will convert into a **trunk interface** if its neighboring interface is in **mode ``trunk`` or ``desirable`` ONLY**
+``S1(config-if)#switchport mode dynamic desirable``|interface will convert into a **trunk interface** if its neighboring interface is in **mode ``trunk``, ``dynamic auto``, or ``dynamic desirable`` ONLY**
+``S1(config-if)#switchport nonegotiate``|:no_entry: stops DTP negotiation, in which interfaces may engage, as you saw above, i.e.,  an interface will NOT change its mode even if the neighboring interface could change it through negotiation
+
+### Troubleshooting VLANs
+Command|Description
+---|---
+``S1#show vlan``|check whether a port belongs to the expected VLAN
+``S1#show mac address-table``|check which addresses were learned on a particular port of the switch, and to which VLAN that port is assigned
+``S1#show interfaces [int-id] switchport``|helpful in verifying an inactive VLAN is assigned to a port
+
+### Troubleshooting Trunks
+Command|Description
+---|---
+``S1#show interfaces trunk``|- check native VLAN id matches on both ends of link  - check whether a trunk link has been established between switches
+
+### Voice VLANs
+
+VLANs supporting voice traffic usually have quality of service (QoS). Voice traffic must have a *trusted* label.
+
+>Note that the implementation of QoS is beyond the scope of the CCNA2 (version 6) course.
+
+Command|Description
+---|---
+``S1(config)#interface [int-id]``|access interface on which the voice VLAN will be assigned
+``S1(config-if)#switchport mode access``|
+``S1(config-if)#switchport access vlan [vlan-id]``|
+``S1(config-if)#mls qos trust cos``|set trusted state of an interface and indicate which packet fields are used to classify traffic
+``S1(config-if)#switchport voice vlan [vlan-id]``|assign a voice VLAN to that port
+
 
 ### Layer2 Switch Vlan Config
 
@@ -701,8 +861,30 @@ Note: flash: is the main flash memory on all iOS devices
 | (config-line)# login local                     | Require login on telnet/console connection via local users. |
 | (config)# username h.acker secret C1sco123     | Create local user with encrypted password.                  |
 
-### SSH
 
+## Secure Shell (SSH)
+Command|Description
+---|---
+``S1#show ip ssh``|Use it to verify that the switch supports SSH
+``S1(config)#ip domain-name [domain-name]``|
+``S1(config)#crypto key generate rsa``|
+``S1(config)#username [admin] secret [ccna]``|
+``S1(config)#line vty 0 15``|
+``S1(config-line)#transport input ssh``|
+``S1(config-line)#login local ``|
+``S1(config-line)#exit``|
+``S1(config)#ip ssh version 2``|enable SSH version 2
+``S1(config)#crypto key zeroise rsa``|:warning: use to **delete** RSA key pair
+
+### Modifying SSH configuration
+Command|Description
+---|---
+``S1(config)#ip ssh time-out [time]``|Change timeout setting (time in seconds)
+``S1(config)#ip ssh authentication-retries [retries]``|Change number of allowed authentication attempts
+
+- Verify your newly configured settings with ``S1#show ip ssh``	
+	
+	
 | Command                                        | Description                                              |
 |:-----------------------------------------------|:---------------------------------------------------------|
 | (config)# hostname Foobar                      | Required to generate SSH keys.                           |
@@ -1651,205 +1833,11 @@ Command|Description
 
 
 
----
-## Before we start: Configuration modes
-Three basic configuration modes we MUST be familiar with already (you will see them below, a lot).  
-
-Mode (prompt)|Device configuration mode|"Mode change" command (current -> next)
----|---|---
-``S1>``|EXEC mode|type ``enable`` to pass to next mode
-``S1#``|Privileged EXEC mode|type ``configure terminal`` to pass to next mode
-``S1(config)#``|Global congiguration mode|N/A
-
-Common abbreviations to the commands above (separated by commas):
-```
-en, ena
-conf t, config term
-```
-
-
----
-## Important ``show`` commands:
-Note that these commands are executed on privileged EXEC mode (``S1#`` prompt).  
-You can execute them from global configuration mode (``S1(config)#`` prompt) by adding the ``do`` keyword before the command.  
-example:  
-``S1(config)#do show ip interface brief``  
-
-Command|Description
----|---
-``S1#show running-config``|N/A
-``S1#show history``|
-``S1#show interface [int-id]``|useful to detect errors or verify packets are being sent and received
-``S1#show mac address-table``|
-``S1#show port-security``|displays Port Security configuration for all interfaces
-``S1#show port-security interface [int-id]``|display Port Security configuration of an interface
-``S1#show vlan``|
-``S1#show vlan brief``|**only** displays VLANs, statuses, names, and assigned ports
-``S1#show interface vlan [id]``|
-``S1#show interfaces trunk``|
-
-
-
----
-## Filtering information from ``show`` commands:
-Some commands, such as ``show running-config``, generate multiple lines of output.  
-
-To filter output, you can use the *pipe* (``|``) character along with a **filtering parameter** and a **filtering expression**.
-Filtering parameters|Effect
----|---
-``section [filtering-expression]``|shows the section of the _filtering expression_
-``include [filtering-expression]``|includes all lines of output that match the _filtering expression_ **ONLY**
-``exclude [filtering-expression]``|excludes all lines of output that match the _filtering expression_
-``begin [filtering-expression]``|shows all the lines of output **beginning from** the line that matches the _filtering expression_
-
-### Usage:
-Here's an example of the usage of filtering with a ``show`` command:  
-``R1#show running-config | include line con``
-
-:bulb: ProTip: By default, the screen of output consists of 24 lines. Should you want to change the number of output lines displayed on the terminal screen, you can use the command: ``R1# terminal length [number-of-lines]``  
-:warning: Unfortunately, this command is NOT supported in Cisco Packet Tracer (tested on version 7.2.2).
-
-
----
-## Managing more than one interface at the same time
-When we want to execute a sequence on commands on more than one port, selecting an interface range makes the job a lot easier.  
-Use: ``S1(config)#interface range [typeModule/firstNumber]-[lastNumber]``
-
-*typeModule*s|some possible abbreviations
----|---
-``FastEthernet``|``f, fa, ...``
-``GigabitEthernet``|``g, gi, gig, ...``
-
-Here's an example:
-``S1(config)#interface range f0/1-12``  
-
-Note that you can select multiple ranges on a single command.  
-Here's an example:
-``S1(config)#interface range f0/1-12, 15-24, g0/1-2``
-
-You might need to use it frequently on scenarios where the following blocks of commands are used.
-
----
-## VLANs
-
-### Configuring VLANs
-Command|Description
----|---
-``S1(config)#vlan [vlan-ID]``|create VLAN and assign its VLAN number
-``S1(config-vlan)#name [someName]``| assign a name to the VLAN
-
-Now it is time to assign ports to the newly created VLAN  
-
-Command|Description
----|---
-``S1(config)#interface [int-id]``|remember, ``interface range`` might be useful
-``S1(config-if)#switchport mode access``|
-``S1(config-if)#switchport access vlan [vlan-id]``|assign/change port VLAN
-
-### Deleting a VLAN
-Command|Description
----|---
-``S1(config)#no vlan [vlan-id]``|:warning: deletes specified VLAN
-``S1(config)#delete flash:vlan.dat``|:warning: erases **the whole VLAN database**
-
-### Removing interface(s) from a VLAN
-Command|Description
----|---
-``S1(config)#interface [int-id]``|
-``S1(config-if)#no switchport access vlan [vlan-id]``|remove the VLAN from the port
-
-#### Know the difference!
-
->:bulb: When a VLAN is deleted. Any switchport assigned to that VLAN **becomes inactive**  
-:bulb: On the other hand, when the ``no switchport access vlan [vlan-id]`` is executed on a switchport, the port will be returned to VLAN 1
-
-### Configuring IEEE 802.1q trunk links
-Command|Description
----|---
-``S1(config)#interface [int-id]``|
-``S1(config-if)#switchport mode trunk``|
-``S1(config-if)#switchport trunk native vlan [vlan-id]``|
-``S1(config-if)#switchport trunk allowed vlan [vlan-list]``|**All** allowed VLAN IDs.
-``S1(config-if)#switchport trunk allowed vlan remove [vlan-id]``|:no_pedestrians: **PROHIBITS ONLY** the VLAN with the specified ID on the trunk interface
-
-:bulb: Tip: You might also want to check out the router commands necessary for inter-VLAN-routing via [Router-On-A-Stick](https://github.com/r7perezyera/Cisco-IOS-Command-CheatSheets/blob/master/router_commands.md#configuring-Router-on-a-stick-inter-VLAN-routing)
-
-### Dynamic Trunking Protocol (DTP)
-
-This Cisco proprietary protocol contributes in the configuration of trunking interfaces between Cisco switches.
-
-:bulb: Remember: The **default** configuration for interfaces on Cisco Catalyst 2960 and 3650 switches is _dynamic auto_.
-
-Command|Description
----|---
-``S1(config-if)#switchport mode trunk``|configures an interface to specifically be in **trunk mode**. Also negotiates to convert the neighboring link into a trunk.
-``S1(config-if)#switchport mode access``|configures an interface to specifically be in **access mode**, a NON-trunk interface, even if its neighboring interface is in mode ``trunk``
-``S1(config-if)#switchport mode dynamic auto``|interface will convert into a **trunk interface** if its neighboring interface is in **mode ``trunk`` or ``desirable`` ONLY**
-``S1(config-if)#switchport mode dynamic desirable``|interface will convert into a **trunk interface** if its neighboring interface is in **mode ``trunk``, ``dynamic auto``, or ``dynamic desirable`` ONLY**
-``S1(config-if)#switchport nonegotiate``|:no_entry: stops DTP negotiation, in which interfaces may engage, as you saw above, i.e.,  an interface will NOT change its mode even if the neighboring interface could change it through negotiation
-
-### Troubleshooting VLANs
-Command|Description
----|---
-``S1#show vlan``|check whether a port belongs to the expected VLAN
-``S1#show mac address-table``|check which addresses were learned on a particular port of the switch, and to which VLAN that port is assigned
-``S1#show interfaces [int-id] switchport``|helpful in verifying an inactive VLAN is assigned to a port
-
-### Troubleshooting Trunks
-Command|Description
----|---
-``S1#show interfaces trunk``|- check native VLAN id matches on both ends of link  - check whether a trunk link has been established between switches
-
-### Voice VLANs
-
-VLANs supporting voice traffic usually have quality of service (QoS). Voice traffic must have a *trusted* label.
-
->Note that the implementation of QoS is beyond the scope of the CCNA2 (version 6) course.
-
-Command|Description
----|---
-``S1(config)#interface [int-id]``|access interface on which the voice VLAN will be assigned
-``S1(config-if)#switchport mode access``|
-``S1(config-if)#switchport access vlan [vlan-id]``|
-``S1(config-if)#mls qos trust cos``|set trusted state of an interface and indicate which packet fields are used to classify traffic
-``S1(config-if)#switchport voice vlan [vlan-id]``|assign a voice VLAN to that port
-
-
-
-
----
-## Configuring SSH
-Command|Description
----|---
-``S1#show ip ssh``|Use it to verify that the switch supports SSH
-``S1(config)#ip domain-name [domain-name]``|
-``S1(config)#crypto key generate rsa``|
-``S1(config)#username [admin] secret [ccna]``|
-``S1(config)#line vty 0 15``|
-``S1(config-line)#transport input ssh``|
-``S1(config-line)#login local ``|
-``S1(config-line)#exit``|
-``S1(config)#ip ssh version 2``|enable SSH version 2
-``S1(config)#crypto key zeroise rsa``|:warning: use to **delete** RSA key pair
-
-### Modifying SSH configuration
-Command|Description
----|---
-``S1(config)#ip ssh time-out [time]``|Change timeout setting (time in seconds)
-``S1(config)#ip ssh authentication-retries [retries]``|Change number of allowed authentication attempts
-
-Verify your newly configured settings with ``S1#show ip ssh``
 
 
 
 
 
-
-
-
-
-
----
 
 
 
