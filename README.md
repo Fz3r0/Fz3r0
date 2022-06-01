@@ -930,6 +930,7 @@ Fz3r0 Cyber-Weaponry Crafting, Tools Programming & Open Source Projects
 ### Creating Evil
  
 - [Basics of Malware Development in C#](https://www.youtube.com/watch?v=GZW_0J2yoG8)
+- [Basic Malware Code in C#](https://www.youtube.com/watch?v=QqdHFVm9H2M) 
   
 ### fz3r0 - My Malware 
   
