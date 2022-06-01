@@ -133,9 +133,7 @@ I invite you to enter the links of my social networks that I've placed above inc
   
  <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"> <img src="https://images.credly.com/size/340x340/images/70d71df5-f3dc-4380-9b9d-f22513a70417/CCNAITN__1_.png" alt="Netacad1" width="5%" height="auto"/>
 
-  
-  
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Aruba_Networks_logo.svg/245px-Aruba_Networks_logo.svg.png" alt="Fluke" width="80" height="40"/> </a> <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"> <img src="https://camarastermograficas.online/wp-content/uploads/2021/12/logo1.png" alt="Fluke" width="60" height="40"/> <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer">  
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Aruba_Networks_logo.svg/245px-Aruba_Networks_logo.svg.png" alt="Fluke" width="80" height="40"/> </a> <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"> <img src="https://camarastermograficas.online/wp-content/uploads/2021/12/logo1.png" alt="Fluke" width="60" height="40"/> <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer">  
 
 </p>
 
