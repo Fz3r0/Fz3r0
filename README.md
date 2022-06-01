@@ -619,6 +619,8 @@ _I have mastered the ultimate technology, the hability to alter physical reality
 - [Pentest Book - Reverse Shells]()
 - [TheFatRat](https://github.com/screetsec/TheFatRat) _Payload Automation,Listener Generator,Bypass anti-virus backdoors & more..._
 
+### Enumeration & Discovery                                                        
+
 ### 🔍 📕 💪 Worldists, Fuzzing, Passwords & BruteForce 💪 📕 🔍
 
 - **Fuzzing Tools & Resources**
@@ -667,8 +669,10 @@ _I have mastered the ultimate technology, the hability to alter physical reality
     - [Windows Server | Pergamino I](https://github.com/Fz3r0/Checklists_PrivEsc) _Detailed Checklist for Windows Server PrivEsc & Scenarios_ 
     - [Active Directory Exploitation Cheat-Sheet by Tib3rius](https://github.com/Tib3rius/Active-Directory-Exploitation-Cheat-Sheet)
 
-### Enumeration
-
+### 🖧 ⏩ 🦘 Pivoting & Port Forwarding 🦘 ⏩ 🖧  
+ 
+    - [Pivot & Tunnel OSCP](https://www.youtube.com/watch?v=dIqoULXmhXg)
+ 
 ### Buffer Overflow (OSCP Style)
 
 - [Buffer Overflow guide - Vuln Server, writeup by @ Fz3r0](/Cyber-Security-&-Hacking/Buffer-Overflow/buffer-overflow.md)
