@@ -139,6 +139,43 @@
 
 ## Port Security
 
+### :closed_lock_with_key: Configuring Dynamic Port Security
+Command|Description
+---|---
+``S1(config)#interface [int-id]``|
+``S1(config-if)#switchport mode access``|Set interface mode to *access*.
+``S1(config-if)#switchport port-security``|Enable port security on the interface
+``S1(config-if)#switchport port-security violation [violation-mode]``|set violation mode (``protect``, ``restrict``, ``shutdown``)
+
+>:trophy: **Best practice:** It is a best security and general practice to "hard-type" the ``switchport mode access`` command. This also applies to Trunk ports (``switchport mode trunk``).
+
+### :closed_lock_with_key: Configuring Sticky Port Security
+Command|Description
+---|---
+``S1(config)#interface [int-id]``|
+``S1(config-if)#switchport mode access``|Set interface mode to *access*.
+``S1(config-if)#switchport port-security``|Enable port security on the interface
+``S1(config-if)#switchport port-security maximum [max-addresses]``|Set maximum number of secure MAC addresses allowed on port
+``S1(config-if)#switchport port-security mac-address sticky``|Enable sticky learning
+``S1(config-if)#switchport port-security violation [violation-mode]``|set violation mode (``protect``, ``restrict``, ``shutdown``)
+
+### :closed_lock_with_key: :white_check_mark: Verifying Port Security & secure MAC addresses
+Now that we have configured Port Security, the following commands will be handy to verify and troubleshoot.
+
+Command|Description
+---|---
+``S1#show port-security interface [int-id]``|displays interface's Port Security configuration. If violations occured, they can be checked here.
+``S1#show port-security address``|displays secure MAC addresses configured on **all switch interfaces**
+``S1#show interface [int-id] status``|displays port status. Useful to verify if an interface is in ``err-disabled`` status.
+
+### Bringing an ``err-disabled`` interface back up
+
+:bulb: Recall: After a violation, a port in **Shutdown violation mode** changes its status to *error disabled*, and is effectively **shut down**. To resume operation (sending and receiving traffic), we must bring it back up. Here's how:
+
+* Access the interface configuration mode with ``S1(config)#interface [int-id]``.
+* Shut the interface down using ``S1(config-if)#shutdown``.
+* Bring the interface back up using ``S1(config-if)#no shutdown``.
+
 | Command                                                          | Description                                         |
 |:-----------------------------------------------------------------|:----------------------------------------------------|
 | (config-if)# switchport mode {access, trunk}                     |                                                     |
@@ -222,7 +259,28 @@ I'm not supposed to. Always disable DTP / trunk auto negotiation.
 | # show dtp interface g1/1                              | Show current DTP mode for g1/1          |
 
 
-### VTP
+## VLAN trunking protocol (VTP)
+
+Command|Description
+---|---
+``S1(config)#vtp mode [mode]``|mode can be ``server`` or ``client``
+``S1(config)#vtp password [password]``|optional - :warning: password is case-sensitive
+``S1(config)#vtp domain [name]``|optional - :warning: domain name is case sensitive as well
+``S1(config)#vtp pruning``|optional - configure VTP pruning on server
+``S1(config)#vtp version 2``|optional - enables VTP version 2
+
+:heavy_exclamation_mark: After this, remember to enable trunk links between the *VTP domain* switches so *VTP advertisements* can be shared among the switches.
+This command sequence is all that's needed to get VTP running on our *VTP domain* :white_check_mark:
+
+:bulb: Tip: There are 3 VTP versions. Versions 1 and 2 (which are within the scope of the CCNA exam) **DO NOT** support *extended-range VLANS* (ID from 1006 to 4095). VTP version 3 (NOT covered on the CCNA exam) does support such VLANS.
+
+### VTP verification
+
+Command|Description
+---|---
+``S1#show vtp status``|verify your configuration and the status of VTP on the device
+``S1#show vtp password``|verify the configured VTP password
+``S1#show vlan brief``|this VLAN verification command might be useful as well when verifying VTP configuration
 
 | Command                                          | Description |
 |:-------------------------------------------------|:------------|
@@ -240,8 +298,67 @@ I'm not supposed to. Always disable DTP / trunk auto negotiation.
 | show vtp password |                                         |
 
 
-## STP
-Spaning Tree Protocol (802.1D) blocks ports with redundant links to prevent layer 2 loops and broadcast storms.
+## Spanning Tree Protocol (STP)
+
+- Spaning Tree Protocol (802.1D) blocks ports with redundant links to prevent layer 2 loops and broadcast storms.
+	
+### Bridge ID configuration
+Command|Description
+---|---
+``S1(config)#spanning-tree vlan [vlan-id] root primary``|ensures this switch has the lowest priority value
+``S1(config)#spanning-tree vlan [vlan-id] root secondary``|Use if the configuration of an alternative bridge is desired. Sets the switch priority value to ensure it becomes the root bridge if the primary root bridge fails.
+``S1(config)#spanning-tree vlan [vlan-id] priority [priority]``|manually configure the bridge's priority value
+
+:bulb: Recall: priority values are between 0 and 61,440.  
+:warning: The priority value can only be a multiple of 4096
+
+### Bridge ID Verification
+Command|Description
+---|---
+``S1#show spanning-tree``|verify current spanning-tree instances and root bridges
+### PortFast and BPDU guard
+Must only be configured on interfaces connected point-to-point to an end device
+
+Command|Description
+---|---
+``S1(config)#interface [int-id]``|access the interface
+``S1(config)#interface range [int-type][lowest-id]-[highest-id]``|access a range of contiguous interfaces if necessary
+``S1(config-if)#switchport mode access``|as a good practice, hard-type this command so the switchport is in access mode
+``S1(config-if)#spanning-tree portfast``|enables PortFast on the access port(s)
+``S1(config-if)#spanning-tree bpduguard enable``|enables BPDU Guard on the access port(s)
+``S1(config)#spanning-tree portfast default``|:warning: configures PortFast to be the default for all switch interfaces
+``S1(config)#spanning-tree bpduguard default``|:warning: configures BPDU Guard to be the default for all switch interfaces
+
+### PortFast and BPDU guard verification
+
+Command|Description
+---|---
+``S1#show running-config | begin spanning-tree``|display spanning tree features configured on the switch
+``S1#show running-config interface [int-id]``|display the current configuration portion corresponding to the interface
+
+
+### Configuring Rapid PVST+
+
+PVST+ is the STP flavor operating by default on Cisco switches.
+To configure Rapid PVST+, we just need to type a global command.  
+
+Command|Description
+---|---
+``S1(config)#spanning-tree mode rapid-pvst``|configure Rapid PVST+ as the STP mode on the switch
+``S1(config-if)#spanning-tree link-type point-to-point``|specify that a link is point-to-point
+``S1#clear spanning-tree detected-protocols (interface [int-id])``|forces renegotiation with neighboring switches on all interfaces or the specified interface
+
+### General STP verification commands
+
+Command|Description
+---|---
+``S1#show spanning-tree``|display STP information - useful to find information about the bridge you are in, and the root bridge at a glance
+``S1#show spanning-tree active``|display STP information for active interfaces only
+``S1#show spanning-tree brief``|at-a-glance information for all STP instances running on the switch
+``S1#show spanning-tree detail``|detailed information for all STP instances running on the switch
+``S1#show spanning-tree interface [int-id]``|STP information for the specified interface
+``S1#show spanning-tree vlan [vlan-id]``|STP information for the specified VLAN
+``S1#show spanning-tree summary``|summary of STP port states	
 
 | Command                                                  | Description                                          |
 |:---------------------------------------------------------|:-----------------------------------------------------|
@@ -269,8 +386,38 @@ Rapid Spanning Tree Protocol (802.1w) reduces convergence time after a topology 
 | (config)# spanning-tree mode rapid-pvst       | Change spanning-tree mode to RSTP    |
 
 
-## Etherchannel (Link Aggregation)
 
+
+🚧🚧🚧
+	
+## EtherChannel (Link Aggregation) 🔛 ➕ 
+
+Command|Description
+---|---
+``S1(config)#interface range [start-int]-[end-int]``|start by selecting the interfaces to be bundled into a **single logical link**, i.e., the EtherChannel.
+``S1(config-if-range)#channel-group [number] mode [mode]``|specify the group ID (``1`` to ``6``, inclusive) and [operation mode](#available-etherchannel-modes) of the EtherChannel
+``S1(config)#interface port-channel [number]``|enter the **port channel interface configuration mode** to change settings
+
+### PortChannel interface additional configuration
+Command|Description
+---|---
+``S1(config-if)#switchport mode trunk``|set the interface in trunking mode, so it can carry traffic of multiple VLANs
+``S1(config-if)#switchport trunk native vlan [native-vlan-id]``|specify the link's native VLAN
+``S1(config-if)#switchport trunk allowed vlan [vlan-id-1 (,vlan-id-2,...)]``|specify allowed VLANs (VLAN IDs) on trunk link
+``S1(config-if)#switchport trunk allowed vlan add [vlan-id-1 (,vlan-id-2,...)]``|**add** VLANs to the list of **already allowed** VLANs on the trunk link
+
+:warning: The **EtherChannel negotiation protocols** you use for your interface bundles **MUST MATCH ON BOTH ENDS**, whether it is LACP, PAgP (Cisco Proprietary), or no protocol (``on`` mode).
+
+#### Available EtherChannel modes
+EC mode|Description
+---|---
+``active``|Enable LACP unconditionally
+``auto``|Enable PAgP only if another PAgP device is detected.
+``desirable``|Enable PAgP unconditionally
+``on``|Enable EtherChannel only
+``passive``|Enable LACP only if another LACP device is detected
+
+	
 How to set LACP? TODO:
 Look at modes again
 
@@ -295,7 +442,9 @@ Look at modes again
 | # show etherchannel summary        | Show etherchannel protocols and members as a list     |
 | # show etherchannel port-channel 1 | Show per member state and stats                       |
 
+[Back to beginning of section](#etherchannel)
 
+	
 ## Configure a Serial
 Layer 1 link speed is dictated by a CSU/DSU, in a lab without an external CSU/DSU a DTE (Data Terminal Equipment) cable and DCE (Data Communications Equipment) cable are used.
 
@@ -1693,164 +1842,17 @@ Verify your newly configured settings with ``S1#show ip ssh``
 
 
 
----
-## Port Security
-### :closed_lock_with_key: Configuring Dynamic Port Security
-Command|Description
----|---
-``S1(config)#interface [int-id]``|
-``S1(config-if)#switchport mode access``|Set interface mode to *access*.
-``S1(config-if)#switchport port-security``|Enable port security on the interface
-``S1(config-if)#switchport port-security violation [violation-mode]``|set violation mode (``protect``, ``restrict``, ``shutdown``)
 
->:trophy: **Best practice:** It is a best security and general practice to "hard-type" the ``switchport mode access`` command. This also applies to Trunk ports (``switchport mode trunk``).
 
-### :closed_lock_with_key: Configuring Sticky Port Security
-Command|Description
----|---
-``S1(config)#interface [int-id]``|
-``S1(config-if)#switchport mode access``|Set interface mode to *access*.
-``S1(config-if)#switchport port-security``|Enable port security on the interface
-``S1(config-if)#switchport port-security maximum [max-addresses]``|Set maximum number of secure MAC addresses allowed on port
-``S1(config-if)#switchport port-security mac-address sticky``|Enable sticky learning
-``S1(config-if)#switchport port-security violation [violation-mode]``|set violation mode (``protect``, ``restrict``, ``shutdown``)
 
-### :closed_lock_with_key: :white_check_mark: Verifying Port Security & secure MAC addresses
-Now that we have configured Port Security, the following commands will be handy to verify and troubleshoot.
 
-Command|Description
----|---
-``S1#show port-security interface [int-id]``|displays interface's Port Security configuration. If violations occured, they can be checked here.
-``S1#show port-security address``|displays secure MAC addresses configured on **all switch interfaces**
-``S1#show interface [int-id] status``|displays port status. Useful to verify if an interface is in ``err-disabled`` status.
-
-### Bringing an ``err-disabled`` interface back up
-
-:bulb: Recall: After a violation, a port in **Shutdown violation mode** changes its status to *error disabled*, and is effectively **shut down**. To resume operation (sending and receiving traffic), we must bring it back up. Here's how:
-
-* Access the interface configuration mode with ``S1(config)#interface [int-id]``.
-* Shut the interface down using ``S1(config-if)#shutdown``.
-* Bring the interface back up using ``S1(config-if)#no shutdown``.
 
 
 
 ---
-## VLAN trunking protocol (VTP)
-Command|Description
----|---
-``S1(config)#vtp mode [mode]``|mode can be ``server`` or ``client``
-``S1(config)#vtp password [password]``|optional - :warning: password is case-sensitive
-``S1(config)#vtp domain [name]``|optional - :warning: domain name is case sensitive as well
-``S1(config)#vtp pruning``|optional - configure VTP pruning on server
-``S1(config)#vtp version 2``|optional - enables VTP version 2
-
-:heavy_exclamation_mark: After this, remember to enable trunk links between the *VTP domain* switches so *VTP advertisements* can be shared among the switches.
-This command sequence is all that's needed to get VTP running on our *VTP domain* :white_check_mark:
-
-:bulb: Tip: There are 3 VTP versions. Versions 1 and 2 (which are within the scope of the CCNA exam) **DO NOT** support *extended-range VLANS* (ID from 1006 to 4095). VTP version 3 (NOT covered on the CCNA exam) does support such VLANS.
-
-### VTP verification
-
-Command|Description
----|---
-``S1#show vtp status``|verify your configuration and the status of VTP on the device
-``S1#show vtp password``|verify the configured VTP password
-``S1#show vlan brief``|this VLAN verification command might be useful as well when verifying VTP configuration
 
 
 
----
-## Spanning Tree Protocol
-
-### Bridge ID configuration
-Command|Description
----|---
-``S1(config)#spanning-tree vlan [vlan-id] root primary``|ensures this switch has the lowest priority value
-``S1(config)#spanning-tree vlan [vlan-id] root secondary``|Use if the configuration of an alternative bridge is desired. Sets the switch priority value to ensure it becomes the root bridge if the primary root bridge fails.
-``S1(config)#spanning-tree vlan [vlan-id] priority [priority]``|manually configure the bridge's priority value
-
-:bulb: Recall: priority values are between 0 and 61,440.  
-:warning: The priority value can only be a multiple of 4096
-
-### Bridge ID Verification
-Command|Description
----|---
-``S1#show spanning-tree``|verify current spanning-tree instances and root bridges
-### PortFast and BPDU guard
-Must only be configured on interfaces connected point-to-point to an end device
-
-Command|Description
----|---
-``S1(config)#interface [int-id]``|access the interface
-``S1(config)#interface range [int-type][lowest-id]-[highest-id]``|access a range of contiguous interfaces if necessary
-``S1(config-if)#switchport mode access``|as a good practice, hard-type this command so the switchport is in access mode
-``S1(config-if)#spanning-tree portfast``|enables PortFast on the access port(s)
-``S1(config-if)#spanning-tree bpduguard enable``|enables BPDU Guard on the access port(s)
-``S1(config)#spanning-tree portfast default``|:warning: configures PortFast to be the default for all switch interfaces
-``S1(config)#spanning-tree bpduguard default``|:warning: configures BPDU Guard to be the default for all switch interfaces
-
-### PortFast and BPDU guard verification
-
-Command|Description
----|---
-``S1#show running-config | begin spanning-tree``|display spanning tree features configured on the switch
-``S1#show running-config interface [int-id]``|display the current configuration portion corresponding to the interface
-
-
-### Configuring Rapid PVST+
-
-PVST+ is the STP flavor operating by default on Cisco switches.
-To configure Rapid PVST+, we just need to type a global command.  
-
-Command|Description
----|---
-``S1(config)#spanning-tree mode rapid-pvst``|configure Rapid PVST+ as the STP mode on the switch
-``S1(config-if)#spanning-tree link-type point-to-point``|specify that a link is point-to-point
-``S1#clear spanning-tree detected-protocols (interface [int-id])``|forces renegotiation with neighboring switches on all interfaces or the specified interface
-
-### General STP verification commands
-
-Command|Description
----|---
-``S1#show spanning-tree``|display STP information - useful to find information about the bridge you are in, and the root bridge at a glance
-``S1#show spanning-tree active``|display STP information for active interfaces only
-``S1#show spanning-tree brief``|at-a-glance information for all STP instances running on the switch
-``S1#show spanning-tree detail``|detailed information for all STP instances running on the switch
-``S1#show spanning-tree interface [int-id]``|STP information for the specified interface
-``S1#show spanning-tree vlan [vlan-id]``|STP information for the specified VLAN
-``S1#show spanning-tree summary``|summary of STP port states
-
----
-## EtherChannel
-
-Command|Description
----|---
-``S1(config)#interface range [start-int]-[end-int]``|start by selecting the interfaces to be bundled into a **single logical link**, i.e., the EtherChannel.
-``S1(config-if-range)#channel-group [number] mode [mode]``|specify the group ID (``1`` to ``6``, inclusive) and [operation mode](#available-etherchannel-modes) of the EtherChannel
-``S1(config)#interface port-channel [number]``|enter the **port channel interface configuration mode** to change settings
-
-### PortChannel interface additional configuration
-Command|Description
----|---
-``S1(config-if)#switchport mode trunk``|set the interface in trunking mode, so it can carry traffic of multiple VLANs
-``S1(config-if)#switchport trunk native vlan [native-vlan-id]``|specify the link's native VLAN
-``S1(config-if)#switchport trunk allowed vlan [vlan-id-1 (,vlan-id-2,...)]``|specify allowed VLANs (VLAN IDs) on trunk link
-``S1(config-if)#switchport trunk allowed vlan add [vlan-id-1 (,vlan-id-2,...)]``|**add** VLANs to the list of **already allowed** VLANs on the trunk link
-
-
-
-:warning: The **EtherChannel negotiation protocols** you use for your interface bundles **MUST MATCH ON BOTH ENDS**, whether it is LACP, PAgP (Cisco Proprietary), or no protocol (``on`` mode).
-
-#### Available EtherChannel modes
-EC mode|Description
----|---
-``active``|Enable LACP unconditionally
-``auto``|Enable PAgP only if another PAgP device is detected.
-``desirable``|Enable PAgP unconditionally
-``on``|Enable EtherChannel only
-``passive``|Enable LACP only if another LACP device is detected
-
-[Back to beginning of section](#etherchannel)
 
 
 	
