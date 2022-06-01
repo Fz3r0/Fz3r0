@@ -648,6 +648,7 @@ _I have mastered the ultimate technology, the hability to alter physical reality
   
 - **Linux PrivEsc**
  
+    - [Linux PrivEsc - OSCP Methodology @ Conda](https://www.youtube.com/watch?v=VpNaPAh93vE)
     - [Fz3r0 Linux PrivEsc Ninjitsu](/Networking/Labs/) _My own logs & writeups about Linux PrivEsc_        
     - [Linux | Pergamino I](https://github.com/netbiosX/Checklists/blob/master/Linux-Privilege-Escalation.md)
     - [Linux | Pergamino II - swisskyrepo](https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Linux%20-%20Privilege%20Escalation.md)
