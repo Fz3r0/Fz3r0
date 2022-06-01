@@ -296,6 +296,8 @@ Tables, Lists, Models, Cheat-Sheets, Mind-Maps & Resources
 - [WiFi > 802.11 : Header]()
 
 ### 📝 👷 🏰 IEEE Standards 🏰 👷 📝
+
+- [802.1q]()
  
 - [**IEEE 802.3 Ethernet** Standards](https://en.wikipedia.org/wiki/IEEE_802.3) _Specifies the set of MAC and PHY protocols for implementing **LAN** communication_
     
@@ -304,11 +306,28 @@ Tables, Lists, Models, Cheat-Sheets, Mind-Maps & Resources
     - [802.3ae - 10 Gigabit Ethernet over fiber 10GBASE-SR/LR/ER/SW/LW/EW](https://en.wikipedia.org/wiki/10_Gigabit_Ethernet)
     - [802.3af - Power over Ethernet (PoE 15.4 W)]()
  
- 
- 
 - [**IEEE 802.11 Wireless** Standards](https://en.wikipedia.org/wiki/IEEE_802.11) _Specifies the set of MAC and PHY protocols for implementing **WLAN** communication_
+
+    - [802.11 - 2.4 Ghz @ speeds of up to 2 Mbps]()
+    - [802.11a - 5 Ghz @ speeds of up to 54 Mbps]()
+    - [802.11b - 2.4 Ghz @ speeds of up to 11 Mbps]() 
+    - [802.11g - 2.4 Ghz @ speeds of up to 54 Mbps]()
+    - [802.11n - 2.4 Ghz & 5 GHz @ data rates range from 150 Mbps to 600 Mbps]()
+    - [802.11ac - 5 Ghz @ data rates ranging: 450 Mbps - 1.3 Gbps using MIMO]()
+    - [802.11ax - 2.4 Ghz & 5 GHz @ latest standard - WiFi 6]()
  
-802.1q  
+- [**IEEE 802.xx Wireless** Standards & Others]()
+ 
+    - [**802.15 WPAN Bluetooth**]()
+    - [**802.16 WWAM WiMAX**]()
+    - [**GSM & CDMA Cellular**]()
+    - [**4g | 5g Cellular**]()
+    - [**Satellite Broadband**]()
+ 
+- [**Radio Frequiencies & Electromagnetic Spectrum**]()
+
+    - [2.4 GHz (UHF) - 802.11b/g/n/ax]()
+    - [5 GHz (SHF) - 802.11a/n/ac/ax]()
 
 ### 📊 🖥️ 👨‍🚀 Simulators & Emulators 👨‍🚀 🖥️ 📊
  
