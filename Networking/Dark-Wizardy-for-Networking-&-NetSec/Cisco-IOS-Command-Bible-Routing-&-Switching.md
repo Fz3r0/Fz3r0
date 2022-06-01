@@ -4,6 +4,9 @@
 # CCNA Switch command cheat-sheet
 #### Useful command collection for Cisco Switches. Based on Cisco Networking Academy CCNA version 6 and version 7 course material, and recommended for CCNA exam preparation.
 
+![calaverita](https://user-images.githubusercontent.com/94720207/171378091-12dd2619-1201-435a-8354-461922d876e8.gif)
+
+
 ---
 ## Table of contents
 
