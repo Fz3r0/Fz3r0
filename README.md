@@ -903,6 +903,12 @@ Fz3r0 Cyber-Weaponry Crafting, Tools Programming & Open Source Projects
 ## Database
 
 ### SQL
+ 
+- [Diagrama Entidad-Relación (ER)](https://www.youtube.com/watch?v=TKuxYHb-Hvc)
+- [Cardinalidad Bases de Datos](https://www.monografias.com/trabajos82/sistema-automatizado-generador-boletines/image012.png) _Tabla con las cardinalidades y sus símbolos_ 
+- [Lucid App](https://lucid.app/) _Online Entity-Relation Diagram creator_ 
+- [SQL Cheatsheet @ W3Schools](https://www.w3schools.com/sql/default.asp) 
+ 
 
 ### MySQL
 
