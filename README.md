@@ -909,6 +909,12 @@ Fz3r0 Cyber-Weaponry Crafting, Tools Programming & Open Source Projects
 
 ### Mongo DB 
 
+## Virtualization
+ 
+- Guides
+
+    - [How to enable SSH on VMware ESXi](https://phoenixnap.com/kb/esxi-enable-ssh) 
+ 
 ## Incidence Response and Digital Forensics
  
 ### Digital Forensics Documentation & Legal Forms
@@ -944,10 +950,17 @@ Fz3r0 Cyber-Weaponry Crafting, Tools Programming & Open Source Projects
 - Volatility > [Analizar una Imágen RAM @ Master Alonso Caballero](https://www.youtube.com/watch?v=uP8iu_21V5s) _Extraer y analizar artefactos digitales desde la RAM_
 - Volatility > [Volatility Framework - Write Up @ Fz3r0](/Cyber-Security-&-Hacking) _Gold standard for memory forensics in incident response_
  
+### Obtaining Memory Samples
 
+- Tools for Obtaining a memory captures from machines
+
+    - [FTK Imager](https://accessdata.com/product-download/ftk-imager-version-4-2-0) _Data preview and imaging tool that lets you quickly assess electronic evidence to determine if further analysis._
+    - [Redline](https://www.fireeye.com/services/freeware/redline.html) _Premier free endpoint security tool._
+    - [DumpIt.exe]()
+    - [win32dd.exe / win64dd.exe]()
+ 
 ### Forensic Tools
 
-- [MITRE ATT&CK Framework]() _Global knowledge base of threat actor behavior._
 - [Redline](https://www.fireeye.com/services/freeware/redline.html) _find signs of malicious activity through memory and file analysis_
 - [Volatility]()
 - [HxD - HEX editor & Disk Editor](https://mh-nexus.de/en/hxd/) _HEX editor & raw disk editing and modifying of RAM_
