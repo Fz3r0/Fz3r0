@@ -576,7 +576,6 @@ _I have mastered the ultimate technology, the hability to alter physical reality
 - [Pentester Book](https://pentestbook.six2dez.com/post-exploitation/linux) _This book contains a bunch of info, scripts and knowledge by six2dez_
 - [Hacktricks](https://book.hacktricks.xyz/) _Hacking trick/technique/whatever by Carlos Plop jooooodeeer!!! _
 - [High On Coffee](https://highon.coffee/blog/) _Security Research and Penetration Testing Blog - Cheat Sheets, Techniques, Hardening, WalkThroughs_
-- [Bug Hunter Handbook](https://gowthams.gitbook.io/bughunter-handbook/) _List of resources that will help bug bounty hunters with resources that are useful during their bug bounty journey._
 - [SecLists](https://github.com/danielmiessler/SecLists) _Collection of multiple types of lists used during security assessments, collected in one place._
 - [The Art of Hacking](https://github.com/The-Art-of-Hacking/h4cker) _Over 9,000 References, Scripts, Tools, Code & Resources for Offensive/Defensive Security_
 - [Hakin9](https://hakin9.org/) _magazine dedicated to hacking and cybersecurity. Defensive and offensive secuirty techniques_
@@ -694,9 +693,8 @@ _I have mastered the ultimate technology, the hability to alter physical reality
   
 - **Linux PrivEsc**
  
-    - [**Linux PrivEsc** Mind Map - **OSCP** Methodology @ Conda](https://github.com/C0nd4/OSCP-Priv-Esc)
-    - [**Linux PrivEsc** - **OSCP** Methodology @ Conda](https://www.youtube.com/watch?v=VpNaPAh93vE)
-    - [How to use **LinEnum** - Each module explained @ Conda](https://www.youtube.com/watch?v=E4_n_RbyoxQ)
+    - [**Linux PrivEsc** - **OSCP** Methodology **@ Conda**](https://www.youtube.com/watch?v=VpNaPAh93vE)
+    - [How to use **LinEnum** - Each module explained **@ Conda**](https://www.youtube.com/watch?v=E4_n_RbyoxQ)
     - [Fz3r0 Linux PrivEsc Ninjitsu](/Networking/Labs/) _My own logs & writeups about Linux PrivEsc_        
     - [Linux | Pergamino I](https://github.com/netbiosX/Checklists/blob/master/Linux-Privilege-Escalation.md)
     - [Linux | Pergamino II - swisskyrepo](https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Linux%20-%20Privilege%20Escalation.md)
@@ -706,8 +704,7 @@ _I have mastered the ultimate technology, the hability to alter physical reality
     - [Linux PrivEsc Workshop @ sagishahar](https://github.com/sagishahar/lpeworkshop)
 
 - **Windows PrivEsc**
-
-    - [**Windows PrivEsc** Mind Map - **OSCP** Methodology @ Conda](https://github.com/C0nd4/OSCP-Priv-Esc)
+ 
     - [Windows PrivEsc - OSCP Methodology @ Conda](https://youtu.be/Qfy-traJwIs)
     - Fz3r0 Windows PrivEsc Ninjitsu(/Networking/Labs/) _My own logs & writeups about Windows PrivEsc_
     - [Juicy Potato Technique](https://www.youtube.com/watch?v=Ma_Q1yqBmEM)
@@ -963,7 +960,15 @@ Fz3r0 Cyber-Weaponry Crafting, Tools Programming & Open Source Projects
             - **Splunk Data** 
  
                 - [Splunk: Adding Data / Data Inputs](https://docs.splunk.com/Documentation/Splunk/8.1.2/Data/Getstartedwithgettingdatain#Use_apps_to_get_data_in)
+                - [Splunk: Collecting Data]()
+ 
+            - **Splunk Queries**
+ 
                 - []()
+ 
+            - **Sigma Rules**
+   
+                - [Sigma HQ Repository](https://github.com/SigmaHQ/sigma)
  
         - [IBM QRadar](https://www.ibm.com/qradar) _Detect and eliminate threats faster with the industry’s leading XDR suite_
         - [LogRythm]() _Good SIEM for smaller organizations_
