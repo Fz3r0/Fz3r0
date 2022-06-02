@@ -949,6 +949,9 @@ Fz3r0 Cyber-Weaponry Crafting, Tools Programming & Open Source Projects
         - [Splunk: Navigation & Dashboards](https://docs.splunk.com/Documentation/Splunk/8.1.2/SearchTutorial/NavigatingSplunk)
         - [Splunk: Quick Reference Guide](https://www.splunk.com/pdfs/solution-guides/splunk-quick-reference-guide.pdf)
         - [Splunk Wiki](https://wiki.splunk.com/Main_Page)
+        - [Splunk: SPL Syntax & Cheatsheet](https://lzone.de/cheat-sheet/Splunk)
+        - [Splunk: Reference Card Download](https://github.com/Fz3r0/Fz3r0/files/8827870/RefCard.pdf)
+        - [Splunk: Regez Cheatsheet](https://mindmajix.com/splunk-regex-cheatsheet)
  
             - **Splunk Apps**
  
@@ -971,7 +974,9 @@ Fz3r0 Cyber-Weaponry Crafting, Tools Programming & Open Source Projects
               
  
             - **Sigma Rules**
-   
+
+ 
+
                 - [Sigma HQ Repository](https://github.com/SigmaHQ/sigma)
  
         - [IBM QRadar](https://www.ibm.com/qradar) _Detect and eliminate threats faster with the industry’s leading XDR suite_
