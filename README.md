@@ -958,6 +958,7 @@ Fz3r0 Cyber-Weaponry Crafting, Tools Programming & Open Source Projects
     - [Redline](https://www.fireeye.com/services/freeware/redline.html) _Premier free endpoint security tool._
     - [DumpIt.exe]()
     - [win32dd.exe / win64dd.exe]()
+    - [%SystemDrive%/hiberfil.sys]()
  
 ### Forensic Tools
 
