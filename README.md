@@ -919,6 +919,17 @@ Fz3r0 Cyber-Weaponry Crafting, Tools Programming & Open Source Projects
 - [Cyber Kill Chain]() _The Cyber Kill Chain was developed by Lockheed Martin to identify and prevent cyber intrusions._ 
 - [The Diamond Model of Intrusion Analysis]()
 - [NIST - Computer Security Incident Handling Guide]() _NIST recommendations for incident response - Special Publication 800-61, revision 2_
+
+### The Blue Team Path
+
+- Blue Team Path Writeups & Courses
+
+    - [Blue Team Operations - Intro to SOC & Security Analysis @ HackerSploit](https://www.youtube.com/watch?v=kkjsQV64r14) 
+
+- Blue Teaming Bibles 
+
+    - [ATT&CK (MITRE)](https://attack.mitre.org/) _Globally-accessible knowledge base of adversary tactics and techniques based on real-world observations._
+    - [D3fend (MITRE)](https://d3fend.mitre.org/) _A knowledge graph of Cyber-Security countermeasures._  
  
 ### Incidence Response and Digital Forensics Guides
 
