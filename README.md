@@ -953,6 +953,16 @@ Fz3r0 Cyber-Weaponry Crafting, Tools Programming & Open Source Projects
         - [Splunk: Reference Card Download](https://github.com/Fz3r0/Fz3r0/files/8827870/RefCard.pdf)
         - [Splunk: Regez Cheatsheet](https://mindmajix.com/splunk-regex-cheatsheet)
  
+            - **Splunk Tutorial**
+ 
+                - [Splunk: Basic searches and search results](https://docs.splunk.com/Documentation/Splunk/8.1.2/SearchTutorial/Aboutthesearchapp)
+                - [Splunk: Exploring the Search views](https://docs.splunk.com/Documentation/Splunk/8.1.2/SearchTutorial/Aboutthesearchapp)
+                - [Splunk: Specifying time ranges](https://docs.splunk.com/Documentation/Splunk/8.1.2/SearchTutorial/Aboutthetimerangepicker)
+                - [Splunk: Use fields to search](https://docs.splunk.com/Documentation/Splunk/8.1.2/SearchTutorial/Usefieldstosearch)
+                - [Splunk: Enabling field lookups](https://docs.splunk.com/Documentation/Splunk/8.1.2/SearchTutorial/Usefieldlookups)
+                - [Splunk: Search with field lookups](https://docs.splunk.com/Documentation/Splunk/8.1.2/SearchTutorial/Searchwithfieldlookups)
+                - [Splunk: About Splunk regular expressions](https://docs.splunk.com/Documentation/Splunk/8.1.2/Knowledge/AboutSplunkregularexpressions)
+ 
             - **Splunk Apps**
  
                 - [Splunk: SplunkBase](https://splunkbase.splunk.com/)
