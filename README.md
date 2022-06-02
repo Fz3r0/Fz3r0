@@ -611,6 +611,7 @@ _I have mastered the ultimate technology, the hability to alter physical reality
 - SecurityNewsWire 
 - (ISC)²
 - CIS (Center for Internet Security) 
+- [Alien Vault](https://otx.alienvault.com/) 
  
 ### Threat Intelligence Services & Vuln Assessment
 
