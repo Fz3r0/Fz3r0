@@ -947,6 +947,7 @@ Fz3r0 Cyber-Weaponry Crafting, Tools Programming & Open Source Projects
     - [Splunk](https://www.splunk.com/) _Top SIEM (Security Information and Event Management) on market_
  
         - [Splunk: Navigation & Dashboards](https://docs.splunk.com/Documentation/Splunk/8.1.2/SearchTutorial/NavigatingSplunk)
+        - [Splunk: Quick Reference Guide](https://www.splunk.com/pdfs/solution-guides/splunk-quick-reference-guide.pdf)
  
             - **Splunk Apps**
  
