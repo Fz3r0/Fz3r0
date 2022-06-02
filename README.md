@@ -940,13 +940,15 @@ Fz3r0 Cyber-Weaponry Crafting, Tools Programming & Open Source Projects
     - [MISP Threat Sharing](https://www.misp-project.org/) _Software to facilitate threat analysis and sharing to freely usable structured Cyber Threat Information and Taxonomies._
 
 ### Security Operations & Monitoring 
- 
-- Blue Team Tools
-    
+     
+- SIEMs
     - [SIEM - What is a SIEM? @ Varonis Security](https://www.varonis.com/blog/what-is-siem) _SIEM Introduction_
-    - [Splunk](https://www.splunk.com/) _Top SIEM (Security Information and Event Management) on market_ 
-
+    - [Splunk](https://www.splunk.com/) _Top SIEM (Security Information and Event Management) on market_
+    - [IBM QRadar](https://www.ibm.com/qradar) _Detect and eliminate threats faster with the industry’s leading XDR suite_
+    - [LogRythm]() _Good SIEM for smaller organizations_
 ### Incidence Response and Digital Forensics Guides
+
+- [Varonis](https://www.varonis.com/)
 
 - [The Digital Evidence Forensic Process - Collection>Media | Examination>Data | Analysis>Information | Reporting>Evidence ] () 
 - [Evidence Collection Priority - From Volatile to Non- Volatile Data]()
