@@ -948,6 +948,7 @@ Fz3r0 Cyber-Weaponry Crafting, Tools Programming & Open Source Projects
  
         - [Splunk: Navigation & Dashboards](https://docs.splunk.com/Documentation/Splunk/8.1.2/SearchTutorial/NavigatingSplunk)
         - [Splunk: Quick Reference Guide](https://www.splunk.com/pdfs/solution-guides/splunk-quick-reference-guide.pdf)
+        - [Splunk Wiki](https://wiki.splunk.com/Main_Page)
  
             - **Splunk Apps**
  
@@ -965,7 +966,9 @@ Fz3r0 Cyber-Weaponry Crafting, Tools Programming & Open Source Projects
  
             - **Splunk Queries**
  
+                - [Splunk: Search & Filter Queries Cheatsheet](https://wiki.splunk.com/images/2/2b/Cheatsheet.pdf)
                 - []()
+              
  
             - **Sigma Rules**
    
