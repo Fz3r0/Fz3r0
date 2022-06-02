@@ -936,8 +936,16 @@ Fz3r0 Cyber-Weaponry Crafting, Tools Programming & Open Source Projects
 - Blue Teaming Bibles 
 
     - [ATT&CK (MITRE)](https://attack.mitre.org/) _Globally-accessible knowledge base of adversary tactics and techniques based on real-world observations._
-    - [D3fend (MITRE)](https://d3fend.mitre.org/) _A knowledge graph of Cyber-Security countermeasures._  
+    - [D3fend (MITRE)](https://d3fend.mitre.org/) _A knowledge graph of Cyber-Security countermeasures._ 
+    - [MISP Threat Sharing](https://www.misp-project.org/) _Software to facilitate threat analysis and sharing to freely usable structured Cyber Threat Information and Taxonomies._
+
+### Security Operations & Monitoring 
  
+- Blue Team Tools
+    
+    - [SIEM - What is a SIEM? @ Varonis Security](https://www.varonis.com/blog/what-is-siem) _SIEM Introduction_
+    - [Splunk](https://www.splunk.com/) _Top SIEM (Security Information and Event Management) on market_ 
+
 ### Incidence Response and Digital Forensics Guides
 
 - [The Digital Evidence Forensic Process - Collection>Media | Examination>Data | Analysis>Information | Reporting>Evidence ] () 
