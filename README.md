@@ -952,6 +952,7 @@ Fz3r0 Cyber-Weaponry Crafting, Tools Programming & Open Source Projects
         - [Splunk: SPL Syntax & Cheatsheet](https://lzone.de/cheat-sheet/Splunk)
         - [Splunk: Reference Card Download](https://github.com/Fz3r0/Fz3r0/files/8827870/RefCard.pdf)
         - [Splunk: Regez Cheatsheet](https://mindmajix.com/splunk-regex-cheatsheet)
+        - [Splunk: Sinkgle Subject Courses (Official)](https://education.splunk.com/single-subject-courses)
  
             - **Splunk Tutorial**
  
@@ -980,10 +981,11 @@ Fz3r0 Cyber-Weaponry Crafting, Tools Programming & Open Source Projects
             - **Splunk Queries**
  
                 - [Splunk: Search & Filter Queries Cheatsheet](https://wiki.splunk.com/images/2/2b/Cheatsheet.pdf)
-                - []()
-              
  
             - **Sigma Rules**
+                
+                - [Uncoder.io](https://uncoder.io/) _Online Sigma translation engine for SIEM saved searches, filters, queries, API requests._
+                - [Sigma Searches](https://github.com/dstaulcu/TA-Sigma-Searches)
 
  
 
