@@ -945,7 +945,10 @@ Fz3r0 Cyber-Weaponry Crafting, Tools Programming & Open Source Projects
     - [SIEM - What is a SIEM? @ Varonis Security](https://www.varonis.com/blog/what-is-siem) _SIEM Introduction_
     - [Splunk](https://www.splunk.com/) _Top SIEM (Security Information and Event Management) on market_
         - [Splunk: Navigation & Dashboards](https://docs.splunk.com/Documentation/Splunk/8.1.2/SearchTutorial/NavigatingSplunk)
-        - []()
+        - [Splunk: SplunkBase](https://splunkbase.splunk.com/)
+        - [Splunk: All Splunk Apps](https://splunkbase.splunk.com/apps/#/product/splunk/)
+        - [Splunk: All SOAR Apps](https://splunkbase.splunk.com/apps/#/product/soar/)
+ 
     - [IBM QRadar](https://www.ibm.com/qradar) _Detect and eliminate threats faster with the industry’s leading XDR suite_
     - [LogRythm]() _Good SIEM for smaller organizations_
 ### Incidence Response and Digital Forensics Guides
