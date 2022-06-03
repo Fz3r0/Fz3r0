@@ -970,7 +970,9 @@ Fz3r0 Cyber-Weaponry Crafting, Tools Programming & Open Source Projects
     - [Setup and Run Programs in Mode.js](https://www.softzone.es/programas/lenguajes/instalar-node-js/)
     - [Postman](https://www.postman.com/)
 
--  
+- JavaScript Projects
+ 
+    - [Digital Clock Using JS - Vanilla JS Clock](https://www.youtube.com/watch?v=28nXHD4J4zw) _@ DEE-CODER_
  
 ## Database
 
