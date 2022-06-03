@@ -915,7 +915,7 @@ Fz3r0 Cyber-Weaponry Crafting, Tools Programming & Open Source Projects
 
 ### MySQL
 
-- [MySQL GPL Community - MySQL Community Server Download](https://dev.mysql.com/downloads/mysql/) _Important: Download the complete version! (400mb)_
+- [MySQL GPL Community - Community Server & MySQL Workbench Download](https://dev.mysql.com/downloads/mysql/) _Select the complete version! (400mb)_
 - [MySQL guía rápida](https://www.youtube.com/watch?v=Q6sn6UMgR54&list=PLg9145ptuAihPxpM3YfQJYwPHv-Vnh_bV)
 
 ### Mongo DB 
