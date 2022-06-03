@@ -77,6 +77,18 @@
 
 ## Insert y Update Table
 
+- Insertar `valores` dentro de los `campos` correspondientes en una `tabla`
+
+    - `insert into usuario (email, username) values ('fz3r0@protonmail.com', 'fz3r0');`
+    
+    - insertar > dentro de > tabla(usuario) > en los campos(email, username) > los valores(fz3r0@protonmail.com, fz3r0)
+
+- Modo alterno:
+
+```sql
+insert into usuario (email, username) 
+values ('fz3r0@protonmail.com', 'fz3r0');
+```
 
  
 
