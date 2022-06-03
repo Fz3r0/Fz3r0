@@ -983,6 +983,7 @@ Fz3r0 Cyber-Weaponry Crafting, Tools Programming & Open Source Projects
 - [Lucid App](https://lucid.app/) _Online Entity-Relation Diagram creator_ 
 - [SQL Cheatsheet @ W3Schools](https://www.w3schools.com/sql/default.asp) 
 - [SQL Table Syntax & Parts Detailed Diagram @ Fz3r0](/Databases/MySQL/MySQL-From-Zero-to-Hero.md) _Super important SQL Cheatsheet made by me!_
+- [FULL SQL Course...and I mean FULL!!!](https://www.youtube.com/channel/UCoK8J8kokocygPSJAZnDh8g/playlists) 
  
 
 ### MySQL
@@ -992,6 +993,7 @@ Fz3r0 Cyber-Weaponry Crafting, Tools Programming & Open Source Projects
     - [MySQL Super Important Cheatsheet!!! Install & Table Taxonomy @ Fz3r0](/Databases/MySQL/MySQL-From-Zero-to-Hero.md) 
     - [MySQL GPL Community - Community Server & MySQL Workbench Download](https://dev.mysql.com/downloads/mysql/) _Select the complete version! (400mb)_
     - [MySQL guía rápida](https://www.youtube.com/watch?v=Q6sn6UMgR54&list=PLg9145ptuAihPxpM3YfQJYwPHv-Vnh_bV)
+    - [Stored Procedure - La magia de los Procedimientos Almacenados](https://www.youtube.com/watch?v=NCcc2aISGtE)
  
 - MySQL Workbench Labs
  
