@@ -42,6 +42,14 @@ Let'sa gooo
 
 - ![image](https://user-images.githubusercontent.com/94720207/171760900-f74d0b18-6871-4f7b-9237-7fe35abc429d.png)
 
+    - Resultado:
+
+- ![image](https://user-images.githubusercontent.com/94720207/171761207-3932f8d6-bbd0-41f3-a13a-322fe393846e.png)
+
+    - Servidor de Base de Datos instalada, dar click ahí e iniciar sesión para administrarla:
+
+- ![image](https://user-images.githubusercontent.com/94720207/171761275-b76efea2-01aa-4855-86c5-a9f416e18a70.png)
+
 
 
 
