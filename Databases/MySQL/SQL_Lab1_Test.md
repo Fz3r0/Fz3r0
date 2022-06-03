@@ -90,6 +90,13 @@ insert into usuario (email, username)
 values ('fz3r0@protonmail.com', 'fz3r0');
 ```
 
+- ![image](https://user-images.githubusercontent.com/94720207/171960070-12de0359-7423-48f3-8d40-277c57202594.png)
+
+- ![image](https://user-images.githubusercontent.com/94720207/171960215-855653d0-bcb0-453a-b55c-893af66769cb.png)
+
+    - OJO!!! Recordar el ID!!! Para eso, podemos usar el `update` ;)
+
+
  
 
  
