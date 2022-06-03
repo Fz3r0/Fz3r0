@@ -44,7 +44,10 @@
     
         - ![image](https://user-images.githubusercontent.com/94720207/171763337-7ecc5feb-7afe-43a1-8b98-e57ed6aba23a.png)
         - ![image](https://user-images.githubusercontent.com/94720207/171763390-c79043d0-6be8-4f32-976e-c427c18d325e.png)
+        
+- Para borrar la tabla solo se utiliza `drop` justo como con la `db`
 
+    - `drop table usuarios`
  
 
 
