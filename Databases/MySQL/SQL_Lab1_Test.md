@@ -61,6 +61,24 @@
     
     - ![image](https://user-images.githubusercontent.com/94720207/171767890-6fb80d4e-bb70-4513-88a7-c0e2ffc624ea.png)
 
+- Quitar un campo
+
+    - `alter table Usuario drop column edad;`
+    
+    - `alterar > tabla > Usuario > Quitar > Columna(edad)
+
+- Modificar tipo de dato en una columna
+
+    - `alter table Usuario modify column email varchar(50);` 
+    
+    - ![image](https://user-images.githubusercontent.com/94720207/171768256-be494e2a-8cf2-479a-abe8-b98393bcf60e.png)
+    
+    - ![image](https://user-images.githubusercontent.com/94720207/171768299-502d0d8c-b196-4ddc-81c9-726153e9c2fe.png)
+
+## Insert y Update Table
+
+
+ 
 
  
 
