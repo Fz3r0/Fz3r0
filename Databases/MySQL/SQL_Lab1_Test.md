@@ -94,7 +94,45 @@ values ('fz3r0@protonmail.com', 'fz3r0');
 
 - ![image](https://user-images.githubusercontent.com/94720207/171960215-855653d0-bcb0-453a-b55c-893af66769cb.png)
 
-    - OJO!!! Recordar el ID!!! Para eso, podemos usar el `update` ;)
+    - OJO!!! Recordar el ID!!! Para eso, podemos usar el `update` ;) Pero antes...
+    
+    - Así es como se borraría un campo donde específicamente se le proporciona una condición con `where`
+
+```sql
+delete from usuario where email = 'fz3r0@protonmail.com';
+```
+- borrar > (cualquier campo) de usuario(tabla) > donde el email(valor) sea > fz3r0@protonmail.com
+
+- ![image](https://user-images.githubusercontent.com/94720207/171966434-aab2da75-ad7f-4876-8153-9fbc87f99087.png)
+
+    - Ese error lo marca ya que no declaré ninguna `primary key` y por lo tanto, no se la especifiqué al borrar!
+    
+    - Es decir, hay que recordar que la `primary key` es el único valor que no debería repetrise, por eso al darle una condición de otros valores, usa este "candado" y no permite borrarla a menos que utilicemos:
+
+```sql
+delete from usuario where email = 'fz3r0@protonmail.com' limit 1;
+```
+
+- Así ya permite borrar el registro sin `id` AKA `primary key`
+
+### Crear ID o `Primary Key`
+
+- Para agregar la `primary key` igual se puede utilizar el comando `alter` de la siguiente manera:
+
+```sql
+alter table usuario add primary key (id);
+```
+
+- `alterar > tabla(usuario) > agregar > llave primaria(nombre: id)`
+
+- Antes del comando:
+
+    - ![image](https://user-images.githubusercontent.com/94720207/171966772-e5fb9189-1ca3-418f-8b91-18979ccf25c8.png)
+
+- Después del comando: 
+
+    - 
+
 
 
  
