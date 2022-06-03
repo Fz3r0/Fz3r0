@@ -47,7 +47,21 @@
         
 - Para borrar la tabla solo se utiliza `drop` justo como con la `db`
 
-    - `drop table usuarios`
+    - `drop table Usuario`
+
+## Alter Table
+
+- Se utiliza para actualizar los `campos` de las tablas, agregarlos o quitarlos
+
+- Agregar un campo `edad` a la tabla `usuario`:
+
+    - `alter table Usuario add edad int;`
+
+    - `alterar > tabla > Usuario > Agregar > Campo(edad) {tipo entero}`
+    
+    - ![image](https://user-images.githubusercontent.com/94720207/171767890-6fb80d4e-bb70-4513-88a7-c0e2ffc624ea.png)
+
+
  
 
 
