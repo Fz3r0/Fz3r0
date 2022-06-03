@@ -18,7 +18,17 @@
 #### TCP-IP Model : fz3r0 Hybrid (Last edition: 2022)
 
 (Click to Enlarge)
-![huevos](/Networking/Knowledge/Tables-Models-Cheatsheets/Tables-Models/TCP_IP_hybrid-model-fz3r0.png)
+![tabla](/Networking/Knowledge/Tables-Models-Cheatsheets/Tables-Models/TCP_IP_hybrid-model-fz3r0.png)
+
+---
+
+#### Other Tables & Models
+
+- Full ISO
+
+![image](https://user-images.githubusercontent.com/94720207/171961105-6dae35c7-05a0-49be-98b3-0672b9d564cc.png)
+
+
 
 ---
 
