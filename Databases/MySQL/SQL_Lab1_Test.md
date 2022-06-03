@@ -111,11 +111,11 @@ delete from usuario where email = 'fz3r0@protonmail.com';
 delete from usuario where email = 'fz3r0@protonmail.com' limit 1;
 ```
 
-- Ahora si dejaría crear una `primary key`
+- Ahora si dejaría crear una `primary key`:
 
     - ![image](https://user-images.githubusercontent.com/94720207/171967263-bac8e5a5-c979-4169-8df0-3e63f4eabc32.png) 
 
-### Crear ID o `Primary Key`
+## Crear ID o `Primary Key`
 
 - Para agregar la `primary key` igual se puede utilizar el comando `alter` de la siguiente manera:
 
