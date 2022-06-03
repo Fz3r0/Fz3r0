@@ -26,6 +26,24 @@ Let'sa gooo
 
 - Execute!
 
+## Initial Config
+
+- ![image](https://user-images.githubusercontent.com/94720207/171760589-714750ab-7e4b-4f3e-ac66-b36134e5d540.png)
+
+- ![image](https://user-images.githubusercontent.com/94720207/171760629-33ef025c-d6eb-4714-8d1f-8a4bfe800632.png)
+
+- password: `password`
+
+- ![image](https://user-images.githubusercontent.com/94720207/171760752-a3498aee-c74c-47b5-b092-092d86aa514f.png)
+
+    - Nota: `dbadmin` = root | `db manager` permiso para modificar todas las BD
+
+- ![image](https://user-images.githubusercontent.com/94720207/171760963-bcbe22c8-9c3d-4cc2-82a8-2aa625eb8f21.png)
+
+- ![image](https://user-images.githubusercontent.com/94720207/171760900-f74d0b18-6871-4f7b-9237-7fe35abc429d.png)
+
+
+
 
 
 
