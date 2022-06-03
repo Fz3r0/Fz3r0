@@ -16,6 +16,19 @@ Let'sa gooo
 - ![image](https://user-images.githubusercontent.com/94720207/171757277-73469056-bad1-47a1-90bc-23fa9b0efe69.png)
 - https://www.edureka.co/blog/sql-commands
 
+## Install:
+
+- https://dev.mysql.com/downloads/windows/installer/8.0.html
+
+- ![image](https://user-images.githubusercontent.com/94720207/171760301-cb71d6f4-c397-41e2-8860-9752ffa182e1.png)
+
+- ![image](https://user-images.githubusercontent.com/94720207/171760344-43077014-7301-40b5-97d9-d3a6f60380fa.png)
+
+- Execute!
+
+
+
+
 ## Resources
 
 - https://www.informit.com/articles/article.aspx?p=1245676&seqNum=2#:~:text=In%20a%20relational%20database%2C%20all,You%20can%20use%20either%20terminology.
