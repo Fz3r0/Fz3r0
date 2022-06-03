@@ -105,15 +105,15 @@ delete from usuario where email = 'fz3r0@protonmail.com';
 
 - ![image](https://user-images.githubusercontent.com/94720207/171966434-aab2da75-ad7f-4876-8153-9fbc87f99087.png)
 
-    - Ese error lo marca ya que no declaré ninguna `primary key` y por lo tanto, no se la especifiqué al borrar!
-    
-    - Es decir, hay que recordar que la `primary key` es el único valor que no debería repetrise, por eso al darle una condición de otros valores, usa este "candado" y no permite borrarla a menos que utilicemos:
+    - , habría una paradoja en el campo incremental, así que para poderlo borrar hay que usar `limit 1`:
 
 ```sql
 delete from usuario where email = 'fz3r0@protonmail.com' limit 1;
 ```
 
-- Así ya permite borrar el registro sin `id` AKA `primary key`
+- Ahora si dejaría crear una `primary key`
+
+    - ![image](https://user-images.githubusercontent.com/94720207/171967263-bac8e5a5-c979-4169-8df0-3e63f4eabc32.png) 
 
 ### Crear ID o `Primary Key`
 
@@ -122,8 +122,20 @@ delete from usuario where email = 'fz3r0@protonmail.com' limit 1;
 ```sql
 alter table usuario add primary key (id);
 ```
-
 - `alterar > tabla(usuario) > agregar > llave primaria(nombre: id)`
+
+- ![image](https://user-images.githubusercontent.com/94720207/171966854-50aaf52c-3701-4620-b160-d1023a708ca9.png)
+
+    - OJO! En caso de ver ese error, leer de nuevo arriba, es porque la tabla aún tiene algún campo con el id en null, en caso contrario ya la dejaría crear y se vería así:
+
+    - ![image](https://user-images.githubusercontent.com/94720207/171967263-bac8e5a5-c979-4169-8df0-3e63f4eabc32.png) 
+
+- Ahora ya también se puede modificar este campo para que sea autoincremental automaticamente. 
+
+```sql
+alter table usuario modify column id int AUTO_INCREMENT;
+```  
+- `alterar > tabla(usuario) > modificar > columna(id) con > Tipo de Dato(Entero) > Autoincremental`
 
 - Antes del comando:
 
@@ -131,7 +143,11 @@ alter table usuario add primary key (id);
 
 - Después del comando: 
 
-    - 
+    - ![image](https://user-images.githubusercontent.com/94720207/171967529-7b91bde4-61ee-4ddc-8f43-484a3e41fe98.png)
+ 
+- Listo! Tengo la `primary key` establecida de porfa `autoincremental`, ahora ya podría ir agregando campos y que el `id` se genere automaticamente. 
+
+
 
 
 
