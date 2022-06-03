@@ -770,15 +770,22 @@ _I have mastered the ultimate technology, the hability to alter physical reality
 
 ### SQL Injection
 
-- **SQLi (SQL injection)**
+- **SQLi (SQL injection) Bibles, Cheatsheets & Resources**
+ 
     - [NETSPI > SQL Injection Wiki](https://sqlwiki.netspi.com/#mysql)
     - [PortSwigger > SQLi Cheat Sheet](https://portswigger.net/web-security/sql-injection/cheat-sheet)
     - [Pentest Book > SQLi queries](https://pentestbook.six2dez.com/enumeration/web/sqli)
     - https://github.com/Fz3r0/Advanced-SQL-Injection-Cheatsheet
 
 - **Pentesting Microsoft SQL Server (MSSQL)**
+ 
     - [Hacktricks - Pentesting MSSQL Server](https://book.hacktricks.xyz/network-services-pentesting/pentesting-mssql-microsoft-sql-server)
     - [PTM - MSSQL Server Cheatsheet](https://pentestmonkey.net/cheat-sheet/sql-injection/mssql-sql-injection-cheat-sheet) 
+ 
+- **SQLi Cyber-Weapons & Tools** 
+ 
+    - [SQL Map]()
+    - [SQLinjection TimeBased PWN! @ Fz3r0](https://github.com/Fz3r0/fz3r0-SQLinjection-TimeBased-Python) _SQLi Time bases Python Script made by me!_
     
 ### Server-Side Request Forgery (SSRF)
 
