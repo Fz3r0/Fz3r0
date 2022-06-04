@@ -182,6 +182,13 @@ I invite you to enter the links of my social networks that I've placed above inc
 
 ---
  
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=fz3r0&hide=contribs,prs&show_icons=true&theme=chartreuse-dark) 
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
+ 
+![count](https://komarev.com/ghpvc/?username=fz3r0) 
+ 
+ 
 _“Welcome to my house! Enter freely. Go safely, and leave something of the happiness you bring...”_
 
 --- 
