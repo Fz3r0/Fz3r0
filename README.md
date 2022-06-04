@@ -992,6 +992,7 @@ Fz3r0 Cyber-Weaponry Crafting, Tools Programming & Open Source Projects
 
 - MySQL Installation, Cheatsheets & Guides
  
+    - [MySQL CC by @ Fz3r0](/Databases/MySQL/MySQL-CC-Fz3r0.md) _My super CC Writeup!_
     - [MySQL Super Important Cheatsheet!!! Install & Table Taxonomy @ Fz3r0](/Databases/MySQL/MySQL-From-Zero-to-Hero.md) 
     - [MySQL GPL Community - Community Server & MySQL Workbench Download](https://dev.mysql.com/downloads/mysql/) _Select the complete version! (400mb)_
     - [MySQL guía rápida](https://www.youtube.com/watch?v=Q6sn6UMgR54&list=PLg9145ptuAihPxpM3YfQJYwPHv-Vnh_bV)
