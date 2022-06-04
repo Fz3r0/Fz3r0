@@ -1,4 +1,6 @@
 
+https://www.v500.com/false-positive-false-negative-true-positive-and-true-negative/ true positive etc
+
 https://osintframework.com/ osint framework
 
 <!--
