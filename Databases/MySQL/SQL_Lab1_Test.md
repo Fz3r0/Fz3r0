@@ -208,8 +208,11 @@ select * from usuario where email = 'anon@protonmail.com';
     - Por ejemplo:
 
 ```sql
-select * from usuario where edad = 'anon@protonmail.com';
+select * from usuario where edad < 100 and edad > 18;
 ```
+
+- ![image](https://user-images.githubusercontent.com/94720207/171971498-e9d94ba1-8859-46b5-a679-639b9d8bef07.png)
+
 
 
 
