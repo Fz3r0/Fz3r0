@@ -93,9 +93,7 @@
 
 I'm just a very lucky person who was born surrounded by IBM computers and floppy disks back in the 80's...
 
-When I was very young I entered a Data Center and a room full of computers where my father worked, then I met a very funny guy with long hair and a beard (The Systems Engineer) who allowed me to play Prince of Persia in DOS surrounded by huge computers with that peculiar smell of new plastic and technology. Since then I decided to focus on one thing: Let my hair and beard grow... (and dedicate my life to Computer Science).
-
-Computer Science and Information & Communication Technologies are my passion, my hobby, what I have studied at University, have certified and constantly updated my knowledge and skills. Fortunately, it is what I work professionally and with several years of experience in different branches of ICT, in which Networking, Programming and Cyber-Security stand out.
+When I was very young I entered a Data Center and a room full of computers where my father worked, then I met a very funny guy with long hair and a beard (The Systems Engineer) who allowed me to play Prince of Persia in MS-DOS surrounded by huge computers with that peculiar smell of new plastic, silicon & technology. Since then I decided to focus on one thing: Let my hair and beard grow... (and dedicate my life to Computer Science).
 
 I invite you to enter the links of my social networks that I've placed above including my LinkedIn, where you will find more information regarding my professional career.
 
@@ -184,9 +182,9 @@ I invite you to enter the links of my social networks that I've placed above inc
  
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=fz3r0&hide=contribs,prs&show_icons=true&theme=chartreuse-dark) 
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&layout=compact&theme=chartreuse-dark)](https://github.com/anuraghazra/github-readme-stats)
  
-![count](https://komarev.com/ghpvc/?username=fz3r0) 
+![count](https://komarev.com/ghpvc/?username=fz3r0&color=brightgreen) 
  
  
 _“Welcome to my house! Enter freely. Go safely, and leave something of the happiness you bring...”_
