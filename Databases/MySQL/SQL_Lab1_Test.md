@@ -183,17 +183,14 @@ update fz3r0_test01.usuario set edad = 88 where (id = '2');
 
     - ![image](https://user-images.githubusercontent.com/94720207/171971564-3e9ad444-01a6-47fc-8f85-e780420318eb.png)
     
-    - En este ejemplo usaré el nombre + id, esto debido al candado de seguridad donde forzosamente debería ingresar un campo único, por ejemplo la `primary key` 
+    - En este ejemplo usaré el nombre + id, esto debido al candado de seguridad donde forzosamente debería ingresar un campo único, por ejemplo la `primary key` que sería lo mejor para actualizar `registros`
 
 ```sql
 update usuario set edad = 32 where username = 'Neo' and id = '4';
 ```
 - ![image](https://user-images.githubusercontent.com/94720207/171971805-bc2021d9-25f3-4240-87ff-40a42e3c263a.png)
 
-
-
-
-- :bulb: **NOTA CRÍTICA: LA INSTRUCCIÓN `WHERE` >> SIEMPRE << DEBE IR EN UN `UPDATE` PARA NO GENERAR ERRORES**
+- :bulb: **NOTA CRÍTICA: LA INSTRUCCIÓN `UPDATE` >> SIEMPRE << DEBE TENER UN `WHERE` PARA NO GENERAR ERRORES**
 
 ## Instrucción `where`
 
@@ -227,6 +224,25 @@ select * from usuario where edad < 100 and edad > 18;
 ```
 
 - ![image](https://user-images.githubusercontent.com/94720207/171971498-e9d94ba1-8859-46b5-a679-639b9d8bef07.png)
+
+## Instrucción `delete`
+
+- Ya sabemos hasta el momento como crear, modificar o actualizar `registros` dentro de los `campos` 
+
+- Ahora solo falta aprender a borrarlos con el comando `delete` 
+
+```sql
+delete from usuarios where id = '1'
+```
+- ![image](https://user-images.githubusercontent.com/94720207/171972040-6963587f-fb8d-4116-bc03-3ec09bcab4cb.png)
+
+- :bulb: **NOTA CRÍTICA: LA INSTRUCCIÓN `DELETE FROM` >> SIEMPRE << DEBE TENER UN `WHERE` PARA NO DESTRUIR LA DB!!!**
+
+---
+
+- Y básicamente eso es lo básico de lo basic, ahora ya sabes MySQL, que fácil! :D
+
+
 
 
 
