@@ -162,7 +162,7 @@ values ('anon@protonmail.com', 'An0n', 88);
 
 - Pero quedó una edad vacía, hay manera de agregar esa edad faltante con `update:`
 
-## Instrucción Update
+## Instrucción `update`
 
 - Si yo quisiera actualizar un campo o una tabla (por ejemplo `edad`) se puede utilizar `update` por ejemplo:
 
@@ -179,6 +179,21 @@ update fz3r0_test01.usuario set edad = 88 where (id = '2');
 
     - ![image](https://user-images.githubusercontent.com/94720207/171970021-ba9c777f-b2a9-4d95-925e-eb9665a69616.png)
 
+- Otro ejemplo de `update` con la tabla mas grande:
+
+    - ![image](https://user-images.githubusercontent.com/94720207/171971564-3e9ad444-01a6-47fc-8f85-e780420318eb.png)
+    
+    - En este ejemplo usaré el nombre + id, esto debido al candado de seguridad donde forzosamente debería ingresar un campo único, por ejemplo la `primary key` 
+
+```sql
+update usuario set edad = 32 where username = 'Neo' and id = '4';
+```
+- ![image](https://user-images.githubusercontent.com/94720207/171971805-bc2021d9-25f3-4240-87ff-40a42e3c263a.png)
+
+
+
+
+- :bulb: **NOTA CRÍTICA: LA INSTRUCCIÓN `WHERE` >> SIEMPRE << DEBE IR EN UN `UPDATE` PARA NO GENERAR ERRORES**
 
 ## Instrucción `where`
 
