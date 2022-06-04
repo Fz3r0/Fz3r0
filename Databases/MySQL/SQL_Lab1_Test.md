@@ -173,6 +173,16 @@ select * from usuario;
 ```
 - `seleccionar > todo(*) > de > tabla(usuario)`
 
+    - ![image](https://user-images.githubusercontent.com/94720207/171968182-a09d7814-736d-45be-b0f1-a2c1553a5a7c.png)
+
+- En este caso me regresó TODO, pero que pasaría si yo quiero filtrar?:
+
+```sql
+select * from usuario where email = 'anon@protonmail.com';
+```
+
+
+
 
 
 
