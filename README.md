@@ -1,13 +1,4 @@
 
-https://www.v500.com/false-positive-false-negative-true-positive-and-true-negative/ true positive etc
-
-https://osintframework.com/ osint framework
-
-
-
-https://developer.cisco.com/docs/ APIs y demas sdwaun dna center
-
-https://developer.cisco.com/docs/dna-center/#!cisco-dna-center-platform-overview dna overview
 
 
 <!--
@@ -1235,6 +1226,17 @@ Fz3r0 Cyber-Weaponry Crafting, Tools Programming & Open Source Projects
     - [Useragent Manager & Switcher](https://add0n.com/useragent-switcher.html)
     - [Foxy Proxy]()
  
+ 
+ 
+https://www.v500.com/false-positive-false-negative-true-positive-and-true-negative/ true positive etc
+
+https://osintframework.com/ osint framework
+
+
+
+https://developer.cisco.com/docs/ APIs y demas sdwaun dna center
+
+https://developer.cisco.com/docs/dna-center/#!cisco-dna-center-platform-overview dna overview
 
 
 _The world is a messy place, at least you now have a way of choosing a path... right?..._
