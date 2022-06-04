@@ -613,16 +613,26 @@ Guides, Tips & Tricks, Downloads, Training, Crafting, Arsenal, Binaries, Executa
  
 ### ♻️ 🧬 🤖 Network Automation 🤖 🧬 ♻️
 Network Automation is a cross between the discipline of Network Infrastructure and the discipline of Programming. 
+ 
+- Cisco DNA Center
 
-- [CiscoDevNet - Notwork Automation & Programmability Basics](https://github.com/CiscoDevNet/netprog_basics)
-- [Awesome Network Automation](https://github.com/networktocode/awesome-network-automation) _This list was created to serve as a one-stop shop for information related to Network Automation._ 
-- [Awesome Network Automation & Programmability](https://github.com/cisco-ie/awesome-network-programmability) _A curated list of resources and packages for networking programmability and automation_
-- [Python Code Samples for Network Automation](https://github.com/CiscoDevNet/python_code_samples_network) _A collection of Python Code Samples for Network Management._ 
-- [Network Automation @ NAPALM](https://github.com/Fz3r0/napalm) _Network Automation and Programmability Abstraction Layer with Multivendor support_
-- [Network Automation @ Trigger](https://github.com/Fz3r0/trigger)
-- [Automate Cisco IOS Commands](https://github.com/cbferguson/cisco_commands) _@ Python_
-- [Auto-Configure Cisco Routers](https://github.com/sumitmcc/auto-configure-cisco) _@ Python_
-- [Auto Secure Firewall](https://github.com/CiscoDevNet/secure-firewall) _Templates and Automation Resources for Cisco Secure Firewall on diverse cloud platforms._ 
+    - [Cisco DevNet Sandbox](https://devnetsandbox.cisco.com/RM/Topology?c=14ec7ccf-2988-474e-a135-1e90b9bc6caf)
+ 
+- Cisco SD-WAN
+ 
+    - [Cisco SD-WAN Sandbox](https://devnetsandbox.cisco.com/RM/Topology?c=14ec7ccf-2988-474e-a135-1e90b9bc6caf) 
+
+- Network Automation Bibles
+
+    - [CiscoDevNet - Notwork Automation & Programmability Basics](https://github.com/CiscoDevNet/netprog_basics)
+    - [Awesome Network Automation](https://github.com/networktocode/awesome-network-automation) _This list was created to serve as a one-stop shop for information related to Network Automation._ 
+    - [Awesome Network Automation & Programmability](https://github.com/cisco-ie/awesome-network-programmability) _A curated list of resources and packages for networking programmability and automation_
+    - [Python Code Samples for Network Automation](https://github.com/CiscoDevNet/python_code_samples_network) _A collection of Python Code Samples for Network Management._ 
+    - [Network Automation @ NAPALM](https://github.com/Fz3r0/napalm) _Network Automation and Programmability Abstraction Layer with Multivendor support_
+    - [Network Automation @ Trigger](https://github.com/Fz3r0/trigger)
+    - [Automate Cisco IOS Commands](https://github.com/cbferguson/cisco_commands) _@ Python_
+    - [Auto-Configure Cisco Routers](https://github.com/sumitmcc/auto-configure-cisco) _@ Python_
+    - [Auto Secure Firewall](https://github.com/CiscoDevNet/secure-firewall) _Templates and Automation Resources for Cisco Secure Firewall on diverse cloud platforms._ 
 
 
 
