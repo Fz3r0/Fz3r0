@@ -145,7 +145,36 @@ alter table usuario modify column id int AUTO_INCREMENT;
 
     - ![image](https://user-images.githubusercontent.com/94720207/171967529-7b91bde4-61ee-4ddc-8f43-484a3e41fe98.png)
  
-- Listo! Tengo la `primary key` establecida de porfa `autoincremental`, ahora ya podría ir agregando campos y que el `id` se genere automaticamente. 
+- Listo! Tengo la `primary key` establecida de porfa `autoincremental`, ahora ya podría ir agregando campos y que el `id` se genere automaticamente.
+
+- Ahora si yo agrego campos, no importa que me falte alguno (como edad), lo importante es que ya todos llevarán su `id` o `primary key` automáticmanete de manera incremental, fácil, rápido y así nunca se repetirá:
+
+    - ![image](https://user-images.githubusercontent.com/94720207/171967910-de1e37da-37fa-4ac0-80ff-1adb051b4341.png)
+
+- Por ejemplo, un comando donde si llene todos los campos:
+
+```sql
+insert into usuario (email, username, edad) 
+values ('anon@protonmail.com', 'An0n', 88);
+```
+
+- ![image](https://user-images.githubusercontent.com/94720207/171968138-41462e1f-e703-420b-9303-88a86d8b9ad5.png)
+
+## Instrucción `where`
+
+- Sirve para filtrar cuando queremos buscar algo con ciertas condiciones.
+
+    - `*` = todo
+
+    Ejemplos:
+
+```sql
+select * from usuario;
+```
+- `seleccionar > todo(*) > de > tabla(usuario)`
+
+
+
 
 
 
