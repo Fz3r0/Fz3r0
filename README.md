@@ -179,10 +179,12 @@ I invite you to enter the links of my social networks that I've placed above inc
 <p align="center"> <a href="https://app.hackthebox.com/profile/897009" target="_blank" rel="noreferrer"> <img src="https://user-images.githubusercontent.com/94720207/168684431-57d1290f-ab73-4daf-b9b1-a2688f64ed4e.png" alt="htb"> </a> </p> 
 
 ---
- 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=fz3r0&hide=contribs,prs&show_icons=true&theme=chartreuse-dark) 
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&layout=compact&theme=chartreuse-dark)](https://github.com/anuraghazra/github-readme-stats)
+<span align="center"> <p align="center"> ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=fz3r0&hide=contribs,prs&show_icons=true&theme=chartreuse-dark) </p> </span> 
+ 
+
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&layout=compact&theme=chartreuse-dark&langs_count=10)
  
 ![count](https://komarev.com/ghpvc/?username=fz3r0&color=brightgreen) 
  
