@@ -784,7 +784,7 @@ _I have mastered the ultimate technology, the hability to alter physical reality
 
 ### 🖧 ⏩ 🦘 Pivoting & Port Forwarding 🦘 ⏩ 🖧  
  
-    - [Pivot & Tunnel OSCP](https://www.youtube.com/watch?v=dIqoULXmhXg)
+- [Pivot & Tunnel OSCP](https://www.youtube.com/watch?v=dIqoULXmhXg)
  
 ### Buffer Overflow (OSCP Style)
 
