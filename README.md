@@ -534,6 +534,7 @@ Guides, Tips & Tricks, Downloads, Training, Crafting, Arsenal, Binaries, Executa
             - [**Wireshark - Troubleshooting Slow Networks - Presented by Megalodon Chris Greer @ UC Berkeley**](https://www.youtube.com/watch?v=h9stVIfug5Y)
             - [**Wireshark Map IP Address Locations @ GeoIP**](https://www.youtube.com/watch?v=IlVppluWTHw)
             - [**Wireshark - Analyzing Botnet Attack Activity + Geolocalization @ Megalodon Chris Greer](https://www.youtube.com/watch?v=jFJMt-y6ZvU)
+            - [**Wireshark - Analizyng a Hacked Webserver (HTB) @ M.Hadam**](https://www.youtube.com/watch?v=oh6gKrXsWGs)
  
         - **tcpdump** 
  
