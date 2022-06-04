@@ -162,6 +162,8 @@ I invite you to enter the links of my social networks that I've placed above inc
 ** =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=- Hacking Challenges & Attack Boxes 
 *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
 
+https://www.hackthebox.com/badge/image/897009
+
 -->
 
 --- 
@@ -180,16 +182,15 @@ I invite you to enter the links of my social networks that I've placed above inc
 
 ---
 
+<h3 align="center">GitHub Stats</h3>
+ 
 <span align="center"> <p align="center"> ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=fz3r0&hide=contribs,prs&show_icons=true&theme=chartreuse-dark) </p> </span> 
- 
 
+<span align="center"> <p align="center"> ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&layout=compact&theme=chartreuse-dark&langs_count=10) </p> </span> 
+  
+<span align="center"> <p align="center"> ![count](https://komarev.com/ghpvc/?username=fz3r0&color=brightgreen)  </p> </span> 
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&layout=compact&theme=chartreuse-dark&langs_count=10)
- 
-![count](https://komarev.com/ghpvc/?username=fz3r0&color=brightgreen) 
- 
- 
-_“Welcome to my house! Enter freely. Go safely, and leave something of the happiness you bring...”_
+<span align="center"> <p align="center"> _“Welcome to my house! Enter freely. Go safely, and leave something of the happiness you bring...”_  </p> </span>  
 
 --- 
  
