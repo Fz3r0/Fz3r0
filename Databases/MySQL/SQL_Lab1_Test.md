@@ -75,7 +75,7 @@
     
     - ![image](https://user-images.githubusercontent.com/94720207/171768299-502d0d8c-b196-4ddc-81c9-726153e9c2fe.png)
 
-## Insert y Update Table
+## Instrucción `Insert` 
 
 - Insertar `valores` dentro de los `campos` correspondientes en una `tabla`
 
@@ -160,6 +160,26 @@ values ('anon@protonmail.com', 'An0n', 88);
 
 - ![image](https://user-images.githubusercontent.com/94720207/171968138-41462e1f-e703-420b-9303-88a86d8b9ad5.png)
 
+- Pero quedó una edad vacía, hay manera de agregar esa edad faltante con `update:`
+
+## Instrucción Update
+
+- Si yo quisiera actualizar un campo o una tabla (por ejemplo `edad`) se puede utilizar `update` por ejemplo:
+
+    - ![image](https://user-images.githubusercontent.com/94720207/171969861-c414fb4d-1317-4f0f-92a9-1f34328c3cdd.png)
+
+```sql
+update fz3r0_test01.usuario set edad = 18 where (id = '1');
+update fz3r0_test01.usuario set edad = 88 where (id = '2');
+```
+
+- Tip: Esto también se puede hacer desde el workbench:
+
+    - ![image](https://user-images.githubusercontent.com/94720207/171970002-00c07aa6-796e-4a31-bb02-6d6983891b45.png)
+
+    - ![image](https://user-images.githubusercontent.com/94720207/171970021-ba9c777f-b2a9-4d95-925e-eb9665a69616.png)
+
+
 ## Instrucción `where`
 
 - Sirve para filtrar cuando queremos buscar algo con ciertas condiciones.
@@ -183,6 +203,13 @@ select * from usuario where email = 'anon@protonmail.com';
 
 - ![image](https://user-images.githubusercontent.com/94720207/171968264-48f00a70-f4d9-4a88-b023-85886ab14473.png)
 
+- Otro filtro muy útil es agregar `where` donde se especifiquen 2 campos diferentes (o más), 
+
+    - Por ejemplo:
+
+```sql
+select * from usuario where edad = 'anon@protonmail.com';
+```
 
 
 
