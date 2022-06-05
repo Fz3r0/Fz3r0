@@ -1124,6 +1124,7 @@ Fz3r0 Cyber-Weaponry Crafting, Tools Programming & Open Source Projects
 
     - [Microsoft Event Viewer Introduction](https://docs.microsoft.com/en-us/shows/inside/event-viewer) 
     - [How to use Event Viewer in Windows 10](https://www.windowscentral.com/how-use-event-viewer-windows-10)
+    - [Microsoft - Event Logging Full Documentation](https://docs.microsoft.com/en-us/windows/win32/eventlog/event-logging)
     - [Ultimate Windows Security](https://www.ultimatewindowssecurity.com/)
     - [Common Theats detected on Windows Event Logs](https://blueteamblog.com/threat-hunting-with-windows-security-event-logs)
 
