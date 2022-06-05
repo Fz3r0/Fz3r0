@@ -1229,12 +1229,18 @@ Fz3r0 Cyber-Weaponry Crafting, Tools Programming & Open Source Projects
 - [advanced-archive-password-recovery-4-54-110.zip]()
 - [LaunchPad - Debian](https://launchpad.net/) 
 
-- Brownser Extensions
+- **Brownser Extensions for Hacking**
 
-    - Wappalyzer
-    - Cookie-Editor
+    - [Wappalyzer]() _Site profiler tool_
+    - [BuiltWith](https://addons.mozilla.org/en-US/firefox/addon/builtwith/) _Site profiler tool_ 
+    - [Cookie-Editor]()
     - [Useragent Manager & Switcher](https://add0n.com/useragent-switcher.html)
     - [Foxy Proxy]()
+    - [Tamper Data for FF Quantum](https://addons.mozilla.org/en-US/firefox/addon/tamper-data-for-ff-quantum/) _Monitor live requests, Edit headers on live requests, Cancel live requests, Redirect live requests._
+    - [IP Address and Domain Information](https://addons.mozilla.org/en-US/firefox/addon/ip-address-and-domain-info/)
+    - [Permission to Hack]() _This extension crawls the security.txt of each website you visit._
+    - [KNOXSS Community Edition by Brute Logic](https://addons.mozilla.org/en-US/firefox/addon/knoxss-community-edition/) _Tool for XSS (Cross-Site Scripting) discovery._
+
  
  
  
