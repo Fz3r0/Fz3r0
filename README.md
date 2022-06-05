@@ -1151,8 +1151,9 @@ Fz3r0 Cyber-Weaponry Crafting, Tools Programming & Open Source Projects
  
 ### Malware Black Bibles & Databases
   
-- https://github.com/Fz3r0/theZoo
 - [VX-Underground (PASS: infected)](https://www.vx-underground.org/)_The largest collection of malware source code, samples, and papers on the internet._
+- [The Zoo](https://github.com/Fz3r0/theZoo)
+- [Malware Samples](https://github.com/973771793/malware-samples-1)
 - [Malware Traffic Analysis PCAPs (PASS: infected)](https://malware-traffic-analysis.net/2020/05/28/index.html) _Almost every post on this site has pcap files or malware samples (or both)._
 - [Malware Samples & Sources](https://github.com/Fz3r0/Malware-Sample-Sources) _Malware Archives & Databases_
 - https://github.com/Fz3r0/CuteVirusCollection
@@ -1168,6 +1169,11 @@ Fz3r0 Cyber-Weaponry Crafting, Tools Programming & Open Source Projects
 - [Basic Malware Code in C#](https://www.youtube.com/watch?v=QqdHFVm9H2M) 
   
 ### fz3r0 - My Malware 
+
+### Malware Analysis
+
+- [Linux para analizar Malware](https://www.youtube.com/watch?v=LaT4qoz1Gnw)
+- [REMnux: A Linux Toolkit for Malware Analysis - Usage Tips](https://zeltser.com/remnux-malware-analysis-tips/)
   
 ### Malware Codes, Scripts, Reversed & Open Source
   
