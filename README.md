@@ -1184,6 +1184,13 @@ Fz3r0 Cyber-Weaponry Crafting, Tools Programming & Open Source Projects
 
 - [Linux para analizar Malware](https://www.youtube.com/watch?v=LaT4qoz1Gnw)
 - [REMnux: A Linux Toolkit for Malware Analysis - Usage Tips](https://zeltser.com/remnux-malware-analysis-tips/)
+
+- Malware Analysis Tools
+
+    - YARA
+    
+        - [Yara Full Documentation](https://yara.readthedocs.io/en/latest/) 
+        - [YARA - Simple effective way dissecting malware](https://resources.infosecinstitute.com/topic/yara-simple-effective-way-dissecting-malware/)
   
 ### Malware Codes, Scripts, Reversed & Open Source
   
