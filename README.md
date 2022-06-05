@@ -853,7 +853,7 @@ _I have mastered the ultimate technology, the hability to alter physical reality
 
 - XSS Guides, Writeups & Labs:
     
-    - [Javascript Full Guide]()
+    - [Brute Logic - Brute XSS Bible](https://brutelogic.com.br/blog/) _Master the art of Cross Site Scripting._
     - [Laboratorio XSS en formulario sencillo](https://www.youtube.com/watch?v=uoD0QGFzPvs)
     - [XSS Práctica > A. Caballero](https://www.youtube.com/watch?v=lqcWIFUExNA) 
 
