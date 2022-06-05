@@ -1041,6 +1041,7 @@ Fz3r0 Cyber-Weaponry Crafting, Tools Programming & Open Source Projects
     - [Javascript Full writeup by Fz3r0]()
     - [Javascript - The Original Source, the bibles of bibles](https://www.javascript.com/)
     - [W3 Schools - CSS Bible](https://www.w3schools.com/js/DEFAULT.asp)
+    - [DOM model easy!](https://www.w3.org/TR/REC-DOM-Level-1/introduction.html)
 
 - Javascript Resources & Scripts
 
