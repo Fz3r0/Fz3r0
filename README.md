@@ -294,7 +294,6 @@ Tables, Lists, Models, Cheat-Sheets, Mind-Maps & Resources
 - [**Cisco** Networking Infraestructure **CLI/IOS** - **Command Bible**](/Networking/Dark-Wizardy-for-Networking-&-NetSec/Cisco-IOS-Command-Bible-Routing-&-Switching.md) _My CCNA+CCNP Commands & Configurations Pocket Bible_
 - [Networking List 01 - facyber](https://github.com/facyber/awesome-networking) 
 - [Awesome **Mesh Networking**](https://github.com/moarpepes/awesome-mesh) _Documentation, Free Software mesh protocols, and applications._
-- [Awesome **SDN**](https://github.com/sdnds-tw/awesome-sdn) _An awesome list about Software Defined Networks (SDN)_ 
 - [TCP-IP Hybrid Model by Fz3r0 (TCP+OSI)](/Networking/Knowledge/Tables-Models-Cheatsheets/Tables-Models/TCP-IP-Model-fz3r0_Hybrid.md) _A model I made with love for TCP-IP/OSI, all in one! :)_
 - [Reserved IPv4 & IPv6 Addresses by Fz3r0](/Networking/Knowledge/Tables-Models-Cheatsheets/Tables-Models/reserved_ip_fz3r0.md)
 - [TCP / UDP : PORT Numbers / Protocols](https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers)
@@ -615,7 +614,11 @@ Guides, Tips & Tricks, Downloads, Training, Crafting, Arsenal, Binaries, Executa
  
 ### ♻️ 🧬 🤖 Network Automation 🤖 🧬 ♻️
 Network Automation is a cross between the discipline of Network Infrastructure and the discipline of Programming. 
+
+- Software Defined Networks (SDN) 
  
+    - [Awesome **SDN**](https://github.com/sdnds-tw/awesome-sdn) _An awesome list about Software Defined Networks (SDN)_ 
+
 - Cisco DNA Center
 
     - [Cisco DevNet Sandbox](https://devnetsandbox.cisco.com/RM/Topology?c=14ec7ccf-2988-474e-a135-1e90b9bc6caf)
@@ -626,7 +629,7 @@ Network Automation is a cross between the discipline of Network Infrastructure a
 
 - Network Automation Bibles
 
-    - [CiscoDevNet - Notwork Automation & Programmability Basics](https://github.com/CiscoDevNet/netprog_basics)
+    - [Cisco DevNet - Notwork Automation & Programmability Basics](https://github.com/CiscoDevNet/netprog_basics)
     - [Awesome Network Automation](https://github.com/networktocode/awesome-network-automation) _This list was created to serve as a one-stop shop for information related to Network Automation._ 
     - [Awesome Network Automation & Programmability](https://github.com/cisco-ie/awesome-network-programmability) _A curated list of resources and packages for networking programmability and automation_
     - [Python Code Samples for Network Automation](https://github.com/CiscoDevNet/python_code_samples_network) _A collection of Python Code Samples for Network Management._ 
