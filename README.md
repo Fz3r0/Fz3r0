@@ -714,12 +714,14 @@ _I have mastered the ultimate technology, the hability to alter physical reality
     - [trickest CVE](https://github.com/trickest/cve) _Almost every publicly available CVE PoC._
     - [PoC finder in Github](https://github.com/trickest/find-gh-poc) _Finds CVE PoCs on Github._
 
-### Exploits
+### Vulnerabilities & Exploits
 
-- **Common Exploits for CTFs, CVE & Wild Vulns**
+- **Common & Recent Exploits for CTFs, CVEs & Wild Vulns**
 
-    - SSH > [SSH Login Exploit - Bruteforce with Metasploit](https://www.youtube.com/watch?v=DjkED8AFz2s) 
-
+    - [SSH > SSH Login Exploit - Bruteforce with Metasploit](https://www.youtube.com/watch?v=DjkED8AFz2s) 
+    - [CVE-2022-26923 > Active Directory Certificates]()
+    - [CVE-2022-22965 > Spring4Shell (java)]()
+ 
 ### Network Intelligence Communities
  
 - SANS (SysAdmin, Audit, Network, Security)
