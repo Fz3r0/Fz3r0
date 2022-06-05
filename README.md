@@ -775,13 +775,16 @@ _I have mastered the ultimate technology, the hability to alter physical reality
     - [dirbuster]()                                                        
                                                         
 - **Wordlists**
+
+    - Custom Wordlists & Tools
+        - [Crunch > Creating a **Custom Wordlist** @ Hackers Arise](https://www.hackers-arise.com/creating-a-custom-wordlist-with-cru)  
     
     - Usernames
-        - [Seclist > Common, Leaked & Default Usernames](https://github.com/danielmiessler/SecLists/tree/master/Usernames)
+        - [Seclist > **Common, Leaked & Default Usernames**](https://github.com/danielmiessler/SecLists/tree/master/Usernames)
     
     - Passwords
-        - [Seclist > Bibles, Cracked Hashes, Leaks, Databases, WiFi-WPA, ](https://github.com/danielmiessler/SecLists/tree/master/Passwords)
-        - [National Cyber Security Center > Top 100,000 used Passwords](https://www.ncsc.gov.uk/static-assets/documents/PwnedPasswordsTop100k.txt)
+        - [Seclist > **Bibles, Cracked Hashes, Leaks, Databases, WiFi-WPA** ](https://github.com/danielmiessler/SecLists/tree/master/Passwords)
+        - [National Cyber Security Center > **Top 100,000 used Passwords**](https://www.ncsc.gov.uk/static-assets/documents/PwnedPasswordsTop100k.txt)
     
     - Discovery
         - [Seclist > DNS, File System, Web Content, Directory, URL, Infraestructure, Variables](https://github.com/danielmiessler/SecLists/tree/master/Discovery)
