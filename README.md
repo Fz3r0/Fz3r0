@@ -938,9 +938,16 @@ Fz3r0 Cyber-Weaponry Crafting, Tools Programming & Open Source Projects
 - [Batch]
 
 - [Bash]
+
+    - Guides & Resources
  
-    - [Git Bash - Git for Windows](https://git-scm.com/downloads) _Bash shell in Windows!_
-    - [Bash Scripting para Pentesting](https://www.youtube.com/watch?v=J4AmDXw1voo)
+        - [Git Bash - Git for Windows](https://git-scm.com/downloads) _Bash shell in Windows!_
+        - [Bash Scripting para Pentesting](https://www.youtube.com/watch?v=J4AmDXw1voo)
+    
+    - Scripts
+    
+        - Pentesting > [boot & Enum](https://github.com/rkpr0xy13/recon-boot.sh/blob/main/boot.sh) 
+        - Pentesting > [boot & Enum](https://github.com/rkpr0xy13/recon-boot.sh/blob/main/boot.sh) 
 
 - [Go]
 
