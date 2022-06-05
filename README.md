@@ -814,6 +814,7 @@ _I have mastered the ultimate technology, the hability to alter physical reality
  
 - **Active Directory PrivEsc (Windows Server)**
 
+    - [Active Directory PrivEsc - OSCP Methodology @ Conda](https://www.xmind.net/m/5dypm8/)
     - [Windows Server | Pergamino I](https://github.com/Fz3r0/Checklists_PrivEsc) _Detailed Checklist for Windows Server PrivEsc & Scenarios_ 
     - [Active Directory Exploitation Cheat-Sheet by Tib3rius](https://github.com/Tib3rius/Active-Directory-Exploitation-Cheat-Sheet)
 
