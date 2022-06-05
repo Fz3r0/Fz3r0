@@ -932,6 +932,7 @@ _I have mastered the ultimate technology, the hability to alter physical reality
 - Path Traversal
 
     - [PHP File Get Contents Function](https://www.php.net/manual/en/function.file-get-contents.php)  
+    - [File Inclusion & Path Traversal Tutorial @ M.Hamdam](https://www.youtube.com/watch?v=bMnuXZ70YdU)
 
 - Local File Inclusion (LFI)
 
