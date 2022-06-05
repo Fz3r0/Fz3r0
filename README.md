@@ -1128,6 +1128,10 @@ Fz3r0 Cyber-Weaponry Crafting, Tools Programming & Open Source Projects
     - [Ultimate Windows Security](https://www.ultimatewindowssecurity.com/)
     - [Common Theats detected on Windows Event Logs](https://blueteamblog.com/threat-hunting-with-windows-security-event-logs)
 
+- Windows wevtutil.exe
+
+    - [Microsoft - wevtutil full Documentation](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/wevtutil) 
+
 - SIEMs
  
     - [SIEM - What is a SIEM? @ Varonis Security](https://www.varonis.com/blog/what-is-siem) _SIEM Introduction_
