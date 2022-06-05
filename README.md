@@ -132,7 +132,11 @@ I invite you to enter the links of my social networks that I've placed above inc
 
 <h3 align="center">Network Infraestructure:</h3>
 
-<p align="center"> <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/6/64/Cisco_logo.svg" alt="cisco" width="7%" height="auto"/> </a> <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"> <img src="https://ruckus-shared-webassets.s3.amazonaws.com/logos/commscope_logo_white.png" alt="ruckus-commscope" width="13.5%" height="auto"/> </a> <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"> <img src="https://logodix.com/logo/355489.png" alt="ruckus" width="10%" height="auto"/> </a> <img src="https://www.atomit.com.sg/wp-content/uploads/2017/02/Logo_Aruba.png" alt="Aruba" width="9%" height="auto"/>
+<p align="center"> <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"> <img src="https://www.thedesigngym.com/wp-content/uploads/2019/05/cisco-logo-transparent-1024x542.png" alt="cisco" height=45px/> </a> <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"> <img src="https://ruckus-shared-webassets.s3.amazonaws.com/logos/commscope_logo_white.png" alt="ruckus-commscope" height=45px/> </a> <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"> <img src="https://logodix.com/logo/355489.png" alt="ruckus" height=38px/> &emsp; <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer">  <img src="https://www.innquest.com/wp-content/uploads/2021/09/rgnets.png" alt="rgnets" height=30px/> </a> &emsp; <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"> <img src="https://www.annualreports.com/HostedData/CompanyLogos/NASDAQ_ARRS.png" alt="rgnets" height=30px/> </a>                          </p> 
+
+
+ 
+ </a> <img src="https://www.atomit.com.sg/wp-content/uploads/2017/02/Logo_Aruba.png" alt="Aruba" width="9%" height="auto"/>
   
  <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"> <img src="https://images.credly.com/size/340x340/images/70d71df5-f3dc-4380-9b9d-f22513a70417/CCNAITN__1_.png" alt="Netacad1" width="5%" height="auto"/>
 
@@ -140,7 +144,7 @@ I invite you to enter the links of my social networks that I've placed above inc
 
 </p>
 
-<p align="center"> <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"> <img src="https://www.innquest.com/wp-content/uploads/2021/09/rgnets.png" alt="Fluke" width="7%" height="auto"/> </a> </p>
+
   
 <!--
 
