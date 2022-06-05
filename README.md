@@ -816,9 +816,14 @@ _I have mastered the ultimate technology, the hability to alter physical reality
  
 - **Active Directory PrivEsc (Windows Server)**
 
-    - [Active Directory PrivEsc - OSCP Methodology @ Conda](https://www.xmind.net/m/5dypm8/)
+    - [**Active Directory PrivEsc - OSCP Methodology** @ Conda](https://www.xmind.net/m/5dypm8/)
+    - [How to **Setup a Virtual Windows Active Directory Domain**](https://www.youtube.com/watch?v=Bm3mihQNGI4&list=PLDrNMcTNhhYqZj7WZt2GfNhBDqBnhW6AT&index=2)
+    - [**Bloodhound** > Attacking Active Directory](https://www.youtube.com/watch?v=aJqjH3MsbLM&list=PLDrNMcTNhhYqZj7WZt2GfNhBDqBnhW6AT&index=3)
+    - [**AS-REP Roasting** > Attacking Active Directory](https://www.youtube.com/watch?v=EVdwnBFtUtQ&list=PLDrNMcTNhhYqZj7WZt2GfNhBDqBnhW6AT&index=4)
+    - [**Kerberoasting** > Attacking Active Directory](https://www.youtube.com/watch?v=-3MxoxdzFNI&list=PLDrNMcTNhhYqZj7WZt2GfNhBDqBnhW6AT&index=5)
+    - [**GPP Credentials** > Attacking Active Directory](https://www.youtube.com/watch?v=sTedpt47t2Y&list=PLDrNMcTNhhYqZj7WZt2GfNhBDqBnhW6AT&index=6)
     - [Windows Server | Pergamino I](https://github.com/Fz3r0/Checklists_PrivEsc) _Detailed Checklist for Windows Server PrivEsc & Scenarios_ 
-    - [Active Directory Exploitation Cheat-Sheet by Tib3rius](https://github.com/Tib3rius/Active-Directory-Exploitation-Cheat-Sheet)
+    - [**Active Directory Exploitation Cheat-Sheet** @ Tib3rius](https://github.com/Tib3rius/Active-Directory-Exploitation-Cheat-Sheet)
 
 ### 🖧 ⏩ 🦘 Pivoting & Port Forwarding 🦘 ⏩ 🖧  
  
