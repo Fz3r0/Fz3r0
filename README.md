@@ -150,6 +150,33 @@ I invite you to enter the links of my social networks that I've placed above inc
 
 &nbsp;
   
+
+
+
+  
+  
+<h3 align="center">Operating Systems & SysAdmin:</h3> 
+ 
+<p align="center"> <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"> <img src="https://user-images.githubusercontent.com/94720207/172065078-596bb11c-1218-4629-b2a6-475a7f198d44.png" alt="Linux" height=50px/> </a>  &emsp;  <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"> <img src="https://user-images.githubusercontent.com/94720207/172065654-f65358d4-599a-4751-a5b0-2d15371bb85a.png" alt="Linux" height=50px/> </a> <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"> <img src="https://i0.wp.com/skinpacks.com/wp-content/uploads/2020/08/Untitled-2.png" alt="cisco" height=45px/> </a> <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"> <img src="https://user-images.githubusercontent.com/94720207/172065746-db399e10-2483-4056-b551-f92f4672e7bd.png" alt="cisco" height=45px/> </a> 
+ 
+ 
+ 
+ 
+ 
+ <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"> <img src="https://i0.wp.com/skinpacks.com/wp-content/uploads/2020/08/Untitled-2.png" alt="cisco" height=45px/> </a>              </p>
+  
+  
+  
+  
+()
+
+  
+  
+  
+  
+  
+  
+  
 <!--
 
 
