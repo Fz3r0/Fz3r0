@@ -776,18 +776,20 @@ _I have mastered the ultimate technology, the hability to alter physical reality
                                                         
 - **Wordlists**
     
-    - [Usernames]()
+    - Usernames
         - [Seclist > Common, Leaked & Default Usernames](https://github.com/danielmiessler/SecLists/tree/master/Usernames)
     
-    - [Passwords]()
+    - Passwords
         - [Seclist > Bibles, Cracked Hashes, Leaks, Databases, WiFi-WPA, ](https://github.com/danielmiessler/SecLists/tree/master/Passwords)
         - [National Cyber Security Center > Top 100,000 used Passwords](https://www.ncsc.gov.uk/static-assets/documents/PwnedPasswordsTop100k.txt)
     
-    - [Discovery]()
+    - Discovery
         - [Seclist > DNS, File System, Web Content, Directory, URL, Infraestructure, Variables](https://github.com/danielmiessler/SecLists/tree/master/Discovery)
     
     - [Services]()
+    
     - [Devices]() 
+        - [**Default Passwords** for Nearly Every **SCADA System**](https://www.hackers-arise.com/post/2016/09/21/Scada-Hacking-Default-Passwords-for-Nearly-Every-SCADA-System)
 
 ### 🔝 👑 ⏫ Privilege Escalation ⏫ 👑 🔝 
   
