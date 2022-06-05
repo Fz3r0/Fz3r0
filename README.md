@@ -1120,17 +1120,26 @@ Fz3r0 Cyber-Weaponry Crafting, Tools Programming & Open Source Projects
 
 ### Security Operations & Monitoring 
 
-- Windows Event Logs
+- Windows: Event Logs
 
     - [Microsoft Event Viewer Introduction](https://docs.microsoft.com/en-us/shows/inside/event-viewer) 
     - [How to use Event Viewer in Windows 10](https://www.windowscentral.com/how-use-event-viewer-windows-10)
     - [Microsoft - Event Logging Full Documentation](https://docs.microsoft.com/en-us/windows/win32/eventlog/event-logging)
     - [Ultimate Windows Security](https://www.ultimatewindowssecurity.com/)
     - [Common Theats detected on Windows Event Logs](https://blueteamblog.com/threat-hunting-with-windows-security-event-logs)
+    - [EVTX-Attack Samples](https://github.com/sbousseaden/EVTX-ATTACK-SAMPLES) _Scripting Security and Protection Advances_
+    - [Powershell - The Blue Team](https://devblogs.microsoft.com/powershell/powershell-the-blue-team/)
+    - [Tampering with Windows Event Tracing: Background, Offense, and Defense](https://blog.palantir.com/tampering-with-windows-event-tracing-background-offense-and-defense-4be7ac62ac63)
 
-- Windows wevtutil.exe
+- Windows: wevtutil.exe
 
     - [Microsoft - wevtutil full Documentation](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/wevtutil) 
+
+- Windows: Get-WinEvent 
+
+    - [Microsoft - Get-WinEvent full Documentation](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.diagnostics/get-winevent?view=powershell-5.1)
+    - [Creating Get-WinEvent queries with FilterHashtable](https://docs.microsoft.com/en-us/powershell/scripting/samples/Creating-Get-WinEvent-queries-with-FilterHashtable?view=powershell-7.2&viewFallbackFrom=powershell-7.1)
+    - [Create, use, and sort hash tables in PowerShell](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_hash_tables?view=powershell-7.2&viewFallbackFrom=powershell-7.1)
 
 - SIEMs
  
