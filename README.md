@@ -926,6 +926,24 @@ _I have mastered the ultimate technology, the hability to alter physical reality
  
     - [SQL Map]()
     - [SQLinjection TimeBased PWN! @ Fz3r0](https://github.com/Fz3r0/fz3r0-SQLinjection-TimeBased-Python) _SQLi Time bases Python Script made by me!_
+
+### File Inclusion
+
+- Path Traversal
+
+    - [PHP File Get Contents Function](https://www.php.net/manual/en/function.file-get-contents.php)  
+
+- Local File Inclusion (LFI)
+
+    - []()  
+
+- Remote File Inclusion (RFI)
+
+    - []()
+
+- Remediation & Defending against File Inclusion
+
+    - []() 
     
 ### Server-Side Request Forgery (SSRF)
 
