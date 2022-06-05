@@ -828,6 +828,7 @@ _I have mastered the ultimate technology, the hability to alter physical reality
 
 - [Meta OSINT](https://metaosint.github.io/table/) _The full list of 4,000+ OSINT resources_ 
 - [OSINT Tool Connection @ Cyber Detective](https://github.com/cipher387/osint_stuff_tool_collection) _Sifferent services, techniques, tricks and notes about OSINT and more_
+- [Nos vemos en tu próxima publicación - Reflexión de la Privacidad en Redes Sociales @ Victor Ruiz](https://www.youtube.com/watch?v=tsSp7bHnW0Y) 
  
 ### Deep Web
 
