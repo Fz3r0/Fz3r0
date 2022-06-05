@@ -1119,7 +1119,14 @@ Fz3r0 Cyber-Weaponry Crafting, Tools Programming & Open Source Projects
     - [MISP Threat Sharing](https://www.misp-project.org/) _Software to facilitate threat analysis and sharing to freely usable structured Cyber Threat Information and Taxonomies._
 
 ### Security Operations & Monitoring 
-     
+
+- Windows Event Logs
+
+    - [Microsoft Event Viewer Introduction](https://docs.microsoft.com/en-us/shows/inside/event-viewer) 
+    - [How to use Event Viewer in Windows 10](https://www.windowscentral.com/how-use-event-viewer-windows-10)
+    - [Ultimate Windows Security](https://www.ultimatewindowssecurity.com/)
+    - [Common Theats detected on Windows Event Logs](https://blueteamblog.com/threat-hunting-with-windows-security-event-logs)
+
 - SIEMs
  
     - [SIEM - What is a SIEM? @ Varonis Security](https://www.varonis.com/blog/what-is-siem) _SIEM Introduction_
