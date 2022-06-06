@@ -1027,17 +1027,20 @@ Fz3r0 Cyber-Weaponry Crafting, Tools Programming & Open Source Projects
 
     - [Compile C code in Linux](https://www.atechtown.com/c-program-in-linux/)
   
-- [Batch]
+- **Batch Shell & Scripting**
 
-- [Bash]
+- **Bash Shell & Scripting**
 
     - Guides & Resources
  
         - [Introducción al Bash/Shell Scripting @ D.Pereira](https://youtu.be/8X-2Kkqw3Wg)
         - [Shebang #! & Echo - which $SHELL | env](https://bytee.net/tutorials/bash-scripting-part-1)
+        - [Bash Scripting para Pentesting @ D.Pereira](https://www.youtube.com/watch?v=J4AmDXw1voo)
+
+    - Tools
+   
         - [Git Bash - Git for Windows](https://git-scm.com/downloads) _Bash shell in Windows!_
-        - [Bash Scripting para Pentesting](https://www.youtube.com/watch?v=J4AmDXw1voo)
-    
+   
     - Scripts
     
         - Pentesting > [boot & Enum](https://github.com/rkpr0xy13/recon-boot.sh/blob/main/boot.sh) 
