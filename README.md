@@ -1034,7 +1034,7 @@ Fz3r0 Cyber-Weaponry Crafting, Tools Programming & Open Source Projects
     - Guides & Resources
  
         - [Introducción al Bash/Shell Scripting @ D.Pereira](https://youtu.be/8X-2Kkqw3Wg)
-        - []()
+        - [Shebang #! & Echo - which $SHELL | env](https://bytee.net/tutorials/bash-scripting-part-1)
         - [Git Bash - Git for Windows](https://git-scm.com/downloads) _Bash shell in Windows!_
         - [Bash Scripting para Pentesting](https://www.youtube.com/watch?v=J4AmDXw1voo)
     
