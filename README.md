@@ -491,6 +491,11 @@ Guides for performing Penetration Attacks involving the Network Infrastructure E
     - Rogue Access Points
     - Man-in-the-Middle Attack (MITM)
     - [Log4j Vulnerability @ Unify Access PWN!](https://www.sprocketsecurity.com/blog/another-log4j-on-the-fire-unifi)
+
+- **Defending Wireless Networks**
+
+    - [SSID Cloaking and MAC Address Filtering](https://ccna-200-301.online/secure-wlans/)
+    - [Wireless Authentication Methods: Home & Enterprise](https://ccna-200-301.online/secure-wlans/)
  
 ### 📡 🦈 🐽 Networking Tools & Cyber-Weaponry 🐽 🦈 📡
 Guides, Tips & Tricks, Downloads, Training, Crafting, Arsenal, Binaries, Executables, Scripts, Open Source Codes
