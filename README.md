@@ -1047,6 +1047,7 @@ Fz3r0 Cyber-Weaponry Crafting, Tools Programming & Open Source Projects
    
     - Scripts
     
+        - [Most Basic Bash Script in the World](https://github.com/Fz3r0/Fz3r0-bash-scripting/blob/main/basic_bash_script.sh)
         - Pentesting > [boot & Enum](https://github.com/rkpr0xy13/recon-boot.sh/blob/main/boot.sh) 
         - Pentesting > [boot & Enum](https://github.com/rkpr0xy13/recon-boot.sh/blob/main/boot.sh) 
 
