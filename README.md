@@ -712,10 +712,9 @@ _I have mastered the ultimate technology, the hability to alter physical reality
 ### Hacking Treasure Maps
 Mind-Maps, Paradigms, Way-to-Go, Hints & Tricks for Seek & Exploit TICs!
 
-- [Hacking & Exploiting Everything! > Full Security Assessment: Mind-Map & Tools](https://user-images.githubusercontent.com/94720207/172204647-907b8081-dd55-4280-8549-04ffdbc443d2.png)
-)
+- [Hacking & Exploiting Everything! > Full Security Assessment: Mind-Map & Tools](https://user-images.githubusercontent.com/94720207/172204996-88d412b7-b271-432e-914b-53fb4e13ebd9.png)
 - [Bug Bounty Mind-Map & Tools](https://user-images.githubusercontent.com/94720207/172203574-65a0bedb-28dc-4361-a1ba-3c0b29687f09.png)
- 
+
 ### ✅ 🗄️ 📈 CVE, Vulnerabilities, Patches & PoC 📈 🗄️ ✅
 
 - CVE Databases
