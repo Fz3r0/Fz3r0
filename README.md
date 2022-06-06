@@ -579,8 +579,9 @@ Guides, Tips & Tricks, Downloads, Training, Crafting, Arsenal, Binaries, Executa
         
         - [Snort]() _The foremost IPS in the world supported by Cisco Talos_
 
-            - [Snort > Instalación en Kali y Configuración @ D.Pereira](https://www.youtube.com/watch?v=ap6TGO6PyIM&list=PL1Kv5m-HTbQzuWFK1GpjB3IHJHgnsAoS6&index=2)
-            - [Snort > Install on Debian](https://upcloud.com/resources/tutorials/installing-snort-on-debian)
+            - [Snort > Instalación(1) en Kali y Configuración @ D.Pereira](https://www.youtube.com/watch?v=ap6TGO6PyIM&list=PL1Kv5m-HTbQzuWFK1GpjB3IHJHgnsAoS6&index=2)
+            - [Snort > Instalación(2) {error fixes}](https://koayyongcett.medium.com/snort-installation-in-kali-linux-from-the-source-9a005558a2ea)
+            - [Snort > Install on Debian {error fixes II}](https://upcloud.com/resources/tutorials/installing-snort-on-debian)
             - [Snort > **Detección, Mitigación de Intrusiones y Threat Hunting**](https://www.youtube.com/watch?v=uU_GwKbGuZk&list=PL1Kv5m-HTbQzuWFK1GpjB3IHJHgnsAoS6&index=2)
             - [**Snort @ Cisco Talos - Introduction** by @ Hackersploit](https://www.youtube.com/watch?v=RzF5-fVz7Oc)    
             - [**Snort @ Cisco Talos - The foremost IDS + IPS in the world. Define malicious network activity.** by @ Fz3r0](/Networking/Networking-Tools-&-Weapons/Snort_by_Cisco-Talos_fz3r0.md)
