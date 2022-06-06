@@ -140,12 +140,25 @@
         - ![image](https://user-images.githubusercontent.com/94720207/172264766-5d7ba7d9-5d91-4031-b397-a4dd4dab948b.png)
      
     - If using DHCP, open a command window and renew your IP address with the `ipconfig /renew` command.
-    
-        - ![image](https://user-images.githubusercontent.com/94720207/172264844-a7a5c4ff-2c54-4c0f-9d66-882609096c79.png)
+ 
+         - ![image](https://user-images.githubusercontent.com/94720207/172264844-a7a5c4ff-2c54-4c0f-9d66-882609096c79.png)
+         
+         - ![image](https://user-images.githubusercontent.com/94720207/172265474-d64cd786-ae58-4708-a345-aea71476eb8d.png)
  
 6. Log in to the router with the new IP address.
 
-7. Click each step for more information and an example GUI.
+    - Enter the router’s new IP address to regain access to the router configuration GUI. 
+    
+    - You are now ready to continue configuring the router for wireless access.
+
+        - ![image](https://user-images.githubusercontent.com/94720207/172265661-d3f5ea71-dd4f-4dad-af78-f8f046e6cd10.png)
+        
+        - ![image](https://user-images.githubusercontent.com/94720207/172265730-82f7aa50-ad1b-447c-a506-ef0053ee2079.png)
+
+
+
+
+
 
 
 
