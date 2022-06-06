@@ -1334,6 +1334,7 @@ Fz3r0 Cyber-Weaponry Crafting, Tools Programming & Open Source Projects
 - [https://www.ddginc-usa.com/latlong.htm](https://www.ddginc-usa.com/latlong.htm)
 - [advanced-archive-password-recovery-4-54-110.zip]()
 - [LaunchPad - Debian](https://launchpad.net/) 
+- [Kali mirrorlist](https://http.kali.org/README.mirrorlist)
 
 
 
