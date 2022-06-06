@@ -119,9 +119,15 @@
  
 3. Log in with the new administrative password.
 
-    - 
+    - ![image](https://user-images.githubusercontent.com/94720207/172264250-9bc80f69-3553-47c7-9036-2181bde3f4cf.png)
+
+    - ![image](https://user-images.githubusercontent.com/94720207/172264285-8828e62b-88ac-4b56-9025-98e62f908955.png)
 
 4. Change the default DHCP IPv4 addresses.
+
+    - It is a best practice to use private IPv4 addressing inside your network. 
+    
+    - The IPv4 address `192.168.1.254` is used in the example but it could be **any private IPv4 address you choose.**
 
 5. Renew the IP address.
 
