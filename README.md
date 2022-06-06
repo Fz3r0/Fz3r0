@@ -1034,8 +1034,12 @@ Fz3r0 Cyber-Weaponry Crafting, Tools Programming & Open Source Projects
     - Guides & Resources
  
         - [Introducción al Bash/Shell Scripting @ D.Pereira](https://youtu.be/8X-2Kkqw3Wg)
-        - [Shebang #! & Echo - which $SHELL | env](https://bytee.net/tutorials/bash-scripting-part-1)
-        - [Bash Scripting para Pentesting @ D.Pereira](https://www.youtube.com/watch?v=J4AmDXw1voo)
+        - [Bash Scripting para Pentesting @ D.Pereira](https://www.youtube.com/watch?v=J4AmDXw1voo)         
+        - [Bash Scripting 1 - Shebang #! & Echo - which $SHELL | env](https://bytee.net/tutorials/bash-scripting-part-1)
+        - [Bash Scripting 2 - Environment Variables](https://bytee.net/tutorials/bash-scripting-part-1)
+        - [Bash Scripting 3 - Variables](https://bytee.net/tutorials/bash-scripting-part-1)
+        - [Bash Scripting 4 - Arithmetic Operations](https://bytee.net/tutorials/bash-scripting-part-1)
+
 
     - Tools
    
