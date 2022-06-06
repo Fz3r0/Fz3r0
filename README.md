@@ -440,6 +440,13 @@ Guides for performing Penetration Attacks involving the Network Infrastructure E
     - [E-Mail & Raw Source Analysis for Secure Theat detection](https://mediatemple.net/community/products/grid/204644060/how-do-i-view-email-headers-for-a-message)
     - [LAN-Security: Endpoints, Hosts, & Security Appliances](/Networking/Attacking-Denending-Network-Infraestructure/NetSec-Defensive-Tools/Security-&-Best-Practices-Configurations/LAN-Security_Endpoint-Host-Appliances.md)
 
+### Network Defense
+
+- [Pysical Security](ttps://contenthub.netacad.com/sgp/nad/1.0/en-US/m2//?xAPILaunchKey=377f9268274bcdd43676582161803000d313aac7477dc98c93643d6e8889d633&xAPILaunchService=https%3A%2F%2Fcontenthub.netacad.com%2Fkernel%2Fadl%2Fcontent%2F&lang=en-US#/id/b9193fcb408c484cabfc684ccc72dafa)
+- [Application Security](https://contenthub.netacad.com/sgp/nad/1.0/en-US/m2//?xAPILaunchKey=377f9268274bcdd43676582161803000d313aac7477dc98c93643d6e8889d633&xAPILaunchService=https%3A%2F%2Fcontenthub.netacad.com%2Fkernel%2Fadl%2Fcontent%2F&lang=en-US#/id/8582078fa5eb480f82c122a85082ac06)
+
+    - []
+
 - Endpoints Protection & Security 
  
     - [Traditional Host based Security,Host Firewall,Antivirus,HIPSs,etc]()
@@ -701,6 +708,14 @@ _I have mastered the ultimate technology, the hability to alter physical reality
 - [shodan.io Hacks, Dorks & Bonus](https://0ut3r.space/2020/07/25/shodan-dorks/)
 - [Dorks Collection List](https://github.com/Fz3r0/Dorks-collections-list)
 - [Awesome Threat Hunting](https://github.com/threat-hunting/awesome_Threat-Hunting) _This repository is a library for hunting and detecting cyber threats._
+
+### Hacking Treasure Maps
+Mind-Maps, Paradigms, Way-to-Go, Hints & Tricks for Seek & Exploit!
+
+- [](https://user-images.githubusercontent.com/94720207/172203574-65a0bedb-28dc-4361-a1ba-3c0b29687f09.png)
+
+- [)
+
  
 ### ✅ 🗄️ 📈 CVE, Vulnerabilities, Patches & PoC 📈 🗄️ ✅
 
