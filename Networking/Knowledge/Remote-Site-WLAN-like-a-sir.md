@@ -128,9 +128,21 @@
     - It is a best practice to use private IPv4 addressing inside your network. 
     
     - The IPv4 address `192.168.1.254` is used in the example but it could be **any private IPv4 address you choose.**
-
+    
+    - ![image](https://user-images.githubusercontent.com/94720207/172264550-7aa585c1-087d-4737-be67-687e4b14a421.png)
+ 
 5. Renew the IP address.
 
+    - When you click save, you will temporarily lose access to the wireless router. 
+    
+    - If the IP of the PC is set manual you need to change it manually again to the subnet used bu the router:
+    
+        - ![image](https://user-images.githubusercontent.com/94720207/172264766-5d7ba7d9-5d91-4031-b397-a4dd4dab948b.png)
+     
+    - If using DHCP, open a command window and renew your IP address with the `ipconfig /renew` command.
+    
+        - ![image](https://user-images.githubusercontent.com/94720207/172264844-a7a5c4ff-2c54-4c0f-9d66-882609096c79.png)
+ 
 6. Log in to the router with the new IP address.
 
 7. Click each step for more information and an example GUI.
