@@ -307,6 +307,8 @@ _The sun never sets, on cyber-space... Transmit, receive, log on to interface_
 Tables, Lists, Models, Cheat-Sheets, Mind-Maps & Resources
 
 - [**Cisco** Networking Infraestructure **CLI/IOS** - **Command Bible**](/Networking/Dark-Wizardy-for-Networking-&-NetSec/Cisco-IOS-Command-Bible-Routing-&-Switching.md) _My CCNA+CCNP Commands & Configurations Pocket Bible_
+- [**CCNA v7 200-301** Full Course English](https://ccna-200-301.online/ccna-2/)
+- [**CCNA v7 200-301** Full Course Español](https://ccnadesdecero.es/ccna-1/)
 - [Networking List 01 - facyber](https://github.com/facyber/awesome-networking) 
 - [Awesome **Mesh Networking**](https://github.com/moarpepes/awesome-mesh) _Documentation, Free Software mesh protocols, and applications._
 - [TCP-IP Hybrid Model by Fz3r0 (TCP+OSI)](/Networking/Knowledge/Tables-Models-Cheatsheets/Tables-Models/TCP-IP-Model-fz3r0_Hybrid.md) _A model I made with love for TCP-IP/OSI, all in one! :)_
