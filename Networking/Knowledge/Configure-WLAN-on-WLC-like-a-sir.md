@@ -85,8 +85,17 @@
 
 - The figure shows the user logging into the WLC with credentials that were configured during initial setup.
 
-- ![image](https://user-images.githubusercontent.com/94720207/172291053-b8b24e5c-768e-4f23-be10-fd961225a03d.png)
+    - ![image](https://user-images.githubusercontent.com/94720207/172291053-b8b24e5c-768e-4f23-be10-fd961225a03d.png)
 
+- The Network Summary page is a dashboard that provides a quick overview of the number of configured wireless networks, associated access points (APs), and active clients. 
+
+- You can also see the number of rogue access points and clients, as shown in the figure.
+
+    - ![image](https://user-images.githubusercontent.com/94720207/172291328-54e4e5ce-2796-4a4b-b9a6-db3dfe7f648f.png)
+
+--- 
+
+### View AP Information
 
 
 
