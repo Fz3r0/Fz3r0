@@ -156,15 +156,51 @@
     
         - **The address that we configure here for DHCP tells the WLC to forward all DHCP requests that it receives from hosts on the WLAN to the DHCP server on the router.**
 
-- Be sure to click `Apply` to enact your changes and click OK to respond to the warning message. 
+    - Be sure to click `Apply` to enact your changes and click OK to respond to the warning message. 
 
-- Click `Save Configuration` so that your configuration will be in effect when the WLC restarts.
+    - Click `Save Configuration` so that your configuration will be in effect when the WLC restarts.
 
-    - ![image](https://user-images.githubusercontent.com/94720207/172426598-fdf792a1-aae4-423f-8c50-3163c583c252.png)
+        - ![image](https://user-images.githubusercontent.com/94720207/172426598-fdf792a1-aae4-423f-8c50-3163c583c252.png)
     
-    - ![image](https://user-images.githubusercontent.com/94720207/172426799-2bc32630-9c3e-434c-9b02-540d17a3081b.png)
+        - ![image](https://user-images.githubusercontent.com/94720207/172426799-2bc32630-9c3e-434c-9b02-540d17a3081b.png)
 
-## 
+    - ## Step 2: Configure the WLC to use a RADIUS server.
+    
+        - **`WPA2-Enterprise` uses an `external RADIUS server` to `authenticate WLAN users`.** 
+        
+        - **Individual user accounts > with unique usernames and passwords > can be configured on the `RADIUS server`.** 
+        
+            - **Before the `WLC` can use the services of the `RADIUS server`, the `WLC` must be configured with the `server address`.**
+
+- Click the `Security` menu on the WLC.
+
+- Click the `New` button and enter the `IP address` of the `RADIUS server` in the `Server IP Address` field.
+
+    - ![image](https://user-images.githubusercontent.com/94720207/172444285-3bdd4454-a6c5-4975-a274-3abd1299789e.png)
+
+- The `RADIUS server` will authenticate the `WLC` before it will allow the WLC to access the user account information that is on the server. 
+
+    - This requires a shared secret value, use `Cisco123`. Confirm the shared secret and click `Apply`.
+    
+        - Server IP Address: `172.31.1.254`
+        - Shared Secret: `Cisco123`  
+        
+        - ![image](https://user-images.githubusercontent.com/94720207/172444897-40061e32-b383-4cb9-8edf-41292af03be2.png)
+        
+        - Note: It is not a good practice to reuse passwords. This activity reuses passwords only to make the activity easier for you to complete and review.
+
+    - ## Step 3: Create a new WLAN
+
+        - Create a New WLAN. Use the newly created VLAN interface for the new WLAN.
+
+        - Click the WLANs entry in the menu bar. 
+        
+        - Locate the dropdown box in the upper right-had corner of the WLANs screen. 
+        
+        - It will say Create New. Click Go to create a new WLAN. 
+
+
+
  
 
 
