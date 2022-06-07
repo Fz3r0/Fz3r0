@@ -411,6 +411,8 @@ Pro and Secure Network Configurations Guides by _Fz3r0_
 - [Configure **DHCPv4** like a Sir **(DHCPv4, DHCP Client, DHCP Server, DHCP Relay Agent, Cisco Router, Home Router)**](/Networking/Knowledge/DHCPv4-like-a-sir.md)
 - [Configure **FHRP** like a Sir! **(Pro HSRP + intro to VRRP, GLBP, IRDP)** ](/Networking/Knowledge/FHRP-like-a-sir.md)
 - [Configure **Remote Site Wireless (WLAN)** like a Sir! **(Home/SOHO Wireless Router, WLAN Setup, WPA2, WPA2 Enterprise, AES, Mesh, NAT, QoS, Port Forwarding & Triggering )**](/Networking/Knowledge/Remote-Site-WLAN-like-a-sir.md)
+- [Configure **WLAN on a Wireless Controller (WLC) using Personal WPA2 Authentication** like a Sir! **WPA2, AES, WLC, WLAN Setup**](/Networking/Knowledge/Configure-WLAN-on-WLC-like-a-sir.md)
+- [Configure **WLAN on a Wireless Controller (WLC) using Enterprise WPA2 Authentication** like a Sir! **WPA2 Enterprise, AES, RADIUS/TACACS, AAA, WLC, WLAN Setup**](/Networking/Knowledge/Configure-WLAN-on-WLC-like-a-sir.md)
 
 ### 🛡️ 👩‍🔬 🧪  Secure Network Labs 🧪 👩‍🔬 🛡️  
 Networking Labs using simulators, emulators like Packet Tracer, GNS3 & eve / and/or physical infraestructure by _Fz3r0_
