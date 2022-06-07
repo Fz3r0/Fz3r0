@@ -275,24 +275,27 @@
 
         - Close the PC Wireless app and open the IP Configuration app. 
         
-        - Verify that Wireless Host has received a non-APIPA IP address over DHCP. If not, click the Fast Forward Time button a few times.
+        - Verify that Wireless Host has received a non-APIPA IP address over DHCP. 
+        
+        - If not, click the Fast Forward Time button a few times.
+        
+            - ![image](https://user-images.githubusercontent.com/94720207/172318264-28e53a99-273e-4056-8376-c14d441b32e7.png)
+            
+        - From Wireless Host, ping the WLAN default gateway and the Server to verify that the laptop has full connectivity.
+        
+            - `ping 192.168.200.254`
+            
+            - `ping 172.31.1.254`  
+            
+                - ![image](https://user-images.githubusercontent.com/94720207/172319726-f1f9ebfa-3f63-475b-a42c-f95faaf5c82b.png)
 
-
+- And that's it!!! Easy huh?! Now.. It's time to config a Pro AAA + RADIUS Server for a WLAN Enterprise Network like a sir! :D
  
-
- 
-
-
-
-
-
-
 ---
 
 ### References
 
-- https://ccna-200-301.online/remote-site-wlan-configuration/
-- https://contenthub.netacad.com/srwe-dl/1.3.6
+- https://ccna-200-301.online/configure-wlan-wlc/
 
 ---
 
