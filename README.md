@@ -408,7 +408,7 @@ Pro and Secure Network Configurations Guides by _Fz3r0_
 - [Configurar **VLANs** de Noob a Pro! _En Español_](/Networking/Knowledge/VLANS_full!.png)
 - [Configure **Spaning Tree Protocol** like a Sir **(STP, RSTP+, PVSTP & R-PVSTP)**](/Networking/Knowledge/STP-for-dummies.md)
 - [Configure **Ether-Channel** like a Sir! **(Etherport, PAgP, LACL, Static)** | STP)](/Networking/Knowledge/EtherChannel-like-a-sir.md)
-- [Configure **DHCPv4** like a Sir **(DHCPv4, Client, Server, Cisco Router, Home Router)**](/Networking/Knowledge/DHCPv4-like-a-sir.md)
+- [Configure **DHCPv4** like a Sir **(DHCPv4, DHCP Client, DHCP Server, DHCP Relay Agent, Cisco Router, Home Router)**](/Networking/Knowledge/DHCPv4-like-a-sir.md)
 - [Configure **FHRP** like a Sir! **(Pro HSRP + intro to VRRP, GLBP, IRDP)** ](/Networking/Knowledge/FHRP-like-a-sir.md)
 - [Configure **Remote Site Wireless (WLAN)** like a Sir! **(Home/SOHO Wireless Router, WLAN Setup, WPA2, WPA2 Enterprise, AES, Mesh, NAT, QoS, Port Forwarding & Triggering )**](/Networking/Knowledge/Remote-Site-WLAN-like-a-sir.md)
 
@@ -422,7 +422,7 @@ Networking Labs using simulators, emulators like Packet Tracer, GNS3 & eve / and
 - Lab 05 > [Secure RSTP & Rapid PVST+STP (aka STP) in 3-leaf-spine Data Center](/Networking/Labs/STP-3-Leaf-Spine-(1VLAN).md) _Packet Tracer_
 - Lab 06 > [Secure RSTP & Rapid PVST+STP (aka STP) in 3-leaf-spine Data Center](/Networking/Labs/STP-3-Leaf-Spine-(1VLAN).md) _GNS3_
 - Lab 07 > [EtherChannel All-in-One! LACP, PAgP & Static + RSTP+](/Networking/Labs/EtherChannel-Like-a-Sir.md) _Packet Tracer_
-- Lab 08 > [DHCPv4 All-in-One! DHCP Servers, DHCP Clients & DHCP Frame Relay Agents of all types!](/Networking/Labs/DHCPv4-All-in-One-lab.md) _Packet Tracer_
+- Lab 08 > [DHCPv4 All-in-One! DHCP Servers, DHCP Clients & DHCP Relay Agents of all types!](/Networking/Labs/DHCPv4-All-in-One-lab.md) _Packet Tracer_
 - Lab 09 > [Secure Layer 2 - Semi-FULL Security + Best Practices VS Layer 2 Attacks (No SSH)](/Networking/Labs/Security_&_Best-Practices_VS_Layer2_Attack_FULL_PRO_CONFIG.md)
 - Lab 10 > [Secure Layer 2 + SSH Local Login = FULL Security + Best Practices VS Layer 2 Attacks (No AAA)](/Networking/Labs/Security_&_Best-Practices_VS_Layer2_Attack_FULL_PRO_CONFIG.md)
      
