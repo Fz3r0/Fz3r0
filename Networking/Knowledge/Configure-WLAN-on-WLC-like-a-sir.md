@@ -1,15 +1,16 @@
-# Fz3r0 Operations  [Networking]
+
+# Configure WLAN on WLC like a sir!
 
 ![My Video](https://user-images.githubusercontent.com/94720207/165892585-b830998d-d7c5-43b4-a3ad-f71a07b9077e.gif)
 
-## Configure Remote Site Wireless like a Sir! 
+## Fz3r0 Operations: `Networking`
 
 ##### Twitter  : [@fz3r0_OPs](https://twitter.com/Fz3r0_OPs) 
 ##### Github  : [Fz3r0](https://github.com/fz3r0) 
 
 ---
 
-#### Keywords: `Networking` `Routing & Switching` `Wireless` `WLAN` `CCNA` `CCNP` 
+#### Keywords: `Networking` `Routing & Switching` `Wireless` `WLAN` `WLC` `CCNA` `CCNP` 
   
 ## Index
 
@@ -25,10 +26,70 @@
 
 - < **Nerd Pocket-Bible about this configuration** >
 
-## Remote Site Wireless Configuration
+## Configure a Basic WLAN on the WLC
 
+### WLC Topology
 
+- WLC Topology Example:
+
+    - ![image](https://user-images.githubusercontent.com/94720207/172289758-97f2192c-7afb-4188-8044-cca299cdd233.png)
  
+- The access point `AP` is a `controller-based AP` as opposed to an `autonomous AP`. 
+
+    - Recall that controller-based APs require no initial configuration and are often called lightweight APs (LAPs). 
+    
+    - `LAPs` use the `Lightweight Access Point Protocol` `LWAPP` to communicate with a `WLAN controller` `WLC`. 
+    
+    - Controller-based APs are useful in situations where many APs are required in the network. 
+    
+    - As more APs are added, each AP is automatically configured and managed by the WLC.
+
+- The previous figure shows a wireless LAN controller (WLC) topology. 
+
+    - `PC-A` is a `RADIUS/SNMP Server` connected to `R1` on `F0/0` interface. 
+
+    - `PC-B` is connected to `S1` on S1s `F0/6` port. 
+    
+    - `R1` and `S1` are connected together on `R1s F0/1` interface and on `S1s F0/5` interface. 
+    
+    - `S1` is connected to a `WLC` on its `F0/18` port. 
+    
+    - On `S1s F0/1` port its connected to an access point, `AP1`. 
+    
+    - A `laptop` is wirelessly connected to `AP1`.
+
+- Addressing Table: 
+
+| **Device**      | **Interface** | **IP Address**  | **Subnet Mask**  |
+|-----------------|---------------|-----------------|------------------|
+| R1              | F0/0          | 172.16.1.1      | 255.255.255.0    |
+| R1              | F0/1.1        | 192.168.200.1   | 255.255.255.0    |
+| S1              | VLAN 1        | DHCP            |                  |
+| WLC             | Management    | 192.168.200.254 | 255.255.255.0    |
+| AP1             | Wired 0       | 192.168.200.3   | 255.255.255.0    |
+| PC-A            | NIC           | 172.16.1.254    | 255.255.255.0    |
+| PC-B            | NIC           | DHCP            |                  |
+| Wireless Laptop | NIC           | DHCP            |                  |
+
+---
+
+### Log in to the WLC
+
+- Configuring a wireless LAN controller (WLC) is not that much different from configuring a wireless router. 
+
+- The big difference is that a WLC controls APs and provides more services and management capabilities, many of which are beyond the scope of this module.
+
+    - **Note: The figures in this topic that show the graphical user interface (GUI) and menus are from a `Cisco 3504 Wireless Controller`.** 
+
+    - However, other WLC models will have similar menus and features.
+
+- The figure shows the user logging into the WLC with credentials that were configured during initial setup.
+
+- ![image](https://user-images.githubusercontent.com/94720207/172291053-b8b24e5c-768e-4f23-be10-fd961225a03d.png)
+
+
+
+
 ---
 
 ### References
