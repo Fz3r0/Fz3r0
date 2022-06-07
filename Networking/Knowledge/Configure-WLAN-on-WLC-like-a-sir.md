@@ -32,11 +32,7 @@
 
 - WLC Topology Example:
 
-    - ![image](https://user-images.githubusercontent.com/94720207/172289758-97f2192c-7afb-4188-8044-cca299cdd233.png)
-    
-- Packet Tracer Version:
-
-    - ![image](https://user-images.githubusercontent.com/94720207/172294423-4197db96-f8e6-4726-8af5-84929aa06005.png)
+    - ![image](https://user-images.githubusercontent.com/94720207/172299671-b0336dea-5fec-427b-996a-43cce68c9da2.png)
  
 - The access point `AP` is a `controller-based AP` as opposed to an `autonomous AP`. 
 
@@ -66,235 +62,60 @@
 
 | **Device**      | **Interface** | **IP Address**  | **Subnet Mask**  |
 |-----------------|---------------|-----------------|------------------|
-| R1              | Gi0/0         | 172.16.1.1      | 255.255.255.0    |
-| R1              | Gi0/1.1       | 192.168.200.1   | 255.255.255.0    |
-| S1              | VLAN 1        | DHCP            |                  |
+| R1              | Gi0/0         | 172.31.1.1      | 255.255.255.0    |
+| R1              | Gi0/1.5       | 192.168.5.1     | 255.255.255.0    |
+| R1              | Gi0/1.200     | 192.168.200.1   | 255.255.255.0    |
+| SW1             | VLAN 200      | 192.168.200.100 | 255.255.255.0    |
+| LAP-1           | G0	          | DHCP            |                  |
 | WLC             | Management    | 192.168.200.254 | 255.255.255.0    |
 | AP1             | Wired 0       | 192.168.200.3   | 255.255.255.0    |
-| PC-A            | NIC           | 172.16.1.254    | 255.255.255.0    |
-| PC-B            | NIC           | DHCP            |                  |
-| Wireless Laptop | NIC           | DHCP            |                  |
+| Server          | NIC           | 172.31.1.254    | 255.255.255.0    |
+| Admin PC        | NIC           | 192.168.200.200 | 255.255.255.0    |
+| Wireless Laptop | Wireless NIC  | DHCP            |                  |
 
-### `R1` 
+- Objectives:
 
-```
-enable
-configure terminal 
+1. Connect to a wireless LAN controller GUI.
+2. Explain some of the information that is available on the WLC Monitor screen.
+3. Configure a WLAN on a wireless LAN controller.
+4. Implement security on a WLAN.
+5. Configure a wireless host to connect to a wireless LAN.
 
-no ip domain-lookup
-ip domain-name fz3r0.domain.WLAN+WLC
+## Part1: Monitor WLC:
 
-hostname R1
+- Go the desktop of Admin PC and open a browser. 
 
-enable secret cisco12345
-service password-encryption
-security passwords min-length 10
-login block-for 120 attempts 3 within 60
+- Enter the management IP address of WLC-1 from the addressing table into the address bar. 
 
-username root privilege 15 secret cisco12345
-username user privilege 10 secret cisco12345
+- You must specify the `HTTPS` protocol.
 
-line console 0
-password cisco12345
-login
-exit
+    - ![image](https://user-images.githubusercontent.com/94720207/172300557-30b63ce3-d8d5-4370-ac47-0dce015373aa.png)
 
-line vty 0 8
-access-class 8 in
-exec-timeout 5 30
-transport input ssh
-login local
-exit
+- Click Login and enter these credentials: 
 
-crypto key generate rsa
-1024
-ip ssh version 2
+    - User Name: `admin`
+    
+    - Password: `Cisco123`
+    
+    - ![image](https://user-images.githubusercontent.com/94720207/172300785-64fe6db2-44a9-48dd-8e9c-281b484abda3.png)
+ 
+- After a short delay, you will see the WLC Monitor Summary screen.
 
-banner motd #
+    - ![image](https://user-images.githubusercontent.com/94720207/172300904-155d1974-7641-4b0f-bfb2-29fcf89fd2ea.png)
 
-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+- Click Detail next to the All APs entry in the Access Point Summary section of the page.
 
-         Fz3r0 - WLAN + WLC Lab
+- Information shown on the WLC includes the name of the AP, the IP address of the AP, the device model, MAC, software version, operational status, power source, etc.
 
-             << R1 :  Only authorized access! >>     
-           
-         Twitter @fz3r0_Ops
-         Github  Fz3r0  
+    - ![image](https://user-images.githubusercontent.com/94720207/172301143-e7b39d71-21d1-482c-aa12-94266234d950.png)
 
-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+    - ![image](https://user-images.githubusercontent.com/94720207/172301294-bf12f30c-9f80-4b90-85d1-695a42bb1e91.png)
 
-#
-
-interface range g0/0 - 2
-description << Unused Router Ports >>
-shutdown
-exit
-
-interface gigabitEthernet 0/0
-description << Connect RADIUS/SNMP Server >>
-ip address 172.16.1.1 255.255.255.255
-duplex full
-speed 1000
-no shutdown
-exit
-
-interface gigabitEthernet 0/1
-description << Connect SUB-Interfaces 0.1 >>
-duplex full
-speed 1000
-no shutdown
-exit
-
-interface gigabitEthernet 0/1.1
-description << Connect to Subnet 10 >>
-encapsulation dot1Q 10
-ip address 192.168.200.1 255.255.255.0
-no shutdown 
-exit
-
-interface loopback 0
-description << loopback 10.10.10.10 >>
-ip address 10.10.10.10 255.255.255.255
-exit
-
-end
-copy running-config startup-config
-
-exit
-```
-
-### `S1`
-
-```
-
-enable
-configure terminal 
-
-no ip domain-lookup
-ip domain-name fz3r0.domain.WLAN+WLC
-
-hostname S1
-
-enable secret cisco12345
-service password-encryption
-security passwords min-length 10
-login block-for 120 attempts 3 within 60
-
-username root privilege 15 secret cisco12345
-username user privilege 10 secret cisco12345
-
-line console 0
-password cisco12345
-login
-exit
-
-line vty 0 8
-access-class 8 in
-exec-timeout 5 30
-transport input ssh
-login local
-exit
-
-crypto key generate rsa
-1024
-ip ssh version 2
-
-banner motd #
-
-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-
-         Fz3r0 - WLAN + WLC Lab
-
-             << S1 :  Only authorized access! >>     
-           
-         Twitter @fz3r0_Ops
-         Github  Fz3r0  
-
-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-
-#
-
-vlan 1
-name VLAN1-Only_Test_VLAN
-
-vlan 100
-name VLAN100-Admin/SSH
-
-vlan 99
-name VLAN99-TRUNK
-exit
-
-interface vlan 100
-description << Switch 1 Admin/SSH >>
-ip address 192.168.200.100 255.255.255.0
-no shutdown 
-exit
-
-ip default-gateway 192.168.200.1
-
-interface range f0/1 - 24, g0/1 - 2
-description << Unused Switch Ports (Access) >>
-switchport mode access
-switchport access vlan 666
-disable DTP
-spanning-tree bpduguard enable
-spanning-tree portfast
-no CDP enable
-no lldp transmit
-no lldp receive
-switchport no negotiate
-shutdown
-exit
-
-interface fastEthernet 0/1
-description << Trunk VLAN 99 - Connect to AP1 - USING POE >>
-switchport encapsulation dot1q
-switchport mode trunk
-switchport trunk native vlan 99
-no shutdown
-exit
-
-interface range fastEthernet 0/5
-description << Trunk VLAN 99 - Connect to R1 USING POE >>
-switchport encapsulation dot1q
-switchport mode trunk
-switchport trunk native vlan 99
-no shutdown
-exit
-
-end
-copy running-config startup-config
-
-exit
-
-```
+## Part 2: Create a Wireless LAN
 
 
----
 
-### Log in to the WLC
 
-- Configuring a wireless LAN controller (WLC) is not that much different from configuring a wireless router. 
-
-- The big difference is that a WLC controls APs and provides more services and management capabilities, many of which are beyond the scope of this module.
-
-    - **Note: The figures in this topic that show the graphical user interface (GUI) and menus are from a `Cisco 3504 Wireless Controller`.** 
-
-    - However, other WLC models will have similar menus and features.
-
-- The figure shows the user logging into the WLC with credentials that were configured during initial setup.
-
-    - ![image](https://user-images.githubusercontent.com/94720207/172291053-b8b24e5c-768e-4f23-be10-fd961225a03d.png)
-
-- The Network Summary page is a dashboard that provides a quick overview of the number of configured wireless networks, associated access points (APs), and active clients. 
-
-- You can also see the number of rogue access points and clients, as shown in the figure.
-
-    - ![image](https://user-images.githubusercontent.com/94720207/172291328-54e4e5ce-2796-4a4b-b9a6-db3dfe7f648f.png)
-
---- 
-
-### View AP Information
 
 
 
