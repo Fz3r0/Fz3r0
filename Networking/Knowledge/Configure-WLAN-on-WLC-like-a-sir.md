@@ -117,7 +117,7 @@
 
 - You will configure the settings that are required for hosts to join the WLAN.
 
-    - **Step 1: Create and enable the WLAN.**
+    - ## Step 1: Create and enable the WLAN
 
         - Click WLANs in the WLC menu bar. 
         
@@ -169,10 +169,37 @@
 
 - **Click the Advanced tab.**
 
-    - Scroll down to the FlexConnect portion of the page. 
+    - Scroll down to the `FlexConnect` portion of the page. 
     
     - Click to `enable` `FlexConnect Local Switching` and `FlexConnect Local Auth`.
 
+    - Click `Apply` to enable the new WLAN. **If you forget to do this, the WLAN will not operate.**
+    
+        - ![image](https://user-images.githubusercontent.com/94720207/172307552-e1cb3343-e1a8-43a8-bc22-7665443b3d36.png)
+    
+        - ![image](https://user-images.githubusercontent.com/94720207/172307612-7ea96ed4-0fba-4150-8c78-ca3a4bb6b864.png)
+
+    - ## Step 2: Secure the WLAN
+
+- **The new WLAN currently has no security in place.** 
+
+    - **This WLAN will initially use `WPA2-PSK` security.** 
+
+    - In another activity, you will configure the WLAN to use `WPA2-Enterprise`, **a much better solution for larger wireless networks.**
+
+- In the WLANs Edit screen for the `Floor 2 Employees WLAN`, click the `Security tab`. 
+
+    - Under the `Layer 2` tab, select `WPA+WPA2` from the `Layer 2 Security` drop down box. 
+    
+        - This will reveal the `WPA` parameters.
+
+-  Click the checkbox next to `WPA2 Policy`. 
+
+    -  This will reveal additional security settings. 
+    
+    -  Under Authentication `Key Management`, enable `PSK`.
+
+c. Now you can enter the pre-shared key that will be used by hosts to join the WLAN. Use Cisco123 as the passphrase.
 
 
 
