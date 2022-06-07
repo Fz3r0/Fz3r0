@@ -336,25 +336,30 @@
     - In the figure, port forwarding is enabled for port `80` and is associated with the `web server` at IPv4 address `192.168.1.50`.
     
     - ![image](https://user-images.githubusercontent.com/94720207/172277579-3dfbac3c-8f61-4acb-8f73-61797c6d5601.png)
+
+### Port Triggering
+
+- Port triggering allows the router to temporarily forward data through inbound ports to a specific device. 
+
+- You can use port triggering to forward data to a computer only when a designated port range is used to make an outbound request. 
+
+    - For example, a video game might use ports `27000` to `27100` for connecting with other players. 
+    
+    - These are the trigger ports. 
+    
+    - A chat client might use port `56` for connecting the same players so that they can interact with each other. 
+    
+        - **In this instance, if there is gaming traffic on an outbound port within the triggered port range** 
+        
+        - Inbound chat traffic on port `56` is forwarded to the computer that is being used to play the video game and chat with friends. 
+        
+        - When the game is over and the triggered ports are no longer in use, port `56` is no longer allowed to send traffic of any type to this computer.
  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ---
 
 ### References
 
+- https://ccna-200-301.online/remote-site-wlan-configuration/
 - https://contenthub.netacad.com/srwe-dl/1.3.6
 
 ---
