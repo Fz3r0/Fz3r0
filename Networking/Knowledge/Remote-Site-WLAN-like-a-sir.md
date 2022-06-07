@@ -327,6 +327,17 @@
         
         - ![image](https://user-images.githubusercontent.com/94720207/172276962-83a5576e-a180-44b1-a14e-d8a55f59b81a.png)
 
+- When traffic reaches the router, the router determines if the traffic should be forwarded to a certain device based on the port number found with the traffic. 
+
+    - For example, a router might be configured to forward port `80`, which is associated with `HTTP`. 
+
+    - When the router receives a packet with the destination port of `80`, the router forwards the traffic to the server inside the network that serves web pages. 
+    
+    - In the figure, port forwarding is enabled for port `80` and is associated with the `web server` at IPv4 address `192.168.1.50`.
+    
+    - ![image](https://user-images.githubusercontent.com/94720207/172277579-3dfbac3c-8f61-4acb-8f73-61797c6d5601.png)
+ 
+
 
 
 
