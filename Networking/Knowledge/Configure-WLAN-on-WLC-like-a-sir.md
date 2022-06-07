@@ -33,6 +33,10 @@
 - WLC Topology Example:
 
     - ![image](https://user-images.githubusercontent.com/94720207/172289758-97f2192c-7afb-4188-8044-cca299cdd233.png)
+    
+- Packet Tracer Version:
+
+    - ![image](https://user-images.githubusercontent.com/94720207/172294423-4197db96-f8e6-4726-8af5-84929aa06005.png)
  
 - The access point `AP` is a `controller-based AP` as opposed to an `autonomous AP`. 
 
@@ -46,11 +50,11 @@
 
 - The previous figure shows a wireless LAN controller (WLC) topology. 
 
-    - `PC-A` is a `RADIUS/SNMP Server` connected to `R1` on `F0/0` interface. 
+    - `PC-A` is a `RADIUS/SNMP Server` connected to `R1` on `Gi 0/0` interface. 
 
     - `PC-B` is connected to `S1` on S1s `F0/6` port. 
     
-    - `R1` and `S1` are connected together on `R1s F0/1` interface and on `S1s F0/5` interface. 
+    - `R1` and `S1` are connected together on `R1s Gi 0/1` interface and on `S1s F0/5` interface. 
     
     - `S1` is connected to a `WLC` on its `F0/18` port. 
     
@@ -62,8 +66,8 @@
 
 | **Device**      | **Interface** | **IP Address**  | **Subnet Mask**  |
 |-----------------|---------------|-----------------|------------------|
-| R1              | F0/0          | 172.16.1.1      | 255.255.255.0    |
-| R1              | F0/1.1        | 192.168.200.1   | 255.255.255.0    |
+| R1              | Gi0/0         | 172.16.1.1      | 255.255.255.0    |
+| R1              | Gi0/1.1       | 192.168.200.1   | 255.255.255.0    |
 | S1              | VLAN 1        | DHCP            |                  |
 | WLC             | Management    | 192.168.200.254 | 255.255.255.0    |
 | AP1             | Wired 0       | 192.168.200.3   | 255.255.255.0    |
