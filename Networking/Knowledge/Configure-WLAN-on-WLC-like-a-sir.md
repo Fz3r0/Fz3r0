@@ -252,6 +252,33 @@
             - ![image](https://user-images.githubusercontent.com/94720207/172314379-f6e6a8f9-0307-4070-a3f2-c00b3f5bb13f.png)
         
         - Enter the `pre-shared key` that you configured for the WLAN (`Cisco123`) and click `Connect`.  
+        
+            - ![image](https://user-images.githubusercontent.com/94720207/172316248-0fde59aa-4de6-4b9d-a9f1-75a699194966.png)
+            
+            - **NOTE: If the apdapter still `inactive` maybe is because a packet tracer bug, just repeat from Part3, Step1.** 
+        
+        - Click the `Link Information tab`. 
+        
+        - You should see a message that confirms that you have successfully connected to the access point. 
+        
+        - You should also see a wireless wave in the topology showing the connection to `LAP-1`.
+        
+            - ![image](https://user-images.githubusercontent.com/94720207/172316661-875c6620-0579-45fb-9440-ade06834e917.png)
+
+            - ![image](https://user-images.githubusercontent.com/94720207/172316770-a8696f00-31d9-46bf-99d3-066e1a698cfe.png)
+
+        - Click the `More Information` button to see details about the connection. 
+        
+            - ![image](https://user-images.githubusercontent.com/94720207/172316895-362ccd4b-8258-4b89-8fae-ea7bb5d36d99.png)
+
+            - ![image](https://user-images.githubusercontent.com/94720207/172317378-3ce85cc1-0358-4218-b199-9fea70919137.png)
+
+        - Close the PC Wireless app and open the IP Configuration app. 
+        
+        - Verify that Wireless Host has received a non-APIPA IP address over DHCP. If not, click the Fast Forward Time button a few times.
+
+
+ 
 
  
 
