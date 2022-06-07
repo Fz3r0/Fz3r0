@@ -191,13 +191,48 @@
 
     - ## Step 3: Create a new WLAN
 
-        - Create a New WLAN. Use the newly created VLAN interface for the new WLAN.
+        - Create a `New WLAN`. Use the newly created VLAN interface for the new WLAN.
 
         - Click the WLANs entry in the menu bar. 
         
         - Locate the dropdown box in the upper right-had corner of the WLANs screen. 
         
-        - It will say Create New. Click Go to create a new WLAN. 
+        - It will say `Create New`. Click `Go` to create a new WLAN. 
+        
+            - ![image](https://user-images.githubusercontent.com/94720207/172456881-1b9e44f2-58db-474e-97c7-ef239734d809.png)
+            
+        - Enter the Profile Name of the new WLAN. Use the profile name `Floor 2 Employees`. 
+        
+        - Assign an SSID of `SSID-5` to the WLAN. 
+        
+        - Change the ID drop down to `5`. 
+        
+        - Hosts will need to use this SSID to join the network.
+
+        - When you are done, click `Apply` to accept your settings. 
+        
+            - ![image](https://user-images.githubusercontent.com/94720207/172457203-4b5dd46a-7dc0-4dcd-a697-e17ce120c216.png)
+
+            - **Note:** The ID is an arbitrary value that is used as a label for the WLAN. 
+            
+            - In this case, we configured it as `5` **to be consistent with VLAN for the WLAN.** (It could be any available value).
+
+        - Click Apply so that the settings go into effect.
+            
+            - ![image](https://user-images.githubusercontent.com/94720207/172457609-1c0d7d69-b2c8-44f8-95bc-cb70f3634c72.png)
+ 
+- **Now that the WLAN has been created you can configure features of the network.** 
+
+    - Click `Enabled` to make the WLAN functional. 
+    
+    - **It is a common mistake to accidentally skip this step.**
+
+    - Choose the VLAN interface that will be used for the new WLAN. 
+    
+    - The WLC will use this interface for user traffic on the network. 
+    
+    - Click the drop-down box for Interface/Interface Group (G). Select the interface that we created in Step 
+ 
 
 
 
