@@ -113,7 +113,65 @@
 
 ## Part 2: Create a Wireless LAN
 
+- Now you will create a new wireless LAN on the WLC. 
 
+- You will configure the settings that are required for hosts to join the WLAN.
+
+    - **Step 1: Create and enable the WLAN.**
+
+        - Click WLANs in the WLC menu bar. 
+        
+        - Locate the dropdown box in the upper right had corner of the WLANs screen. 
+        
+        - It will say Create New. 
+        
+        - Click Go to create a new WLAN.
+        
+            - ![image](https://user-images.githubusercontent.com/94720207/172306153-03dfe76c-e604-4ea5-b50a-e90c08826e38.png)
+
+        - Enter the **Profile Name of the new WLAN**. 
+        
+        - Use the profile name `Floor 2 Employees`. 
+        
+        - Assign an `SSID` of `SSID-5` to the **WLAN**. 
+        
+            - **Hosts will need to use this `SSID` to join the network.**
+
+        - Select the `ID` for the **WLAN**. 
+        
+            - **This `ID` value is a label that will be used to identify the WLAN is other displays.** 
+        
+            - Select a value of `5` to **keep it consistent with the VLAN number and SSID**. 
+            
+            - **This is not a requirement but it helps with understanding the topology.**
+                
+            - ![image](https://user-images.githubusercontent.com/94720207/172305916-4c8a32c8-9fd9-4235-853a-3158ed47542e.png)
+
+        - Click Apply so that the settings go into effect.
+        
+            - ![image](https://user-images.githubusercontent.com/94720207/172306258-77a031f9-0f90-4ec6-a147-85edce9ad16f.png)
+ 
+- Now that the WLAN has been created, you can configure features of the network.
+
+- Click Enabled to make the WLAN functional. 
+
+    - **CAUTION! It is a common mistake to accidentally skip this step.**
+
+- Choose the VLAN interface that will be used for the WLAN. 
+
+    - The WLC will use this interface for user traffic on the network. 
+    
+    - Click the `drop-down box` for `Interface/Interface Group (G)`.
+    
+    -  Select the `WLAN-5` interface. (This interface was previously configured on the WLC for this activity).
+    
+        - ![image](https://user-images.githubusercontent.com/94720207/172306660-5782bd51-314b-4bcf-8931-b8f1899e7c50.png)
+
+- **Click the Advanced tab.**
+
+    - Scroll down to the FlexConnect portion of the page. 
+    
+    - Click to `enable` `FlexConnect Local Switching` and `FlexConnect Local Auth`.
 
 
 
