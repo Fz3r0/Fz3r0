@@ -75,6 +75,95 @@
 | PC-B            | NIC           | DHCP            |                  |
 | Wireless Laptop | NIC           | DHCP            |                  |
 
+### `R1` 
+
+```
+enable
+configure terminal 
+
+no ip domain-lookup
+ip domain-name fz3r0.domain.WLAN+WLC
+
+hostname R1
+
+enable secret cisco12345
+service password-encryption
+security passwords min-length 10
+login block-for 120 attempts 3 within 60
+
+username root privilege 15 secret cisco12345
+username user privilege 10 secret cisco12345
+
+line console 0
+password cisco12345
+login
+exit
+
+line vty 0 8
+access-class 8 in
+exec-timeout 5 30
+transport input ssh
+login local
+exit
+
+crypto key generate rsa
+1024
+ip ssh version 2
+
+banner motd #
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+         Fz3r0 - WLAN + WLC Lab
+
+             << R1 :  Only authorized access! >>     
+           
+         Twitter @fz3r0_Ops
+         Github  Fz3r0  
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+#
+
+interface range g0/0 - 2
+description << Unused Router Ports >>
+shutdown
+exit
+
+interface gigabitEthernet 0/0
+description << Connect RADIUS/SNMP Server >>
+ip address 172.16.1.1 255.255.255.255
+duplex full
+speed 1000
+no shutdown
+exit
+
+interface gigabitEthernet 0/1
+description << Connect SUB-Interfaces 0.1 >>
+duplex full
+speed 1000
+no shutdown
+exit
+
+interface gigabitEthernet 0/1.1
+description << Connect to Subnet 10 >>
+encapsulation dot1Q 10
+ip address 192.168.200.1 255.255.255.0
+no shutdown 
+exit
+
+interface loopback 0
+description << loopback 10.10.10.10 >>
+ip address 10.10.10.10 255.255.255.255
+exit
+
+end
+copy running-config startup-config
+
+exit
+```
+
+
 ---
 
 ### Log in to the WLC
