@@ -47,6 +47,8 @@
     - If you buy the modem, it will come with documentation for how to connect it to your service provider which will most likely include contacting your service provider for more information.
     - For example...Telmex send a technician to do all the job for you ;)
 
+---
+
 ### Log in to the Wireless Router
 
 - Most wireless routers are ready for service out of the box. 
@@ -78,13 +80,15 @@
     
     - ![image](https://user-images.githubusercontent.com/94720207/172261828-d574e5d6-83d3-4615-ae1f-9e7443c5609f.png)
 
-### Basic Network Setup
+---
 
-- Basic network setup includes the following steps:
+### Basic Network Setup PT.1
+
+- **Basic network setup includes the following steps:**
 
     - Note: For this example I will using the next Router model of Cisco Packet Tracer_
     
-    - ![image](https://user-images.githubusercontent.com/94720207/172262877-d2aea6cd-ae0d-477f-9450-ec4e7356cac4.png)
+        - ![image](https://user-images.githubusercontent.com/94720207/172262877-d2aea6cd-ae0d-477f-9450-ec4e7356cac4.png)
  
 1. Log in to the router from a web browser.
 
@@ -155,6 +159,69 @@
         
         - ![image](https://user-images.githubusercontent.com/94720207/172265730-82f7aa50-ad1b-447c-a506-ef0053ee2079.png)
 
+---
+
+## Basic Wireless Setup PT. 2
+
+- Basic wireless setup includes the following steps:
+
+1. View the WLAN defaults.
+
+    - Out of the box, a wireless router provides wireless access to devices using a default wireless network name and password. 
+    
+    - The network name is called the **Service Set Identified (SSID).** 
+    
+    - Locate the basic wireless settings for your router to change these defaults.
+    
+    - ![image](https://user-images.githubusercontent.com/94720207/172266709-866f5cd3-bc80-4145-bad2-cb2eee2ea1b7.png)
+ 
+2. Change the network mode. (Optional)
+
+    - Some wireless routers allow you to select which `802.11 standard` to implement. 
+    
+    - The example shows that `Legacy` has been selected. 
+    
+        - **This means wireless devices connecting to the wireless router can have a variety of wireless NICs installed.** 
+        
+    - **Today’s wireless routers configured for legacy or mixed mode most likely support `802.11a`, `802.11n`, and `802.11ac` NICs.**
+
+    - ![image](https://user-images.githubusercontent.com/94720207/172266956-38db2300-53f7-4604-bd4a-a17b2252d011.png)
+
+3. Configure the SSID.
+
+    - Some wireless routers allow you to select which 802.11 standard to implement. 
+    
+    - The example shows that “Legacy” has been selected. 
+    
+    - This means wireless devices connecting to the wireless router can have a variety of wireless NICs installed. 
+    
+    - Today’s wireless routers configured for legacy or mixed mode most likely support 802.11a, 802.11n, and 802.11ac NICs.   
+
+    - ![image](https://user-images.githubusercontent.com/94720207/172268413-84614ff6-d07c-4fbe-ba72-34a79c9333e4.png)
+
+4. Configure the channel.
+
+    - Devices configured with the same channel within the `2.4GHz` band **may overlap and cause distortion**, slowing down the wireless performance and potentially break network connections. 
+    
+    - **The solution to avoid interference is to configure non-overlapping channels on the wireless routers and access points that are near to each other.** 
+    
+        - **Specifically, channels `1`, `6`, and `11` are `non-overlapping`**. 
+        
+        - In the example, the wireless router is configured to use `channel 11`.
+    
+    - ![image](https://user-images.githubusercontent.com/94720207/172268489-017f9621-3dd9-4591-bd4b-6984f703d7d3.png)
+
+5. Configure the security mode.
+
+    - Out of the box, **a wireless router may have no WLAN security configured.** 
+    
+    - In the example, the **personal version of Wi-Fi Protected Access version 2 `WPA2 Personal`** is selected for all three WLANs. 
+    
+        - **`WPA2` with `Advanced Encryption Standard` `AES` encryption is currently the strongest security mode.**
+        
+            - ![image](https://user-images.githubusercontent.com/94720207/172269174-3a610e5a-5a46-409d-a666-09cc96602d3e.png)
+  
+6. Configure the passphrase.
 
 
 
