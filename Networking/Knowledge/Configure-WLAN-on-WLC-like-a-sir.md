@@ -199,7 +199,13 @@
     
     -  Under Authentication `Key Management`, enable `PSK`.
 
-c. Now you can enter the pre-shared key that will be used by hosts to join the WLAN. Use Cisco123 as the passphrase.
+    - Now you can enter the `pre-shared key` that will be used by hosts to join the WLAN. 
+    
+    - Use `Cisco123` as the `passphrase`.
+    
+        - ![image](https://user-images.githubusercontent.com/94720207/172310081-1573fc75-a182-4cb2-b7ee-64f0ef86db2d.png)
+
+
 
 
 
