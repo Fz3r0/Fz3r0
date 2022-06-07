@@ -204,6 +204,56 @@
     - Use `Cisco123` as the `passphrase`.
     
         - ![image](https://user-images.githubusercontent.com/94720207/172310081-1573fc75-a182-4cb2-b7ee-64f0ef86db2d.png)
+        
+    - Apply configs:
+    
+        - ![image](https://user-images.githubusercontent.com/94720207/172310621-44d7d0bf-2d38-4efe-b4ed-e2efbd8348c5.png)
+  
+            - **Note: It is not a good practice to reuse passwords when configuring security. We have reused passwords in this activity to simplify configuration.**
+
+   - ## Step 3: Verify the Settings
+   
+       - After Applying the configuration, click Back. This will take you back to the WLANs screen.  
+  
+           - ![image](https://user-images.githubusercontent.com/94720207/172310681-94fd5e21-eae5-43b2-a354-e9da17ee3cd1.png)
+
+       - The WLAN name, SSID, security policy and admin status are available here. 
+       
+       - The Admin Status value indicates whether WLAN is in operational or not. 
+       
+       - If you click the `WLAN ID`, you will be taken to the `WLANs Edit screen`. 
+       
+       - Use this to verify and change the details of the settings. 
+       
+           - ![image](https://user-images.githubusercontent.com/94720207/172311093-f387b05c-e4c4-416e-b7b3-7770a7b4b3d6.png)
+
+       - **Don't forget to Save Global WLC Configurations!!!**
+       
+           - ![image](https://user-images.githubusercontent.com/94720207/172311345-a7584dde-69b4-42bd-ac24-d87c3969f382.png)
+ 
+## Part 3: Connect a Host to the WLAN
+
+- In this step I will configure the laptop, most of wireless devices can configure very similar to Packet Tracer example: 
+
+    - ## Step 1: Connect to the network and verify connectivity
+    
+        - Go to the `desktop` of `Wireless Host` or `laptop` or `smartphone` and click the PC `Wireless` tile
+        
+        - Click the `Connect` tab. 
+        
+        - After a brief delay you should see the SSID for the WLAN appear in the table of wireless network names. 
+        
+        - Select the `SSID-5` network and click the `Connect` button. 
+
+            - ![image](https://user-images.githubusercontent.com/94720207/172314125-3d61ce04-cf9b-477f-ad1a-e001494d614c.png)
+
+            - ![image](https://user-images.githubusercontent.com/94720207/172314228-a72858a9-8a89-4557-a9f6-bdb853c425b8.png)
+            
+            - ![image](https://user-images.githubusercontent.com/94720207/172314379-f6e6a8f9-0307-4070-a3f2-c00b3f5bb13f.png)
+        
+        - Enter the `pre-shared key` that you configured for the WLAN (`Cisco123`) and click `Connect`.  
+
+ 
 
 
 
