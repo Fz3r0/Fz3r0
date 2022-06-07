@@ -427,6 +427,7 @@ Networking Labs using simulators, emulators like Packet Tracer, GNS3 & eve / and
 - Lab 08 > [DHCPv4 All-in-One! DHCP Servers, DHCP Clients & DHCP Relay Agents of all types!](/Networking/Labs/DHCPv4-All-in-One-lab.md) _Packet Tracer_
 - Lab 09 > [Secure Layer 2 - Semi-FULL Security + Best Practices VS Layer 2 Attacks (No SSH)](/Networking/Labs/Security_&_Best-Practices_VS_Layer2_Attack_FULL_PRO_CONFIG.md)
 - Lab 10 > [Secure Layer 2 + SSH Local Login = FULL Security + Best Practices VS Layer 2 Attacks (No AAA)](/Networking/Labs/Security_&_Best-Practices_VS_Layer2_Attack_FULL_PRO_CONFIG.md)
+- Lab 11 > [**RADIUS Server Config** - Using **WinRadius on Windows Server**](https://www.youtube.com/watch?v=7VkHGzD0Eb4) _GNS3_
      
 ### 🆘 🚨 ⚠️ Network Troubleshooting & Ass-Savers ⚠️ 🚨 🆘
 Troubleshooting & Incidence Response for Notworking Hardware & Software by _Fz3r0_
