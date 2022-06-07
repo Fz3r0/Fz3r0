@@ -145,11 +145,27 @@
     - **Primary DHCP server: `192.168.5.1`**
     
         - ![image](https://user-images.githubusercontent.com/94720207/172335705-102d8efa-e5f3-4224-972c-f6219aace3d3.png)
+        
+        - ![image](https://user-images.githubusercontent.com/94720207/172425886-97f31007-91e2-4da5-8d6f-699e8396adf8.png)
+ 
+- User traffic for the WLAN that uses this VLAN interface will be on the `192.168.5.0/24` network. 
 
-- User traffic for the WLAN that uses this VLAN interface will be on the `192.168.5.0/24` network. The default gateway is the address of an interface on router R-1. A DHCP pool has been configured on the router.
-The address that we configure here for DHCP tells the WLC to forward all DHCP requests that it receives from hosts on the WLAN to the DHCP server on the router.
+- The default gateway is the address of an interface on router `R-1`. 
 
-h. Be sure to click Apply to enact your changes and click OK to respond to the warning message. Click Save Configuration so that your configuration will be in effect when the WLC restarts.
+    - **A `DHCP pool` has been configured on the router `R-1`.**
+    
+        - **The address that we configure here for DHCP tells the WLC to forward all DHCP requests that it receives from hosts on the WLAN to the DHCP server on the router.**
+
+- Be sure to click `Apply` to enact your changes and click OK to respond to the warning message. 
+
+- Click `Save Configuration` so that your configuration will be in effect when the WLC restarts.
+
+    - ![image](https://user-images.githubusercontent.com/94720207/172426598-fdf792a1-aae4-423f-8c50-3163c583c252.png)
+    
+    - ![image](https://user-images.githubusercontent.com/94720207/172426799-2bc32630-9c3e-434c-9b02-540d17a3081b.png)
+
+## 
+ 
 
 
 
