@@ -26,9 +26,35 @@
 
 - < **Nerd Pocket-Bible about this configuration** >
 
-## Configure a Basic WLAN on the WLC
+## Configure a WPA2 Enterprise WLAN on the WLC
 
 ### WLC Topology
+
+- Falta detallarlo:
+
+- ![image](https://user-images.githubusercontent.com/94720207/172326073-8e9a3773-dc92-4166-b432-1ce519b1369f.png)
+
+- 
+
+## SNMP and RADIUS
+
+- In this lab I will use `Simple Network Management Protocol` `SNMP` and `Remote Authentication Dial-In User Service` `RADIUS` server software. 
+
+    - `SNMP` is used to monitor the network. 
+    
+        - The network administrator wants the `WLC` to **forward all `SNMP log messages`, called `traps`, to the `SNMP server`**.
+
+    - In addition, for WLAN user authentication, the network administrator wants to use a `RADIUS` server for `authentication, authorization, and accounting` `AAA` services. 
+    
+        - Instead of entering a publicly known pre-shared key to authenticate, as they do with `WPA2-PSK`, users will enter **their own username and password credentials**. 
+    
+        - **The credentials will be verified by the RADIUS server.** 
+        
+    - This way, individual user access can be tracked and audited if necessary and user accounts can be added or modified from a central location. 
+    
+    - **The `RADIUS server` is required for WLANs that are using `WPA2 Enterprise` authentication**.
+    
+    - 
 
 
  
