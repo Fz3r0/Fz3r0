@@ -246,7 +246,7 @@ switchport no negotiate
 shutdown
 exit
 
-interface range fastEthernet 0/1
+interface fastEthernet 0/1
 description << Trunk VLAN 99 - Connect to AP1 - USING POE >>
 switchport encapsulation dot1q
 switchport mode trunk
