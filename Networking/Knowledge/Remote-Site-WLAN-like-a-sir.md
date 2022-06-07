@@ -159,9 +159,7 @@
         
         - ![image](https://user-images.githubusercontent.com/94720207/172265730-82f7aa50-ad1b-447c-a506-ef0053ee2079.png)
 
----
-
-## Basic Wireless Setup PT. 2
+### Basic Wireless Setup PT. 2
 
 - Basic wireless setup includes the following steps:
 
@@ -222,6 +220,116 @@
             - ![image](https://user-images.githubusercontent.com/94720207/172269174-3a610e5a-5a46-409d-a666-09cc96602d3e.png)
   
 6. Configure the passphrase.
+
+    - **`WPA2 personal` uses a `passphrase` to authenticate wireless clients.** 
+    
+    - `WPA2 personal` is easier to use in a **small office or home environment because it does not require an authentication server._(Like a RADIUS  server using AAA)_** 
+    
+        - **Larger organizations implement `WPA2 enterprise` and require wireless clients to authenticate with a username and password. _(Using RADIUS Server | AAA Standards)_**
+        
+            - ![image](https://user-images.githubusercontent.com/94720207/172269628-5966dc9f-9978-4317-b1b7-00e2179d016d.png)
+
+---
+
+### Configure a Wireless Mesh Network
+
+- In a small office or home network, one wireless router may suffice to provide wireless access to all the clients. 
+
+    - However, if you want to **extend the range beyond approximately 45 meters indoors and 90 meters outdoors**, you can add `wireless access points`. 
+
+- As shown in the `wireless mesh network` in the figure, two access points are configured with the same WLAN settings from our previous example. 
+
+- Notice that the channels selected are 1 and 11 so that the access points do not interfere with channel 6 for other new AP that it will be installed in our imagination lol. 
+
+    - ![image](https://user-images.githubusercontent.com/94720207/172269932-20269396-1151-4340-a92e-443ac7a7808a.png)
+
+- Extending a WLAN in a small office or home has become increasingly easier. 
+
+- Manufacturers have made creating a `wireless mesh network` `WMN` simple through smartphone apps. 
+
+- You buy the system, disperse the access points, plug them in, download the app, and configure your WMN in a few steps. 
+
+- Search the internet for `wi-fi mesh network system` to find reviews of current offerings, or just click [here!](https://www.howtogeek.com/290418/what-are-mesh-wi-fi-systems-and-how-do-they-work/)
+
+---
+
+### NAT for IPv4
+
+- On a wireless router, if you look for a page like the `Status` page shown in the figure, **you will find the IPv4 addressing information that the router uses to send data to the internet.** 
+
+- Notice that the IPv4 address is `209.165.201.11` is a different network than the `192.168.1.254` address assigned to the router’s LAN interface. 
+
+- All the devices on the router’s LAN will get assigned addresses with the `192.168.1.x` prefix.
+
+    - ![image](https://user-images.githubusercontent.com/94720207/172270842-83638be0-5b77-4e2c-8a1d-b72b2994dad0.png)
+ 
+- The `209.165.201.11` IPv4 address is publicly routable on the internet. 
+
+- Any address with `192.168.x.x` is a private IPv4 address and cannot be routed on the internet. 
+
+    - Therefore, the router will use a process called `Network Address Translation` `NAT` to convert private IPv4 addresses to internet-routable IPv4 addresses. 
+    
+    - With `NAT`, a private (local) source IPv4 address is translated to a public (global) address. 
+    
+    - The process is reversed for incoming packets. 
+    
+    - The router is able to translate many internal IPv4 addresses into public addresses, by using `NAT`.
+
+- **Some ISPs use private addressing to connect to customer devices.** 
+
+    - However, eventually, **your traffic will leave the provider’s network and be routed on the internet.** 
+    
+- To see the IP addresses for your devices, search the internet for `what is my IP address.` 
+
+- Do this for other devices on the same network and you will see that they all share the same public IPv4 address. 
+
+- NAT makes this possible by tracking the source port numbers for every session established by a device. If your ISP has IPv6 enabled, you will see a unique IPv6 address for each device.
+
+### Quality of Service (QoS)
+
+- Many wireless routers have an option for configuring `Quality of Service` `QoS`. 
+
+    - By configuring `QoS`, you can guarantee that **certain traffic types, such as voice and video, are prioritized over traffic that is not as time-sensitive**, such as email and web browsing. 
+    
+    - On some wireless routers, traffic can also be prioritized on **specific ports**.
+
+- **The figure is a simplified mockup of a QoS interface based on a `Netgear` GUI.**
+
+    - ![image](https://user-images.githubusercontent.com/94720207/172276085-1fc61465-89db-447c-be1b-64b2a508b4fc.png)
+ 
+- You will usually find the QoS settings in the advanced menus. 
+
+    - ![image](https://user-images.githubusercontent.com/94720207/172276023-ca65269e-34b4-4c57-86da-6949cb71b864.png)
+
+- If you have a wireless router available, investigate the QoS settings. 
+
+    - Sometimes, these might be listed under “bandwidth control” or something similar. Consult the wireless router’s documentation or search the internet for “qos settings” for your router’s make and model.
+
+---
+
+### Port Forwarding
+
+- [Explicación chida del Port Forwarding](https://wiki.teltonika-networks.com/view/Port_Forwarding)
+
+- **Wireless routers typically block TCP and UDP ports to prevent unauthorized access in and out of a LAN.** 
+
+- However, there are situations when specific ports must be opened so that certain programs and applications can communicate with devices on different networks. 
+
+    - **Port forwarding is a rule-based method of directing traffic between devices on separate networks.**
+
+    - **Port Forwarding is the process of redirecting data packets to another destination.** 
+    
+        - When a packet matches a port forwarding rule, the destination and/or port values are changed in the packet header.
+    
+        - ![Networking_rutos_faq_port_forwarding_example_2_v1](https://user-images.githubusercontent.com/94720207/172277052-5ab3bf82-e4f8-4770-8f19-70672388f82b.gif) 
+        
+        - This allows for access to multiple devices in a network over one device.
+        
+        - ![image](https://user-images.githubusercontent.com/94720207/172276962-83a5576e-a180-44b1-a14e-d8a55f59b81a.png)
+
+
+
+
 
 
 
