@@ -675,6 +675,7 @@ Network Automation is a cross between the discipline of Network Infrastructure a
 
     - [Cisco DevNet - Notwork Automation & Programmability Basics](https://github.com/CiscoDevNet/netprog_basics)
     - [Pynet - Full Resources of Python for Network Programming @ ktbyers](https://github.com/ktbyers/pynet)
+    - [Pynet - Full Network Automation Course Excercises @ ktbyers](https://github.com/ktbyers/pynet/tree/master/learning_python)
     - [Awesome Network Automation](https://github.com/networktocode/awesome-network-automation) _This list was created to serve as a one-stop shop for information related to Network Automation._ 
     - [Awesome Network Automation & Programmability](https://github.com/cisco-ie/awesome-network-programmability) _A curated list of resources and packages for networking programmability and automation_
     - [Python Code Samples for Network Automation](https://github.com/CiscoDevNet/python_code_samples_network) _A collection of Python Code Samples for Network Management._ 
