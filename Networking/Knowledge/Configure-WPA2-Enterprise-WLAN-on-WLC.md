@@ -34,7 +34,18 @@
 
 - ![image](https://user-images.githubusercontent.com/94720207/172326073-8e9a3773-dc92-4166-b432-1ce519b1369f.png)
 
-- 
+### Addressing Table
+
+| **Device**         | **Interface**     | **IP Address**      |
+|--------------------|-------------------|---------------------|
+| R1                 | G0/0/0.5          | 192.168.5.1/24      |
+| G0/0/0.200         | 192.168.200.1/24  |                     |
+| G0/0/1             | 172.31.1.1/24     |                     |
+| SW1                | VLAN 200          | 192.168.200.100/24  |
+| LAP-1              | G0                | DHCP                |
+| WLC-1              | Management        | 192.168.200.254/24  |
+| RADIUS/SNMP Server | NIC               | 172.31.1.254/24     |
+| Admin PC           | NIC               | 192.168.200.200/24  |
 
 ## SNMP and RADIUS
 
@@ -54,7 +65,93 @@
     
     - **The `RADIUS server` is required for WLANs that are using `WPA2 Enterprise` authentication**.
     
-    - 
+    - **In this lab I will NOT configure the RADIUS server or SNMP, I will do that on next lab and focus now on `WPA2 Enterprise Authentication` (Both servers are previusly configured and ready to go :D)**
+
+## Objectives
+
+- Configure a new VLAN interface on a WLC.
+- Configure a new WLAN on a WLC.
+- Configure a new scope on the WLC internal DHCP server.
+- Configure the WLC with SNMP settings.
+- Configure the WLC to user a RADIUS server to authenticate WLAN users.
+- Secure a WLAN with WPA2-Enterprise.
+- Connect hosts to the new WLC.
+
+## Part 1: Create a new WLAN
+
+- I will create a WLAN inside the WLC dashboard like a sir, just like in the previous lab. 
+
+    - ## Step 1: Create a new VLAN interface.
+
+        - **Each `WLAN` requires a `virtual interface` on the `WLC`.** 
+        
+            - **These interfaces are known as `dynamic interfaces`**. 
+            
+            - The virtual interface is assigned a `VLAN ID` and traffic that uses the interface will be tagged as `VLAN traffic`. 
+            
+            - **This is why connections between the APs, the WLC, and the router are over trunk ports.** 
+            
+            - For the traffic from multiple WLANs to be transported through the network, traffic for the WLAN VLANs must be trunked.
+
+- Open the browser from the desktop of `Admin PC`. 
+
+    - Connect to the IP address of the WLC over HTTPS. `https://192.168.200.254`
+    
+    - ![image](https://user-images.githubusercontent.com/94720207/172330898-413724fc-7491-4ab0-ae00-01e11310d758.png)
+ 
+- Login with the username `admin` and password `Cisco123`.
+
+    - ![image](https://user-images.githubusercontent.com/94720207/172331931-d44136ad-43af-422e-9bfe-08e40c8915e1.png)
+
+- Click the Controller `menu` and then click `Interfaces` from the menu on the left. 
+
+    - You will see the `default virtual interface` and the `management interface` to which you are connected.
+
+    - Click the `New` button in the upper right-hand corner of the page. 
+    
+        - **You may need to scroll the page to the right to see it.**
+        
+        - ![image](https://user-images.githubusercontent.com/94720207/172333193-70b89efb-44e4-4efb-93ab-96b9805175bc.png)
+        
+        - ![image](https://user-images.githubusercontent.com/94720207/172333409-7076403f-7190-47dc-917c-41af01c42b62.png)
+
+- Enter the name of the new interface. 
+
+    - We will call it `WLAN-5`. 
+    
+    - Configure the `VLAN ID` as `5`. 
+    
+        - **This is the `VLAN` that will carry traffic for the `WLAN` that we create later. 
+        
+    - Click `Apply`. 
+    
+        - This leads to a configuration screen for the VLAN interface.
+        
+        - ![image](https://user-images.githubusercontent.com/94720207/172334030-30cc4da1-1f54-4b3d-91bc-7ff58a101369.png)
+
+        - ![image](https://user-images.githubusercontent.com/94720207/172334177-b7b90e17-ed4f-4786-af33-9b1692edc1af.png)
+
+- First, configure the interface to use `physical port number` `1`. 
+
+    - **Multiple VLAN interfaces can use the same physical port because the physical interfaces are like dedicated trunk ports.**
+    
+        - _That's why the `Fz3r0 Super Cisco Trunkin' Standard` uses `ALWAYS VLAN 99 for Trunk VLANs`_ 
+
+- Address the interface as follows:
+
+    - **IP Address: `192.168.5.254`**
+    - **Netmask: `255.255.255.0`**
+    - **Gateway: `192.168.5.1`**
+    - **Primary DHCP server: `192.168.5.1`**
+    
+        - ![image](https://user-images.githubusercontent.com/94720207/172335214-653f1f8c-bdf2-45c5-bb40-21ade6bc8e3d.png)
+ 
+
+
+
+ 
+
+
 
 
  
