@@ -331,14 +331,13 @@ Tables, Lists, Models, Cheat-Sheets, Mind-Maps & Resources
 
 ### Internet Society (ISOC)
 
-- Internet Engineering Task Force (IETF)
- nternet Architecture Board (IAB)
- Internet Corporation for Assigned Names and
-Numbers (ICANN)
- Internet Engineering Steering Group (IESG)
- Internet Research Task Force (IRTF)
-
-
+- [Internet Society (ISOC)](https://www.internetsociety.org/)
+    
+    - Internet Engineering Task Force **IETF**
+    - Internet Architecture Board **IAB**
+    - Internet Corporation for Assigned Names and Numbers **ICANN**
+    - Internet Engineering Steering Group **IESG**
+    - Internet Research Task Force **IRTF**
 
 ### 📝 👷 🏰 IEEE Standards 🏰 👷 📝
 
