@@ -383,6 +383,10 @@ Tables, Lists, Models, Cheat-Sheets, Mind-Maps & Resources
 ### ✉️ 👨‍💻 📦 Packet Level 📦 👨‍💻 ✉️ 
 Deep dive into the Packet / PCAP Analysis
 
+- **Capturing Packets PCAPs**
+
+    - [Capturing Packets](https://blog.showipintbri.com/blog/where-to-start)
+
 - Packet Headers, Parameters & Flags:
  
     - TCP > Parameters
