@@ -515,6 +515,7 @@ Guides for performing Penetration Attacks involving the Network Infrastructure E
     - Rogue Access Points
     - Man-in-the-Middle Attack (MITM)
     - [Log4j Vulnerability @ Unify Access PWN!](https://www.sprocketsecurity.com/blog/another-log4j-on-the-fire-unifi)
+    - [Hacking: Cracking de Contraseñas en redes WPA2](https://www.youtube.com/watch?v=PJT3BaTIN4M)
 
 - **Defending Wireless Networks**
 
