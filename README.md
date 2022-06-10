@@ -402,7 +402,7 @@ Tables, Lists, Models, Cheat-Sheets, Mind-Maps & Resources
 
 - Characteristics of RF
 
-    - [Wavelenght in Wireless Networking: 2.4 Ghz, 3.6 Ghz, 4.9 Ghz, 5 Ghz, 5.9 Ghz](https://www.youtube.com/watch?v=zLmAaAx1tUQ)
+    - [Wavelenght in Wireless Networking: **2.4Ghz, 3.6Ghz, 4.9Ghz, 5Ghz, 5.9Ghz**](https://www.youtube.com/watch?v=zLmAaAx1tUQ) _Wavelenght is the distance between the two successive crests._
     - 
 
 ### 📊 🖥️ 👨‍🚀 Simulators & Emulators 👨‍🚀 🖥️ 📊
