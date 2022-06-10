@@ -373,6 +373,13 @@ Tables, Lists, Models, Cheat-Sheets, Mind-Maps & Resources
     - [2.4 GHz (UHF) - 802.11b/g/n/ax]()
     - [5 GHz (SHF) - 802.11a/n/ac/ax]()
 
+### Radio Frequency (RF) Carrier Signals
+
+### Wireless Communication
+
+- [Radio Waves & Radio Spectrum @ NASA](https://www.nasa.gov/directorates/heo/scan/communications/outreach/funfacts/what_are_radio_waves) _The basic building block of radio communications is a radio wave._
+- 
+
 ### 📊 🖥️ 👨‍🚀 Simulators & Emulators 👨‍🚀 🖥️ 📊
  
 - [Cisco Packet Tracer]() _Network simulation tool for networking, IoT, and cybersecurity in a virtual lab_
