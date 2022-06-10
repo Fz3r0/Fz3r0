@@ -375,6 +375,12 @@ Tables, Lists, Models, Cheat-Sheets, Mind-Maps & Resources
     - [2.4 GHz (UHF) - 802.11b/g/n/ax]()
     - [5 GHz (SHF) - 802.11a/n/ac/ax]()
 
+### CSMA-CA & CSMA-
+
+- [Carrier Sense Multiple Access (CSMA)()
+- [Carrier Sense Multiple Access / Collision Detection (CSMA/CD)]()
+- [Carrier Sense Multiple Access / Collision Detection (CSMA/CA) - **Wireless**](https://www.youtube.com/watch?v=PcbTMSf0D2M&list=PLSNNzog5eydvJG48PYnWnNY7-tQIfxTRb&index=9)
+
 ### Wireless Communication & RF
 
 - Wireless / WiFi Bibles
@@ -421,7 +427,7 @@ Tables, Lists, Models, Cheat-Sheets, Mind-Maps & Resources
     - [(BSSID) - The "invisible" MAC of the AP who is broadcasting a SSID]()
     - [(SSID) - Identifier of the WLAN, visible for devices]()
     - [(ESS) - **The "matrushka" of BSS**, 2 APs or more broadcasting **same SSID**]()
-    - [(ESSID) - The shared netweork name/ID between different "ESS" (Inexistent in 802.11 standards), hint: use same as SSID](https://youtu.be/3lvIXXAdLR4?t=272)
+    - [(ESSID) - The shared netweork name/ID between different "ESS" (Inexistent in 802.11 standards), hint: use same as SSID]
 
 ### 📊 🖥️ 👨‍🚀 Simulators & Emulators 👨‍🚀 🖥️ 📊
  
