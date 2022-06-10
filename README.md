@@ -384,7 +384,8 @@ Tables, Lists, Models, Cheat-Sheets, Mind-Maps & Resources
 
 - Radio Concepts on Wireless Networks
 
-    - [**Radio Waves** & Introduction to **Radio Spectrum** @ NASA](https://www.nasa.gov/directorates/heo/scan/communications/outreach/funfacts/what_are_radio_waves) _The basic building block of radio communications is a radio wave._
+    - [**Radio Waves AKA Radio Signals** @ NASA](https://www.nasa.gov/directorates/heo/scan/communications/outreach/funfacts/what_are_radio_waves) _The basic building block of radio communications is a radio wave._
+    - [**Electromagnetic Spectrum**](https://en.wikipedia.org/wiki/Electromagnetic_spectrum)
     - [**Radio Spectrum**](https://en.wikipedia.org/wiki/Radio_spectrum) _The radio spectrum is the part of the electromagnetic spectrum with frequencies from 0 Hz to 3,000 GHz(3 THz)._
     - [Phase in Radio Frequencies (RF) @ Aruba Networks](https://blogs.arubanetworks.com/industries/frequency-cycle-wavelength-amplitude-and-phase/#:~:text=Phase%20is%20the%20same%20frequency,that%20share%20the%20same%20frequency.) _Phase is the same frequency, same cycle, same wavelength, but are 2 or more wave forms not exactly aligned together._
     - [Carrier Signal AKA Carrier Wave: **Analog Modulation: AM, FM** & **CSMA/CD Ethernet Method**](https://networkencyclopedia.com/carrier-signal/)
@@ -403,7 +404,7 @@ Tables, Lists, Models, Cheat-Sheets, Mind-Maps & Resources
     - RF in a nutshell
 
         - [Radio Frequency (RF, rf)](https://www.techtarget.com/searchnetworking/definition/radio-frequency)
-        - [Electromagnetic Spectrum](https://en.wikipedia.org/wiki/Electromagnetic_spectrum)
+
         - [How Transmitting and Receiving Antenna works: From AC > to Antenna > to Air > to Antenna > to AC](https://ctrfantennasinc.com/how-transmitting-and-receiving-antenna-works/)
 
     - Characteristics of RF
