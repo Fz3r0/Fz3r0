@@ -377,11 +377,19 @@ Tables, Lists, Models, Cheat-Sheets, Mind-Maps & Resources
 
 ### Wireless Communication
 
-- [Full Radio Concepts: Phase, Amplitude, Wavelenght & Frequency > CWNA in a nutshell](https://yatebts.com/documentation/concepts/radio-waves/radio-concepts/)
-- [Radio Waves & Introduction to Radio Spectrum @ NASA](https://www.nasa.gov/directorates/heo/scan/communications/outreach/funfacts/what_are_radio_waves) _The basic building block of radio communications is a radio wave._
-- [Radio Spectrum & **Frequency** of Radio Waves](https://en.wikipedia.org/wiki/Radio_spectrum) _The radio spectrum is the part of the electromagnetic spectrum with frequencies from 0 Hz to 3,000 GHz(3 THz)._
-- [Phase in Radio Frequencies (RF) @ Aruba Networks](https://blogs.arubanetworks.com/industries/frequency-cycle-wavelength-amplitude-and-phase/#:~:text=Phase%20is%20the%20same%20frequency,that%20share%20the%20same%20frequency.) _Phase is the same frequency, same cycle, same wavelength, but are 2 or more wave forms not exactly aligned together._
-- 
+- Radio Concepts on Wireless Networks
+
+    - [Full Radio Concepts: Phase, Amplitude, Wavelenght & Frequency > CWNA in a nutshell](https://yatebts.com/documentation/concepts/radio-waves/radio-concepts/)
+    - [Radio Waves & Introduction to Radio Spectrum @ NASA](https://www.nasa.gov/directorates/heo/scan/communications/outreach/funfacts/what_are_radio_waves) _The basic building block of radio communications is a radio wave._
+    - [Radio Spectrum & **Frequency** of Radio Waves](https://en.wikipedia.org/wiki/Radio_spectrum) _The radio spectrum is the part of the electromagnetic spectrum with frequencies from 0 Hz to 3,000 GHz(3 THz)._
+    - [Phase in Radio Frequencies (RF) @ Aruba Networks](https://blogs.arubanetworks.com/industries/frequency-cycle-wavelength-amplitude-and-phase/#:~:text=Phase%20is%20the%20same%20frequency,that%20share%20the%20same%20frequency.) _Phase is the same frequency, same cycle, same wavelength, but are 2 or more wave forms not exactly aligned together._
+
+- The "Keying" Method
+
+    - [Keying Method (Telecommunications)](https://en.wikipedia.org/wiki/Keying_(telecommunications)) _The capacity of a signal to encode its data so it can be transported to the reciever._
+    - [Amplitude Shift Keying (ASK)](https://www.tutorialspoint.com/what-is-amplitude-shift-keying-ask-in-computer-network)
+    - [Frequency Shift Keying (FSK)](https://www.tutorialspoint.com/explain-frequency-shift-keying-fsk-in-computer-network)
+    - [Phase Shift Keying (PSK)](https://www.tutorialspoint.com/what-is-phase-shift-keying-psk-in-computer-network)
 
 
 ### 📊 🖥️ 👨‍🚀 Simulators & Emulators 👨‍🚀 🖥️ 📊
