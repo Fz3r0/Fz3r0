@@ -329,7 +329,7 @@ Tables, Lists, Models, Cheat-Sheets, Mind-Maps & Resources
 - [ETHII > Ethernet II : Header]()
 - [WiFi > 802.11 : Header]()
 
-### Internet Society (ISOC)
+### Networking Groups & Organizations
 
 - [Internet Society (ISOC)](https://www.internetsociety.org/)
     
@@ -338,6 +338,13 @@ Tables, Lists, Models, Cheat-Sheets, Mind-Maps & Resources
     - Internet Corporation for Assigned Names and Numbers **ICANN**
     - Internet Engineering Steering Group **IESG**
     - Internet Research Task Force **IRTF**
+
+- [WiFi Alliance]()
+
+### Radio Frequency (RF) Bible
+
+- [Radio Frequency (RF, rf)](https://www.techtarget.com/searchnetworking/definition/radio-frequency)
+- [Electromagnetic Spectrum](https://en.wikipedia.org/wiki/Electromagnetic_spectrum)
 
 ### 📝 👷 🏰 IEEE Standards 🏰 👷 📝
 
@@ -383,6 +390,7 @@ Tables, Lists, Models, Cheat-Sheets, Mind-Maps & Resources
     - [Radio Waves & Introduction to Radio Spectrum @ NASA](https://www.nasa.gov/directorates/heo/scan/communications/outreach/funfacts/what_are_radio_waves) _The basic building block of radio communications is a radio wave._
     - [Radio Spectrum & **Frequency** of Radio Waves](https://en.wikipedia.org/wiki/Radio_spectrum) _The radio spectrum is the part of the electromagnetic spectrum with frequencies from 0 Hz to 3,000 GHz(3 THz)._
     - [Phase in Radio Frequencies (RF) @ Aruba Networks](https://blogs.arubanetworks.com/industries/frequency-cycle-wavelength-amplitude-and-phase/#:~:text=Phase%20is%20the%20same%20frequency,that%20share%20the%20same%20frequency.) _Phase is the same frequency, same cycle, same wavelength, but are 2 or more wave forms not exactly aligned together._
+    - [Carrier Signal AKA Carrier Wave: AM, FM & CSMA/CD Ethernet Method](https://networkencyclopedia.com/carrier-signal/)
 
 - The "Keying" Method: The Black Magic for converting Radio Signals into 1 & 0
 
