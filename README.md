@@ -404,13 +404,16 @@ Tables, Lists, Models, Cheat-Sheets, Mind-Maps & Resources
     - RF in a nutshell
 
         - [Radio Frequency (RF, rf)](https://www.techtarget.com/searchnetworking/definition/radio-frequency)
-
         - [How Transmitting and Receiving Antenna works: From AC > to Antenna > to Air > to Antenna > to AC](https://ctrfantennasinc.com/how-transmitting-and-receiving-antenna-works/)
 
     - Characteristics of RF
 
         - [Wavelenght in Wireless Networking: **2.4Ghz, 3.6Ghz, 4.9Ghz, 5Ghz, 5.9Ghz**](https://www.youtube.com/watch?v=zLmAaAx1tUQ) _Wavelenght is the distance between the two successive crests._
         - [**Wi-Fi** signals: **reflection, absorption, diffraction, scattering, and interference** @ Sunny](https://youtu.be/UxDdwGhSf4o)
+
+- Wireless LAN (WLAN):
+
+    - [**WLAN** two **modes**: **Ad Hoc** VS **Infraestructure**](https://youtu.be/SLSOZokbFfM)
 
 ### 📊 🖥️ 👨‍🚀 Simulators & Emulators 👨‍🚀 🖥️ 📊
  
