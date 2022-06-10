@@ -377,18 +377,22 @@ Tables, Lists, Models, Cheat-Sheets, Mind-Maps & Resources
 
 ### Wireless Communication & RF
 
+- Wireless / WiFi Bibles
+
+    - [Wireless/WiFi Network: Pro in less than 1 hour @ Sunny](https://www.youtube.com/watch?v=WOTeFceIeM8&list=PLSNNzog5eydvJG48PYnWnNY7-tQIfxTRb)
+
 - Radio Concepts on Wireless Networks
 
     - [Full Radio Concepts: Phase, Amplitude, Wavelenght & Frequency > CWNA in a nutshell](https://yatebts.com/documentation/concepts/radio-waves/radio-concepts/)
     - [Radio Waves & Introduction to Radio Spectrum @ NASA](https://www.nasa.gov/directorates/heo/scan/communications/outreach/funfacts/what_are_radio_waves) _The basic building block of radio communications is a radio wave._
     - [Radio Spectrum & **Frequency** of Radio Waves](https://en.wikipedia.org/wiki/Radio_spectrum) _The radio spectrum is the part of the electromagnetic spectrum with frequencies from 0 Hz to 3,000 GHz(3 THz)._
     - [Phase in Radio Frequencies (RF) @ Aruba Networks](https://blogs.arubanetworks.com/industries/frequency-cycle-wavelength-amplitude-and-phase/#:~:text=Phase%20is%20the%20same%20frequency,that%20share%20the%20same%20frequency.) _Phase is the same frequency, same cycle, same wavelength, but are 2 or more wave forms not exactly aligned together._
-    - [Carrier Signal AKA Carrier Wave: AM, FM & CSMA/CD Ethernet Method](https://networkencyclopedia.com/carrier-signal/)
+    - [Carrier Signal AKA Carrier Wave: **Analog Modulation: AM, FM** & **CSMA/CD Ethernet Method**](https://networkencyclopedia.com/carrier-signal/)
+    - [Digital Modulations: ASK, FSK & PSK @ Sunny](https://www.youtube.com/watch?v=qGwUOvErR8Q)
 
 - The "Keying" Method: The Black Magic for converting Radio Signals into 1 & 0
 
     - [Keying Method (Telecommunications)](https://en.wikipedia.org/wiki/Keying_(telecommunications)) _The capacity of a signal to encode its data so it can be transported to the reciever._
-    - [Digital Modulations: ASK, FSK & PSK @ Sunny](https://www.youtube.com/watch?v=qGwUOvErR8Q)
     - [Understanding Amplitude Shift Keying: On-Off Keying(OOK), Near Field Communications(NFC), M-ary ASK](https://www.youtube.com/watch?v=eJ5m0Sbr2qw)
     - [Amplitude Shift Keying (ASK)](https://www.tutorialspoint.com/what-is-amplitude-shift-keying-ask-in-computer-network)
     - [Frequency Shift Keying (FSK)](https://www.tutorialspoint.com/explain-frequency-shift-keying-fsk-in-computer-network)
