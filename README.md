@@ -414,6 +414,7 @@ Tables, Lists, Models, Cheat-Sheets, Mind-Maps & Resources
 - Wireless LAN (WLAN):
 
     - [**WLAN** two **modes**: **Ad Hoc** (peer-to-peer between devices) VS **Infraestructure** (Centralized using APs)](https://youtu.be/SLSOZokbFfM)
+    - [**WLAN** Devices & Concepts: **AP, BSS, BSSID, SSID, ESS** & **ESSID** @ Sunny](https://www.youtube.com/watch?v=3lvIXXAdLR4&list=PLSNNzog5eydvJG48PYnWnNY7-tQIfxTRb&index=5)
 
 ### 📊 🖥️ 👨‍🚀 Simulators & Emulators 👨‍🚀 🖥️ 📊
  
