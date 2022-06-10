@@ -413,7 +413,7 @@ Tables, Lists, Models, Cheat-Sheets, Mind-Maps & Resources
 
 - Wireless LAN (WLAN):
 
-    - [**WLAN** two **modes**: **Ad Hoc** VS **Infraestructure**](https://youtu.be/SLSOZokbFfM)
+    - [**WLAN** two **modes**: **Ad Hoc** (peer-to-peer between devices) VS **Infraestructure** (Centralized using APs)](https://youtu.be/SLSOZokbFfM)
 
 ### 📊 🖥️ 👨‍🚀 Simulators & Emulators 👨‍🚀 🖥️ 📊
  
