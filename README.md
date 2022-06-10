@@ -412,9 +412,13 @@ Tables, Lists, Models, Cheat-Sheets, Mind-Maps & Resources
         - [**Wi-Fi** signals: **reflection, absorption, diffraction, scattering, and interference** @ Sunny](https://youtu.be/UxDdwGhSf4o)
 
 - Wireless LAN (WLAN):
-
+    
     - [**GET GUD IN 5 MINS! pt1**: **WLAN** two **modes**: **Ad Hoc** (peer-to-peer between devices) VS **Infraestructure** (Centralized using APs)](https://youtu.be/SLSOZokbFfM)
-    - [**GET GUD IN 5 MINS! pt2**:**WLAN** Devices & Concepts: **AP, BSS, BSSID, SSID, ESS** & **ESSID** @ Sunny](https://www.youtube.com/watch?v=3lvIXXAdLR4&list=PLSNNzog5eydvJG48PYnWnNY7-tQIfxTRb&index=5)
+    - [**GET GUD IN 5 MINS! pt2**:**WLAN** Devices & Concepts: **AP, BSS, BSSID, SSID, ESS** & **ESSID** @ Sunny](https://www.youtube.com/watch?v=3lvIXXAdLR4&list=PLSNNzog5eydvJG48PYnWnNY7-tQIfxTRb&index=5)  
+    - [Layer2 Access Points / Base Stations (AP or WAP) & Wireless Routers/Gateways (Home "modems")]() 
+    - [(BSS) - The "broadcast domain" of Wireless APs]
+    - [(BSSID) - The "invisible" MAC of the AP]()
+    - [(SSID) - Identifier]()
 
 ### 📊 🖥️ 👨‍🚀 Simulators & Emulators 👨‍🚀 🖥️ 📊
  
