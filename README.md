@@ -341,13 +341,6 @@ Tables, Lists, Models, Cheat-Sheets, Mind-Maps & Resources
 
 - [WiFi Alliance]()
 
-### Radio Frequency (RF) Bible
-
-- [Radio Frequency (RF, rf)](https://www.techtarget.com/searchnetworking/definition/radio-frequency)
-- [Electromagnetic Spectrum](https://en.wikipedia.org/wiki/Electromagnetic_spectrum)
-- [How Transmitting and Receiving Antenna works: From AC > to Antenna > to Air > to Antenna > to AC](https://ctrfantennasinc.com/how-transmitting-and-receiving-antenna-works/)
-- 
-
 ### 📝 👷 🏰 IEEE Standards 🏰 👷 📝
 
 - [802.1q]()
@@ -399,6 +392,18 @@ Tables, Lists, Models, Cheat-Sheets, Mind-Maps & Resources
     - [Frequency Shift Keying (FSK)](https://www.tutorialspoint.com/explain-frequency-shift-keying-fsk-in-computer-network)
     - [Phase Shift Keying (PSK)](https://www.tutorialspoint.com/what-is-phase-shift-keying-psk-in-computer-network)
 
+### Radio Frequency (RF) Bible
+
+- RF in a nutshell
+
+    - [Radio Frequency (RF, rf)](https://www.techtarget.com/searchnetworking/definition/radio-frequency)
+    - [Electromagnetic Spectrum](https://en.wikipedia.org/wiki/Electromagnetic_spectrum)
+    - [How Transmitting and Receiving Antenna works: From AC > to Antenna > to Air > to Antenna > to AC](https://ctrfantennasinc.com/how-transmitting-and-receiving-antenna-works/)
+
+- Characteristics of RF
+
+    - [Wavelenght in Wireless Networking: 2.4 Ghz, 3.6 Ghz, 4.9 Ghz, 5 Ghz, 5.9 Ghz](https://www.youtube.com/watch?v=zLmAaAx1tUQ)
+    - 
 
 ### 📊 🖥️ 👨‍🚀 Simulators & Emulators 👨‍🚀 🖥️ 📊
  
