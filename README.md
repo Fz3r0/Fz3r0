@@ -998,7 +998,8 @@ Mind-Maps, Paradigms, Way-to-Go, Hints & Tricks for Seek & Exploit TICs!
     
     - [Brute Logic - Brute XSS Bible](https://brutelogic.com.br/blog/) _Master the art of Cross Site Scripting._
     - [Laboratorio XSS en formulario sencillo](https://www.youtube.com/watch?v=uoD0QGFzPvs)
-    - [XSS Práctica > A. Caballero](https://www.youtube.com/watch?v=lqcWIFUExNA) 
+    - [XSS Práctica @ A. Caballero](https://www.youtube.com/watch?v=lqcWIFUExNA) 
+    - [XSS & Beef Lab @ Chanchito Feliz](https://www.youtube.com/watch?v=ClBfEKPUQa8)
 
 - XSS Tools, Cheatsheets, Commands, Scripts
 
