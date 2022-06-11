@@ -384,7 +384,7 @@ Tables, Lists, Models, Cheat-Sheets, Mind-Maps & Resources
     - [2.4 GHz (UHF) - 802.11b/g/n/ax]()
     - [5 GHz (SHF) - 802.11a/n/ac/ax]()
 
-### CSMA-CA & CSMA-
+### ➡️ 💥 ⬅️ CSMA-CA & CSMA- ➡️ 💥 ⬅️
 
 - [Carrier Sense Multiple Access (CSMA)()
 - [Carrier Sense Multiple Access / Collision Detection (CSMA/CD)]()
@@ -520,7 +520,7 @@ Troubleshooting & Incidence Response for Notworking Hardware & Software by _Fz3r
 - [Cut-Throught & Store-and-forward Switching](https://user-images.githubusercontent.com/94720207/164997743-d42dbae9-edb4-4f83-ae44-16cb5eab2fd4.png) _Spoiler-alert: Store-and-Forward for the win! Checksum FTW_
 - [Fixing **Kali VM Bridge Network** [VMware] (GNS3 + Hacking Labs = ETH kaput!)](/Networking/Knowledge/Troubleshooting/Kali-Bridge-Issue-ETH.md) _Easy fix to the bridge VMware incidence_
  
-### ⚔️ 🕵️ 🦈 Attacking & Defending the Network Infraestructure 🦈 🕵️ ⚔️ 
+### ⚔️ 🐱‍👤 🦈 Attacking & Defending the Network Infraestructure 🦈 🐱‍👤 ⚔️ 
 Guides for performing Penetration Attacks involving the Network Infrastructure Exploiting Known Vulverabilities and how to Mitigate and Secure the Network Against those threats  
 
 - **Security & Best Practices Configurations for Networking**
@@ -531,7 +531,7 @@ Guides for performing Penetration Attacks involving the Network Infrastructure E
     - [E-Mail & Raw Source Analysis for Secure Theat detection](https://mediatemple.net/community/products/grid/204644060/how-do-i-view-email-headers-for-a-message)
     - [LAN-Security: Endpoints, Hosts, & Security Appliances](/Networking/Attacking-Denending-Network-Infraestructure/NetSec-Defensive-Tools/Security-&-Best-Practices-Configurations/LAN-Security_Endpoint-Host-Appliances.md)
 
-### Network Defense
+### 🌐 🟦 🛡️ Network Defense 🛡️ 🟦 🌐
 
 - [Pysical Security](ttps://contenthub.netacad.com/sgp/nad/1.0/en-US/m2//?xAPILaunchKey=377f9268274bcdd43676582161803000d313aac7477dc98c93643d6e8889d633&xAPILaunchService=https%3A%2F%2Fcontenthub.netacad.com%2Fkernel%2Fadl%2Fcontent%2F&lang=en-US#/id/b9193fcb408c484cabfc684ccc72dafa)
 - [Application Security](https://contenthub.netacad.com/sgp/nad/1.0/en-US/m2//?xAPILaunchKey=377f9268274bcdd43676582161803000d313aac7477dc98c93643d6e8889d633&xAPILaunchService=https%3A%2F%2Fcontenthub.netacad.com%2Fkernel%2Fadl%2Fcontent%2F&lang=en-US#/id/8582078fa5eb480f82c122a85082ac06)
