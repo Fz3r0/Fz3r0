@@ -1046,6 +1046,7 @@ Mind-Maps, Paradigms, Way-to-Go, Hints & Tricks for Seek & Exploit TICs!
  
     - [SQL Map]()
     - [SQLinjection TimeBased PWN! @ Fz3r0](https://github.com/Fz3r0/fz3r0-SQLinjection-TimeBased-Python) _SQLi Time bases Python Script made by me!_
+    - [Jeeves - Time-Based Blind SQLInjection Finder](https://www.kitploit.com/2022/06/jeeves-time-based-blind-sqlinjection.html) _Golang_
 
 ### File Inclusion
 
