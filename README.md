@@ -425,6 +425,8 @@ Tables, Lists, Models, Cheat-Sheets, Mind-Maps & Resources
 
         - [**Wavelenght** in Wireless Networking: **2.4Ghz**, 3.6Ghz, 4.9Ghz, **5Ghz**, 5.9Ghz](https://www.youtube.com/watch?v=zLmAaAx1tUQ) _Wavelenght is the distance between the two successive crests._
         - [**Wavelenght Formula & Calculation**](https://www.geeksforgeeks.org/wavelength-formula/)
+        - [**Frequency** in Wireless Networking: Number of cycles per second in an ac sine wave](https://www.fluke.com/en-us/learn/blog/electrical/what-is-frequency)
+        - [**Amplitude** in Wireless Networking:](https://en.wikipedia.org/wiki/Amplitude)
 
 - Wireless LAN (WLAN):
     
