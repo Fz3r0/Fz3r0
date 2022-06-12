@@ -339,6 +339,10 @@ Tables, Lists, Models, Cheat-Sheets, Mind-Maps & Resources
 - [ETHII > Ethernet II : Header]()
 - [WiFi > 802.11 : Header]()
 
+- Commscope Ruckus
+
+    - ICX > [Link Aggregation Group (LAG) - Creation & Configuration](https://docs.ruckuswireless.com/fastiron/08.0.60/fastiron-08060-l2guide/GUID-FE4D29C9-59DC-4394-98CE-DCBD3FA7EC48.html) 
+
 ### Networking Groups & Organizations
 
 - [Internet Society (ISOC)](https://www.internetsociety.org/)
