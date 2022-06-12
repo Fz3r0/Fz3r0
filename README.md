@@ -504,7 +504,7 @@ Pro and Secure Network Configurations Guides by _Fz3r0_
 
     - ICX > [Ruckus **Stacking**: The Main Weapon of Ruckus and Campus Switches](https://www.youtube.com/watch?v=tn9oN9M9FwY)
     - ICX > [Ruckus **Stacking**: Configuring Stacking (video)](https://www.youtube.com/watch?v=d1w-FcAmidU)
-    - ICX > [Ruckus **Stacking**: Configuring Stacking (video)](https://www.youtube.com/watch?v=d1w-FcAmidU)
+    - ICX > [Ruckus **Stacking**: Configuring Stacking Guide](https://support.ruckuswireless.com/documents/3453-fastiron-08-0-95-ga-stacking-configuration-guide)
     - ICX > [Configuring SSH on Ruckus ICX](https://www.youtube.com/watch?v=F1_tLiGEGAQ&list=PLySwoo7u9-KIP1JjM-hz0hqQY_uDU1fh3&index=72)
     - ICX > [Configuring AAA Authentication on ICX](https://www.youtube.com/watch?v=fD2J1w61MlQ&list=PLySwoo7u9-KIP1JjM-hz0hqQY_uDU1fh3&index=69)
     - ICX > [Web Management (HTTP) on Ruckus ICX](https://www.youtube.com/watch?v=YC8ZUoalvKk&list=PLySwoo7u9-KIP1JjM-hz0hqQY_uDU1fh3&index=74)
