@@ -339,15 +339,6 @@ Tables, Lists, Models, Cheat-Sheets, Mind-Maps & Resources
 - [ETHII > Ethernet II : Header]()
 - [WiFi > 802.11 : Header]()
 
-- Commscope Ruckus
-
-    - ICX > [Configuring SSH on Ruckus ICX](https://www.youtube.com/watch?v=F1_tLiGEGAQ&list=PLySwoo7u9-KIP1JjM-hz0hqQY_uDU1fh3&index=72)
-    - ICX > [Configuring AAA Authentication on ICX](https://www.youtube.com/watch?v=fD2J1w61MlQ&list=PLySwoo7u9-KIP1JjM-hz0hqQY_uDU1fh3&index=69)
-    - ICX > [Web Management (HTTP) on Ruckus ICX](https://www.youtube.com/watch?v=YC8ZUoalvKk&list=PLySwoo7u9-KIP1JjM-hz0hqQY_uDU1fh3&index=74)
-    - ICX > [Link Aggregation Group (LAG) - Creation & Configuration](https://docs.ruckuswireless.com/fastiron/08.0.60/fastiron-08060-l2guide/GUID-FE4D29C9-59DC-4394-98CE-DCBD3FA7EC48.html) 
-    - ICX > [Configuring PoE on ICX](https://www.youtube.com/watch?v=nbrY3g3BwZc&list=PLySwoo7u9-KIP1JjM-hz0hqQY_uDU1fh3&index=75)
-    - ICX > [Configuring STP & RSTP on ICX](https://www.youtube.com/watch?v=9p4veov6gx8&list=PLySwoo7u9-KIP1JjM-hz0hqQY_uDU1fh3&index=84) 
-
 ### Networking Groups & Organizations
 
 - [Internet Society (ISOC)](https://www.internetsociety.org/)
@@ -497,15 +488,26 @@ Deep dive into the Packet / PCAP Analysis
  
 ### 🔐 🛠️ ⚙️ Configure it Like a Sir! ⚙️ 🛠️ 🔐
 Pro and Secure Network Configurations Guides by _Fz3r0_
- 
-- [Configurar **VLANs** de Noob a Pro! _En Español_](/Networking/Knowledge/VLANS_full!.png)
-- [Configure **Spaning Tree Protocol** like a Sir **(STP, RSTP+, PVSTP & R-PVSTP)**](/Networking/Knowledge/STP-for-dummies.md)
-- [Configure **Ether-Channel** like a Sir! **(Etherport, PAgP, LACL, Static)** | STP)](/Networking/Knowledge/EtherChannel-like-a-sir.md)
-- [Configure **DHCPv4** like a Sir **(DHCPv4, DHCP Client, DHCP Server, DHCP Relay Agent, Cisco Router, Home Router)**](/Networking/Knowledge/DHCPv4-like-a-sir.md)
-- [Configure **FHRP** like a Sir! **(Pro HSRP + intro to VRRP, GLBP, IRDP)** ](/Networking/Knowledge/FHRP-like-a-sir.md)
-- [Configure **Remote Site Wireless (WLAN)** like a Sir! **(Home/SOHO Wireless Router, WLAN Setup, WPA2, WPA2 Enterprise, AES, Mesh, NAT, QoS, Port Forwarding & Triggering )**](/Networking/Knowledge/Remote-Site-WLAN-like-a-sir.md)
-- [Configure **WLAN on a Wireless Controller (WLC) using Personal WPA2 Authentication** like a Sir! **WPA2, AES, WLC, WLAN Setup**](/Networking/Knowledge/Configure-WLAN-on-WLC-like-a-sir.md)
-- [Configure **WLAN on a Wireless Controller (WLC) using Enterprise WPA2 Authentication** like a Sir! **WPA2 Enterprise, AES, RADIUS/TACACS, AAA, WLC, WLAN Setup**](/Networking/Knowledge/Configure-WLAN-on-WLC-like-a-sir.md)
+
+- Cisco
+
+    - [Configurar **VLANs** de Noob a Pro! _En Español_](/Networking/Knowledge/VLANS_full!.png)
+    - [Configure **Spaning Tree Protocol** like a Sir **(STP, RSTP+, PVSTP & R-PVSTP)**](/Networking/Knowledge/STP-for-dummies.md)
+    - [Configure **Ether-Channel** like a Sir! **(Etherport, PAgP, LACL, Static)** | STP)](/Networking/Knowledge/EtherChannel-like-a-sir.md)
+    - [Configure **DHCPv4** like a Sir **(DHCPv4, DHCP Client, DHCP Server, DHCP Relay Agent, Cisco Router, Home Router)**](/Networking/Knowledge/DHCPv4-like-a-sir.md)
+    - [Configure **FHRP** like a Sir! **(Pro HSRP + intro to VRRP, GLBP, IRDP)** ](/Networking/Knowledge/FHRP-like-a-sir.md)
+    - [Configure **Remote Site Wireless (WLAN)** like a Sir! **(Home/SOHO Wireless Router, WLAN Setup, WPA2, WPA2 Enterprise, AES, Mesh, NAT, QoS, Port Forwarding & Triggering )**](/Networking/Knowledge/Remote-Site-WLAN-like-a-sir.md)
+    - [Configure **WLAN on a Wireless Controller (WLC) using Personal WPA2 Authentication** like a Sir! **WPA2, AES, WLC, WLAN Setup**](/Networking/Knowledge/Configure-WLAN-on-WLC-like-a-sir.md)
+    - [Configure **WLAN on a Wireless Controller (WLC) using Enterprise WPA2 Authentication** like a Sir! **WPA2 Enterprise, AES, RADIUS/TACACS, AAA, WLC, WLAN Setup**](/Networking/Knowledge/Configure-WLAN-on-WLC-like-a-sir.md)
+
+- Commscope Ruckus
+
+    - ICX > [Configuring SSH on Ruckus ICX](https://www.youtube.com/watch?v=F1_tLiGEGAQ&list=PLySwoo7u9-KIP1JjM-hz0hqQY_uDU1fh3&index=72)
+    - ICX > [Configuring AAA Authentication on ICX](https://www.youtube.com/watch?v=fD2J1w61MlQ&list=PLySwoo7u9-KIP1JjM-hz0hqQY_uDU1fh3&index=69)
+    - ICX > [Web Management (HTTP) on Ruckus ICX](https://www.youtube.com/watch?v=YC8ZUoalvKk&list=PLySwoo7u9-KIP1JjM-hz0hqQY_uDU1fh3&index=74)
+    - ICX > [Link Aggregation Group (LAG) - Creation & Configuration](https://docs.ruckuswireless.com/fastiron/08.0.60/fastiron-08060-l2guide/GUID-FE4D29C9-59DC-4394-98CE-DCBD3FA7EC48.html) 
+    - ICX > [Configuring PoE on ICX](https://www.youtube.com/watch?v=nbrY3g3BwZc&list=PLySwoo7u9-KIP1JjM-hz0hqQY_uDU1fh3&index=75)
+    - ICX > [Configuring STP & RSTP on ICX](https://www.youtube.com/watch?v=9p4veov6gx8&list=PLySwoo7u9-KIP1JjM-hz0hqQY_uDU1fh3&index=84) 
 
 ### 🛡️ 👩‍🔬 🧪  Secure Network Labs 🧪 👩‍🔬 🛡️  
 Networking Labs using simulators, emulators like Packet Tracer, GNS3 & eve / and/or physical infraestructure by _Fz3r0_
