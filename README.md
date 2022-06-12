@@ -513,7 +513,7 @@ Pro and Secure Network Configurations Guides by _Fz3r0_
     - ICX > [Configuring STP & RSTP on ICX](https://www.youtube.com/watch?v=9p4veov6gx8&list=PLySwoo7u9-KIP1JjM-hz0hqQY_uDU1fh3&index=84) 
     - ICX Triforce CC pt.1 > [Ruckus ICX - Stack](https://youtu.be/PZwByfHlZkA)
     - ICX Triforce CC pt.2 > [Ruckus ICX - SPX LAG (AKA Campus Fabric / Non traditional SPX, Ruckus unique)](https://youtu.be/a005u6DOYPA)
-    - ICX Triforce CC pt.3 > [Ruckus ICX - UFI upgrade](https://youtu.be/Ioi_e_9mXYg)
+    - ICX Triforce CC pt.3 > [Ruckus ICX - UFI upgrade (upgrading UFI on entire fabric example)](https://youtu.be/Ioi_e_9mXYg)
 
 ### 🛡️ 👩‍🔬 🧪  Secure Network Labs 🧪 👩‍🔬 🛡️  
 Networking Labs using simulators, emulators like Packet Tracer, GNS3 & eve / and/or physical infraestructure by _Fz3r0_
