@@ -341,7 +341,12 @@ Tables, Lists, Models, Cheat-Sheets, Mind-Maps & Resources
 
 - Commscope Ruckus
 
+    - ICX > [Configuring SSH on Ruckus ICX](https://www.youtube.com/watch?v=F1_tLiGEGAQ&list=PLySwoo7u9-KIP1JjM-hz0hqQY_uDU1fh3&index=72)
+    - ICX > [Configuring AAA Authentication on ICX](https://www.youtube.com/watch?v=fD2J1w61MlQ&list=PLySwoo7u9-KIP1JjM-hz0hqQY_uDU1fh3&index=69)
+    - ICX > [Web Management (HTTP) on Ruckus ICX](https://www.youtube.com/watch?v=YC8ZUoalvKk&list=PLySwoo7u9-KIP1JjM-hz0hqQY_uDU1fh3&index=74)
     - ICX > [Link Aggregation Group (LAG) - Creation & Configuration](https://docs.ruckuswireless.com/fastiron/08.0.60/fastiron-08060-l2guide/GUID-FE4D29C9-59DC-4394-98CE-DCBD3FA7EC48.html) 
+    - ICX > [Configuring PoE on ICX](https://www.youtube.com/watch?v=nbrY3g3BwZc&list=PLySwoo7u9-KIP1JjM-hz0hqQY_uDU1fh3&index=75)
+    - ICX > [Configuring STP & RSTP on ICX](https://www.youtube.com/watch?v=9p4veov6gx8&list=PLySwoo7u9-KIP1JjM-hz0hqQY_uDU1fh3&index=84) 
 
 ### Networking Groups & Organizations
 
