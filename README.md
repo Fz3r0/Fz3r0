@@ -433,7 +433,7 @@ Tables, Lists, Models, Cheat-Sheets, Mind-Maps & Resources
         - [**Frequency** in Wireless Networking: Number of cycles per second in an ac sine wave](https://www.fluke.com/en-us/learn/blog/electrical/what-is-frequency)
         - [**Amplitude** in Wireless Networking:](https://en.wikipedia.org/wiki/Amplitude)
 
-- Wireless LAN (WLAN):
+- Wireless LAN (WLAN) most important concepts:
     
     - [**GET GUD IN 5 MINS! pt1**: **WLAN** two **modes**: **Ad Hoc** (peer-to-peer between devices) VS **Infraestructure** (Centralized using APs)](https://youtu.be/SLSOZokbFfM)
     - [**GET GUD IN 5 MINS! pt2** **Wi-Fi** signals: **reflection, absorption, diffraction, scattering, and interference** (falta Multipath) @ Sunny](https://youtu.be/UxDdwGhSf4o)     
