@@ -543,6 +543,10 @@ Pro and Secure Network Configurations Guides by _Fz3r0_
     - [Configure **WLAN on a Wireless Controller (WLC) using Personal WPA2 Authentication** like a Sir! **WPA2, AES, WLC, WLAN Setup**](/Networking/Knowledge/Configure-WLAN-on-WLC-like-a-sir.md)
     - [Configure **WLAN on a Wireless Controller (WLC) using Enterprise WPA2 Authentication** like a Sir! **WPA2 Enterprise, AES, RADIUS/TACACS, AAA, WLC, WLAN Setup**](/Networking/Knowledge/Configure-WLAN-on-WLC-like-a-sir.md)
 
+- Cisco Adaptive Security Appliance (ASA Firewall) 
+
+    - Cisco ASA > [Basic Intro & Initial Configuration](https://www.internetworks.in/2022/06/what-is-asa-firewall-how-to-configure.html?m=1) 
+
 - Commscope Ruckus
 
     - ICX > [Ruckus **Stacking**: The Main Weapon of Ruckus and Campus Switches](https://www.youtube.com/watch?v=tn9oN9M9FwY)
