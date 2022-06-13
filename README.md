@@ -346,7 +346,13 @@ Tables, Lists, Models, Cheat-Sheets, Mind-Maps & Resources
 
 ### 📝 👷 🏰 IEEE Standards 🏰 👷 📝
 
-- [802.1q]()
+- [**IEEE 802.1 LAN/MAN Architecture & Network Management** Standards](https://en.wikipedia.org/wiki/IEEE_802.1)
+
+    - [802.1q - Virtual LANs (VLAN)]()
+    - [802.1s - Multiple Spanning Trees (STP)]()
+    - [802.1AB - Station and Media Access Control Connectivity Discovery (LLDP)]()
+    - [802.1AC - Media Access Control (MAC) Services Definition]()
+    - [802.1AX - Link Aggregation]()
  
 - [**IEEE 802.3 Ethernet** Standards](https://en.wikipedia.org/wiki/IEEE_802.3) _Specifies the set of MAC and PHY protocols for implementing **LAN** communication_
     
