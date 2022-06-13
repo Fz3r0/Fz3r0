@@ -542,11 +542,15 @@ Pro and Secure Network Configurations Guides by _Fz3r0_
     - [Configure **Remote Site Wireless (WLAN)** like a Sir! **(Home/SOHO Wireless Router, WLAN Setup, WPA2, WPA2 Enterprise, AES, Mesh, NAT, QoS, Port Forwarding & Triggering )**](/Networking/Knowledge/Remote-Site-WLAN-like-a-sir.md)
     - [Configure **WLAN on a Wireless Controller (WLC) using Personal WPA2 Authentication** like a Sir! **WPA2, AES, WLC, WLAN Setup**](/Networking/Knowledge/Configure-WLAN-on-WLC-like-a-sir.md)
     - [Configure **WLAN on a Wireless Controller (WLC) using Enterprise WPA2 Authentication** like a Sir! **WPA2 Enterprise, AES, RADIUS/TACACS, AAA, WLC, WLAN Setup**](/Networking/Knowledge/Configure-WLAN-on-WLC-like-a-sir.md)
-    - [Configure **Time Based ACL** like a Sir!](https://www.internetworks.in/search/label/ACL)
 
-- Cisco Adaptive Security Appliance (ASA Firewall) 
 
+- Cisco Security 
+
+    - [CCNA Security Full Labs](https://itexamanswers.net/ccna-security-v2-0-labs-activities-instructions-answers-pt)
     - Cisco ASA > [Basic Intro & Initial Configuration](https://www.internetworks.in/2022/06/what-is-asa-firewall-how-to-configure.html?m=1) 
+    - Cisco ASA > [Full Basic Settings Firewall using CLI](https://itexamanswers.net/9-3-1-1-packet-tracer-configuring-asa-basic-settings-firewall-using-cli-answers.html)
+    - ACL > [Configure **Time Based ACL** like a Sir!](https://www.internetworks.in/search/label/ACL)
+
 
 - Commscope Ruckus
 
