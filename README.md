@@ -432,7 +432,7 @@ Tables, Lists, Models, Cheat-Sheets, Mind-Maps & Resources
 - Wireless LAN (WLAN):
     
     - [**GET GUD IN 5 MINS! pt1**: **WLAN** two **modes**: **Ad Hoc** (peer-to-peer between devices) VS **Infraestructure** (Centralized using APs)](https://youtu.be/SLSOZokbFfM)
-    - [**GET GUD IN 5 MINS! pt2** **Wi-Fi** signals: **reflection, absorption, diffraction, scattering, and interference** @ Sunny](https://youtu.be/UxDdwGhSf4o)     
+    - [**GET GUD IN 5 MINS! pt2** **Wi-Fi** signals: **reflection, absorption, diffraction, scattering, and interference** (falta Multipath) @ Sunny](https://youtu.be/UxDdwGhSf4o)     
     - [**GET GUD IN 5 MINS! pt3**:**WLAN** Devices & Concepts: **AP, BSS, BSSID, SSID, ESS** & **ESSID** @ Sunny](https://www.youtube.com/watch?v=3lvIXXAdLR4&list=PLSNNzog5eydvJG48PYnWnNY7-tQIfxTRb&index=5)  
     - [**GET GUD IN 5 MINS! pt4**: **Wireless Association: Active Scanning VS Passive Scanning & Roaming**](https://www.youtube.com/watch?v=HPJonmd8z1c&list=PLSNNzog5eydvJG48PYnWnNY7-tQIfxTRb&index=6)
     - [**GET GUD IN 5 MINS! pt5**: **WiFi - 2.4 GHz band VS 5 GHz band**](https://youtu.be/QlJnZFeKIRA)
@@ -442,6 +442,7 @@ Tables, Lists, Models, Cheat-Sheets, Mind-Maps & Resources
     - [(SSID) - Identifier of the WLAN, visible for devices]()
     - [(ESS) - **The "matrushka" of BSS**, 2 APs or more broadcasting **same SSID**]()
     - [(ESSID) - The shared netweork name/ID between different "ESS" (Inexistent in 802.11 standards), hint: use same as SSID]()
+    - [RF Behaivours - Mulitpath fenomen + reflection, absorption, diffraction, scattering, and interference]()
 
 
 ### 📊 🖥️ 👨‍🚀 Simulators & Emulators 👨‍🚀 🖥️ 📊
