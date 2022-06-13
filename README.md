@@ -396,6 +396,7 @@ Tables, Lists, Models, Cheat-Sheets, Mind-Maps & Resources
 
 - Wireless / WiFi Bibles
 
+    - [CWNA 802.11, Third Edition - Full Bible](https://sites.google.com/site/802dot11study/home)
     - [Wireless/WiFi Network: GET GUD in less than 1 hour @ Sunny](https://www.youtube.com/watch?v=WOTeFceIeM8&list=PLSNNzog5eydvJG48PYnWnNY7-tQIfxTRb)
     - [Full Radio Concepts: Phase, Amplitude, Wavelenght & Frequency > CWNA in a nutshell](https://yatebts.com/documentation/concepts/radio-waves/radio-concepts/)
     - [Understanding RF Path - Full Documentation @ Commscope](https://www.commscope.com/globalassets/digizuite/3221-rf-path-ebook-eb-112900-en.pdf)
