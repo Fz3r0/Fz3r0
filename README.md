@@ -544,6 +544,7 @@ Pro and Secure Network Configurations Guides by _Fz3r0_
     - ICX > [Link Aggregation Group (LAG) - Creation & Configuration](https://docs.ruckuswireless.com/fastiron/08.0.60/fastiron-08060-l2guide/GUID-FE4D29C9-59DC-4394-98CE-DCBD3FA7EC48.html) 
     - ICX > [Configuring PoE on ICX](https://www.youtube.com/watch?v=nbrY3g3BwZc&list=PLySwoo7u9-KIP1JjM-hz0hqQY_uDU1fh3&index=75)
     - ICX > [Configuring STP & RSTP on ICX](https://www.youtube.com/watch?v=9p4veov6gx8&list=PLySwoo7u9-KIP1JjM-hz0hqQY_uDU1fh3&index=84) 
+    - ICX > [Configuring **DHCP Server** on **Brocade ICX**](https://www.youtube.com/watch?v=AXCPDVptsyk)
     - ICX Triforce CC pt.1 > [Ruckus ICX - Stack](https://youtu.be/PZwByfHlZkA)
     - ICX Triforce CC pt.2 > [Ruckus ICX - SPX LAG (AKA Campus Fabric / Non traditional SPX, Ruckus unique)](https://youtu.be/a005u6DOYPA)
     - ICX Triforce CC pt.3 > [Ruckus ICX - UFI upgrade (upgrading UFI on entire fabric example)](https://youtu.be/Ioi_e_9mXYg)
