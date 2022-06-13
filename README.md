@@ -398,7 +398,6 @@ Tables, Lists, Models, Cheat-Sheets, Mind-Maps & Resources
 
 ### 🛰️ 📶 📡 Wireless Communication & RF 📡 📶 🛰️
 
-
 - Wireless / WiFi Bibles
 
     - [CWNA 802.11, Third Edition - Full Bible](https://sites.google.com/site/802dot11study/home)
@@ -637,6 +636,20 @@ Guides for performing Penetration Attacks involving the Network Infrastructure E
     - [Integrity Checks]()
     - [Code Signing]()
     - [Secure Cookies]()
+
+- Network Hardening: Services and Protocols
+
+    - [Hardening: Network and Routing Services (DHCP, DNS, ICMP, RIP, NTP)]()
+    - [Hardening: Telnet, SSH & SCP]()
+    - [Secure Protocols: SNMP > SNMPv3 | HTTP > HTTPS | FTP > FTPS | POP, IMAP > S/MIME]()
+
+- Network Hardening: Segmentation
+
+    - [Virtual Local Area Networks (VLANs)]()
+    - [Demilitarized Zone (DMZ)]()
+    - [Demilitarized Zone (DMZ) easy and good diagram!](https://user-images.githubusercontent.com/94720207/173438902-3fefe5b8-a4db-49a5-b9fa-42a5ecbf5b57.png)
+
+    - [Secure Protocols: SNMP > SNMPv3 | HTTP > HTTPS | FTP > FTPS | POP, IMAP > S/MIME]()
 
 - Endpoints Protection & Security 
  
