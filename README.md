@@ -384,11 +384,14 @@ Tables, Lists, Models, Cheat-Sheets, Mind-Maps & Resources
     - [2.4 GHz (UHF) - 802.11b/g/n/ax]()
     - [5 GHz (SHF) - 802.11a/n/ac/ax]()
 
-### ➡️ 💥 ⬅️ CSMA-CA & CSMA- ➡️ 💥 ⬅️
+### ➡️ 💥 ⬅️ Carrier Sense Multiple Access (CSMA) ➡️ 💥 ⬅️
 
-- [Carrier Sense Multiple Access (CSMA)()
-- [Carrier Sense Multiple Access / Collision Detection (CSMA/CD)]()
-- [Carrier Sense Multiple Access / Collision Detection (CSMA/CA) - **Wireless**](https://www.youtube.com/watch?v=PcbTMSf0D2M&list=PLSNNzog5eydvJG48PYnWnNY7-tQIfxTRb&index=9)
+- [**Carrier Sense Multiple Access - CSMA**](https://en.wikipedia.org/wiki/Carrier-sense_multiple_access)
+
+    - [**Carrier-sense multiple access with collision detection (CSMA/CD)** - **MAC / Ethernet**](https://en.wikipedia.org/wiki/Carrier-sense_multiple_access_with_collision_detection)
+    - [**Carrier-sense multiple access with collision avoidance (CSMA/CA)** - **WiFi**](https://www.youtube.com/watch?v=PcbTMSf0D2M&list=PLSNNzog5eydvJG48PYnWnNY7-tQIfxTRb&index=9)
+    - [**CSMA with Collision Resolution (CSMA/CR)** - **Vehicles, Trucks, Agriculture**](https://en.wikipedia.org/wiki/CAN_bus)
+    - [**Virtual time CSMA (VTCSMA)** - **Real Time Computing**](https://en.wikipedia.org/wiki/Real-time_computing)
 
 ### 🛰️ 📶 📡 Wireless Communication & RF 📡 📶 🛰️
 
