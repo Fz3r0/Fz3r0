@@ -457,7 +457,7 @@ Tables, Lists, Models, Cheat-Sheets, Mind-Maps & Resources
     
     - Components of RF Communications
     
-        - []()  
+        - [RF components](https://sites.google.com/site/802dot11study/ch3/notes)  
     
     - Devices
     
