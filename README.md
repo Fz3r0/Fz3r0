@@ -273,7 +273,7 @@ https://www.hackthebox.com/badge/image/897009
 
 - [Who am I?](/README.md#-contact-me-) 
 - [Contact](/README.md#-contact-me-)
-- [Licence](/Networking/Labs/)
+- [Licence](https://github.com/Fz3r0/Fz3r0/blob/main/LICENSE)
 - [Disclaimer](/README.md#-disclaimer-)
   
 <!--
