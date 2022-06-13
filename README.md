@@ -232,7 +232,7 @@ https://www.hackthebox.com/badge/image/897009
   
 
 
-![index_banner_final2](https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/a2f7c9d8-a913-4273-847f-705be41395df/d9ebz2w-66957331-3bd7-4c21-9da4-f42cb7b178c5.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2EyZjdjOWQ4LWE5MTMtNDI3My04NDdmLTcwNWJlNDEzOTVkZlwvZDllYnoydy02Njk1NzMzMS0zYmQ3LTRjMjEtOWRhNC1mNDJjYjdiMTc4YzUuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.fN24kFldhLDg1ad0rzTWYCia2LsbNjnlST2iOVRJ934)
+![index_banner_final2](https://hackers.game/static/media/skull.5853c7dcd849910eaf43.gif)
 
 <!--
 
