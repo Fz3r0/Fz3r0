@@ -457,11 +457,26 @@ Tables, Lists, Models, Cheat-Sheets, Mind-Maps & Resources
     
     - Components of RF Communications
     
-        - [RF components](https://sites.google.com/site/802dot11study/ch3/notes)  
+        - [Full RF components](https://sites.google.com/site/802dot11study/ch3/notes)  
+        - [Transmitter]()
+        - [Antenna]()   
+        - [Isotropic Radiator ]()
+        - [Receiver]()
+        - [Intentional Radiator (IR)]()
+        - [Equivalent isotropically radiated power (EIRP)]()
     
-    - Devices
+    - Units of Measurments (Power & Comparison)
     
-        - [Antennas]()    
+        - Units of power (absolute)
+        
+            - [watt (W)]()  
+            - [milliwatt (mW)]()
+
+        - Units of omparison (relative)
+
+            - [decibel (dB)]()
+            - [dBi]()
+            - [dBd]()
 
 ### 📊 🖥️ 👨‍🚀 Simulators & Emulators 👨‍🚀 🖥️ 📊
  
