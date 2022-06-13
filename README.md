@@ -1176,6 +1176,7 @@ Fz3r0 Cyber-Weaponry Crafting, Tools Programming & Open Source Projects
     - [Manifesto for Agile Software Development](http://agilemanifesto.org/)
     - [DevOps Methodology]()
     - [DevSecOps Approach]() _Development approach where security is introduced from the early stages of a development lifecycle until the final stages_ 
+    - [Secure SDLC 101 - Cicle and steps for secure developement](https://www.synopsys.com/blogs/software-security/secure-sdlc/)
 
 - IDEs / Source Code Editors
     
