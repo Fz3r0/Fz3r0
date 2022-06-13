@@ -611,6 +611,7 @@ Guides for performing Penetration Attacks involving the Network Infrastructure E
     - [Pro Configs @ **Defending Layer 2 Attacks** - Cisco Switches **Defensive Security Configurations** for a Pro Stronghold!](/Networking/Attacking-Denending-Network-Infraestructure/NetSec-Defensive-Tools/Security-&-Best-Practices-Configurations/Layer-2-Cisco-Switches-Defensive-Security-Configurations.md)
     - [E-Mail & Raw Source Analysis for Secure Theat detection](https://mediatemple.net/community/products/grid/204644060/how-do-i-view-email-headers-for-a-message)
     - [LAN-Security: Endpoints, Hosts, & Security Appliances](/Networking/Attacking-Denending-Network-Infraestructure/NetSec-Defensive-Tools/Security-&-Best-Practices-Configurations/LAN-Security_Endpoint-Host-Appliances.md)
+    - [Cisco Auto Security Configuration](https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst4500/XE3-6-0E/15-22E/configuration/guide/xe-360-config/auto_sec.pdf)
 
 - **Layer 2 Attacks** 
     - [MAC Flooding/CAM Overflow, Man-In-The-Middle (MITM) ARP Poisoning + MAC Spoofing + TCP Packet Tamper, Pivot + PrivEsc @ Fz3r0](/Networking/Attacking-Cisco/THM-L2-MAC-Flooding-&-ARP-Spoofing-writeup.md) _Full writeup attacking a THM machine using Layer 2 Attacks to intercept PDUs & PrivEsc a compromised Linux machine_
@@ -625,6 +626,10 @@ Guides for performing Penetration Attacks involving the Network Infrastructure E
     - [STP Attack Spaning Tree Protocol Manipulation]()
     - [CDP Attack CDP Recon & Crafting]()
     - [Attacking STP & BPDUs crafting packs](https://github.com/tomac/yersinia) _@ Yersenia_
+
+- Attacks & Mitigation on Cisco Devices Resources
+ 
+    - [Awesome Cisco Exploitation](https://github.com/lololosys/awesome_cisco_exploitation) _A curated list of awesome Cisco exploitation resources._
 
 ### 🌐 🟦 🛡️ Network Defense 🛡️ 🟦 🌐
 
@@ -677,15 +682,6 @@ Guides for performing Penetration Attacks involving the Network Infrastructure E
     - AAA Standards
     - IEEE 802.1X: Port-based Access Control & Authentication
  
-- Attacks & Mitigation on Cisco Devices
- 
-    - [Awesome Cisco Exploitation](https://github.com/lololosys/awesome_cisco_exploitation) _A curated list of awesome Cisco exploitation resources._
-    - [Cisco Auto Security Configuration](https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst4500/XE3-6-0E/15-22E/configuration/guide/xe-360-config/auto_sec.pdf)
-    - Port Security  
-    - DHCP Snooping
-    - Dynamic ARP Inspection (DAI)
-    - IP Source Guard (IPSG) 
-
 ### Wireless Networking
 
 - **Wireless Networking Guides, Tips, Tricks & Hints**
