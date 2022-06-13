@@ -469,14 +469,20 @@ Tables, Lists, Models, Cheat-Sheets, Mind-Maps & Resources
     
         - Units of power (absolute)
         
-            - [watt (W)]()  
-            - [milliwatt (mW)]()
+            - [watt **(W)**](https://en.wikipedia.org/wiki/Watt)  
+            - [milliwatt **(mW)** - watt to milliwatt calculator](https://www.rapidtables.com/convert/power/mW_to_Watt.html)
+            - [Decibels Relative to 1 mW **(dBm)**]()
 
         - Units of omparison (relative)
 
-            - [decibel (dB)]()
-            - [dBi]()
-            - [dBd]()
+            - [decibel **(dB)**]()
+            - [Decibels Relative to an isotropic radiator **(dBi)*]()
+            - [Decibels Relative to a half-wave dipole antenna **(dBd)**]()
+        
+        - Mathematics
+        
+            - [CWNA Mathematics Resume Notes (bottom)](https://sites.google.com/site/802dot11study/ch3/notes)  
+            - 
 
 ### 📊 🖥️ 👨‍🚀 Simulators & Emulators 👨‍🚀 🖥️ 📊
  
