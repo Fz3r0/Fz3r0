@@ -397,15 +397,16 @@ Tables, Lists, Models, Cheat-Sheets, Mind-Maps & Resources
 
     - [Wireless/WiFi Network: GET GUD in less than 1 hour @ Sunny](https://www.youtube.com/watch?v=WOTeFceIeM8&list=PLSNNzog5eydvJG48PYnWnNY7-tQIfxTRb)
     - [Full Radio Concepts: Phase, Amplitude, Wavelenght & Frequency > CWNA in a nutshell](https://yatebts.com/documentation/concepts/radio-waves/radio-concepts/)
+    - [Understanding RF Path - Full Documentation @ Commscope](https://www.commscope.com/globalassets/digizuite/3221-rf-path-ebook-eb-112900-en.pdf)
 
-- Radio Concepts on Wireless Networks
+- Radio Frequency (RF) Concepts on Wireless Networks
 
     - [**Radio Waves AKA Radio Signals** @ NASA](https://www.nasa.gov/directorates/heo/scan/communications/outreach/funfacts/what_are_radio_waves) _The basic building block of radio communications is a radio wave._
     - [**Electromagnetic Spectrum**](https://en.wikipedia.org/wiki/Electromagnetic_spectrum)
     - [**Radio Spectrum**](https://en.wikipedia.org/wiki/Radio_spectrum) _The radio spectrum is the part of the electromagnetic spectrum with frequencies from 0 Hz to 3,000 GHz(3 THz)._
     - [Phase in Radio Frequencies (RF) @ Aruba Networks](https://blogs.arubanetworks.com/industries/frequency-cycle-wavelength-amplitude-and-phase/#:~:text=Phase%20is%20the%20same%20frequency,that%20share%20the%20same%20frequency.) _Phase is the same frequency, same cycle, same wavelength, but are 2 or more wave forms not exactly aligned together._
     - [Carrier Signal AKA Carrier Wave: **Analog Modulation: AM, FM** & **CSMA/CD Ethernet Method**](https://networkencyclopedia.com/carrier-signal/)
-    - [Digital Modulations: ASK, FSK & PSK @ Sunny](https://www.youtube.com/watch?v=qGwUOvErR8Q)
+    - [**Digital Modulations: (Shift Keying) ASK, FSK & PSK** @ Sunny](https://www.youtube.com/watch?v=qGwUOvErR8Q)
 
 - The "Keying" Method: The Black Magic for converting Radio Signals into 1 & 0
 
@@ -444,6 +445,20 @@ Tables, Lists, Models, Cheat-Sheets, Mind-Maps & Resources
     - [(ESSID) - The shared netweork name/ID between different "ESS" (Inexistent in 802.11 standards), hint: use same as SSID]()
     - [RF Behaivours - Mulitpath fenomen + reflection, absorption, diffraction, scattering, and interference]()
 
+- Radio Frequency (RF) Components and Measurements
+
+    - Important Functions of Wireless Devices
+    
+        - [**RF Gain & Loss:** Active Gain VS Passive Gain Devices](https://www.youtube.com/watch?v=ZY3MhaIh9c8)
+        - [**Gain** Example in a Qualcomm Wireless device](https://patents.google.com/patent/US7430406B2/en)
+    
+    - Components of RF Communications
+    
+        - []()  
+    
+    - Devices
+    
+        - [Antennas]()    
 
 ### 📊 🖥️ 👨‍🚀 Simulators & Emulators 👨‍🚀 🖥️ 📊
  
