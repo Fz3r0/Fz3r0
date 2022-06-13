@@ -616,9 +616,27 @@ Guides for performing Penetration Attacks involving the Network Infrastructure E
 ### 🌐 🟦 🛡️ Network Defense 🛡️ 🟦 🌐
 
 - [Pysical Security](ttps://contenthub.netacad.com/sgp/nad/1.0/en-US/m2//?xAPILaunchKey=377f9268274bcdd43676582161803000d313aac7477dc98c93643d6e8889d633&xAPILaunchService=https%3A%2F%2Fcontenthub.netacad.com%2Fkernel%2Fadl%2Fcontent%2F&lang=en-US#/id/b9193fcb408c484cabfc684ccc72dafa)
+    
+    - Fencing and Physical Barriers
+    - Biometrics
+    - Badges and Access Logs 
+    - Surveillance (Guards, Escorts, VoIP & Electronic Survillance, RFID & Wireless)
+
 - [Application Security](https://contenthub.netacad.com/sgp/nad/1.0/en-US/m2//?xAPILaunchKey=377f9268274bcdd43676582161803000d313aac7477dc98c93643d6e8889d633&xAPILaunchService=https%3A%2F%2Fcontenthub.netacad.com%2Fkernel%2Fadl%2Fcontent%2F&lang=en-US#/id/8582078fa5eb480f82c122a85082ac06)
 
-    - []
+    - [Security Coding Techniques]()
+    
+        - [Normalization]()
+        - [Store Procedure]()
+        - [Obfuscation and camouflage]()
+        - [Code reuse (review vulns first)]()
+        - [SDKs (review vulns first)]()
+
+    - [Input Validation]()
+    - [Validation Rules]()
+    - [Integrity Checks]()
+    - [Code Signing]()
+    - [Secure Cookies]()
 
 - Endpoints Protection & Security 
  
