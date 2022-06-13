@@ -400,6 +400,7 @@ Tables, Lists, Models, Cheat-Sheets, Mind-Maps & Resources
     - [Full Radio Concepts: Phase, Amplitude, Wavelenght & Frequency > CWNA in a nutshell](https://yatebts.com/documentation/concepts/radio-waves/radio-concepts/)
     - [Understanding RF Path - Full Documentation @ Commscope](https://www.commscope.com/globalassets/digizuite/3221-rf-path-ebook-eb-112900-en.pdf)
     - [Understanding RF Path - DOWNLOAD BACKUP LINK](https://github.com/Fz3r0/Fz3r0/files/8887237/eBook_.Understanding.the.RF.Path.pdf)
+    - [Ruckus / Brocade - Full Feature Explainer Series @ T. Henry](https://www.youtube.com/watch?v=gnUEsnS3MWY&list=PLgZ5m9z7RBHUcQ4bDIjRJDxDn4EGpFUol)
 
 - Radio Frequency (RF) Concepts on Wireless Networks
 
