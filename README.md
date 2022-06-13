@@ -271,10 +271,10 @@ https://www.hackthebox.com/badge/image/897009
     
 ### About 
 
-- [Who am I?](/Networking/Labs/) 
-- [Contact](/Networking/Labs/)
+- [Who am I?](/README.md#-contact-me-) 
+- [Contact](/README.md#-contact-me-)
 - [Licence](/Networking/Labs/)
-- [Disclaimer](/Networking/Labs/)
+- [Disclaimer](/README.md#-disclaimer-)
   
 <!--
 
