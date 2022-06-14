@@ -396,6 +396,10 @@ Tables, Lists, Models, Cheat-Sheets, Mind-Maps & Resources
     - [**CSMA with Collision Resolution (CSMA/CR)** - **Vehicles, Trucks, Agriculture**](https://en.wikipedia.org/wiki/CAN_bus)
     - [**Virtual time CSMA (VTCSMA)** - **Real Time Computing**](https://en.wikipedia.org/wiki/Real-time_computing)
 
+### Wired Networking & Some fundamentals
+
+- [**HoneyNet** & Demilitarized Zone: **DMZ** @ Sunny](https://www.youtube.com/watch?v=FihkG72z7MQ)
+
 ### 🛰️ 📶 📡 Wireless Communication & RF 📡 📶 🛰️
 
 - Wireless / WiFi Bibles
