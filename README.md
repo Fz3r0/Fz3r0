@@ -1330,6 +1330,10 @@ Fz3r0 Cyber-Weaponry Crafting, Tools Programming & Open Source Projects
  
 ## Database
 
+### Database Bibles & Resources
+
+- [Cómo TWITTER gestiona MILLONES de PETICIONES por SEGUNDO - POST, Estructura de datos MySQL & Redis @ Codely](https://www.youtube.com/watch?v=6o0usvW5bqY)
+
 ### SQL
  
 - [Diagrama Entidad-Relación (ER) easy!](https://www.youtube.com/watch?v=TKuxYHb-Hvc) _La explicación más básica y sencilla que he encontrado en español de ER_
