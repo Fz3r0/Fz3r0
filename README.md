@@ -339,7 +339,7 @@ Tables, Lists, Models, Cheat-Sheets, Mind-Maps & Resources
 
 - [**HoneyNet** & Demilitarized Zone: **DMZ** @ Sunny](https://www.youtube.com/watch?v=FihkG72z7MQ)
 - [**Proxy Servers** @ Sunny](https://www.youtube.com/watch?v=f-oCTcf5k_0)
-- []()
+- [**IDS & IPS** @ Sunny](https://www.youtube.com/watch?v=cMH4yGE73iQ)
 
 ### Networking Groups & Organizations
 
