@@ -495,7 +495,28 @@ Tables, Lists, Models, Cheat-Sheets, Mind-Maps & Resources
         - Mathematics
         
             - [CWNA Mathematics Resume Notes (bottom)](https://sites.google.com/site/802dot11study/ch3/notes)  
-            - 
+
+### Ruckus Wireless
+
+- **Access Point (AP) placement like a Sir!**
+
+    - [WiFi is NOT One Size Fits All](https://www.youtube.com/watch?v=ovHhIgwrbRg)
+    - []()
+    - []()
+
+- **Ruckus Radio Frequency (RF) **
+
+    - [Antenna Function, Patterns, BeamFlex and Options](https://www.youtube.com/watch?v=K2ZhXLuJMfg) _Very visual presentation of RF!_ 
+    - [WiFi Frequency Bands, Channels and ChannelFLy](https://www.youtube.com/watch?v=iwteOMhB0kw)
+
+- **Ruckus Unleashed**
+
+    - [What Is **Ruckus Unleashed**?](https://www.firewalls.com/blog/what-is-ruckus-unleashed/)
+    - [**Deploy Ruckus Unleashed** in Less than a Minute & Admin like a Sir!](https://www.youtube.com/watch?v=8skRjj0OfhM&list=PLwZotTMbkZQHmY4cyfbwFOH8lCSRF_VDA)
+
+- **SmartZone**
+
+    - [**Ruckus Log4J vSZ Patch** and Work Around](https://www.youtube.com/watch?v=56_tgSApKkA&list=PLwZotTMbkZQFA_Lm9qjAFKOQMWM3aOCHG) 
 
 ### 📊 🖥️ 👨‍🚀 Simulators & Emulators 👨‍🚀 🖥️ 📊
  
