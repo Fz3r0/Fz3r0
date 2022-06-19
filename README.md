@@ -1149,6 +1149,10 @@ Mind-Maps, Paradigms, Way-to-Go, Hints & Tricks for Seek & Exploit TICs!
 - [Buffer Overflow guide - OSCP Peparation, writeup by @Fz3r0](/Cyber-Security-&-Hacking/Buffer-Overflow/Buffer_Overflow-Prep.md)
 - [Buffer Overflow Lab - Gatekeeper, writeup by @ Fz3r0](https://github.com/Fz3r0/Fz3r0/blob/main/Cyber-Security-%26-Hacking/Buffer-Overflow/THM-Gatekeeper(Buffer-Overflow).md)
 
+### IoT Hacking
+
+- [Hardware Security Analysis & Pentesting - step by step course](https://hakin9.org/hardware-analysis-step-by-step-free-course-content/)
+
 ### OSINT
 
 - [Meta OSINT](https://metaosint.github.io/table/) _The full list of 4,000+ OSINT resources_ 
