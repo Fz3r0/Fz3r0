@@ -836,6 +836,7 @@ Guides, Tips & Tricks, Downloads, Training, Crafting, Arsenal, Binaries, Executa
             - [**Wireshark - Analizyng a Hacked Webserver (HTB) @ M.Hadam**](https://www.youtube.com/watch?v=oh6gKrXsWGs)
             - [**Wireshark - Malware analysis, fake Firefox Traffic**](https://www.youtube.com/watch?v=waIBwq3Js7Q)
             - [**Wireshark + Virus Total** Analyzing Malware Traffic @ HackerExpert](https://www.youtube.com/watch?v=3t1BNAavrlQ)
+            - [**Wireshark - Analyze A Bot Infected Host** @ Laura Chappell](https://www.youtube.com/watch?v=_JjU4fbgkAc)
  
         - **tcpdump** 
  
