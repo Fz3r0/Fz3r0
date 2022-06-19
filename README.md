@@ -835,6 +835,7 @@ Guides, Tips & Tricks, Downloads, Training, Crafting, Arsenal, Binaries, Executa
             - [**Wireshark - Analyzing Botnet Attack Activity + Geolocalization @ Megalodon Chris Greer](https://www.youtube.com/watch?v=jFJMt-y6ZvU)
             - [**Wireshark - Analizyng a Hacked Webserver (HTB) @ M.Hadam**](https://www.youtube.com/watch?v=oh6gKrXsWGs)
             - [**Wireshark - Malware analysis, fake Firefox Traffic**](https://www.youtube.com/watch?v=waIBwq3Js7Q)
+            - [**Wireshark + Virus Total** Analyzing Malware Traffic @ HackerExpert](https://www.youtube.com/watch?v=3t1BNAavrlQ)
  
         - **tcpdump** 
  
