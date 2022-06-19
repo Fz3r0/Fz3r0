@@ -839,6 +839,7 @@ Guides, Tips & Tricks, Downloads, Training, Crafting, Arsenal, Binaries, Executa
             - [**Wireshark - Capture Filters Reference**](https://wiki.wireshark.org/CaptureFilters)
             - [**Wireshark - From Nemo to Black Megalodon: Pro Sniffing & Network Traffic Audit/Analysis.** by @ Fz3r0]
             - [**Wireshark - Troubleshooting Slow Networks - Presented by Megalodon Chris Greer @ UC Berkeley**](https://www.youtube.com/watch?v=h9stVIfug5Y)
+            - [**Wireshark - Multicast Traffic Measurement** (**MDNS** & more!)](https://www.youtube.com/watch?v=MGa8szCXDww)
             - [**Wireshark Map IP Address Locations @ GeoIP**](https://www.youtube.com/watch?v=IlVppluWTHw)
             - [**Wireshark - Analyzing Botnet Attack Activity + Geolocalization @ Megalodon Chris Greer](https://www.youtube.com/watch?v=jFJMt-y6ZvU)
             - [**Wireshark - Analizyng a Hacked Webserver (HTB) @ M.Hadam**](https://www.youtube.com/watch?v=oh6gKrXsWGs)
@@ -896,10 +897,17 @@ Guides, Tips & Tricks, Downloads, Training, Crafting, Arsenal, Binaries, Executa
 
 ### 🏭 ⚗️ 🛠️ Network Cyber-Weapons: Smithing & Crafting 🛠️ ⚗️ 🏭
  
-- [Dark Art of Packet Crafting with Scapy](https://0xbharath.github.io/art-of-packet-crafting-with-scapy/index.html) _@ Python + Scapy_ 
-- [Creating malicious packets & breaking TCP/IP rules](Fz3r0/Networking/Attacking-Cisco/weird_TCP_fz3r0.py )  _@ Python + Scapy_
-- [Simple Network Scanner](https://gist.github.com/Fz3r0/3e26fdf87b5e223b13578db9d150c815) _@ Python + Scapy_
-- [Medium Network Scanner](https://gist.github.com/Fz3r0/2cc8f8699a829e06f5d70e86a6be53c0) _@ Python + Scapy_
+- The Black Arts of Packet Crafting & TCP/OSI destroying with **Scapy Framework**
+
+    - [Scapy Cheatsheet 1 @ SANS Institute](https://wiki.sans.blue/Tools/pdfs/ScapyCheatSheet_v0.2.pdf)
+    - [Scapy Chapter I - Install, Run, Sniff](https://www.youtube.com/watch?v=uZ2QrN0IbHY)
+    - [Scapy Chapter II - Reading PCAPs](https://www.youtube.com/watch?v=gOcT5r0spVM)
+    - [Scapy Chapter II - Crafting Customized Packets](https://www.youtube.com/watch?v=0xcr_UH4sNU)
+    - []()
+    - [Dark Art of Packet Crafting with Scapy](https://0xbharath.github.io/art-of-packet-crafting-with-scapy/index.html) _@ Python + Scapy_ 
+    - [Creating malicious packets & breaking TCP/IP rules](Fz3r0/Networking/Attacking-Cisco/weird_TCP_fz3r0.py )  _@ Python + Scapy_
+    - [Simple Network Scanner](https://gist.github.com/Fz3r0/3e26fdf87b5e223b13578db9d150c815) _@ Python + Scapy_
+    - [Medium Network Scanner](https://gist.github.com/Fz3r0/2cc8f8699a829e06f5d70e86a6be53c0) _@ Python + Scapy_
 - [Full Network Scanner](https://github.com/Fz3r0/netScan_Python) _@ Python_
 - [Simple Port Scanner](https://github.com/Fz3r0/pythscan_port_scan_simple) _@ Python + Sockets_ 
 - [Full Port Scanner](https://github.com/Fz3r0/Python-Port-Scanner_large) _@ Python + Sockets_
