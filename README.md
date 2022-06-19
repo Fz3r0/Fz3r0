@@ -1648,10 +1648,10 @@ https://developer.cisco.com/docs/ APIs y demas sdwaun dna center
 https://developer.cisco.com/docs/dna-center/#!cisco-dna-center-platform-overview dna overview
 
 
-_The world is a messy place, at least you now have a way of choosing a path... right?..._
-_There is no path...
-
-_The Strength Of The Human Heart. The Difference Between Us And Machines_
+_"The unknown future rolls toward us. I face it, for the first time, with a sense of hope..._<br> 
+_...Because if a machine, a Terminator, can learn the value of human life... maybe we can too._<br> 
+<br> 
+_The Strength Of The Human Heart. The Difference Between Us And Machines"_
 
 ---
  
