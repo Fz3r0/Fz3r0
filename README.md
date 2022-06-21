@@ -1653,6 +1653,7 @@ Fz3r0 Cyber-Weaponry Crafting, Tools Programming & Open Source Projects
 - [advanced-archive-password-recovery-4-54-110.zip]()
 - [LaunchPad - Debian](https://launchpad.net/) 
 - [Kali mirrorlist](https://http.kali.org/README.mirrorlist)
+- [Dialupass - VPN Password Recovery](https://www.nirsoft.net/utils/dialupass.html) _enumerates dialup/VPN entries, displays logon details: User Name, Password, and Domain._
 
 
 
