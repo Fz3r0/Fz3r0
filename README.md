@@ -311,6 +311,7 @@ _The sun never sets, on cyber-space... Transmit, receive, log on to interface_
 ### 🔮 📖 🧙‍ Dark Wizardy for Networking & NetSec 🧙‍♂️ 📖 🔮
 Tables, Lists, Models, Cheat-Sheets, Mind-Maps & Resources
 
+- [**Cisco Dashboard UI Online test**](https://www.cisco.com/assets/sol/sb/Switches_Emulators_v2_2_015/config/home_sg_350-10p_2_2.htm)
 - [**Cisco** Networking Infraestructure **CLI/IOS** - **Command Bible**](/Networking/Dark-Wizardy-for-Networking-&-NetSec/Cisco-IOS-Command-Bible-Routing-&-Switching.md) _My CCNA+CCNP Commands & Configurations Pocket Bible_
 - [**Cisco CCNA v7 200-301** Full Course English](https://ccna-200-301.online/ccna-2/)
 - [**Cisco CCNA v7 200-301** Full Course Español](https://ccnadesdecero.es/ccna-1/)
