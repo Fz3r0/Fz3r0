@@ -123,7 +123,12 @@ I invite you to enter the links of my social networks that I've placed above inc
 
 ---
 
-<p align="center"> <a href="https://www.credly.com/badges/7611ce7f-e699-4426-888b-ab4f4fe7d785" target="_blank" rel="noreferrer"> <img src="https://images.credly.com/size/340x340/images/70d71df5-f3dc-4380-9b9d-f22513a70417/CCNAITN__1_.png" alt="cisco1"  width="127" height="127"> </a>    &emsp; &emsp;   <a href="https://www.credly.com/badges/72488bf8-8ed7-4d31-bff9-9e5c2555af36" target="_blank" rel="noreferrer"> <img src="https://images.credly.com/size/340x340/images/f4ccdba9-dd65-4349-baad-8f05df116443/CCNASRWE__1_.png" alt="cisco2" width="127" height="127"> </a>    &emsp; &emsp;   <a href="https://www.credly.com/badges/675b414f-c768-40e9-906a-b9f17a75308c" target="_blank" rel="noreferrer"> <img src="https://images.credly.com/size/340x340/images/0a6d331e-8abf-4272-a949-33f754569a76/CCNAENSA__1_.png" alt="cisco3"  width="127" height="127"> </a>   &emsp; &emsp; <a href="https://www.credly.com/earner/earned/badge/b4ee7469-8292-4ba6-ad6e-7c3017bb17ed" target="_blank" rel="noreferrer"> <img src="https://images.credly.com/size/340x340/images/af8c6b4e-fc31-47c4-8dcb-eb7a2065dc5b/I2CS__1_.png" alt="cisco4_security"  width="127" height="127"> </a> </p> 
+<p align="center"> <a href="https://www.credly.com/users/carlos-villalobos.7a2aab8f/badges" target="_blank" rel="noreferrer"> <img src="https://images.credly.com/size/110x110/images/5bdd6a39-3e03-4444-9510-ecff80c9ce79/image.png" alt="cisco1" height="100"> </a>  &emsp; &emsp; <a href="https://www.credly.com/users/carlos-villalobos.7a2aab8f/badges" target="_blank" rel="noreferrer"> <img src="https://images.credly.com/size/110x110/images/70d71df5-f3dc-4380-9b9d-f22513a70417/CCNAITN__1_.png" alt="cisco2" height="100"> </a>  &emsp; &emsp; <a href="https://www.credly.com/users/carlos-villalobos.7a2aab8f/badges" target="_blank" rel="noreferrer"> <img src="https://images.credly.com/size/110x110/images/51526f76-711b-4caf-b04d-27f89512b112/NetworkDefense_v1_091721.png" alt="cisco3" height="100"> </a>  &emsp; &emsp; <a href="https://www.credly.com/users/carlos-villalobos.7a2aab8f/badges" target="_blank" rel="noreferrer"> <img src="https://images.credly.com/size/110x110/images/51526f76-711b-4caf-b04d-27f89512b112/NetworkDefense_v1_091721.png" alt="cisco4" height="100"> </a> <a href="https://www.credly.com/users/carlos-villalobos.7a2aab8f/badges" target="_blank" rel="noreferrer"> <img src="https://images.credly.com/size/110x110/images/af8c6b4e-fc31-47c4-8dcb-eb7a2065dc5b/I2CS__1_.png" alt="cisco5" height="100"> </a>                    </p> 
+
+
+
+
+
 
 <!--
 
