@@ -1664,6 +1664,7 @@ Fz3r0 Cyber-Weaponry Crafting, Tools Programming & Open Source Projects
 - [LaunchPad - Debian](https://launchpad.net/) 
 - [Kali mirrorlist](https://http.kali.org/README.mirrorlist)
 - [Dialupass - VPN Password Recovery](https://www.nirsoft.net/utils/dialupass.html) _enumerates dialup/VPN entries, displays logon details: User Name, Password, and Domain._
+- [Technitium MAC Address Changer for Windows](https://technitium.com/tmac/) _A freeware utility to spoof MAC address instantly_
 
 
 
