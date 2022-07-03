@@ -5,7 +5,7 @@
 
 _This network covers techniques and tools that can be used to acquire that first set of AD credentials that can then be used to enumerate AD._
 
-###  Introduction to AD Breaches
+##  Introduction to AD Breaches
 
 Active Directory (AD) is used by approximately 90% of the Global Fortune 1000 companies. If an organisation's estate uses Microsoft Windows, you are almost guaranteed to find AD. Microsoft AD is the dominant suite used to manage Windows domain networks. However, since AD is used for Identity and Access Management of the entire estate, it holds the keys to the kingdom, making it a very likely target for attackers.
 
@@ -95,6 +95,27 @@ Fri Mar 11 15:06:22 2022 /sbin/ip route add 10.200.4.0/24 metric 1000 via 10.50.
 Fri Mar 11 15:06:22 2022 WARNING: this configuration may cache passwords in memory -- use the auth-nocache option to prevent this
 Fri Mar 11 15:06:22 2022 Initialization Sequence Completed
 ```
+
+The message "Initialization Sequence Completed" tells you that you are now connected to the network. Return to your access page. You can verify you are connected by looking on your access page. Refresh the page, and you should see a green tick next to Connected. It will also show you your internal IP address.
+
+![image](https://user-images.githubusercontent.com/94720207/177055617-8e64ce9e-f425-47a9-bd3e-7e8ece54d80f.png)
+
+Note: You still have to configure DNS similar to what was shown above. It is important to note that although not used, the DC does log DNS requests. If you are using your own machine, these logs may include the hostname of your device. For example, if you run the VPN on your kali machine with the hostname of kali, this will be logged.
+
+#### Kali
+
+If you are using a Kali VM, Network Manager is most likely used as DNS manager. You can use GUI Menu to configure DNS:
+
+- Network Manager -> Advanced Network Configuration -> Your Connection -> IPv4 Settings
+- Set your DNS IP here to the IP for THMDC in the network diagram above
+- Add another DNS such as 1.1.1.1 or similar to ensure you still have internet access
+- Run `sudo systemctl restart NetworkManager` and test your DNS similar to the steps above.
+
+## OSINT and Phishing
+
+
+
+
 
 
 
