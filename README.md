@@ -1575,8 +1575,14 @@ Fz3r0 Cyber-Weaponry Crafting, Tools Programming & Open Source Projects
 - [HxD - HEX editor & Disk Editor](https://mh-nexus.de/en/hxd/) _HEX editor & raw disk editing and modifying of RAM_
 
 ## Malware
- 
-### Malware Black Bibles & Databases
+
+### MalwareProgramming Black Bibles & Evil Tutorials
+
+- [Malware Developement for Dummies](https://github.com/chvancooten/maldev-for-dummies)
+- [Basics of Malware Development in C#](https://www.youtube.com/watch?v=GZW_0J2yoG8)
+- [Basic Malware Code in C#](https://www.youtube.com/watch?v=QqdHFVm9H2M) 
+
+### Malware Samples & Databases
   
 - [VX-Underground (PASS: infected)](https://www.vx-underground.org/)_The largest collection of malware source code, samples, and papers on the internet._
 - [The Zoo](https://github.com/Fz3r0/theZoo)
@@ -1589,20 +1595,15 @@ Fz3r0 Cyber-Weaponry Crafting, Tools Programming & Open Source Projects
 - https://github.com/Fz3r0/MalwareDatabase-2
 - https://github.com/Fz3r0/reversed-malwares
 - https://github.com/Fz3r0/MalwareScripts 
- 
-### Creating Evil
- 
-- [Basics of Malware Development in C#](https://www.youtube.com/watch?v=GZW_0J2yoG8)
-- [Basic Malware Code in C#](https://www.youtube.com/watch?v=QqdHFVm9H2M) 
-  
-### fz3r0 - My Malware 
+   
+### fz3r0 - My Devil Malware 
 
-### Malware Analysis
+### Malware Analysis Tutorials
 
 - [Linux para analizar Malware](https://www.youtube.com/watch?v=LaT4qoz1Gnw)
 - [REMnux: A Linux Toolkit for Malware Analysis - Usage Tips](https://zeltser.com/remnux-malware-analysis-tips/)
 
-- Malware Analysis Tools
+### Malware Analysis Tools
 
     - YARA
     
