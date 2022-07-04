@@ -654,6 +654,7 @@ Troubleshooting & Incidence Response for Notworking Hardware & Software by _Fz3r
 - [Find & Troubleshoot **Access Layer Issues**, **Output & Input Errors** {Runt, Giants, CRC, Collisions} (**show interface**)](/Networking/Knowledge/Troubleshooting/Output_&_Input-Errors-show-interfaces.md) _Find and repair shitty errors in the transmission_
 - [Cut-Throught & Store-and-forward Switching](https://user-images.githubusercontent.com/94720207/164997743-d42dbae9-edb4-4f83-ae44-16cb5eab2fd4.png) _Spoiler-alert: Store-and-Forward for the win! Checksum FTW_
 - [Fixing **Kali VM Bridge Network** [VMware] (GNS3 + Hacking Labs = ETH kaput!)](/Networking/Knowledge/Troubleshooting/Kali-Bridge-Issue-ETH.md) _Easy fix to the bridge VMware incidence_
+- [Fixing GNS3 - VMWare 'Taking ownership of this virtual machine failed' Error](https://www.infopackets.com/news/10475/how-fix-vmware-taking-ownership-virtual-machine-failed-error)
  
 ### ⚔️ 🐱‍👤 🦈 Attacking & Defending the Network Infraestructure 🦈 🐱‍👤 ⚔️ 
 Guides for performing Penetration Attacks involving the Network Infrastructure Exploiting Known Vulverabilities and how to Mitigate and Secure the Network Against those threats  
