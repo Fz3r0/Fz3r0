@@ -621,6 +621,10 @@ Pro and Secure Network Configurations Guides by _Fz3r0_
 ### 🛡️ 👩‍🔬 🧪  Secure Network Labs 🧪 👩‍🔬 🛡️  
 Networking Labs using simulators, emulators like Packet Tracer, GNS3 & eve / and/or physical infraestructure by _Fz3r0_
 
+- **Misc**
+
+    - [Create a Loopback Interface + Cloud in GNS3](https://www.youtube.com/watch?v=nHApqX9RWuA)
+
 - **Fz3r0 Labs:**
 
     - Lab 01 > [Secure Home Network + Internet to Home (FTTH) Simulation](/Networking/Labs/Router-on-a-Stick.md) _Packet Tracer_
