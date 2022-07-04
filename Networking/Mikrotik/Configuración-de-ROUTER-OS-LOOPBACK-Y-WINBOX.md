@@ -24,3 +24,9 @@
 
 - ![image](https://user-images.githubusercontent.com/94720207/177079250-37a47619-7f64-4cfa-beca-efe7dd1336c8.png)
 
+    - **Reiniciar computadora**
+
+--- 
+
+
+
