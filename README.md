@@ -526,6 +526,12 @@ Tables, Lists, Models, Cheat-Sheets, Mind-Maps & Resources
 
     - [**Ruckus Log4J vSZ Patch** and Work Around](https://www.youtube.com/watch?v=56_tgSApKkA&list=PLwZotTMbkZQFA_Lm9qjAFKOQMWM3aOCHG) 
 
+### Mikrotik
+
+- Tutorials
+
+    - [Mikrotik desde 0 en GNS3](https://www.youtube.com/watch?v=jeEYUVSHdEo&list=PLWxrUCxnbWRsouO8c95-Z69Ojak6mOHYE)
+
 ### 📊 🖥️ 👨‍🚀 Simulators & Emulators 👨‍🚀 🖥️ 📊
  
 - [Cisco Packet Tracer]() _Network simulation tool for networking, IoT, and cybersecurity in a virtual lab_
