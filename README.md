@@ -534,6 +534,7 @@ Tables, Lists, Models, Cheat-Sheets, Mind-Maps & Resources
 
 - Tutorials
 
+    - [MikroTIK desde CERO 2021 @ TikAcademy](https://www.youtube.com/watch?v=vcSZjlReJYM&t=3s)
     - [Mikrotik desde 0 en GNS3](https://www.youtube.com/watch?v=jeEYUVSHdEo&list=PLWxrUCxnbWRsouO8c95-Z69Ojak6mOHYE)
 
 ### 📊 🖥️ 👨‍🚀 Simulators & Emulators 👨‍🚀 🖥️ 📊
