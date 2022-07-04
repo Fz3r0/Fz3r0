@@ -537,6 +537,10 @@ Tables, Lists, Models, Cheat-Sheets, Mind-Maps & Resources
     - [MikroTIK desde CERO 2021 @ TikAcademy](https://www.youtube.com/watch?v=vcSZjlReJYM&t=3s)
     - [Mikrotik desde 0 en GNS3](https://www.youtube.com/watch?v=jeEYUVSHdEo&list=PLWxrUCxnbWRsouO8c95-Z69Ojak6mOHYE)
 
+- Fz3r0 Labs @ GNS3
+
+    - [Primera Configuración del papu]()
+
 ### 📊 🖥️ 👨‍🚀 Simulators & Emulators 👨‍🚀 🖥️ 📊
  
 - [Cisco Packet Tracer]() _Network simulation tool for networking, IoT, and cybersecurity in a virtual lab_
