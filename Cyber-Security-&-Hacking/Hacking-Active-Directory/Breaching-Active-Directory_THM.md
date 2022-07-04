@@ -136,25 +136,39 @@ If you are using a Kali VM, Network Manager is most likely used as DNS manager. 
     
     - ![image](https://user-images.githubusercontent.com/94720207/177064638-f21bd4b8-124d-4366-b328-1619cd1c7e1f.png)
  
- 
-
-
-
-
-
-
-
 ## OSINT and Phishing
 
+_Two popular methods for gaining access to that first set of AD credentials is Open Source Intelligence (OSINT) and Phishing. We will only briefly mention the two methods here, as they are already covered more in-depth in other rooms._
 
+### OSINT
+
+OSINT is used to discover information that has been publicly disclosed. In terms of AD credentials, this can happen for several reasons, such as:
+
+- Users who ask questions on public forums such as Stack Overflow but disclose sensitive information such as their credentials in the question.
+ 
+- Developers that upload scripts to services such as Github with credentials hardcoded.
+ 
+- Credentials being disclosed in past breaches since employees used their work accounts to sign up for other external websites. Websites such as HaveIBeenPwned and DeHashed provide excellent platforms to determine if someone's information, such as work email, was ever involved in a publicly known data breach.
+
+By using OSINT techniques, it may be possible to recover publicly disclosed credentials. If we are lucky enough to find credentials, we will still need to find a way to test whether they are valid or not since OSINT information can be outdated. In Task 3, we will talk about NTLM Authenticated Services, which may provide an excellent avenue to test credentials to see if they are still valid.
+
+A detailed room on Red Team OSINT can be found [here](https://tryhackme.com/room/redteamrecon).
+
+### PHISHING
+
+Phishing is another excellent method to breach AD. Phishing usually entices users to either provide their credentials on a malicious web page or ask them to run a specific application that would install a Remote Access Trojan (RAT) in the background. This is a prevalent method since the RAT would execute in the user's context, immediately allowing you to impersonate that user's AD account. This is why phishing is such a big topic for both Red and Blue teams.
+
+A detailed room on phishing can be found here.
 
 
 ---
 
 ### References
 
+- https://tryhackme.com/room/breachingad
 - https://tryhackme.com/room/activedirectorybasics
-- https://tryhackme.com/room/activedirectorybasics
+- https://tryhackme.com/room/redteamrecon
+- https://tryhackme.com/module/phishing
 
 
 
