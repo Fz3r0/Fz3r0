@@ -624,6 +624,7 @@ Networking Labs using simulators, emulators like Packet Tracer, GNS3 & eve / and
 - **Misc**
 
     - [Create a Loopback Interface + Cloud in GNS3](https://www.youtube.com/watch?v=nHApqX9RWuA)
+    - [Loopback en Windows 10 con GNS3 Definitive!](https://www.youtube.com/watch?v=yZe_RPdalIQ)
 
 - **Fz3r0 Labs:**
 
