@@ -21,11 +21,11 @@ When looking for that first set of credentials, we don't focus on the permission
 
 In this network, we will cover several methods that can be used to breach AD. This is by no means a complete list as new methods and techniques are discovered every day. However, we will  cover the following techniques to recover AD credentials in this network:
 
-- NTLM Authenticated Services
-- LDAP Bind Credentials
-- Authentication Relays
-- Microsoft Deployment Toolkit
-- Configuration Files
+**- NTLM Authenticated Services**
+**- LDAP Bind Credentials**
+**- Authentication Relays**
+**- Microsoft Deployment Toolkit**
+**- Configuration Files**
 
 We can use these techniques on a security assessment either by targeting systems of an organisation that are internet-facing or by implanting a rogue device on the organisation's network.
 
@@ -33,7 +33,7 @@ We can use these techniques on a security assessment either by targeting systems
 
 ### AttackBox
 
-If you are using the Web-based AttackBox, you will be connected to the network automatically if you start the AttackBox from the room's page. You can verify this by running the ping command against the IP of the THMDC.za.tryhackme.com host. We do still need to configure DNS, however. Windows Networks use the Domain Name Service (DNS) to resolve hostnames to IPs. Throughout this network, DNS will be used for the tasks. You will have to configure DNS on the host on which you are running the VPN connection. In order to configure our DNS, we must edit the/etc/systemd/resolved.conf file. Uncomment the DNS line and add the IP of THMDC:
+If you are using the Web-based AttackBox, you will be connected to the network automatically if you start the AttackBox from the room's page. You can verify this by running the ping command against the IP of the THMDC.za.tryhackme.com host. We do still need to configure DNS, however. **Windows Networks use the Domain Name Service (DNS) to resolve hostnames to IPs. Throughout this network, DNS will be used for the tasks. You will have to configure DNS on the host on which you are running the VPN connection. In order to configure our DNS, we must edit the/etc/systemd/resolved.conf file. Uncomment the DNS line and add the IP of THMDC:**
 
 ```sh
 #  This file is part of systemd.
@@ -78,7 +78,7 @@ You should also take the time to make note of your VPN IP. Using `ifconfig` or `
 
 ### Other Hosts
 
-If you are going to use your own attack machine, an OpenVPN configuration file will have been generated for you once you join the room. Go to your access page. Select 'BreachingAD' from the VPN servers (under the network tab) and download your configuration file.
+If you are going to use your own attack machine, an OpenVPN configuration file will have been generated for you once you join the room. [Go to your access page](https://tryhackme.com/access). Select 'BreachingAD' from the VPN servers (under the network tab) and download your configuration file.
 
 ![image](https://user-images.githubusercontent.com/94720207/177055562-58980c65-1847-46ef-9041-4ae8d213a6e4.png)
 
@@ -111,9 +111,50 @@ If you are using a Kali VM, Network Manager is most likely used as DNS manager. 
 - Add another DNS such as 1.1.1.1 or similar to ensure you still have internet access
 - Run `sudo systemctl restart NetworkManager` and test your DNS similar to the steps above.
 
+## Pre-Config Fz3r0
+
+- MKDIR:
+
+    - ![image](https://user-images.githubusercontent.com/94720207/177063864-6199fa2e-0829-49d0-b797-1d0bec787e9b.png)
+
+- VPN: `sudo openvpn /home/kali/Documents/5_____VPN_THM/fz3r0.carlos-breachingad.ovpn`
+
+    - ![image](https://user-images.githubusercontent.com/94720207/177064365-24c874ba-10ae-4f7a-a6ca-fa77e882f079.png)
+
+- DNS Config:
+
+    - Network Manager -> Advanced Network Configuration -> Your Connection -> IPv4 Settings
+    - Set your DNS IP here to the IP for THMDC in the network diagram above
+    - Add another DNS such as 1.1.1.1 or similar to ensure you still have internet access
+    - Run `sudo systemctl restart NetworkManager` and test your DNS similar to the steps above.
+
+    - ![image](https://user-images.githubusercontent.com/94720207/177064107-394be2b9-dbcd-45bf-afdf-f0c0b1c8f014.png)
+    
+    - ![image](https://user-images.githubusercontent.com/94720207/177064206-5901b0b4-7970-452b-a935-e3c460da4158.png)
+    
+    - ![image](https://user-images.githubusercontent.com/94720207/177064436-c316403a-84d8-4f12-9383-c6e7cd0bf85a.png)
+    
+    - ![image](https://user-images.githubusercontent.com/94720207/177064638-f21bd4b8-124d-4366-b328-1619cd1c7e1f.png)
+ 
+ 
+
+
+
+
+
+
+
 ## OSINT and Phishing
 
 
+
+
+---
+
+### References
+
+- https://tryhackme.com/room/activedirectorybasics
+- https://tryhackme.com/room/activedirectorybasics
 
 
 
