@@ -131,8 +131,10 @@ If you are using a Kali VM, Network Manager is most likely used as DNS manager. 
     - ![image](https://user-images.githubusercontent.com/94720207/177064107-394be2b9-dbcd-45bf-afdf-f0c0b1c8f014.png)
     
     - ![image](https://user-images.githubusercontent.com/94720207/177064206-5901b0b4-7970-452b-a935-e3c460da4158.png)
-    
-    - ![image](https://user-images.githubusercontent.com/94720207/177064436-c316403a-84d8-4f12-9383-c6e7cd0bf85a.png)
+        
+    - ![image](https://user-images.githubusercontent.com/94720207/177067074-3de45ff3-d47a-45db-83c1-7475459a5171.png)
+ 
+    - ![image](https://user-images.githubusercontent.com/94720207/177067217-2a0bca13-a0c0-4a37-9091-f6b0d1da45a2.png)
     
     - ![image](https://user-images.githubusercontent.com/94720207/177064638-f21bd4b8-124d-4366-b328-1619cd1c7e1f.png)
  
@@ -162,8 +164,6 @@ A detailed room on phishing can be found [here](https://tryhackme.com/module/phi
 
 ## NTLM and NetNTLM
 
-![image](https://user-images.githubusercontent.com/94720207/177065933-a87d7184-65a5-4db6-af80-d83152e19ab3.png)
-
 New Technology LAN Manager (NTLM) is the suite of security protocols used to authenticate users' identities in AD. NTLM can be used for authentication by using a challenge-response-based scheme called NetNTLM. This authentication mechanism is heavily used by the services on a network. However, services that use NetNTLM can also be exposed to the internet. The following are some of the popular examples:
 
 - Internally-hosted Exchange (Mail) servers that expose an Outlook Web App (OWA) login portal.
@@ -177,7 +177,17 @@ This means that the application is authenticating on behalf of the user and not 
 
 ![image](https://user-images.githubusercontent.com/94720207/177066003-bab1e498-f3cc-48e1-ada3-69ca9170a026.png)
 
+### Brute-force Login Attacks
 
+As mentioned in Task 2, these exposed services provide an excellent location to test credentials discovered using other means. However, these services can also be used directly in an attempt to recover an initial set of valid AD credentials. We could perhaps try to use these for brute force attacks if we recovered information such as valid email addresses during our initial red team recon.
+
+Since most AD environments have account lockout configured, we won't be able to run a full brute-force attack. Instead, we need to perform a **password spraying attack**. **Instead of trying multiple different passwords, which may trigger the account lockout mechanism, we choose and use one password and attempt to authenticate with all the usernames we have acquired.** However, it should be noted that these types of attacks can be detected due to the amount of failed authentication attempts they will generate.
+
+You have been provided with a list of usernames discovered during a red team OSINT exercise. The OSINT exercise also indicated the organisation's initial onboarding password, which seems to be `Changeme123`. Although users should always change their initial password, we know that users often forget. We will be using a custom-developed script to stage a password spraying against the web application hosted at this URL: http://ntlmauth.za.tryhackme.com.
+
+![image](https://user-images.githubusercontent.com/94720207/177065933-a87d7184-65a5-4db6-af80-d83152e19ab3.png)
+
+Navigating to the URL, we can see that it prompts us for Windows Authentication credentials:
 
 
 ---
