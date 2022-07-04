@@ -228,23 +228,15 @@ https://www.hackthebox.com/badge/image/897009
   
 <span align="center"> <p align="center"> ![count](https://komarev.com/ghpvc/?username=fz3r0&color=brightgreen)  </p> </span> 
 
-<span align="center"> <p align="center"> _“Welcome to my house! Enter freely. Go safely, and leave something of the happiness you bring...”_  </p> </span>  
+
 
 --- 
- 
- <!--
 
-https://www.hackthebox.com/badge/image/897009
-
-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
-** =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=- IMPORTANT DISCLAIRMER 
-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
-
--->
-  
-
+<span align="center"> <p align="center"> _**“Welcome to my house! Enter freely. Go safely, and leave something of the happiness you bring...”**_  </p> </span>  
 
 ![index_banner_final2](https://hackers.game/static/media/skull.5853c7dcd849910eaf43.gif)
+
+
 
 <!--
 
