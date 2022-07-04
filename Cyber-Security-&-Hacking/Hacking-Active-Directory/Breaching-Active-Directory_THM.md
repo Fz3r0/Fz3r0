@@ -158,7 +158,26 @@ A detailed room on Red Team OSINT can be found [here](https://tryhackme.com/room
 
 Phishing is another excellent method to breach AD. Phishing usually entices users to either provide their credentials on a malicious web page or ask them to run a specific application that would install a Remote Access Trojan (RAT) in the background. This is a prevalent method since the RAT would execute in the user's context, immediately allowing you to impersonate that user's AD account. This is why phishing is such a big topic for both Red and Blue teams.
 
-A detailed room on phishing can be found here.
+A detailed room on phishing can be found [here](https://tryhackme.com/module/phishing).
+
+## NTLM and NetNTLM
+
+![image](https://user-images.githubusercontent.com/94720207/177065933-a87d7184-65a5-4db6-af80-d83152e19ab3.png)
+
+New Technology LAN Manager (NTLM) is the suite of security protocols used to authenticate users' identities in AD. NTLM can be used for authentication by using a challenge-response-based scheme called NetNTLM. This authentication mechanism is heavily used by the services on a network. However, services that use NetNTLM can also be exposed to the internet. The following are some of the popular examples:
+
+- Internally-hosted Exchange (Mail) servers that expose an Outlook Web App (OWA) login portal.
+- Remote Desktop Protocol (RDP) service of a server being exposed to the internet.
+- Exposed VPN endpoints that were integrated with AD.
+- Web applications that are internet-facing and make use of NetNTLM.
+
+NetNTLM, also often referred to as Windows Authentication or just NTLM Authentication, allows the application to play the role of a middle man between the client and AD. All authentication material is forwarded to a Domain Controller in the form of a challenge, and if completed successfully, the application will authenticate the user.
+
+This means that the application is authenticating on behalf of the user and not authenticating the user directly on the application itself. This prevents the application from storing AD credentials, which should only be stored on a Domain Controller. This process is shown in the diagram below:
+
+![image](https://user-images.githubusercontent.com/94720207/177066003-bab1e498-f3cc-48e1-ada3-69ca9170a026.png)
+
+
 
 
 ---
