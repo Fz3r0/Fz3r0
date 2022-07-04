@@ -1,4 +1,4 @@
-# Mikrotik - Configuración de ROUTER OS, LOOPBACK Y WINBOX
+# Mikrotik - Mikrotik y Winbox en GNS3
 
 ### Download RouterOS
 
