@@ -527,6 +527,7 @@ Tables, Lists, Models, Cheat-Sheets, Mind-Maps & Resources
 - Tutorials
 
     - [Cargar Imagen de Mikrotik Router en GNS3 2022](https://www.youtube.com/watch?v=y6oUhswI3hw)
+    - [MikroTIK desde CERO @ TikAcademy](https://youtu.be/3rOtEVXZ0Lc)
     - [MikroTIK desde CERO 2021 @ TikAcademy](https://www.youtube.com/watch?v=vcSZjlReJYM&t=3s)
     - [Mikrotik desde 0 en GNS3](https://www.youtube.com/watch?v=jeEYUVSHdEo&list=PLWxrUCxnbWRsouO8c95-Z69Ojak6mOHYE)
 
