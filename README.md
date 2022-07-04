@@ -103,7 +103,7 @@ I'm just a very lucky person who was born surrounded by IBM computers and floppy
 
 When I was very young I entered a Data Center and a room full of computers where my father worked, then I met a very funny guy with long hair and a beard (The Systems Engineer) who allowed me to play Prince of Persia in MS-DOS surrounded by huge computers with that peculiar smell of new plastic, silicon & technology. Since then I decided to focus on one thing: Let my hair and beard grow... (and dedicate my life to Computer Science and Information and Communication Technologies).
 
-I invite you to enter the links of my social networks that I've placed above including my LinkedIn, where you will find more information regarding my professional career.
+Please check the links of my Social Networks that I've placed above including my LinkedIn, where you will find more information regarding my professional career. Cheerz! :) 
 
 ---
 
