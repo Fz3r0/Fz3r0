@@ -1,6 +1,6 @@
 # Mikrotik - Mikrotik y Winbox en GNS3
 
-### Download RouterOS
+## Download RouterOS & Winbox
 
 1. Descargar **Raw Disk Image**
 
@@ -18,4 +18,9 @@
 
 - ![image](https://user-images.githubusercontent.com/94720207/177075801-6150f826-acff-4585-bb63-9da91e00b1d2.png)
 
-a
+## Install Mikrotik image in GNS3
+
+- ![image](https://user-images.githubusercontent.com/94720207/177076221-cb254dab-183f-415b-91ca-42c6f6bd5b9c.png)
+- ![image](https://user-images.githubusercontent.com/94720207/177076313-9bb677f6-af3e-456b-8772-37d008ebe8a9.png)
+- 
+
