@@ -338,6 +338,8 @@ Tables, Lists, Models, Cheat-Sheets, Mind-Maps & Resources
 - [TCP & UDP : Headers]()
 - [ETHII > Ethernet II : Header]()
 - [WiFi > 802.11 : Header]()
+- [IEEE 802 1Q: **VLAN Tagging** and **Trunking** 101 @ Sunny](https://www.youtube.com/watch?v=vE5gvbmR8jg)
+- [FAQ - Should trunk ports be tagged or untagged?](https://faq-blog.com/should-trunk-ports-be-tagged-or-untagged)
 
 ### Wired Networking Components & Fundamentals
 
