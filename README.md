@@ -1173,8 +1173,9 @@ Mind-Maps, Paradigms, Way-to-Go, Hints & Tricks for Seek & Exploit TICs!
     - [Mimicatz Tutorial](https://www.youtube.com/watch?v=AZirvtZNIEw)
     - [Windows PrivEsc Checker](https://github.com/Fz3r0/windows-privesc-check)
  
-- **Active Directory PrivEsc (Windows Server)**
+- **Active Directory PrivEsc & Explotation (Windows Server)**
 
+    - [Active Directory Exploitation Cheat Sheet @ ReconShell](https://reconshell.com/active-directory-exploitation-cheat-sheet/)
     - [**Active Directory PrivEsc - OSCP Methodology** @ Conda](https://www.xmind.net/m/5dypm8/)
     - [How to **Setup a Virtual Windows Active Directory Domain**](https://www.youtube.com/watch?v=Bm3mihQNGI4&list=PLDrNMcTNhhYqZj7WZt2GfNhBDqBnhW6AT&index=2)
     - [**Bloodhound** > Attacking Active Directory](https://www.youtube.com/watch?v=aJqjH3MsbLM&list=PLDrNMcTNhhYqZj7WZt2GfNhBDqBnhW6AT&index=3)
