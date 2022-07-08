@@ -525,7 +525,7 @@ Tables, Lists, Models, Cheat-Sheets, Mind-Maps & Resources
 
     - [**Ruckus Log4J vSZ Patch** and Work Around](https://www.youtube.com/watch?v=56_tgSApKkA&list=PLwZotTMbkZQFA_Lm9qjAFKOQMWM3aOCHG) 
 
-### Mikrotik
+### MikroTik
 
 - Tutorials
 
