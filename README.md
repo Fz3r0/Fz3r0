@@ -1007,6 +1007,7 @@ _I have mastered the ultimate technology, the hability to alter physical reality
 - [Hacktricks](https://book.hacktricks.xyz/) _Hacking trick/technique/whatever by Carlos Plop jooooodeeer!!! _
 - [Cyber-Bookmarks](https://x0rb3l.github.io/Cyber-Bookmarks/bookmarks.html)
 - [High On Coffee](https://highon.coffee/blog/) _Security Research and Penetration Testing Blog - Cheat Sheets, Techniques, Hardening, WalkThroughs_
+- [ReconShell](https://reconshell.com/)
 - [SecLists](https://github.com/danielmiessler/SecLists) _Collection of multiple types of lists used during security assessments, collected in one place._
 - [The Art of Hacking](https://github.com/The-Art-of-Hacking/h4cker) _Over 9,000 References, Scripts, Tools, Code & Resources for Offensive/Defensive Security_
 - [Hakin9](https://hakin9.org/) _magazine dedicated to hacking and cybersecurity. Defensive and offensive secuirty techniques_
