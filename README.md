@@ -529,7 +529,7 @@ Tables, Lists, Models, Cheat-Sheets, Mind-Maps & Resources
 
 - Tutorials
 
-    - [Configuración de GNS3 para emular dispositivos Mikrotik con QEMU](https://www.youtube.com/watch?v=6w5nrvHkYl0)
+    - [**Configuración de GNS3 para emular dispositivos Mikrotik con QEMU** FULL!!!](https://www.youtube.com/watch?v=6w5nrvHkYl0)
     - [Cargar Imagen de Mikrotik Router en GNS3 2022](https://www.youtube.com/watch?v=y6oUhswI3hw)
     - [MikroTIK desde CERO @ TikAcademy](https://youtu.be/3rOtEVXZ0Lc)
     - [MikroTIK desde CERO 2021 @ TikAcademy](https://www.youtube.com/watch?v=vcSZjlReJYM&t=3s)
