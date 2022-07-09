@@ -550,6 +550,14 @@ Tables, Lists, Models, Cheat-Sheets, Mind-Maps & Resources
 - For Diagrams: [Microsoft Visio](https://www.microsoft.com/en-us/microsoft-365/visio/flowchart-software) _$$$_
 - For Diagrams: [draw.io](https://app.diagrams.net/) _Free!_
 
+### Shells & Reverse Shells
+
+- Secure-CRT
+    - [Pimp my Secure CRT - ANSI colors & dark shell mode](https://www.vandyke.com/support/tips/colorconfig.html)
+- Putty
+- NetCat
+- SoCat
+
 ### ✉️ 👨‍💻 📦 Packet Level 📦 👨‍💻 ✉️ 
 Deep dive into the Packet / PCAP Analysis
 
