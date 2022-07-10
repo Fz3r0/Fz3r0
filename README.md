@@ -535,6 +535,7 @@ Tables, Lists, Models, Cheat-Sheets, Mind-Maps & Resources
     - [MikroTIK desde CERO @ TikAcademy](https://youtu.be/3rOtEVXZ0Lc)
     - [MikroTIK desde CERO 2021 @ TikAcademy](https://www.youtube.com/watch?v=vcSZjlReJYM&t=3s)
     - [Mikrotik desde 0 en GNS3](https://www.youtube.com/watch?v=jeEYUVSHdEo&list=PLWxrUCxnbWRsouO8c95-Z69Ojak6mOHYE)
+    - [Usar Multiples IP WAN en una sola Interface](https://www.youtube.com/watch?v=4g8G2o8VAlc)
 
 - Fz3r0 Labs @ GNS3
 
