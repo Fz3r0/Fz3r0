@@ -434,6 +434,16 @@ Tables, Lists, Models, Cheat-Sheets, Mind-Maps & Resources
     - [Wifi4 802.11n (2009)]()
     - [Wifi5 802.11ac (2013)](https://es.wikipedia.org/wiki/IEEE_802.11ac)
     - [Wifi6 802.11ax (2019)]()
+    - [WiFi Alliance Certifications: Connectivity (6, ac, n, WiGig, WifiDirect)]()
+    - [WiFi Alliance Certifications: Security (WPA3, WPA3 Entrerprise)]() _Top Security Entrerprise_
+    - [WiFi Alliance Certifications: Security (WPA2)]() _SOHO & Home_
+    - [WiFi Alliance Certifications: Security - Wi-Fi Enhanced Open (OWE)]() _Password Encryption_
+    - [WiFi Alliance Certifications: Security - IEEE 802.11w-2009]() _Anti Spoofing & DOS Attacks_
+    - [WiFi Alliance Certifications: Access - Passpoint, Easy connect, Protected Setup ]() _Anti Spoofing & DOS Attacks_
+
+- Hotspot 2.0
+
+- Passpoint
 
 - Radio Frequency (RF) Concepts on Wireless Networks
 
@@ -1723,7 +1733,7 @@ Fz3r0 Cyber-Weaponry Crafting, Tools Programming & Open Source Projects
 - [Dialupass - VPN Password Recovery](https://www.nirsoft.net/utils/dialupass.html) _enumerates dialup/VPN entries, displays logon details: User Name, Password, and Domain._
 - [Technitium MAC Address Changer for Windows](https://technitium.com/tmac/) _A freeware utility to spoof MAC address instantly_
 - [Monitor / Screen Size online - Measure with a credit card!](https://www.piliapp.com/actual-size/what-is-my-monitor-size/)
-
+- [PSU / Power Supply Calculator](https://outervision.com/power-supply-calculator)
 
 
  
