@@ -427,6 +427,13 @@ Tables, Lists, Models, Cheat-Sheets, Mind-Maps & Resources
     - [Understanding RF Path - DOWNLOAD BACKUP LINK](https://github.com/Fz3r0/Fz3r0/files/8887237/eBook_.Understanding.the.RF.Path.pdf)
     - [Ruckus / Brocade - Full Feature Explainer Series @ T. Henry](https://www.youtube.com/watch?v=gnUEsnS3MWY&list=PLgZ5m9z7RBHUcQ4bDIjRJDxDn4EGpFUol)
 
+- WiFi
+
+    - [Diferencias entre: WiFi4, WiFi5 & Wifi6](https://www.youtube.com/watch?v=P_nCjxi9Egc)
+    - [Wifi4 802.11n (2009)]()
+    - [Wifi5 802.11ac (2013)]()
+    - [Wifi6 802.11ax (2019)]()
+
 - Radio Frequency (RF) Concepts on Wireless Networks
 
     - [**Radio Waves AKA Radio Signals** @ NASA](https://www.nasa.gov/directorates/heo/scan/communications/outreach/funfacts/what_are_radio_waves) _The basic building block of radio communications is a radio wave._
