@@ -350,6 +350,10 @@ Tables, Lists, Models, Cheat-Sheets, Mind-Maps & Resources
 
 ### Networking Groups & Organizations
 
+- [WiFi Alliance]() _Ensure the interoperability of Wi-Fi products by providing certification testing_
+- [Federal Communications Commission (FCC)]() _regulates communications within & from USA_
+- [International Telecommunication Union Radiocommunication Sector (ITU-R)]() _United Nations worldwide frequency assignments through five administrative regions_
+- [Institute of Electrical and Electronics Engineers (IEEE)](https://www.ieee.org) _Best known for its LAN standards, the IEEE 802 project_
 - [Internet Society (ISOC)](https://www.internetsociety.org/)
     
     - [ISOC Hierarchy](https://user-images.githubusercontent.com/94720207/179373677-22b265ed-3217-4f70-88c2-4701ce3e7380.png)
@@ -359,7 +363,7 @@ Tables, Lists, Models, Cheat-Sheets, Mind-Maps & Resources
     - Internet Engineering Steering Group **IESG**
     - Internet Research Task Force **IRTF**
 
-- [WiFi Alliance]()
+
 
 ### 📝 👷 🏰 IEEE Standards 🏰 👷 📝
 
