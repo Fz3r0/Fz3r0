@@ -1216,9 +1216,16 @@ Mind-Maps, Paradigms, Way-to-Go, Hints & Tricks for Seek & Exploit TICs!
 
 ### OSINT
 
+- OSINT Bibles
+
 - [Meta OSINT](https://metaosint.github.io/table/) _The full list of 4,000+ OSINT resources_ 
 - [OSINT Tool Connection @ Cyber Detective](https://github.com/cipher387/osint_stuff_tool_collection) _Sifferent services, techniques, tricks and notes about OSINT and more_
 - [Nos vemos en tu próxima publicación - Reflexión de la Privacidad en Redes Sociales @ Victor Ruiz](https://www.youtube.com/watch?v=tsSp7bHnW0Y) 
+
+- OSINT Search Engines
+
+
+
  
 ### Deep Web
 
@@ -1330,6 +1337,8 @@ Fz3r0 Cyber-Weaponry Crafting, Tools Programming & Open Source Projects
  
 - Programming Resources
 
+    - [Search Code](https://searchcode.com/) _Search 75 billion lines of code from 40 million projects_
+    - [Grep.app](https://grep.app/) _Search across a half million git repos_
     - [Hacker Earth](https://www.hackerearth.com/)
  
 - Misc Tools
