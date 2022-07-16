@@ -1017,6 +1017,7 @@ _I have mastered the ultimate technology, the hability to alter physical reality
 
 - [The Book of the Secret Knowledge](https://github.com/Fz3r0/the-book-of-secret-knowledge) _A collection of lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools & more._
 - [Pentester Book](https://pentestbook.six2dez.com/post-exploitation/linux) _This book contains a bunch of info, scripts and knowledge by six2dez_
+- [Pentest Cheatsheet God](https://github.com/OlivierLaflamme/Cheatsheet-God)
 - [Hacktricks](https://book.hacktricks.xyz/) _Hacking trick/technique/whatever by Carlos Plop jooooodeeer!!! _
 - [Cyber-Bookmarks](https://x0rb3l.github.io/Cyber-Bookmarks/bookmarks.html)
 - [High On Coffee](https://highon.coffee/blog/) _Security Research and Penetration Testing Blog - Cheat Sheets, Techniques, Hardening, WalkThroughs_
