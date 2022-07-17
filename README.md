@@ -295,6 +295,11 @@ https://www.hackthebox.com/badge/image/897009
     - 🔮 📖 🧙‍ **Dark Wizardy for Networking & NetSec** 
     - 🔐 🛠️ ⚙️ **Configure it Like a Sir!**
     - 🛡️ 👩‍🔬 🧪  **Secure Network Labs**
+    - **Wired Networking Components & Fundamentals**
+    - **Networking Groups & Organizations**
+    - 📝 👷 🏰 **IEEE Standards**
+    - ➡️ 💥 ⬅️ [**Carrier Sense Multiple Access (CSMA)**](https://github.com/fz3r0#%EF%B8%8F--%EF%B8%8F-carrier-sense-multiple-access-csma-%EF%B8%8F--%EF%B8%8F)
+    - 🛰️ 📶 📡 [**Wireless Communication & RF**](https://github.com/fz3r0#%EF%B8%8F---wireless-communication--rf---%EF%B8%8F)
 
 <!--
 
