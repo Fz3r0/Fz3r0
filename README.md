@@ -559,10 +559,15 @@ Tables, Lists, Models, Cheat-Sheets, Mind-Maps & Resources
 - **SmartZone**
 
     - [**Ruckus Log4J vSZ Patch** and Work Around](https://www.youtube.com/watch?v=56_tgSApKkA&list=PLwZotTMbkZQFA_Lm9qjAFKOQMWM3aOCHG) 
+    - [SmartZoneOS 5 Demonstration: SmartZone Directed Multicast](https://www.youtube.com/watch?v=1q2iPheO-dY)
 
 - **Zone Director**
 
     - [Multicast Directed-threshold versus Directed-multicast commands](https://support.ruckuswireless.com/articles/000002849)
+
+- **Cloud & Virtualized**
+
+    - [RUCKUS Cloud Troubleshooting: Advanced WLAN Settings](https://www.youtube.com/watch?v=NBu4FXBF38w)
 
 ### MikroTik
 
