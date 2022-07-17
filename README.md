@@ -565,8 +565,8 @@ Tables, Lists, Models, Cheat-Sheets, Mind-Maps & Resources
     - [**SmartZone OS5: THE FULL DARK BIBLE TO CONTROL THE AIR, WOOF WOOF!!!**](https://www.youtube.com/watch?v=CBB9CSuOJHY&list=PLySwoo7u9-KJLZWZj0tDtG5jo-QRdeQw0)
     - [SmartZone OS5: SmartZone System Configuration](https://www.youtube.com/watch?v=KIJ5h6rV098)
     - [SmartZone OS5: SmartZone Zone Configuration: Advanced Options](https://www.youtube.com/watch?v=G79JTDPrBt4)
+    - [SmartZone OS5: SmartZone Directed Multicast](https://www.youtube.com/watch?v=1q2iPheO-dY)
     - [**Ruckus Log4J vSZ Patch** and Work Around](https://www.youtube.com/watch?v=56_tgSApKkA&list=PLwZotTMbkZQFA_Lm9qjAFKOQMWM3aOCHG) 
-    - [SmartZoneOS 5 Demonstration: SmartZone Directed Multicast](https://www.youtube.com/watch?v=1q2iPheO-dY)
 
 - **Zone Director**
 
