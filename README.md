@@ -293,11 +293,15 @@ https://www.hackthebox.com/badge/image/897009
 - **Networking Infraestructure**
 
     - 🔮 📖 🧙‍ [**Dark Wizardy for Networking & NetSec**](https://github.com/Fz3r0/Fz3r0/blob/main/README.md#---dark-wizardy-for-networking--netsec-%EF%B8%8F--) 
-    - 🔐 🛠️ ⚙️ **Configure it Like a Sir!**
+    - [Wired Networking Components & Fundamentals](https://github.com/Fz3r0/Fz3r0/blob/main/README.md#wired-networking-components--fundamentals)
+    - [Networking Groups & Organizations](https://github.com/Fz3r0/Fz3r0/blob/main/README.md#networking-groups--organizations)
+    
+ 
+    - 🔐 🛠️ ⚙️ [**Configure it Like a Sir!**]()
     - 🛡️ 👩‍🔬 🧪  **Secure Network Labs**
     - **Wired Networking Components & Fundamentals**
     - **Networking Groups & Organizations**
-    - 📝 👷 🏰 **IEEE Standards**
+    - 📝 👷 🏰 [**IEEE Standards**](https://github.com/Fz3r0/Fz3r0/blob/main/README.md#---ieee-standards---)
     - ➡️ 💥 ⬅️ [**Carrier Sense Multiple Access (CSMA)**](https://github.com/fz3r0#%EF%B8%8F--%EF%B8%8F-carrier-sense-multiple-access-csma-%EF%B8%8F--%EF%B8%8F)
     - 🛰️ 📶 📡 [**Wireless Communication & RF**](https://github.com/fz3r0#%EF%B8%8F---wireless-communication--rf---%EF%B8%8F)
 
