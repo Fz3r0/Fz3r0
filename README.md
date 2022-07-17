@@ -397,9 +397,12 @@ Tables, Lists, Models, Cheat-Sheets, Mind-Maps & Resources
     - [802.11a - 5 Ghz @ speeds of up to 54 Mbps]()
     - [802.11b - 2.4 Ghz @ speeds of up to 11 Mbps]() 
     - [802.11g - 2.4 Ghz @ speeds of up to 54 Mbps]()
-    - [802.11n - 2.4 Ghz & 5 GHz @ data rates range from 150 Mbps to 600 Mbps]()
-    - [802.11ac - 5 Ghz @ data rates ranging: 450 Mbps - 1.3 Gbps using MIMO]()
-    - [802.11ax - 2.4 Ghz & 5 GHz @ latest standard - WiFi 6]()
+    - [**802.11n - (WiFi4) 2.4 Ghz & 5 GHz @ data rates range from 150 Mbps to 600 Mbps**]()
+    - [**802.11ac - (WiFi5) 5 Ghz @ data rates ranging: 450 Mbps - 1.3 Gbps using MIMO**]()
+    - [**802.11ax - (WiFi6) 2.4 Ghz & 5 GHz @ latest standard - WiFi 6**]()
+    - [802.11d AKA 802.11d-2001 - Country Code](https://en.wikipedia.org/wiki/IEEE_802.11d-2001) _Permite que equipos Wifi operen en píses sin estándar 802.11_
+    - [802.11k - Assisted Roaming](https://www.cisco.com/c/en/us/td/docs/wireless/controller/technotes/5700/software/release/ios_xe_33/11rkw_DeploymentGuide/b_802point11rkw_deployment_guide_cisco_ios_xe_release33/b_802point11rkw_deployment_guide_cisco_ios_xe_release33_chapter_010.pdf) _IOS XE 3.3 release Apple optimized Neighbor List for better roaming_
+    - [802.11r](https://www.soporteavanzado.com/mas-rapido-que-tu-promedio/)
  
 - [**IEEE 802.xx Wireless** Standards & Others]()
  
