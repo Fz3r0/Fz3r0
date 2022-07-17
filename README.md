@@ -563,6 +563,7 @@ Tables, Lists, Models, Cheat-Sheets, Mind-Maps & Resources
 - **SmartZone**
 
     - [**SmartZone OS5: THE FULL DARK BIBLE TO CONTROL THE AIR, WOOF WOOF!!!**](https://www.youtube.com/watch?v=CBB9CSuOJHY&list=PLySwoo7u9-KJLZWZj0tDtG5jo-QRdeQw0)
+    - [**SmartZone: SZ-300 VSZH scg200 administrator guide PDF**](https://github.com/Fz3r0/Fz3r0/files/9128430/SMART_ZONE_sz300-vszh-scg200-administrator-guide.pdf)
     - [SmartZone OS5: SmartZone System Configuration](https://www.youtube.com/watch?v=KIJ5h6rV098)
     - [SmartZone OS5: SmartZone Zone Configuration: Advanced Options](https://www.youtube.com/watch?v=G79JTDPrBt4)
     - [SmartZone OS5: SmartZone Directed Multicast](https://www.youtube.com/watch?v=1q2iPheO-dY)
