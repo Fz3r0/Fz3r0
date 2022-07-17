@@ -560,6 +560,10 @@ Tables, Lists, Models, Cheat-Sheets, Mind-Maps & Resources
 
     - [**Ruckus Log4J vSZ Patch** and Work Around](https://www.youtube.com/watch?v=56_tgSApKkA&list=PLwZotTMbkZQFA_Lm9qjAFKOQMWM3aOCHG) 
 
+- **Zone Director**
+
+    - [Multicast Directed-threshold versus Directed-multicast commands](https://support.ruckuswireless.com/articles/000002849)
+
 ### MikroTik
 
 - Tutorials
