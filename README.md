@@ -558,6 +558,7 @@ Tables, Lists, Models, Cheat-Sheets, Mind-Maps & Resources
 
 - **SmartZone**
 
+    - [SmartZone OS5: SmartZone System Configuration](https://www.youtube.com/watch?v=KIJ5h6rV098)
     - [**Ruckus Log4J vSZ Patch** and Work Around](https://www.youtube.com/watch?v=56_tgSApKkA&list=PLwZotTMbkZQFA_Lm9qjAFKOQMWM3aOCHG) 
     - [SmartZoneOS 5 Demonstration: SmartZone Directed Multicast](https://www.youtube.com/watch?v=1q2iPheO-dY)
 
