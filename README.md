@@ -1687,6 +1687,7 @@ Fz3r0 Cyber-Weaponry Crafting, Tools Programming & Open Source Projects
 - https://github.com/Fz3r0/MalwareScripts 
    
 ### fz3r0 - My Devil Malware 
+_The Strength Of The Human Heart. The Difference Between Us And Machines"_
 
 ### Malware Analysis Tutorials
 
@@ -1774,10 +1775,7 @@ https://developer.cisco.com/docs/ APIs y demas sdwaun dna center
 https://developer.cisco.com/docs/dna-center/#!cisco-dna-center-platform-overview dna overview
 
 
-_"The unknown future rolls toward us. I face it, for the first time, with a sense of hope..._<br> 
-_...Because if a machine, a Terminator, can learn the value of human life... maybe we can too._<br> 
-<br> 
-_The Strength Of The Human Heart. The Difference Between Us And Machines"_
+
 
 ---
  
@@ -1793,7 +1791,8 @@ _Dejemos al menos cantos"_ <br>
  
 _Nezahualcoyotl_ 
  
- 
+![image](https://user-images.githubusercontent.com/94720207/179418181-80cebf21-ad55-40c3-ad6d-d22c60e6317f.png)
+  
 ---
 
 > ![hecho en mex3 (1)mini](https://user-images.githubusercontent.com/94720207/163919294-2754caa3-c98c-4df3-b782-00703e4d3343.png)
