@@ -54,19 +54,23 @@ SECURITY ADVANTAGES SDN AGREGAR!!!! https://xigentsolutions.com/blog/security-ad
  
 <span align="center"> <h3 align="center"> DISCLAIMER </h3> </span>
 
-  - This repository has been intended to be a personal centralized place to store my own created data and also compile some public data such as databases, codes, scripts, write ups, binaries, labs, resources, documents and some other kind of files that I commonly use in my day to day life as an engineer.
+- This repository has been intended to be a personal centralized place to store my own created data and also compile some public data such as databases, codes, scripts, write ups, binaries, labs, guides, resources, documents and some other kind of files that I commonly use in my day to day life as an engineer.
 
- - This repository also serves as my portfolio to show to potential employers and clients my work, experience, education and resume in the area of IT, Network Engineering, Development, Programming, Cyber Security, Computer Systems, Infraestructure Management and other branches of Computer Science and Information Technologies.
+- This repository also serves as my portfolio to show to potential employers and clients my work, experience, education and resume in the area of IT, Network Engineering, Development, Programming, Cyber Security, Computer Systems, Infraestructure Management and other branches of Computer Science and Information & Communication Technologies.
 
-  - The reason this repository is publicly accessible is because it shares the GNU free software ideology and philosophy, it means the freedom to run the software, to study the software, to modify the software, and to share copies of the software (whether modified or not).
+- The reason this repository is publicly accessible is because it shares the GNU free software ideology and philosophy, it means the freedom to run the software, to study the software, to modify the software, and to share copies of the software (whether modified or not).
   
-     I believe that all people should learn about Computer Science and Technology in general for free, the knowledge must be accesible for everyone as a human right, which would make this world a better place, in addition to leaving a small footprint of the greatness of human capacity in this tiny instant of time and in this little portion of infinite universe. I really hope that someday this can help someone!
+  I believe that all people in the world should learn about Computer Science and Technology for free, the knowledge must be accesible for everyone as a human right, which would make this world a better place, in addition to leaving a small footprint of the greatness of human capacity in this tiny instant of time and in this little portion of infinite universe. I really hope that someday this can help someone and that person keep spreading the knowledge. 
   
-  - All the scripts, binaries, software, techniques, programs, directories, databases or any other resource contained in this repository should be used ONLY for authorized penetration testing, networking laboratories, ethical hacking, experimentation and/or educational purposes. 
+- All the scripts, binaries, software, techniques, programs, directories, databases, guides or any other resource contained in this repository should be used ONLY for authorized penetration testing, networking laboratories, ethical hacking, scientific investigation, experimentation and/or educational purposes. 
   
-  - This repository contain codes and scripts that could harm some systems and devices. Read carefully each file documentation and/or script before download, extract, execute, copy or compile.
+- This repository contain codes and scripts that could harm some systems and devices. Read carefully each file documentation and/or script before download, extract, execute, copy or compile.
   
-  - Any misuse of the information and files compiled in this repository will not be the responsibility of the author. 
+- Some techniques shown in this repository could be considered illegal in some Countries, it is recommended to study the computer legislation before replicating any process included in the repository.
+
+- It is mandatory to experiment only in controlled laboratory environments, whether physical or virtual. The administrator or person in charge of any device, network, or infrastructure must be aware of and agree to any security engagement that is intended to be carried out.
+  
+- Any misuse of the information and files compiled in this repository will not be the responsibility of the author. 
  
 <p align="center"> <img src="https://user-images.githubusercontent.com/94720207/165983361-8d515dec-44f5-4a77-98de-a973705a2226.png" alt="herodotus" width="100" height="100"/> </a> </p>
  
