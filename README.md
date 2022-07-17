@@ -1803,7 +1803,8 @@ _Nezahualcoyotl_
 >
 > _- Hecho en México - by [Fz3r0 💀](https://github.com/Fz3r0/)_ 
 >
-> _"In the mist of the night you could see me come, where shadows move and Demons lie..."_  
+> _"In the mist of the night you could see me come, where shadows move and Demons lie..._ <br>
+> _...I am Fz3r0 and the Sun no longer rises..."_
   
 
 
