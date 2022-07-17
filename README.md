@@ -292,7 +292,7 @@ https://www.hackthebox.com/badge/image/897009
 
 - **Networking Infraestructure**
 
-    - 🔮 📖 🧙‍ **Dark Wizardy for Networking & NetSec** 
+    - 🔮 📖 🧙‍ [**Dark Wizardy for Networking & NetSec**](https://github.com/Fz3r0/Fz3r0/blob/main/README.md#---dark-wizardy-for-networking--netsec-%EF%B8%8F--) 
     - 🔐 🛠️ ⚙️ **Configure it Like a Sir!**
     - 🛡️ 👩‍🔬 🧪  **Secure Network Labs**
     - **Wired Networking Components & Fundamentals**
