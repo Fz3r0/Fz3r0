@@ -576,6 +576,7 @@ Tables, Lists, Models, Cheat-Sheets, Mind-Maps & Resources
     - [SmartZone OS5: SmartZone Directed Multicast](https://www.youtube.com/watch?v=1q2iPheO-dY)
     - [SmartZone OS5: Bonjour Services](https://www.youtube.com/watch?v=TyG-N9f8lsk)
     - [SmartZone OS5: Bonjour Services (offical HTML version)](https://docs.commscope.com/bundle/sz-521-adminguide-sz100vsz/page/GUID-C9A5B40D-6500-49E7-B589-A060619DF747.html)
+    - [SmartZone: RUCKUS Wireless Troubleshooting: Auto Cell Sizing](https://www.youtube.com/watch?v=tKfvlFRc37M)
     - [**Ruckus Log4J vSZ Patch** and Work Around](https://www.youtube.com/watch?v=56_tgSApKkA&list=PLwZotTMbkZQFA_Lm9qjAFKOQMWM3aOCHG) 
 
 - **Zone Director**
