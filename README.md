@@ -542,13 +542,66 @@ Tables, Lists, Models, Cheat-Sheets, Mind-Maps & Resources
         
             - [CWNA Mathematics Resume Notes (bottom)](https://sites.google.com/site/802dot11study/ch3/notes)  
 
+### 📊 🖥️ 👨‍🚀 Simulators & Emulators 👨‍🚀 🖥️ 📊
+ 
+- [Cisco Packet Tracer]() _Network simulation tool for networking, IoT, and cybersecurity in a virtual lab_
+- [GNS3](https://gns3.com/) _Real-time network simulation for pre-deployment testing_
+    - [GNS3 - Appliances](https://www.gns3.com/marketplace/appliances)
+    - [GNS3 - Port Name Formatting](https://docs.gns3.com/docs/using-gns3/advanced/port-name-formatting/)
+- [Eve NG](https://www.eve-ng.net/) _Emulated Virtual Enviorment for Network, Security and DevOps_
+- For Diagrams: [Microsoft Visio](https://www.microsoft.com/en-us/microsoft-365/visio/flowchart-software) _$$$_
+- For Diagrams: [draw.io](https://app.diagrams.net/) _Free!_
+
+### Shells & Reverse Shells
+
+- Secure-CRT
+    - [Pimp my Secure CRT - ANSI colors & dark shell mode](https://www.vandyke.com/support/tips/colorconfig.html)
+- Putty
+- NetCat
+- SoCat
+
+### ✉️ 👨‍💻 📦 Packet Level 📦 👨‍💻 ✉️ 
+Deep dive into the Packet / PCAP Analysis
+
+- **Capturing Packets PCAPs**
+
+    - [Capturing Packets](https://blog.showipintbri.com/blog/where-to-start)
+
+- Packet Headers, Parameters & Flags:
+ 
+    - TCP > Parameters
+    - UDP > Parameters
+    - ETHII > Parameters
+    - 802.11 > Parameters
+    - HTTP > [List of HTTP Header Fields](https://en.wikipedia.org/wiki/List_of_HTTP_header_fields)
+    - [Security Headers - HTTP Header Analyzer](https://securityheaders.com/) 
+ 
+- **Better Known Protocols for Networking - Official RFCs from the IETF**
+
+    - [Address Resolution Protocol (ARP)](https://datatracker.ietf.org/doc/rfc826/)
+    - [Border Gateway Protocol (BGP)](https://datatracker.ietf.org/doc/rfc4271/)
+    - [Domain Name System (DNS)](https://datatracker.ietf.org/doc/rfc1035/)
+    - [Dynamic Host Configuration Protocol (DHCP)](https://datatracker.ietf.org/doc/rfc2131/)
+    - [File Transfer Protocol (FTP)](https://datatracker.ietf.org/doc/rfc959/)
+    - [Hypertext Transfer Protocol (HTTP/1.1)](https://datatracker.ietf.org/doc/rfc2616/)
+    - [Hypertext Transfer Protocol Version 2 (HTTP/2)](https://datatracker.ietf.org/doc/rfc7540/)
+    - [Internet Protocol Version 4 (IPv4)](https://tools.ietf.org/html/rfc791/)
+    - [Internet Protocol Version 6 (IPv6)](https://datatracker.ietf.org/doc/rfc2460/)
+    - [Network Address Translator (NAT)](https://datatracker.ietf.org/doc/rfc1631/)
+    - [Simple Mail Transfer Protocol (SMTP)](https://datatracker.ietf.org/doc/rfc5321/)
+    - [Simple Network Management Protocol (SNMP)](https://datatracker.ietf.org/doc/rfc1157/)
+    - [Secure Shell (SSH)](https://datatracker.ietf.org/doc/rfc4251/)
+    - [Transmission Control Protocol (TCP)](https://datatracker.ietf.org/doc/rfc793/)
+    - [Telnet](https://datatracker.ietf.org/doc/rfc854/)
+    - [User Datagram Protocol (UDP)](https://datatracker.ietf.org/doc/rfc768/)
+
 ### Cisco Networks
 
 - **WLC Cisco**
 
     - [Chrome Cast & Bonjour Services in Cisco WLC](https://www.cisco.com/c/en/us/td/docs/wireless/controller/technotes/7-6/chromecastDG76/ChromecastDG76.html)
 
-### Ruckus Wireless
+### Ruckus Wireless / Commscope
 
 - **Access Point (AP) placement like a Sir!**
 
@@ -603,58 +656,6 @@ Tables, Lists, Models, Cheat-Sheets, Mind-Maps & Resources
 
     - [Primera Configuración del papu]()
 
-### 📊 🖥️ 👨‍🚀 Simulators & Emulators 👨‍🚀 🖥️ 📊
- 
-- [Cisco Packet Tracer]() _Network simulation tool for networking, IoT, and cybersecurity in a virtual lab_
-- [GNS3](https://gns3.com/) _Real-time network simulation for pre-deployment testing_
-    - [GNS3 - Appliances](https://www.gns3.com/marketplace/appliances)
-    - [GNS3 - Port Name Formatting](https://docs.gns3.com/docs/using-gns3/advanced/port-name-formatting/)
-- [Eve NG](https://www.eve-ng.net/) _Emulated Virtual Enviorment for Network, Security and DevOps_
-- For Diagrams: [Microsoft Visio](https://www.microsoft.com/en-us/microsoft-365/visio/flowchart-software) _$$$_
-- For Diagrams: [draw.io](https://app.diagrams.net/) _Free!_
-
-### Shells & Reverse Shells
-
-- Secure-CRT
-    - [Pimp my Secure CRT - ANSI colors & dark shell mode](https://www.vandyke.com/support/tips/colorconfig.html)
-- Putty
-- NetCat
-- SoCat
-
-### ✉️ 👨‍💻 📦 Packet Level 📦 👨‍💻 ✉️ 
-Deep dive into the Packet / PCAP Analysis
-
-- **Capturing Packets PCAPs**
-
-    - [Capturing Packets](https://blog.showipintbri.com/blog/where-to-start)
-
-- Packet Headers, Parameters & Flags:
- 
-    - TCP > Parameters
-    - UDP > Parameters
-    - ETHII > Parameters
-    - 802.11 > Parameters
-    - HTTP > [List of HTTP Header Fields](https://en.wikipedia.org/wiki/List_of_HTTP_header_fields)
-    - [Security Headers - HTTP Header Analyzer](https://securityheaders.com/) 
- 
-- **Better Known Protocols for Networking - Official RFCs from the IETF**
-
-    - [Address Resolution Protocol (ARP)](https://datatracker.ietf.org/doc/rfc826/)
-    - [Border Gateway Protocol (BGP)](https://datatracker.ietf.org/doc/rfc4271/)
-    - [Domain Name System (DNS)](https://datatracker.ietf.org/doc/rfc1035/)
-    - [Dynamic Host Configuration Protocol (DHCP)](https://datatracker.ietf.org/doc/rfc2131/)
-    - [File Transfer Protocol (FTP)](https://datatracker.ietf.org/doc/rfc959/)
-    - [Hypertext Transfer Protocol (HTTP/1.1)](https://datatracker.ietf.org/doc/rfc2616/)
-    - [Hypertext Transfer Protocol Version 2 (HTTP/2)](https://datatracker.ietf.org/doc/rfc7540/)
-    - [Internet Protocol Version 4 (IPv4)](https://tools.ietf.org/html/rfc791/)
-    - [Internet Protocol Version 6 (IPv6)](https://datatracker.ietf.org/doc/rfc2460/)
-    - [Network Address Translator (NAT)](https://datatracker.ietf.org/doc/rfc1631/)
-    - [Simple Mail Transfer Protocol (SMTP)](https://datatracker.ietf.org/doc/rfc5321/)
-    - [Simple Network Management Protocol (SNMP)](https://datatracker.ietf.org/doc/rfc1157/)
-    - [Secure Shell (SSH)](https://datatracker.ietf.org/doc/rfc4251/)
-    - [Transmission Control Protocol (TCP)](https://datatracker.ietf.org/doc/rfc793/)
-    - [Telnet](https://datatracker.ietf.org/doc/rfc854/)
-    - [User Datagram Protocol (UDP)](https://datatracker.ietf.org/doc/rfc768/)
  
 ### 🔐 🛠️ ⚙️ Configure it Like a Sir! ⚙️ 🛠️ 🔐
 Pro and Secure Network Configurations Guides by _Fz3r0_
