@@ -640,6 +640,11 @@ Deep dive into the Packet / PCAP Analysis
 
     - [RUCKUS Cloud Troubleshooting: Advanced WLAN Settings](https://www.youtube.com/watch?v=NBu4FXBF38w)
 
+- **Ruckus Wireless: Troubleshooting**
+
+    - [SmartZone: Capture Traffic & Sniffing Access Points!!!](https://www.youtube.com/watch?v=gsoJo9yZi4o)
+    - [RUCKUS Wireless Troubleshooting: L2 Retransmit](https://www.youtube.com/watch?v=dqqs-NskEWk)
+
 ### MikroTik
 
 - Tutorials
