@@ -1050,7 +1050,16 @@ Guides, Tips & Tricks, Downloads, Training, Crafting, Arsenal, Binaries, Executa
 ) _@ Python + Scapy_ 
 - [SQL Server Exploit](https://www.youtube.com/watch?v=bYj_2p8qIew) _@ Python For RCE_
 - 
- 
+
+### Try Hack Me: Network Offensive & Defensive Security
+
+- THM Network Offensive Security & Red Team
+
+- THM Network Defensive Security & Blue Team
+
+    - [Tool: Wireshark the Basics](https://tryhackme.com/room/wiresharkthebasics)
+    - [Tool: Network Miner](https://tryhackme.com/room/networkminer)
+
 ### ♻️ 🧬 🤖 Network Automation 🤖 🧬 ♻️
 Network Automation is a cross between the discipline of Network Infrastructure and the discipline of Programming. 
 
