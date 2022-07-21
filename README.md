@@ -47,7 +47,7 @@ SECURITY ADVANTAGES SDN AGREGAR!!!! https://xigentsolutions.com/blog/security-ad
 
 ---
 
-<span align="center"> <p align="center"> **🛸🌌 <<--|☠️ [Wormhole to Index](/README.md#-index-) ☠️|-->> 🌌🛸** </p> </span> 
+<span align="center"> <p align="center"> **🛸🌌 <<--|☠️ [Wormhole to Index](https://github.com/Fz3r0/Fz3r0/blob/main/README.md#-index-) ☠️|-->> 🌌🛸** </p> </span> 
 
 ---
 --- 
