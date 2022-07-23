@@ -463,6 +463,8 @@ Tables, Lists, Models, Cheat-Sheets, Mind-Maps & Resources
         - [CWNA 108: Full 2022 Backup @ Fz3r0](https://drive.google.com/drive/folders/1DOr9FhDcS73xxSZvb1N8Sj4mNsb53bjq?usp=sharing)
         - [CWNA 802.11, Third Edition - Full Bible](https://sites.google.com/site/802dot11study/home)
         - [CWNA 108: Curso - Presentado por Sama WiFi @ Jesús Bred](https://www.youtube.com/watch?v=mpapEx1doWQ&list=PLm7OhL_NMy3RXoKOSmhqo0b3PYOYNQl8p)
+        - [CWNA 108: Tabla de Protocolos CWNA (OSI, TCP, Security)](https://user-images.githubusercontent.com/94720207/180625277-b051e3bb-9db4-4b1b-b14b-fa093b020e9d.png)
+)
     
     - Others
     
