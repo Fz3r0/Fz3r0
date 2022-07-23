@@ -481,6 +481,7 @@ Tables, Lists, Models, Cheat-Sheets, Mind-Maps & Resources
     - [(SSID) - Identifier of the WLAN, visible for devices]()
     - [(ESS) - **The "matrushka" of BSS**, 2 APs or more broadcasting **same SSID**]()
     - [(ESSID) - The shared netweork name/ID between different "ESS" (Inexistent in 802.11 standards), hint: use same as SSID]()
+    - [Tx / Rx - TX (transmit) is how loud you're talking / RX (receive) is how loud you think the other is talking.](https://www.ligowave.com/wiki/faq/infinity-network-wireless-statistics/)
     - [RF Behaivours - Mulitpath fenomen + reflection, absorption, diffraction, scattering, and interference]()
 
 - **WiFi** _(Wireless Fidelity)_
