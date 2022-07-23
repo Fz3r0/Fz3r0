@@ -14,7 +14,7 @@ _A walkthrough on the CVE-2022-30190, the MSDT service, exploitation of the serv
 
 ---
 
-#### Keywords: `CVE-2022-30190` `Exploit` `Hacking` `THM` `Windows` `Microsoft Word`
+#### Keywords: `CVE-2022-30190` `Exploit` `Hacking` `THM` `Windows` `MSDT` `Microsoft Office` `MSDT-Follina`
 
 ---
 
