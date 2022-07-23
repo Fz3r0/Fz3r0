@@ -626,7 +626,8 @@ Deep dive into the Packet / PCAP Analysis
     - TCP > Parameters
     - UDP > Parameters
     - ETHII > Parameters
-    - 802.11 > Parameters
+    - [802.11 - Header & 3 Types of Frames](https://user-images.githubusercontent.com/94720207/180625439-910dea3d-d9f0-4904-a033-1d3df932a4c0.png)
+)
     - HTTP > [List of HTTP Header Fields](https://en.wikipedia.org/wiki/List_of_HTTP_header_fields)
     - [Security Headers - HTTP Header Analyzer](https://securityheaders.com/) 
  
