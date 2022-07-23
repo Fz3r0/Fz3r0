@@ -3,8 +3,7 @@
 
 ![My Video](https://user-images.githubusercontent.com/94720207/165892585-b830998d-d7c5-43b4-a3ad-f71a07b9077e.gif)
 
-### Try Hack Me 
-#### Follina MSDT
+## Follina MSDT [Try Hack Me]
 
 _A walkthrough on the CVE-2022-30190, the MSDT service, exploitation of the service vulnerability, and consequent detection techniques and remediation processes_
 
@@ -24,13 +23,31 @@ _A walkthrough on the CVE-2022-30190, the MSDT service, exploitation of the serv
 
 ---   
 
-### Title:
+### Introduction
+
+Microsoft explains that "a remote code execution vulnerability exists when MSDT is called using the URL protocol from a calling application such as Word. An attacker who successfully exploits this vulnerability can run arbitrary code with the privileges of the calling application. The attacker can then install programs, view, change, or delete data, or create new accounts in the context allowed by the user’s rights"
+
+### Learning Objectives:
+
+In this room, we will explore what the Microsoft Support Diagnostic Tool is and the discovered vulnerability that it has. In the process, we will be able to experience exploiting this vulnerability and consequently learn some techniques to detect and mitigate its exploitation in our own environments
+
+---
+
+### CVE-2022-30190
+
+
+
 
 ---
 
 ### References
 
-- links
+- https://tryhackme.com/room/follinamsdt
+- https://msrc-blog.microsoft.com/
+- https://positive.security/blog/ms-officecmd-rce
+- https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2022-30190
+- https://doublepulsar.com/follina-a-microsoft-office-code-execution-vulnerability-1a47fce5629e
+- https://benjamin-altpeter.de/doc/thesis-electron.pdf
 
 ---
 
