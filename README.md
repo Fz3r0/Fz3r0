@@ -535,6 +535,7 @@ Tables, Lists, Models, Cheat-Sheets, Mind-Maps & Resources
 
     - [Inside Wireless Español: QAM Modulation pt.1](https://www.youtube.com/watch?v=efJRXQp9Ufk)
     - [Inside Wireless Español: QAM Modulation pt.2](https://youtu.be/-WAWX046p0o)
+    - [Constellation_Diagram](https://en.wikipedia.org/wiki/Constellation_diagram) _Representation of a signal modulated by a digital modulation scheme_
 
 - [RF Behaivior](https://www.billdeitrick.com/cwna-chapter-2-rf-characteristics-and-behaviors/)
 
