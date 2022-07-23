@@ -471,16 +471,18 @@ Tables, Lists, Models, Cheat-Sheets, Mind-Maps & Resources
 - WiFi
 
     - [Diferencias entre: WiFi4, WiFi5 & Wifi6](https://www.youtube.com/watch?v=P_nCjxi9Egc)
-    - [Tabla de comparación 802.11n VS 802.11a VS 802.11ax](https://user-images.githubusercontent.com/94720207/179373976-9e06f543-283a-4ecb-a623-7e9b71a5d64b.png)
-    - [Wifi4 802.11n (2009)]()
-    - [Wifi5 802.11ac (2013)](https://es.wikipedia.org/wiki/IEEE_802.11ac)
-    - [Wifi6 802.11ax (2019)]()
-    - [WiFi Alliance Certifications: Connectivity (6, ac, n, WiGig, WifiDirect)]()
-    - [WiFi Alliance Certifications: Security (WPA3, WPA3 Entrerprise)]() _Top Security Entrerprise_
-    - [WiFi Alliance Certifications: Security (WPA2)]() _SOHO & Home_
-    - [WiFi Alliance Certifications: Security - Wi-Fi Enhanced Open (OWE)]() _Password Encryption_
-    - [WiFi Alliance Certifications: Security - IEEE 802.11w-2009]() _Anti Spoofing & DOS Attacks_
-    - [WiFi Alliance Certifications: Access - Passpoint, Easy connect, Protected Setup ]() _Anti Spoofing & DOS Attacks_
+        - [Tabla de comparación 802.11n VS 802.11a VS 802.11ax](https://user-images.githubusercontent.com/94720207/179373976-9e06f543-283a-4ecb-a623-7e9b71a5d64b.png)
+        - [Wifi4 802.11n (2009)]()
+        - [Wifi5 802.11ac (2013)](https://es.wikipedia.org/wiki/IEEE_802.11ac)
+        - [Wifi6 802.11ax (2019)]()
+    
+    - [WiFi Alliance Certifications]()
+        - [WiFi Alliance Certifications: Connectivity (6, ac, n, WiGig, WifiDirect)]()
+        - [WiFi Alliance Certifications: Security (WPA3, WPA3 Entrerprise)]() _Top Security Entrerprise_
+        - [WiFi Alliance Certifications: Security (WPA2)]() _SOHO & Home_
+        - [WiFi Alliance Certifications: Security - Wi-Fi Enhanced Open (OWE)]() _Password Encryption_
+        - [WiFi Alliance Certifications: Security - IEEE 802.11w-2009]() _Anti Spoofing & DOS Attacks_
+        - [WiFi Alliance Certifications: Access - Passpoint, Easy connect, Protected Setup ]() _Anti Spoofing & DOS Attacks_
 
 - Hotspot 2.0
 
