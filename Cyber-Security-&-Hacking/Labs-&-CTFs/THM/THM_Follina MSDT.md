@@ -18,11 +18,6 @@ _A walkthrough on the CVE-2022-30190, the MSDT service, exploitation of the serv
 
 ---
 
-#### FILES OR SOMETHING
-
-
----   
-
 ### Introduction
 
 Microsoft explains that "a remote code execution vulnerability exists when MSDT is called using the URL protocol from a calling application such as Word. An attacker who successfully exploits this vulnerability can run arbitrary code with the privileges of the calling application. The attacker can then install programs, view, change, or delete data, or create new accounts in the context allowed by the user’s rights"
