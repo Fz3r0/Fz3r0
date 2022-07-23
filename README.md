@@ -500,9 +500,6 @@ Tables, Lists, Models, Cheat-Sheets, Mind-Maps & Resources
         - [WiFi Alliance Certifications: Security - IEEE 802.11w-2009]() _Anti Spoofing & DOS Attacks_
         - [WiFi Alliance Certifications: Access - Passpoint, Easy connect, Protected Setup ]() _Anti Spoofing & DOS Attacks_
 
-- Hotspot 2.0
-
-- Passpoint
 
 - Radio Frequency (RF) Concepts on Wireless Networks
 
@@ -586,6 +583,10 @@ Tables, Lists, Models, Cheat-Sheets, Mind-Maps & Resources
         - Mathematics
         
             - [CWNA Mathematics Resume Notes (bottom)](https://sites.google.com/site/802dot11study/ch3/notes)  
+
+- Hotspot 2.0
+
+- Passpoint
 
 ### 📊 🖥️ 👨‍🚀 Simulators & Emulators 👨‍🚀 🖥️ 📊
  
