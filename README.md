@@ -415,7 +415,7 @@ Tables, Lists, Models, Cheat-Sheets, Mind-Maps & Resources
  
 - [**IEEE 802.11 Wireless** Standards](https://en.wikipedia.org/wiki/IEEE_802.11) _Specifies the set of MAC and PHY protocols for implementing **WLAN** communication_
 
-    - [Estándar IEEE 802.11 / WiFi: **Estándar y Regulaciones** @ **Sama WiFi**](https://youtu.be/DWO9_37tGNM)
+    - [Estándar IEEE 802.11 / WiFi: **Estándar y Regulaciones** @ **Sama WiFi**](https://youtu.be/DWO9_37tGNM) _IEEE, WiFi Alliance, FCC_
     - [802.11 Standards: **Timeline**](https://wifivitae.com/wp-content/uploads/2021/11/802.11-timeline.png) _Updated 2022_
     - [802.11 Standards: **Enmendias PHY** Evolution](https://user-images.githubusercontent.com/94720207/180624575-fe171e9a-fd06-45a6-afb9-5f14192aac25.png)
 )
