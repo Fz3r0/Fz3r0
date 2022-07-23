@@ -1815,6 +1815,9 @@ _The Strength Of The Human Heart. The Difference Between Us And Machines"_
 - [Monitor / Screen Size online - Measure with a credit card!](https://www.piliapp.com/actual-size/what-is-my-monitor-size/)
 - [PSU / Power Supply Calculator](https://outervision.com/power-supply-calculator)
 
+### THM Rooms WriteUps
+
+- [Follina MSDT](https://github.com/Fz3r0/Fz3r0/blob/main/Cyber-Security-%26-Hacking/Labs-%26-CTFs/THM/THM_Follina%20MSDT.md)
 
  
  
