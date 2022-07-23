@@ -531,6 +531,16 @@ Tables, Lists, Models, Cheat-Sheets, Mind-Maps & Resources
     - [Frequency Shift Keying (FSK)](https://www.tutorialspoint.com/explain-frequency-shift-keying-fsk-in-computer-network)
     - [Phase Shift Keying (PSK)](https://www.tutorialspoint.com/what-is-phase-shift-keying-psk-in-computer-network)
 
+- [RF Behaivior](https://www.billdeitrick.com/cwna-chapter-2-rf-characteristics-and-behaviors/)
+
+    - [**Gain**: Amplification, Active gain, PAssive Gain](https://www.billdeitrick.com/cwna-chapter-2-rf-characteristics-and-behaviors/)
+    - [**Loss**: Intentional Loss, Attenuators, Natural Loss](https://www.billdeitrick.com/cwna-chapter-2-rf-characteristics-and-behaviors/)
+    - [**Reflection**: Multipath, Single-input-single-output (SISO), Antenna Diversity, Multiple-input-multiple-output (MIMO)]()
+    - [**Refraction** & RF Shadow](https://www.billdeitrick.com/cwna-chapter-2-rf-characteristics-and-behaviors/)
+    - [Scattering](https://www.billdeitrick.com/cwna-chapter-2-rf-characteristics-and-behaviors/)
+    - [Absorption](https://www.billdeitrick.com/cwna-chapter-2-rf-characteristics-and-behaviors/)
+    - [More RF Behaivors](https://www.billdeitrick.com/cwna-chapter-2-rf-characteristics-and-behaviors/)
+
 
 
 - Radio Frequency (RF) Components and Measurements
