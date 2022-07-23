@@ -415,7 +415,8 @@ Tables, Lists, Models, Cheat-Sheets, Mind-Maps & Resources
  
 - [**IEEE 802.11 Wireless** Standards](https://en.wikipedia.org/wiki/IEEE_802.11) _Specifies the set of MAC and PHY protocols for implementing **WLAN** communication_
 
-    - [Estándar IEEE 802.11 / WiFi: Estándar y Regulaciones @ Sama WiFi](https://youtu.be/DWO9_37tGNM)
+    - [Estándar IEEE 802.11 / WiFi: **Estándar y Regulaciones** @ **Sama WiFi**](https://youtu.be/DWO9_37tGNM)
+    - [802.11 Standards: **Timeline**](https://wifivitae.com/wp-content/uploads/2021/11/802.11-timeline.png) _Updated 2022_
     - [802.11 - 2.4 Ghz @ speeds of up to 2 Mbps]()
     - [802.11a - 5 Ghz @ speeds of up to 54 Mbps]()
     - [802.11b - 2.4 Ghz @ speeds of up to 11 Mbps]() 
