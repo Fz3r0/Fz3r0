@@ -534,7 +534,7 @@ Tables, Lists, Models, Cheat-Sheets, Mind-Maps & Resources
 - [QAM Modulation: The king of Coding Capacity](https://www.youtube.com/watch?v=efJRXQp9Ufk) _The sum of Amplitude + Phase modulation_
 
     - [Inside Wireless Español: QAM Modulation pt.1](https://www.youtube.com/watch?v=efJRXQp9Ufk)
-    - [Inside Wireless Español: QAM Modulation pt.2](https://youtu.be/-WAWX046p0o)
+    - [Inside Wireless Español: QAM Modulation pt.2: Modulador QAM](https://youtu.be/-WAWX046p0o)
     - [Constellation_Diagram](https://en.wikipedia.org/wiki/Constellation_diagram) _Representation of a signal modulated by a digital modulation scheme_
 
 - [RF Behaivior](https://www.billdeitrick.com/cwna-chapter-2-rf-characteristics-and-behaviors/)
