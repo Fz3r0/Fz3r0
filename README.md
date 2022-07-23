@@ -531,6 +531,11 @@ Tables, Lists, Models, Cheat-Sheets, Mind-Maps & Resources
     - [Frequency Shift Keying (FSK)](https://www.tutorialspoint.com/explain-frequency-shift-keying-fsk-in-computer-network)
     - [Phase Shift Keying (PSK)](https://www.tutorialspoint.com/what-is-phase-shift-keying-psk-in-computer-network)
 
+- [QAM Modulation](https://www.youtube.com/watch?v=efJRXQp9Ufk) _The sum of Amplitude + Phase modulation_
+
+    - [Inside Wireless Español: QAM Modulation pt.1](https://www.youtube.com/watch?v=efJRXQp9Ufk)
+    - [Inside Wireless Español: QAM Modulation pt.2](https://youtu.be/-WAWX046p0o)
+
 - [RF Behaivior](https://www.billdeitrick.com/cwna-chapter-2-rf-characteristics-and-behaviors/)
 
     - [**Gain**: Amplification, Active gain, PAssive Gain](https://www.billdeitrick.com/cwna-chapter-2-rf-characteristics-and-behaviors/)
@@ -541,10 +546,7 @@ Tables, Lists, Models, Cheat-Sheets, Mind-Maps & Resources
     - [Absorption](https://www.billdeitrick.com/cwna-chapter-2-rf-characteristics-and-behaviors/)
     - [More RF Behaivors](https://www.billdeitrick.com/cwna-chapter-2-rf-characteristics-and-behaviors/)
 
-- [QAM Modulation](https://www.youtube.com/watch?v=efJRXQp9Ufk)
 
-    - [Inside Wireless Español: QAM Modulation pt.1](https://www.youtube.com/watch?v=efJRXQp9Ufk)
-    - [Inside Wireless Español: QAM Modulation pt.2](https://youtu.be/-WAWX046p0o)
 
 - Radio Frequency (RF) Components and Measurements
 
