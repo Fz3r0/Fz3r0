@@ -417,6 +417,8 @@ Tables, Lists, Models, Cheat-Sheets, Mind-Maps & Resources
 
     - [Estándar IEEE 802.11 / WiFi: **Estándar y Regulaciones** @ **Sama WiFi**](https://youtu.be/DWO9_37tGNM)
     - [802.11 Standards: **Timeline**](https://wifivitae.com/wp-content/uploads/2021/11/802.11-timeline.png) _Updated 2022_
+    - [802.11 Standards: **Enmendias PHY** Evolution](https://user-images.githubusercontent.com/94720207/180624575-fe171e9a-fd06-45a6-afb9-5f14192aac25.png)
+)
     - [802.11 - 2.4 Ghz @ speeds of up to 2 Mbps]()
     - [802.11a - 5 Ghz @ speeds of up to 54 Mbps]()
     - [802.11b - 2.4 Ghz @ speeds of up to 11 Mbps]() 
