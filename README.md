@@ -466,7 +466,6 @@ Tables, Lists, Models, Cheat-Sheets, Mind-Maps & Resources
         - [CWNA 802.11, Third Edition - Full Bible](https://sites.google.com/site/802dot11study/home)
         - [CWNA 108: Curso - Presentado por Sama WiFi @ Jesús Bred](https://www.youtube.com/watch?v=mpapEx1doWQ&list=PLm7OhL_NMy3RXoKOSmhqo0b3PYOYNQl8p)
         - [CWNA 108: Tabla de Protocolos CWNA (OSI, TCP, Security)](https://user-images.githubusercontent.com/94720207/180625277-b051e3bb-9db4-4b1b-b14b-fa093b020e9d.png)
-)
     
     - Others
     
@@ -626,8 +625,7 @@ Deep dive into the Packet / PCAP Analysis
     - TCP > Parameters
     - UDP > Parameters
     - ETHII > Parameters
-    - [802.11 - Header & 3 Types of Frames](https://user-images.githubusercontent.com/94720207/180625439-910dea3d-d9f0-4904-a033-1d3df932a4c0.png)
-)
+    - [802.11 - Header & 3 Types of Frames](https://user-images.githubusercontent.com/94720207/180625486-0e2e1964-3bac-4219-bfa7-f53ed5fa4182.png)
     - HTTP > [List of HTTP Header Fields](https://en.wikipedia.org/wiki/List_of_HTTP_header_fields)
     - [Security Headers - HTTP Header Analyzer](https://securityheaders.com/) 
  
