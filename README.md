@@ -523,7 +523,7 @@ Tables, Lists, Models, Cheat-Sheets, Mind-Maps & Resources
     - [**Wavelenght Formula & Calculation**](https://www.geeksforgeeks.org/wavelength-formula/)     - [**Frequency** in Wireless Networking: Number of cycles per second in an ac sine wave](https://www.fluke.com/en-us/learn/blog/electrical/what-is-frequency)
     - [**Amplitude** in Wireless Networking:](https://en.wikipedia.org/wiki/Amplitude)
 
-- The "Keying" Method: The Black Magic for converting Radio Signals into 1 & 0
+- The "Keying" Method: The Black Magic (Modulation) for converting Radio Signals into 1 & 0
 
     - [Keying Method (Telecommunications)](https://en.wikipedia.org/wiki/Keying_(telecommunications)) _The capacity of a signal to encode its data so it can be transported to the reciever._
     - [Understanding Amplitude Shift Keying: On-Off Keying(OOK), Near Field Communications(NFC), M-ary ASK](https://www.youtube.com/watch?v=eJ5m0Sbr2qw)
@@ -531,7 +531,7 @@ Tables, Lists, Models, Cheat-Sheets, Mind-Maps & Resources
     - [Frequency Shift Keying (FSK)](https://www.tutorialspoint.com/explain-frequency-shift-keying-fsk-in-computer-network)
     - [Phase Shift Keying (PSK)](https://www.tutorialspoint.com/what-is-phase-shift-keying-psk-in-computer-network)
 
-- [QAM Modulation](https://www.youtube.com/watch?v=efJRXQp9Ufk) _The sum of Amplitude + Phase modulation_
+- [QAM Modulation: The king of Coding Capacity](https://www.youtube.com/watch?v=efJRXQp9Ufk) _The sum of Amplitude + Phase modulation_
 
     - [Inside Wireless Español: QAM Modulation pt.1](https://www.youtube.com/watch?v=efJRXQp9Ufk)
     - [Inside Wireless Español: QAM Modulation pt.2](https://youtu.be/-WAWX046p0o)
