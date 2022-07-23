@@ -541,7 +541,10 @@ Tables, Lists, Models, Cheat-Sheets, Mind-Maps & Resources
     - [Absorption](https://www.billdeitrick.com/cwna-chapter-2-rf-characteristics-and-behaviors/)
     - [More RF Behaivors](https://www.billdeitrick.com/cwna-chapter-2-rf-characteristics-and-behaviors/)
 
+- [QAM Modulation](https://www.youtube.com/watch?v=efJRXQp9Ufk)
 
+    - [Inside Wireless Español: QAM Modulation pt.1](https://www.youtube.com/watch?v=efJRXQp9Ufk)
+    - [Inside Wireless Español: QAM Modulation pt.2](https://youtu.be/-WAWX046p0o)
 
 - Radio Frequency (RF) Components and Measurements
 
@@ -549,7 +552,9 @@ Tables, Lists, Models, Cheat-Sheets, Mind-Maps & Resources
     
         - [**RF Gain & Loss:** Active Gain VS Passive Gain Devices](https://www.youtube.com/watch?v=ZY3MhaIh9c8)
         - [**Gain** Example in a Qualcomm Wireless device](https://patents.google.com/patent/US7430406B2/en)
-    
+
+- 
+
     - Components of RF Communications
     
         - [Full RF components](https://sites.google.com/site/802dot11study/ch3/notes)  
