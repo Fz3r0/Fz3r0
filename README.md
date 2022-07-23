@@ -405,6 +405,8 @@ Tables, Lists, Models, Cheat-Sheets, Mind-Maps & Resources
     - [**802.1AB** - **Station and Media Access Control Connectivity Discovery (LLDP)**]()
     - [**802.1AC** - **Media Access Control (MAC)** Services Definition**]()
     - [**802.1AX - **Link Aggregation** (Cisco: EtherChannel | Ruckus: LAG, Stacks & Campus Fabric)]()
+
+- [**IEEE 802.2 Logical Link control (LLC) (Upper portion of the data link layer)** Standards](https://en.wikipedia.org/wiki/IEEE_802.2)
  
 - [**IEEE 802.3 Ethernet** Standards](https://en.wikipedia.org/wiki/IEEE_802.3) _Specifies the set of MAC and PHY protocols for implementing **LAN** communication_
     
