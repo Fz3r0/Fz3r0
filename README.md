@@ -590,6 +590,7 @@ Tables, Lists, Models, Cheat-Sheets, Mind-Maps & Resources
         - Mathematics
         
             - [CWNA Mathematics Resume Notes (bottom)](https://sites.google.com/site/802dot11study/ch3/notes)  
+            - [Inside Wireless en Español: Presupuesto de Enlace - Prx / Ptx](https://www.youtube.com/watch?v=dj82XrhfoWA)
 
 - Hotspot 2.0
 
