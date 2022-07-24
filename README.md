@@ -551,6 +551,7 @@ Tables, Lists, Models, Cheat-Sheets, Mind-Maps & Resources
     - [Scattering](https://www.billdeitrick.com/cwna-chapter-2-rf-characteristics-and-behaviors/)
     - [Absorption](https://www.billdeitrick.com/cwna-chapter-2-rf-characteristics-and-behaviors/)
     - [More RF Behaivors](https://www.billdeitrick.com/cwna-chapter-2-rf-characteristics-and-behaviors/)
+    - [Inside Wireless: **Pérdida de trayectoria / Path Loss**](https://www.youtube.com/watch?v=-XHWEYxW_c4)
 
 
 
@@ -590,7 +591,7 @@ Tables, Lists, Models, Cheat-Sheets, Mind-Maps & Resources
         - Mathematics
         
             - [CWNA Mathematics Resume Notes (bottom)](https://sites.google.com/site/802dot11study/ch3/notes)  
-            - [Inside Wireless en Español: Presupuesto de Enlace - Prx / Ptx](https://www.youtube.com/watch?v=dj82XrhfoWA)
+            - [Inside Wireless en Español: Presupuesto de Enlace - Prx > Gtx / Ptx](https://www.youtube.com/watch?v=dj82XrhfoWA)
 
 - Hotspot 2.0
 
