@@ -650,6 +650,10 @@ Deep dive into the Packet / PCAP Analysis
     - [Telnet](https://datatracker.ietf.org/doc/rfc854/)
     - [User Datagram Protocol (UDP)](https://datatracker.ietf.org/doc/rfc768/)
 
+- Multicast Traffic
+
+    - [Multicast Explained in 5 Minutes | CCIE Journey](https://www.youtube.com/watch?v=W5oMvrMRM3Q)
+
 ### Cisco Networks
 
 - **WLC Cisco**
