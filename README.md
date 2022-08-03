@@ -105,7 +105,7 @@ SECURITY ADVANTAGES SDN AGREGAR!!!! https://xigentsolutions.com/blog/security-ad
 
 I'm just a very lucky person who was born surrounded by IBM computers and floppy disks back in the 80's...
 
-When I was a little kid I entered a kind of Data Center full of IBM computers where my father worked, then I met a very funny guy with long hair and a beard (The Systems Engineer) who allowed me to play Prince of Persia in MS-DOS surrounded by huge computers with that peculiar smell of silicon & technology. Since then I decided to focus on one thing: Let my hair and beard grow... (and dedicate my life to Computer Science and Information and Communication Technologies) and here I am! 
+When I was a little kid I went to a Data Center full of IBM computers where my father worked, then I met a very funny guy with long hair and a beard (The Systems Engineer) who allowed me to play Prince of Persia in MS-DOS surrounded by huge computers with that peculiar smell of silicon & technology. Since then I decided to focus on one thing: Let my hair and beard grow... (and dedicate my life to Computer Science and Information and Communication Technologies) and here I am! 
 
 Please check the links of my Social Networks that I've placed above including my LinkedIn, where you will find more information regarding my professional career. Cheerz! :) 
 
