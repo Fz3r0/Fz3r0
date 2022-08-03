@@ -54,9 +54,9 @@ SECURITY ADVANTAGES SDN AGREGAR!!!! https://xigentsolutions.com/blog/security-ad
  
 <span align="center"> <h3 align="center"> DISCLAIMER </h3> </span>
 
-- This repository has been intended to be a personal centralized place to store my own created data and also compile some public data such as databases, codes, scripts, write ups, binaries, labs, guides, resources, documents and some other kind of files that I commonly use in my day to day life as an engineer.
+- This repository has been intended to be a personal centralized place to store my own created data and also compile some public data such as databases, codes, scripts, write ups, binaries, labs, guides, resources and documentation that I commonly use in my day to day life as an engineer.
 
-- This repository also serves as my portfolio to show to potential employers and clients my work, experience, education and resume in the area of IT, Network Engineering, Development, Programming, Cyber Security, Computer Systems, Infraestructure Management and other branches of Computer Science and Information & Communication Technologies.
+- This repository also serves as my portfolio to show to potential employers and clients my work, experience, knowledge, education and resume in the area of IT, Network Engineering, Development, Programming, Cyber Security, Computer Systems, Infraestructure Management and other branches of Computer Science and Information & Communication Technologies.
 
 - The reason this repository is publicly accessible is because it shares the GNU free software ideology and philosophy, it means the freedom to run the software, to study the software, to modify the software, and to share copies of the software (whether modified or not).
   
@@ -66,9 +66,9 @@ SECURITY ADVANTAGES SDN AGREGAR!!!! https://xigentsolutions.com/blog/security-ad
   
 - This repository contain codes and scripts that could harm some systems and devices. Read carefully each file documentation and/or script before download, extract, execute, copy or compile.
   
-- Some techniques shown in this repository could be considered illegal in some Countries, it is recommended to study the computer legislation before replicating any process included in the repository.
+- Some techniques shown in this repository could be considered illegal in some Countries, it is recommended to study the computer legislation before replicating any process included in this repository.
 
-- It is mandatory to experiment only in controlled laboratory environments, whether physical or virtual. The administrator or person in charge of any device, network, or infrastructure must be aware of and agree to any security engagement that is intended to be carried out.
+- It is mandatory to experiment only in controlled laboratory environments, whether physical or virtual. The administrator in charge of any device, network, or infrastructure must be aware and agree to any security engagement or configuration that is intended to be carried out.
   
 - Any misuse of the information and files compiled in this repository will not be the responsibility of the author. 
  
