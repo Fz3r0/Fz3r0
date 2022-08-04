@@ -45,6 +45,10 @@ SECURITY ADVANTAGES SDN AGREGAR!!!! https://xigentsolutions.com/blog/security-ad
 
 <h1 align="center">💀 Fz3r0 💀</h1>
 
+<span align="center"> <p align="center"> _**"Welcome to my house! Enter freely. Go safely, and leave something of the happiness you bring...**_  </p> </span>  
+
+<span align="center"> <p align="center"> _**We are in Transylvania, and Transylvania is not England. Our ways are not your ways, and there shall be to you many strange things. Nay, from what you have told me of your experiences already, you know something of what strange things there may be."**_ </p> </span> 
+
 ---
 
 <span align="center"> <p align="center"> **🛸🌌 <<--|☠️ [Wormhole to Index](https://github.com/Fz3r0/Fz3r0/blob/main/README.md#-index-) ☠️|-->> 🌌🛸** </p> </span> 
@@ -236,13 +240,7 @@ https://www.hackthebox.com/badge/image/897009
 
 --- 
 
-
-
 ![index_banner_final2](https://hackers.game/static/media/skull.5853c7dcd849910eaf43.gif)
-
-<span align="center"> <p align="center"> _**"Welcome to my house! Enter freely. Go safely, and leave something of the happiness you bring...**_  </p> </span>  
-
-<span align="center"> <p align="center"> _**We are in Transylvania, and Transylvania is not England. Our ways are not your ways, and there shall be to you many strange things. Nay, from what you have told me of your experiences already, you know something of what strange things there may be."**_ </p> </span>  
 
 <!--
 
