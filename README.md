@@ -657,8 +657,9 @@ Deep dive into the Packet / PCAP Analysis
     - [Multicast Explained in 5 Minutes | CCIE Journey](https://www.youtube.com/watch?v=W5oMvrMRM3Q)
     - [Multicast EZ Lab (IGMP Snooping included!!!)](https://www.youtube.com/watch?v=fIg_9wJlQX4)
     - [Fundamentos de Multicast + Ejemplo de IPTV en GNS3](https://www.youtube.com/watch?v=3hco1ebiqo8)
-    - [¿Puedo transmitir IP TV por aire? True multicast WiFi](https://www.youtube.com/watch?v=fT8GbK8yAgw)
-    - [TV y video multicast en redes LAN - Ejemplo con Hotel](https://www.youtube.com/watch?v=oMp3nX5bEjs)
+    - [¿Puedo transmitir IP TV por aire? True Multicast WiFi](https://www.youtube.com/watch?v=fT8GbK8yAgw)
+    - [TV y video Multicast en redes LAN - Ejemplo con Hotel @ Netgear](https://www.youtube.com/watch?v=oMp3nX5bEjs)
+    - [Como implementar redes Multicast de forma eficiente @ Netgear](https://www.youtube.com/watch?v=h5Uu5clw3HU)
 
         - Mulitcast Protocols
 
