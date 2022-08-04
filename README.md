@@ -658,6 +658,7 @@ Deep dive into the Packet / PCAP Analysis
     - [Multicast EZ Lab (IGMP Snooping included!!!)](https://www.youtube.com/watch?v=fIg_9wJlQX4)
     - [Fundamentos de Multicast + Ejemplo de IPTV en GNS3](https://www.youtube.com/watch?v=3hco1ebiqo8)
     - [¿Puedo transmitir IP TV por aire? True multicast WiFi](https://www.youtube.com/watch?v=fT8GbK8yAgw)
+    - [TV y video multicast en redes LAN - Ejemplo con Hotel](https://www.youtube.com/watch?v=oMp3nX5bEjs)
 
         - Mulitcast Protocols
 
