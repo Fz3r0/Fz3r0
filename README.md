@@ -657,7 +657,7 @@ Deep dive into the Packet / PCAP Analysis
     - [Multicast Explained in 5 Minutes | CCIE Journey](https://www.youtube.com/watch?v=W5oMvrMRM3Q)
     - [Multicast EZ Lab (IGMP Snooping included!!!)](https://www.youtube.com/watch?v=fIg_9wJlQX4)
     - [Fundamentos de Multicast + Ejemplo de IPTV en GNS3](https://www.youtube.com/watch?v=3hco1ebiqo8)
-    - [GLOP Block (ROUTING BGP, OSPF, ETC)- 233.0.0.0 - 233.251.251.255.255]()
+    - [¿Puedo transmitir IP TV por aire? True multicast WiFi](https://www.youtube.com/watch?v=fT8GbK8yAgw)
 
         - Mulitcast Protocols
 
