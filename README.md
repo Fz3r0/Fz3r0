@@ -678,9 +678,11 @@ Deep dive into the Packet / PCAP Analysis
 
 ### Ruckus Wireless / Commscope
 
-- **Rukcus Wireless Black Magics**
+- **Rukcus Wireless Black Magics - Optimizing WiFi Coverage**
 
-    - [Optimizing WiFi Coverage - **Band Balancing**](https://www.youtube.com/watch?v=gsv9Tiqpt18)
+    - [**Band Balancing**](https://www.youtube.com/watch?v=gsv9Tiqpt18)
+    - [**Rogue AP Detection** - De-Auth Attack for Mitigation](https://www.youtube.com/watch?v=Uk0QN7ckL-I)
+    - [**Auto Cell Sizing** - Background scanning + Auto Cell - Auto-FTW!](https://www.youtube.com/watch?v=E0_kISkfEd0)
 
 - **Access Point (AP) placement like a Sir!**
 
