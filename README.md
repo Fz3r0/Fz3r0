@@ -678,6 +678,10 @@ Deep dive into the Packet / PCAP Analysis
 
 ### Ruckus Wireless / Commscope
 
+- **Rukcus Wireless Black Magics**
+
+    - [Optimizing WiFi Coverage - **Band Balancing**](https://www.youtube.com/watch?v=gsv9Tiqpt18)
+
 - **Access Point (AP) placement like a Sir!**
 
     - [WiFi is NOT One Size Fits All](https://www.youtube.com/watch?v=ovHhIgwrbRg)
