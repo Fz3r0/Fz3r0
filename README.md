@@ -676,7 +676,7 @@ Deep dive into the Packet / PCAP Analysis
 
     - [Chrome Cast & Bonjour Services in Cisco WLC](https://www.cisco.com/c/en/us/td/docs/wireless/controller/technotes/7-6/chromecastDG76/ChromecastDG76.html)
 
-### Ruckus Wireless / Commscope
+### Ruckus Wireless | Commscope
 
 - **Rukcus Wireless Black Magics - Optimizing WiFi Coverage**
 
@@ -689,6 +689,12 @@ Deep dive into the Packet / PCAP Analysis
     - [WiFi is NOT One Size Fits All](https://www.youtube.com/watch?v=ovHhIgwrbRg)
     - []()
     - []()
+
+- **Ruckus and Ekahau WiFi Surveys**
+
+    - [Deploying APs](https://www.youtube.com/watch?v=YlRatjSfTVw)
+    - [Defining Requirement Area (Materials, Walls, Floors & Stuff!)](https://www.youtube.com/watch?v=h5jfpAGXhEw)
+    - [Airtime Utilization](https://www.youtube.com/watch?v=srTxvfasRIg)
 
 - **Ruckus Radio Frequency (RF) **
 
