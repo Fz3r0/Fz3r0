@@ -687,7 +687,9 @@ Deep dive into the Packet / PCAP Analysis
 - **Access Point (AP) placement like a Sir!**
 
     - [WiFi is NOT One Size Fits All](https://www.youtube.com/watch?v=ovHhIgwrbRg)
-    - []()
+    - [Consider Your Environment](https://www.youtube.com/watch?v=Ccv-b7YmcZA)
+    - [Establishing Connectivity](https://www.youtube.com/watch?v=dk0SuhQJc48)
+    - [Understanding Intended WiFi Usage in regards to design](https://www.youtube.com/watch?v=STBKccFPf_g)
     - []()
 
 - **Ruckus and Ekahau WiFi Surveys**
@@ -700,6 +702,10 @@ Deep dive into the Packet / PCAP Analysis
 
     - [Antenna Function, Patterns, BeamFlex and Options](https://www.youtube.com/watch?v=K2ZhXLuJMfg) _Very visual presentation of RF!_ 
     - [WiFi Frequency Bands, Channels and ChannelFLy](https://www.youtube.com/watch?v=iwteOMhB0kw)
+
+- **Ruckus Security**
+
+    - [CommScope Ruckus CVE Announcement - **FragAttack**](https://www.youtube.com/watch?v=nfz6v2NsS2Y)
 
 - **Ruckus Unleashed**
 
