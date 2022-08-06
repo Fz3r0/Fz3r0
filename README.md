@@ -322,14 +322,26 @@ _Monitoring devices, know where you go, mass media, total control. Digital delig
 
 _The sun never sets, on cyber-space... Transmit, receive, log on to interface_
   
-### 🔮 📖 🧙‍ Dark Wizardy for Networking & NetSec 🧙‍♂️ 📖 🔮
+### 🔮 📖 🧙‍ Dark Wizardy for Networking Fundamentals 🧙‍♂️ 📖 🔮
 Tables, Lists, Models, Cheat-Sheets, Mind-Maps & Resources
 
-- Fz3r0 Pro Resources
+- **Fz3r0 Papu-Pro Resources**
 
-- [**OpenManiak**](https://openmaniak.com/) _The leader in open source Network and Security tutorial._
+    - [**OpenManiak**](https://openmaniak.com/) _The leader in open source Network and Security tutorial._
+    - [Networking List 01 - facyber](https://github.com/facyber/awesome-networking) 
+    - [Awesome **Mesh Networking**](https://github.com/moarpepes/awesome-mesh) _Documentation, Free Software mesh protocols, and applications._
 
+- **TCP/IP & OSI**
 
+    - [TCP-IP Hybrid Model by Fz3r0 (TCP+OSI)](/Networking/Knowledge/Tables-Models-Cheatsheets/Tables-Models/TCP-IP-Model-fz3r0_Hybrid.md) _A model I made with love for TCP-IP/OSI, all in one! :)_
+    - [TCP all in one! - TCP 3 Way Handshake, Communication Process, States, Data Transfer](/Networking/Knowledge/Tables-Models-Cheatsheets/Tables-Models/TCP_Process.md)
+    - [Reserved IPv4 & IPv6 Addresses by Fz3r0](/Networking/Knowledge/Tables-Models-Cheatsheets/Tables-Models/reserved_ip_fz3r0.md)
+
+- **TCP/UDP Ports**
+
+    - [TCP / UDP : PORT Numbers / Protocols](https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers)
+    - [IP Protocol Numbers - IPv4 Headers](https://en.wikipedia.org/wiki/List_of_IP_protocol_numbers)
+    - [TCP/UDP Port Number IANA list @ Python - WhatPortIs](https://github.com/Fz3r0/whatportis)
 
 - **802.1q: VLANs, Trunks, Natives, ISL /// General Modes, Tag & Untag, full 802.1Q mode, 802.1Q Tunneling (Q-in-Q).**
 
@@ -339,6 +351,10 @@ Tables, Lists, Models, Cheat-Sheets, Mind-Maps & Resources
     - [IEEE 802 1Q: VLAN **Tagging** and **Trunking** 101 @ Sunny](https://www.youtube.com/watch?v=vE5gvbmR8jg) _Trunk Port = Cisco terminology | Tagged Port = Other Vendors || Access Port = Cisco terminology | Untagged Port = Other vendors || Access VLAN = Untagged VLAN_
     - [Diferencias en configuración de VLANs - Tagged, Untagged & Trunks](https://soporte.syscom.mx/es/articles/2042744-networking-diferencias-en-configuraciones-de-vlans)
     - [FAQ - Should trunk ports be tagged or untagged?](https://faq-blog.com/should-trunk-ports-be-tagged-or-untagged)
+
+- **Subnet / VLSM & FLSM**
+
+    - [Subneting Guide - FLSM & VLSM]()
 
 - Cisco
     
@@ -351,26 +367,19 @@ Tables, Lists, Models, Cheat-Sheets, Mind-Maps & Resources
 
     - [**Ruckus RCNA Official Full Course](https://www.youtube.com/watch?v=JmViU82xLOk&list=PLySwoo7u9-KIP1JjM-hz0hqQY_uDU1fh3)
 
-- [Networking List 01 - facyber](https://github.com/facyber/awesome-networking) 
-- [Awesome **Mesh Networking**](https://github.com/moarpepes/awesome-mesh) _Documentation, Free Software mesh protocols, and applications._
-- [TCP-IP Hybrid Model by Fz3r0 (TCP+OSI)](/Networking/Knowledge/Tables-Models-Cheatsheets/Tables-Models/TCP-IP-Model-fz3r0_Hybrid.md) _A model I made with love for TCP-IP/OSI, all in one! :)_
-- [TCP all in one! - TCP 3 Way Handshake, Communication Process, States, Data Transfer](/Networking/Knowledge/Tables-Models-Cheatsheets/Tables-Models/TCP_Process.md)
-- [Reserved IPv4 & IPv6 Addresses by Fz3r0](/Networking/Knowledge/Tables-Models-Cheatsheets/Tables-Models/reserved_ip_fz3r0.md)
-- [TCP / UDP : PORT Numbers / Protocols](https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers)
-- [IP Protocol Numbers - IPv4 Headers](https://en.wikipedia.org/wiki/List_of_IP_protocol_numbers)
-- [TCP/UDP Port Number IANA list @ Python - WhatPortIs](https://github.com/Fz3r0/whatportis)
+
+
+
+
 - [BIN - HEX - DEC : Calculate & Convert]()
 - [Port Forwarding Example](https://wiki.teltonika-networks.com/view/Port_Forwarding)
-- [Subneting Guide - FLSM & VLSM]()
+
 - [IEEE Ethernet Cabling Standards - Full Table]()
 - [Cisco CCNA Cheat Sheet I](https://github.com/Fz3r0/CCNA-Cheat-Sheet)
 - https://github.com/Fz3r0/cisco-cheatsheet
 - https://github.com/Fz3r0/Cisco-IOS-Command-CheatSheets
 - [all commands ios](https://itexamanswers.net/cisco-ios-commands-help-ccna-commands-cheat-sheet.html)
 - [Electricidad enfocada a Seguridad y Telecomunicaciones @ Syscom](https://www.youtube.com/watch?v=PQrMHIWnLCQ)
-- [TCP & UDP : Headers]()
-- [ETHII > Ethernet II : Header]()
-- [WiFi > 802.11 : Header]()
 
 
 ### Wired Networking Components & Fundamentals
