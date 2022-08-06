@@ -686,6 +686,8 @@ Deep dive into the Packet / PCAP Analysis
 
 - **Access Point (AP) placement like a Sir!**
 
+    - [Orientation Matters](https://www.youtube.com/watch?v=_7ZZodhMieI&t=1s)
+    - [Materials and Obstacles](https://www.youtube.com/watch?v=p4fUJkqNjFs&t=1s)
     - [WiFi is NOT One Size Fits All](https://www.youtube.com/watch?v=ovHhIgwrbRg)
     - [Consider Your Environment](https://www.youtube.com/watch?v=Ccv-b7YmcZA)
     - [Establishing Connectivity](https://www.youtube.com/watch?v=dk0SuhQJc48)
@@ -733,7 +735,9 @@ Deep dive into the Packet / PCAP Analysis
 
     - [RUCKUS Cloud Troubleshooting: Advanced WLAN Settings](https://www.youtube.com/watch?v=NBu4FXBF38w)
 
-- **Ruckus Wireless: Troubleshooting**
+- **Ruckus Wireless Troubleshooting**
+
+    - [Viewing Client Info with Wireshark [wlan.sa | wlan.ra == RuckusWiMAC]](https://youtu.be/FLvJBVrjJaw)
 
     - [SmartZone: Capture Traffic & Sniffing Access Points!!!](https://www.youtube.com/watch?v=gsoJo9yZi4o)
     - [RUCKUS Wireless Troubleshooting: L2 Retransmit](https://www.youtube.com/watch?v=dqqs-NskEWk)
