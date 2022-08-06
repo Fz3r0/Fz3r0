@@ -362,6 +362,10 @@ Tables, Lists, Models, Cheat-Sheets, Mind-Maps & Resources
     - [**Cisco** Networking Infraestructure **CLI/IOS** - **Command Bible**](/Networking/Dark-Wizardy-for-Networking-&-NetSec/Cisco-IOS-Command-Bible-Routing-&-Switching.md) _My CCNA+CCNP Commands & Configurations Pocket Bible_
     - [**Cisco CCNA v7 200-301** Full Course English](https://ccna-200-301.online/ccna-2/)
     - [**Cisco CCNA v7 200-301** Full Course Español](https://ccnadesdecero.es/ccna-1/)
+    - [Cisco CCNA Cheat Sheet I](https://github.com/Fz3r0/CCNA-Cheat-Sheet)
+    - https://github.com/Fz3r0/cisco-cheatsheet
+    - https://github.com/Fz3r0/Cisco-IOS-Command-CheatSheets
+    - [all commands ios](https://itexamanswers.net/cisco-ios-commands-help-ccna-commands-cheat-sheet.html)
     
 - Ruckus
 
@@ -374,16 +378,14 @@ Tables, Lists, Models, Cheat-Sheets, Mind-Maps & Resources
 - [BIN - HEX - DEC : Calculate & Convert]()
 - [Port Forwarding Example](https://wiki.teltonika-networks.com/view/Port_Forwarding)
 
-- [IEEE Ethernet Cabling Standards - Full Table]()
-- [Cisco CCNA Cheat Sheet I](https://github.com/Fz3r0/CCNA-Cheat-Sheet)
-- https://github.com/Fz3r0/cisco-cheatsheet
-- https://github.com/Fz3r0/Cisco-IOS-Command-CheatSheets
-- [all commands ios](https://itexamanswers.net/cisco-ios-commands-help-ccna-commands-cheat-sheet.html)
+
+
 - [Electricidad enfocada a Seguridad y Telecomunicaciones @ Syscom](https://www.youtube.com/watch?v=PQrMHIWnLCQ)
 
 
 ### Wired Networking Components & Fundamentals
 
+- [IEEE Ethernet Cabling Standards - Full Table]()
 - [**HoneyNet** & Demilitarized Zone: **DMZ** @ Sunny](https://www.youtube.com/watch?v=FihkG72z7MQ)
 - [**Proxy Servers** @ Sunny](https://www.youtube.com/watch?v=f-oCTcf5k_0)
 - [**IDS & IPS** @ Sunny](https://www.youtube.com/watch?v=cMH4yGE73iQ)
@@ -962,7 +964,7 @@ Guides for performing Penetration Attacks involving the Network Infrastructure E
     - AAA Standards
     - IEEE 802.1X: Port-based Access Control & Authentication
 
-- RADIUS Server & Authentication
+- RADIUS & TACACS Server & Authentication
 
     - [Implementacion de servidor **FreeRadius en Linux**](https://youtu.be/C92x-0Cbxk8)
     - [Raspberry Pi RADIUS Server - FreeRADIUS](https://www.youtube.com/watch?v=8MVWrCgaH68)
