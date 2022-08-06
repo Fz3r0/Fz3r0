@@ -644,6 +644,7 @@ Deep dive into the Packet / PCAP Analysis
     - [Internet Protocol Version 6 (IPv6)](https://datatracker.ietf.org/doc/rfc2460/)
     - [Network Address Translator (NAT)](https://datatracker.ietf.org/doc/rfc1631/)
     - [Simple Mail Transfer Protocol (SMTP)](https://datatracker.ietf.org/doc/rfc5321/)
+        - [SMTP - Understand & Exploit the shit out @ Hackers-Arise](https://www.hackers-arise.com/post/network-basics-for-hackers-part-5-simple-mail-transport-protocol-smtp)
     - [Simple Network Management Protocol (SNMP)](https://datatracker.ietf.org/doc/rfc1157/)
     - [Secure Shell (SSH)](https://datatracker.ietf.org/doc/rfc4251/)
     - [Transmission Control Protocol (TCP)](https://datatracker.ietf.org/doc/rfc793/)
