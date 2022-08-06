@@ -748,6 +748,11 @@ Deep dive into the Packet / PCAP Analysis
     - [SmartZone OS5: Bonjour Services (offical HTML version)](https://docs.commscope.com/bundle/sz-521-adminguide-sz100vsz/page/GUID-C9A5B40D-6500-49E7-B589-A060619DF747.html)
     - [SmartZone: RUCKUS Wireless Troubleshooting: Auto Cell Sizing](https://www.youtube.com/watch?v=tKfvlFRc37M)
     - [**Ruckus Log4J vSZ Patch** and Work Around](https://www.youtube.com/watch?v=56_tgSApKkA&list=PLwZotTMbkZQFA_Lm9qjAFKOQMWM3aOCHG) 
+    
+- **SmartZone 5.2 HighScale Deployment** - Secrets, Hints & Tricks
+
+     - [Navigation Overview](https://youtu.be/d_at_E_Algs)
+     - [Account Creation]()
 
 - **Zone Director**
 
