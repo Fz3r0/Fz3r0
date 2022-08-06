@@ -341,6 +341,7 @@ Tables, Lists, Models, Cheat-Sheets, Mind-Maps & Resources
 
     - [TCP / UDP : PORT Numbers / Protocols](https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers)
     - [IP Protocol Numbers - IPv4 Headers](https://en.wikipedia.org/wiki/List_of_IP_protocol_numbers)
+    - [Three categories of TCP/UDP port numbers @ Sunny](https://www.youtube.com/watch?v=dSO7XI_HOmY&t=1s)
     - [TCP/UDP Port Number IANA list @ Python - WhatPortIs](https://github.com/Fz3r0/whatportis)
 
 - **802.1q: VLANs, Trunks, Natives, ISL /// General Modes, Tag & Untag, full 802.1Q mode, 802.1Q Tunneling (Q-in-Q).**
