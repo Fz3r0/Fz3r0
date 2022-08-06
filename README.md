@@ -1249,6 +1249,7 @@ Mind-Maps, Paradigms, Way-to-Go, Hints & Tricks for Seek & Exploit TICs!
 - CVE & PoCs finders and tricks
  
     - [Exploit DB](https://www.exploit-db.com/)
+    - [Marc.Info CVE POCs collection!!!](https://marc.info/?l=full-disclosure)
     - [trickest CVE](https://github.com/trickest/cve) _Almost every publicly available CVE PoC._
     - [PoC finder in Github](https://github.com/trickest/find-gh-poc) _Finds CVE PoCs on Github._
 
