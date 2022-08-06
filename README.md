@@ -660,7 +660,10 @@ Deep dive into the Packet / PCAP Analysis
     - [¿Puedo transmitir IP TV por aire? True Multicast WiFi](https://www.youtube.com/watch?v=fT8GbK8yAgw)
     - [TV y video Multicast en redes LAN - Ejemplo con Hotel @ Netgear](https://www.youtube.com/watch?v=oMp3nX5bEjs)
     - [Como implementar redes Multicast de forma eficiente @ Netgear](https://www.youtube.com/watch?v=h5Uu5clw3HU)
-
+    - [Multicast GNS3 Lab - CCNA CCNP (Part 1) @ PrimeScope](https://www.youtube.com/watch?v=meKr3wtvuoM&t=0s)
+    - [Multicast GNS3 Lab - CCNA CCNP (Part 2) @ PrimeScope](https://www.youtube.com/watch?v=Lx-_f923s6A)
+    - [Multicast GNS3 Lab - CCNA CCNP (Part 3) @ PrimeScope](https://www.youtube.com/watch?v=fhmFJUYalTE)
+    -     
         - Mulitcast Protocols
 
             - [IGMP - Layer 2]()
