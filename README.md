@@ -952,7 +952,11 @@ Guides for performing Penetration Attacks involving the Network Infrastructure E
     - Authentication with Local Password 
     - AAA Standards
     - IEEE 802.1X: Port-based Access Control & Authentication
- 
+
+- RADIUS Server & Authentication
+
+    - [Raspberry Pi RADIUS Server - FreeRADIUS](https://www.youtube.com/watch?v=8MVWrCgaH68)
+
 ### Wireless Networking
 
 - **Wireless Networking Guides, Tips, Tricks & Hints**
