@@ -1121,6 +1121,11 @@ Guides, Tips & Tricks, Downloads, Training, Crafting, Arsenal, Binaries, Executa
     - [Creating malicious packets & breaking TCP/IP rules](Fz3r0/Networking/Attacking-Cisco/weird_TCP_fz3r0.py )  _@ Python + Scapy_
     - [Simple Network Scanner](https://gist.github.com/Fz3r0/3e26fdf87b5e223b13578db9d150c815) _@ Python + Scapy_
     - [Medium Network Scanner](https://gist.github.com/Fz3r0/2cc8f8699a829e06f5d70e86a6be53c0) _@ Python + Scapy_
+
+- Ostinato Packet Generator
+
+    - [Ostinato Packet Generator and GNS3 - download, install and configure](https://youtu.be/SmFWlIhOEQY)
+
 - [Full Network Scanner](https://github.com/Fz3r0/netScan_Python) _@ Python_
 - [Simple Port Scanner](https://github.com/Fz3r0/pythscan_port_scan_simple) _@ Python + Sockets_ 
 - [Full Port Scanner](https://github.com/Fz3r0/Python-Port-Scanner_large) _@ Python + Sockets_
