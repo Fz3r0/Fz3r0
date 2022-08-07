@@ -119,7 +119,8 @@ Please check the links of my Social Networks that I've placed above including my
 ##### `Bachelor of Science in Computer Systems Engineering`
 
 #### < Networking > 
-##### `NetOps` `NetSec` `CCNA`  `RICXI`  `RSP`  `CWNA` `ICND 1&2` `Wireless` `Enterprise Networking` `SOHO` `NGNs`  
+##### `NetOps` `NetSec` `CCNA`  `RICXI`  `RSP`  `CWNA` `ICND 1&2` `
+` `Enterprise Networking` `SOHO` `NGNs`  
 
 #### < Programming, Scripting & DBA >
 ##### `DevOps` `Python` `C++` `Ruby` `Visual Basic` `VBA` `Bash` `Batch` `PowerShell` `HTML5` `CSS3` `Javascript` `Node.js` `PHP` `SQL` `MySQL` `Mongo DB` 
@@ -489,10 +490,6 @@ Tables, Lists, Models, Cheat-Sheets, Mind-Maps & Resources
         - [CWNA 108: Curso - Presentado por Sama WiFi @ Jesús Bred](https://www.youtube.com/watch?v=mpapEx1doWQ&list=PLm7OhL_NMy3RXoKOSmhqo0b3PYOYNQl8p)
         - [CWNA 108: Tabla de Protocolos CWNA (OSI, TCP, Security)](https://user-images.githubusercontent.com/94720207/180625277-b051e3bb-9db4-4b1b-b14b-fa093b020e9d.png)
 
-    - CWNA Snake Way
-
-        - 
-
     - Others
     
         - [Wireless/WiFi Network: GET GUD in less than 1 hour @ Sunny](https://www.youtube.com/watch?v=WOTeFceIeM8&list=PLSNNzog5eydvJG48PYnWnNY7-tQIfxTRb)
@@ -617,9 +614,9 @@ Tables, Lists, Models, Cheat-Sheets, Mind-Maps & Resources
             - [CWNA Mathematics Resume Notes (bottom)](https://sites.google.com/site/802dot11study/ch3/notes)  
             - [Inside Wireless en Español: Presupuesto de Enlace - Prx > Gtx / Ptx](https://www.youtube.com/watch?v=dj82XrhfoWA)
 
-- Hotspot 2.0
+[Wireless WLAN Troubleshooting & Ass-Savers]()
 
-- Passpoint
+- [Wi-Fi Troubleshooting Tips and Tricks | Ekahau Webinar](https://www.youtube.com/watch?v=5NeuTT_-Q9o)
 
 
 
