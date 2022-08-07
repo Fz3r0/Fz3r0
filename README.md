@@ -574,8 +574,6 @@ Tables, Lists, Models, Cheat-Sheets, Mind-Maps & Resources
         - [**RF Gain & Loss:** Active Gain VS Passive Gain Devices](https://www.youtube.com/watch?v=ZY3MhaIh9c8)
         - [**Gain** Example in a Qualcomm Wireless device](https://patents.google.com/patent/US7430406B2/en)
 
-- 
-
     - Components of RF Communications
     
         - [Full RF components](https://sites.google.com/site/802dot11study/ch3/notes)  
