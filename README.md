@@ -488,7 +488,11 @@ Tables, Lists, Models, Cheat-Sheets, Mind-Maps & Resources
         - [CWNA 802.11, Third Edition - Full Bible](https://sites.google.com/site/802dot11study/home)
         - [CWNA 108: Curso - Presentado por Sama WiFi @ Jesús Bred](https://www.youtube.com/watch?v=mpapEx1doWQ&list=PLm7OhL_NMy3RXoKOSmhqo0b3PYOYNQl8p)
         - [CWNA 108: Tabla de Protocolos CWNA (OSI, TCP, Security)](https://user-images.githubusercontent.com/94720207/180625277-b051e3bb-9db4-4b1b-b14b-fa093b020e9d.png)
-    
+
+    - CWNA Snake Way
+
+        - 
+
     - Others
     
         - [Wireless/WiFi Network: GET GUD in less than 1 hour @ Sunny](https://www.youtube.com/watch?v=WOTeFceIeM8&list=PLSNNzog5eydvJG48PYnWnNY7-tQIfxTRb)
