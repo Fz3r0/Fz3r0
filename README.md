@@ -700,6 +700,8 @@ Deep dive into the Packet / PCAP Analysis
 
 ### Ruckus Wireless | Commscope
 
+- [Ruckcast Podcast](https://open.spotify.com/show/2pHzLyLe3P9HRXI40YpFdD)
+
 - **Rukcus Wireless Black Magics - Optimizing WiFi Coverage**
 
     - [**Band Balancing**](https://www.youtube.com/watch?v=gsv9Tiqpt18)
@@ -751,8 +753,23 @@ Deep dive into the Packet / PCAP Analysis
     
 - **SmartZone 5.2 HighScale Deployment** - Secrets, Hints & Tricks
 
-     - [Navigation Overview](https://youtu.be/d_at_E_Algs)
-     - [Account Creation]()
+    - Commscope/Ruckus Official Online Course **RAZA 200**
+
+        - [RASZA 200 - RUCKUS SmartZone 5.2 Online Training](https://commscopeuniversity.myabsorb.com/#/online-courses/23c5f777-f343-4377-912a-ad62ae93b763)
+        - [RUCKUS Accredited SmartZone Administrator (RASZA) Exam]()
+        - [1. **RASZA 200 Introduction**](https://commscopeuniversity.myabsorb.com/#/online-courses/23c5f777-f343-4377-912a-ad62ae93b763)
+        - [2. **RUCKUS Technologies**](https://commscopeuniversity.myabsorb.com/#/online-courses/23c5f777-f343-4377-912a-ad62ae93b763)
+            - [Familia SmartZone de RUCKUS](https://www.commscope.com/globalassets/digizuite/622881-ds-smartzone-family-es-mx.pdf)
+            - [RUCKUS Wireless Access Points](https://www.commscope.com/product-type/enterprise-networking/wireless-access-points/)
+        - []()    
+
+    - Ruckus Education - SmartZone 5.2
+
+        - [Navigation Overview](https://youtu.be/d_at_E_Algs)
+        - [Account Creation](https://youtu.be/GJ8EPOb1E-Y)
+        - [Admin Group Creation](https://youtu.be/l_YFVBEvCq8)
+        - [Domain Creation](https://youtu.be/B38phGZ8Mf0)
+        - []()
 
 - **Zone Director**
 
