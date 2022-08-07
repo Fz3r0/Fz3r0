@@ -389,7 +389,7 @@ Tables, Lists, Models, Cheat-Sheets, Mind-Maps & Resources
 - For Diagrams: [Microsoft Visio](https://www.microsoft.com/en-us/microsoft-365/visio/flowchart-software) _$$$_
 - For Diagrams: [draw.io](https://app.diagrams.net/) _Free!_
 
-### Shells & Reverse Shells
+### 🐚 🐢 🐱‍💻 Shells & Reverse Shells
 
 - Secure-CRT
     - [Pimp my Secure CRT - ANSI colors & dark shell mode](https://www.vandyke.com/support/tips/colorconfig.html)
@@ -397,7 +397,7 @@ Tables, Lists, Models, Cheat-Sheets, Mind-Maps & Resources
 - NetCat
 - SoCat
 
-### Networking Groups & Organizations
+### 🔱 🌐 🏛️ Networking Groups & Organizations
 
 - [WiFi Alliance]() _Ensure the interoperability of Wi-Fi products by providing certification testing_
 - [Federal Communications Commission (FCC)]() _regulates communications within & from USA_
@@ -471,7 +471,7 @@ Tables, Lists, Models, Cheat-Sheets, Mind-Maps & Resources
     - [**Virtual time CSMA (VTCSMA)** - **Real Time Computing**](https://en.wikipedia.org/wiki/Real-time_computing)
 
 
-### Wired LAN Networking Components & Fundamentals
+### 🕸️ 🖧 🔌 Wired LAN Networking Components & Fundamentals
 
 - [IEEE Ethernet Cabling Standards - Full Table]()
 - [**HoneyNet** & Demilitarized Zone: **DMZ** @ Sunny](https://www.youtube.com/watch?v=FihkG72z7MQ)
@@ -684,7 +684,7 @@ Deep dive into the Packet / PCAP Analysis
 
 
 
-### Cisco Networks
+### 🤴 🌐 🏫 Cisco Networks
 
 - Cisco Secrets & Black Knowledge
     
@@ -701,7 +701,7 @@ Deep dive into the Packet / PCAP Analysis
 
     - [Chrome Cast & Bonjour Services in Cisco WLC](https://www.cisco.com/c/en/us/td/docs/wireless/controller/technotes/7-6/chromecastDG76/ChromecastDG76.html)
 
-### Ruckus Wireless | Commscope
+### 🐶 📡 🔮 Ruckus Wireless | Commscope
 
 - [Ruckcast Podcast](https://open.spotify.com/show/2pHzLyLe3P9HRXI40YpFdD)
 
