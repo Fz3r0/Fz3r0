@@ -345,6 +345,14 @@ Tables, Lists, Models, Cheat-Sheets, Mind-Maps & Resources
     - [Three categories of TCP/UDP port numbers (Well known, registered, dynamic/private) @ Sunny](https://www.youtube.com/watch?v=dSO7XI_HOmY&t=1s)
     - [TCP/UDP Port Number IANA list @ Python - WhatPortIs](https://github.com/Fz3r0/whatportis)
 
+- IPv4
+
+- **Subnet / VLSM & FLSM**
+
+    - [Subneting Guide - FLSM & VLSM]()
+
+- IPv6
+
 - **802.1q: VLANs, Trunks, Natives, ISL /// General Modes, Tag & Untag, full 802.1Q mode, 802.1Q Tunneling (Q-in-Q).**
 
     - [Cisco Full VLAN Approach: Trunk VLANs](https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst_digital_building_series_switches/software/15-2_5_ex/configuration_guide/b_1525ex_consolidated_cdb_cg/b_1525ex_consolidated_cdb_cg_chapter_0110101.pdf)
@@ -354,20 +362,7 @@ Tables, Lists, Models, Cheat-Sheets, Mind-Maps & Resources
     - [Diferencias en configuración de VLANs - Tagged, Untagged & Trunks](https://soporte.syscom.mx/es/articles/2042744-networking-diferencias-en-configuraciones-de-vlans)
     - [FAQ - Should trunk ports be tagged or untagged?](https://faq-blog.com/should-trunk-ports-be-tagged-or-untagged)
 
-- **Subnet / VLSM & FLSM**
 
-    - [Subneting Guide - FLSM & VLSM]()
-
-- Cisco
-    
-    - [**Cisco Dashboard UI Online test**](https://www.cisco.com/assets/sol/sb/Switches_Emulators_v2_2_015/config/home_sg_350-10p_2_2.htm)
-    - [**Cisco** Networking Infraestructure **CLI/IOS** - **Command Bible**](/Networking/Dark-Wizardy-for-Networking-&-NetSec/Cisco-IOS-Command-Bible-Routing-&-Switching.md) _My CCNA+CCNP Commands & Configurations Pocket Bible_
-    - [**Cisco CCNA v7 200-301** Full Course English](https://ccna-200-301.online/ccna-2/)
-    - [**Cisco CCNA v7 200-301** Full Course Español](https://ccnadesdecero.es/ccna-1/)
-    - [Cisco CCNA Cheat Sheet I](https://github.com/Fz3r0/CCNA-Cheat-Sheet)
-    - https://github.com/Fz3r0/cisco-cheatsheet
-    - https://github.com/Fz3r0/Cisco-IOS-Command-CheatSheets
-    - [all commands ios](https://itexamanswers.net/cisco-ios-commands-help-ccna-commands-cheat-sheet.html)
     
 - Ruckus
 
@@ -384,13 +379,23 @@ Tables, Lists, Models, Cheat-Sheets, Mind-Maps & Resources
 
 - [Electricidad enfocada a Seguridad y Telecomunicaciones @ Syscom](https://www.youtube.com/watch?v=PQrMHIWnLCQ)
 
+### 📊 🖥️ 👨‍🚀 Simulators & Emulators 👨‍🚀 🖥️ 📊
+ 
+- [Cisco Packet Tracer]() _Network simulation tool for networking, IoT, and cybersecurity in a virtual lab_
+- [GNS3](https://gns3.com/) _Real-time network simulation for pre-deployment testing_
+    - [GNS3 - Appliances](https://www.gns3.com/marketplace/appliances)
+    - [GNS3 - Port Name Formatting](https://docs.gns3.com/docs/using-gns3/advanced/port-name-formatting/)
+- [Eve NG](https://www.eve-ng.net/) _Emulated Virtual Enviorment for Network, Security and DevOps_
+- For Diagrams: [Microsoft Visio](https://www.microsoft.com/en-us/microsoft-365/visio/flowchart-software) _$$$_
+- For Diagrams: [draw.io](https://app.diagrams.net/) _Free!_
 
-### Wired Networking Components & Fundamentals
+### Shells & Reverse Shells
 
-- [IEEE Ethernet Cabling Standards - Full Table]()
-- [**HoneyNet** & Demilitarized Zone: **DMZ** @ Sunny](https://www.youtube.com/watch?v=FihkG72z7MQ)
-- [**Proxy Servers** @ Sunny](https://www.youtube.com/watch?v=f-oCTcf5k_0)
-- [**IDS & IPS** @ Sunny](https://www.youtube.com/watch?v=cMH4yGE73iQ)
+- Secure-CRT
+    - [Pimp my Secure CRT - ANSI colors & dark shell mode](https://www.vandyke.com/support/tips/colorconfig.html)
+- Putty
+- NetCat
+- SoCat
 
 ### Networking Groups & Organizations
 
@@ -406,8 +411,6 @@ Tables, Lists, Models, Cheat-Sheets, Mind-Maps & Resources
     - Internet Corporation for Assigned Names and Numbers **ICANN**
     - Internet Engineering Steering Group **IESG**
     - Internet Research Task Force **IRTF**
-
-
 
 ### 📝 👷 🏰 IEEE Standards 🏰 👷 📝
 
@@ -468,10 +471,16 @@ Tables, Lists, Models, Cheat-Sheets, Mind-Maps & Resources
     - [**Virtual time CSMA (VTCSMA)** - **Real Time Computing**](https://en.wikipedia.org/wiki/Real-time_computing)
 
 
+### Wired LAN Networking Components & Fundamentals
+
+- [IEEE Ethernet Cabling Standards - Full Table]()
+- [**HoneyNet** & Demilitarized Zone: **DMZ** @ Sunny](https://www.youtube.com/watch?v=FihkG72z7MQ)
+- [**Proxy Servers** @ Sunny](https://www.youtube.com/watch?v=f-oCTcf5k_0)
+- [**IDS & IPS** @ Sunny](https://www.youtube.com/watch?v=cMH4yGE73iQ)
 
 ### 🛰️ 📶 📡 Wireless Communication & RF 📡 📶 🛰️
 
-- Wireless / WiFi Bibles
+- Wireless WLAN / WiFi Bibles
 
     - CWNP
     
@@ -608,23 +617,7 @@ Tables, Lists, Models, Cheat-Sheets, Mind-Maps & Resources
 
 - Passpoint
 
-### 📊 🖥️ 👨‍🚀 Simulators & Emulators 👨‍🚀 🖥️ 📊
- 
-- [Cisco Packet Tracer]() _Network simulation tool for networking, IoT, and cybersecurity in a virtual lab_
-- [GNS3](https://gns3.com/) _Real-time network simulation for pre-deployment testing_
-    - [GNS3 - Appliances](https://www.gns3.com/marketplace/appliances)
-    - [GNS3 - Port Name Formatting](https://docs.gns3.com/docs/using-gns3/advanced/port-name-formatting/)
-- [Eve NG](https://www.eve-ng.net/) _Emulated Virtual Enviorment for Network, Security and DevOps_
-- For Diagrams: [Microsoft Visio](https://www.microsoft.com/en-us/microsoft-365/visio/flowchart-software) _$$$_
-- For Diagrams: [draw.io](https://app.diagrams.net/) _Free!_
 
-### Shells & Reverse Shells
-
-- Secure-CRT
-    - [Pimp my Secure CRT - ANSI colors & dark shell mode](https://www.vandyke.com/support/tips/colorconfig.html)
-- Putty
-- NetCat
-- SoCat
 
 ### ✉️ 👨‍💻 📦 Packet Level 📦 👨‍💻 ✉️ 
 Deep dive into the Packet / PCAP Analysis
@@ -692,6 +685,17 @@ Deep dive into the Packet / PCAP Analysis
 
 
 ### Cisco Networks
+
+- Cisco Secrets & Black Knowledge
+    
+    - [**Cisco Dashboard UI Online test**](https://www.cisco.com/assets/sol/sb/Switches_Emulators_v2_2_015/config/home_sg_350-10p_2_2.htm)
+    - [**Cisco** Networking Infraestructure **CLI/IOS** - **Command Bible**](/Networking/Dark-Wizardy-for-Networking-&-NetSec/Cisco-IOS-Command-Bible-Routing-&-Switching.md) _My CCNA+CCNP Commands & Configurations Pocket Bible_
+    - [**Cisco CCNA v7 200-301** Full Course English](https://ccna-200-301.online/ccna-2/)
+    - [**Cisco CCNA v7 200-301** Full Course Español](https://ccnadesdecero.es/ccna-1/)
+    - [Cisco CCNA Cheat Sheet I](https://github.com/Fz3r0/CCNA-Cheat-Sheet)
+    - https://github.com/Fz3r0/cisco-cheatsheet
+    - https://github.com/Fz3r0/Cisco-IOS-Command-CheatSheets
+    - [all commands ios](https://itexamanswers.net/cisco-ios-commands-help-ccna-commands-cheat-sheet.html)
 
 - **WLC Cisco**
 
