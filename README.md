@@ -576,8 +576,6 @@ Tables, Lists, Models, Cheat-Sheets, Mind-Maps & Resources
     - [More RF Behaivors](https://www.billdeitrick.com/cwna-chapter-2-rf-characteristics-and-behaviors/)
     - [Inside Wireless: **Pérdida de trayectoria / Path Loss**](https://www.youtube.com/watch?v=-XHWEYxW_c4)
 
-
-
 - Radio Frequency (RF) Components and Measurements
 
     - Important Functions of Wireless Devices
@@ -618,6 +616,818 @@ Tables, Lists, Models, Cheat-Sheets, Mind-Maps & Resources
 
 - [Wi-Fi Troubleshooting Tips and Tricks | Ekahau Webinar](https://www.youtube.com/watch?v=5NeuTT_-Q9o)
 
+
+- **CWNA - Certified Wireless Network Administrator: The 4th Impact**
+_Horizon alternitatis systema sephiroticvm X divino rvm nominvm._ <br>
+
+- [EVA I - Overview of Wireless Standards, Organizations, and Fundamentals]() 
+
+    - [History of Wireless Local Area Networks]()
+    - [Standards Organizations]()
+
+        - [Federal Communications Commission]()
+        - [International Telecommunication Union]()
+
+            - [Radiocommunication Sector]() 
+
+    - [Institute of Electrical and Electronics Engineers]()
+        - [Internet Engineering Task Force]()
+        - [Wi-Fi Alliance]()
+        - [International Organization for Standardization]()
+    - [Core, Distribution, and Access]()
+    - [Communications Fundamentals]()
+        - [Communication Terminology]()
+        - [Understanding Carrier Signals]() 
+        - [Understanding Keying Methods]() 
+
+- [EVA II - IEEE 802.11 Standard and Amendments]()
+
+    - [Original IEEE 802.11 Standard]()
+    - [IEEE 802.11-2020 Ratified Amendments]() 
+        
+        - [802.11a-1999]()
+        - [802.11b-1999]()
+        - [802.11d-2001]()
+        - [802.11e-2005]() 
+        - [802.11g-2003]() 
+        - [802.11h-2003]() 
+        - [802.11i-2004]() 
+        - [802.11j-2004]() 
+        - [802.11k-2008]() 
+        - [802.11n-2009]() 
+        - [802.11p-2010]() 
+        - [802.11r-2008]() 
+        - [802.11s-2011]() 
+        - [802.11u-2011]() 
+        - [802.11v-2011]() 
+        - [802.11w-2009]() 
+        - [802.11y-2008]() 
+        - [802.11z-2010]() 
+        - [802.11aa-2012]() 
+        - [802.11ac-2013]() 
+        - [802.11ad-2012]() 
+        - [802.11ae-2012]() 
+        - [802.11af-2014]() 
+        - [802.11ah-2016]() 
+        - [802.11ai-2016]() 
+        - [802.11aj-2018]() 
+        - [802.11ak-2018]() 
+         [802.11aq-2018]() 
+
+    - [IEEE 802.11 Draft Amendments]() 
+
+        - [802.11ax (High Efficiency)]() 
+        - [802.11ay (Next-Generation 60 GHz)]() 
+        - [802.11az (Next-Generation Positioning)]() 
+        - [802.11ba (Wake-Up Radio)]() 
+        - [802.11bb (Light Communications)]() 
+        - [802.11bc (Enhanced Broadcast Service)]() 
+        - [802.11bd (Enhancements for Next-Generation V2X)]() 
+        - [802.11be (Extremely High Throughput)]() 
+
+- [Defunct Amendments]()
+
+        - [802.11F]()
+        - [802.11T]()
+
+- [IEEE Task Group m]()
+
+- [EVA III - Radio Frequency Fundamentals]()
+
+    - [What Is a Radio Frequency Signal?]()  
+    - [Radio Frequency Characteristics]()
+
+        - [Wavelength]()
+        - [Frequency]()
+        - [Amplitude]()
+        - [Phase]()
+
+    - [Radio Frequency Behaviors]()
+
+        - [Wave Propagation]()
+        - [Absorption]()
+        - [Reflection]()
+        - [Scattering]()
+        - [Refraction]()
+        - [Diffraction]()
+        - [Loss (Attenuation)]()
+        - [Free Space Path Loss]()
+        - [Multipath]()
+        - [Gain (Amplification)]()
+        - [RF Analysis Tools]()
+
+
+- [EVA IV - Radio Frequency Components, Measurements, and Mathematics]()
+
+    - [Components of RF Communications]()
+
+        - [Transmitter]()
+        - [Antenna]()
+        - [Receiver]()
+        - [Intentional Radiator]()
+        - [Equivalent Isotropically Radiated Power]()
+
+    - [Units of Power and Comparison]()
+
+        - [Watt]()
+        - [Milliwatt]()
+        - [Decibel]()
+        - [Decibels Relative to an Isotropic Radiator (dBi)]()
+        - [Decibels Relative to a Half-Wave Dipole Antenna (dBd)]()
+        - [Decibels Relative to 1 Milliwatt (dBm)]()
+        - [Inverse Square Law]()
+
+    - [RF Mathematics]()
+
+        - [Rule of 10s and 3s]()
+        - [RF Math Summary]()
+
+    - [Noise Floor]()
+    - [Signal-to-Noise Ratio]()
+
+        - [Signal-to-Interference-Plus-Noise Ratio]()
+
+- [Received Signal Strength Indicator]()
+- [Link Budget]()
+
+        - [Fade Margin/System Operating Margin]()
+
+- [EVA V - Radio Frequency Signal and Antenna Concepts]()
+
+    - [Azimuth and Elevation Charts (Antenna Radiation Envelopes)]()
+    - [Interpreting Polar Charts]()
+    - [Beamwidth]()
+    - [Antenna Types]()
+        
+        - [Omnidirectional Antennas]()
+        - [Downtilt Omnidirectional Antennas]()
+        - [Semidirectional Antennas]()
+        - [Highly Directional Antennas]()
+        - [Sector Antennas]()
+        - [Antenna Arrays]()
+
+    - [Visual Line of Sight]()
+    - [RF Line of Sight]()
+    - [Fresnel Zone]()
+    - [Earth Bulge]()
+    - [Antenna Polarization]()
+    - [Antenna Diversity]()
+    - [Multiple-Input, Multiple-Output]()
+
+        - [MIMO Antennas]()
+
+    - [Antenna Connection and Installation]()
+        
+        - [Voltage Standing Wave Ratio]()
+        - [Signal Loss]()
+        - [Antenna Mounting]()
+
+    - [Antenna Accessories]()
+
+        - [Cables]()
+        - [Connectors]()
+        - [Splitters]()
+        - [Amplifiers]()
+        - [Attenuators]()
+        - [Lightning Arrestors]()
+        - [Grounding Rods and Wires]()
+
+    - [Regulatory Compliance]()
+
+
+- [EVA VI - Wireless Networks and Spread Spectrum Technologies]()
+
+    - [Throughput vs. Bandwidth]()
+    - [Narrowband and Spread Spectrum]()
+        
+        - [Multipath Interference]()
+
+    - [Frequency-Hopping Spread Spectrum]()
+        
+        - [Hopping Sequence]()
+        - [Dwell Time]()
+        - [Hop Time]()
+        - [Modulation]()
+
+    - [Direct-Sequence Spread Spectrum]()
+
+        - [DSSS Data Encoding]()
+        - [Modulation]()
+        - [Transmit Spectrum Mask]()
+
+    - [Orthogonal Frequency-Division Multiplexing]()
+
+        - [Convolutional Coding]()
+        - [Modulation]()
+        - [Transmit Spectrum Mask]()
+        - [Orthogonal Frequency-Division Multiple Access]()
+
+    - [Industrial, Scientific, and Medical Bands]()
+
+        - [900 MHz ISM Band]()
+        - [2.4 GHz ISM Band]()
+        - [5.8 GHz ISM Band]()
+
+    - [5 GHz Unlicensed National Information Infrastructure Bands]()
+
+        - [U-NII-1]()
+        - [U-NII-2A]()
+        - [U-NII-2C]()
+        - [U-NII-3]()
+        - [U-NII-4]()
+
+    - [60 GHz for Wi-Fi]()
+    - [Below 1 GHz]()
+    - [2.4 GHz Channels]()
+    - [5 GHz Channels]()
+
+        - [Long-Term Evolution in 5 GHz]()
+        - [6 GHz Channels]()
+        - [6 GHz Incumbents]()
+        - [Automated Frequency Coordination]()
+        - [6 GHz Worldwide]()
+        - [6 GHz Wi-Fi Considerations]()
+
+- [EVA VII - Wireless LAN Topologies]()
+
+    - [Wireless Networking Topologies]()
+        
+        - [Wireless Wide Area Network]()
+        - [Wireless Metropolitan Area Network]()
+        - [Wireless Personal Area Network]()
+        - [Wireless Local Area Network]()   
+
+    - [802.11 Stations]()
+
+        - [Client Station]()
+        - [Access Point Station]()
+        - [Integration Service]()
+        - [Distribution System]()
+        - [Wireless Distribution System]()
+
+    - [802.11 Service Sets]()
+
+        - [Service Set Identifier]()
+        - [Basic Service Set]()
+        - [Basic Service Area]()
+        - [Basic Service Set Identifier]()
+        - [Multiple Basic Service Set Identifiers]()
+        - [Extended Service Set]()
+        - [Independent Basic Service Set]()
+        - [Personal Basic Service Set]()
+        - [Mesh Basic Service Set]()
+        - [QoS Basic Service Set]()
+
+    - [802.11 Configuration Modes]()
+
+        - [Access Point Modes]()
+        - [Client Station Modes]()
+
+- [EVA VIII - 802.11 Medium Access]()
+
+    - [CSMA/CA vs. CSMA/CD]()
+    - [Collision Detection]()
+    - [Distributed Coordination Function]()
+
+        - [Physical Carrier Sense]()
+        - [Virtual Carrier Sense]()
+        - [Pseudo-Random Backoff Timer]()
+        - [Interframe Space]()
+
+    - [Hybrid Coordination Function]()
+
+        - [Enhanced Distributed Channel Access]()
+        - [HCF Controlled Channel Access]()
+
+- [Wi-Fi Multimedia]()
+- [Airtime Fairness]()
+
+- [EVA IX - 802.11 MAC]()
+
+    - [Packets, Frames, and Bits]()
+    - [Data-Link Layer]()
+
+        - [MAC Service Data Unit]()
+        - [MAC Protocol Data Unit]()
+
+    - [Physical Layer]()
+
+        - [PLCP Service Data Unit]()
+        - [PLCP Protocol Data Unit]()
+
+    - [802.11 and 802.3 Interoperability]()
+    - [802.11 MAC Header]()
+
+        - [Frame Control Field]()
+        - [Duration/ID Field]()
+        - [MAC Layer Addressing]()
+        - [Sequence Control Field]()
+        - [QoS Control Field]()
+        - [HT Control Field]()
+
+    - [802.11 Frame Body]()
+    - [802.11 Trailer]()
+    - [802.11 State Machine]()
+    - [Management Frames]()
+    
+        - [Beacon]()
+        - [Authentication]()
+        - [Association]()
+        - [Reassociation]()
+        - [Disassociation]()
+        - [Deauthentication]()
+        - [Action Frame]()
+
+    - [Control Frames]()
+
+        - [ACK Frame]()
+        - [Block Acknowledgment]()
+        - [PS-Poll]()
+        - [RTS/CTS]()
+        - [CTS-to-Self]()
+        - [Protection Mechanisms]()
+
+    - [Data Frames]()
+
+        - [QoS and Non-QoS Data Frames]()
+        - [Non-Data Carrying Frames]()
+
+    - [Power Management]()
+
+        - [Legacy Power Management]()
+        - [WMM-Power Save and U-APSD]()
+        - [MIMO Power Management]()
+        - [802.11ax Power Management]()
+
+- [EVA X - MIMO Technology: HT and VHT]()
+
+    - [MIMO]()
+    
+        - [Radio Chains]()
+        - [Spatial Multiplexing]()
+        - [MIMO versus SISO diversity]()
+        - [Maximal Ratio Combining]()
+        - [Space-Time Block Coding]()
+        - [Cyclic Shift Diversity]()
+        - [Transmit Beamforming]()
+        - [Explicit Beamforming]()
+
+    - [Multi-User MIMO]()
+
+        - [Multi-User Beamforming]()
+    
+    - [Channels]()
+
+        - [20 MHz Channels]()
+        - [40 MHz Channels]()
+        - [Forty MHz Intolerant]()
+        - [80 MHz and 160 MHz Channels]()
+
+    - [Guard Interval]()
+    - [256-QAM Modulation]()
+    - [802.11n/ac PPDUs 388]()
+        
+        - [Non-HT 388]()
+        - [HT Mixed 388]()
+        - [VHT 389]()
+
+    - [802.11n/ac MAC 390]()
+
+        - [A-MSDU 390]()
+        - [A-MPDU 391]()
+        - [Block Acknowledgment]()
+        - [Power Management]()
+        - [Modulation and Coding Scheme]()
+        - [802.11ac Data Rates]()
+
+    - [HT/VHT Protection Mechanisms]()
+
+        - [HT Protection Modes (0–3)]()
+
+    - [Wi-Fi Alliance Certification]()
+
+- [EVA XI - WLAN Architecture]()
+
+    - [WLAN Client Devices]()
+
+        - [802.11 Radio Form Factors]()
+        - [802.11 Radio Chipsets]()
+        - [Client Utilities]()
+
+    - [Management, Control, and Data Planes]()
+
+        - [Management Plane]()
+        - [Control Plane]()
+        - [Data Plane]()
+
+    - [WLAN Architecture]()
+
+        - [Autonomous WLAN Architecture]()
+        - [Centralized Network Management Systems]()
+        - [Centralized WLAN Architecture]()
+        - [Distributed WLAN Architecture]()
+        - [Hybrid WLAN Architecture]()
+
+    - [Specialty WLAN Infrastructure]()
+
+        - [Enterprise WLAN Branch Routers]()
+        - [WLAN Mesh Access Points]()
+        - [WLAN Bridges]()
+        - [Real-Time Location Systems]()
+        - [VoWiFi]()
+
+    - [Cloud Networking]()
+    - [Application Programming Interface]()
+        
+        - [Transport and Data Formats]()
+        - [WLAN APIs]()
+        - [Common Applications]()
+
+    - [Infrastructure Management]()
+
+        - [Protocols for Management]()
+
+
+- [EVA XII - Power over Ethernet (PoE)]()
+
+- [History of PoE]()
+
+        - [Nonstandard PoE]()
+        - [IEEE 802.3af]()
+        - [IEEE Std 802.3-2005, Clause 33]()
+        - [IEEE 802.3at-2009]()
+        - [IEEE Std 802.3-2018, Clause 33]()
+        - [IEEE 802.3bt-2018]()
+
+    - [PoE Devices]()
+        
+        - [Powered Device]()
+        - [Power-Sourcing Equipment]()
+        - [Endpoint PSE]()
+        - [Midspan PSE]()
+
+    - [Planning and Deploying PoE]()
+
+        - [Power Planning]()
+        - [Redundancy]()
+        - [Downgrade PoE Capabilities]()
+        - [802.3bt Power Considerations]()
+
+- [EVA XIII - WLAN Design Concepts]()
+
+    - [WLAN Coverage Design]()
+
+        - [Received Signal]()
+        - [Signal-to-Noise Ratio]()
+        - [Dynamic Rate Switching]()
+        - [Transmit Power]()
+        
+    - [Roaming Design]()
+        
+        - [Primary and Secondary Coverage]()
+        - [Fast Secure Roaming]()
+        - [Layer 3 Roaming]()
+
+    - [Channel Design]()
+
+        - [Adjacent Channel Interference]()
+        - [2.4 GHz Channel Reuse]()
+        - [Co-Channel Interference]()
+        - [5 GHz Channel Reuse]()
+        - [DFS Channels]()
+        - [40 MHz Channel Design]()
+        - [Static Channels and Transmit Power vs. Adaptive RF]()
+        - [Single-Channel Architecture]()
+
+    - [Capacity Design]()
+
+        - [High-Density]()
+        - [Band Steering]()
+        - [Load Balancing]()
+        - [Airtime Consumption]()
+
+    - [Voice vs. Data]()
+    - [Dual 5 GHz and Software-Defined Radios]()
+    - [6 GHz WLAN Design]()
+
+        - [Client Considerations]()
+        - [Coverage Considerations]()
+        - [6 GHz Channel Reuse]()
+        - [6 GHz AP Discovery]()
+        - [6 GHz Wi-Fi Security]()
+
+    - [Physical Environment]()
+    - [Antennas]()
+    - [Outdoor Design]()
+
+
+- [EVA IV - Site Survey and Validation]()
+
+    - [WLAN Site Survey and Design Interview]()
+
+        - [Customer Briefing]()
+        - [Business Requirements]()
+        - [Capacity and Coverage Requirements]()
+        - [Existing Wireless Network]()
+        - [Upgrading an Existing WLAN]()
+        - [Infrastructure Connectivity]()
+        - [Security Expectations]()
+        - [Guest Access]()
+        - [Aesthetics]()
+        - [Outdoor Surveys]()
+
+    - [Vertical Market Considerations]()
+
+        - [Government]()
+        - [Education]()
+        - [Healthcare]()
+        - [Retail]()
+        - [Warehouses and Manufacturing]()
+        - [Multi-Tenant Buildings]()
+
+    - [Legacy AP-on-a-Stick Survey]()
+
+        - [Spectrum Analysis]()
+        - [Coverage Analysis]()
+
+    - [Hybrid Survey]()
+
+        - [Initial Site Visit]()
+        - [Predictive Design]()
+    
+    - [Validation Survey]()
+    
+        - [Capacity and Throughput]()
+        - [Roaming]()
+        - [Delay and Jitter]()
+        - [Connectivity]()
+        - [Aesthetics]()
+
+    - [Site Survey Tools]()
+
+        - [Indoor Site Survey Tools]()
+        - [Outdoor Site Survey Tools]()
+
+    - [Documents and Reports]()
+
+        - [Forms and Customer Documentation]()
+        - [Deliverables]()
+        - [Additional Reports]()
+
+- [EVA XV - WLAN Troubleshooting]()
+
+    - [Five Tenets of WLAN Troubleshooting]()
+
+        - [Troubleshooting Best Practices]()
+        - [Troubleshoot the OSI Model]()
+        - [Most Wi-Fi Problems Are Client Issues]()
+        - [Proper WLAN Design Reduces Problems]()
+        - [WLAN Always Gets the Blame]()
+
+    - [Layer 1 Troubleshooting]()
+
+        - [WLAN Design]()
+        - [Transmit Power]()
+        - [RF Interference]()
+        - [Drivers]()
+        - [PoE]()
+        - [Firmware Bugs]()
+
+    - [Layer 2 Troubleshooting]()
+    
+        - [Layer 2 Retransmissions]()
+        - [RF Interference]()
+        - [Low SNR]()
+        - [Adjacent Channel Interference]()
+        - [Hidden Node]()
+        - [Mismatched Power]()
+        - [Multipath]()
+
+    - [Security Troubleshooting]()
+
+        - [PSK Troubleshooting]()
+        - [802.1X/EAP Troubleshooting]()
+        - [VPN Troubleshooting]()
+
+    - [Roaming Troubleshooting]()
+    - [Channel Utilization]()
+    - [Layers 3–7 Troubleshooting]()
+    - [WLAN Troubleshooting Tools]()
+    
+        - [WLAN Discovery Applications]()
+        - [Spectrum Analyzers]()
+        - [Protocol Analyzers]()
+        - [Throughput Test Tools]()
+        - [Standard IP Network Test Commands]()
+        - [Secure Shell]()
+
+- [EVA XVI - Wireless Attacks, Intrusion Monitoring, and Policy]()
+
+    - [Wireless Attacks]()
+
+        - [Rogue Wireless Devices]()
+        - [Peer-to-Peer Attacks]()
+        - [Eavesdropping]()
+        - [Encryption Cracking]()
+        - [KRACK Attack]()
+        - [Kr00k Vulnerability]()
+        - [Authentication Attacks]()
+        - [MAC Spoofing]()
+        - [Management Interface Exploits]()
+        - [Wireless Hijacking]()
+        - [Denial-of-Service Attacks]()
+        - [Vendor-Specific Attacks]()
+        - [Social Engineering]()
+    
+    - [Intrusion Monitoring]()
+    
+        - [Wireless Intrusion Prevention System]()
+        - [Rogue Detection and Mitigation]()
+        - [Spectrum Analyzers]()
+
+    - [Wireless Security Policies]()
+
+        - [General Security Policies]()
+        - [Functional Security Policies]()
+        - [Legislative Compliance]()
+        - [802.11 Wireless Policy Recommendations]()
+
+- [EVA XVII - 802.11 Network Security Architecture]()
+
+    - [802.11 Security Basics]()
+
+        - [Data Privacy and Integrity]()
+        - [Authentication, Authorization, and Accounting]()
+        - [Segmentation]()
+        - [Monitoring and Policy]()
+
+    - [Legacy 802.11 Security]()
+
+        - [Legacy Authentication]()
+        - [Static WEP Encryption]()
+        - [MAC Filters]()
+        - [SSID Cloaking]()
+
+    - [Robust Security]()
+
+        - [Robust Security Network]()
+        - [Authentication and Authorization]()
+        - [PSK Authentication]()
+        - [Proprietary PSK Authentication]()
+        - [Simultaneous Authentication of Equals]()
+        - [802.1X/EAP Framework]()
+        - [EAP Types]()
+        - [Dynamic Encryption-Key Generation]()
+        - [4-Way Handshake]()
+        - [WLAN Encryption]()
+        - [TKIP Encryption]()
+        - [CCMP Encryption]()
+        - [GCMP Encryption]()
+
+    - [Management Frame Protection]()
+    - [WPA2]()
+    - [WPA3]()
+
+        - [WPA3-Personal]()
+        - [WPA3-Enterprise]()
+
+    - [Enhanced Open]()
+    - [6 GHz Wi-Fi Security]()
+    - [Traffic Segmentation]()
+
+        - [VLANs]()
+        - [RBAC]()
+
+    - [VPN Wireless Security]()
+
+        - [VPN 101]()
+        - [Layer 3 VPNs]()
+        - [SSL VPNs]()
+        - [VPN Deployment]()
+
+- [EVA XVIII - Bring Your Own Device (BYOD) and Guest Access]()
+
+    - [Mobile Device Management]()
+    - [Company-Issued Devices vs. Personal Devices]()
+
+        - [MDM Architecture]()
+        - [MDM Enrollment]()
+        - [MDM Profiles]()
+        - [MDM Agent Software]()
+        - [Over-the-Air Management]()
+        - [Application Management]()
+
+    - [Self-Service Device Onboarding for Employees]()
+
+        - [Dual-SSID Onboarding]()
+        - [Single-SSID Onboarding]()
+        - [MDM vs. Self-Service Onboarding]()
+
+    - [Guest WLAN Access]()
+        
+        - [Guest SSID]()
+        - [Guest VLAN]()
+        - [Guest Firewall Policy]()
+        - [Captive Web Portals]()
+        - [Client Isolation, Rate Limiting, and Web Content Filtering]()
+        - [Guest Management]()
+        - [Guest Self-Registration]()
+        - [Employee Sponsorship]()
+        - [Social Login]()
+        - [Encrypted Guest Access]()
+
+- [Hotspot 2.0 and Passpoint]()
+
+        - [Access Network Query Protocol]()
+        - [Hotspot 2.0 Architecture]()
+        - [802.1X/EAP and Hotspot 2.0]()
+        - [Online Sign-Up]()
+        - [Roaming Agreements]()
+
+    - [Network Access Control]()
+
+        - [Posture]()
+        - [OS Fingerprinting]()
+        - [AAA]()
+        - [RADIUS Change of Authorization]()
+        - [Single Sign-On]()
+
+- [EVA XIX - 802.11ax: High Efficiency (HE)]()
+
+    - [802.11ax = Wi-Fi 6]()
+    - [Wi-Fi Traffic Congestion]()
+    - [HE Overview]()
+    - [Multi-User]()
+    - [OFDMA]()
+
+        - [Subcarriers]()
+        - [Resource Units]()
+        - [Trigger Frames]()
+        - [Downlink OFDMA]()
+        - [Uplink OFDMA]()
+        - [Buffer Status Reports]()
+        - [Operating Mode Indication]()
+
+    - [MU-MIMO]()
+    - [BSS Color and Spatial Reuse]()
+
+        - [OBSS]()
+        - [BSS Color]()
+        - [Spatial Reuse Operation]()
+
+    - [Target Wake Time]()
+    - [Additional 802.11ax PHY and MAC Capabilities]()
+
+        - [1024-QAM]()
+        - [Long Symbol Time and Guard Intervals]()
+        - [802.11ax PHY headers]()
+        - [20 MHz-Only]()
+        - [Multi-TID AMPDU]()
+
+    - [Wi-Fi 6 Key Questions]()
+
+        - [Clients]()
+        - [Multi-Gig Ethernet]()
+        - [Power over Ethernet]()
+        - [4×4:4 vs. 8×8:8]()
+        - [80 MHz and 160 MHz Channels]()
+
+    - [Wi-Fi CERTIFIED 6]()
+
+- [EVA XX - WLAN Deployment and Vertical Markets]()
+
+    - [Deployment Considerations for Commonly Supported WLAN Applications and Devices]()
+
+        - [Data]()
+        - [Voice]()
+        - [Video]()
+        - [Real-Time Location Services]()
+        - [iBeacon Proximity]()
+        - [Mobile Devices]()
+
+    - [Corporate Data Access and End-User Mobility]()
+    - [Network Extension to Remote Areas]()
+    - [Bridging: Building-to-Building Connectivity]()
+    - [Wireless ISP: Last-Mile Data Delivery]()
+    - [Small Office/Home Office]()
+    - [Temporary Office Networking]()
+    - [Branch Offices]()
+    - [Teleworker Wi-Fi]()
+    - [Educational/Classroom Use]()
+    - [Industrial: Warehousing and Manufacturing]()
+    - [Retail]()
+    - [Healthcare]()
+    - [Municipal Networks]()
+    - [Hotspots: Public Network Access]()
+    - [Stadium Networks]()
+    - [Transportation Networks]()
+    - [Law Enforcement Networks]()
+    - [First-Responder Networks]()
+    - [Managed Service Providers]()
+    - [Fixed Mobile Convergence]()
+    - [WLAN and Health]()
+    - [Internet of Things]()
+    - [WLAN Vendors]()
 
 
 ### ✉️ 👨‍💻 📦 Packet Level 📦 👨‍💻 ✉️ 
