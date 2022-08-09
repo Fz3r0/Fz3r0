@@ -479,6 +479,10 @@ Tables, Lists, Models, Cheat-Sheets, Mind-Maps & Resources
 - [**Proxy Servers** @ Sunny](https://www.youtube.com/watch?v=f-oCTcf5k_0)
 - [**IDS & IPS** @ Sunny](https://www.youtube.com/watch?v=cMH4yGE73iQ)
 
+- Optic Fiber
+
+    - [Transceptores de **Fibra duplex y bidireccional** - Conexión con SPF y Fibras](https://www.youtube.com/watch?v=p1mFqp-Mc1s)
+
 ### 🛰️ 📶 📡 Wireless Communication & RF 📡 📶 🛰️
 
 - Wireless WLAN / WiFi Bibles
