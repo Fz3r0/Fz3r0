@@ -1587,7 +1587,7 @@ Deep dive into the Packet / PCAP Analysis
         - [Account Creation](https://youtu.be/GJ8EPOb1E-Y)
         - [Admin Group Creation](https://youtu.be/l_YFVBEvCq8)
         - [Domain Creation](https://youtu.be/B38phGZ8Mf0)
-        - []()
+        - [WLAN Schedules and VLAN Pooling](https://youtu.be/YgPK8gzwNPk)
 
 - **Zone Director**
 
