@@ -1556,18 +1556,24 @@ Deep dive into the Packet / PCAP Analysis
     - [What Is **Ruckus Unleashed**?](https://www.firewalls.com/blog/what-is-ruckus-unleashed/)
     - [**Deploy Ruckus Unleashed** in Less than a Minute & Admin like a Sir!](https://www.youtube.com/watch?v=8skRjj0OfhM&list=PLwZotTMbkZQHmY4cyfbwFOH8lCSRF_VDA)
 
-- **SmartZone**
+- **SmartZone** (General Info & Legacy SZ)
 
-    - [**SmartZone OS5: THE FULL DARK BIBLE TO CONTROL THE AIR, WOOF WOOF!!!**](https://www.youtube.com/watch?v=CBB9CSuOJHY&list=PLySwoo7u9-KJLZWZj0tDtG5jo-QRdeQw0)
-    - [**SmartZone: SZ-300 VSZH scg200 administrator guide PDF**](https://github.com/Fz3r0/Fz3r0/files/9128430/SMART_ZONE_sz300-vszh-scg200-administrator-guide.pdf)
-    - [**SmartZone: 2022 version: RUCKUS SmartZone 100, SmartZone 144, and Virtual SmartZone-Essentials Administrator Guide, 5.2.1F**](https://docs.commscope.com/bundle/sz-521-adminguide-sz100vsz/page/GUID-C9A5B40D-6500-49E7-B589-A060619DF747.html)
-    - [SmartZone OS5: SmartZone System Configuration](https://www.youtube.com/watch?v=KIJ5h6rV098)
-    - [SmartZone OS5: SmartZone Zone Configuration: Advanced Options](https://www.youtube.com/watch?v=G79JTDPrBt4)
-    - [SmartZone OS5: SmartZone Directed Multicast](https://www.youtube.com/watch?v=1q2iPheO-dY)
-    - [SmartZone OS5: Bonjour Services](https://www.youtube.com/watch?v=TyG-N9f8lsk)
-    - [SmartZone OS5: Bonjour Services (offical HTML version)](https://docs.commscope.com/bundle/sz-521-adminguide-sz100vsz/page/GUID-C9A5B40D-6500-49E7-B589-A060619DF747.html)
-    - [SmartZone: RUCKUS Wireless Troubleshooting: Auto Cell Sizing](https://www.youtube.com/watch?v=tKfvlFRc37M)
-    - [**Ruckus Log4J vSZ Patch** and Work Around](https://www.youtube.com/watch?v=56_tgSApKkA&list=PLwZotTMbkZQFA_Lm9qjAFKOQMWM3aOCHG) 
+    - **Full SmartZone Guides**
+   
+        - [**SmartZone OS5: THE FULL DARK BIBLE TO CONTROL THE AIR, WOOF WOOF!!!**](https://www.youtube.com/watch?v=CBB9CSuOJHY&list=PLySwoo7u9-KJLZWZj0tDtG5jo-QRdeQw0)
+        - [**SmartZone: SZ-300 VSZH scg200 administrator guide PDF**](https://github.com/Fz3r0/Fz3r0/files/9128430/SMART_ZONE_sz300-vszh-scg200-administrator-guide.pdf)
+        - [**SmartZone: 2022 version: RUCKUS SmartZone 100, SmartZone 144, and Virtual SmartZone-Essentials Administrator Guide, 5.2.1F**](https://docs.commscope.com/bundle/sz-521-adminguide-sz100vsz/page/GUID-C9A5B40D-6500-49E7-B589-A060619DF747.html)
+
+    - **Ruckus Networks Education - SmartZone**
+  
+        - [Configuring a SmartZone 3.6.1 Controller Prior to Adding APs](https://www.youtube.com/watch?v=j-cDiGTtLUI)
+        - [SmartZone OS5: SmartZone System Configuration](https://www.youtube.com/watch?v=KIJ5h6rV098)
+        - [SmartZone OS5: SmartZone Zone Configuration: Advanced Options](https://www.youtube.com/watch?v=G79JTDPrBt4)
+        - [SmartZone OS5: SmartZone Directed Multicast](https://www.youtube.com/watch?v=1q2iPheO-dY)
+        - [SmartZone OS5: Bonjour Services](https://www.youtube.com/watch?v=TyG-N9f8lsk)
+        - [SmartZone OS5: Bonjour Services (offical HTML version)](https://docs.commscope.com/bundle/sz-521-adminguide-sz100vsz/page/GUID-C9A5B40D-6500-49E7-B589-A060619DF747.html)
+        - [SmartZone: RUCKUS Wireless Troubleshooting: Auto Cell Sizing](https://www.youtube.com/watch?v=tKfvlFRc37M)
+        - [**Ruckus Log4J vSZ Patch** and Work Around](https://www.youtube.com/watch?v=56_tgSApKkA&list=PLwZotTMbkZQFA_Lm9qjAFKOQMWM3aOCHG) 
     
 - **SmartZone 5.2 HighScale Deployment** - Secrets, Hints & Tricks
 
