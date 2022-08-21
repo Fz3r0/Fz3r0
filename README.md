@@ -1550,6 +1550,7 @@ Deep dive into the Packet / PCAP Analysis
 - **Ruckus Security**
 
     - [CommScope Ruckus CVE Announcement - **FragAttack**](https://www.youtube.com/watch?v=nfz6v2NsS2Y)
+    - [**Ruckus Log4J vSZ Patch** and Work Around](https://www.youtube.com/watch?v=56_tgSApKkA&list=PLwZotTMbkZQFA_Lm9qjAFKOQMWM3aOCHG) 
 
 - **Ruckus Unleashed**
 
@@ -1567,13 +1568,14 @@ Deep dive into the Packet / PCAP Analysis
     - **Ruckus Networks Education - SmartZone**
   
         - [Configuring a SmartZone 3.6.1 Controller Prior to Adding APs](https://www.youtube.com/watch?v=j-cDiGTtLUI)
-        - [SmartZone OS5: SmartZone System Configuration](https://www.youtube.com/watch?v=KIJ5h6rV098)
-        - [SmartZone OS5: SmartZone Zone Configuration: Advanced Options](https://www.youtube.com/watch?v=G79JTDPrBt4)
-        - [SmartZone OS5: SmartZone Directed Multicast](https://www.youtube.com/watch?v=1q2iPheO-dY)
-        - [SmartZone OS5: Bonjour Services](https://www.youtube.com/watch?v=TyG-N9f8lsk)
-        - [SmartZone OS5: Bonjour Services (offical HTML version)](https://docs.commscope.com/bundle/sz-521-adminguide-sz100vsz/page/GUID-C9A5B40D-6500-49E7-B589-A060619DF747.html)
-        - [SmartZone: RUCKUS Wireless Troubleshooting: Auto Cell Sizing](https://www.youtube.com/watch?v=tKfvlFRc37M)
-        - [**Ruckus Log4J vSZ Patch** and Work Around](https://www.youtube.com/watch?v=56_tgSApKkA&list=PLwZotTMbkZQFA_Lm9qjAFKOQMWM3aOCHG) 
+        - [Provisioning Access Points with Ruckus SmartZone 3.5](https://www.youtube.com/watch?v=8kT_hL7Slec)
+        - [System Configuration](https://www.youtube.com/watch?v=KIJ5h6rV098)
+        - [Zone Configuration: Advanced Options](https://www.youtube.com/watch?v=G79JTDPrBt4)
+        - [Directed Multicast](https://www.youtube.com/watch?v=1q2iPheO-dY)
+        - [Bonjour Services](https://www.youtube.com/watch?v=TyG-N9f8lsk)
+        - [Bonjour Services (offical HTML version)](https://docs.commscope.com/bundle/sz-521-adminguide-sz100vsz/page/GUID-C9A5B40D-6500-49E7-B589-A060619DF747.html)
+        - [Auto Cell Sizing](https://www.youtube.com/watch?v=tKfvlFRc37M)
+
     
 - **SmartZone 5.2 HighScale Deployment** - Secrets, Hints & Tricks
 
