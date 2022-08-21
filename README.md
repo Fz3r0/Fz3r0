@@ -471,7 +471,6 @@ Tables, Lists, Models, Cheat-Sheets, Mind-Maps & Resources
     - [**CSMA with Collision Resolution (CSMA/CR)** - **Vehicles, Trucks, Agriculture**](https://en.wikipedia.org/wiki/CAN_bus)
     - [**Virtual time CSMA (VTCSMA)** - **Real Time Computing**](https://en.wikipedia.org/wiki/Real-time_computing)
 
-
 ### 🕸️ 🖧 🔌 Wired LAN Networking Components & Fundamentals
 
 - [IEEE Ethernet Cabling Standards - Full Table]()
@@ -482,6 +481,12 @@ Tables, Lists, Models, Cheat-Sheets, Mind-Maps & Resources
 - Optic Fiber
 
     - [Transceptores de **Fibra duplex y bidireccional** - Conexión con SPF y Fibras](https://www.youtube.com/watch?v=p1mFqp-Mc1s)
+
+### 🔌 Structured Cabling
+
+- Structured Cabling Full Courses & Resources
+
+    - [Cableado Estructurado desde cero a pro!!! @ Network Warriors](https://www.youtube.com/watch?v=enQcM3BmH6Y&list=PLoqM5eIpDpUE48rYEzlwQNPvXFyhD-l7k)
 
 ### 🛰️ 📶 📡 Wireless Communication & RF 📡 📶 🛰️
 
