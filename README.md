@@ -1518,15 +1518,18 @@ Deep dive into the Packet / PCAP Analysis
 
 ### 🐶 📡 🔮 Ruckus Wireless | Commscope
 
-- [Ruckcast Podcast](https://open.spotify.com/show/2pHzLyLe3P9HRXI40YpFdD)
+- **Ruckus Wireless Fundamentals**
 
-- **Rukcus Wireless Black Magics - Optimizing WiFi Coverage**
+    - [Full Ruckus Wireless Fundamentals Course](https://www.youtube.com/watch?v=wxa2ZX5ofRo&list=PLySwoo7u9-KL4RMboSyITYGRYqWCikc1Q)
+    - [Ruckcast Podcast](https://open.spotify.com/show/2pHzLyLe3P9HRXI40YpFdD)
+
+- **Rukcus Wireless - Optimizing WiFi Coverage**
 
     - [**Band Balancing**](https://www.youtube.com/watch?v=gsv9Tiqpt18)
     - [**Rogue AP Detection** - De-Auth Attack for Mitigation](https://www.youtube.com/watch?v=Uk0QN7ckL-I)
     - [**Auto Cell Sizing** - Background scanning + Auto Cell - Auto-FTW!](https://www.youtube.com/watch?v=E0_kISkfEd0)
 
-- **Access Point (AP) placement like a Sir!**
+- **Ruckus Access Point (AP) placement like a Sir!**
 
     - [Orientation Matters](https://www.youtube.com/watch?v=_7ZZodhMieI&t=1s)
     - [Materials and Obstacles](https://www.youtube.com/watch?v=p4fUJkqNjFs&t=1s)
@@ -1577,7 +1580,7 @@ Deep dive into the Packet / PCAP Analysis
         - [Auto Cell Sizing](https://www.youtube.com/watch?v=tKfvlFRc37M)
 
     
-- **SmartZone 5.2 HighScale Deployment** - Secrets, Hints & Tricks
+- **SmartZone 5.2 HighScale Deployment** - Last Version: Secrets, Hints & Tricks
 
     - Commscope/Ruckus Official Online Course **RAZA 200**
 
