@@ -2022,8 +2022,12 @@ Guides, Tips & Tricks, Downloads, Training, Crafting, Arsenal, Binaries, Executa
     - [Tool: Wireshark the Basics](https://tryhackme.com/room/wiresharkthebasics)
     - [Tool: Network Miner](https://tryhackme.com/room/networkminer)
 
-### ♻️ 🧬 🤖 Network Automation 🤖 🧬 ♻️
+### ♻️ 🧬 🤖 Network 🤖 🧬 ♻️
 Network Automation is a cross between the discipline of Network Infrastructure and the discipline of Programming. 
+
+- Network Automation Full Courses & Resoursces
+
+    - [Curso de Automatización de Redes Cisco dese cero!!! @ Network Warriors](https://www.youtube.com/watch?v=ndIW0ST3ipo&list=PLoqM5eIpDpUG3j9rPt5l-1o8puVs34fii)
 
 - Software Defined Networks (SDN) 
  
