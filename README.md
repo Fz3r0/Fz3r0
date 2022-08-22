@@ -1604,6 +1604,7 @@ Deep dive into the Packet / PCAP Analysis
         - [Admin Group Creation](https://youtu.be/l_YFVBEvCq8)
         - [Domain Creation](https://youtu.be/B38phGZ8Mf0)
         - [WLAN Schedules and VLAN Pooling](https://youtu.be/YgPK8gzwNPk)
+        - [Airtime Decongestion](https://www.youtube.com/watch?v=czToBv6eF6A)
 
 - **Zone Director**
 
