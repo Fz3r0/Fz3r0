@@ -471,18 +471,23 @@ Tables, Lists, Models, Cheat-Sheets, Mind-Maps & Resources
     - [**CSMA with Collision Resolution (CSMA/CR)** - **Vehicles, Trucks, Agriculture**](https://en.wikipedia.org/wiki/CAN_bus)
     - [**Virtual time CSMA (VTCSMA)** - **Real Time Computing**](https://en.wikipedia.org/wiki/Real-time_computing)
 
-### 🕸️ 🖧 🔌 Wired LAN Networking Components & Fundamentals
+### 🕸️ 🖧 🔌 Wired LAN Networking & Structured Cabling
+
+- Structured Cabling Fundamentals
 
 - [IEEE Ethernet Cabling Standards - Full Table]()
 - [**HoneyNet** & Demilitarized Zone: **DMZ** @ Sunny](https://www.youtube.com/watch?v=FihkG72z7MQ)
 - [**Proxy Servers** @ Sunny](https://www.youtube.com/watch?v=f-oCTcf5k_0)
 - [**IDS & IPS** @ Sunny](https://www.youtube.com/watch?v=cMH4yGE73iQ)
 
+- UTP & STP
+
+    - [Ethernet Cable Color Coding & EZ diagram!](https://incentre.net/ethernet-cable-color-coding-diagram/)
+    - [Pinout Diagram - Tx +/- | Rx +/- | PoE DC +/-](https://www.etechnog.com/2021/12/poe-pinout-diagram-color-code.html)
+    
 - Optic Fiber
 
     - [Transceptores de **Fibra duplex y bidireccional** - Conexión con SPF y Fibras](https://www.youtube.com/watch?v=p1mFqp-Mc1s)
-
-### 🔌 Structured Cabling
 
 - Structured Cabling Full Courses & Resources
 
