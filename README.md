@@ -1627,6 +1627,19 @@ Deep dive into the Packet / PCAP Analysis
     - [SmartZone: Capture Traffic & Sniffing Access Points!!!](https://www.youtube.com/watch?v=gsoJo9yZi4o)
     - [RUCKUS Wireless Troubleshooting: L2 Retransmit](https://www.youtube.com/watch?v=dqqs-NskEWk)
 
+### Fortinet
+
+- Fortinet Fundamentals
+
+[FORTINET DOCUMENT LIBRARY](https://docs.fortinet.com)
+[FORTINET VIDEO GUIDE](https://video.fortinet.com)
+[FORTINET BLOG](https://blog.fortinet.com)
+[CUSTOMER SERVICE & SUPPORT](https://support.fortinet.com)
+[FORTINET TRAINING & CERTIFICATION PROGRAM](https://www.fortinet.com/support-and-training/training.html)
+[NSE INSTITUTE](https://training.fortinet.com)
+[FORTIGUARD CENTER](https://fortiguard.com/)
+[Limites de la VM de evaluacion](https://help.fortinet.com/fgt/handbook/50/5-0-5/max-values/max-values.html)
+
 ### MikroTik
 
 - Tutorials
@@ -2034,7 +2047,7 @@ Guides, Tips & Tricks, Downloads, Training, Crafting, Arsenal, Binaries, Executa
     - [Tool: Wireshark the Basics](https://tryhackme.com/room/wiresharkthebasics)
     - [Tool: Network Miner](https://tryhackme.com/room/networkminer)
 
-### ♻️ 🧬 🤖 Network 🤖 🧬 ♻️
+### ♻️ 🧬 🤖 Network Aitomation 🤖 🧬 ♻️
 Network Automation is a cross between the discipline of Network Infrastructure and the discipline of Programming. 
 
 - Network Automation Full Courses & Resoursces
