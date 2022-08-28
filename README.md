@@ -386,6 +386,7 @@ Tables, Lists, Models, Cheat-Sheets, Mind-Maps & Resources
 - [GNS3](https://gns3.com/) _Real-time network simulation for pre-deployment testing_
     - [GNS3 - Appliances](https://www.gns3.com/marketplace/appliances)
     - [GNS3 - Port Name Formatting](https://docs.gns3.com/docs/using-gns3/advanced/port-name-formatting/)
+    - [Instalar y correr GNS3 VM Pro!!! Master Edson](https://www.youtube.com/watch?v=4kh9JL-0l5A&t=570s)
 - [Eve NG](https://www.eve-ng.net/) _Emulated Virtual Enviorment for Network, Security and DevOps_
 - For Diagrams: [Microsoft Visio](https://www.microsoft.com/en-us/microsoft-365/visio/flowchart-software) _$$$_
 - For Diagrams: [draw.io](https://app.diagrams.net/) _Free!_
