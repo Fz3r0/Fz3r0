@@ -1631,14 +1631,14 @@ Deep dive into the Packet / PCAP Analysis
 
 - Fortinet Fundamentals
 
-[FORTINET DOCUMENT LIBRARY](https://docs.fortinet.com)
-[FORTINET VIDEO GUIDE](https://video.fortinet.com)
-[FORTINET BLOG](https://blog.fortinet.com)
-[CUSTOMER SERVICE & SUPPORT](https://support.fortinet.com)
-[FORTINET TRAINING & CERTIFICATION PROGRAM](https://www.fortinet.com/support-and-training/training.html)
-[NSE INSTITUTE](https://training.fortinet.com)
-[FORTIGUARD CENTER](https://fortiguard.com/)
-[Limites de la VM de evaluacion](https://help.fortinet.com/fgt/handbook/50/5-0-5/max-values/max-values.html)
+    - [FORTINET DOCUMENT LIBRARY](https://docs.fortinet.com)
+    - [FORTINET VIDEO GUIDE](https://video.fortinet.com)
+    - [FORTINET BLOG](https://blog.fortinet.com)
+    - [CUSTOMER SERVICE & SUPPORT](https://support.fortinet.com)
+    - [FORTINET TRAINING & CERTIFICATION PROGRAM](https://www.fortinet.com/support-and-training/training.html)
+    - [NSE INSTITUTE](https://training.fortinet.com)
+    - [FORTIGUARD CENTER](https://fortiguard.com/)
+    - [Limites de la VM de evaluacion](https://help.fortinet.com/fgt/handbook/50/5-0-5/max-values/max-values.html)
 
 ### MikroTik
 
