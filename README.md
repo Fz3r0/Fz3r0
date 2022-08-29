@@ -396,6 +396,7 @@ Tables, Lists, Models, Cheat-Sheets, Mind-Maps & Resources
 - Secure-CRT
     - [Pimp my Secure CRT - ANSI colors & dark shell mode](https://www.vandyke.com/support/tips/colorconfig.html)
 - Putty
+- [MobaXterm - Pimp term for Windows](https://mobaxterm.mobatek.net/)
 - NetCat
 - SoCat
 
@@ -1643,6 +1644,7 @@ Deep dive into the Packet / PCAP Analysis
 - [Fz3r0 From Zero to Her0](https://github.com/Fz3r0/Fz3r0/tree/main/Networking/Fortinet)
 
     - [Configurar Interfaces](https://github.com/Fz3r0/Fz3r0/blob/main/Networking/Fortinet/Eva_I_-_Configurar_Interfaces.md)
+    - [Backup & Restore](https://github.com/Fz3r0/Fz3r0/blob/main/Networking/Fortinet/Eva_I_-_Backup_%26_Restore.md)
     
 
 ### MikroTik
