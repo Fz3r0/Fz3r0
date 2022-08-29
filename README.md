@@ -1643,10 +1643,10 @@ Deep dive into the Packet / PCAP Analysis
 
 - [Fz3r0 From Zero to Her0](https://github.com/Fz3r0/Fz3r0/tree/main/Networking/Fortinet)
 
+    - [Configurar GNS3 con salida a Internet & Forti](https://www.youtube.com/watch?v=XvhA3DNxQ_I&t=150s)
     - [Configurar Interfaces](https://github.com/Fz3r0/Fz3r0/blob/main/Networking/Fortinet/Eva_I_-_Configurar_Interfaces.md)
     - [Backup & Restore](https://github.com/Fz3r0/Fz3r0/blob/main/Networking/Fortinet/Eva_I_-_Backup_%26_Restore.md)
     
-
 ### MikroTik
 
 - Tutorials
