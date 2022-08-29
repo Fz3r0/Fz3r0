@@ -1640,6 +1640,11 @@ Deep dive into the Packet / PCAP Analysis
     - [FORTIGUARD CENTER](https://fortiguard.com/)
     - [Limites de la VM de evaluacion](https://help.fortinet.com/fgt/handbook/50/5-0-5/max-values/max-values.html)
 
+- [Fz3r0 From Zero to Her0](https://github.com/Fz3r0/Fz3r0/tree/main/Networking/Fortinet)
+
+    - [Configurar Interfaces](https://github.com/Fz3r0/Fz3r0/blob/main/Networking/Fortinet/Eva_I_-_Configurar_Interfaces.md)
+    
+
 ### MikroTik
 
 - Tutorials
