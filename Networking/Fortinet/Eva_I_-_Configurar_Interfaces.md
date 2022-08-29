@@ -1,3 +1,4 @@
+
 # Fz3r0 OPs NetSec - FortiDoomsGate
 
 ## Eva I - Configurar Interfaces:
@@ -9,6 +10,10 @@
     - `get system interface`
 
     - Nota: _sa IP es la que se usa en Web para abrir UI ;)_
+
+    - Pro:
+
+    - `get system interface | grep port1`
 
 - **Configurar IPs (UI)**
 
