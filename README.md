@@ -362,6 +362,7 @@ Tables, Lists, Models, Cheat-Sheets, Mind-Maps & Resources
     - [IEEE 802 1Q: VLAN **Tagging** and **Trunking** 101 @ Sunny](https://www.youtube.com/watch?v=vE5gvbmR8jg) _Trunk Port = Cisco terminology | Tagged Port = Other Vendors || Access Port = Cisco terminology | Untagged Port = Other vendors || Access VLAN = Untagged VLAN_
     - [Diferencias en configuración de VLANs - Tagged, Untagged & Trunks](https://soporte.syscom.mx/es/articles/2042744-networking-diferencias-en-configuraciones-de-vlans)
     - [FAQ - Should trunk ports be tagged or untagged?](https://faq-blog.com/should-trunk-ports-be-tagged-or-untagged)
+    - [GNS3 Extreme Networks VLANs Tagged Port (Trunk), Untagged Port (Access) & Untagged VLAN (Native VLAN)](https://www.youtube.com/watch?v=QdQzlOX9CJ8)
 
 
     
