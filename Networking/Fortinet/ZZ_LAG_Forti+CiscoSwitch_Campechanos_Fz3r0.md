@@ -2,7 +2,7 @@
 
 ### Topology
 
-![image](https://user-images.githubusercontent.com/94720207/188335848-58d6510d-994a-4ce6-988d-0b0e7764fd6e.png)
+![image](https://user-images.githubusercontent.com/94720207/188335880-1d641504-7574-4ba9-82f0-7f0088165f3d.png)
 
 #### Puertos/Interfaces a utilizar:
 
