@@ -4,6 +4,24 @@
 
 ![image](https://user-images.githubusercontent.com/94720207/188335880-1d641504-7574-4ba9-82f0-7f0088165f3d.png)
 
+```
+==========================================================
+
+                          (_.- Fz3r0 -._)
+          
+          Secure Network Labs
+
+          Fortigate LACP (LAG) + Cisco Switch
+          VLANs + Trunks
+          DHCP
+          Internet Access
+
+          Github : Fz3r0
+          Twitter: Fz3r0_OPs
+
+==========================================================
+```
+
 #### Puertos/Interfaces a utilizar:
 
 - **FortiGate**
