@@ -839,6 +839,10 @@ Test-VPCS> ping 192.168.88.50                  <<<<---- HACE PING A OTRA PC DE M
 Test-VPCS> 
 ```
 
+- Ejemplo:
+
+![image](https://user-images.githubusercontent.com/94720207/188338444-5435d38e-3c05-47e6-a9ae-b1738d101403.png)
+
 ---
 
 - Dudas
