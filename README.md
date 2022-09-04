@@ -1657,6 +1657,7 @@ Deep dive into the Packet / PCAP Analysis
 
     - [Configurar VLANs en FortiGate](https://www.youtube.com/watch?v=rD-Q7oTny8g)
     - [Link Aggregation entre FortiGate y Switch Cisco](https://www.youtube.com/watch?v=ql01SKo0QZw)
+    - [High Availability (HA) en Fortigate](https://youtu.be/jWzsQ74F0rw)
     
 ### MikroTik
 
