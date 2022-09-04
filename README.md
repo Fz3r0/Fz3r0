@@ -1642,6 +1642,10 @@ Deep dive into the Packet / PCAP Analysis
     - [FORTIGUARD CENTER](https://fortiguard.com/)
     - [Limites de la VM de evaluacion](https://help.fortinet.com/fgt/handbook/50/5-0-5/max-values/max-values.html)
 
+- [Fortigate Courses & Resources](https://www.youtube.com/playlist?list=PLzaEjZCLVwKKmcCzZcP6rS88CW9kWKV8d)
+
+    - [Fortigate NSE4 @ FortiLabz](https://www.youtube.com/playlist?list=PLzaEjZCLVwKKmcCzZcP6rS88CW9kWKV8d)
+
 - [Fz3r0 From Zero to Her0](https://github.com/Fz3r0/Fz3r0/tree/main/Networking/Fortinet)
 
     - [Configurar GNS3 con salida a Internet & Forti](https://www.youtube.com/watch?v=XvhA3DNxQ_I&t=150s)
