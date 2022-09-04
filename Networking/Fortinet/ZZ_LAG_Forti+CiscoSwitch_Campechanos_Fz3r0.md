@@ -696,6 +696,26 @@ SW2_Distr-F0#
 
 ![image](https://user-images.githubusercontent.com/94720207/188336202-40f638b5-4c2d-487e-9b2d-b17945c6d2de.png)
 
+### DNS
+
+![image](https://user-images.githubusercontent.com/94720207/188336264-5fac4157-0d06-4df0-b324-0bdd2bb28891.png)
+
+### Static Route
+
+![image](https://user-images.githubusercontent.com/94720207/188336284-98972207-a42c-4ebd-ae8b-da5339e3fdba.png)
+
+### IPv4 Policy
+
+- Salida a Internet para cada VLAN e Interfaz física
+
+- Objetivo:
+
+![image](https://user-images.githubusercontent.com/94720207/188336310-5cf84372-4951-44fa-9f94-e5d474ee6048.png)
+
+- Ejemplo (Ejemplo con solo una, solo cambiar lo correspondiente a las demás)
+
+![image](https://user-images.githubusercontent.com/94720207/188336338-cc4abe4c-4ea5-4a50-ab87-6e4ae31c75ac.png)
+
 ## Probar funcionamiento
 
 - Del lado del fortigate en CLI se puede sniffear ICMP (ping)
