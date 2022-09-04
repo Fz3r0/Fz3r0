@@ -1651,6 +1651,7 @@ Deep dive into the Packet / PCAP Analysis
     - [Configurar GNS3 con salida a Internet & Forti](https://www.youtube.com/watch?v=XvhA3DNxQ_I&t=150s)
     - [Configurar Interfaces](https://github.com/Fz3r0/Fz3r0/blob/main/Networking/Fortinet/Eva_I_-_Configurar_Interfaces.md)
     - [Backup & Restore](https://github.com/Fz3r0/Fz3r0/blob/main/Networking/Fortinet/Eva_I_-_Backup_%26_Restore.md)
+    - [Configurar Link Aggregation (LAG | LACP) Switch <> Fortigate](https://github.com/Fz3r0/Fz3r0/blob/main/Networking/Fortinet/ZZ_LAG_Forti+CiscoSwitch_Campechanos_Fz3r0.md)
 
 - Fortigate Labs Campechanos
 
