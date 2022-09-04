@@ -442,6 +442,23 @@ SW1_Core-F0#!
 
 ## Fortigate Config
 
+- El forti debe tener configurado `Port1` con DHCP para poder acceder UI
+
+- Después simplemente seguir estos pasos:
+
+    - Se deben crear interfaces tanto para la LAG como para las VLANs
+
+1. Crear el LAG configurando `Port2` y `Port3` (_`Port1` lo dejé yo para la WAN_)
+
+![image](https://user-images.githubusercontent.com/94720207/188329412-0b17df2a-e905-4c9f-b5b2-dddd6c73f017.png)
+
+2. Crear las VLANs
+
+![image](https://user-images.githubusercontent.com/94720207/188329542-64a19744-0893-4337-b0cd-bf6f22669c14.png)
+
+- **Resultado:**
+
+![image](https://user-images.githubusercontent.com/94720207/188329626-8ec5d327-da71-48de-b7a9-628fa7540459.png)
 
 ## Probar funcionamiento
 
@@ -506,5 +523,9 @@ SW1_Core-F0#
 
 - Lo mismo con todas las VLANs (_excepto la 99 que se quedó como Native para no usar la Defoult 1_)
 
+---
 
-- Dudas - Nativa de Fortigate
+- Dudas: 
+
+    - Nativa de Fortigate, donde le puedo cambiar a 99??? o no hay problema???
+    - 
