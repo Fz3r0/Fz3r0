@@ -1650,7 +1650,8 @@ Deep dive into the Packet / PCAP Analysis
 
 - Fortigate Labs Campechanos
 
-    - [Configurar VLANs en Fortigate](https://www.youtube.com/watch?v=rD-Q7oTny8g)
+    - [Configurar VLANs en FortiGate](https://www.youtube.com/watch?v=rD-Q7oTny8g)
+    - [Link Aggregation entre FortiGate y Switch Cisco](https://www.youtube.com/watch?v=ql01SKo0QZw)
     
 ### MikroTik
 
