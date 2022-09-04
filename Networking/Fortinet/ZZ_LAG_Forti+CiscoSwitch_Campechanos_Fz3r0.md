@@ -678,6 +678,23 @@ SW2_Distr-F0#
 
 ## Fortigate Config
 
+### Interfaces
+
+- Objetivo:
+
+![image](https://user-images.githubusercontent.com/94720207/188336095-5fcbbc7d-a542-4bfe-a580-e92b8a905dd2.png)
+
+- Port1: Internet
+
+![image](https://user-images.githubusercontent.com/94720207/188336130-b800a0c7-0435-4403-a7c8-44637f052f5e.png)
+
+- Port4 & Port5: Link Aggregation (LAG/LACP)
+
+![image](https://user-images.githubusercontent.com/94720207/188336160-2bbe4444-f483-4309-be05-7e0417b2bd34.png)
+
+- VLANs (Ejemplo con solo una, solo cambiar lo correspondiente a las demás)
+
+![image](https://user-images.githubusercontent.com/94720207/188336202-40f638b5-4c2d-487e-9b2d-b17945c6d2de.png)
 
 ## Probar funcionamiento
 
