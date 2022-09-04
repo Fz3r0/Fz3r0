@@ -24,23 +24,23 @@
 
 #### Puertos/Interfaces a utilizar:
 
-- **FortiGate**
+```
+<<< FortiGate >>>
 
-    - WAN
+    - WAN | INTERNET
 
         - Port1
 
-    - LAG:
+    + LAG:
 
-        - Port3
-        - Port4
+        - Port4 + Port5
 
-- **Cisco Switch**
+<<< Cisco Switch >>>
 
-    - LAG
+    + LAG:
 
-        - Gi 0/0
-        - Gi 0/1
+        - Gi 0/0 + Gi 0/1
+```
 
 #### VLANs
 
@@ -50,12 +50,14 @@
 - VLAN_88_Management
 - VLAN_99_TrunkNative
 
-## Configuraciones
-
 ### Intro
 
 - El Fortigate solo tiene configurada una interfaz via DHCP para entra rpor UI.
 - El Cisco Switch no tiene nada, está por defecto. 
+
+## Configuraciones
+
+- En este ejemplo empezaré por los switches y después el Forti, en realidad no importa el orden anyways...
 
 ### 1 - Crear VLANs en Switch
 
