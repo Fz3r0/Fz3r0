@@ -1,6 +1,8 @@
 ## Link Aggregation
 
-### Intro
+### Topology
+
+![image](https://user-images.githubusercontent.com/94720207/188335848-58d6510d-994a-4ce6-988d-0b0e7764fd6e.png)
 
 #### Puertos/Interfaces a utilizar:
 
