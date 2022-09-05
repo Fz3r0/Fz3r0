@@ -1652,6 +1652,7 @@ Deep dive into the Packet / PCAP Analysis
     - [Configurar Interfaces](https://github.com/Fz3r0/Fz3r0/blob/main/Networking/Fortinet/Eva_I_-_Configurar_Interfaces.md)
     - [Backup & Restore](https://github.com/Fz3r0/Fz3r0/blob/main/Networking/Fortinet/Eva_I_-_Backup_%26_Restore.md)
     - [Configurar Link Aggregation (LAG | LACP) Switch <> Fortigate](https://github.com/Fz3r0/Fz3r0/blob/main/Networking/Fortinet/ZZ_LAG_Forti+CiscoSwitch_Campechanos_Fz3r0.md)
+    - [Configurar High Availability (HA) + (LAG | LACP) Switch <> Fortigate](https://github.com/Fz3r0/Fz3r0/blob/main/Networking/Fortinet/ZZ_HA+Link_Aggregation-LAG-FortiGate-Cisco-Switch.md)
 
 - Fortigate Labs Campechanos
 
