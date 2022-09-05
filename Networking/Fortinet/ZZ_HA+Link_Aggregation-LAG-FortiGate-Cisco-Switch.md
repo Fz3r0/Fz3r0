@@ -64,7 +64,6 @@
 
 - VLAN_10_RED
 - VLAN_20_BLUE
-- VLAN_30_YELLOW
 - VLAN_88_Management
 - VLAN_99_TrunkNative
 
@@ -72,8 +71,6 @@
 
 - En este ejemplo empezaré por los switches y después el Forti, en realidad no importa el orden anyways...
 - En el `Fortigate1` & `Fortigate2` solo está configurado el `Port1` con DHCP para poder entrar a UI
-
-### 1 - Crear VLANs en Switch
 
 ## Switch 1 Full Command Fz3r0 God
 
