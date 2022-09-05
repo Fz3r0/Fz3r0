@@ -592,15 +592,31 @@ SW2_Distr-F0#
 2. El **MASTER** (Role) tendrá priority `128` y el Secundario `127`
 3. Por buena práctica se utilizan 2 cables para el `Heartbeat` del HA
 
-- **IMPORTANTE: EN EL MOMENTO QUE AL SEGUNDO FORTI SE LE PONGA EL HA (ACTIVE-PASSIVE + CREDENCIALES DE HA) EL SLAVE (CON PRIORITY MENOR) TOMARÁ TODA LA CONFIGURACIÓN DEL MASTER, MUCHO OJO!!! NO PONER PRORITY MAYOR AL QUE NO TIENE CONFIG!!! NO MAMES!!!
+- **IMPORTANTE: EN EL MOMENTO QUE AL SEGUNDO FORTI SE LE PONGA EL HA (ACTIVE-PASSIVE + CREDENCIALES DE HA) EL SLAVE (CON PRIORITY MENOR) TOMARÁ TODA LA CONFIGURACIÓN DEL MASTER, MUCHO OJO!!! NO PONER PRORITY MAYOR AL QUE NO TIENE CONFIG!!! NO MAMES!!!**
 
 - Objetivo:
 
 ![image](https://user-images.githubusercontent.com/94720207/188372281-d94a25e3-0b7e-4eca-b51f-d1872b9247f2.png)
 
-- Procedimiento
+- Procedimiento:
 
+    - **MASTER** (FortiGate-1)
 
+![image](https://user-images.githubusercontent.com/94720207/188372830-0302cb5e-5376-46e6-a472-fcc71c5daf9c.png)
+
+- Ahora, en el **SLAVE** simplemente activar el HA > Active-Passive > MENOR PRIORITY!!! > listo!!! :D 
+
+![image](https://user-images.githubusercontent.com/94720207/188373454-c0a05d52-d415-44a7-8e85-bec29aac1074.png)
+
+- Así se ve cuando está formado el HA y el Slave en espera:
+
+![image](https://user-images.githubusercontent.com/94720207/188373040-e0534936-cb81-4bb8-8b72-26d1f46ee1ae.png)
+
+### Prueba de HA
+
+- Así se ve cuando entra el SLAVE al apagar el MASTER:
+
+![image](https://user-images.githubusercontent.com/94720207/188373260-76eede8c-f051-4f3f-a3e1-341ff9cedfd5.png)
 
 ###
 
