@@ -610,6 +610,8 @@ SW2_Distr-F0#
 
 ![image](https://user-images.githubusercontent.com/94720207/188373040-e0534936-cb81-4bb8-8b72-26d1f46ee1ae.png)
 
+- **NOTA: En este punto reinicié tanto MASTER como SLAVE para probar el HA, además así se borra la alerta menciona que no se ha formado el CLuster, pero se quita cuado se prueba la redundancia automáticamente ¿Por qué?... I don't know man...**
+
 ### Prueba de HA
 
 - Así se ve cuando entra el SLAVE al apagar el MASTER:
