@@ -606,13 +606,17 @@ SW2_Distr-F0#
 
 ![image](https://user-images.githubusercontent.com/94720207/188373454-c0a05d52-d415-44a7-8e85-bec29aac1074.png)
 
-- Así se ve cuando está formado el HA y el Slave en espera:
+- **NOTA: En este punto reinicié tanto MASTER como SLAVE para probar el HA
 
-![image](https://user-images.githubusercontent.com/94720207/188373040-e0534936-cb81-4bb8-8b72-26d1f46ee1ae.png)
 
-- **NOTA: En este punto reinicié tanto MASTER como SLAVE para probar el HA, además así se borra la alerta menciona que no se ha formado el CLuster, pero se quita cuado se prueba la redundancia automáticamente ¿Por qué?... I don't know man...**
+
+
 
 ### Prueba de HA
+
+- Así se ve el MASTER al seleccionar el Cluster SLAVE, cuando está formado el HA y el SLAVE en espera:
+
+![image](https://user-images.githubusercontent.com/94720207/188373040-e0534936-cb81-4bb8-8b72-26d1f46ee1ae.png)
 
 - Así se ve cuando entra el SLAVE al apagar el MASTER:
 
