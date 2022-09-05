@@ -567,8 +567,26 @@ SW2_Distr-F0#
 
 ![image](https://user-images.githubusercontent.com/94720207/188370447-e1c56609-efdb-440d-8b99-c8269abdf017.png)
 
+### DNS
 
-### HA + LAG FortiGate-2
+![image](https://user-images.githubusercontent.com/94720207/188371129-181f10f1-ac62-4eb4-9978-2eccaa40454d.png)
+
+### Static Routes
+
+![image](https://user-images.githubusercontent.com/94720207/188371205-157ac282-9439-4e8f-87d3-9c80b13f17de.png)
+
+![image](https://user-images.githubusercontent.com/94720207/188371295-278b54eb-1da1-47ce-8f0e-c3f82a9316af.png)
+
+### IPv4 Policy (Salida a Internet)
+
+- NOTA: En el ejemplo solo se ve la VLAN-10, lo mismo se hace para las demás solo cambiando la VLAN/Interface. 
+
+![image](https://user-images.githubusercontent.com/94720207/188371420-756c2e2b-2c8a-4e6d-884c-41629085eae4.png)
+
+![image](https://user-images.githubusercontent.com/94720207/188371575-54ce71e3-9d02-4110-93c5-3bab6776c1fc.png)
+
+
+## HA + LAG FortiGate-2
 
 1. El modo será `Active-Passive`
 2. El **MASTER** (Role) tendrá priority `128` y el Secundario `129`
