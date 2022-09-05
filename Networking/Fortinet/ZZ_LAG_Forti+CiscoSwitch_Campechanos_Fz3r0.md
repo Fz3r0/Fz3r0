@@ -22,12 +22,16 @@
 ==========================================================
 ```
 
-### Downloads
+## Downloads
 
 - **[FortiGate Backup `.config` by @ Fz3r0](https://github.com/Fz3r0/Fz3r0/files/9485767/FortiGate-Config-LAG%2BSwitch_Fz3r0.zip)**
 
+## Introducción
 
-#### Puertos/Interfaces a utilizar:
+- El Fortigate solo tiene configurada una interfaz via DHCP para entra rpor UI.
+- El Cisco Switch no tiene nada, está por defecto. 
+
+### Puertos/Interfaces a utilizar:
 
 ```
 <<< FortiGate >>>
@@ -54,11 +58,6 @@
 - VLAN_30_YELLOW
 - VLAN_88_Management
 - VLAN_99_TrunkNative
-
-### Intro
-
-- El Fortigate solo tiene configurada una interfaz via DHCP para entra rpor UI.
-- El Cisco Switch no tiene nada, está por defecto. 
 
 ## Configuraciones
 
