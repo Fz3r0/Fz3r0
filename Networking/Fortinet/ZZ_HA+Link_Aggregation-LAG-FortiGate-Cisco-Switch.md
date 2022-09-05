@@ -589,10 +589,18 @@ SW2_Distr-F0#
 ## HA + LAG FortiGate-2
 
 1. El modo será `Active-Passive`
-2. El **MASTER** (Role) tendrá priority `128` y el Secundario `129`
+2. El **MASTER** (Role) tendrá priority `128` y el Secundario `127`
 3. Por buena práctica se utilizan 2 cables para el `Heartbeat` del HA
 
-- Procedimiento: 
+- **IMPORTANTE: EN EL MOMENTO QUE AL SEGUNDO FORTI SE LE PONGA EL HA (ACTIVE-PASSIVE + CREDENCIALES DE HA) EL SLAVE (CON PRIORITY MENOR) TOMARÁ TODA LA CONFIGURACIÓN DEL MASTER, MUCHO OJO!!! NO PONER PRORITY MAYOR AL QUE NO TIENE CONFIG!!! NO MAMES!!!
+
+- Objetivo:
+
+![image](https://user-images.githubusercontent.com/94720207/188372281-d94a25e3-0b7e-4eca-b51f-d1872b9247f2.png)
+
+- Procedimiento
+
+
 
 ###
 
