@@ -1,9 +1,8 @@
 ## Link Aggregation
 
-[FortiGate-Config-LAG+Switch_Fz3r0.zip]
-
-
 ### Topology
+
+![image](https://user-images.githubusercontent.com/94720207/188339708-90666b1d-82d9-4114-b5b4-8cbc9167d194.png)
 
 ```
 ==========================================================
