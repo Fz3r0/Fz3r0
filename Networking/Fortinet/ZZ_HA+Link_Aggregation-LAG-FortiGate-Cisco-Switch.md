@@ -536,14 +536,36 @@ SW2_Distr-F0#
 SW2_Distr-F0#
 ```
 
-### LAG >>> LAN FortiGate-1
+## LAG >>> LAN FortiGate-1
 
 - **NOTA: El Forgtigate-2 solo tiene configurada la interfaz de Management (Port1) con DHCP para entrar a UI**
     - No es necesario configurar nadamás, ya que al activar el **HA** llevará la configuración de **MASTER**
 
 - Debido a la nota, solo se configurará el Fortigate-1    
 
-- Procedimiento:    
+- Procedimiento:
+
+### Interfaces 
+
+- Objetivo:
+
+![image](https://user-images.githubusercontent.com/94720207/188370090-3748a854-e836-44b4-ac39-f50ec81a534d.png)
+
+- WAN (Internet) Port1
+
+    - NOTA: En mi caso está por DHCP para facilidad que sea portable, pero se puede cambiar a estático. 
+   
+![image](https://user-images.githubusercontent.com/94720207/188370675-881702c6-a7b3-4ddb-a20e-216c3428e0c1.png)
+
+- LAG | 802.3ad
+
+![image](https://user-images.githubusercontent.com/94720207/188370237-521c6248-3aec-4fb9-b8ad-aa5627e9dc32.png)
+
+- VLANs
+
+    - NOTA: En el ejemplo solo se ve la VLAN-10, lo mismo se hace para las demás solo cambiando su subnet apropiada. 
+
+![image](https://user-images.githubusercontent.com/94720207/188370447-e1c56609-efdb-440d-8b99-c8269abdf017.png)
 
 
 ### HA + LAG FortiGate-2
