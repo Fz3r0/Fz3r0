@@ -21,7 +21,7 @@
 
 ## Topology
 
-![image](https://user-images.githubusercontent.com/94720207/188366746-9715d613-af0b-477f-b618-f5ddd42a813a.png)
+![image](https://user-images.githubusercontent.com/94720207/188366956-cb4f4d6a-b258-4f55-8d5e-c24a8cd9431e.png)
 
 ## Downloads
 
