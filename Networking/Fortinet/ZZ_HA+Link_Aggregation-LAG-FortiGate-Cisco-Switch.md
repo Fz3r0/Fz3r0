@@ -561,8 +561,9 @@ SW2_Distr-F0#
 - VLANs
 
     - NOTA: En el ejemplo solo se ve la VLAN-10, lo mismo se hace para las demás solo cambiando su subnet apropiada. 
+    - OJO!!! No olvidar el DHCP Server y la Pool ;) 
 
-![image](https://user-images.githubusercontent.com/94720207/188370447-e1c56609-efdb-440d-8b99-c8269abdf017.png)
+![image](https://user-images.githubusercontent.com/94720207/188377624-2e570148-78b7-4d09-aaab-56d61ffc9ab9.png)
 
 ### DNS
 
