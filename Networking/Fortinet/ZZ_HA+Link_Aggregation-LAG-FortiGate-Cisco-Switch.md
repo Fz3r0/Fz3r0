@@ -620,6 +620,6 @@ SW2_Distr-F0#
 
 ### Dudas
 
-- ¿Al final el HA toma una sola IP y no puedo entrar al UI del Slave?
+- ¿Al final el HA toma una sola IP y no puedo entrar al UI del SLAVE a menos que apague forzosamente el MASTER?
 
 
