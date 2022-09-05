@@ -1,8 +1,9 @@
 ## Link Aggregation
 
-### Topology
+[FortiGate-Config-LAG+Switch_Fz3r0.zip]
 
-![image](https://user-images.githubusercontent.com/94720207/188337555-66b19a28-6ece-4849-8815-ad55cd552bc6.png)
+
+### Topology
 
 ```
 ==========================================================
@@ -21,6 +22,11 @@
 
 ==========================================================
 ```
+
+### Downloads
+
+- **[FortiGate Backup `.config` by @ Fz3r0](https://github.com/Fz3r0/Fz3r0/files/9485767/FortiGate-Config-LAG%2BSwitch_Fz3r0.zip)**
+
 
 #### Puertos/Interfaces a utilizar:
 
