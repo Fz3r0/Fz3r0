@@ -1677,6 +1677,11 @@ Deep dive into the Packet / PCAP Analysis
 
     - [Primera Configuración del papu]()
 
+### RGNETs
+
+- Tutorials
+
+    - [RGNETs initial configuration](https://www.youtube.com/watch?v=xu_KU9E--6A)
  
 ### 🔐 🛠️ ⚙️ Configure it Like a Sir! ⚙️ 🛠️ 🔐
 Pro and Secure Network Configurations Guides by _Fz3r0_
