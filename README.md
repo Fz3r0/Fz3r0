@@ -359,6 +359,7 @@ Tables, Lists, Models, Cheat-Sheets, Mind-Maps & Resources
     - [Cisco Full VLAN Approach: Trunk VLANs](https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst_digital_building_series_switches/software/15-2_5_ex/configuration_guide/b_1525ex_consolidated_cdb_cg/b_1525ex_consolidated_cdb_cg_chapter_0110101.pdf)
     - [Cisco: Configuring VLAN Settings for Interfaces (Trunk, Access & General)](https://www.cisco.com/assets/sol/sb/Switches_Emulators_v2_2_015/help/nk_configuring_vlans06.html)
     - [Cisco Full 802.1q: 802.1Q Tunneling (Q-in-Q) Configuration](https://networklessons.com/switching/802-1q-tunneling-q-q-configuration-example)
+    - [VLAN-101 Open Vendor Approach](https://community.spiceworks.com/how_to/59173-vlan-101)
     - [IEEE 802 1Q: VLAN **Tagging** and **Trunking** 101 @ Sunny](https://www.youtube.com/watch?v=vE5gvbmR8jg) _Trunk Port = Cisco terminology | Tagged Port = Other Vendors || Access Port = Cisco terminology | Untagged Port = Other vendors || Access VLAN = Untagged VLAN_
     - [Diferencias en configuración de VLANs - Tagged, Untagged & Trunks](https://soporte.syscom.mx/es/articles/2042744-networking-diferencias-en-configuraciones-de-vlans)
     - [FAQ - Should trunk ports be tagged or untagged?](https://faq-blog.com/should-trunk-ports-be-tagged-or-untagged)
