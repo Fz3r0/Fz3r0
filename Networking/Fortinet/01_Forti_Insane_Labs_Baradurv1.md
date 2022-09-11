@@ -775,6 +775,14 @@ set admintimeout 60
 set timezone 04  
 end
 
+config system admin
+edit "Fz3r0"
+set accprofile "super_admin"
+set comments "Fz3r0:Fz3r0.12345"
+set vdom "root"
+config gui-dashboard
+
+
 
 ```
 
@@ -983,11 +991,86 @@ client 0.0.0.0 {
      The cruel pinnacles and iron crown of the topmost tower 
      of Barad-dûr...Fortress of Sauron." 
 
+```
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 
+(_.-Fz3r0-._)
+
+Rising black, blacker and darker than the vast shades 
+amid which it stood, immeasurably strong, mountain of 
+iron, gate of steel, tower of adamant... 
+
+...The cruel pinnacles and iron crown of the topmost 
+tower of Barad-dûr. Fortress of Sauron. 
+
+-- HECHO EN MEXICO -- 
+
+Twitter: @Fz3r0_OPs 
+GitHub : Fz3r0 
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+<<< Barad-dûr "The Dark Tower" >>> 
+
+<<< FortiGate1-MASTER UI - PreLogin >>> 
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+<<< USER & PASSWORD: >>> 
+
+
+Fz3r0
+Fz3r0.12345
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+```
+
+
+POST
+
+```
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+(_.-Fz3r0-._)
+
+Welcome to my house! Enter freely. Go safely, 
+and leave something of the happiness you bring...
+
+We are in Transylvania, and Transylvania is not England. 
+Our ways are not your ways, and there shall be to you 
+many strange things. 
+
+Nay, from what you have told me of your experiences 
+already, you know something of what strange things there 
+may be.
+
+-- HECHO EN MEXICO -- 
+
+Twitter: @Fz3r0_OPs 
+GitHub : Fz3r0 
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+<<< Barad-dûr "The Dark Tower" >>> 
+
+<<< FortiGate1-MASTER UI - PostLogin >>> 
+
+
+WELCOME!!!
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+%%LAST_SUCCESSFUL_LOGIN%%
+%%LAST_FAILED_LOGIN%%
+```
 
 
 
 ===
+
+
 
 Duda:
 
