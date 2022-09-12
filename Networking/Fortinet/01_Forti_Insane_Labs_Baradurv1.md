@@ -28,10 +28,10 @@
 | **SW4**               |               |                 |                 |          |                 |             |                                             |
 | **SW5**               |               |                 |                 |          |                 |             |                                             |
 | **SW6**               |               |                 |                 |          |                 |             |                                             |
-| **null**              |               |                 |                 |          |                 |             |                                             |
-| ****                  |               |                 |                 |          |                 |             |                                             |
-| ****                  |               |                 |                 |          |                 |             |                                             |
-| ****                  |               |                 |                 |          |                 |             |                                             |
+| **SW6**              |               |                 |                 |          |                 |             |                                             |
+| **SW6**                 |               |                 |                 |          |                 |             |                                             |
+| **SW6**                  |               |                 |                 |          |                 |             |                                             |
+| **SW6**                  |               |                 |                 |          |                 |             |                                             |
 | ****                  |               |                 |                 |          |                 |             |                                             |
 | ****                  |               |                 |                 |          |                 |             |                                             |
 
@@ -49,9 +49,28 @@
 
     - **Nota Security 2:** Ojo a la interfaz del MikroTik DHCP server, esta es la única que debe ser configurada como un `Trusted DHCP server` en Layer 2. 
 
+    - **Nota Security 3:** "_The recommended rate limit for each untrusted port is 15 packets per second_" Las recomendaciones de Cisco marcan 15 paquetes por segundo para el Rate Limit de DHCP snooping, será lo que se usará en el laboratorio. 
+
+        - **IMPORTANTE!!!** Al crear el Channel-Group del LAG en el switch, he tenido que agregar los comandos de DHCP y ARP trust **ANTES** y **DESPUÉS** de crear el port-channel, es decir, tanto las interfaces por separado como ya el port-channel creado se agregan los comandos para confiar en el DHCP, de lo contrario se bloquearán los paquetes DHCP. 
+
+    - **Nota Security 4:**: En la VLAN e interfaces `HoneyPots` no modifico nada de DHCP Snooping ni ARP inspection, esto porque ya los active en global config, y al ser una interfaz totalmente bloqueada no creo ninguna regla. Así no permito pasar ni un solo paquete DHCP o ARP.         
+
 ### SW1-Cisco-CORE - Switch Core
 
+- En este modelo no se puede LLDP ni CDP en port-channel LAG, pero aquí hay un turoial para modelos Cisco que lo soportan: https://www.cisco.com/c/en/us/td/docs/switches/datacenter/nexus9000/sw/7-x/system_management/configuration/guide/b_Cisco_Nexus_9000_Series_NX-OS_System_Management_Configuration_Guide_7x/b_Cisco_Nexus_9000_Series_NX-OS_System_Management_Configuration_Guide_7x_chapter_010010.pdf
 
+- **El truco de maquinita!!!** _Ojo cuando se configura el port security en interfaces `access` (por ejemplo PC Core Test), en las ultimas lineas de err-disable te regresará automáticamente a `global-config`, es por ello de debe volver a entrar a la interface para seguir configurando el port security y ya tampoco existe el `exit` ;)_  
+
+- `security passwords min-length 10` no está soportado en este switch como parte de security, pero se podría agregar en el nombre de usuario/admin local en algún switch soportado. 
+
+- En todas las interfaces `access` (como en default trunk) se pondra `ip ARP INSPECTION TRUST` para confiar en todos los paquetes arp de quien sea (sin necesidad de configurar), pero verificar al final los comandos:
+
+```
+arp access-list H2
+S1(config-arp-nacl)# permit ip host 1.1.1.1 mac host 1.1.1
+S1(config-arp-nacl)# end
+S1# show arp access-list
+```
 
 ```
 !
@@ -59,8 +78,9 @@
 enable
 configure terminal
 !
+hostname SW1-CORE_Fz3r0
 no ip domain-lookup
-ip domain-name <<_Fz3r0.Barad-dûr_>>
+ip domain-name <<_Fz3r0.Barad-dur_>>
 !
 banner motd $
 
@@ -71,7 +91,7 @@ banner motd $
 "  iron, gate of steel, tower of adamant...               "
 "                                                         "
 "  ...The cruel pinnacles and iron crown of the topmost   "
-"  tower of Barad-dûr. Fortress of Sauron.                "
+"  tower of Barad-dur. Fortress of Sauron.                "
 "                                                         "
 "                  -- HECHO EN MEXICO --                  "
 "                                                         "
@@ -80,9 +100,11 @@ banner motd $
 "                                                         "
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 "                                                         "
-"           <<<  Barad-dûr "The Dark Tower"  >>>          "
+"           <<<  Barad-dur "The Dark Tower"  >>>          "
 "                                                         "
 "                 <<<  SW1-CISCO-CORE  >>>                "
+"                                                         "
+"           User:  Fz3r0     Pass:   Fz3r0.12345          "
 "                                                         "
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 $
@@ -97,16 +119,14 @@ name VLAN_88_MAMAGEMENT
 vlan 99
 name VLAN_99_TrunkNative
 vlan 666
-name VLAN_666-DownPorts-HoneyPot
+name VLAN_666-DownPorts
 !
 interface vlan 10
 description <<_VLAN_10_RED>>
-ip address 172.10.0.11 255.255.0.0
 no shutdown
 exit
 interface vlan 20
 description <<_VLAN_20_BLUE>>
-ip address 172.20.0.11 255.255.0.0
 no shutdown
 exit
 interface vlan 88
@@ -118,10 +138,24 @@ exit
 ip default-gateway 172.88.0.254
 ip http server
 !
+lldp run
+ip dhcp snooping 
+ip dhcp snooping vlan 1,10,20,88,99,666
+ip arp inspection vlan 1,10,20,88,99,666
+!
+!
 !
 interface range gi 3/0 - 1
 shutdown
 description >>>_-_CHANNEL_L_LAG1_FG-MASTER_PORTS_0-1_-_<<<
+ip DHCP SNOOPING TRUST
+ip ARP INSPECTION TRUST
+switchport nonegotiate
+spanning-tree bpduguard DISABLE
+spanning-tree portfast DISABLE
+lldp TRANSMIT
+lldp RECEIVE
+CDP ENABLE
 channel-group 10 mode active
 no shutdown 
 exit
@@ -134,13 +168,10 @@ switchport mode trunk
 switchport trunk native vlan 99
 switchport trunk allowed vlan 10,20,88
 switchport nonegotiate
-ip dhcp snooping TRUST
-ip arp inspection TRUST
 spanning-tree bpduguard DISABLE
 spanning-tree portfast DISABLE
-lldp TRANSMIT
-lldp RECEIVE
-CDP ENABLE
+ip DHCP SNOOPING TRUST
+ip ARP INSPECTION TRUST
 shutdown
 no shutdown 
 exit
@@ -149,6 +180,14 @@ exit
 interface range gi 3/2 - 3
 shutdown
 description >>>_-_CHANNEL_R_LAG2_FG-SLAVE_PORTS_2-3_-_<<<
+ip DHCP SNOOPING TRUST
+ip ARP INSPECTION TRUST
+switchport nonegotiate
+spanning-tree bpduguard DISABLE
+spanning-tree portfast DISABLE
+lldp TRANSMIT
+lldp RECEIVE
+CDP ENABLE
 channel-group 20 mode active
 no shutdown 
 exit
@@ -161,13 +200,10 @@ switchport mode trunk
 switchport trunk native vlan 99
 switchport trunk allowed vlan 10,20,88
 switchport nonegotiate
-ip dhcp snooping TRUST
-ip arp inspection TRUST
 spanning-tree bpduguard DISABLE
 spanning-tree portfast DISABLE
-lldp TRANSMIT
-lldp RECEIVE
-CDP ENABLE
+ip DHCP SNOOPING TRUST
+ip ARP INSPECTION TRUST
 shutdown
 no shutdown 
 exit
@@ -180,10 +216,10 @@ switchport mode trunk
 switchport trunk native vlan 99
 switchport trunk allowed vlan 10,20,88
 switchport nonegotiate
-ip dhcp snooping TRUST
-ip arp inspection TRUST
 spanning-tree bpduguard DISABLE
 spanning-tree portfast DISABLE
+ip DHCP SNOOPING TRUST
+ip ARP INSPECTION TRUST
 lldp TRANSMIT
 lldp RECEIVE
 CDP ENABLE
@@ -196,7 +232,7 @@ exit
 interface gi 1/0
 description <<<-MikroTik-RouterBoard-DHCP-Server-->Ether1->>>
 switchport mode access
-switchport access vlan 88
+switchport access vlan 10
 ip DHCP SNOOPING TRUST
 ip ARP INSPECTION TRUST
 spanning-tree portfast
@@ -212,7 +248,7 @@ exit
 interface gi 1/1
 description <<<-WLC-Ruckus-ZoneDirector->>>
 switchport mode access
-switchport access vlan 88
+switchport access vlan 20
 no shutdown 
 exit
 !
@@ -223,38 +259,32 @@ switchport mode access
 switchport access vlan 88
 switchport port-security
 switchport port-security maximum 2
-switchport port-security mac-address FF:zz:33:rr:00
+switchport port-security mac-address FF:FF:FF:00:00:00
 switchport port-security mac-address sticky 
 switchport port-security aging time 1440
 switchport port-security violation shutdown
-errdisable recovery cause psecure-violation
-errdisable recovery interval 600
 switchport port-security aging type inactivity
 switchport nonegotiate
-ip dhcp snooping limit rate 6
+ip dhcp snooping limit rate 15
+ip ARP INSPECTION TRUST
 spanning-tree portfast
 spanning-tree bpduguard enable
 lldp transmit
 lldp receive
 CDP enable
 no shutdown 
-exit
-!
-!
-!
-ip dhcp snooping 
-ip dhcp snooping vlan 1,10,20,88,99,666
-ip arp inspection vlan 1,10,20,88,99,666
+errdisable recovery interval 60
+interface gi 1/2
+errdisable recovery cause psecure-violation
 !
 !
 !
 enable secret Fz3r0.12345
 service password-encryption
-security passwords min-length 10
 login block-for 120 attempts 3 within 60
-!
 username root privilege 15 secret Fz3r0.12345
-username user privilege 10 secret Fz3r0.12345
+username Fz3r0 privilege 15 secret Fz3r0.12345
+username user privilege 1 secret Fz3r0.12345
 !
 line console 0
 password Fz3r0.12345
@@ -296,7 +326,6 @@ exit
 !
 !
 
-
 ```
 
 ### SW2-Cisco-DISTRIBUTION - Switch Distribution
@@ -309,10 +338,9 @@ exit
 enable
 configure terminal
 !
-hostname SW2_Distribution-F0
-!
+hostname SW2-DIST_Fz3r0
 no ip domain-lookup
-ip domain-name <<_Fz3r0.Barad-dûr_>>
+ip domain-name <<_Fz3r0.Barad-dur_>>
 !
 banner motd $
 
@@ -323,7 +351,7 @@ banner motd $
 "  iron, gate of steel, tower of adamant...               "
 "                                                         "
 "  ...The cruel pinnacles and iron crown of the topmost   "
-"  tower of Barad-dûr. Fortress of Sauron.                "
+"  tower of Barad-dur. Fortress of Sauron.                "
 "                                                         "
 "                  -- HECHO EN MEXICO --                  "
 "                                                         "
@@ -332,9 +360,11 @@ banner motd $
 "                                                         "
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 "                                                         "
-"           <<<  Barad-dûr "The Dark Tower"  >>>          "
+"           <<<  Barad-dur "The Dark Tower"  >>>          "
 "                                                         "
-"             <<<  SW2-CISCO-DISTRIBUTION  >>>            "
+"             <<<  SW2-CISCO-DISTRIBUTION >>>             "
+"                                                         "
+"           User:  Fz3r0     Pass:   Fz3r0.12345          "
 "                                                         "
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 $
@@ -349,16 +379,14 @@ name VLAN_88_MAMAGEMENT
 vlan 99
 name VLAN_99_TrunkNative
 vlan 666
-name VLAN_666-DownPorts-HoneyPot
+name VLAN_666-DownPorts
 !
 interface vlan 10
-description <<_VLAN_10_RED_>>
-ip address 172.10.0.12 255.255.0.0
+description <<_VLAN_10_RED>>
 no shutdown
 exit
 interface vlan 20
-description <<_VLAN_20_BLUE_>>
-ip address 172.20.0.12 255.255.0.0
+description <<_VLAN_20_BLUE>>
 no shutdown
 exit
 interface vlan 88
@@ -370,25 +398,30 @@ exit
 ip default-gateway 172.88.0.254
 ip http server
 !
+lldp run
+ip dhcp snooping 
+ip dhcp snooping vlan 1,10,20,88,99,666
+ip arp inspection vlan 1,10,20,88,99,666
+!
+!
 !
 interface range gi 0/0 - 3, gi 1/0
-description <<_Trunk--->>ACCESS_SWITCHES_>>
+description <<_Trunk_to-->>ALL_ACCESS_SWITCHES_>>
 switchport trunk encapsulation dot1q
 switchport mode trunk
 switchport trunk native vlan 99
 switchport trunk allowed vlan 10,20,88
 switchport nonegotiate
-ip dhcp snooping TRUST
-ip arp inspection TRUST
 spanning-tree bpduguard DISABLE
 spanning-tree portfast DISABLE
+ip dhcp snooping TRUST
+ip arp inspection TRUST
 lldp TRANSMIT
 lldp RECEIVE
 CDP ENABLE
 shutdown
 no shutdown 
 exit
-!
 !
 interface gi 3/3
 description <<_Trunk--->>CORE_>>
@@ -397,10 +430,10 @@ switchport mode trunk
 switchport trunk native vlan 99
 switchport trunk allowed vlan 10,20,88
 switchport nonegotiate
-ip dhcp snooping TRUST
-ip arp inspection TRUST
 spanning-tree bpduguard DISABLE
 spanning-tree portfast DISABLE
+ip dhcp snooping TRUST
+ip arp inspection TRUST
 lldp TRANSMIT
 lldp RECEIVE
 CDP ENABLE
@@ -416,37 +449,29 @@ switchport mode access
 switchport access vlan 666
 switchport port-security
 switchport port-security maximum 1
-switchport port-security mac-address FF:zz:33:rr:00
+switchport port-security mac-address FF:FF:FF:00:00:00
 switchport port-security aging time 5
 switchport port-security violation shutdown
-errdisable recovery cause psecure-violation
-errdisable recovery interval 600
 switchport port-security aging type inactivity
 switchport nonegotiate
-ip dhcp snooping limit rate 6
 spanning-tree portfast
 spanning-tree bpduguard enable
 no lldp transmit
 no lldp receive
 no CDP enable
 shutdown
-exit
-!
-!
-!
-ip dhcp snooping 
-ip dhcp snooping vlan 1,10,20,88,99,666
-ip arp inspection vlan 1,10,20,88,99,666
+errdisable recovery interval 60
+interface range gi 1/1 - 3, gi 3/1 - 2 
+errdisable recovery cause psecure-violation
 !
 !
 !
 enable secret Fz3r0.12345
 service password-encryption
-security passwords min-length 10
 login block-for 120 attempts 3 within 60
-!
 username root privilege 15 secret Fz3r0.12345
-username user privilege 10 secret Fz3r0.12345
+username Fz3r0 privilege 15 secret Fz3r0.12345
+username user privilege 1 secret Fz3r0.12345
 !
 line console 0
 password Fz3r0.12345
@@ -488,22 +513,23 @@ exit
 !
 !
 
-
 ```
 
 ### SW3 TO SW 10-Cisco-ACCESS - Switch Access
 
-- **NOTA1:** El LLDP y CDP será apagado en VLAN 10 RED y VLAN 20 BLUE por estándares de seguridad al ser Host Access Untrust, sin embargo si recibirán LLDP para leer información de los neighbors. 
+- **NOTA1:** El IP DHCP snooping esta´ra en modo Trust en las interfaces como vlan88 (a pesar de ser access) esto debido a que son APs que además de ser confiables, es posible necesiten un rate limit mayor de dhcp, es por eso que mejor se decide no limitar la cantidad de paquetes DHCP por segundo.
+
+- **NOTA2:** El LLDP y CDP será apagado en VLAN 10 RED y VLAN 20 BLUE por estándares de seguridad al ser Host Access Untrust, sin embargo si recibirán LLDP para leer información de los neighbors. 
 
     - En el caso de la `VLAN 88 MGMT + APs` si se mantendrá de ambos sintidos `LLDP` aunque se apagará el `CDP` al no ser necesario y así limpiar lo más posible la red. _(En el caso de switch a switch se mantiene CDP ya que ambos vendors sin cisco, en management va a otros dispositivos como PCs o APs que no necesitan CDP realmente)_
 
-- **NOTA2:** Este Switch tiene todos los puertos utilizados, por eso **no será necesario apagar puertos y configurarlos con VLAN de `HoneyPot`.**
+- **NOTA3:** Este Switch tiene todos los puertos utilizados, por eso **no será necesario apagar puertos y configurarlos con VLAN de `HoneyPot`.**
 
-- **NOTA3:** En las interfaces `Access` que usan la `VLAN 88 Management` (Utilizadas para los Access Points)
+- **NOTA4:** En las interfaces `Access` que usan la `VLAN 88 Management` (Utilizadas para los Access Points)
 
     - **IMPORTANTE!!!** **Los `Access Points Ruckus` utilizan `Access VLAN` y pueden transportar `varias VLANs` sin necesidad de una `Trunk` debido a que se reporta a la `Controladora WLC Zone Director` por medio de `SSH Tunnel`.** 
 
-- **NOTA4:** Para lograr la estandarización de configuración en todos los switches:
+- **NOTA5:** Para lograr la estandarización de configuración en todos los switches:
 
     - Los puertos 3/0 - 3 (los últimos 4) siempre serán configurados como Trunks para hacer trunks, haya o no cascadeo. 
     - Los puertos del 0/0 - 3, 1/0 - 3, 2/0 - 3 siempre serán access para esperar algún host.
@@ -521,7 +547,36 @@ exit
 
 3. La descripción de la troncal en caso de ser un cascade con puerto diferente (por ejemplo el SW-ACCESS7)
 
-- **TIP:** Copiar y pegar el script en un editor de texto primero, hacer las modificaciones necesarias y después pegarlo uno por uno en cada switch _(o automatizar :O)_.        
+- **TIP:** Copiar y pegar el script en un editor de texto primero, hacer las modificaciones necesarias y después pegarlo uno por uno en cada switch _(o automatizar :O)_.   
+
+- Cosas a cambiar:
+
+1. El Hostname
+
+```
+hostname SWxxx_Access_Fz3r0     <<<--- CAMBIAR
+no ip domain-lookup
+ip domain-name <<_Fz3r0.Barad-dur_>>
+```
+
+2. La IPv4 de la VLAN de Management (21, 22, 23, 24, etc...)   
+
+```
+interface vlan 88
+description <<_MANAGEMENT_VLAN_88_>>
+ip address 172.88.0.21 255.255.0.0    <<<--- CAMBIAR
+no shutdown
+exit
+```  
+
+3. (opcional) Descripción/nombre de la troncal exacta
+
+```
+interface range gi 3/0 - 3
+description <<_Trunk--->>DISTRIBUTION_or_CASCADE_>>    <<<--- CAMBIAR
+```
+
+- Ejemplo con Switch 3 - 172.0.88.20.
 
 ```
 !
@@ -529,9 +584,9 @@ exit
 enable
 configure terminal
 !
-hostname SWxxx_Access-F0
+hostname SW3_ACCESS_Fz3r0
 no ip domain-lookup
-ip domain-name <<_Fz3r0.Barad-dûr_>>
+ip domain-name <<_Fz3r0.Barad-dur_>>
 !
 banner motd $
 
@@ -542,7 +597,7 @@ banner motd $
 "  iron, gate of steel, tower of adamant...               "
 "                                                         "
 "  ...The cruel pinnacles and iron crown of the topmost   "
-"  tower of Barad-dûr. Fortress of Sauron.                "
+"  tower of Barad-dur. Fortress of Sauron.                "
 "                                                         "
 "                  -- HECHO EN MEXICO --                  "
 "                                                         "
@@ -551,9 +606,11 @@ banner motd $
 "                                                         "
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 "                                                         "
-"           <<<  Barad-dûr "The Dark Tower"  >>>          "
+"           <<<  Barad-dur "The Dark Tower"  >>>          "
 "                                                         "
-"              <<<  SWxx-CISCO-ACCESS-XX >>>              "
+"                <<<  SW3-CISCO-ACCESS >>>                "
+"                                                         "
+"           User:  Fz3r0     Pass:   Fz3r0.12345          "
 "                                                         "
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 $
@@ -568,26 +625,30 @@ name VLAN_88_MAMAGEMENT
 vlan 99
 name VLAN_99_TrunkNative
 vlan 666
-name VLAN_666-DownPorts-HoneyPot
+name VLAN_666-DownPorts
 !
 interface vlan 10
-description <<_VLAN_10_RED_>>
-ip address 172.10.0.12 255.255.0.0
+description <<_VLAN_10_RED>>
 no shutdown
 exit
 interface vlan 20
-description <<_VLAN_20_BLUE_>>
-ip address 172.20.0.12 255.255.0.0
+description <<_VLAN_20_BLUE>>
 no shutdown
 exit
 interface vlan 88
 description <<_MANAGEMENT_VLAN_88_>>
-ip address 172.88.0.12 255.255.0.0
+ip address 172.88.0.20 255.255.0.0
 no shutdown
 exit
 !
 ip default-gateway 172.88.0.254
 ip http server
+!
+lldp run
+ip dhcp snooping 
+ip dhcp snooping vlan 1,10,20,88,99,666
+ip arp inspection vlan 1,10,20,88,99,666
+!
 !
 !
 interface range gi 0/0 - 3
@@ -596,23 +657,24 @@ switchport mode access
 switchport access vlan 10
 switchport port-security
 switchport port-security maximum 2
-switchport port-security mac-address FF:zz:33:rr:00
+switchport port-security mac-address FF:FF:FF:00:00:00
 switchport port-security mac-address sticky 
 switchport port-security aging time 1440
 switchport port-security violation shutdown
-errdisable recovery cause psecure-violation
-errdisable recovery interval 600
 switchport port-security aging type inactivity
 switchport nonegotiate
-ip dhcp snooping limit rate 6
+ip dhcp snooping limit rate 15
+ip ARP INSPECTION TRUST
 spanning-tree portfast
 spanning-tree bpduguard enable
-no lldp transmit
+lldp transmit
 lldp receive
-no CDP enable
-shutdown
+CDP enable
 no shutdown 
-exit
+errdisable recovery interval 60
+interface gi 1/2
+errdisable recovery cause psecure-violation
+!
 !
 interface range gi 1/0 - 3
 description <<_ACCESS_VLAN_20_BLUE_-_HOST_INTERFACES_>>
@@ -620,47 +682,49 @@ switchport mode access
 switchport access vlan 20
 switchport port-security
 switchport port-security maximum 2
-switchport port-security mac-address FF:zz:33:rr:00
+switchport port-security mac-address FF:FF:FF:00:00:00
 switchport port-security mac-address sticky 
 switchport port-security aging time 1440
 switchport port-security violation shutdown
-errdisable recovery cause psecure-violation
-errdisable recovery interval 600
 switchport port-security aging type inactivity
 switchport nonegotiate
-ip dhcp snooping limit rate 6
-spanning-tree portfast
-spanning-tree bpduguard enable
-no lldp transmit
-lldp receive
-no CDP enable
-shutdown
-no shutdown 
-exit
-!
-interface range gi 2/0 - 3
-description <<_ACCESS_VLAN_88_MGMT_&_AccessPoints_-_AP+Admin_>>
-switchport mode access
-switchport access vlan 20
-switchport port-security
-switchport port-security maximum 2
-switchport port-security mac-address FF:zz:33:rr:00
-switchport port-security mac-address sticky 
-switchport port-security aging time 1440
-switchport port-security violation shutdown
-errdisable recovery cause psecure-violation
-errdisable recovery interval 600
-switchport port-security aging type inactivity
-switchport nonegotiate
-ip dhcp snooping limit rate 6
+ip dhcp snooping limit rate 15
+ip ARP INSPECTION TRUST
 spanning-tree portfast
 spanning-tree bpduguard enable
 lldp transmit
 lldp receive
-no CDP enable
-shutdown
+CDP enable
 no shutdown 
-exit
+errdisable recovery interval 60
+interface gi 1/2
+errdisable recovery cause psecure-violation
+!
+!
+interface range gi 2/0 - 3
+description <<_ACCESS_VLAN_88_MGMT_&_AccessPoints_-_AP+Admin_>>
+switchport mode access
+switchport access vlan 88
+switchport port-security
+switchport port-security maximum 2
+switchport port-security mac-address FF:FF:FF:00:00:00
+switchport port-security mac-address sticky 
+switchport port-security aging time 1440
+switchport port-security violation shutdown
+switchport port-security aging type inactivity
+switchport nonegotiate
+ip dhcp snooping TRUST
+ip ARP INSPECTION TRUST
+spanning-tree portfast
+spanning-tree bpduguard enable
+lldp transmit
+lldp receive
+CDP enable
+no shutdown 
+errdisable recovery interval 60
+interface gi 1/2
+errdisable recovery cause psecure-violation
+!
 !
 !
 interface range gi 3/0 - 3
@@ -683,19 +747,12 @@ exit
 !
 !
 !
-ip dhcp snooping 
-ip dhcp snooping vlan 1,10,20,88,99,666
-ip arp inspection vlan 1,10,20,88,99,666
-!
-!
-!
 enable secret Fz3r0.12345
 service password-encryption
-security passwords min-length 10
 login block-for 120 attempts 3 within 60
-!
 username root privilege 15 secret Fz3r0.12345
-username user privilege 10 secret Fz3r0.12345
+username Fz3r0 privilege 15 secret Fz3r0.12345
+username user privilege 1 secret Fz3r0.12345
 !
 line console 0
 password Fz3r0.12345
@@ -737,8 +794,9 @@ exit
 !
 !
 
-
 ```
+
+
 
 ## FortiGates (Edge Firewalls/Router/Gateways) Configurations
 
@@ -827,6 +885,10 @@ end
 
 - **TIP:** Crear primero las WANs e inmediatamente después hacer el SD-WAN. (Esto para no tener que estar borrando políticas más adelante por olvidar crear la SD-WAN)
 
+
+
+
+
 #### Interfaces
 
 #### SD-WAN
@@ -841,6 +903,19 @@ end
 #### System > Replacement Messages
 
 - Post-Login Disclaimer Message
+
+### FortiGate2-SLAVE
+
+```
+config system interface
+edit port1
+set mode static
+set ip 192.168.143.200 255.255.255.0
+select allowaccess ping https ssh http
+end
+
+
+```
 
 #### RADIUS Authentication
 
@@ -1071,6 +1146,27 @@ WELCOME!!!
 ===
 
 
+shows
+
+show lldp interface
+port-channel 10
+show lldp interface
+port-channel 20
+
+
+show ip arp inspection vlan 1
+show ip arp inspection statistics vlan 1
+
+arp inspection full
+S1# conf t
+Enter configuration commands, one per line. End with CNTL/Z.
+S1(config)# arp access-list H2
+S1(config-arp-nacl)# permit ip host 1.1.1.1 mac host 1.1.1
+S1(config-arp-nacl)# end
+S1# show arp access-list
+ARP access list H2
+permit ip host 1.1.1.1 mac host 0001.0001.0001
+
 
 Duda:
 
@@ -1083,3 +1179,8 @@ https://www.youtube.com/watch?v=SekPxtUUR68
 https://www.youtube.com/shorts/aYEzFzLGuaQ
 
 -->
+
+
+
+
+https://www.computernetworkingnotes.com/ccna-study-guide/configure-dhcp-snooping-on-cisco-switches.html#:~:text=By%20default%2C%20DHCP%20snooping%20does,is%2015%20packets%20per%20second.
