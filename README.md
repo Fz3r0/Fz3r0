@@ -365,6 +365,10 @@ Tables, Lists, Models, Cheat-Sheets, Mind-Maps & Resources
     - [FAQ - Should trunk ports be tagged or untagged?](https://faq-blog.com/should-trunk-ports-be-tagged-or-untagged)
     - [GNS3 Extreme Networks VLANs Tagged Port (Trunk), Untagged Port (Access) & Untagged VLAN (Native VLAN)](https://www.youtube.com/watch?v=QdQzlOX9CJ8)
 
+- DHCP
+
+    - [DHCP Cheatsheet](https://user-images.githubusercontent.com/94720207/190929651-2023d74c-2d21-40e7-8619-b629650f48a2.png)
+
 
     
 - Ruckus
