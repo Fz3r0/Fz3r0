@@ -1698,6 +1698,9 @@ Pro and Secure Network Configurations Guides by _Fz3r0_
     - [Configure **WLAN on a Wireless Controller (WLC) using Personal WPA2 Authentication** like a Sir! **WPA2, AES, WLC, WLAN Setup**](/Networking/Knowledge/Configure-WLAN-on-WLC-like-a-sir.md)
     - [Configure **WLAN on a Wireless Controller (WLC) using Enterprise WPA2 Authentication** like a Sir! **WPA2 Enterprise, AES, RADIUS/TACACS, AAA, WLC, WLAN Setup**](/Networking/Knowledge/Configure-WLAN-on-WLC-like-a-sir.md)
 
+- Cisco Wireless
+
+    - [Curso Cisco Wireless CCNA & CCNP](https://www.youtube.com/watch?v=zdXVnHbRto4&list=PL9aktFItFNdPfMHc__mj6fTK6gpVb2A2p&index=1)
 
 - Cisco Security 
 
