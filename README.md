@@ -535,6 +535,7 @@ Tables, Lists, Models, Cheat-Sheets, Mind-Maps & Resources
     - [(ESSID) - The shared netweork name/ID between different "ESS" (Inexistent in 802.11 standards), hint: use same as SSID]()
     - [Tx / Rx - TX (transmit) is how loud you're talking / RX (receive) is how loud you think the other is talking.](https://www.ligowave.com/wiki/faq/infinity-network-wireless-statistics/)
     - [RF Behaivours - Mulitpath fenomen + reflection, absorption, diffraction, scattering, and interference]()
+    - [RSSI and Ruckus dbm Standards for Ruckus WiFi Solutions](https://www.youtube.com/watch?v=j_cEmPJFftM)
 
 - **WiFi** _(Wireless Fidelity)_
 
