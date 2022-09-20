@@ -638,6 +638,7 @@ Tables, Lists, Models, Cheat-Sheets, Mind-Maps & Resources
 [Wireless WLAN Troubleshooting & Ass-Savers]()
 
 - [Wi-Fi Troubleshooting Tips and Tricks | Ekahau Webinar](https://www.youtube.com/watch?v=5NeuTT_-Q9o)
+- [Ruckus WiFi Godlike 10 min ass-savers](https://www.youtube.com/watch?v=7NATyF0LCIU&t=292s))
 
 
 - **CWNA - Certified Wireless Network Administrator: The 4th Impact**
