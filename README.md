@@ -362,7 +362,12 @@ Tables, Lists, Models, Cheat-Sheets, Mind-Maps & Resources
 
 - **IPv6**
 
-- MAC-Address
+- **Ethernet - IEEE 802.3**
+     
+    - [Ethernet - IEEE 802.3](https://en.wikipedia.org/wiki/Ethernet) 
+    - [7 parts of an Ethernet Frame @ Sunny](https://www.youtube.com/watch?v=qXtS1o1HGso)
+
+- **MAC-Address - IEEE 802.xxxx(various): EUI-48 & EUI-64**
 
     - [Media Access Control Address - MAC-Address](https://en.wikipedia.org/wiki/MAC_address)
     - [MAC vendor lookup](https://macvendors.com/)
