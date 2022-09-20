@@ -346,13 +346,19 @@ Tables, Lists, Models, Cheat-Sheets, Mind-Maps & Resources
     - [Three categories of TCP/UDP port numbers (Well known, registered, dynamic/private) @ Sunny](https://www.youtube.com/watch?v=dSO7XI_HOmY&t=1s)
     - [TCP/UDP Port Number IANA list @ Python - WhatPortIs](https://github.com/Fz3r0/whatportis)
 
-- IPv4
+- **IPv4**
+
+    - [Internet Protocol version 4 (IPv4)](https://en.wikipedia.org/wiki/IPv4)
+    - [IPv4 Quick Guide](https://www.tutorialspoint.com/ipv4/ipv4_quick_guide.htm)
+    - [IPv4 Packet Header](https://networklessons.com/cisco/ccna-routing-switching-icnd1-100-105/ipv4-packet-header)
 
 - **Subnet / VLSM & FLSM**
 
+    - [Subnetting is simple @ Sunny](https://www.youtube.com/watch?v=ecCuyq-Wprc)
     - [Subneting Guide - FLSM & VLSM]()
+    - [IPv4 Subnetting Cheatsheet](https://packetlife.net/media/library/15/IPv4_Subnetting.pdf)
 
-- IPv6
+- **IPv6**
 
 - MAC-Address
 
