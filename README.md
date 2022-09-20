@@ -354,6 +354,17 @@ Tables, Lists, Models, Cheat-Sheets, Mind-Maps & Resources
 
 - IPv6
 
+- MAC-Address
+
+    - [Media Access Control Address - MAC-Address](https://en.wikipedia.org/wiki/MAC_address)
+    - [MAC vendor lookup](https://macvendors.com/)
+    - [Technitium MAC Address Changer (MAC Spoofing for Windows)](https://technitium.com/tmac/)
+    - [SMAC Address Spoofing Tool](https://smac-tool.com/#:~:text=SMAC%20is%20a%20powerful%2C%20yet%20an%20easy%2Dto%2Duse,whether%20the%20manufacturers%20allow%20this)
+
+- EtherType
+
+    - [EtherType & Values Table](https://en.wikipedia.org/wiki/EtherType)
+
 - **802.1q: VLANs, Trunks, Natives, ISL /// General Modes, Tag & Untag, full 802.1Q mode, 802.1Q Tunneling (Q-in-Q).**
 
     - [Cisco Full VLAN Approach: Trunk VLANs](https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst_digital_building_series_switches/software/15-2_5_ex/configuration_guide/b_1525ex_consolidated_cdb_cg/b_1525ex_consolidated_cdb_cg_chapter_0110101.pdf)
