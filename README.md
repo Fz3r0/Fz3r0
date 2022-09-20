@@ -356,6 +356,7 @@ Tables, Lists, Models, Cheat-Sheets, Mind-Maps & Resources
 - **Subnet / VLSM & FLSM**
 
     - [Subnetting is simple @ Sunny](https://www.youtube.com/watch?v=ecCuyq-Wprc)
+    - [Subnetting a subnet @ Sunny](https://youtu.be/aVTEZHC2wdA)
     - [Subneting Guide - FLSM & VLSM]()
     - [IPv4 Subnetting Cheatsheet](https://packetlife.net/media/library/15/IPv4_Subnetting.pdf)
 
