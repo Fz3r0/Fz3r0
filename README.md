@@ -364,6 +364,7 @@ Tables, Lists, Models, Cheat-Sheets, Mind-Maps & Resources
 - EtherType
 
     - [EtherType & Values Table](https://en.wikipedia.org/wiki/EtherType)
+    - [Capturing and analyzing EtherType @ WireShark](https://www.youtube.com/watch?v=ZSVudprlZkE)
 
 - **802.1q: VLANs, Trunks, Natives, ISL /// General Modes, Tag & Untag, full 802.1Q mode, 802.1Q Tunneling (Q-in-Q).**
 
