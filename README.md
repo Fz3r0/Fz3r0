@@ -111,7 +111,7 @@ I'm just a very lucky person who was born surrounded by IBM computers and walls 
 
 When I was a little kid my father took me to a Data Center inside the Company where he worked, then I met a very funny guy with long hair and a beard (The Systems Engineer) who allowed me to play Prince of Persia in MS-DOS surrounded by those huge computers with that peculiar smell of silicon & technology inside that huge room, when I came back home I have never left the IBM 5170 that we had there... Since then I decided to focus on one thing: Let my hair and beard grow!... (and dedicate my life to Computer Science and Information and Communication Technologies) and here I am! 
 
-Please check out the links of my Social Networks that I've placed above including my LinkedIn, where you will find more information regarding my professional career. Cheerz and thank you for reading! 💀🎩
+Please check out the links of my Social Networks that I've placed above including my LinkedIn, where you will find more information regarding my professional career. Greetings and thank you for reading! 💀🎩
 
 ---
 
