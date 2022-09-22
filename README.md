@@ -328,8 +328,10 @@ Tables, Lists, Models, Cheat-Sheets, Mind-Maps & Resources
 
 - **Fz3r0 Papu-Pro Resources**
 
-    - [**OpenManiak**](https://openmaniak.com/) _The leader in open source Network and Security tutorial._
+    - [OpenManiak](https://openmaniak.com/) _The leader in open source Network and Security tutorial._
     - [Network Lessons](https://networklessons.com/)_Cisco CCNA, CCNP and CCIE Enterprise Infrastructure_
+    - [David Bombal (el padrino santo)](https://www.youtube.com/c/DavidBombal)
+    - [Sunny Classroom](https://www.youtube.com/user/sunnylearning)
     - [Networking List 01 - facyber](https://github.com/facyber/awesome-networking) 
     - [Awesome **Mesh Networking**](https://github.com/moarpepes/awesome-mesh) _Documentation, Free Software mesh protocols, and applications._
 
