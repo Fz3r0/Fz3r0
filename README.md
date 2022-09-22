@@ -510,6 +510,69 @@ Tables, Lists, Models, Cheat-Sheets, Mind-Maps & Resources
     - [**CSMA with Collision Resolution (CSMA/CR)** - **Vehicles, Trucks, Agriculture**](https://en.wikipedia.org/wiki/CAN_bus)
     - [**Virtual time CSMA (VTCSMA)** - **Real Time Computing**](https://en.wikipedia.org/wiki/Real-time_computing)
 
+### ✉️ 👨‍💻 📦 Packet Level 📦 👨‍💻 ✉️ 
+Deep dive into the Packet / PCAP Analysis
+
+- **Capturing Packets PCAPs**
+
+    - [Capturing Packets](https://blog.showipintbri.com/blog/where-to-start)
+
+- Packet Headers, Parameters & Flags:
+ 
+    - TCP > Parameters
+    - UDP > Parameters
+    - ETHII > Parameters
+    - [802.11 - Header & 3 Types of Frames](https://user-images.githubusercontent.com/94720207/180625486-0e2e1964-3bac-4219-bfa7-f53ed5fa4182.png)
+    - HTTP > [List of HTTP Header Fields](https://en.wikipedia.org/wiki/List_of_HTTP_header_fields)
+    - [Security Headers - HTTP Header Analyzer](https://securityheaders.com/) 
+ 
+- **Better Known Protocols for Networking - Official RFCs from the IETF**
+
+    - [Address Resolution Protocol (ARP)](https://datatracker.ietf.org/doc/rfc826/)
+    - [Border Gateway Protocol (BGP)](https://datatracker.ietf.org/doc/rfc4271/)
+    - [Domain Name System (DNS)](https://datatracker.ietf.org/doc/rfc1035/)
+    - [Dynamic Host Configuration Protocol (DHCP)](https://datatracker.ietf.org/doc/rfc2131/)
+    - [File Transfer Protocol (FTP)](https://datatracker.ietf.org/doc/rfc959/)
+    - [Hypertext Transfer Protocol (HTTP/1.1)](https://datatracker.ietf.org/doc/rfc2616/)
+    - [Hypertext Transfer Protocol Version 2 (HTTP/2)](https://datatracker.ietf.org/doc/rfc7540/)
+    - [Internet Protocol Version 4 (IPv4)](https://tools.ietf.org/html/rfc791/)
+    - [Internet Protocol Version 6 (IPv6)](https://datatracker.ietf.org/doc/rfc2460/)
+    - [Network Address Translator (NAT)](https://datatracker.ietf.org/doc/rfc1631/)
+    - [Simple Mail Transfer Protocol (SMTP)](https://datatracker.ietf.org/doc/rfc5321/)
+        - [SMTP - Understand & Exploit the shit out @ Hackers-Arise](https://www.hackers-arise.com/post/network-basics-for-hackers-part-5-simple-mail-transport-protocol-smtp)
+    - [Simple Network Management Protocol (SNMP)](https://datatracker.ietf.org/doc/rfc1157/)
+    - [Secure Shell (SSH)](https://datatracker.ietf.org/doc/rfc4251/)
+    - [Transmission Control Protocol (TCP)](https://datatracker.ietf.org/doc/rfc793/)
+    - [Telnet](https://datatracker.ietf.org/doc/rfc854/)
+    - [User Datagram Protocol (UDP)](https://datatracker.ietf.org/doc/rfc768/)
+
+- Multicast Traffic
+
+    - [Multicast Explained in 5 Minutes | CCIE Journey](https://www.youtube.com/watch?v=W5oMvrMRM3Q)
+    - [Multicast EZ Lab (IGMP Snooping included!!!)](https://www.youtube.com/watch?v=fIg_9wJlQX4)
+    - [Diferencia entre IPTV Unicast y Multicast](https://www.youtube.com/watch?v=pFfu4-Wibh8)
+    - [GNS3 Talks: Ostinato - Multicast traffic: what happens? @ David Bombal](https://www.youtube.com/watch?v=HqZCWUQqKS0)
+    - [Fundamentos de Multicast + Ejemplo de IPTV en GNS3](https://www.youtube.com/watch?v=3hco1ebiqo8)
+    - [¿Puedo transmitir IP TV por aire? True Multicast WiFi](https://www.youtube.com/watch?v=fT8GbK8yAgw)
+    - [TV y video Multicast en redes LAN - Ejemplo con Hotel @ Netgear](https://www.youtube.com/watch?v=oMp3nX5bEjs)
+    - [Como implementar redes Multicast de forma eficiente @ Netgear](https://www.youtube.com/watch?v=h5Uu5clw3HU)
+    - [Multicast GNS3 Lab - CCNA CCNP (Part 1) @ PrimeScope](https://www.youtube.com/watch?v=meKr3wtvuoM&t=0s)
+    - [Multicast GNS3 Lab - CCNA CCNP (Part 2) @ PrimeScope](https://www.youtube.com/watch?v=Lx-_f923s6A)
+    - [Multicast GNS3 Lab - CCNA CCNP (Part 3) @ PrimeScope](https://www.youtube.com/watch?v=fhmFJUYalTE)
+    -     
+        - Mulitcast Protocols
+
+            - [IGMP - Layer 2]()
+     
+                - [Procedimientos IGMP | Universitat Politècnica de València UPV](https://www.youtube.com/watch?v=3mMetPjAx_Y)
+                 
+            - [PIM]()
+            - [mDNS (Multicast Domain Name System)]()
+                - [mDNS - Wireshark Introduction](https://www.youtube.com/watch?v=srVklzhATXE)
+                - [mDNS Configuration on Cisco WLC](https://www.youtube.com/watch?v=jJRGoFx8oiU)
+                - [¿Qué es mDNS? (Truco de Red Local)](https://www.youtube.com/watch?v=_2dZVdjV4T4&t=18s)
+                - [Pfsense & Chromecast Across Subnets/VLANs w/ Avahi & mDNS](https://www.youtube.com/watch?v=kYKfmS5_3r0)
+
 ### 🕸️ 🖧 🔌 Wired LAN Networking & Structured Cabling
 
 - Structured Cabling Fundamentals
@@ -1485,68 +1548,6 @@ _Horizon alternitatis systema sephiroticvm X divino rvm nominvm._ <br>
     - [WLAN Vendors]()
 
 
-### ✉️ 👨‍💻 📦 Packet Level 📦 👨‍💻 ✉️ 
-Deep dive into the Packet / PCAP Analysis
-
-- **Capturing Packets PCAPs**
-
-    - [Capturing Packets](https://blog.showipintbri.com/blog/where-to-start)
-
-- Packet Headers, Parameters & Flags:
- 
-    - TCP > Parameters
-    - UDP > Parameters
-    - ETHII > Parameters
-    - [802.11 - Header & 3 Types of Frames](https://user-images.githubusercontent.com/94720207/180625486-0e2e1964-3bac-4219-bfa7-f53ed5fa4182.png)
-    - HTTP > [List of HTTP Header Fields](https://en.wikipedia.org/wiki/List_of_HTTP_header_fields)
-    - [Security Headers - HTTP Header Analyzer](https://securityheaders.com/) 
- 
-- **Better Known Protocols for Networking - Official RFCs from the IETF**
-
-    - [Address Resolution Protocol (ARP)](https://datatracker.ietf.org/doc/rfc826/)
-    - [Border Gateway Protocol (BGP)](https://datatracker.ietf.org/doc/rfc4271/)
-    - [Domain Name System (DNS)](https://datatracker.ietf.org/doc/rfc1035/)
-    - [Dynamic Host Configuration Protocol (DHCP)](https://datatracker.ietf.org/doc/rfc2131/)
-    - [File Transfer Protocol (FTP)](https://datatracker.ietf.org/doc/rfc959/)
-    - [Hypertext Transfer Protocol (HTTP/1.1)](https://datatracker.ietf.org/doc/rfc2616/)
-    - [Hypertext Transfer Protocol Version 2 (HTTP/2)](https://datatracker.ietf.org/doc/rfc7540/)
-    - [Internet Protocol Version 4 (IPv4)](https://tools.ietf.org/html/rfc791/)
-    - [Internet Protocol Version 6 (IPv6)](https://datatracker.ietf.org/doc/rfc2460/)
-    - [Network Address Translator (NAT)](https://datatracker.ietf.org/doc/rfc1631/)
-    - [Simple Mail Transfer Protocol (SMTP)](https://datatracker.ietf.org/doc/rfc5321/)
-        - [SMTP - Understand & Exploit the shit out @ Hackers-Arise](https://www.hackers-arise.com/post/network-basics-for-hackers-part-5-simple-mail-transport-protocol-smtp)
-    - [Simple Network Management Protocol (SNMP)](https://datatracker.ietf.org/doc/rfc1157/)
-    - [Secure Shell (SSH)](https://datatracker.ietf.org/doc/rfc4251/)
-    - [Transmission Control Protocol (TCP)](https://datatracker.ietf.org/doc/rfc793/)
-    - [Telnet](https://datatracker.ietf.org/doc/rfc854/)
-    - [User Datagram Protocol (UDP)](https://datatracker.ietf.org/doc/rfc768/)
-
-- Multicast Traffic
-
-    - [Multicast Explained in 5 Minutes | CCIE Journey](https://www.youtube.com/watch?v=W5oMvrMRM3Q)
-    - [Multicast EZ Lab (IGMP Snooping included!!!)](https://www.youtube.com/watch?v=fIg_9wJlQX4)
-    - [Diferencia entre IPTV Unicast y Multicast](https://www.youtube.com/watch?v=pFfu4-Wibh8)
-    - [GNS3 Talks: Ostinato - Multicast traffic: what happens? @ David Bombal](https://www.youtube.com/watch?v=HqZCWUQqKS0)
-    - [Fundamentos de Multicast + Ejemplo de IPTV en GNS3](https://www.youtube.com/watch?v=3hco1ebiqo8)
-    - [¿Puedo transmitir IP TV por aire? True Multicast WiFi](https://www.youtube.com/watch?v=fT8GbK8yAgw)
-    - [TV y video Multicast en redes LAN - Ejemplo con Hotel @ Netgear](https://www.youtube.com/watch?v=oMp3nX5bEjs)
-    - [Como implementar redes Multicast de forma eficiente @ Netgear](https://www.youtube.com/watch?v=h5Uu5clw3HU)
-    - [Multicast GNS3 Lab - CCNA CCNP (Part 1) @ PrimeScope](https://www.youtube.com/watch?v=meKr3wtvuoM&t=0s)
-    - [Multicast GNS3 Lab - CCNA CCNP (Part 2) @ PrimeScope](https://www.youtube.com/watch?v=Lx-_f923s6A)
-    - [Multicast GNS3 Lab - CCNA CCNP (Part 3) @ PrimeScope](https://www.youtube.com/watch?v=fhmFJUYalTE)
-    -     
-        - Mulitcast Protocols
-
-            - [IGMP - Layer 2]()
-     
-                - [Procedimientos IGMP | Universitat Politècnica de València UPV](https://www.youtube.com/watch?v=3mMetPjAx_Y)
-                 
-            - [PIM]()
-            - [mDNS (Multicast Domain Name System)]()
-                - [mDNS - Wireshark Introduction](https://www.youtube.com/watch?v=srVklzhATXE)
-                - [mDNS Configuration on Cisco WLC](https://www.youtube.com/watch?v=jJRGoFx8oiU)
-                - [¿Qué es mDNS? (Truco de Red Local)](https://www.youtube.com/watch?v=_2dZVdjV4T4&t=18s)
-                - [Pfsense & Chromecast Across Subnets/VLANs w/ Avahi & mDNS](https://www.youtube.com/watch?v=kYKfmS5_3r0)
 
 
 
