@@ -119,8 +119,7 @@ Please check the links of my Social Networks that I've placed above including my
 ##### `Bachelor of Science in Computer Systems Engineering`
 
 #### < Networking > 
-##### `NetOps` `NetSec` `CCNA`  `RICXI`  `RSP`  `CWNA` `ICND 1&2` `
-` `Enterprise Networking` `SOHO` `NGNs`  
+##### `NetOps` `NetSec` `CCNA`  `RICXI`  `RSP`  `CWNA` `ICND 1&2` `Enterprise Networking` `SOHO` `NGNs`  
 
 #### < Programming, Scripting & DBA >
 ##### `DevOps` `Python` `C++` `Ruby` `Visual Basic` `VBA` `Bash` `Batch` `PowerShell` `HTML5` `CSS3` `Javascript` `Node.js` `PHP` `SQL` `MySQL` `Mongo DB` 
