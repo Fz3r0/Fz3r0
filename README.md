@@ -422,14 +422,20 @@ Tables, Lists, Models, Cheat-Sheets, Mind-Maps & Resources
 - For Diagrams: [Microsoft Visio](https://www.microsoft.com/en-us/microsoft-365/visio/flowchart-software) _$$$_
 - For Diagrams: [draw.io](https://app.diagrams.net/) _Free!_
 
-### 🐚 🐢 🐱‍💻 Shells & Reverse Shells
+### 🐚 🐢 💻 Shells 💻 🐢 🐚
 
 - Secure-CRT
     - [Pimp my Secure CRT - ANSI colors & dark shell mode](https://www.vandyke.com/support/tips/colorconfig.html)
 - Putty
 - [MobaXterm - Pimp term for Windows](https://mobaxterm.mobatek.net/)
+
+### 🐚 😼 💀 Reverse Shells 💀 😼 🐚
+
+- [Reverse Shell Generator](https://www.revshells.com/)
 - NetCat
 - SoCat
+
+### 🐚 🐢 🐱‍
 
 ### 🔱 🌐 🏛️ Networking Groups & Organizations
 
