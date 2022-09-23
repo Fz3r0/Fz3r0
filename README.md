@@ -1947,6 +1947,8 @@ Guides, Tips & Tricks, Downloads, Training, Crafting, Arsenal, Binaries, Executa
 - Wireless
 
     - [MCindex](https://mcsindex.com/) _MCS Index Table, Modulation and Coding Scheme Index 11n, 11ac, and 11ax_
+    - [Client and Cappabilites for 5 GHz - which band they take?!](https://clients.mikealbano.com/)
+    - [WiFi Aliance Product Finder](https://wi-fi.org/product-finder)
 
 - Wired
 
