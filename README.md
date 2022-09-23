@@ -510,6 +510,10 @@ Tables, Lists, Models, Cheat-Sheets, Mind-Maps & Resources
     - [**Carrier-sense multiple access with collision avoidance (CSMA/CA)** - **WiFi**](https://www.youtube.com/watch?v=PcbTMSf0D2M&list=PLSNNzog5eydvJG48PYnWnNY7-tQIfxTRb&index=9)
     - [**CSMA with Collision Resolution (CSMA/CR)** - **Vehicles, Trucks, Agriculture**](https://en.wikipedia.org/wiki/CAN_bus)
     - [**Virtual time CSMA (VTCSMA)** - **Real Time Computing**](https://en.wikipedia.org/wiki/Real-time_computing)
+    
+- [Contention (Telecommunications)](https://en.wikipedia.org/wiki/Contention_(telecommunications))
+
+    - [Wireless Contention, Co-Channel Contention (CCC) & Interference, Co-Channel Interference (CCI)](https://blogs.arubanetworks.com/industries/definition-of-wifi-interference-and-contention/)
 
 ### ✉️ 👨‍💻 📦 Packet Level 📦 👨‍💻 ✉️ 
 Deep dive into the Packet / PCAP Analysis
