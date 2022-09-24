@@ -2541,35 +2541,37 @@ Fz3r0 Cyber-Weaponry Crafting, Tools Programming & Open Source Projects
  
     - [Python Problems](https://codingbat.com/python)
 
-- C
+### C
 
-    - [Compile C code in Linux](https://www.atechtown.com/c-program-in-linux/)
-  
-- **Batch Shell & Scripting**
-
-- **Bash Shell & Scripting**
-
-    - Guides & Resources
- 
-        - [Introducción al Bash/Shell Scripting @ D.Pereira](https://youtu.be/8X-2Kkqw3Wg)
-        - [Bash Scripting para Pentesting @ D.Pereira](https://www.youtube.com/watch?v=J4AmDXw1voo)         
-        - [Bash Scripting 1 - Shebang #! & Echo - which $SHELL | env](https://bytee.net/tutorials/bash-scripting-part-1)
-        - [Bash Scripting 2 - Environment Variables](https://bytee.net/tutorials/bash-scripting-part-1)
-        - [Bash Scripting 3 - Variables](https://bytee.net/tutorials/bash-scripting-part-1)
-        - [Bash Scripting 4 - Arithmetic Operations](https://bytee.net/tutorials/bash-scripting-part-1)
-
-
-    - Tools
-   
-        - [Git Bash - Git for Windows](https://git-scm.com/downloads) _Bash shell in Windows!_
-   
-    - Scripts
+- [Compile C code in Linux](https://www.atechtown.com/c-program-in-linux/)
     
-        - [Most Basic Bash Script in the World](https://github.com/Fz3r0/Fz3r0-bash-scripting/blob/main/basic_bash_script.sh)
-        - Pentesting > [boot & Enum](https://github.com/rkpr0xy13/recon-boot.sh/blob/main/boot.sh) 
-        - Pentesting > [boot & Enum](https://github.com/rkpr0xy13/recon-boot.sh/blob/main/boot.sh) 
+### Ensamblador
 
-- [Go]
+    - [C y Ensamblador desde 0: ¿Cómo se pinta un sprite? (CPU, RAM, programas, registros, funciones y +)](https://www.youtube.com/watch?v=D7fnvMPfmPQ)
+  
+### Bash Shell & Scripting
+
+- Guides & Resources
+ 
+    - [Introducción al Bash/Shell Scripting @ D.Pereira](https://youtu.be/8X-2Kkqw3Wg)
+    - [Bash Scripting para Pentesting @ D.Pereira](https://www.youtube.com/watch?v=J4AmDXw1voo)         
+    - [Bash Scripting 1 - Shebang #! & Echo - which $SHELL | env](https://bytee.net/tutorials/bash-scripting-part-1)
+    - [Bash Scripting 2 - Environment Variables](https://bytee.net/tutorials/bash-scripting-part-1)
+    - [Bash Scripting 3 - Variables](https://bytee.net/tutorials/bash-scripting-part-1)
+    - [Bash Scripting 4 - Arithmetic Operations](https://bytee.net/tutorials/bash-scripting-part-1)
+
+
+- Tools
+   
+    - [Git Bash - Git for Windows](https://git-scm.com/downloads) _Bash shell in Windows!_
+   
+- Scripts
+    
+    - [Most Basic Bash Script in the World](https://github.com/Fz3r0/Fz3r0-bash-scripting/blob/main/basic_bash_script.sh)
+    - Pentesting > [boot & Enum](https://github.com/rkpr0xy13/recon-boot.sh/blob/main/boot.sh) 
+    - Pentesting > [boot & Enum](https://github.com/rkpr0xy13/recon-boot.sh/blob/main/boot.sh) 
+
+### Go Lang
 
 ## Web Programming
   
@@ -2623,7 +2625,7 @@ Fz3r0 Cyber-Weaponry Crafting, Tools Programming & Open Source Projects
  
     - [Digital Clock Using JS - Vanilla JS Clock](https://www.youtube.com/watch?v=28nXHD4J4zw) _@ DEE-CODER_
  
-## Database
+## Database & Database Administration (DBA)
 
 ### Database Bibles & Resources
 
