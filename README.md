@@ -1578,20 +1578,25 @@ _Horizon alternitatis systema sephiroticvm X divino rvm nominvm._ <br>
 
     - [Chrome Cast & Bonjour Services in Cisco WLC](https://www.cisco.com/c/en/us/td/docs/wireless/controller/technotes/7-6/chromecastDG76/ChromecastDG76.html)
 
-### 🐶 📡 🔮 Ruckus Wireless | Commscope
+## 🐶 📡 🔮 Ruckus Wireless | Commscope 🔮 📡 🐶
+_Somehow my life always return here...Ruckus Wireless, maybe because I love dogs?_
 
-- **Ruckus Wireless Fundamentals**
+### Ruckus Wireless Fundamentals
 
-    - [Full Ruckus Wireless Fundamentals Course](https://www.youtube.com/watch?v=wxa2ZX5ofRo&list=PLySwoo7u9-KL4RMboSyITYGRYqWCikc1Q)
-    - [Ruckcast Podcast](https://open.spotify.com/show/2pHzLyLe3P9HRXI40YpFdD)
+- [Full Ruckus Wireless Fundamentals Course](https://www.youtube.com/watch?v=wxa2ZX5ofRo&list=PLySwoo7u9-KL4RMboSyITYGRYqWCikc1Q)
+- [Ruckcast Podcast - All Episodes!!!](https://www.buzzsprout.com/867523)
 
-- **Rukcus Wireless - Optimizing WiFi Coverage**
+### Fz3r0 From 0 to Hero... Control the air like a big dog
+
+- []()
+
+### Rukcus Wireless - Optimizing WiFi Coverage
 
     - [**Band Balancing**](https://www.youtube.com/watch?v=gsv9Tiqpt18)
     - [**Rogue AP Detection** - De-Auth Attack for Mitigation](https://www.youtube.com/watch?v=Uk0QN7ckL-I)
     - [**Auto Cell Sizing** - Background scanning + Auto Cell - Auto-FTW!](https://www.youtube.com/watch?v=E0_kISkfEd0)
 
-- **Ruckus Access Point (AP) placement like a Sir!**
+### Ruckus Access Point (AP) placement like a Sir!**
 
     - [Orientation Matters](https://www.youtube.com/watch?v=_7ZZodhMieI&t=1s)
     - [Materials and Obstacles](https://www.youtube.com/watch?v=p4fUJkqNjFs&t=1s)
@@ -1601,28 +1606,28 @@ _Horizon alternitatis systema sephiroticvm X divino rvm nominvm._ <br>
     - [Understanding Intended WiFi Usage in regards to design](https://www.youtube.com/watch?v=STBKccFPf_g)
     - []()
 
-- **Ruckus and Ekahau WiFi Surveys**
+### Ruckus and Ekahau WiFi Surveys**
 
     - [Deploying APs](https://www.youtube.com/watch?v=YlRatjSfTVw)
     - [Defining Requirement Area (Materials, Walls, Floors & Stuff!)](https://www.youtube.com/watch?v=h5jfpAGXhEw)
     - [Airtime Utilization](https://www.youtube.com/watch?v=srTxvfasRIg)
 
-- **Ruckus Radio Frequency (RF) **
+### Ruckus Radio Frequency (RF) **
 
     - [Antenna Function, Patterns, BeamFlex and Options](https://www.youtube.com/watch?v=K2ZhXLuJMfg) _Very visual presentation of RF!_ 
     - [WiFi Frequency Bands, Channels and ChannelFLy](https://www.youtube.com/watch?v=iwteOMhB0kw)
 
-- **Ruckus Security**
+### Ruckus Security**
 
     - [CommScope Ruckus CVE Announcement - **FragAttack**](https://www.youtube.com/watch?v=nfz6v2NsS2Y)
     - [**Ruckus Log4J vSZ Patch** and Work Around](https://www.youtube.com/watch?v=56_tgSApKkA&list=PLwZotTMbkZQFA_Lm9qjAFKOQMWM3aOCHG) 
 
-- **Ruckus Unleashed**
+### Ruckus Unleashed**
 
     - [What Is **Ruckus Unleashed**?](https://www.firewalls.com/blog/what-is-ruckus-unleashed/)
     - [**Deploy Ruckus Unleashed** in Less than a Minute & Admin like a Sir!](https://www.youtube.com/watch?v=8skRjj0OfhM&list=PLwZotTMbkZQHmY4cyfbwFOH8lCSRF_VDA)
 
-- **SmartZone** (General Info & Legacy SZ)
+### SmartZone** (General Info & Legacy SZ)
 
     - **Full SmartZone Guides**
    
