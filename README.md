@@ -589,6 +589,7 @@ _Deep dive into the Packet / PCAP Analysis... & Sharks a lot of sharks!_
                 - [¿Qué es mDNS? (Truco de Red Local)](https://www.youtube.com/watch?v=_2dZVdjV4T4&t=18s)
                 - [Pfsense & Chromecast Across Subnets/VLANs w/ Avahi & mDNS](https://www.youtube.com/watch?v=kYKfmS5_3r0)
 
+
 ### 🕸️ 🖧 🔌 Wired LAN Networking & Structured Cabling
 
 - Structured Cabling Fundamentals
@@ -2034,38 +2035,49 @@ Guides, Tips & Tricks, Downloads, Training, Crafting, Arsenal, Binaries, Executa
     - [wireless\_tools](https://hewlettpackard.github.io/wireless-tools/Tools.html) – Tools allowing to manipulate the Wireless Extensions.
     - [Wireshark](https://www.wireshark.org/) – network protocol analyzer.
 
-- **Networking Tools Guides & Writeups**
+## WireShark
+_This tool is so awesome that in needed it owns Chapter, Megalodon Street Shark mode_
+
+### Tricks & Hints
+
+- [Enable Dark mode in WireShark for Windows 3:)](https://www.youtube.com/watch?v=kUjNwZUD5p4)
+
+### Courses & Walktrhoughts
+
+### Filters & References
  
-    - Analyzers
+- [**Wireshark - Display Filter Reference**](https://www.wireshark.org/docs/dfref/) _over 271000 fields in 3000 protocols as of version 3.6.5_
+- [**Wireshark - Capture Filters Reference**](https://wiki.wireshark.org/CaptureFilters)
+- [**Wireshark - From Nemo to Black Megalodon: Pro Sniffing & Network Traffic Audit/Analysis.** by @ Fz3r0]
+- [**Wireshark - Troubleshooting Slow Networks - Presented by Megalodon Chris Greer @ UC Berkeley**](https://www.youtube.com/watch?v=h9stVIfug5Y)
+- [**Wireshark - Multicast Traffic Measurement** (**MDNS** & more!)](https://www.youtube.com/watch?v=MGa8szCXDww)
+- [**Wireshark Map IP Address Locations @ GeoIP**](https://www.youtube.com/watch?v=IlVppluWTHw)
+- [**Wireshark - Analyzing Botnet Attack Activity + Geolocalization @ Megalodon Chris Greer](https://www.youtube.com/watch?v=jFJMt-y6ZvU)
+- [**Wireshark - Analizyng a Hacked Webserver (HTB) @ M.Hadam**](https://www.youtube.com/watch?v=oh6gKrXsWGs)
+- [**Wireshark - Malware analysis, fake Firefox Traffic**](https://www.youtube.com/watch?v=waIBwq3Js7Q)
+- [**Wireshark + Virus Total** Analyzing Malware Traffic @ HackerExpert](https://www.youtube.com/watch?v=3t1BNAavrlQ)
+- [**Wireshark - Analyze A Bot Infected Host** @ Laura Chappell](https://www.youtube.com/watch?v=_JjU4fbgkAc)
+
+### Networking Tools Guides & Writeups
+ 
+- Analyzers
     
-        - **Iperf**
+- **Iperf**
             
-            - [OpenManiak - Iperf Bible](https://openmaniak.com/iperf.php)
-            - [Cómo usar iPerf - Laboratorio Pro y rápido like a Sir! @ Telequismo](https://www.youtube.com/watch?v=NmGLlTNsKE0)  
+    - [OpenManiak - Iperf Bible](https://openmaniak.com/iperf.php)
+    - [Cómo usar iPerf - Laboratorio Pro y rápido like a Sir! @ Telequismo](https://www.youtube.com/watch?v=NmGLlTNsKE0)  
  
-    - Sniffers
+- Sniffers
  
-        - **Wireshark**
+
  
-            - [**Wireshark - Display Filter Reference**](https://www.wireshark.org/docs/dfref/) _over 271000 fields in 3000 protocols as of version 3.6.5_
-            - [**Wireshark - Capture Filters Reference**](https://wiki.wireshark.org/CaptureFilters)
-            - [**Wireshark - From Nemo to Black Megalodon: Pro Sniffing & Network Traffic Audit/Analysis.** by @ Fz3r0]
-            - [**Wireshark - Troubleshooting Slow Networks - Presented by Megalodon Chris Greer @ UC Berkeley**](https://www.youtube.com/watch?v=h9stVIfug5Y)
-            - [**Wireshark - Multicast Traffic Measurement** (**MDNS** & more!)](https://www.youtube.com/watch?v=MGa8szCXDww)
-            - [**Wireshark Map IP Address Locations @ GeoIP**](https://www.youtube.com/watch?v=IlVppluWTHw)
-            - [**Wireshark - Analyzing Botnet Attack Activity + Geolocalization @ Megalodon Chris Greer](https://www.youtube.com/watch?v=jFJMt-y6ZvU)
-            - [**Wireshark - Analizyng a Hacked Webserver (HTB) @ M.Hadam**](https://www.youtube.com/watch?v=oh6gKrXsWGs)
-            - [**Wireshark - Malware analysis, fake Firefox Traffic**](https://www.youtube.com/watch?v=waIBwq3Js7Q)
-            - [**Wireshark + Virus Total** Analyzing Malware Traffic @ HackerExpert](https://www.youtube.com/watch?v=3t1BNAavrlQ)
-            - [**Wireshark - Analyze A Bot Infected Host** @ Laura Chappell](https://www.youtube.com/watch?v=_JjU4fbgkAc)
+- **tcpdump** 
  
-        - **tcpdump** 
- 
-            - [**tcpdump - Ethereal Filters**](https://www.tcpdump.org/papers/ethereal-tcpdump.pdf)
+- [**tcpdump - Ethereal Filters**](https://www.tcpdump.org/papers/ethereal-tcpdump.pdf)
     
-        - T-Shark 
+- T-Shark 
         
-        - [Bruteshark](https://github.com/Fz3r0/BruteShark)
+- [Bruteshark](https://github.com/Fz3r0/BruteShark)
     
     - **IDS & IPS**
         
