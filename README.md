@@ -329,17 +329,19 @@ Tables, Lists, Models, Cheat-Sheets, Mind-Maps & Resources
 - **Fz3r0 Papu-Pro Resources**
 
     - [OpenManiak](https://openmaniak.com/) _The leader in open source Network and Security tutorial._
-    - [Network Lessons](https://networklessons.com/)_Cisco CCNA, CCNP and CCIE Enterprise Infrastructure_
-    - [David Bombal (el padrino santo)](https://www.youtube.com/c/DavidBombal)
-    - [Sunny Classroom](https://www.youtube.com/user/sunnylearning)
-    - [Networking List 01 - facyber](https://github.com/facyber/awesome-networking) 
+    - [Network Lessons](https://networklessons.com/) _Cisco CCNA, CCNP and CCIE Enterprise Infrastructure_
+    - [David Bombal (el padrino santo)](https://www.youtube.com/c/DavidBombal) _Vamos Bombal!_
+    - [Chris Greer - Wireshark Megalodon](https://www.youtube.com/c/ChrisGreer) _El vato más perro en Wireshark_
+    - [Sunny Classroom](https://www.youtube.com/user/sunnylearning) _Las mejores explicaciones de Networking, punto!_
+    - [Networking List 01 - facyber](https://github.com/facyber/awesome-networking) _Networking Lists_
     - [Awesome **Mesh Networking**](https://github.com/moarpepes/awesome-mesh) _Documentation, Free Software mesh protocols, and applications._
 
 - **TCP/IP & OSI**
 
-    - [TCP-IP Hybrid Model by Fz3r0 (TCP+OSI)](/Networking/Knowledge/Tables-Models-Cheatsheets/Tables-Models/TCP-IP-Model-fz3r0_Hybrid.md) _A model I made with love for TCP-IP/OSI, all in one! :)_
+    - [OSI Model](https://en.wikipedia.org/wiki/OSI_model) _Wikipedia_
+    - [TCP-IP - Internet Protocol Suite Model (All versions)](https://en.wikipedia.org/wiki/Internet_protocol_suite) _Wikipedia_
+    - [TCP-IP Hybrid Model by Fz3r0 (TCP 5 layers)(TCP+OSI)](/Networking/Knowledge/Tables-Models-Cheatsheets/Tables-Models/TCP-IP-Model-fz3r0_Hybrid.md) _A model I made with love for TCP-IP/OSI, all in one! :)_
     - [TCP all in one! - TCP 3 Way Handshake, Communication Process, States, Data Transfer](/Networking/Knowledge/Tables-Models-Cheatsheets/Tables-Models/TCP_Process.md)
-    - [Reserved IPv4 & IPv6 Addresses by Fz3r0](/Networking/Knowledge/Tables-Models-Cheatsheets/Tables-Models/reserved_ip_fz3r0.md)
 
 - **TCP/UDP Ports**
 
@@ -352,6 +354,7 @@ Tables, Lists, Models, Cheat-Sheets, Mind-Maps & Resources
 
     - [Internet Protocol version 4 (IPv4)](https://en.wikipedia.org/wiki/IPv4)
     - [IPv4 Quick Guide](https://www.tutorialspoint.com/ipv4/ipv4_quick_guide.htm)
+    - [Reserved IPv4 & IPv6 Addresses by Fz3r0](/Networking/Knowledge/Tables-Models-Cheatsheets/Tables-Models/reserved_ip_fz3r0.md)
     - [IPv4 Packet Header](https://networklessons.com/cisco/ccna-routing-switching-icnd1-100-105/ipv4-packet-header)
 
 - **Subnet / VLSM & FLSM**
@@ -362,6 +365,8 @@ Tables, Lists, Models, Cheat-Sheets, Mind-Maps & Resources
     - [IPv4 Subnetting Cheatsheet](https://packetlife.net/media/library/15/IPv4_Subnetting.pdf)
 
 - **IPv6**
+
+    - [Reserved IPv4 & IPv6 Addresses by Fz3r0](/Networking/Knowledge/Tables-Models-Cheatsheets/Tables-Models/reserved_ip_fz3r0.md)
 
 - **Ethernet - IEEE 802.3**
      
