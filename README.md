@@ -336,6 +336,50 @@ _Recursos chingones_
 - [Networking List 01 - facyber](https://github.com/facyber/awesome-networking) _Networking Lists_
 - [Awesome **Mesh Networking**](https://github.com/moarpepes/awesome-mesh) _Documentation, Free Software mesh protocols, and applications._
 
+### Network Concepts
+
+- [Public & Private Networks]()
+- [Local Area Networks (LANs)]()
+- [Enterprise Campus Networks]()
+- [Branch Networks]()
+- [Internet Networks]()
+
+### Network Devices
+
+- [Early Network Devices]()
+- [Modern Network Devices]()
+- [Other Network Devices]()
+
+### Broadcast & Collission Domains
+
+- [Broadcast & Collsision Domains]()
+
+### Network Topologies
+
+- [Network Topologies]()
+- [Bus Topology]()
+- [Star Topology]()
+- [Hybrid topology]()
+- [Full & Partial Mesh Topology]()
+
+### Deployment Topologies / Deployment Options
+
+- [Client Connectivity]()
+- [Top-of-Rack (ToR) Deployments]()
+- [Middle and End-of-Row (MoR/EoR) Switching]()
+- [Stacking]()
+
+### 2 & 3 Tier Topologies
+
+- [Tier Topologies]()
+
+### Network Considerations
+
+- [Requerimentst in networking]()
+- [Budget in networking]()
+- [Cabling in networking]()
+- [Future Growth in networking]()
+
 ### TCP/IP Protocol Suite & OSI Models
 _Modelos de referencia para los protocolos de la red y la interconexión y comunicación entre dispositivos de redes_
 
