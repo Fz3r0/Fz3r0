@@ -2023,6 +2023,11 @@ Guides, Tips & Tricks, Downloads, Training, Crafting, Arsenal, Binaries, Executa
     - [Client and Cappabilites for 5 GHz - which band they take?!](https://clients.mikealbano.com/)
     - [WiFi Aliance Product Finder](https://wi-fi.org/product-finder)
 
+- Throuhgput & Performance Tools
+
+    - [JPerf ]() 
+    - [TamoSoft Throughput test]()
+
 - Wired
 
     - [arpwatch](https://linux.die.net/man/8/arpwatch) – keep track of ethernet/ip address pairings.
