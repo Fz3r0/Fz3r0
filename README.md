@@ -336,7 +336,7 @@ _Recursos chingones_
 - [Networking List 01 - facyber](https://github.com/facyber/awesome-networking) _Networking Lists_
 - [Awesome **Mesh Networking**](https://github.com/moarpepes/awesome-mesh) _Documentation, Free Software mesh protocols, and applications._
 
-### TCP/IP & OSI Models
+### TCP/IP Protocol Suite & OSI Models
 _Modelos de referencia para los protocolos de la red y la interconexión y comunicación entre dispositivos de redes_
 
 - [OSI Model](https://en.wikipedia.org/wiki/OSI_model) _Wikipedia_
@@ -387,6 +387,17 @@ _Modelos de referencia para los protocolos de la red y la interconexión y comun
     - [Capturing and analyzing EtherType @ WireShark](https://www.youtube.com/watch?v=ZSVudprlZkE)
 
 - **802.1q: VLANs, Trunks, Natives, ISL /// General Modes, Tag & Untag, full 802.1Q mode, 802.1Q Tunneling (Q-in-Q).**
+
+### Encapsulation & De-Encapsualtion Process
+
+- Ethernet Frame
+- Ethernet Header
+- IPv4 Packet
+- IP Protocol Numbers
+- TCP Segment
+- UDP Segment Header
+- Data encapsulation
+- 
 
     - [Cisco Full VLAN Approach: Trunk VLANs](https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst_digital_building_series_switches/software/15-2_5_ex/configuration_guide/b_1525ex_consolidated_cdb_cg/b_1525ex_consolidated_cdb_cg_chapter_0110101.pdf)
     - [Cisco: Configuring VLAN Settings for Interfaces (Trunk, Access & General)](https://www.cisco.com/assets/sol/sb/Switches_Emulators_v2_2_015/help/nk_configuring_vlans06.html)
