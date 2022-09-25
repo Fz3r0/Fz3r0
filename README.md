@@ -293,22 +293,20 @@ https://www.hackthebox.com/badge/image/897009
 
 -->    
 
-### Fast Index
+## Fast Index
 
-- **Networking Infraestructure**
+### Networking Infraestructure
 
-    - 🔮 📖 🧙‍ [**Dark Wizardy for Networking & NetSec**](https://github.com/Fz3r0/Fz3r0/blob/main/README.md#---dark-wizardy-for-networking--netsec-%EF%B8%8F--) 
-    - [Wired Networking Components & Fundamentals](https://github.com/Fz3r0/Fz3r0/blob/main/README.md#wired-networking-components--fundamentals)
-    - [Networking Groups & Organizations](https://github.com/Fz3r0/Fz3r0/blob/main/README.md#networking-groups--organizations)
-    
- 
-    - 🔐 🛠️ ⚙️ [**Configure it Like a Sir!**]()
-    - 🛡️ 👩‍🔬 🧪  **Secure Network Labs**
-    - **Wired Networking Components & Fundamentals**
-    - **Networking Groups & Organizations**
-    - 📝 👷 🏰 [**IEEE Standards**](https://github.com/Fz3r0/Fz3r0/blob/main/README.md#---ieee-standards---)
-    - ➡️ 💥 ⬅️ [**Carrier Sense Multiple Access (CSMA)**](https://github.com/fz3r0#%EF%B8%8F--%EF%B8%8F-carrier-sense-multiple-access-csma-%EF%B8%8F--%EF%B8%8F)
-    - 🛰️ 📶 📡 [**Wireless Communication & RF**](https://github.com/fz3r0#%EF%B8%8F---wireless-communication--rf---%EF%B8%8F)
+- 🔮 📖 🧙‍ [**Dark Wizardy for Networking & NetSec**](https://github.com/Fz3r0/Fz3r0/blob/main/README.md#---dark-wizardy-for-networking--netsec-%EF%B8%8F--) 
+- [Wired Networking Components & Fundamentals](https://github.com/Fz3r0/Fz3r0/blob/main/README.md#wired-networking-components--fundamentals)
+- [Networking Groups & Organizations](https://github.com/Fz3r0/Fz3r0/blob/main/README.md#networking-groups--organizations)
+- 🔐 🛠️ ⚙️ [**Configure it Like a Sir!**]()
+- 🛡️ 👩‍🔬 🧪  **Secure Network Labs**
+- **Wired Networking Components & Fundamentals**
+- **Networking Groups & Organizations**
+- 📝 👷 🏰 [**IEEE Standards**](https://github.com/Fz3r0/Fz3r0/blob/main/README.md#---ieee-standards---)
+- ➡️ 💥 ⬅️ [**Carrier Sense Multiple Access (CSMA)**](https://github.com/fz3r0#%EF%B8%8F--%EF%B8%8F-carrier-sense-multiple-access-csma-%EF%B8%8F--%EF%B8%8F)
+- 🛰️ 📶 📡 [**Wireless Communication & RF**](https://github.com/fz3r0#%EF%B8%8F---wireless-communication--rf---%EF%B8%8F)
 
 <!--
 
@@ -318,30 +316,33 @@ https://www.hackthebox.com/badge/image/897009
 
 -->    
 
-## Networking Infraestructure
+<span align="center"> <h1 align="center"> Networking Infraestructure </h1> </span>   
+
 _Monitoring devices, know where you go, mass media, total control. Digital delight, desire in megabite. Data overflow, virtual suicide. This information, is disinformation. Truth is hidden, knowledge forbidden. The structures of power, will delegate. To speak is to lie, to lie is to collaborate. Information streams, simulating dreams. Interactive mind-control, systematic overflow. Magnetic sleep, network addiction. Be absorbed, science fiction. It's pyschological, diabolical. Societies brainwash hospital..._<br>
 
 _The sun never sets, on cyber-space... Transmit, receive, log on to interface_
   
-### 🔮 📖 🧙‍ Dark Wizardy for Networking Fundamentals 🧙‍♂️ 📖 🔮
-Tables, Lists, Models, Cheat-Sheets, Mind-Maps & Resources
+## 🔮 📖 🧙‍ Dark Wizardy for Networking Fundamentals 🧙‍♂️ 📖 🔮
+_Networking basic concepts, Tables, Lists, Models, Cheat-Sheets, Mind-Maps & Cool Resources!!!_
 
-- **Fz3r0 Papu-Pro Resources**
+## Fz3r0 Papu-Pro Resources
+_Recursos chingones_
 
-    - [OpenManiak](https://openmaniak.com/) _The leader in open source Network and Security tutorial._
-    - [Network Lessons](https://networklessons.com/) _Cisco CCNA, CCNP and CCIE Enterprise Infrastructure_
-    - [David Bombal (el padrino santo)](https://www.youtube.com/c/DavidBombal) _Vamos Bombal!_
-    - [Chris Greer - Wireshark Megalodon](https://www.youtube.com/c/ChrisGreer) _El vato más perro en Wireshark_
-    - [Sunny Classroom](https://www.youtube.com/user/sunnylearning) _Las mejores explicaciones de Networking, punto!_
-    - [Networking List 01 - facyber](https://github.com/facyber/awesome-networking) _Networking Lists_
-    - [Awesome **Mesh Networking**](https://github.com/moarpepes/awesome-mesh) _Documentation, Free Software mesh protocols, and applications._
+- [OpenManiak](https://openmaniak.com/) _The leader in open source Network and Security tutorial._
+- [Network Lessons](https://networklessons.com/) _Cisco CCNA, CCNP and CCIE Enterprise Infrastructure_
+- [David Bombal (el padrino santo)](https://www.youtube.com/c/DavidBombal) _Vamos Bombal!_
+- [Chris Greer - Wireshark Megalodon](https://www.youtube.com/c/ChrisGreer) _El vato más perro en Wireshark_
+- [Sunny Classroom](https://www.youtube.com/user/sunnylearning) _Las mejores explicaciones de Networking, punto!_
+- [Networking List 01 - facyber](https://github.com/facyber/awesome-networking) _Networking Lists_
+- [Awesome **Mesh Networking**](https://github.com/moarpepes/awesome-mesh) _Documentation, Free Software mesh protocols, and applications._
 
-- **TCP/IP & OSI**
+### TCP/IP & OSI Models
+_Modelos de referencia para los protocolos de la red y la interconexión y comunicación entre dispositivos de redes_
 
-    - [OSI Model](https://en.wikipedia.org/wiki/OSI_model) _Wikipedia_
-    - [TCP-IP - Internet Protocol Suite Model (All versions)](https://en.wikipedia.org/wiki/Internet_protocol_suite) _Wikipedia_
-    - [TCP-IP Hybrid Model by Fz3r0 (TCP 5 layers)(TCP+OSI)](/Networking/Knowledge/Tables-Models-Cheatsheets/Tables-Models/TCP-IP-Model-fz3r0_Hybrid.md) _A model I made with love for TCP-IP/OSI, all in one! :)_
-    - [TCP all in one! - TCP 3 Way Handshake, Communication Process, States, Data Transfer](/Networking/Knowledge/Tables-Models-Cheatsheets/Tables-Models/TCP_Process.md)
+- [OSI Model](https://en.wikipedia.org/wiki/OSI_model) _Wikipedia_
+- [TCP-IP - Internet Protocol Suite Model (All versions)](https://en.wikipedia.org/wiki/Internet_protocol_suite) _Wikipedia_
+- [TCP-IP Hybrid Model by Fz3r0 (TCP 5 layers)(TCP+OSI)](/Networking/Knowledge/Tables-Models-Cheatsheets/Tables-Models/TCP-IP-Model-fz3r0_Hybrid.md) _A model I made with love for TCP-IP/OSI, all in one! :)_
+- [TCP all in one! - TCP 3 Way Handshake, Communication Process, States, Data Transfer](/Networking/Knowledge/Tables-Models-Cheatsheets/Tables-Models/TCP_Process.md)
 
 - **TCP/UDP Ports**
 
