@@ -708,9 +708,15 @@ _Deep dive into the Packet / PCAP Analysis... & Sharks a lot of sharks!_
 
 ### Wireless Power Measurment
 
-- [Power Measurement Fundamentals - Tx | Rx | IR | EIRP](https://youtu.be/mvFXoO0Z3Jc) _La mejor epxlicación de IR & EIRP_
+- [Power Measurement Fundamentals - Tx | Rx | IR | EIRP @ 
+GTHillWiFi](https://youtu.be/mvFXoO0Z3Jc) _La mejor epxlicación de IR & EIRP_
 - [Advanced Power Measurement @ 
 GTHillWiFi ](https://youtu.be/E8IfwCzgKas) _La mejor epxlicación de db y milliwatts y cómo calcular medidas relativas_
+
+### RF Maths
+
+- [RF MAths Fast & Furious @ 
+GTHillWiFi](https://youtu.be/RNv1AnSfdmY)
 
 - **WiFi** _(Wireless Fidelity)_
 
