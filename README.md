@@ -2485,7 +2485,8 @@ Mind-Maps, Paradigms, Way-to-Go, Hints & Tricks for Seek & Exploit TICs!
     - [**Active Directory Exploitation Cheat-Sheet** @ Tib3rius](https://github.com/Tib3rius/Active-Directory-Exploitation-Cheat-Sheet)
 
 ### 🖧 ⏩ 🦘 Pivoting & Port Forwarding 🦘 ⏩ 🖧  
- 
+
+- [Pivoting from 0 to hero! @ Tiberius](https://github.com/Tib3rius/Pentest-Cheatsheets/blob/master/exploits/pivoting.rst)
 - [Pivot & Tunnel OSCP](https://www.youtube.com/watch?v=dIqoULXmhXg)
  
 ### Buffer Overflow (OSCP Style)
