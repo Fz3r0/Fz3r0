@@ -706,6 +706,12 @@ _Deep dive into the Packet / PCAP Analysis... & Sharks a lot of sharks!_
     - [RF Behaivours - Mulitpath fenomen + reflection, absorption, diffraction, scattering, and interference]()
     - [RSSI and Ruckus dbm Standards for Ruckus WiFi Solutions](https://www.youtube.com/watch?v=j_cEmPJFftM)
 
+### Wireless Power Measurment
+
+- [Power Measurement Fundamentals - Tx | Rx | IR | EIRP](https://youtu.be/mvFXoO0Z3Jc) _La mejor epxlicación de IR & EIRP_
+- [Advanced Power Measurement @ 
+GTHillWiFi ](https://youtu.be/E8IfwCzgKas) _La mejor epxlicación de db y milliwatts y cómo calcular medidas relativas_
+
 - **WiFi** _(Wireless Fidelity)_
 
     - [Diferencias entre: WiFi4, WiFi5 & Wifi6](https://www.youtube.com/watch?v=P_nCjxi9Egc)
