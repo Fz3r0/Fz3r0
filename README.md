@@ -682,6 +682,7 @@ _Deep dive into the Packet / PCAP Analysis... & Sharks a lot of sharks!_
     - Others
     
         - [RF for the WiFi Professional - Fundamentals and RF Maths CC](https://www.youtube.com/watch?v=VT_Nv5vboZo&list=PLpdKaoNaDwSJkEMY21w2N2SO12CkGoY71)
+        - [Wireless Mathematics in depth](https://www.youtube.com/watch?v=rMhcakeEQaE)
         - [Wireless/WiFi Network: GET GUD in less than 1 hour @ Sunny](https://www.youtube.com/watch?v=WOTeFceIeM8&list=PLSNNzog5eydvJG48PYnWnNY7-tQIfxTRb)
         - [Full Radio Concepts: Phase, Amplitude, Wavelenght & Frequency > CWNA in a nutshell](https://yatebts.com/documentation/concepts/radio-waves/radio-concepts/)
         - [Understanding RF Path - Full Documentation @ Commscope](https://www.commscope.com/globalassets/digizuite/3221-rf-path-ebook-eb-112900-en.pdf)
