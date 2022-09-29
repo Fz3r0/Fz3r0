@@ -325,9 +325,22 @@ _The sun never sets, on cyber-space... Transmit, receive, log on to interface_
 
 ## ¿Eres nuevo y no sabes inglés?
 _Desafortunadamente en ocasiones algunos temas de este loco y caótico mundo son complicados encontrarlos y estudiarlos en lengua española, afortunadamente en la actualidad esto ha cambiado un poco. Personalmente no tengo el suficiente tiempo y recursos para traducir todo mi conocimiento o el que encuentro en mi amada lengua..._ <br>
-_Recomiendo aprender inglés (o cualquier otro idioma) para no solo entender nuevos conceptos o novedades en general antes que nadie, sino para abrir la mente a otras culturas y costumbres. No obstante, las bases de las Ciencias de la Computación las comparto en español en este bloque, así como cursos de inglés completamente gratis desde 0._
+<br>
+_Recomiendo aprender inglés (o cualquier otro idioma) para no solo entender nuevos conceptos o novedades en general antes que nadie, sino para abrir la mente a otras culturas y costumbres. No obstante, las bases de las Ciencias de la Computación y los fundamentos básicos las comparto en español en este bloque, así como cursos de inglés completamente gratis desde 0. No hay excusa!_
 
 - [Aprende inglés desde 0]() _Aprende a hablar inglés mejor que tu tío que se fué al gabacho_
+- [¿Cómo funciona una computadora?]()
+- [¿Qué es el Hardware y Software?]()
+- [¿Cómo funciona un progrma de computadora? (software)]()
+- [¿Cómo funciona el Internet?]()
+- [La historia de ARPANET]()
+- [La historia del Internet en México]()
+- [¿Cómo funciona un cable UTP/STP "Ethernet"?]()
+- [¿Cómo funciona la fibra óptica?]()
+- [¿Qué es una nube?]()
+- [¿Qué es una máquina virtual? (VM o Virtual Machine)]()
+- [¿Cómo funciona el WiFi?]()
+- [¿Cómop hackear en 2 minutos al mundo entero?]() _Bienvenido al loop, no busques conejos en agujeros donde no hay... Es un largo camino el cual empieza por dar el primer paso..._
 
 ## 🔮 📖 🧙‍ Dark Wizardy for Networking Fundamentals 🧙‍♂️ 📖 🔮
 _Networking basic concepts, Tables, Lists, Models, Cheat-Sheets, Mind-Maps & Cool Resources!!!_
