@@ -332,8 +332,8 @@ _Recursos chingones_
 - [OpenManiak](https://openmaniak.com/) _The leader in open source Network and Security tutorial._
 - [Network Lessons](https://networklessons.com/) _Cisco CCNA, CCNP and CCIE Enterprise Infrastructure_
 - [David Bombal (el padrino santo)](https://www.youtube.com/c/DavidBombal) _Vamos Bombal!_
-- [Chris Greer - Wireshark Megalodon](https://www.youtube.com/c/ChrisGreer) _El vato más perro en Wireshark_
-- [Sunny Classroom](https://www.youtube.com/user/sunnylearning) _Las mejores explicaciones de Networking, punto!_
+- [Chris Greer - Wireshark Megalodon](https://www.youtube.com/c/ChrisGreer) _I call this dude "The Megalodon of Wireshark", the man know things..._
+- [Sunny Classroom](https://www.youtube.com/user/sunnylearning) _The best and easiest explanations of networking in the world, when asians learn english, we shut up and learn..._
 - [Networking List 01 - facyber](https://github.com/facyber/awesome-networking) _Networking Lists_
 - [Awesome **Mesh Networking**](https://github.com/moarpepes/awesome-mesh) _Documentation, Free Software mesh protocols, and applications._
 
