@@ -322,7 +322,13 @@ s Communication & RF**](https://github.com/fz3r0#%EF%B8%8F---wireless-communicat
 _Monitoring devices, know where you go, mass media, total control. Digital delight, desire in megabite. Data overflow, virtual suicide. This information, is disinformation. Truth is hidden, knowledge forbidden. The structures of power, will delegate. To speak is to lie, to lie is to collaborate. Information streams, simulating dreams. Interactive mind-control, systematic overflow. Magnetic sleep, network addiction. Be absorbed, science fiction. It's pyschological, diabolical. Societies brainwash hospital..._<br>
 
 _The sun never sets, on cyber-space... Transmit, receive, log on to interface_
-  
+
+## ¿Eres nuevo y no sabes inglés?
+_Desafortunadamente en ocasiones algunos temas de este loco mundo son complicados encontrarlos y estudiarlos en lengua española, afortunadamente en la actualidad esto ha cambiado un poco. Personalmente no tengo el suficiente tiempo para traducir todo mi conocimiento o el que encuentro... <br>
+_Recomiendo aprender inglés (o cualquier otro idioma) para no solo entender nuevos conceptos de tencología antes que nadie, sino para abrir la mente a otras culturas y costumbres. No obstante, las bases de las Ciencias de la Computación las comparto en español en este bloque, así como cursos de inglés completamente gratis desde 0._
+
+- [Aprende inglés desde 0]() _Aprende a hablar inglés mejor que tu tío que se fué al gabacho_
+
 ## 🔮 📖 🧙‍ Dark Wizardy for Networking Fundamentals 🧙‍♂️ 📖 🔮
 _Networking basic concepts, Tables, Lists, Models, Cheat-Sheets, Mind-Maps & Cool Resources!!!_
 
