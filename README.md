@@ -306,7 +306,8 @@ https://www.hackthebox.com/badge/image/897009
 - **Networking Groups & Organizations**
 - 📝 👷 🏰 [**IEEE Standards**](https://github.com/Fz3r0/Fz3r0/blob/main/README.md#---ieee-standards---)
 - ➡️ 💥 ⬅️ [**Carrier Sense Multiple Access (CSMA)**](https://github.com/fz3r0#%EF%B8%8F--%EF%B8%8F-carrier-sense-multiple-access-csma-%EF%B8%8F--%EF%B8%8F)
-- 🛰️ 📶 📡 [**Wireless Communication & RF**](https://github.com/fz3r0#%EF%B8%8F---wireless-communication--rf---%EF%B8%8F)
+- 🛰️ 📶 📡 [**
+s Communication & RF**](https://github.com/fz3r0#%EF%B8%8F---wireless-communication--rf---%EF%B8%8F)
 
 <!--
 
@@ -705,6 +706,7 @@ _Deep dive into the Packet / PCAP Analysis... & Sharks a lot of sharks!_
     - [Tx / Rx - TX (transmit) is how loud you're talking / RX (receive) is how loud you think the other is talking.](https://www.ligowave.com/wiki/faq/infinity-network-wireless-statistics/)
     - [RF Behaivours - Mulitpath fenomen + reflection, absorption, diffraction, scattering, and interference]()
     - [RSSI and Ruckus dbm Standards for Ruckus WiFi Solutions](https://www.youtube.com/watch?v=j_cEmPJFftM)
+    - [Wifi Bands 2.4 Ghz VS 5 Ghz](https://help.datto.com/s/article/KB115005589863#:~:text=The%20recommended%20channels%20to%20use,less%20performant%20than%205%20Ghz.) _Easiest and shortest explanation for kids who like to hack_
 
 ### Wireless Power Measurment
 
