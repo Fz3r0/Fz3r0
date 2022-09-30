@@ -317,28 +317,39 @@ s Communication & RF**](https://github.com/fz3r0#%EF%B8%8F---wireless-communicat
 
 -->    
 
-<span align="center"> <h1 align="center"> Networking Infraestructure </h1> </span>   
+<span align="center"> <h1 align="center">🍼 👼 🐤 Lo básico de lo básico ¡En español! 🐤 👼 🍼</h1> </span>  
 
-_Monitoring devices, know where you go, mass media, total control. Digital delight, desire in megabite. Data overflow, virtual suicide. This information, is disinformation. Truth is hidden, knowledge forbidden. The structures of power, will delegate. To speak is to lie, to lie is to collaborate. Information streams, simulating dreams. Interactive mind-control, systematic overflow. Magnetic sleep, network addiction. Be absorbed, science fiction. It's pyschological, diabolical. Societies brainwash hospital..._<br>
-
-_The sun never sets, on cyber-space... Transmit, receive, log on to interface_
-
-## Lo básico de lo básico en español!
 _Para mis amigos que están empezando completamente de 0_
 
 - [Aprende inglés desde 0]() _Aprende a hablar inglés mejor que tu tío que se fué al gabacho_
 - [¿Cómo funciona una computadora?]()
 - [¿Qué es el Hardware y Software?]()
-- [¿Cómo funciona un progrma de computadora? (software)]()
-- [¿Cómo funciona el Internet?]()
+- [¿Cómo funciona un progrma de computadora? (Software)]()
+- [¿Cómo se programa el Software?]()
+- [¿Cómo funciona el hardware (Procesador, Memoria, Dispositivos I/O)?]()
+- [¿Cómo se hace un procesador?]()
+- [¿Qué es el Internet y cómo funciona?]()
 - [La historia de ARPANET]()
 - [La historia del Internet en México]()
 - [¿Cómo funciona un cable UTP/STP "Ethernet"?]()
 - [¿Cómo funciona la fibra óptica?]()
-- [¿Qué es una nube?]()
-- [¿Qué es una máquina virtual? (VM o Virtual Machine)]()
 - [¿Cómo funciona el WiFi?]()
-- [**¿Cómo hackear en 2 minutos al mundo entero?**](https://youtu.be/dQw4w9WgXcQ) _¡Un largo camino comienza aquí, aventuras podrás disfutar!_
+- [¿Cómo funciona el radio AM y FM?]()
+- [¿Cómo funcionan los celulares?]()
+- [¿Cómo funciona el GPS?]()
+- [¿Qué es el Internet de la cosas (IoT)?]()
+- [¿Qué es una máquina virtual? (VM o Virtual Machine)]()
+- [¿Qué es un Data Center?]()
+- [¿Qué es una nube?]()
+- [**¿Cómo hackear en 2 minutos al mundo entero?**](https://youtu.be/dQw4w9WgXcQ) _**¡Un largo camino comienza aquí, aventuras podrás disfutar!**_
+
+<span align="center"> <h1 align="center"> 🌐 📡 🖧 Networking 🖧 📡 🌐</h1> </span>   
+
+_Monitoring devices, know where you go, mass media, total control. Digital delight, desire in megabite. Data overflow, virtual suicide. This information, is disinformation. Truth is hidden, knowledge forbidden. The structures of power, will delegate. To speak is to lie, to lie is to collaborate. Information streams, simulating dreams. Interactive mind-control, systematic overflow. Magnetic sleep, network addiction. Be absorbed, science fiction. It's pyschological, diabolical. Societies brainwash hospital..._<br>
+
+_The sun never sets, on cyber-space... Transmit, receive, log on to interface_
+
+
 
 ## 🔮 📖 🧙‍ Dark Wizardy for Networking Fundamentals 🧙‍♂️ 📖 🔮
 _Networking basic concepts, Tables, Lists, Models, Cheat-Sheets, Mind-Maps & Cool Resources!!!_
