@@ -343,7 +343,7 @@ _Para mis amigos que están empezando completamente de 0_
 - [¿Qué es una nube?]()
 - [**¿Cómo hackear en 2 minutos al mundo entero?**](https://youtu.be/dQw4w9WgXcQ) _**¡Un largo camino comienza aquí, aventuras podrás disfutar!**_
 
-<span align="center"> <h1 align="center"> 🌐 📡 🖧 Networking 🖧 📡 🌐</h1> </span>   
+<span align="center"> <h1 align="center">  📡 🖧 🌐 Networking 🌐 🖧 📡</h1> </span>   
 
 _Monitoring devices, know where you go, mass media, total control. Digital delight, desire in megabite. Data overflow, virtual suicide. This information, is disinformation. Truth is hidden, knowledge forbidden. The structures of power, will delegate. To speak is to lie, to lie is to collaborate. Information streams, simulating dreams. Interactive mind-control, systematic overflow. Magnetic sleep, network addiction. Be absorbed, science fiction. It's pyschological, diabolical. Societies brainwash hospital..._<br>
 
