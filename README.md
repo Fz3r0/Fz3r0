@@ -323,10 +323,8 @@ _Monitoring devices, know where you go, mass media, total control. Digital delig
 
 _The sun never sets, on cyber-space... Transmit, receive, log on to interface_
 
-## ¿Eres nuevo y no sabes inglés?
-_Desafortunadamente en ocasiones algunos temas de este loco y caótico mundo son complicados encontrarlos y estudiarlos en lengua española, afortunadamente en la actualidad esto ha cambiado un poco. Personalmente no tengo el suficiente tiempo y recursos para traducir todo mi conocimiento o el que encuentro en mi amada lengua..._ <br>
-<br>
-_Recomiendo aprender inglés (o cualquier otro idioma) para no solo entender nuevos conceptos o novedades en general antes que nadie, sino para abrir la mente a otras culturas y costumbres. No obstante, las bases de las Ciencias de la Computación y los fundamentos básicos las comparto en español en este bloque, así como cursos de inglés completamente gratis desde 0. No hay excusa!_
+## Lo básico de lo básico en español!
+_Para mis amigos que están empezando completamente de 0_
 
 - [Aprende inglés desde 0]() _Aprende a hablar inglés mejor que tu tío que se fué al gabacho_
 - [¿Cómo funciona una computadora?]()
@@ -340,7 +338,7 @@ _Recomiendo aprender inglés (o cualquier otro idioma) para no solo entender nue
 - [¿Qué es una nube?]()
 - [¿Qué es una máquina virtual? (VM o Virtual Machine)]()
 - [¿Cómo funciona el WiFi?]()
-- [¿Cómop hackear en 2 minutos al mundo entero?]() _Bienvenido al loop, no busques conejos en agujeros donde no hay... Es un largo camino el cual empieza por dar el primer paso..._
+- [**¿Cómo hackear en 2 minutos al mundo entero?**](https://youtu.be/dQw4w9WgXcQ) _¡Un largo camino comienza aquí, aventuras podrás disfutar!_
 
 ## 🔮 📖 🧙‍ Dark Wizardy for Networking Fundamentals 🧙‍♂️ 📖 🔮
 _Networking basic concepts, Tables, Lists, Models, Cheat-Sheets, Mind-Maps & Cool Resources!!!_
