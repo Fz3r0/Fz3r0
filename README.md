@@ -3032,6 +3032,7 @@ _The Strength Of The Human Heart. The Difference Between Us And Machines"_
 - [Monitor / Screen Size online - Measure with a credit card!](https://www.piliapp.com/actual-size/what-is-my-monitor-size/)
 - [PSU / Power Supply Calculator](https://outervision.com/power-supply-calculator)
 - [TFTP OpenSource - **tftpd32**](https://pjo2.github.io/tftpd64/)
+- [Where goes? - URL redirect checker](https://wheregoes.com/) _Show you the full redirection path of URLs, shortened links, or tiny URLs._
 
 ### THM Rooms WriteUps
 
