@@ -319,11 +319,11 @@ s Communication & RF**](https://github.com/fz3r0#%EF%B8%8F---wireless-communicat
 
 <span align="center"> <h1 align="center">🍼 👼 🐤 Lo básico de lo básico ¡En español! 🐤 👼 🍼</h1> </span>  
 
-_Para mis amigos que están empezando completamente de 0_
+_Para mis amigos que están empezando completamente de 0, aprende en una hora ;)_
 
 - [Aprende inglés desde 0]() _Aprende a hablar inglés mejor que tu tío que se fué al gabacho_
 - [La historia de las computadoras ¡en 2 minutos!](https://www.youtube.com/watch?v=AyT-qtwwtJY) _Todo largo camino comienza por el primer paso..._
-- [¿Cómo funciona una computadora?]()
+- [¿Cómo funciona una computadora? ¡en 3 minutos!](https://www.youtube.com/watch?v=oYxE3L-6-a8) _Close your eyes, I remember..._
 - [¿Qué es el Hardware y Software?]()
 - [¿Cómo funciona un progrma de computadora? (Software)]()
 - [¿Cómo se programa el Software?]()
