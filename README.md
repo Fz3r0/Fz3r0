@@ -364,6 +364,7 @@ _Recursos chingones_
 - [Sunny Classroom](https://www.youtube.com/user/sunnylearning) _The best and easiest explanations of networking in the world, when asians learn english, we shut up and learn..._
 - [Networking List 01 - facyber](https://github.com/facyber/awesome-networking) _Networking Lists_
 - [Awesome **Mesh Networking**](https://github.com/moarpepes/awesome-mesh) _Documentation, Free Software mesh protocols, and applications._
+- [Trash, shitty, crap & full of WiFi Bad practices, DON'T DO THIS!!!](https://badfi.com/bad-fi) _Lo pongo hasta arriba porque es más utilizado de lo que parece jaja!_
 
 ### Network Concepts
 
