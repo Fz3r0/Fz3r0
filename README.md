@@ -322,6 +322,7 @@ s Communication & RF**](https://github.com/fz3r0#%EF%B8%8F---wireless-communicat
 _Para mis amigos que están empezando completamente de 0_
 
 - [Aprende inglés desde 0]() _Aprende a hablar inglés mejor que tu tío que se fué al gabacho_
+- [La historia de las computadoras ¡en 2 minutos!](https://www.youtube.com/watch?v=AyT-qtwwtJY) _Todo largo camino comienza por el primer paso..._
 - [¿Cómo funciona una computadora?]()
 - [¿Qué es el Hardware y Software?]()
 - [¿Cómo funciona un progrma de computadora? (Software)]()
