@@ -2322,14 +2322,14 @@ Network Automation is a cross between the discipline of Network Infrastructure a
 
 -->  
   
-## Offensive Security & Hacking 
+# Offensive Security & Hacking 
 
 _Here's the machine the strangers use to amplify their thoughts, the machine that changes their world..._<br> 
 _You must take control of it. You must make the machine yours..._<br>
 _I know you can beat them...but you must concentrate..._<br>
 _I have mastered the ultimate technology, the hability to alter physical reality and read peoples minds._
 
-### 😈 🏴‍☠️ 📓 Hacking Bibles 📓 🏴‍☠️ 😈
+## 😈 🏴‍☠️ 📓 Hacking Bibles 📓 🏴‍☠️ 😈
 
 - [The Book of the Secret Knowledge](https://github.com/Fz3r0/the-book-of-secret-knowledge) _A collection of lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools & more._
 - [Pentest Tools @ S3cur3Th1sSh1t](https://github.com/S3cur3Th1sSh1t/Pentest-Tools) _Full arsenal for pentesting, scripting and pwning_
@@ -2352,13 +2352,13 @@ _I have mastered the ultimate technology, the hability to alter physical reality
 - [Dorks Collection List](https://github.com/Fz3r0/Dorks-collections-list)
 - [Awesome Threat Hunting](https://github.com/threat-hunting/awesome_Threat-Hunting) _This repository is a library for hunting and detecting cyber threats._
 
-### Hacking Treasure Maps
+## Hacking Treasure Maps
 Mind-Maps, Paradigms, Way-to-Go, Hints & Tricks for Seek & Exploit TICs!
 
 - [Hacking & Exploiting Everything! > Full Security Assessment: Mind-Map & Tools](https://user-images.githubusercontent.com/94720207/172204996-88d412b7-b271-432e-914b-53fb4e13ebd9.png)
 - [Bug Bounty Mind-Map & Tools](https://user-images.githubusercontent.com/94720207/172203574-65a0bedb-28dc-4361-a1ba-3c0b29687f09.png)
 
-### ✅ 🗄️ 📈 CVE, Vulnerabilities, Patches & PoC 📈 🗄️ ✅
+## ✅ 🗄️ 📈 CVE, Vulnerabilities, Patches & PoC 📈 🗄️ ✅
 
 - CVE Databases
     - [Mitre - CVE](https://cve.mitre.org/)
@@ -2483,6 +2483,10 @@ Mind-Maps, Paradigms, Way-to-Go, Hints & Tricks for Seek & Exploit TICs!
     
     - [Devices]() 
         - [**Default Passwords** for Nearly Every **SCADA System**](https://www.hackers-arise.com/post/2016/09/21/Scada-Hacking-Default-Passwords-for-Nearly-Every-SCADA-System)
+
+## Attacking the Cloud
+
+- [Cloud Security Attacks Bible - AWS & Azure](https://github.com/CyberSecurityUP/Cloud-Security-Attacks)
 
 ### 🔝 👑 ⏫ Privilege Escalation ⏫ 👑 🔝 
   
