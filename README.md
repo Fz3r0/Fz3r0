@@ -2456,28 +2456,37 @@ Mind-Maps, Paradigms, Way-to-Go, Hints & Tricks for Seek & Exploit TICs!
 
 ### Enumeration & Discovery                                                        
 
-### 🔍 📕 💪 Worldists, Fuzzing, Passwords & BruteForce 💪 📕 🔍
+## 🔍 📕 💪 Worldists, Fuzzing, Passwords & BruteForce 💪 📕 🔍
 
-- **Fuzzing Tools & Resources**
+### Passwords Lists & Wordlists
+
+- [**One List for All**... @ Six2dez](https://github.com/six2dez/OneListForAll) _All fuzzing lists in one_
+- [Seclist >>> **Usernames:** Common, Leaked, Stolen, Hacked & Default](https://github.com/danielmiessler/SecLists/tree/master/Usernames)
+- [Seclist >>> Passwords: Cracked Hashes, Leaks, Stolen, Hacked, Databases, WiFi-WPA default** ](https://github.com/danielmiessler/SecLists/tree/master/Passwords)
+- [Seclist >>> **DNS, File System, Web Content, Directory, URL, Infraestructure, Variables**](https://github.com/danielmiessler/SecLists/tree/master/Discovery)
+- [National Cyber Security Center >>> **Passwords:** Top 100,000 used](https://www.ncsc.gov.uk/static-assets/documents/PwnedPasswordsTop100k.txt)
+
+
+
+### Fuzzing Tools
                                                         
-    - [Subcat](https://github.com/Fz3r0/subcat) _Subdomain discovery tool_
-    - [dirsearch]()
-    - [dirbuster]()                                                        
+- [Subcat](https://github.com/Fz3r0/subcat) _Subdomain discovery tool_
+- [dirsearch]()
+- [dirbuster]()                                                        
                                                         
 - **Wordlists**
 
-    - Custom Wordlists & Tools
-        - [Crunch > Creating a **Custom Wordlist** @ Hackers Arise](https://www.hackers-arise.com/creating-a-custom-wordlist-with-cru)  
+
     
     - Usernames
-        - [Seclist > **Common, Leaked & Default Usernames**](https://github.com/danielmiessler/SecLists/tree/master/Usernames)
+        
     
     - Passwords
-        - [Seclist > **Bibles, Cracked Hashes, Leaks, Databases, WiFi-WPA** ](https://github.com/danielmiessler/SecLists/tree/master/Passwords)
-        - [National Cyber Security Center > **Top 100,000 used Passwords**](https://www.ncsc.gov.uk/static-assets/documents/PwnedPasswordsTop100k.txt)
+        
+        
     
     - Discovery
-        - [Seclist > DNS, File System, Web Content, Directory, URL, Infraestructure, Variables](https://github.com/danielmiessler/SecLists/tree/master/Discovery)
+        
     
     - [Services]()
     
