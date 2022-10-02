@@ -355,8 +355,7 @@ _The sun never sets, on cyber-space... Transmit, receive, log on to interface_
 ## 🔮 📖 🧙‍ Dark Wizardy for Networking Fundamentals 🧙‍♂️ 📖 🔮
 _Networking basic concepts, Tables, Lists, Models, Cheat-Sheets, Mind-Maps & Cool Resources!!!_
 
-## Fz3r0 Papu-Pro Resources
-_Recursos chingones_
+### Fz3r0 Papu-Pro Resources
 
 - [OpenManiak](https://openmaniak.com/) _The leader in open source Network and Security tutorial._
 - [Network Lessons](https://networklessons.com/) _Cisco CCNA, CCNP and CCIE Enterprise Infrastructure_
