@@ -677,6 +677,9 @@ _Deep dive into the Packet / PCAP Analysis... & Sharks a lot of sharks!_
                 - [¿Qué es mDNS? (Truco de Red Local)](https://www.youtube.com/watch?v=_2dZVdjV4T4&t=18s)
                 - [Pfsense & Chromecast Across Subnets/VLANs w/ Avahi & mDNS](https://www.youtube.com/watch?v=kYKfmS5_3r0)
 
+## Hacking Protocols 
+
+- [mDNS Hacking](https://www.youtube.com/watch?v=tqtIcUH5DXc) _Polymorph & Rosetta_
 
 ### 🕸️ 🖧 🔌 Wired LAN Networking & Structured Cabling
 
