@@ -2642,27 +2642,42 @@ Mind-Maps, Paradigms, Way-to-Go, Hints & Tricks for Seek & Exploit TICs!
 
 
 
-### SQL Injection
+## SQL Injection (SQLi)
 
-- **SQLi (SQL injection) Bibles, Cheatsheets & Resources**
- 
-    - [NETSPI > SQL Injection Wiki](https://sqlwiki.netspi.com/#mysql)
-    - [PortSwigger > SQLi Cheat Sheet](https://portswigger.net/web-security/sql-injection/cheat-sheet)
-    - [Pentest Book > SQLi queries](https://pentestbook.six2dez.com/enumeration/web/sqli)
-    - https://github.com/Fz3r0/Advanced-SQL-Injection-Cheatsheet
+### SQLi (SQL injection) Bibles, Cheatsheets & Resources**
 
-- **Pentesting Microsoft SQL Server (MSSQL)**
- 
-    - [Hacktricks - Pentesting MSSQL Server](https://book.hacktricks.xyz/network-services-pentesting/pentesting-mssql-microsoft-sql-server)
-    - [PTM - MSSQL Server Cheatsheet](https://pentestmonkey.net/cheat-sheet/sql-injection/mssql-sql-injection-cheat-sheet) 
- 
-- **SQLi Cyber-Weapons & Tools** 
- 
-    - [SQL Map]()
-    - [SQLinjection TimeBased PWN! @ Fz3r0](https://github.com/Fz3r0/fz3r0-SQLinjection-TimeBased-Python) _SQLi Time bases Python Script made by me!_
-    - [Jeeves - Time-Based Blind SQLInjection Finder](https://www.kitploit.com/2022/06/jeeves-time-based-blind-sqlinjection.html) _Golang_
+- [sql injection payload list](https://github.com/payloadbox/sql-injection-payload-list)
+- [NETSPI > SQL Injection Wiki](https://sqlwiki.netspi.com/#mysql)
+- [PortSwigger > SQLi Cheat Sheet](https://portswigger.net/web-security/sql-injection/cheat-sheet)
+- [Pentest Book > SQLi queries](https://pentestbook.six2dez.com/enumeration/web/sqli)
+- https://github.com/Fz3r0/Advanced-SQL-Injection-Cheatsheet
 
-### File Inclusion
+### SQLi Vulnerability Scanner Cyber-Weapons :
+
+- **[SQLinjection TimeBased PWN! @ Fz3r0](https://github.com/Fz3r0/fz3r0-SQLinjection-TimeBased-Python) _SQLi Time bases Python Script made by me!_**
+- [SQLMap](https://github.com/sqlmapproject/sqlmap) _Automatic SQL Injection And Database Takeover Tool_
+- [jSQL Injection](https://github.com/ron190/jsql-injection) _Java Tool For Automatic SQL Database Injection_
+- [BBQSQL](https://github.com/Neohapsis/bbqsql) _A Blind SQL-Injection Exploitation Tool_
+- [NoSQLMap](https://github.com/codingo/NoSQLMap) _Automated NoSQL Database Pwnage_
+- [Whitewidow](https://www.kitploit.com/2017/05/whitewidow-sql-vulnerability-scanner.html) _SQL Vulnerability Scanner_
+- [DSSS](https://github.com/stamparm/DSSS) _Damn Small SQLi Scanner_
+- [explo](https://github.com/dtag-dev-sec/explo) _Human And Machine Readable Web Vulnerability Testing Format_
+- [Blind-Sql-Bitshifting](https://github.com/awnumar/blind-sql-bitshifting) _Blind SQL-Injection via Bitshifting_
+- [Leviathan](https://github.com/leviathan-framework/leviathan) _Wide Range Mass Audit Toolkit_
+- [Blisqy](https://github.com/JohnTroony/Blisqy) _Exploit Time-based blind-SQL-injection in HTTP-Headers (MySQL/MariaDB)_
+
+### Pentesting Microsoft SQL Server (MSSQL)**
+ 
+- [Hacktricks - Pentesting MSSQL Server](https://book.hacktricks.xyz/network-services-pentesting/pentesting-mssql-microsoft-sql-server)
+- [PTM - MSSQL Server Cheatsheet](https://pentestmonkey.net/cheat-sheet/sql-injection/mssql-sql-injection-cheat-sheet) 
+ 
+### SQLi Cyber-Weapons & Tools** 
+ 
+- [SQL Map]()
+
+- [Jeeves - Time-Based Blind SQLInjection Finder](https://www.kitploit.com/2022/06/jeeves-time-based-blind-sqlinjection.html) _Golang_
+
+## File Inclusion
 
 - Path Traversal
 
