@@ -2585,19 +2585,62 @@ Mind-Maps, Paradigms, Way-to-Go, Hints & Tricks for Seek & Exploit TICs!
 
 - [Payload All The Things - LFI Payloads](https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/File%20Inclusion)
 
-### Cross-Site Scripting (XSS)
+## Cross-Site Scripting (XSS)
 
-- XSS Guides, Writeups & Labs:
-    
-    - [Brute Logic - Brute XSS Bible](https://brutelogic.com.br/blog/) _Master the art of Cross Site Scripting._
-    - [Laboratorio XSS en formulario sencillo](https://www.youtube.com/watch?v=uoD0QGFzPvs)
-    - [XSS Práctica @ A. Caballero](https://www.youtube.com/watch?v=lqcWIFUExNA) 
-    - [XSS & Beef Lab @ Chanchito Feliz](https://www.youtube.com/watch?v=ClBfEKPUQa8)
+### XSS Guides, Turotials, Writeups & Labs:
 
-- XSS Tools, Cheatsheets, Commands, Scripts
+- [Types of XSS @ OWASP](https://owasp.org/www-community/Types_of_Cross-Site_Scripting)
+- [Brute Logic - Brute XSS Bible](https://brutelogic.com.br/blog/) _Master the art of Cross Site Scripting._
+- [Laboratorio XSS en formulario sencillo](https://www.youtube.com/watch?v=uoD0QGFzPvs)
+- [XSS Práctica @ A. Caballero](https://www.youtube.com/watch?v=lqcWIFUExNA) 
+- [XSS & Beef Lab @ Chanchito Feliz](https://www.youtube.com/watch?v=ClBfEKPUQa8)
+- [XSS Attacks: Cross-site Scripting Exploits and Defense](https://books.google.com.tr/books/about/XSS_Attacks.html?id=dPhqDe0WHZ8C)
+- [XSS Cheat Sheet](https://leanpub.com/xss)
 
-    - [Portswigger > XSS Cheat Sheet](https://portswigger.net/research/server-side-template-injection)
-    - [Pentest Book > XSS](https://pentestbook.six2dez.com/enumeration/web/xss)
+### XSS Vulneability Scanner Tools
+
+- [XSStrike](https://github.com/UltimateHackers/XSStrike)
+- [BruteXSS Terminal](https://github.com/shawarkhanethicalhacker/BruteXSS)
+- [BruteXSS GUI](https://github.com/rajeshmajumdar/BruteXSS)
+- [XSS Scanner Online](http://xss-scanner.com/)
+- [XSSer](https://tools.kali.org/web-applications/xsser)
+- [xsscrapy](https://github.com/DanMcInerney/xsscrapy)
+
+### XSS Payloads
+
+- [XSS Payload List @ Payload Box](https://github.com/payloadbox/xss-payload-list)
+- [Portswigger > XSS Cheat Sheet](https://portswigger.net/research/server-side-template-injection)
+- [Pentest Book > XSS](https://pentestbook.six2dez.com/enumeration/web/xss)
+
+### XSS Cheatsheets
+
+* 👉 [XSS Prevention Cheatsheet](https://www.owasp.org/index.php/DOM_based_XSS_Prevention_Cheat_Sheet)
+###### Cross-Site Scripting (XSS) Cheat Sheet | Veracode
+
+* 👉 https://www.veracode.com/security/xss
+
+
+###### Testing for Reflected Cross site scripting (OTG-INPVAL-001)
+
+* 👉 https://www.owasp.org/index.php/Testing_for_Reflected_Cross_site_scripting_(OTG-INPVAL-001)
+
+###### Testing for Stored Cross site scripting (OTG-INPVAL-002)
+
+* 👉 https://www.owasp.org/index.php/Testing_for_Stored_Cross_site_scripting_(OTG-INPVAL-002)
+
+###### Testing for DOM-based Cross site scripting (OTG-CLIENT-001)
+
+* 👉 https://www.owasp.org/index.php/Testing_for_DOM-based_Cross_site_scripting_(OTG-CLIENT-001)
+
+###### DOM Based XSS
+
+* 👉 https://www.owasp.org/index.php/DOM_Based_XSS
+
+
+
+#### Recommended books :
+
+
 
 ### SQL Injection
 
