@@ -319,7 +319,7 @@ s Communication & RF**](https://github.com/fz3r0#%EF%B8%8F---wireless-communicat
 
 <span align="center"> <h1 align="center">🍼 👼 🐤 Lo básico de lo básico ¡En español! 🐤 👼 🍼</h1> </span>  
 
-_Para mis amigos que están empezando completamente de 0, aprende en una hora ;)_
+_Para mis amigos que están empezando completamente de 0, aprende todo en una hora ¡o menos! ;)_
 
 - [Aprende inglés desde 0]() _Aprende a hablar inglés mejor que tu tío que se fué al gabacho_
 - [La historia de las computadoras ¡en 2 minutos!](https://www.youtube.com/watch?v=AyT-qtwwtJY) _Todo largo camino comienza por el primer paso..._
@@ -329,6 +329,7 @@ _Para mis amigos que están empezando completamente de 0, aprende en una hora ;)
 - [¿Cómo se programa el Software?]()
 - [¿Cómo funciona el hardware (Procesador, Memoria, Dispositivos I/O)?]()
 - [¿Cómo se hace un procesador?]()
+- [¿Qué es una red de Área Local (LAN)?]()
 - [¿Qué es el Internet y cómo funciona?]()
 - [La historia de ARPANET]()
 - [La historia del Internet en México]()
@@ -342,6 +343,8 @@ _Para mis amigos que están empezando completamente de 0, aprende en una hora ;)
 - [¿Qué es una máquina virtual? (VM o Virtual Machine)]()
 - [¿Qué es un Data Center?]()
 - [¿Qué es una nube?]()
+- [¿Qué es la Inteligencia Artificial (AI)?]()
+- [¿Qué es Machine Learning?]()
 - [**¿Cómo hackear en 2 minutos al mundo entero?**](https://youtu.be/dQw4w9WgXcQ) _**¡Un largo camino comienza aquí, aventuras podrás disfutar!**_
 
 <span align="center"> <h1 align="center">  📡 🖧 🌐 Networking 🌐 🖧 📡</h1> </span>   
