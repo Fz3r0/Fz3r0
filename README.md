@@ -3110,6 +3110,7 @@ _The Strength Of The Human Heart. The Difference Between Us And Machines"_
 - [PSU / Power Supply Calculator](https://outervision.com/power-supply-calculator)
 - [TFTP OpenSource - **tftpd32**](https://pjo2.github.io/tftpd64/)
 - [Where goes? - URL redirect checker](https://wheregoes.com/) _Show you the full redirection path of URLs, shortened links, or tiny URLs._
+- [WTF is my IP?!?!?!](https://wtfismyip.com/) _Get your fu$%&ng IP!_
 
 ### THM Rooms WriteUps
 
