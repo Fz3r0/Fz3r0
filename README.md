@@ -353,8 +353,6 @@ _Monitoring devices, know where you go, mass media, total control. Digital delig
 
 _The sun never sets, on cyber-space... Transmit, receive, log on to interface_
 
-
-
 ## 🔮 📖 🧙‍ Dark Wizardy for Networking Fundamentals 🧙‍♂️ 📖 🔮
 _Networking basic concepts, Tables, Lists, Models, Cheat-Sheets, Mind-Maps & Cool Resources!!!_
 
@@ -508,7 +506,7 @@ _Modelos de referencia para los protocolos de la red y la interconexión y comun
 
 - [Electricidad enfocada a Seguridad y Telecomunicaciones @ Syscom](https://www.youtube.com/watch?v=PQrMHIWnLCQ)
 
-### 📊 🖥️ 👨‍🚀 Simulators & Emulators 👨‍🚀 🖥️ 📊
+## 📊 🖥️ 👨‍🚀 Simulators & Emulators 👨‍🚀 🖥️ 📊
  
 - [Cisco Packet Tracer]() _Network simulation tool for networking, IoT, and cybersecurity in a virtual lab_
 - [GNS3](https://gns3.com/) _Real-time network simulation for pre-deployment testing_
@@ -516,25 +514,30 @@ _Modelos de referencia para los protocolos de la red y la interconexión y comun
     - [GNS3 - Port Name Formatting](https://docs.gns3.com/docs/using-gns3/advanced/port-name-formatting/)
     - [Instalar y correr GNS3 VM Pro!!! Master Edson](https://www.youtube.com/watch?v=4kh9JL-0l5A&t=570s)
 - [Eve NG](https://www.eve-ng.net/) _Emulated Virtual Enviorment for Network, Security and DevOps_
-- For Diagrams: [Microsoft Visio](https://www.microsoft.com/en-us/microsoft-365/visio/flowchart-software) _$$$_
-- For Diagrams: [draw.io](https://app.diagrams.net/) _Free!_
 
-### 🐚 🐢 💻 Shells 💻 🐢 🐚
+## 🗺️ 📍 🔺 Diagram & Topology editors 🔺 📍 🗺️
+
+- [Microsoft Visio](https://www.microsoft.com/en-us/microsoft-365/visio/flowchart-software) _$$$_
+- [draw.io](https://app.diagrams.net/) _Free!_
+
+## 🐚 🐢 💻 Shells 💻 🐢 🐚
 
 - Secure-CRT
     - [Pimp my Secure CRT - ANSI colors & dark shell mode](https://www.vandyke.com/support/tips/colorconfig.html)
 - Putty
 - [MobaXterm - Pimp term for Windows](https://mobaxterm.mobatek.net/)
 
-### 🐚 😼 💀 Reverse Shells 💀 😼 🐚
+## 🐚 😼 💀 Reverse Shells 💀 😼 🐚
 
 - [Reverse Shell Generator](https://www.revshells.com/)
 - NetCat
 - SoCat
 
-### 🐚 🐢 🐱‍
+## 👨‍💻 🐚 🔒 SSH - Secure Shell 🔒 🐚 👨‍💻
 
-### 🔱 🌐 🏛️ Networking Groups & Organizations
+- [SSH & SCP (Secure Copy) Cheatsheet for Linux](https://user-images.githubusercontent.com/94720207/194212517-b25dfa23-0577-4cf1-ac37-83c32c5fbfba.png)
+
+## 🔱 🌐 🏛️ Networking Groups & Organizations 🏛️ 🌐 🔱
 
 - [WiFi Alliance]() _Ensure the interoperability of Wi-Fi products by providing certification testing_
 - [Federal Communications Commission (FCC)]() _regulates communications within & from USA_
@@ -549,7 +552,7 @@ _Modelos de referencia para los protocolos de la red y la interconexión y comun
     - Internet Engineering Steering Group **IESG**
     - Internet Research Task Force **IRTF**
 
-### 📝 👷 🏰 IEEE Standards 🏰 👷 📝
+## 📝 👷 🏰 IEEE Standards 🏰 👷 📝
 
 - [**IEEE 802.1 LAN/MAN Architecture & Network Management** Standards](https://en.wikipedia.org/wiki/IEEE_802.1)
 
