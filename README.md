@@ -2541,6 +2541,12 @@ Mind-Maps, Paradigms, Way-to-Go, Hints & Tricks for Seek & Exploit TICs!
     - [Windows Server | Pergamino I](https://github.com/Fz3r0/Checklists_PrivEsc) _Detailed Checklist for Windows Server PrivEsc & Scenarios_ 
     - [**Active Directory Exploitation Cheat-Sheet** @ Tib3rius](https://github.com/Tib3rius/Active-Directory-Exploitation-Cheat-Sheet)
 
+## 🪟 🥷 🏢 Attacking Windows Server & Active Directory 🏢 🏴‍☠️ 🪟
+
+### Labs & HackBoxes 
+
+[TryHackMe - Windows Server Basics](https://tryhackme.com/room/winadbasics) _Basic concepts and functionality provided by Active Directory._
+
 ### 🖧 ⏩ 🦘 Pivoting & Port Forwarding 🦘 ⏩ 🖧  
 
 - [Pivoting from 0 to hero! @ Tiberius](https://github.com/Tib3rius/Pentest-Cheatsheets/blob/master/exploits/pivoting.rst)
