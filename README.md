@@ -265,9 +265,7 @@ https://www.hackthebox.com/badge/image/897009
 <span align="center"> <p align="center"> _porque mi ruta había extraviado..._ </p> </span>   
 <span align="center"> <p align="center"> _Abandonad, los que aquí entráis, toda esperanza..._ </p> </span>
 
----
-
-<span align="center"> <h1 align="center"> INDEX </h3> </span>   
+<span align="center"> <h1 align="center"> INDEX </h1> </span>   
     
 ### About 
 
