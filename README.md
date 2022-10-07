@@ -3,6 +3,21 @@
 
 <!--
 
+<!--
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+** =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=- INFIERNO 
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+
+
+    
+
+  
+
+<span align="center"> <p align="center">    </p> </span>  
+
+<p align="center"> <img src="https://user-images.githubusercontent.com/94720207/164912570-d86e1783-fcad-43eb-9fae-f5e6ff48cdac.png" alt="skull3" width="20%" height="auto"/> </p>  
+
 
 SECURITY ADVANTAGES SDN AGREGAR!!!! https://xigentsolutions.com/blog/security-advantages-of-software-defined-networking/
 
@@ -79,9 +94,9 @@ SECURITY ADVANTAGES SDN AGREGAR!!!! https://xigentsolutions.com/blog/security-ad
 <p align="center"> <img src="https://user-images.githubusercontent.com/94720207/165983361-8d515dec-44f5-4a77-98de-a973705a2226.png" alt="herodotus" width="100" height="100"/> </a> </p>
  
 <span align="center"> <p align="center"> _**"The only good is knowledge, and the only evil is ignorance."** Herodotus_ </p> </span> 
-  
+
 ---
---- 
+
 
 
 
@@ -242,40 +257,16 @@ https://www.hackthebox.com/badge/image/897009
 --- 
 
 ![index_banner_final2](https://hackers.game/static/media/skull.5853c7dcd849910eaf43.gif)
-
-<!--
-
-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
-** =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=- INFIERNO 
-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
-
-
-    
-<span align="center"> <h3 align="center">   </h3> </span>  
 <span align="center"> <h3 align="center"> 💀 Infierno: Canto I 💀 </h3> </span>  
-<span align="center"> <h3 align="center">   </h3> </span>  
-  
 <span align="center"> <p align="center"> ΟΠΟΙΟΣ ΜΠΑΙΝΕΙ ΕΔΩ ΝΑ ΠΑΡΑΤΑ ΚΑΘΕ ΕΛΠΙΔΑ </p> </span> 
 <span align="center"> <h3 align="center">   </h3> </span>  
-  
 <span align="center"> <p align="center"> _A mitad del camino de la vida,_ </p> </span>   
 <span align="center"> <p align="center"> _en una selva oscura me encontraba_ </p> </span>     
 <span align="center"> <p align="center"> _porque mi ruta había extraviado..._ </p> </span>   
 <span align="center"> <p align="center"> _Abandonad, los que aquí entráis, toda esperanza..._ </p> </span>
-<span align="center"> <p align="center">    </p> </span>  
 
-<p align="center"> <img src="https://user-images.githubusercontent.com/94720207/164912570-d86e1783-fcad-43eb-9fae-f5e6ff48cdac.png" alt="skull3" width="20%" height="auto"/> </p>  
-  
+---
 
-  
-
-
-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
-** =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=- INDEX TITLE,ABOUT,CONTACT 
-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
-
--->    
- 
 <span align="center"> <h1 align="center"> INDEX </h3> </span>   
     
 ### About 
