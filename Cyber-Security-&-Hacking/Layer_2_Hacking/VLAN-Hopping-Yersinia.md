@@ -42,6 +42,36 @@ Switch (config-if)# switchport mode access
 - The frame is then sent to the target host as though it originated on the target VLAN, effectively bypassing the network mechanisms that logically isolate VLANs from one another.
 - However, possible replies are not forwarded to the attacking host (unidirectional flow). 
 
+### Example of Double Tagging
+
+- As an example of a double tagging attack, consider a secure web server on a VLAN called VLAN2: 
+
+    - Hosts **on VLAN2** are **allowed** access to the web server; hosts from **outside VLAN2** are **blocked** by layer 3 filters. 
+    - An **attacking host on a separate VLAN**, called **VLAN1(Native)**, creates a specially formed packet to attack the web server. 
+    - It places a **header tagging the packet as belonging to VLAN2**, **under the header tagging the packet as belonging to VLAN1**. 
+    - When the packet is sent, the **switch sees the default VLAN1 header** and removes it and forwards the packet. 
+    - The **next switch sees the VLAN2 header** and puts the packet in VLAN2. 
+    
+        - The packet thus arrives at the target server as though it were sent from another host on VLAN2, ignoring any layer 3 filtering that might be in place.
+
+### Mitigation of Double Tagging
+
+Double Tagging can only be exploited on switch ports configured to use native VLANs.[2]: 162  Trunk ports configured with a native VLAN don't apply a VLAN tag when sending these frames. This allows an attacker's fake VLAN tag to be read by the next switch.[4]
+
+Double Tagging can be mitigated by any of the following actions (Incl. IOS example):
+
+    Simply do not put any hosts on VLAN 1 (The default VLAN). i.e., assign an access VLAN other than VLAN 1 to every access port
+
+         Switch (config-if)# switchport access vlan 2
+
+    Change the native VLAN on all trunk ports to an unused VLAN ID.
+
+        Switch (config-if)# switchport trunk native vlan 999
+
+    Explicit tagging of the native VLAN on all trunk ports. Must be configured on all switches in network autonomy.
+
+        Switch(config)# vlan dot1q tag native
+
 ## Resources
 
 - https://en.wikipedia.org/wiki/VLAN_hopping
