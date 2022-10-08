@@ -308,17 +308,18 @@ s Communication & RF**](https://github.com/fz3r0#%EF%B8%8F---wireless-communicat
 
 <span align="center"> <h1 align="center">🍼 👼 🐤 Lo básico de lo básico ¡En español! 🐤 👼 🍼</h1> </span>  
 
-_Para mis amigos que están empezando completamente de 0, aprende todo en una hora ¡o menos! ;)_
+_Para mis amigos que están empezando completamente de 0, cursa una ingeniería en una hora ¡o menos! ;)_ <br>
 
 - [Aprende inglés desde 0]() _Aprende a hablar inglés mejor que tu tío que se fué al gabacho_
 - [La historia de las computadoras ¡en 2 minutos!](https://www.youtube.com/watch?v=AyT-qtwwtJY) _Todo largo camino comienza por el primer paso..._
 - [¿Cómo funciona una computadora o PC? ¡en 3 minutos!](https://www.youtube.com/watch?v=oYxE3L-6-a8) _Close your eyes, I remember..._
 - [¿Qué es el Hardware y Software? ¡en 2 minutos!](https://www.youtube.com/watch?v=3F-kuNGlNco) _Aprendiendo la diferencia entre lo físico y lo lógico_
 - [¿Qué es un Algoritmo? ¡en 2 minutos!](https://www.youtube.com/watch?v=EkObhToiseo) _Más fácil de lo que pensabas ;)_
-- [¿Cómo funciona un PC y que hace cada pieza (Hardware)? | Componentes del ordenador explicados? @ Nate](https://www.youtube.com/watch?v=0zkX6nlpiSk&t=32s) _Todas las partes de la PC explicadas por Nate para los babys_
-- [¿Qué es y Cómo empezar a programar Software de Computadora?](https://www.youtube.com/watch?v=OPlGMplfEbc) _Es de a poco en poco..._
+- [¿Cómo funciona un PC y qué hace cada pieza (Hardware)? @ Nate](https://www.youtube.com/watch?v=0zkX6nlpiSk&t=32s) _Todas los componentes de PC explicadas por Nate_
+- [¿Qué es y Cómo empezar a programar Software de Computadora?](https://www.youtube.com/watch?v=OPlGMplfEbc) _Es más fácil de lo que crees..._
 - [¿Cómo se fabrica un procesador de Computadora? @ Intel](https://www.youtube.com/watch?v=G7tGWwPju9Y) _El milagro de la ingeniería humana, es magia..._
 - [¿Cómo se fabrica la Memoria RAM? @ Droga Digital](https://www.youtube.com/watch?v=0J4oSrRJhrA) _Dr. Hoodman nos lleva de paseo a Tapei_
+- [¿Cómo se ensambla una Motherboard? @ Droga Digital](https://www.youtube.com/watch?v=nqlssKC55NU) _Dr. Hoodman nos lleva de paseo a Taiwan_
 - [¿Qué es una red de Área Local (LAN)?]()
 - [¿Qué es el Internet y cómo funciona?]()
 - [La historia de ARPANET]()
