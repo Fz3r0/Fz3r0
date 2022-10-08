@@ -1972,8 +1972,37 @@ _Attack switching protocols & Hack the Layer 2_
 - [CDP Attack CDP Recon & Crafting]()
 - [Attacking STP & BPDUs crafting packs](https://github.com/tomac/yersinia) _@ Yersenia_
 
+## 📡 🏴‍☠️ 💥 WiFi Attacks & Exploits 📡 🏴‍☠️ 💥
+_Attack and control the air..._
+
+### Layer 2 Hacking Tools & Cyber-Weapons
+
+- [Best WiFi Hacking tools: Airgeddon, Kismet, Raspberry Pi & More! @ Kody & Bombal](https://www.youtube.com/watch?v=f2BjFilLDqQ)
+- [**WEF - WiFi Exploitation Framework**](https://github.com/D3Ext/WEF) _A fully offensive framework to the 802.11 networks and protocols with different types of attacks for WPA and WEP, automated hash cracking, bluetooth hacking and much more._
+- [Alfa AWUS036ACM WiFi adapter - 2.4 and 5 Ghz](https://www.amazon.com/Network-AWUS036ACM-Long-Range-Wide-Coverage-High-Sensitivity/dp/B08BJS8FXD) _Use this sword you will need it for your adventure!_
+
+### WiFi Attacks
+
+- [Deauthentication Attack]()
+- [Authentication Attack]()
+- [Beacon Flood Attack]()
+- [PKMID Attack]()
+- [EvilTwin Attack]()
+- [Passive/Stealthy Attack]()
+- [Pixie Dust Attack]()
+- [Null Pin Attack]()
+- [Chopchop Attack]()
+- [Replay Attack]()
+- [Michael Exploitation Attack]()
+- [Caffe-Latte Attack]()
+- [Jamming, Reading and Writing bluetooth connections]()
+- [GPS Spoofing with HackRF]()
+
 ### ⚔️ 🐱‍👤 🦈 Attacking & Defending the Network Infraestructure 🦈 🐱‍👤 ⚔️ 
 Guides for performing Penetration Attacks involving the Network Infrastructure Exploiting Known Vulverabilities and how to Mitigate and Secure the Network Against those threats  
+
+
+
 
 - **Security & Best Practices Configurations for Networking**
     - [Pro Configs @ **Best Practices, Security Standards** & **SSH LOCAL**-Logins](/Networking/Labs/SSH-Minimum-Requeriments-for-Cisco.md) _For any Cisco device (IOS)_ 
@@ -1986,24 +2015,7 @@ Guides for performing Penetration Attacks involving the Network Infrastructure E
 
 
 
-- **Wireless / WiFi Attacks**
 
-    - [**WEF - WiFi Exploitation Framework**](https://github.com/D3Ext/WEF) _A fully offensive framework to the 802.11 networks and protocols with different types of attacks for WPA and WEP, automated hash cracking, bluetooth hacking and much more._
-    - Use this sword you will need it for your adventure [Alfa AWUS036ACM WiFi adapter - 2.4 and 5 Ghz](https://www.amazon.com/Network-AWUS036ACM-Long-Range-Wide-Coverage-High-Sensitivity/dp/B08BJS8FXD)
-    - [Deauthentication Attack]()
-    - [Authentication Attack]()
-    - [Beacon Flood Attack]()
-    - [PKMID Attack]()
-    - [EvilTwin Attack]()
-    - [Passive/Stealthy Attack]()
-    - [Pixie Dust Attack]()
-    - [Null Pin Attack]()
-    - [Chopchop Attack]()
-    - [Replay Attack]()
-    - [Michael Exploitation Attack]()
-    - [Caffe-Latte Attack]()
-    - [Jamming, Reading and Writing bluetooth connections]()
-    - [GPS Spoofing with HackRF]()
 
 - Attacks & Mitigation on Cisco Devices Resources
  
