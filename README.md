@@ -256,14 +256,15 @@ https://www.hackthebox.com/badge/image/897009
 
 --- 
 
-![index_banner_final2](https://hackers.game/static/media/skull.5853c7dcd849910eaf43.gif)
-<span align="center"> <h3 align="center"> 💀 Infierno: Canto I 💀 </h3> </span>  
+<span align="center"> <p align="center"> ![imagen](https://user-images.githubusercontent.com/94720207/194731114-6d310be7-fd00-4c5c-bcfd-563b93d6b019.png) </p> </span> 
 <span align="center"> <p align="center"> ΟΠΟΙΟΣ ΜΠΑΙΝΕΙ ΕΔΩ ΝΑ ΠΑΡΑΤΑ ΚΑΘΕ ΕΛΠΙΔΑ </p> </span> 
 <span align="center"> <h3 align="center">   </h3> </span>  
 <span align="center"> <p align="center"> _A mitad del camino de la vida,_ </p> </span>   
 <span align="center"> <p align="center"> _en una selva oscura me encontraba_ </p> </span>     
 <span align="center"> <p align="center"> _porque mi ruta había extraviado..._ </p> </span>   
 <span align="center"> <p align="center"> _Abandonad, los que aquí entráis, toda esperanza..._ </p> </span>
+<br>
+<br>
 
 <span align="center"> <h1 align="center"> INDEX </h1> </span>   
     
@@ -275,6 +276,8 @@ https://www.hackthebox.com/badge/image/897009
 - [Disclaimer](/README.md#-disclaimer-)
   
 <!--
+
+![index_banner_final2](https://hackers.game/static/media/skull.5853c7dcd849910eaf43.gif)
 
 *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
 ** =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=- NETWORKING 
