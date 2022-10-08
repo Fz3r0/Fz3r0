@@ -1943,16 +1943,25 @@ _Attack switching protocols & Hack the Layer 2_
 
 ### Layer 2 Hacking Tools & Cyber-Weapons
 
-- [Yersenia](https://www.kali.org/tools/yersinia/) _Attack STP, CDP, DTP, DHCP, HSRP, 802.1q, 802.1X, ISL, & VTP_
-- [Ettercap]()
-- [Scappy]()
+- [Yersinia](https://www.kali.org/tools/yersinia/) _Attack STP, CDP, DTP, DHCP, HSRP, 802.1q, 802.1X, ISL, & VTP_
+- [Ettercap](https://www.kali.org/tools/ettercap/) _Sniffing, active and passive dissection of many protocols, data injection & more fun!_
+- [Scapy](https://www.kali.org/tools/scapy/) _Packet manipulation tool, packet generator, network scanner, network discovery, packet sniffer, etc._
 
-### Layer 2 Hacking Labs
+### Layer 2 Fz3r0 Hacking Labs & Write-Ups
 
 - [MAC Flooding/CAM Overflow, Man-In-The-Middle (MITM) ARP Poisoning + MAC Spoofing + TCP Packet Tamper, Pivot + PrivEsc @ Fz3r0](/Networking/Attacking-Cisco/THM-L2-MAC-Flooding-&-ARP-Spoofing-writeup.md) _Full writeup attacking a THM machine using Layer 2 Attacks to intercept PDUs & PrivEsc a compromised Linux machine_
-- [VLAN Hopping Attack @ Cheng Zhang](https://www.youtube.com/c/ChengZhang/videos) _A very classic attack by switch trunking  DTP setting. @ Yersenia_
+
+### VLAN Hopping Attacks & Labs
+
+- [What is a VLAN Hopping Attack? Vectors: Switch spoofing & Double tagging](https://en.wikipedia.org/wiki/VLAN_hopping)
+- [VLAN Hopping Attack **DTP** @ Cheng Zhang](https://www.youtube.com/c/ChengZhang/videos) _A very classic attack by switch trunking  DTP setting. @ Yersenia_
 - [VLAN Attack Double Tagging]()
 - [VLAN Attack  Attack Between Devices]()
+- [Hacking networks with VLAN hopping and Python @ Bombal](https://www.youtube.com/watch?v=SiFyhipl57A) _Vamos Bombal!_
+
+### DHCP Attacks 
+
+- [DHCP Snooping: Stop Kali DHCP Hacks and MiTM @ Bombal](https://youtu.be/S6KI6VsvDuU)
 - [DHCP Attack DHCP Starvation](https://www.youtube.com/watch?v=u9vcnApS8Fg) _@ Yersenia_
 - [DHCP Attack DHCP Spoofing]()
 - [DHCP Attack Rougue DHCP Server | MiTM](https://www.youtube.com/watch?v=eWVzteyRFYo) _@ Ettercap_
