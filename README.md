@@ -320,10 +320,11 @@ _Para mis amigos que están empezando completamente de 0, cursa una ingeniería 
 - [¿Cómo se fabrica un procesador de Computadora? @ Intel](https://www.youtube.com/watch?v=G7tGWwPju9Y) _El milagro de la ingeniería humana, es magia..._
 - [¿Cómo se fabrica la Memoria RAM? @ Droga Digital](https://www.youtube.com/watch?v=0J4oSrRJhrA) _Dr. Hoodman nos lleva de paseo a Tapei_
 - [¿Cómo se ensambla una Motherboard? @ Droga Digital](https://www.youtube.com/watch?v=nqlssKC55NU) _Dr. Hoodman nos lleva de paseo a Taiwan_
-- [¿Qué es una red de Área Local (LAN)?]()
 - [¿Qué es el Internet y cómo funciona?]()
-- [La historia de ARPANET]()
-- [La historia del Internet en México]()
+- [La historia del Internet para principiantes ¡en 4 minutos!](https://www.youtube.com/watch?v=WsUqWX-JtHM) _¿Te suenan las palabras Sputnik, ARPA, ARPANET, WWW?_
+- [La historia del Internet en México ¡en 2 minutos!](https://www.youtube.com/watch?v=o16jcDHd73o) _¡Unos mexicanos que controlan el machete!_
+- [¿Qué es una red de Área Local (LAN)?]() _Simple... es una red... de área local..._
+- [¿Qué es una red de Área Amplia (WAN)?]() _Simple... es el Internet :)_
 - [¿Cómo funciona un cable UTP/STP "Ethernet"?]()
 - [¿Cómo funciona la fibra óptica?]()
 - [¿Cómo funciona el WiFi?]()
