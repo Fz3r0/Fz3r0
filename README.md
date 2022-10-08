@@ -1922,8 +1922,8 @@ Networking Labs using simulators, emulators like Packet Tracer, GNS3 & eve / and
 
     - Lab 01 > [AAA Docker Appliance: Easy TACACS & RADIUS GNS3 servers! @ D.Bombal](https://www.youtube.com/watch?v=EBa66YzpA4A) _GNS3_ 
      
-### 🆘 🚨 ⚠️ Network Troubleshooting & Ass-Savers ⚠️ 🚨 🆘
-Troubleshooting & Incidence Response for Notworking Hardware & Software by _Fz3r0_
+## 🆘 🚨 ⚠️ Network TroubleShooting & Ass-Savers ⚠️ 🚨 🆘
+T-Shoot & Incidence Response for Notworking Hardware & Software by _Fz3r0_
 
 - Wired LAN Network Troubleshooting
 
@@ -1938,6 +1938,31 @@ Troubleshooting & Incidence Response for Notworking Hardware & Software by _Fz3r
 
     - [CWNP - Wireless Troubleshooting Methodology](https://wlanprofessionals.com/wireless-troubleshooting-best-practices/)
 
+## 🦈 🏴‍☠️ 🖧 Layer 2 Attacks & Exploits 🖧 🏴‍☠️ 🦈
+_Attack switching protocols & Hack the Layer 2_
+
+### Layer 2 Hacking Tools & Cyber-Weapons
+
+- [Yersenia]()
+- [Ettercap]()
+- [Scappy]()
+
+### Layer 2 Hacking Labs
+
+- [MAC Flooding/CAM Overflow, Man-In-The-Middle (MITM) ARP Poisoning + MAC Spoofing + TCP Packet Tamper, Pivot + PrivEsc @ Fz3r0](/Networking/Attacking-Cisco/THM-L2-MAC-Flooding-&-ARP-Spoofing-writeup.md) _Full writeup attacking a THM machine using Layer 2 Attacks to intercept PDUs & PrivEsc a compromised Linux machine_
+- [VLAN Hopping Attack @ Cheng Zhang](https://www.youtube.com/c/ChengZhang/videos) _A very classic attack by switch trunking  DTP setting. @ Yersenia_
+- [VLAN Attack Double Tagging]()
+- [VLAN Attack  Attack Between Devices]()
+- [DHCP Attack DHCP Starvation](https://www.youtube.com/watch?v=u9vcnApS8Fg) _@ Yersenia_
+- [DHCP Attack DHCP Spoofing]()
+- [DHCP Attack Rougue DHCP Server | MiTM](https://www.youtube.com/watch?v=eWVzteyRFYo) _@ Ettercap_
+- [ARP Attack ARP Spoofing](https://www.youtube.com/watch?v=mchrDyBdMmc)
+- [ARP Attack ARP Poisoning](/Networking/Attacking-Network-Infraestructure/Layer-2-Attacks/ARP-Attack-ARP-Poisoning.md)
+- [Address Spoofing MAC & IP Spoofing]()
+- [STP Attack Spaning Tree Protocol Manipulation]()
+- [CDP Attack CDP Recon & Crafting]()
+- [Attacking STP & BPDUs crafting packs](https://github.com/tomac/yersinia) _@ Yersenia_
+
 ### ⚔️ 🐱‍👤 🦈 Attacking & Defending the Network Infraestructure 🦈 🐱‍👤 ⚔️ 
 Guides for performing Penetration Attacks involving the Network Infrastructure Exploiting Known Vulverabilities and how to Mitigate and Secure the Network Against those threats  
 
@@ -1950,19 +1975,7 @@ Guides for performing Penetration Attacks involving the Network Infrastructure E
     - [LAN-Security: Endpoints, Hosts, & Security Appliances](/Networking/Attacking-Denending-Network-Infraestructure/NetSec-Defensive-Tools/Security-&-Best-Practices-Configurations/LAN-Security_Endpoint-Host-Appliances.md)
     - [Cisco Auto Security Configuration](https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst4500/XE3-6-0E/15-22E/configuration/guide/xe-360-config/auto_sec.pdf)
 
-- **Layer 2 Attacks** 
-    - [MAC Flooding/CAM Overflow, Man-In-The-Middle (MITM) ARP Poisoning + MAC Spoofing + TCP Packet Tamper, Pivot + PrivEsc @ Fz3r0](/Networking/Attacking-Cisco/THM-L2-MAC-Flooding-&-ARP-Spoofing-writeup.md) _Full writeup attacking a THM machine using Layer 2 Attacks to intercept PDUs & PrivEsc a compromised Linux machine_
-    - [VLAN Attack Double Tagging]()
-    - [VLAN Attack  Attack Between Devices]()
-    - [DHCP Attack DHCP Starvation](https://www.youtube.com/watch?v=u9vcnApS8Fg) _@ Yersenia_
-    - [DHCP Attack DHCP Spoofing]()
-    - [DHCP Attack Rougue DHCP Server | MiTM](https://www.youtube.com/watch?v=eWVzteyRFYo) _@ Ettercap_
-    - [ARP Attack ARP Spoofing](https://www.youtube.com/watch?v=mchrDyBdMmc)
-    - [ARP Attack ARP Poisoning](/Networking/Attacking-Network-Infraestructure/Layer-2-Attacks/ARP-Attack-ARP-Poisoning.md)
-    - [Address Spoofing MAC & IP Spoofing]()
-    - [STP Attack Spaning Tree Protocol Manipulation]()
-    - [CDP Attack CDP Recon & Crafting]()
-    - [Attacking STP & BPDUs crafting packs](https://github.com/tomac/yersinia) _@ Yersenia_
+
 
 - **Wireless / WiFi Attacks**
 
