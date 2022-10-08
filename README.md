@@ -312,12 +312,13 @@ _Para mis amigos que están empezando completamente de 0, aprende todo en una ho
 
 - [Aprende inglés desde 0]() _Aprende a hablar inglés mejor que tu tío que se fué al gabacho_
 - [La historia de las computadoras ¡en 2 minutos!](https://www.youtube.com/watch?v=AyT-qtwwtJY) _Todo largo camino comienza por el primer paso..._
-- [¿Cómo funciona una computadora? ¡en 3 minutos!](https://www.youtube.com/watch?v=oYxE3L-6-a8) _Close your eyes, I remember..._
-- [¿Qué es el Hardware y Software?]()
-- [¿Cómo funciona un progrma de computadora? (Software)]()
-- [¿Cómo se programa el Software?]()
-- [¿Cómo funciona el hardware (Procesador, Memoria, Dispositivos I/O)?]()
-- [¿Cómo se hace un procesador?]()
+- [¿Cómo funciona una computadora o PC? ¡en 3 minutos!](https://www.youtube.com/watch?v=oYxE3L-6-a8) _Close your eyes, I remember..._
+- [¿Qué es el Hardware y Software? ¡en 2 minutos!](https://www.youtube.com/watch?v=3F-kuNGlNco) _Aprendiendo la diferencia entre lo físico y lo lógico_
+- [¿Qué es un Algoritmo? ¡en 2 minutos!](https://www.youtube.com/watch?v=EkObhToiseo) _Más fácil de lo que pensabas ;)_
+- [¿Cómo funciona un PC y que hace cada pieza (Hardware)? | Componentes del ordenador explicados? @ Nate](https://www.youtube.com/watch?v=0zkX6nlpiSk&t=32s) _Todas las partes de la PC explicadas por Nate para los babys_
+- [¿Qué es y Cómo empezar a programar Software de Computadora?](https://www.youtube.com/watch?v=OPlGMplfEbc) _Es de a poco en poco..._
+- [¿Cómo se fabrica un procesador de Computadora? @ Intel](https://www.youtube.com/watch?v=G7tGWwPju9Y) _El milagro de la ingeniería humana, es magia..._
+- [¿Cómo se fabrica la Memoria RAM? @ Droga Digital](https://www.youtube.com/watch?v=0J4oSrRJhrA) _Dr. Hoodman nos lleva de paseo a Tapei_
 - [¿Qué es una red de Área Local (LAN)?]()
 - [¿Qué es el Internet y cómo funciona?]()
 - [La historia de ARPANET]()
