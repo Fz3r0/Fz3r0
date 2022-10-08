@@ -83,11 +83,19 @@ Switch(config)# vlan dot1q tag native
 - Also check thisone, this guy made it work ;) https://community.cisco.com/t5/switching/native-vlan-tagging/td-p/2267039
 
 ```
-...I just came back from a lab. I can confirm that if vlan dot1q tag native is configured, a trunk always performs tagging on the outgoing frames (i.e. the native VLAN setting is ignored and all frames are tagged with the corresponding tag value). Untagged frames arriving at a trunk port will be dropped without being forwarded further.
+...I just came back from a lab. 
+I can confirm that if vlan dot1q tag native is configured, 
+a trunk always performs tagging on the outgoing frames 
+(i.e. the native VLAN setting is ignored and all frames are 
+tagged with the corresponding tag value). Untagged frames arriving 
+at a trunk port will be dropped without being forwarded further.
 
 I've tested this on Catalyst 3560 (12.2(55)SE6) and 3560V2 (15.0(1)SE).
 
-Keep in mind that the vlan dot1q tag native command applies only to tagging frames on trunk ports. It has no effect on access ports - these ports will continue operating in untagged mode as usual and will not drop anything :D
+Keep in mind that the vlan dot1q tag native command applies only to 
+tagging frames on trunk ports. It has no effect on access ports - 
+these ports will continue operating in untagged mode as usual and 
+will not drop anything :D
 ```
 
 ## Resources
