@@ -310,7 +310,7 @@ s Communication & RF**](https://github.com/fz3r0#%EF%B8%8F---wireless-communicat
 
 _Para mis amigos que están empezando completamente de 0, cursa una ingeniería en una hora ¡o menos! ;)_ <br>
 
-- [Aprende inglés desde 0]() _Aprende a hablar inglés mejor que tu tío que se fué al gabacho_
+- [Aprende inglés desde 0](https://www.youtube.com/watch?v=dFJvNYdKGrA&list=PLgrNDDl9MxYmUmf19zPiljdg8FKIRmP78) _Aprende a hablar inglés mejor que tu tío que se fué al gabacho ¡sin miedo!_
 - [La historia de las computadoras ¡en 2 minutos!](https://www.youtube.com/watch?v=AyT-qtwwtJY) _Todo largo camino comienza por el primer paso..._
 - [¿Cómo funciona una computadora o PC? ¡en 3 minutos!](https://www.youtube.com/watch?v=oYxE3L-6-a8) _Close your eyes, I remember..._
 - [¿Qué es el Hardware y Software? ¡en 2 minutos!](https://www.youtube.com/watch?v=3F-kuNGlNco) _Aprendiendo la diferencia entre lo físico y lo lógico_
