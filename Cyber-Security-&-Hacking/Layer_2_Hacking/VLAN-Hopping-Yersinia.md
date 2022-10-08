@@ -56,21 +56,39 @@ Switch (config-if)# switchport mode access
 
 ### Mitigation of Double Tagging
 
-Double Tagging can only be exploited on switch ports configured to use native VLANs.[2]: 162  Trunk ports configured with a native VLAN don't apply a VLAN tag when sending these frames. This allows an attacker's fake VLAN tag to be read by the next switch.[4]
+- Double Tagging can only be exploited on switch ports configured to use native VLANs.
+- Trunk ports configured with a native VLAN don't apply a VLAN tag when sending these frames. 
+- This allows an attacker's fake VLAN tag to be read by the next switch.
+- Double Tagging can be mitigated by any of the following actions (Incl. IOS example):
 
-Double Tagging can be mitigated by any of the following actions (Incl. IOS example):
+1. Simply do not put any hosts on VLAN 1 (The default VLAN). i.e., assign an access VLAN other than VLAN 1 to every access port
 
-    Simply do not put any hosts on VLAN 1 (The default VLAN). i.e., assign an access VLAN other than VLAN 1 to every access port
+```
+Switch (config-if)# switchport access vlan 2
+```
 
-         Switch (config-if)# switchport access vlan 2
+2. Change the native VLAN on all trunk ports to an unused VLAN ID.
 
-    Change the native VLAN on all trunk ports to an unused VLAN ID.
+```
+Switch (config-if)# switchport trunk native vlan 999
+```
 
-        Switch (config-if)# switchport trunk native vlan 999
+3. Explicit tagging of the native VLAN on all trunk ports. Must be configured on all switches in network autonomy.
 
-    Explicit tagging of the native VLAN on all trunk ports. Must be configured on all switches in network autonomy.
+```
+Switch(config)# vlan dot1q tag native
+```
+- Fz3r0 PRO Tip: Watch the compatibility between switches for that command! https://blog.pierky.com/remember-the-vlan-dot1q-tag-native-command-untagged-ingress-frames-are-dropped/
 
-        Switch(config)# vlan dot1q tag native
+- Also check thisone, this guy made it work ;) https://community.cisco.com/t5/switching/native-vlan-tagging/td-p/2267039
+
+```
+...I just came back from a lab. I can confirm that if vlan dot1q tag native is configured, a trunk always performs tagging on the outgoing frames (i.e. the native VLAN setting is ignored and all frames are tagged with the corresponding tag value). Untagged frames arriving at a trunk port will be dropped without being forwarded further.
+
+I've tested this on Catalyst 3560 (12.2(55)SE6) and 3560V2 (15.0(1)SE).
+
+Keep in mind that the vlan dot1q tag native command applies only to tagging frames on trunk ports. It has no effect on access ports - these ports will continue operating in untagged mode as usual and will not drop anything :D
+```
 
 ## Resources
 
