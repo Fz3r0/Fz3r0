@@ -1839,6 +1839,7 @@ _Somehow my life always return here...Ruckus Wireless, maybe because I love dogs
 
 - Tutorials
 
+    - [La clásica de borde: IP + VLANs + DHCP + Salida a Internerd](https://www.youtube.com/watch?v=3m6AsMdZgOE)
     - [**Configuración de GNS3 para emular dispositivos Mikrotik con QEMU** FULL!!!](https://www.youtube.com/watch?v=6w5nrvHkYl0)
     - [Curso MikroTik de principiante a expoerto](https://www.youtube.com/watch?v=AWtYiwTYR7A&list=PLf0g2cV4iCkH19_UhaVt0vDn1f9ObumjF)
     - [Cargar Imagen de Mikrotik Router en GNS3 2022](https://www.youtube.com/watch?v=y6oUhswI3hw)
