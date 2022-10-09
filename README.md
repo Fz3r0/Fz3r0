@@ -1982,6 +1982,10 @@ _Attack switching protocols & Hack the Layer 2_
 ## 📡 🏴‍☠️ 💥 WiFi Attacks & Exploits 📡 🏴‍☠️ 💥
 _Attack and control the air..._
 
+### Wireless Adapters Tutorials & Examples
+
+- [Kali Linux WiFi - Install Alpha on Kali VMWare & Virtual Box @ Bombal](https://www.youtube.com/watch?v=yTINu4UQz4Y) _vamos Bombal!_
+
 ### Layer 2 Hacking Tools & Cyber-Weapons
 
 - [Best WiFi Hacking tools: Airgeddon, Kismet, Raspberry Pi & More! @ Kody & Bombal](https://www.youtube.com/watch?v=f2BjFilLDqQ)
