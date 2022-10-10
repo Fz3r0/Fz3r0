@@ -830,6 +830,69 @@ _Deep dive into the Packet / PCAP Analysis... & Sharks a lot of sharks!_
 
     - [Cableado Estructurado desde cero a pro!!! @ Network Warriors](https://www.youtube.com/watch?v=enQcM3BmH6Y&list=PLoqM5eIpDpUE48rYEzlwQNPvXFyhD-l7k)
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ### 🛰️ 📶 📡 Wireless Communication & RF 📡 📶 🛰️
 
 - Wireless WLAN / WiFi Bibles
