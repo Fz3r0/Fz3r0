@@ -656,6 +656,8 @@ _The premier Internet standards body concerned for Internet architecture and the
 - [**RFC** - Request for Comments @ IETF](https://www.ietf.org/standards/rfcs/) _IETF_
 - [**RFC** - Request For Comments @ Wikipedia](https://en.wikipedia.org/wiki/Request_for_Comments) _Wiki_
 - [**RFC** (Request For Comment) Explained @ Computerphile](https://www.youtube.com/watch?v=8IXLpoN8Xj0) _Easy podcast explanaition_
+- [RFC Stages of Development: Proposed Standard > Draft Standard > Internet Standard](https://www.youtube.com/watch?v=TtKKKUy4WU0)
+- [RFC Process Diagram](https://user-images.githubusercontent.com/94720207/194954120-00245391-89ec-437c-9cb8-3e808a886911.png)
 - [RFCs Official Index Database](https://www.ietf.org/rfc/)
 - [**RFC 793 - 1981: TCP** (Transmission Control Protocol)](https://www.ietf.org/rfc/rfc793.txt)
 - [**RFC 791 - 1981: IP** (Internet Protocol)](https://www.ietf.org/rfc/rfc791.txt)
