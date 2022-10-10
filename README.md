@@ -664,7 +664,7 @@ _The premier Internet standards body concerned for Internet architecture and the
 - [**RFC 791 - 1981: IP** (Internet Protocol)](https://www.ietf.org/rfc/rfc791.txt)
 
 
-## 🗺️ 🏗️ 👮 Regulatory Domains 👮 🏗️ 🗺️
+## 🗺️ 👮 🏗️ Regulatory Domains 🏗️ 👮 🗺️
 
 - [What is a regulatory domain?](https://shop.chulo.co.uk/blog/what-is-regulatory-domain.html)
 - [Regulatory domain and compliance - Country Table](https://wifibond.com/2016/10/26/regulatory-domain-and-compliance/)
@@ -682,6 +682,21 @@ _The premier Internet standards body concerned for Internet architecture and the
 - [CEPT / ECC / ETSI]() _All European Regulatory Domains_
 - [MIIC]() _China_
 - [MIC]() _Japan_
+
+## Leyes en México Respecto al Networking y Telecomunicaciones
+
+### Instituciones Reguladoras
+
+[Instituto Federal de Telecomunicaciones (IFT)](https://www.ift.org.mx/espectro-radioelectrico/normatividad) _Encargada del desarrollo eficiente de las telecomunicaciones y la radiodifusión_
+[Cuadro Nacional de Atribución de Frecuencias (CNAF)](http://cnaf.ift.org.mx/) _Adecuada planeación, administración y control del espectro radioeléctrico en nuestro país._
+
+### Leyes, Acuerdos y Estándares en México
+
+- [Bandas clasificadas como espectro de uso libre en México](https://soporte.syscom.mx/es/articles/2128264-bandas-clasificadas-como-espectro-de-uso-libre-en-mexico)
+- [Normatividad del Espectro Radioeléctrico en México](https://www.ift.org.mx/espectro-radioelectrico/normatividad)
+- [Ley Federal de Telecomunicaciones y Radiodifusión - Ultima reforma publicada (20 de mayo de 2021)](https://www.diputados.gob.mx/LeyesBiblio/ref/lftr.htm)
+- [DOF - Uso y Aprovechamiento de Bandas de Frecuencias 2019](https://dof.gob.mx/nota_detalle.php?codigo=5551828&fecha=05/03/2019#gsc.tab=0) _Diario Federal de la Nación_
+- [DOF - Condiciones técnicas de operación de la banda de frecuencias 2400 - 2483.5 MHz](https://www.dof.gob.mx/nota_detalle.php?codigo=5609418&fecha=04/01/2021#gsc.tab=0) _Clasificada como espectro libre_
 
 ## 📝 👷 🏰 IEEE Standards 🏰 👷 📝
 
