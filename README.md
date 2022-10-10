@@ -504,24 +504,52 @@ _Modelos de referencia para los protocolos de la red y la interconexión y comun
 - [Electricidad enfocada a Seguridad y Telecomunicaciones @ Syscom](https://www.youtube.com/watch?v=PQrMHIWnLCQ)
 
 ## 📊 🖥️ 👨‍🚀 Simulators & Emulators 👨‍🚀 🖥️ 📊
- 
+
+### Cisco Packet Tracer
+
 - [Cisco Packet Tracer]() _Network simulation tool for networking, IoT, and cybersecurity in a virtual lab_
+
+### GNS3
+
 - [GNS3](https://gns3.com/) _Real-time network simulation for pre-deployment testing_
     - [GNS3 - Appliances](https://www.gns3.com/marketplace/appliances)
     - [GNS3 - Port Name Formatting](https://docs.gns3.com/docs/using-gns3/advanced/port-name-formatting/)
     - [Instalar y correr GNS3 VM Pro!!! Master Edson](https://www.youtube.com/watch?v=4kh9JL-0l5A&t=570s)
+
+### Eve NG
+
 - [Eve NG](https://www.eve-ng.net/) _Emulated Virtual Enviorment for Network, Security and DevOps_
 
-## 🗺️ 📍 🔺 Diagram & Topology editors 🔺 📍 🗺️
+## 🗺️ 📍 🔺 Diagram, Topology, Notes & Text Editors 🔺 📍 🗺️
+
+### Text Editors & IDEs
+
+- [Sublime Text]()
+- [Microsoft Visual Studio Code]()
+- [Vim]()
+- [Atom]()
+- [Notepad ++]()
+
+### Diagram Editors
 
 - [Microsoft Visio](https://www.microsoft.com/en-us/microsoft-365/visio/flowchart-software) _$$$_
 - [draw.io](https://app.diagrams.net/) _Free!_
 
+### Notes
+
+- [Google Docs]()
+- [Cherry Tree]()
+- [Obsidian]()
+
 ## 🐚 🐢 💻 Shells 💻 🐢 🐚
 
-- Secure-CRT
+### Telnet, SSH & Xterm - Console Line Interfaces (CLIs)
+
+- [Secure-CRT](https://www.vandyke.com/products/securecrt/) _Terminal Emulation, secure remote access, file transfer & data tunneling._
+
     - [Pimp my Secure CRT - ANSI colors & dark shell mode](https://www.vandyke.com/support/tips/colorconfig.html)
-- Putty
+
+- [Putty](https://www.putty.org/) _Open Source SSH and telnet client_
 - [MobaXterm - Pimp term for Windows](https://mobaxterm.mobatek.net/)
 
 ## 🐚 😼 💀 Reverse Shells 💀 😼 🐚
