@@ -584,13 +584,15 @@ _Modelos de referencia para los protocolos de la red y la interconexión y comun
 ## Internet Society (ISOC)
 
 - [Internet Society (ISOC)](https://www.internetsociety.org/)
+- [Internet Society (ISOC) @ Wiki](https://es.wikipedia.org/wiki/Internet_Society)
 - [ISOC Hierarchy](https://user-images.githubusercontent.com/94720207/179373677-22b265ed-3217-4f70-88c2-4701ce3e7380.png)
 
-    - [Internet Engineering Task Force **IETF**]()
-    - [Internet Architecture Board **IAB**]()
-    - [Internet Corporation for Assigned Names and Numbers **ICANN**]()
-    - [Internet Engineering Steering Group **IESG**]()
-    - [Internet Research Task Force **IRTF**]()
+    - [**IETF** - Internet Engineering Task Force]()
+    - [**IAB** - Internet Architecture Board]()
+    - [**ICANN** - Internet Corporation for Assigned Names and Numbers ]()
+    - [**IESG** - Internet Engineering Steering Group]()
+    - [**IRTF** - Internet Research Task Force]()
+    - [**IANA** – Internet Assigned Number Authority]() _DNS, Domain Names & IPs Authority Assignments_
 
 ## Regulatory Domains
 
