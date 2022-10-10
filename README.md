@@ -663,42 +663,6 @@ _The premier Internet standards body concerned for Internet architecture and the
 - [**RFC 793 - 1981: TCP** (Transmission Control Protocol)](https://www.ietf.org/rfc/rfc793.txt)
 - [**RFC 791 - 1981: IP** (Internet Protocol)](https://www.ietf.org/rfc/rfc791.txt)
 
-
-## 🗺️ 👮 🏗️ Regulatory Domains 🏗️ 👮 🗺️
-
-- [What is a regulatory domain?](https://shop.chulo.co.uk/blog/what-is-regulatory-domain.html)
-- [Regulatory domain and compliance - Country Table](https://wifibond.com/2016/10/26/regulatory-domain-and-compliance/)
-- [Wireless LAN Compliance Lookup](https://www.cisco.com/c/dam/assets/prod/wireless/wireless-compliance-tool/index.html)
-
-### Main 4 Regulatory Domains in the World
-
-- [**FCC** - Federal Communications Commission]() _North/Central/South America, Australia, New Zealand, Hong Kong, India, Malaysia, Philippines, Taiwan, Russia._
-- [**ETSI** - European Telecommunications Standards Institute]() _Mainly European + Middle East, Africa, China, Indonesia, Singapore, Thailand, and Vietnam._
-- [**TELEC** - Telecom Engineering Center]() _Only used in Japan_
-- [**KCC** - Korea Communications Commission]() _Only used in Korea_
-
-### Other Regulatory Domains
-
-- [CEPT / ECC / ETSI]() _All European Regulatory Domains_
-- [MIIC]() _China_
-- [MIC]() _Japan_
-
-## Leyes en México Respecto al Networking y Telecomunicaciones
-
-### Instituciones Reguladoras
-
-- [DOF - Diario Oficial de la Federación](https://www.dof.gob.mx/#gsc.tab=0) _Publica las leyes, decretos, reglamentos, acuerdos, circulares, órdenes y demás actos expedidos por los Poderes de la Federación_
-- [Instituto Federal de Telecomunicaciones (IFT)](https://www.ift.org.mx/espectro-radioelectrico/normatividad) _Encargada del desarrollo eficiente de las telecomunicaciones y la radiodifusión_
-- [Cuadro Nacional de Atribución de Frecuencias (CNAF)](http://cnaf.ift.org.mx/) _Adecuada planeación, administración y control del espectro radioeléctrico en nuestro país._
-
-### Leyes, Acuerdos y Estándares en México
-
-- [Bandas clasificadas como espectro de uso libre en México](https://soporte.syscom.mx/es/articles/2128264-bandas-clasificadas-como-espectro-de-uso-libre-en-mexico)
-- [Normatividad del Espectro Radioeléctrico en México](https://www.ift.org.mx/espectro-radioelectrico/normatividad)
-- [Ley Federal de Telecomunicaciones y Radiodifusión - Ultima reforma publicada (20 de mayo de 2021)](https://www.diputados.gob.mx/LeyesBiblio/ref/lftr.htm)
-- [DOF - Uso y Aprovechamiento de Bandas de Frecuencias 2019](https://dof.gob.mx/nota_detalle.php?codigo=5551828&fecha=05/03/2019#gsc.tab=0) _Diario Federal de la Nación_
-- [DOF - Condiciones técnicas de operación de la banda de frecuencias 2400 - 2483.5 MHz](https://www.dof.gob.mx/nota_detalle.php?codigo=5609418&fecha=04/01/2021#gsc.tab=0) _Clasificada como espectro libre_
-
 ## 📝 👷 🏰 IEEE Standards 🏰 👷 📝
 The world's largest technical professional organization dedicated to advancing technology for the benefit of humanity.
 
@@ -758,6 +722,55 @@ The world's largest technical professional organization dedicated to advancing t
 
     - [2.4 GHz (UHF) - 802.11b/g/n/ax]()
     - [5 GHz (SHF) - 802.11a/n/ac/ax]()
+
+## 📶 🤝 🌐 WiFi Alliance 🌐 🤝 📶
+
+- [WiFi Alliance official Web](https://www.wi-fi.org/) _The worldwide network of companies that brings you Wi-Fi®_
+- [WiFi Alliance @ Wikipedia](https://en.wikipedia.org/wiki/Wi-Fi_Alliance) _Wiki_
+
+### WiFi Alliance Certifications
+
+- [WiFi Alliance Certifications: Connectivity (6, ac, n, WiGig, WifiDirect)]()
+- [WiFi Alliance Certifications: Security (WPA3, WPA3 Entrerprise)]() _Top Security Entrerprise_
+- [WiFi Alliance Certifications: Security (WPA2)]() _SOHO & Home_
+- [WiFi Alliance Certifications: Security - Wi-Fi Enhanced Open (OWE)]() _Password Encryption_
+- [WiFi Alliance Certifications: Security - IEEE 802.11w-2009]() _Anti Spoofing & DOS Attacks_
+- [WiFi Alliance Certifications: Access - Passpoint, Easy connect, Protected Setup ]() _Anti Spoofing & DOS Attacks_
+
+## 🗺️ 👮 🏗️ Regulatory Domains 🏗️ 👮 🗺️
+
+- [What is a regulatory domain?](https://shop.chulo.co.uk/blog/what-is-regulatory-domain.html)
+- [Regulatory domain and compliance - Country Table](https://wifibond.com/2016/10/26/regulatory-domain-and-compliance/)
+- [Wireless LAN Compliance Lookup](https://www.cisco.com/c/dam/assets/prod/wireless/wireless-compliance-tool/index.html)
+
+### Main 4 Regulatory Domains in the World
+
+- [**FCC** - Federal Communications Commission]() _North/Central/South America, Australia, New Zealand, Hong Kong, India, Malaysia, Philippines, Taiwan, Russia._
+- [**ETSI** - European Telecommunications Standards Institute]() _Mainly European + Middle East, Africa, China, Indonesia, Singapore, Thailand, and Vietnam._
+- [**TELEC** - Telecom Engineering Center]() _Only used in Japan_
+- [**KCC** - Korea Communications Commission]() _Only used in Korea_
+
+### Other Regulatory Domains
+
+- [CEPT / ECC / ETSI]() _All European Regulatory Domains_
+- [MIIC]() _China_
+- [MIC]() _Japan_
+
+## Leyes en México Respecto al Networking y Telecomunicaciones
+
+### Instituciones Reguladoras
+
+- [DOF - Diario Oficial de la Federación](https://www.dof.gob.mx/#gsc.tab=0) _Publica las leyes, decretos, reglamentos, acuerdos, circulares, órdenes y demás actos expedidos por los Poderes de la Federación_
+- [Instituto Federal de Telecomunicaciones (IFT)](https://www.ift.org.mx/espectro-radioelectrico/normatividad) _Encargada del desarrollo eficiente de las telecomunicaciones y la radiodifusión_
+- [Cuadro Nacional de Atribución de Frecuencias (CNAF)](http://cnaf.ift.org.mx/) _Adecuada planeación, administración y control del espectro radioeléctrico en nuestro país._
+
+### Leyes, Acuerdos y Estándares en México
+
+- [Bandas clasificadas como espectro de uso libre en México](https://soporte.syscom.mx/es/articles/2128264-bandas-clasificadas-como-espectro-de-uso-libre-en-mexico)
+- [Normatividad del Espectro Radioeléctrico en México](https://www.ift.org.mx/espectro-radioelectrico/normatividad)
+- [Ley Federal de Telecomunicaciones y Radiodifusión - Ultima reforma publicada (20 de mayo de 2021)](https://www.diputados.gob.mx/LeyesBiblio/ref/lftr.htm)
+- [DOF - Uso y Aprovechamiento de Bandas de Frecuencias 2019](https://dof.gob.mx/nota_detalle.php?codigo=5551828&fecha=05/03/2019#gsc.tab=0) _Diario Federal de la Nación_
+- [DOF - Condiciones técnicas de operación de la banda de frecuencias 2400 - 2483.5 MHz](https://www.dof.gob.mx/nota_detalle.php?codigo=5609418&fecha=04/01/2021#gsc.tab=0) _Clasificada como espectro libre_
 
 ## ➡️ 💥 ⬅️ Carrier Sense Multiple Access (CSMA) ➡️ 💥 ⬅️
 
@@ -990,11 +1003,21 @@ _Deep dive into the Packet / PCAP Analysis... & Sharks a lot of sharks!_
 - [History of Wireless Communication](https://www.youtube.com/watch?v=PU6JO8KPRs0)
 
 
+
+
+
+
+
+
+
+
+
+
     
-        - [RF for the WiFi Professional - Fundamentals and RF Maths CC](https://www.youtube.com/watch?v=VT_Nv5vboZo&list=PLpdKaoNaDwSJkEMY21w2N2SO12CkGoY71)
-        - [Wireless Mathematics in depth](https://www.youtube.com/watch?v=rMhcakeEQaE)
-        - [Wireless/WiFi Network: GET GUD in less than 1 hour @ Sunny](https://www.youtube.com/watch?v=WOTeFceIeM8&list=PLSNNzog5eydvJG48PYnWnNY7-tQIfxTRb)
-        - [Full Radio Concepts: Phase, Amplitude, Wavelenght & Frequency > CWNA in a nutshell](https://yatebts.com/documentation/concepts/radio-waves/radio-concepts/)
+- [RF for the WiFi Professional - Fundamentals and RF Maths CC](https://www.youtube.com/watch?v=VT_Nv5vboZo&list=PLpdKaoNaDwSJkEMY21w2N2SO12CkGoY71)
+- [Wireless Mathematics in depth](https://www.youtube.com/watch?v=rMhcakeEQaE)
+- [Wireless/WiFi Network: GET GUD in less than 1 hour @ Sunny](https://www.youtube.com/watch?v=WOTeFceIeM8&list=PLSNNzog5eydvJG48PYnWnNY7-tQIfxTRb)
+- [Full Radio Concepts: Phase, Amplitude, Wavelenght & Frequency > CWNA in a nutshell](https://yatebts.com/documentation/concepts/radio-waves/radio-concepts/)
         
 
 - Wireless LAN (WLAN) most important concepts:
@@ -1035,13 +1058,7 @@ GTHillWiFi](https://youtu.be/RNv1AnSfdmY)
         - [Wifi5 802.11ac (2013)](https://es.wikipedia.org/wiki/IEEE_802.11ac)
         - [Wifi6 802.11ax (2019)]()
     
-    - [WiFi Alliance Certifications]()
-        - [WiFi Alliance Certifications: Connectivity (6, ac, n, WiGig, WifiDirect)]()
-        - [WiFi Alliance Certifications: Security (WPA3, WPA3 Entrerprise)]() _Top Security Entrerprise_
-        - [WiFi Alliance Certifications: Security (WPA2)]() _SOHO & Home_
-        - [WiFi Alliance Certifications: Security - Wi-Fi Enhanced Open (OWE)]() _Password Encryption_
-        - [WiFi Alliance Certifications: Security - IEEE 802.11w-2009]() _Anti Spoofing & DOS Attacks_
-        - [WiFi Alliance Certifications: Access - Passpoint, Easy connect, Protected Setup ]() _Anti Spoofing & DOS Attacks_
+
 
 
 - Radio Frequency (RF) Concepts on Wireless Networks
