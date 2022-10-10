@@ -613,10 +613,12 @@ _Modelos de referencia para los protocolos de la red y la interconexión y comun
 
 - [Aprende Docker ahora! curso completo gratis desde cero! @ HolaMundo](https://www.youtube.com/watch?v=4Dko5W96WHg)
 
-## 🔱 🌐 🏛️ Networking Groups & Organizations 🏛️ 🌐 🔱
+## 🔱 🌐 🏛️ Networking & WLAN Industry Organizations 🏛️ 🌐 🔱
+_TriForce: Create Standards | Certifies Products | Set Local Regulations_
 
 - [WiFi Alliance]() _Ensure the interoperability of Wi-Fi products by providing certification testing_
-- [Federal Communications Commission (FCC)]() _regulates communications within & from USA_
+- [**Regulatory Bodies _Regulatory Domains_:** ETSI, FCC, TELEC, KCC]() _regulates communications within & from USA_
+- [Estándares & Organismos de Regulaciones @ Sama WiFi](https://www.youtube.com/watch?v=DWO9_37tGNM)
 - [International Telecommunication Union Radiocommunication Sector (ITU-R)]() _United Nations worldwide frequency assignments through five administrative regions_
 - [Institute of Electrical and Electronics Engineers (IEEE)](https://www.ieee.org) _Best known for its LAN standards, the IEEE 802 project_
 
