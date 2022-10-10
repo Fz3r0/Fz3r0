@@ -358,6 +358,7 @@ _Networking basic concepts, Tables, Lists, Models, Cheat-Sheets, Mind-Maps & Coo
 - [David Bombal (el padrino santo)](https://www.youtube.com/c/DavidBombal) _Vamos Bombal! ChikitubunalabiBonbal the man, the leyend!_
 - [Chris Greer - Wireshark Megalodon](https://www.youtube.com/c/ChrisGreer) _I call this dude "The Megalodon of Wireshark", the man know things we don't..._
 - [Sunny Classroom](https://www.youtube.com/user/sunnylearning) _The best and easiest explanations of networking in the world, when asians learn english, we shut up and learn..._
+- [TCP Guide](http://www.tcpipguide.com/toc.htm) _Reference resource on the TCP/IP protocol suite _
 - [Networking List 01 - facyber](https://github.com/facyber/awesome-networking) _Networking Lists_
 - [Awesome **Mesh Networking**](https://github.com/moarpepes/awesome-mesh) _Documentation, Free Software mesh protocols, and applications._
 - [Trash, shitty, crap & full of WiFi Bad practices, DON'T DO THIS!!!](https://badfi.com/bad-fi) _Lo pongo hasta arriba porque es más utilizado de lo que parece jaja!_
@@ -562,13 +563,13 @@ _Modelos de referencia para los protocolos de la red y la interconexión y comun
 
 - [SSH & SCP (Secure Copy) Cheatsheet for Linux](https://user-images.githubusercontent.com/94720207/194212517-b25dfa23-0577-4cf1-ac37-83c32c5fbfba.png)
 
-## Virtual Machines
+## 🖥️ 👀 💻 Virtual Machines 🖥️ 👀 💻
 
 ### Virtual Machines Introducion
 
 - [What's the difference between Type 1 vs. Type 2 hypervisor?](https://www.techtarget.com/searchitoperations/tip/Whats-the-difference-between-Type-1-vs-Type-2-hypervisor)
 
-### Virtual Machines
+### Virtual Machines 
 
 - Type1 Hyper-Visors - BareMetal
     - [VMware vSphere]()
@@ -589,7 +590,7 @@ _Modelos de referencia para los protocolos de la red y la interconexión y comun
 
 - [Install Windows 11 VMWare Work Station FULL config!!! @ John Hammond](https://www.youtube.com/watch?v=EMuw_IN-UOU)
 
-## Containers
+## 🖥️ 🖧 📦 Containers 📦 🖧 🖥️
 
 - [Containers 101](https://www.youtube.com/watch?v=VqLcWftIaQI)
 - [What is a Container?](https://www.youtube.com/watch?v=EnJ7qX9fkcU)
@@ -598,7 +599,7 @@ _Modelos de referencia para los protocolos de la red y la interconexión y comun
 - [Containers and VMs - A Practical Comparison](https://www.youtube.com/watch?v=L1ie8negCjc)
 - [Virtualize vs. Containerize (Which should I choose?)](https://www.youtube.com/watch?v=pxwUXJmAER4)
 
-## Docker
+## 🐋 📦 🐳 Docker 🐳 📦 🐋
 
 ### Tutorials & Courses
 
@@ -611,8 +612,9 @@ _Modelos de referencia para los protocolos de la red y la interconexión y comun
 - [International Telecommunication Union Radiocommunication Sector (ITU-R)]() _United Nations worldwide frequency assignments through five administrative regions_
 - [Institute of Electrical and Electronics Engineers (IEEE)](https://www.ieee.org) _Best known for its LAN standards, the IEEE 802 project_
 
-## Internet Society (ISOC)
+## 🌏 🔗 🎩 Internet Society (ISOC) 🎩 🔗 🌏
 
+- [Internet Standards Organizations (ISOC, IAB, IESG, IETF, IRSG, IRTF)](http://www.tcpipguide.com/free/t_InternetStandardsOrganizationsISOCIABIESGIETFIRSGI.htm)
 - [Internet Society (ISOC)](https://www.internetsociety.org/)
 - [Internet Society (ISOC) @ Wiki](https://es.wikipedia.org/wiki/Internet_Society)
 - [ISOC Hierarchy](https://user-images.githubusercontent.com/94720207/179373677-22b265ed-3217-4f70-88c2-4701ce3e7380.png)
@@ -624,7 +626,7 @@ _Modelos de referencia para los protocolos de la red y la interconexión y comun
     - [**IRTF** - Internet Research Task Force]()
     - [**IANA** – Internet Assigned Number Authority]() _DNS, Domain Names & IPs Authority Assignments_
 
-## Regulatory Domains
+## 🏗️ Regulatory Domains 🏗️
 
 - [What is a regulatory domain?](https://shop.chulo.co.uk/blog/what-is-regulatory-domain.html)
 - [Regulatory domain and compliance - Country Table](https://wifibond.com/2016/10/26/regulatory-domain-and-compliance/)
