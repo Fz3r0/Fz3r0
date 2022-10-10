@@ -640,7 +640,7 @@ _TriForce: Create Standards | Certifies Products | Set Local Regulations_
 
     - [**IANA** – Internet Assigned Number Authority]() _DNS, Domain Names & IPs Authority Assignments_
 
-## IETF - Internet Engineering Task Force
+## 🎖️ 🌎 📃 IETF - Internet Engineering Task Force 📃 🌎 🎖️
 
 _The premier Internet standards body concerned for Internet architecture and the smooth operation._
 
@@ -656,6 +656,7 @@ _The premier Internet standards body concerned for Internet architecture and the
 - [**RFC** - Request for Comments @ IETF](https://www.ietf.org/standards/rfcs/) _IETF_
 - [**RFC** - Request For Comments @ Wikipedia](https://en.wikipedia.org/wiki/Request_for_Comments) _Wiki_
 - [**RFC** (Request For Comment) Explained @ Computerphile](https://www.youtube.com/watch?v=8IXLpoN8Xj0) _Easy podcast explanaition_
+- [How to read RFCs](https://user-images.githubusercontent.com/94720207/194954514-faea0675-9628-42fe-b13a-0b346493e11b.png) _Pic_
 - [RFC Stages of Development: Proposed Standard > Draft Standard > Internet Standard](https://www.youtube.com/watch?v=TtKKKUy4WU0)
 - [RFC Process Diagram](https://user-images.githubusercontent.com/94720207/194954120-00245391-89ec-437c-9cb8-3e808a886911.png)
 - [RFCs Official Index Database](https://www.ietf.org/rfc/)
@@ -663,7 +664,7 @@ _The premier Internet standards body concerned for Internet architecture and the
 - [**RFC 791 - 1981: IP** (Internet Protocol)](https://www.ietf.org/rfc/rfc791.txt)
 
 
-## 🏗️ Regulatory Domains 🏗️
+## 🗺️ 🏗️ 👮 Regulatory Domains 👮 🏗️ 🗺️
 
 - [What is a regulatory domain?](https://shop.chulo.co.uk/blog/what-is-regulatory-domain.html)
 - [Regulatory domain and compliance - Country Table](https://wifibond.com/2016/10/26/regulatory-domain-and-compliance/)
