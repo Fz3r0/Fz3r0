@@ -898,7 +898,9 @@ _Deep dive into the Packet / PCAP Analysis... & Sharks a lot of sharks!_
 
 - [Mandado por javi interactive waves!!!](https://emanim.szialab.org/index.html)
 
+### CWNA & CWNP Exam Practice
 
+- [Official CWNA Study Guide & Exam Practica](https://lms.cwnp.com/)
 
 
 
