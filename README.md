@@ -361,6 +361,8 @@ _Networking Lists, concepts, Tables, Models, Cheat-Sheets, Mind-Maps & Cool Reso
 - [TCP Guide](http://www.tcpipguide.com/toc.htm) _Reference resource on the TCP/IP protocol suite _
 - [Networking List 01 - facyber](https://github.com/facyber/awesome-networking) _Networking Lists_
 - [Awesome **Mesh Networking**](https://github.com/moarpepes/awesome-mesh) _Documentation, Free Software mesh protocols, and applications._
+- [How To WiFi](https://howiwifi.com/) _A blog about Wi-Fi!_
+- [802.11 Frame Exchange - All combinations!](https://howiwifi.com/2020/07/16/802-11-frame-exchanges/)
 - [Trash, shitty, crap & full of WiFi Bad practices, DON'T DO THIS!!!](https://badfi.com/bad-fi) _Lo pongo hasta arriba porque es más utilizado de lo que parece jaja!_
 
 ## 🚦🎬 🛫 Networking Fundamentals 🛫 🎬 🚦
@@ -714,6 +716,7 @@ _Modelos de referencia para los protocolos de la red y la interconexión y comun
 
 - [**Carrier-sense multiple access with collision avoidance (CSMA/CA)** - Wireless/WiFi](https://www.youtube.com/watch?v=PcbTMSf0D2M&list=PLSNNzog5eydvJG48PYnWnNY7-tQIfxTRb&index=9)
 - [CSMA-CA Simulator Online!!! Very Easy!!!](https://www2.tkn.tu-berlin.de/teaching/rn/animations/csma/) _Clickie! :D_
+- [Deep Dive - Wireless Collision Avoidance – CSMA/CA Though DCF/EDCF](https://howiwifi.com/2020/06/30/wireless-contention-mechanisms/)
 
 ### Other CSMA (CSMA/CR & VTCSMA)
 
