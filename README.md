@@ -616,7 +616,7 @@ _Modelos de referencia para los protocolos de la red y la interconexión y comun
 ## 🔱 🌐 🏛️ Networking & WLAN Industry Organizations 🏛️ 🌐 🔱
 _TriForce: Create Standards | Certifies Products | Set Local Regulations_
 
-- [**Internet Governance:** IGF, NRO, IANA, ICANN, IETF, ISOC]()https://en.wikipedia.org/wiki/Internet_governance
+- [**Internet Governance:** IGF, NRO, IANA, ICANN, IETF, ISOC](https://en.wikipedia.org/wiki/Internet_governance)
 - [**Regulatory Bodies _Regulatory Domains:** ETSI, FCC, TELEC, KCC]() _regulates communications within & from USA_
 - [**IEEE** Institute of Electrical and Electronics Engineers ](https://www.ieee.org) _Best known for its LAN standards, the IEEE 802 project_
 - [**IETF** - Internet Engineering Task Force]() _Create Standards | RFC_
@@ -641,6 +641,7 @@ _TriForce: Create Standards | Certifies Products | Set Local Regulations_
     - [**IANA** – Internet Assigned Number Authority]() _DNS, Domain Names & IPs Authority Assignments_
 
 ## IETF - Internet Engineering Task Force
+
 _The premier Internet standards body concerned for Internet architecture and the smooth operation._
 
 ### IETF Resources
