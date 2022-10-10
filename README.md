@@ -700,6 +700,15 @@ _The premier Internet standards body concerned for Internet architecture and the
 - [DOF - Condiciones técnicas de operación de la banda de frecuencias 2400 - 2483.5 MHz](https://www.dof.gob.mx/nota_detalle.php?codigo=5609418&fecha=04/01/2021#gsc.tab=0) _Clasificada como espectro libre_
 
 ## 📝 👷 🏰 IEEE Standards 🏰 👷 📝
+The world's largest technical professional organization dedicated to advancing technology for the benefit of humanity.
+
+### IEEE: Institute of Electrical and Electronics Engineers
+
+- [IEEE - Official Web](https://www.ieee.org/)
+- [IEEE @ Wikipedia](https://es.wikipedia.org/wiki/Institute_of_Electrical_and_Electronics_Engineers) _Wiki_
+- [¿A qué se dedica la IEEE? | ¿Qué es la IEEE? ¡En 3 minutos!](https://www.youtube.com/watch?v=fgHKggNGazs) _Return 0;_
+
+### IEEE Standards
 
 - [**IEEE 802.1 Standards** LAN,MAN,WAN Internetworking & Management](https://en.wikipedia.org/wiki/IEEE_802.1)
 - **IEEE 802.1 Standards** - **Well Known Current Standards:** 
