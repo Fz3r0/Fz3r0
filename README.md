@@ -532,6 +532,37 @@ _Modelos de referencia para los protocolos de la red y la interconexión y comun
 
 - [SSH & SCP (Secure Copy) Cheatsheet for Linux](https://user-images.githubusercontent.com/94720207/194212517-b25dfa23-0577-4cf1-ac37-83c32c5fbfba.png)
 
+## Virtual Machines
+
+### Virtual Machines Introducion
+
+- [What's the difference between Type 1 vs. Type 2 hypervisor?](https://www.techtarget.com/searchitoperations/tip/Whats-the-difference-between-Type-1-vs-Type-2-hypervisor)
+
+### Virtual Machines
+
+- Type1 Hyper-Visors - BareMetal
+    - [VMware vSphere]()
+    - [Microsoft Hyper-V]()
+    - [KVM]()
+    - [Xen hypervisor]()
+    - [Oracle VM]()
+    - [Citrix Hypervisor (AKA Citrix XenServer)]()
+
+- Type2 Hyper-Visors - Operating System Hosted
+    - [Oracle VM VirtualBox]()
+    - [VMware Workstation Pro]()
+    - [VMware Fusion]()
+    - [QEMU]()
+    - [Parallels Desktop]()
+
+### VM Tutorials
+
+- [HOW TO Install Windows 11: VMware Workstation @ Hammond](https://www.youtube.com/watch?v=EMuw_IN-UOU)
+
+## Containers
+
+[Install Windows 11 VMWare Work Station FULL config!!! @ John Hammond](https://www.youtube.com/watch?v=EMuw_IN-UOU)
+
 ## 🔱 🌐 🏛️ Networking Groups & Organizations 🏛️ 🌐 🔱
 
 - [WiFi Alliance]() _Ensure the interoperability of Wi-Fi products by providing certification testing_
