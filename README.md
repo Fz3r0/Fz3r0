@@ -942,8 +942,7 @@ _Deep dive into the Packet / PCAP Analysis... & Sharks a lot of sharks!_
 
 
 
-### 🛰️ 📶 📡 Wireless Communication & RF 📡 📶 🛰️
-
+## 🛰️ 📶 📡 Wireless Communication & RF 📡 📶 🛰️
 
 - [Mandado por javi interactive waves!!!](https://emanim.szialab.org/index.html)
 
@@ -952,10 +951,20 @@ _Deep dive into the Packet / PCAP Analysis... & Sharks a lot of sharks!_
 - [CWNP Official Web](https://www.cwnp.com/)
 - [Official CWNA Study Guide & Exam Practica](https://lms.cwnp.com/)
 - [Miniserie Wifi & CWNA-108 @ Sama WiFi](https://www.youtube.com/watch?v=mpapEx1doWQ&list=PLm7OhL_NMy3RXoKOSmhqo0b3PYOYNQl8p)
+- [CWNA-108 Course - Exam Labs](https://www.exam-labs.com/video-training/cwna-108-cwnp#course) _Paid $$$_
+- [CWNA-108 Course - Udemy](https://www.udemy.com/course/certified-wireless-network-administrator-cwna/) _Paid $$$_
+- [CWNA 108: Full 2022 Backup @ Fz3r0](https://drive.google.com/drive/folders/1DOr9FhDcS73xxSZvb1N8Sj4mNsb53bjq?usp=sharing)
+- [CWNA 802.11, Third Edition - Full Bible](https://sites.google.com/site/802dot11study/home)
+- [CWNA 108: Curso - Presentado por Sama WiFi @ Jesús Bred](https://www.youtube.com/watch?v=mpapEx1doWQ&list=PLm7OhL_NMy3RXoKOSmhqo0b3PYOYNQl8p)
+- [CWNA 108: Tabla de Protocolos CWNA (OSI, TCP, Security)](https://user-images.githubusercontent.com/94720207/180625277-b051e3bb-9db4-4b1b-b14b-fa093b020e9d.png)
+- [Understanding RF Path - Full Documentation @ Commscope](https://www.commscope.com/globalassets/digizuite/3221-rf-path-ebook-eb-112900-en.pdf)
+- [Understanding RF Path - DOWNLOAD BACKUP LINK](https://github.com/Fz3r0/Fz3r0/files/8887237/eBook_.Understanding.the.RF.Path.pdf) _Commscope Course_
+- [Ruckus / Brocade - Full Feature Explainer Series @ T. Henry](https://www.youtube.com/watch?v=gnUEsnS3MWY&list=PLgZ5m9z7RBHUcQ4bDIjRJDxDn4EGpFUol)
 
 ### CWNA & CWNP Exam Practice
 
-- [VCE Exam Simulator](https://www.avanset.com/products.html)
+- [VCE Exam Simulator](https://www.avanset.com/products.html)  _Paid $$$_
+- [¿ómo instalar VCE?](https://www.youtube.com/watch?v=z_J4qiofiVk) _guiño guiño ;)_
 - [CWNP CWNA-108 Exam @ Exam Labs](https://www.exam-labs.com/dumps/CWNA-108) _Paid $$$_
 - [CWNP CWSP-206 Exam @ Exam Labs](https://www.exam-labs.com/dumps/CWSP-206) _Paid $$$_
 - [CWNP CWNA-108 800 Question Bank](https://www.nwexam.com/exam-store/cwna-108-cwnp-wireless-network-administrator-cwna) _$25_
@@ -965,29 +974,18 @@ _Deep dive into the Packet / PCAP Analysis... & Sharks a lot of sharks!_
 - [CWNP CWNA-108 Exam @ Pass 4 Success](https://www.pass4success.com/cwnp/exam/cwna-108) _Free_
 - [CWNP CWNA-108 Exam Practice Test @ CertsHero](https://www.certshero.com/cwnp/cwna-108)
 
+## 📖 📡 🧮 Wireless Communication History 🧮 📡 📖
+
+- [Overview of Wireless History](https://www.youtube.com/watch?v=CHbiQTskK9Q)
+- [History of Wireless Communication](https://www.youtube.com/watch?v=PU6JO8KPRs0)
 
 
-
-
-
-- Wireless WLAN / WiFi Bibles
-
-    - CWNP
-    
-        - [CWNA 108: Full 2022 Backup @ Fz3r0](https://drive.google.com/drive/folders/1DOr9FhDcS73xxSZvb1N8Sj4mNsb53bjq?usp=sharing)
-        - [CWNA 802.11, Third Edition - Full Bible](https://sites.google.com/site/802dot11study/home)
-        - [CWNA 108: Curso - Presentado por Sama WiFi @ Jesús Bred](https://www.youtube.com/watch?v=mpapEx1doWQ&list=PLm7OhL_NMy3RXoKOSmhqo0b3PYOYNQl8p)
-        - [CWNA 108: Tabla de Protocolos CWNA (OSI, TCP, Security)](https://user-images.githubusercontent.com/94720207/180625277-b051e3bb-9db4-4b1b-b14b-fa093b020e9d.png)
-
-    - Others
     
         - [RF for the WiFi Professional - Fundamentals and RF Maths CC](https://www.youtube.com/watch?v=VT_Nv5vboZo&list=PLpdKaoNaDwSJkEMY21w2N2SO12CkGoY71)
         - [Wireless Mathematics in depth](https://www.youtube.com/watch?v=rMhcakeEQaE)
         - [Wireless/WiFi Network: GET GUD in less than 1 hour @ Sunny](https://www.youtube.com/watch?v=WOTeFceIeM8&list=PLSNNzog5eydvJG48PYnWnNY7-tQIfxTRb)
         - [Full Radio Concepts: Phase, Amplitude, Wavelenght & Frequency > CWNA in a nutshell](https://yatebts.com/documentation/concepts/radio-waves/radio-concepts/)
-        - [Understanding RF Path - Full Documentation @ Commscope](https://www.commscope.com/globalassets/digizuite/3221-rf-path-ebook-eb-112900-en.pdf)
-        - [Understanding RF Path - DOWNLOAD BACKUP LINK](https://github.com/Fz3r0/Fz3r0/files/8887237/eBook_.Understanding.the.RF.Path.pdf)
-        - [Ruckus / Brocade - Full Feature Explainer Series @ T. Henry](https://www.youtube.com/watch?v=gnUEsnS3MWY&list=PLgZ5m9z7RBHUcQ4bDIjRJDxDn4EGpFUol)
+        
 
 - Wireless LAN (WLAN) most important concepts:
     
