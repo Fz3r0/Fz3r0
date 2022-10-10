@@ -2064,32 +2064,36 @@ Guides for performing Penetration Attacks involving the Network Infrastructure E
  
     - [Awesome Cisco Exploitation](https://github.com/lololosys/awesome_cisco_exploitation) _A curated list of awesome Cisco exploitation resources._
 
-### 🌐 🟦 🛡️ Network Defense 🛡️ 🟦 🌐
+## 🌐 🟦 🛡️ Network Security & Defense 🛡️ 🟦 🌐
 
-- [Pysical Security](ttps://contenthub.netacad.com/sgp/nad/1.0/en-US/m2//?xAPILaunchKey=377f9268274bcdd43676582161803000d313aac7477dc98c93643d6e8889d633&xAPILaunchService=https%3A%2F%2Fcontenthub.netacad.com%2Fkernel%2Fadl%2Fcontent%2F&lang=en-US#/id/b9193fcb408c484cabfc684ccc72dafa)
+### Network Security
+
+- [Network Security - Deep Dive Replay @ Kevin Wallace Training, LLC](https://www.youtube.com/watch?v=tNWj5uGIqok) _3 Hours of Full Info of NetSec_
+
+### [Pysical Security](ttps://contenthub.netacad.com/sgp/nad/1.0/en-US/m2//?xAPILaunchKey=377f9268274bcdd43676582161803000d313aac7477dc98c93643d6e8889d633&xAPILaunchService=https%3A%2F%2Fcontenthub.netacad.com%2Fkernel%2Fadl%2Fcontent%2F&lang=en-US#/id/b9193fcb408c484cabfc684ccc72dafa)
     
-    - Fencing and Physical Barriers
-    - Biometrics
-    - Badges and Access Logs 
-    - Surveillance (Guards, Escorts, VoIP & Electronic Survillance, RFID & Wireless)
+    - [Fencing and Physical Barriers]()
+    - [Biometrics]()
+    - [Badges and Access Logs]()
+    - [Surveillance (Guards, Escorts, VoIP & Electronic Survillance, RFID & Wireless)
 
-- [Application Security](https://contenthub.netacad.com/sgp/nad/1.0/en-US/m2//?xAPILaunchKey=377f9268274bcdd43676582161803000d313aac7477dc98c93643d6e8889d633&xAPILaunchService=https%3A%2F%2Fcontenthub.netacad.com%2Fkernel%2Fadl%2Fcontent%2F&lang=en-US#/id/8582078fa5eb480f82c122a85082ac06)
+### [Application Security](https://contenthub.netacad.com/sgp/nad/1.0/en-US/m2//?xAPILaunchKey=377f9268274bcdd43676582161803000d313aac7477dc98c93643d6e8889d633&xAPILaunchService=https%3A%2F%2Fcontenthub.netacad.com%2Fkernel%2Fadl%2Fcontent%2F&lang=en-US#/id/8582078fa5eb480f82c122a85082ac06)
 
-    - [Security Coding Techniques]()
+- [Security Coding Techniques]()
     
-        - [Normalization]()
-        - [Store Procedure]()
-        - [Obfuscation and camouflage]()
-        - [Code reuse (review vulns first)]()
-        - [SDKs (review vulns first)]()
+    - [Normalization]()
+    - [Store Procedure]()
+    - [Obfuscation and camouflage]()
+    - [Code reuse (review vulns first)]()
+    - [SDKs (review vulns first)]()
 
-    - [Input Validation]()
-    - [Validation Rules]()
-    - [Integrity Checks]()
-    - [Code Signing]()
-    - [Secure Cookies]()
+- [Input Validation]()
+- [Validation Rules]()
+- [Integrity Checks]()
+- [Code Signing]()
+- [Secure Cookies]()
 
-- Network Hardening: Services and Protocols
+### Network Hardening: Services and Protocols
 
     - [Hardening: Network and Routing Services (DHCP, DNS, ICMP, RIP, NTP)]()
     - [Hardening: Telnet, SSH & SCP]()
