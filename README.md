@@ -429,6 +429,8 @@ _Modelos de referencia para los protocolos de la red y la interconexión y comun
     - [IPv4 Quick Guide](https://www.tutorialspoint.com/ipv4/ipv4_quick_guide.htm)
     - [Reserved IPv4 & IPv6 Addresses by Fz3r0](/Networking/Knowledge/Tables-Models-Cheatsheets/Tables-Models/reserved_ip_fz3r0.md)
     - [IPv4 Packet Header](https://networklessons.com/cisco/ccna-routing-switching-icnd1-100-105/ipv4-packet-header)
+    - [Fases de Agotamiento de Direcciones IPv4](https://www.lacnic.net/agotamiento) _Actual Fase 4, no hay más IPs..._
+    - [Lista de espera para recibir direcciones IPv4 en LATAM](https://www.lacnic.net/6334/1/lacnic/lista-de-espera-para-recibir-direcciones-ipv4)
 
 - **Subnet / VLSM & FLSM**
 
