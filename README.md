@@ -660,15 +660,31 @@ _Modelos de referencia para los protocolos de la red y la interconexión y comun
 ### CSMA
 
 - [**Carrier Sense Multiple Access - CSMA**](https://en.wikipedia.org/wiki/Carrier-sense_multiple_access)
+
+### CSMA-CD (Collision Detection for Wired MAC)
+
 - [**Carrier-sense multiple access with collision detection (CSMA/CD)** - Wired (MAC)](https://en.wikipedia.org/wiki/Carrier-sense_multiple_access_with_collision_detection)
+- [CSMA-CD Protocol Simulator on Python!](https://github.com/thanujann/CSMA-CD-Protocol-Simulator) _Simulating the CSMA-CD Algorythm_
+- [Construct & Design Aloha model and CSMA model](https://www.tlm.unavarra.es/~daniel/docencia/arss/arss10_11/practicas/Tutorial_CSMA-CD.pdf) _Only for Pros!_
+
+### CSMA-CA (Collision Avoidance for Wireless)
+
 - [**Carrier-sense multiple access with collision avoidance (CSMA/CA)** - Wireless/WiFi](https://www.youtube.com/watch?v=PcbTMSf0D2M&list=PLSNNzog5eydvJG48PYnWnNY7-tQIfxTRb&index=9)
+- [CSMA-CA Simulator Online!!! Very Easy!!!](https://www2.tkn.tu-berlin.de/teaching/rn/animations/csma/) _Clickie! :D_
+
+### Other CSMA (CSMA/CR & VTCSMA)
+
 - [**CSMA with Collision Resolution (CSMA/CR)** - Vehicles, Trucks, Agriculture](https://en.wikipedia.org/wiki/CAN_bus)
 - [**Virtual time CSMA (VTCSMA)** - **Real Time Computing**](https://en.wikipedia.org/wiki/Real-time_computing)
+
+### Broadcast & Collision Domains
 
 ### Contention
 
 - [**Contention** (Telecommunications)](https://en.wikipedia.org/wiki/Contention_(telecommunications))
 - [**Wireless Contention**, **Co-Channel Contention (CCC)** & **Interference, Co-Channel Interference (CCI)**](https://blogs.arubanetworks.com/industries/definition-of-wifi-interference-and-contention/)
+
+
 
 ## ✉️ 👨‍💻 📦 Packet Level 📦 👨‍💻 ✉️ 
 _Deep dive into the Packet / PCAP Analysis... & Sharks a lot of sharks!_
