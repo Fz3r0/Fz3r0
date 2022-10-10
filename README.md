@@ -580,13 +580,14 @@ _Modelos de referencia para los protocolos de la red y la interconexión y comun
 
 ## 📝 👷 🏰 IEEE Standards 🏰 👷 📝
 
-- [**IEEE 802.1 LAN/MAN Architecture & Network Management** Standards](https://en.wikipedia.org/wiki/IEEE_802.1)
+- [**IEEE 802.1 Standards** LAN,MAN,WAN Internetworking & Management](https://en.wikipedia.org/wiki/IEEE_802.1)
+- **IEEE 802.1 Standards** - **Well Known Current Standards:** 
 
-    - [**802.1q** - **Virtual LANs (VLAN)**]()
-    - [**802.1s** - **Multiple Spanning Trees (STP)**]()
-    - [**802.1AB** - **Station and Media Access Control Connectivity Discovery (LLDP)**]()
-    - [**802.1AC** - **Media Access Control (MAC)** Services Definition**]()
-    - [**802.1AX - **Link Aggregation** (Cisco: EtherChannel | Ruckus: LAG, Stacks & Campus Fabric)]()
+    - [**802.1Q - 2018** - Bridges and Bridged Networks]() _Trunks ot Tagged Ports dot1q_
+    - [**802.1X - 2020** - Port-Based Network Access Control ]() _Pro % Secure Authentication (AAA)_
+    - [**802.1AB - 2016** - Station & Media Access Control Connectivity Discovery **LLDP** ]() _LLDP_
+    - [**802.1AC** - Media Access Control **MAC** Services Definition ]() _MAC Address_
+    - [**802.1AX - 2020** - Link Aggregation / LAG / EtherChannel]() _EtherChannel & LAGs_
 
 - [**IEEE 802.2 Logical Link control (LLC) (Upper portion of the data link layer)** Standards](https://en.wikipedia.org/wiki/IEEE_802.2)
  
