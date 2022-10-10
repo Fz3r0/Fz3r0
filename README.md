@@ -707,6 +707,7 @@ The world's largest technical professional organization dedicated to advancing t
 - [IEEE - Official Web](https://www.ieee.org/)
 - [IEEE @ Wikipedia](https://es.wikipedia.org/wiki/Institute_of_Electrical_and_Electronics_Engineers) _Wiki_
 - [¿A qué se dedica la IEEE? | ¿Qué es la IEEE? ¡En 3 minutos!](https://www.youtube.com/watch?v=fgHKggNGazs) _Return 0;_
+- [Become a member of the IEEE! :D](https://www.ieee.org/membership/join/index.html) _$160 USD_
 
 ### IEEE Standards
 
