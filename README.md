@@ -683,6 +683,10 @@ _Modelos de referencia para los protocolos de la red y la interconexión y comun
 
 ### Broadcast & Collision Domains
 
+- [Collision vs. Broadcast Domain: Hub, Switch and Router @ Sunny](https://www.youtube.com/watch?v=ck3gx9HB9-k) _Sunny :D_
+- [Collision Domains and Broadcast Domains @ Juniper](https://www.examguides.com/Juniper-JNCIA/juniper-jncia-1.htm) _Definition for Juniper Exam_
+- [Collision Domains and Broadcast Domains Simulation](https://samsclass.info/106/proj13/p5_PTsim.htm) _Packet Tracer Lab_
+
 ### Contention
 
 - [**Contention** (Telecommunications)](https://en.wikipedia.org/wiki/Contention_(telecommunications))
