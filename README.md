@@ -687,8 +687,9 @@ _The premier Internet standards body concerned for Internet architecture and the
 
 ### Instituciones Reguladoras
 
-[Instituto Federal de Telecomunicaciones (IFT)](https://www.ift.org.mx/espectro-radioelectrico/normatividad) _Encargada del desarrollo eficiente de las telecomunicaciones y la radiodifusión_
-[Cuadro Nacional de Atribución de Frecuencias (CNAF)](http://cnaf.ift.org.mx/) _Adecuada planeación, administración y control del espectro radioeléctrico en nuestro país._
+- [DOF - Diario Oficial de la Federación](https://www.dof.gob.mx/#gsc.tab=0) _Publica las leyes, decretos, reglamentos, acuerdos, circulares, órdenes y demás actos expedidos por los Poderes de la Federación_
+- [Instituto Federal de Telecomunicaciones (IFT)](https://www.ift.org.mx/espectro-radioelectrico/normatividad) _Encargada del desarrollo eficiente de las telecomunicaciones y la radiodifusión_
+- [Cuadro Nacional de Atribución de Frecuencias (CNAF)](http://cnaf.ift.org.mx/) _Adecuada planeación, administración y control del espectro radioeléctrico en nuestro país._
 
 ### Leyes, Acuerdos y Estándares en México
 
