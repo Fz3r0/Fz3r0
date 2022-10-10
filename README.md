@@ -900,7 +900,17 @@ _Deep dive into the Packet / PCAP Analysis... & Sharks a lot of sharks!_
 
 ### CWNA & CWNP Exam Practice
 
+- [CWNP Official Web](https://www.cwnp.com/)
 - [Official CWNA Study Guide & Exam Practica](https://lms.cwnp.com/)
+- [VCE Exam Simulator](https://www.avanset.com/products.html)
+- [CWNP CWNA-108 Exam @ Exam Labs](https://www.exam-labs.com/dumps/CWNA-108) _Paid $$$_
+- [CWNP CWSP-206 Exam @ Exam Labs](https://www.exam-labs.com/dumps/CWSP-206) _Paid $$$_
+- [CWNP CWNA-108 800 Question Bank](https://www.nwexam.com/exam-store/cwna-108-cwnp-wireless-network-administrator-cwna) _$25_
+- [(CWNA-108) Exam @ ITExams](https://www.itexams.com/info/CWNA-108) _Free_
+- [Free CWNA-108 Exam @ Braindumps](https://free-braindumps.com/cwnp/free-cwna-108-braindumps.html) _Free_
+- [CWNP CWNA-108 @ Certification Questions](https://www.certification-questions.com/cwnp-exam/cwna-108-dumps.html) _Free_
+- [CWNP CWNA-108 Exam @ Pass 4 Success](https://www.pass4success.com/cwnp/exam/cwna-108) _Free_
+- [CWNP CWNA-108 Exam Practice Test @ CertsHero](https://www.certshero.com/cwnp/cwna-108)
 
 
 
