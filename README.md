@@ -600,10 +600,10 @@ _Modelos de referencia para los protocolos de la red y la interconexión y comun
 
 ### Main 4 Regulatory Domains in the World
 
-- [FCC - Federal Communications Commission]()
-- [ETSI - European Telecommunications Standards Institute]()
--
--
+- [**FCC** - Federal Communications Commission]() _North/Central/South America, Australia, New Zealand, Hong Kong, India, Malaysia, Philippines, Taiwan, Russia._
+- [**ETSI** - European Telecommunications Standards Institute]() _Mainly European + Middle East, Africa, China, Indonesia, Singapore, Thailand, and Vietnam._
+- [**TELEC** - Telecom Engineering Center]() _Only used in Japan_
+- [**KCC** - Korea Communications Commission]() _Only used in Korea_
 
 ## 📝 👷 🏰 IEEE Standards 🏰 👷 📝
 
