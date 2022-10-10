@@ -616,11 +616,12 @@ _Modelos de referencia para los protocolos de la red y la interconexión y comun
 ## 🔱 🌐 🏛️ Networking & WLAN Industry Organizations 🏛️ 🌐 🔱
 _TriForce: Create Standards | Certifies Products | Set Local Regulations_
 
-- [WiFi Alliance]() _Ensure the interoperability of Wi-Fi products by providing certification testing_
-- [**Regulatory Bodies _Regulatory Domains_:** ETSI, FCC, TELEC, KCC]() _regulates communications within & from USA_
-- [Estándares & Organismos de Regulaciones @ Sama WiFi](https://www.youtube.com/watch?v=DWO9_37tGNM)
-- [International Telecommunication Union Radiocommunication Sector (ITU-R)]() _United Nations worldwide frequency assignments through five administrative regions_
-- [Institute of Electrical and Electronics Engineers (IEEE)](https://www.ieee.org) _Best known for its LAN standards, the IEEE 802 project_
+- [**Internet Governance:** IGF, NRO, IANA, ICANN, IETF, ISOC]()https://en.wikipedia.org/wiki/Internet_governance
+- [**Regulatory Bodies _Regulatory Domains:** ETSI, FCC, TELEC, KCC]() _regulates communications within & from USA_
+- [**IEEE** Institute of Electrical and Electronics Engineers ](https://www.ieee.org) _Best known for its LAN standards, the IEEE 802 project_
+- [**IETF** - Internet Engineering Task Force]() _Create Standards | RFC_
+- [**WiFi Alliance**](https://www.wi-fi.org/) _Ensure the interoperability of Wi-Fi products by providing certification testing_
+- [**ITU-R** - International Telecommunication Union Radiocommunication Sector]() _UN worldwide frequency assignments through five administrative regions_
 
 ## 🌏 🔗 🎩 Internet Society (ISOC) 🎩 🔗 🌏
 
@@ -629,7 +630,7 @@ _TriForce: Create Standards | Certifies Products | Set Local Regulations_
 - [Internet Society (ISOC) @ Wiki](https://es.wikipedia.org/wiki/Internet_Society)
 - [ISOC Hierarchy](https://user-images.githubusercontent.com/94720207/179373677-22b265ed-3217-4f70-88c2-4701ce3e7380.png)
 
-    - [**IETF** - Internet Engineering Task Force]()
+    - [**IETF** - Internet Engineering Task Force](https://www.ietf.org/) _Create Standards | RFC_
     - [**IAB** - Internet Architecture Board]()
     - [**ICANN** - Internet Corporation for Assigned Names and Numbers ]()
     - [**IESG** - Internet Engineering Steering Group]()
@@ -638,6 +639,26 @@ _TriForce: Create Standards | Certifies Products | Set Local Regulations_
 - [How **IAB** Manage the protocol values done by **IANA**?](http://www.tcpipguide.com/free/t_InternetStandardsOrganizationsISOCIABIESGIETFIRSGI-3.htm)
 
     - [**IANA** – Internet Assigned Number Authority]() _DNS, Domain Names & IPs Authority Assignments_
+
+## IETF - Internet Engineering Task Force
+_The premier Internet standards body concerned for Internet architecture and the smooth operation._
+
+### IETF Resources
+
+- [IETF Official Web - About](https://www.ietf.org/about/) _IETF official Web_
+- [IETF WikiPedia](https://en.wikipedia.org/wiki/Internet_Engineering_Task_Force) _Wiki_
+- [¿Qué es IETF y para qué sirve?](https://www.internetsociety.org/es/about-the-ietf/) _IETF en Español_
+- [The Tao of IETF](https://www.ietf.org/about/participate/tao/) _A Novice's Guide to the IETF_
+
+### RFC - Request For Comments (by IETF)
+
+- [**RFC** - Request for Comments @ IETF](https://www.ietf.org/standards/rfcs/) _IETF_
+- [**RFC** - Request For Comments @ Wikipedia](https://en.wikipedia.org/wiki/Request_for_Comments) _Wiki_
+- [**RFC** (Request For Comment) Explained @ Computerphile](https://www.youtube.com/watch?v=8IXLpoN8Xj0) _Easy podcast explanaition_
+- [RFCs Official Index Database](https://www.ietf.org/rfc/)
+- [**RFC 793 - 1981: TCP** (Transmission Control Protocol)](https://www.ietf.org/rfc/rfc793.txt)
+- [**RFC 791 - 1981: IP** (Internet Protocol)](https://www.ietf.org/rfc/rfc791.txt)
+
 
 ## 🏗️ Regulatory Domains 🏗️
 
@@ -651,6 +672,12 @@ _TriForce: Create Standards | Certifies Products | Set Local Regulations_
 - [**ETSI** - European Telecommunications Standards Institute]() _Mainly European + Middle East, Africa, China, Indonesia, Singapore, Thailand, and Vietnam._
 - [**TELEC** - Telecom Engineering Center]() _Only used in Japan_
 - [**KCC** - Korea Communications Commission]() _Only used in Korea_
+
+### Other Regulatory Domains
+
+- [CEPT / ECC / ETSI]() _All European Regulatory Domains_
+- [MIIC]() _China_
+- [MIC]() _Japan_
 
 ## 📝 👷 🏰 IEEE Standards 🏰 👷 📝
 
@@ -900,10 +927,14 @@ _Deep dive into the Packet / PCAP Analysis... & Sharks a lot of sharks!_
 
 - [Mandado por javi interactive waves!!!](https://emanim.szialab.org/index.html)
 
-### CWNA & CWNP Exam Practice
+### WiFi & Wireless Courses
 
 - [CWNP Official Web](https://www.cwnp.com/)
 - [Official CWNA Study Guide & Exam Practica](https://lms.cwnp.com/)
+- [Miniserie Wifi & CWNA-108 @ Sama WiFi](https://www.youtube.com/watch?v=mpapEx1doWQ&list=PLm7OhL_NMy3RXoKOSmhqo0b3PYOYNQl8p)
+
+### CWNA & CWNP Exam Practice
+
 - [VCE Exam Simulator](https://www.avanset.com/products.html)
 - [CWNP CWNA-108 Exam @ Exam Labs](https://www.exam-labs.com/dumps/CWNA-108) _Paid $$$_
 - [CWNP CWSP-206 Exam @ Exam Labs](https://www.exam-labs.com/dumps/CWSP-206) _Paid $$$_
@@ -913,6 +944,7 @@ _Deep dive into the Packet / PCAP Analysis... & Sharks a lot of sharks!_
 - [CWNP CWNA-108 @ Certification Questions](https://www.certification-questions.com/cwnp-exam/cwna-108-dumps.html) _Free_
 - [CWNP CWNA-108 Exam @ Pass 4 Success](https://www.pass4success.com/cwnp/exam/cwna-108) _Free_
 - [CWNP CWNA-108 Exam Practice Test @ CertsHero](https://www.certshero.com/cwnp/cwna-108)
+
 
 
 
