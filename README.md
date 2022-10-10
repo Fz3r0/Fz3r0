@@ -348,8 +348,8 @@ _Monitoring devices, know where you go, mass media, total control. Digital delig
 
 _The sun never sets, on cyber-space... Transmit, receive, log on to interface_
 
-## 🔮 📖 🧙‍ Dark Wizardy for Networking Fundamentals 🧙‍♂️ 📖 🔮
-_Networking basic concepts, Tables, Lists, Models, Cheat-Sheets, Mind-Maps & Cool Resources!!!_
+## 🔮 📖 🧙‍ Dark Wizardy for Networking 🧙‍♂️ 📖 🔮
+_Networking Lists, concepts, Tables, Models, Cheat-Sheets, Mind-Maps & Cool Resources!!!_
 
 ### Fz3r0 Papu-Pro Resources
 
@@ -362,6 +362,8 @@ _Networking basic concepts, Tables, Lists, Models, Cheat-Sheets, Mind-Maps & Coo
 - [Networking List 01 - facyber](https://github.com/facyber/awesome-networking) _Networking Lists_
 - [Awesome **Mesh Networking**](https://github.com/moarpepes/awesome-mesh) _Documentation, Free Software mesh protocols, and applications._
 - [Trash, shitty, crap & full of WiFi Bad practices, DON'T DO THIS!!!](https://badfi.com/bad-fi) _Lo pongo hasta arriba porque es más utilizado de lo que parece jaja!_
+
+## 🚦🎬 🛫 Networking Fundamentals 🛫 🎬 🚦
 
 ### Network Concepts
 
@@ -379,17 +381,20 @@ _Networking basic concepts, Tables, Lists, Models, Cheat-Sheets, Mind-Maps & Coo
 - [Internet of Things (IoT)]()
 - [Other Network Devices]()
 
-### Broadcast & Collission Domains
-
-- [Broadcast & Collsision Domains]()
+## Network Topologies
 
 ### Network Topologies
 
 - [Network Topologies]()
-- [Bus Topology]()
-- [Star Topology]()
-- [Hybrid topology]()
-- [Full & Partial Mesh Topology]()
+
+    - [Bus Topology]()
+    - [Star Topology]()
+    - [Hybrid topology]()
+    - [Full & Partial Mesh Topology]()
+
+### 2 & 3 Tier Network Topologies
+
+- [Tier Topologies]()
 
 ### Deployment Topologies / Deployment Options
 
@@ -398,51 +403,52 @@ _Networking basic concepts, Tables, Lists, Models, Cheat-Sheets, Mind-Maps & Coo
 - [Middle and End-of-Row (MoR/EoR) Switching]()
 - [Stacking]()
 
-### 2 & 3 Tier Topologies
-
-- [Tier Topologies]()
-
-### Network Considerations
+## Network Considerations
 
 - [Requerimentst in networking]()
 - [Budget in networking]()
 - [Cabling in networking]()
 - [Future Growth in networking]()
 
-### TCP/IP Protocol Suite & OSI Models
+## TCP/IP Protocol Suite & OSI Models
 _Modelos de referencia para los protocolos de la red y la interconexión y comunicación entre dispositivos de redes_
 
+### OSI Model
+
 - [OSI Model](https://en.wikipedia.org/wiki/OSI_model) _Wikipedia_
+
+### TCP/IP Model
+
 - [TCP-IP - Internet Protocol Suite Model (All versions)](https://en.wikipedia.org/wiki/Internet_protocol_suite) _Wikipedia_
 - [TCP-IP Hybrid Model by Fz3r0 (TCP 5 layers)(TCP+OSI)](/Networking/Knowledge/Tables-Models-Cheatsheets/Tables-Models/TCP-IP-Model-fz3r0_Hybrid.md) _A model I made with love for TCP-IP/OSI, all in one! :)_
 - [TCP all in one! - TCP 3 Way Handshake, Communication Process, States, Data Transfer](/Networking/Knowledge/Tables-Models-Cheatsheets/Tables-Models/TCP_Process.md)
 
-- **TCP/UDP Ports**
+## TCP/UDP Ports
 
-    - [TCP / UDP : PORT Numbers / Protocols](https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers)
-    - [IP Protocol Numbers - IPv4 Headers](https://en.wikipedia.org/wiki/List_of_IP_protocol_numbers)
-    - [Three categories of TCP/UDP port numbers (Well known, registered, dynamic/private) @ Sunny](https://www.youtube.com/watch?v=dSO7XI_HOmY&t=1s)
-    - [TCP/UDP Port Number IANA list @ Python - WhatPortIs](https://github.com/Fz3r0/whatportis)
+- [TCP / UDP : PORT Numbers / Protocols](https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers)
+- [IP Protocol Numbers - IPv4 Headers](https://en.wikipedia.org/wiki/List_of_IP_protocol_numbers)
+- [Three categories of TCP/UDP port numbers (Well known, registered, dynamic/private) @ Sunny](https://www.youtube.com/watch?v=dSO7XI_HOmY&t=1s)
+- [TCP/UDP Port Number IANA list @ Python - WhatPortIs](https://github.com/Fz3r0/whatportis)
 
-- **IPv4**
+## IPv4
 
-    - [Internet Protocol version 4 (IPv4)](https://en.wikipedia.org/wiki/IPv4)
-    - [IPv4 Quick Guide](https://www.tutorialspoint.com/ipv4/ipv4_quick_guide.htm)
-    - [Reserved IPv4 & IPv6 Addresses by Fz3r0](/Networking/Knowledge/Tables-Models-Cheatsheets/Tables-Models/reserved_ip_fz3r0.md)
-    - [IPv4 Packet Header](https://networklessons.com/cisco/ccna-routing-switching-icnd1-100-105/ipv4-packet-header)
-    - [Fases de Agotamiento de Direcciones IPv4](https://www.lacnic.net/agotamiento) _Actual Fase 4, no hay más IPs..._
-    - [Lista de espera para recibir direcciones IPv4 en LATAM](https://www.lacnic.net/6334/1/lacnic/lista-de-espera-para-recibir-direcciones-ipv4)
+- [Internet Protocol version 4 (IPv4)](https://en.wikipedia.org/wiki/IPv4)
+- [IPv4 Quick Guide](https://www.tutorialspoint.com/ipv4/ipv4_quick_guide.htm)
+- [Reserved IPv4 & IPv6 Addresses by Fz3r0](/Networking/Knowledge/Tables-Models-Cheatsheets/Tables-Models/reserved_ip_fz3r0.md)
+- [IPv4 Packet Header](https://networklessons.com/cisco/ccna-routing-switching-icnd1-100-105/ipv4-packet-header)
+- [Fases de Agotamiento de Direcciones IPv4](https://www.lacnic.net/agotamiento) _Actual Fase 4, no hay más IPs..._
+- [Lista de espera para recibir direcciones IPv4 en LATAM](https://www.lacnic.net/6334/1/lacnic/lista-de-espera-para-recibir-direcciones-ipv4)
 
-- **Subnet / VLSM & FLSM**
+### Subnetting: VLSM & FLSM
 
-    - [Subnetting is simple @ Sunny](https://www.youtube.com/watch?v=ecCuyq-Wprc)
-    - [Subnetting a subnet @ Sunny](https://youtu.be/aVTEZHC2wdA)
-    - [Subneting Guide - FLSM & VLSM]()
-    - [IPv4 Subnetting Cheatsheet](https://packetlife.net/media/library/15/IPv4_Subnetting.pdf)
+- [Subnetting is simple @ Sunny](https://www.youtube.com/watch?v=ecCuyq-Wprc)
+- [Subnetting a subnet @ Sunny](https://youtu.be/aVTEZHC2wdA)
+- [Subneting Guide - FLSM & VLSM]()
+- [IPv4 Subnetting Cheatsheet](https://packetlife.net/media/library/15/IPv4_Subnetting.pdf)
 
-- **IPv6**
+## IPv6
 
-    - [Reserved IPv4 & IPv6 Addresses by Fz3r0](/Networking/Knowledge/Tables-Models-Cheatsheets/Tables-Models/reserved_ip_fz3r0.md)
+- [Reserved IPv4 & IPv6 Addresses by Fz3r0](/Networking/Knowledge/Tables-Models-Cheatsheets/Tables-Models/reserved_ip_fz3r0.md)
 
 - **Ethernet - IEEE 802.3**
      
@@ -624,6 +630,9 @@ _Modelos de referencia para los protocolos de la red y la interconexión y comun
     - [**ICANN** - Internet Corporation for Assigned Names and Numbers ]()
     - [**IESG** - Internet Engineering Steering Group]()
     - [**IRTF** - Internet Research Task Force]()
+
+- [How **IAB** Manage the protocol values done by **IANA**?](http://www.tcpipguide.com/free/t_InternetStandardsOrganizationsISOCIABIESGIETFIRSGI-3.htm)
+
     - [**IANA** – Internet Assigned Number Authority]() _DNS, Domain Names & IPs Authority Assignments_
 
 ## 🏗️ Regulatory Domains 🏗️
