@@ -557,15 +557,16 @@ _Modelos de referencia para los protocolos de la red y la interconexión y comun
 
 ### VM Tutorials
 
-- [HOW TO Install Windows 11: VMware Workstation @ Hammond](https://www.youtube.com/watch?v=EMuw_IN-UOU)
+- [Install Windows 11 VMWare Work Station FULL config!!! @ John Hammond](https://www.youtube.com/watch?v=EMuw_IN-UOU)
 
 ## Containers
 
+- [Containers 101](https://www.youtube.com/watch?v=VqLcWftIaQI)
 - [What is a Container?](https://www.youtube.com/watch?v=EnJ7qX9fkcU)
 - [¿Qué son los contenedores, Docker y Kubernetes?](https://www.youtube.com/watch?v=gjRoNFopFig)
 - [Contenedores vs VM: ¿Cuál es la diferencia?](https://www.youtube.com/watch?v=cjXI-yxqGTI)
-- [Virtualize vs. Containerize (Which should I choose?)](https://www.youtube.com/watch?v=pxwUXJmAER4)
 - [Containers and VMs - A Practical Comparison](https://www.youtube.com/watch?v=L1ie8negCjc)
+- [Virtualize vs. Containerize (Which should I choose?)](https://www.youtube.com/watch?v=pxwUXJmAER4)
 
 ## Docker
 
@@ -573,22 +574,36 @@ _Modelos de referencia para los protocolos de la red y la interconexión y comun
 
 - [Aprende Docker ahora! curso completo gratis desde cero! @ HolaMundo](https://www.youtube.com/watch?v=4Dko5W96WHg)
 
-[Install Windows 11 VMWare Work Station FULL config!!! @ John Hammond](https://www.youtube.com/watch?v=EMuw_IN-UOU)
-
 ## 🔱 🌐 🏛️ Networking Groups & Organizations 🏛️ 🌐 🔱
 
 - [WiFi Alliance]() _Ensure the interoperability of Wi-Fi products by providing certification testing_
 - [Federal Communications Commission (FCC)]() _regulates communications within & from USA_
 - [International Telecommunication Union Radiocommunication Sector (ITU-R)]() _United Nations worldwide frequency assignments through five administrative regions_
 - [Institute of Electrical and Electronics Engineers (IEEE)](https://www.ieee.org) _Best known for its LAN standards, the IEEE 802 project_
+
+## Internet Society (ISOC)
+
 - [Internet Society (ISOC)](https://www.internetsociety.org/)
-    
-    - [ISOC Hierarchy](https://user-images.githubusercontent.com/94720207/179373677-22b265ed-3217-4f70-88c2-4701ce3e7380.png)
-    - Internet Engineering Task Force **IETF**
-    - Internet Architecture Board **IAB**
-    - Internet Corporation for Assigned Names and Numbers **ICANN**
-    - Internet Engineering Steering Group **IESG**
-    - Internet Research Task Force **IRTF**
+- [ISOC Hierarchy](https://user-images.githubusercontent.com/94720207/179373677-22b265ed-3217-4f70-88c2-4701ce3e7380.png)
+
+    - [Internet Engineering Task Force **IETF**]()
+    - [Internet Architecture Board **IAB**]()
+    - [Internet Corporation for Assigned Names and Numbers **ICANN**]()
+    - [Internet Engineering Steering Group **IESG**]()
+    - [Internet Research Task Force **IRTF**]()
+
+## Regulatory Domains
+
+- [What is a regulatory domain?](https://shop.chulo.co.uk/blog/what-is-regulatory-domain.html)
+- [Regulatory domain and compliance - Country Table](https://wifibond.com/2016/10/26/regulatory-domain-and-compliance/)
+- [Wireless LAN Compliance Lookup](https://www.cisco.com/c/dam/assets/prod/wireless/wireless-compliance-tool/index.html)
+
+### Main 4 Regulatory Domains in the World
+
+- [FCC - Federal Communications Commission]()
+- [ETSI - European Telecommunications Standards Institute]()
+-
+-
 
 ## 📝 👷 🏰 IEEE Standards 🏰 👷 📝
 
