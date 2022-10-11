@@ -1027,6 +1027,17 @@ _Modelos de referencia para los protocolos de la red y la interconexión y comun
 - [**Contention** (Telecommunications)](https://en.wikipedia.org/wiki/Contention_(telecommunications))
 - [**Wireless Contention**, **Co-Channel Contention (CCC)** & **Interference, Co-Channel Interference (CCI)**](https://blogs.arubanetworks.com/industries/definition-of-wifi-interference-and-contention/)
 
+## Duplex & Speed
+
+- [Duplex (telecommunications) - Simplex, Half Duplex, Full Duplex](https://en.wikipedia.org/wiki/Duplex_(telecommunications)) _Wiki_
+- [Simplex, half-duplex y full-duplex](https://www.youtube.com/watch?v=kKCDLk9irkQ) _@ Sunny_
+- [Simplex, half-duplex y full-duplex - Image](https://user-images.githubusercontent.com/94720207/195192593-5470211b-4fa4-4c36-a27d-9a150f8bc7a5.png) _Image_
+
+
+
+
+
+
 
 
 
