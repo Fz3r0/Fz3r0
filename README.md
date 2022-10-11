@@ -62,7 +62,9 @@ SECURITY ADVANTAGES SDN AGREGAR!!!! https://xigentsolutions.com/blog/security-ad
 
 <span align="center"> <p align="center"> _**"Welcome to my house! Enter freely. Go safely, and leave something of the happiness you bring...**_  </p> </span>  
 
-<span align="center"> <p align="center"> _**...We are in Transylvania, and Transylvania is not England. Our ways are not your ways, and there shall be to you many strange things... Loneliness will sit over our roofs with brooding wings... It is a strange world, a sad world, a world full of miseries, and woes, and troubles... Enter freely and of your own free will!"**_ </p> </span> 
+<span align="center"> <p align="center"> _**...We are in Transylvania, and Transylvania is not England. Our ways are not your ways, and there shall be to you many strange things... Loneliness will sit over our roofs with brooding wings... It is a strange world, a sad world, a world full of miseries, and woes, and troubles...**_ </p> </span> 
+
+<span align="center"> <p align="center"> _**Enter freely and of your own free will..."**_  </p> </span>  
 
 ---
 
