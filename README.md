@@ -712,14 +712,14 @@ The world's largest technical professional organization dedicated to advancing t
 
 ### Wi-Fi Alliance: WiFi Generations as IEEE 802.11 
 
-- [Wi-Fi 0 - 802.11 - 1997](https://en.wikipedia.org/wiki/IEEE_802.11_(legacy_mode))
-- [Wi-Fi 1 - 802.11b - 1999](https://en.wikipedia.org/wiki/IEEE_802.11b-1999)
-- [Wi-Fi 2 - 802.11a - 1999](https://en.wikipedia.org/wiki/IEEE_802.11a-1999)
-- [Wi-Fi 3 - 802.11g - 2003](https://en.wikipedia.org/wiki/IEEE_802.11g-2003)
-- [Wi-Fi 4 - 802.11n - 2008](https://en.wikipedia.org/wiki/IEEE_802.11n-2009)
-- [Wi-Fi 5 - 802.11ac - 2014](https://en.wikipedia.org/wiki/IEEE_802.11ac-2013)
-- [Wi-Fi 6 (& 6E) - 802.11ax - 2019 & 2020](https://en.wikipedia.org/wiki/Wi-Fi_6)
-- [Wi-Fi 7 - 802.11be - TBA...](https://en.wikipedia.org/wiki/IEEE_802.11be)
+- [**Wi-Fi 0 - 802.11** - 1997](https://en.wikipedia.org/wiki/IEEE_802.11_(legacy_mode)) _2.4 GHz_
+- [**Wi-Fi 1 - 802.11b** - 1999](https://en.wikipedia.org/wiki/IEEE_802.11b-1999) _2.4 GHz_
+- [**Wi-Fi 2 - 802.11a** - 1999](https://en.wikipedia.org/wiki/IEEE_802.11a-1999) _2.4 & 5 GHz_
+- [**Wi-Fi 3 - 802.11g** - 2003](https://en.wikipedia.org/wiki/IEEE_802.11g-2003) _2.4 GHz_
+- [**Wi-Fi 4 - 802.11n** - 2008](https://en.wikipedia.org/wiki/IEEE_802.11n-2009) _2.4 & 5 GHz_
+- [**Wi-Fi 5 - 802.11ac** - 2014](https://en.wikipedia.org/wiki/IEEE_802.11ac-2013) _5 GHz_
+- [**Wi-Fi 6 (& 6E) - 802.11ax** - 2019 & 2020](https://en.wikipedia.org/wiki/Wi-Fi_6) _2.4 & 5 GHz | 2.4, 5 & 6 GHz_
+- [**Wi-Fi 7 - 802.11be** - TBA...](https://en.wikipedia.org/wiki/IEEE_802.11be) _2.4, 5 & 6 GHz__
 
 ### IEEE 802.1 Standards** - Well Known Current Standards: 
 
