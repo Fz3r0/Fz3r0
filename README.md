@@ -379,6 +379,7 @@ _Networking Lists, concepts, Tables, Models, Cheat-Sheets, Mind-Maps & Cool Reso
 - [Overview of Wireless History](https://www.youtube.com/watch?v=CHbiQTskK9Q)
 - [History of Wireless Communication](https://www.youtube.com/watch?v=PU6JO8KPRs0)
 - [Historia del WiFi - est. 1997]()
+- [Telecomunicaciones y Radiodifusión en México @ UNAM](http://derecho.posgrado.unam.mx/site_cpd/public/publis_cpd/telecomyradiodifenMX.pdf)
 
 ## Network Concepts
 
@@ -400,24 +401,43 @@ _Networking Lists, concepts, Tables, Models, Cheat-Sheets, Mind-Maps & Cool Reso
 
 - [MainFrame]()
 
-### Modern Network Devices
+### Network Wired Hosts
 
 - [PC - Personal Computer]()
 
-### Servers (Well known)
+### Network Wireless  Hosts
 
-- [Server: DHCP - ]()
-- [Server: File - ]()
-- [Server: Active Directory - ]()
-- [Server: Video - ]()
+### Layer 2 | Middle Devices
 
-### Wireless Devices
+- [Switch]()
+- [Hub]()
+- [Repeater]()
+
+### Layer 3 or Mulilayer | Edge Network Devices
+
+- [Router]()
+- [Firewall]()
+
+### Wireless Network Devices
 
 - [Smartphone]()
+- [Access Point]()
+
+### Security Devices
+
+- [IDS]()
+- [IDS]()
+
+### Servers (Well known)
+
+- [DHCP Server - ]()
+- [File Server - ]()
+- [Windows Server / Active Directory - ]()
+- [Video Server - ]()
+- [Proxy Server - ]()
+- [Game Server - ]()
 
 ### Internet of Things (IoT)
-
-### Other Network Devices
 
 ## Network Topologies
 
@@ -658,6 +678,9 @@ _TriForce: Create Standards | Certifies Products | Set Local Regulations_
 - [**IETF** - Internet Engineering Task Force]() _Create Standards | RFC_
 - [**WiFi Alliance**](https://www.wi-fi.org/) _Ensure the interoperability of Wi-Fi products by providing certification testing_
 - [**ITU-R** - International Telecommunication Union Radiocommunication Sector]() _UN worldwide frequency assignments through five administrative regions_
+- [**ISO** - International Organization for Standardization]()
+
+## ITU-R International Telecommunication Union Radiocommunication Sector
 
 ## 🌏 🔗 🎩 Internet Society (ISOC) 🎩 🔗 🌏
 
@@ -839,9 +862,11 @@ The world's largest technical professional organization dedicated to advancing t
 
 ### Instituciones Reguladoras
 
+- [Organos Reguladores de Telecomunicaciones en México y el Mundo](https://www.tfja.gob.mx/investigaciones/historico/pdf/organosreguladores.pdf)
 - [DOF - Diario Oficial de la Federación](https://www.dof.gob.mx/#gsc.tab=0) _Publica las leyes, decretos, reglamentos, acuerdos, circulares, órdenes y demás actos expedidos por los Poderes de la Federación_
 - [Instituto Federal de Telecomunicaciones (IFT)](https://www.ift.org.mx/espectro-radioelectrico/normatividad) _Encargada del desarrollo eficiente de las telecomunicaciones y la radiodifusión_
 - [Cuadro Nacional de Atribución de Frecuencias (CNAF)](http://cnaf.ift.org.mx/) _Adecuada planeación, administración y control del espectro radioeléctrico en nuestro país._
+- [COFETEL]()
 
 ### Leyes, Acuerdos y Estándares en México
 
