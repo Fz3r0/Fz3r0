@@ -924,7 +924,10 @@ _Eensure the interoperability of WLAN products by providing certification testin
 
 - [WiFi Alliance **Future Certifications**]()
 
+## 🌏 📚 ⭐ ISO: International Organization for Standardization ⭐ 📚 🌏  
 
+- [ISO: International Organization for Standardization](https://www.iso.org/home.html) _Official Web_
+- [ISO @ Wikipedia](https://es.wikipedia.org/wiki/Organizaci%C3%B3n_Internacional_de_Normalizaci%C3%B3n) _Wiki_
 
 ## 🗺️ 👮 🏗️ Regulatory Domains 🏗️ 👮 🗺️
 
