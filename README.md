@@ -821,13 +821,6 @@ The world's largest technical professional organization dedicated to advancing t
 - 802.11ax
 - 802.11ac
 
-
-
-
-
-
-
-
     - [Estándar IEEE 802.11 / WiFi: **Estándar y Regulaciones** @ **Sama WiFi**](https://youtu.be/DWO9_37tGNM) _IEEE, WiFi Alliance, FCC_
     
     - [802.11 Standards: **Enmendias PHY / Amendments** – The "Alphabet Soup" Evolution](https://user-images.githubusercontent.com/94720207/180624575-fe171e9a-fd06-45a6-afb9-5f14192aac25.png)
@@ -867,12 +860,47 @@ _Eensure the interoperability of WLAN products by providing certification testin
 
 ### WiFi Alliance Certifications
 
-- [WiFi Alliance Certifications: Connectivity]()
-- [WiFi Alliance Certifications: Security]() _Top Security Entrerprise_
-- [WiFi Alliance Certifications: Security (WPA2)]() _SOHO & Home_
-- [WiFi Alliance Certifications: Security - Wi-Fi Enhanced Open (OWE)]() _Password Encryption_
-- [WiFi Alliance Certifications: Security - IEEE 802.11w-2009]() _Anti Spoofing & DOS Attacks_
-- [WiFi Alliance Certifications: Access - Passpoint, Easy connect, Protected Setup ]() _Anti Spoofing & DOS Attacks_
+- WiFi Alliance Certifications: [**Connectivity**]()
+    - [Wi-Fi CERTIFIED **b/g**]()
+    - [Wi-Fi CERTIFIED **a**]()
+    - [Wi-Fi CERTIFIED **n**]()
+    - [Wi-Fi CERTIFIED **ac**]()
+    - [**Wi-Fi Direct**]()
+    - [Wi-Fi CERTIFIED **WiGig**]()
+
+- WiFi Alliance Certifications: [**Security**]() 
+    - [**WPA2** - Wi-Fi Protected Access 2]()
+    - [**WPA 2 > EAP** - Extensible Authentication Protocol]() _802.1X & AAA_
+    - [**WPA2 with Protected Management Frames**]()
+
+- WiFi Alliance Certifications: [**Access**]()
+    - [**Passpoint**]()
+    - [**WPS** - Wi-Fi Protected Setup]()
+    - [**IBSS-PS** with Wi-Fi Protected Setup]()
+
+- WiFi Alliance Certifications: [**Applications and Services**]()
+    - [**Voice-Enterprise** ]()
+    - [**Voice-Personal**]()
+    - [**Miracast**]()
+    - [**Wi-Fi Aware**]()
+    - [**Wi-Fi Location**]()
+
+- WiFi Alliance Certifications: [**Optimization**]()
+    - [**VWMM** - Wi-Fi Multimedia]()
+    - [**WWM-PS** - WMM-Power Save]()
+    - [**WMM-AC** - WMM-Admission Control]()
+    - [**Wi-Fi Certified TDLS**]()
+    - [**Wi-Fi Vantage**]()
+
+- WiFi Alliance Certifications: [**RF Coexistence**]()
+    - [**CWG-RF** - Converged Wireless Group-RF Profile]()
+
+- WiFi Alliance Certifications: [**Additional Capabilities**]()
+    - [**Wi-Fi Home Design**]()
+
+- [WiFi Alliance **Future Certifications**]()
+
+
 
 ## 🗺️ 👮 🏗️ Regulatory Domains 🏗️ 👮 🗺️
 
