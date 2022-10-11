@@ -680,14 +680,20 @@ _TriForce: Create Standards | Certifies Products | Set Local Regulations_
 - [**ITU-R** - International Telecommunication Union Radiocommunication Sector]() _UN worldwide frequency assignments through five administrative regions_
 - [**ISO** - International Organization for Standardization](https://www.iso.org/home.html)
 
-## ITU-R International Telecommunication Union Radiocommunication Sector
+## ITU International Telecommunication Union
+
+_Responsible for many matters related to ITC. "Committed to connecting the world."_
+
+- [ITU - International Telecommunication Union](https://www.itu.int/en/Pages/default.aspx)
+- [ITU - International Telecommunication Union @ Wikipedia](https://en.wikipedia.org/wiki/International_Telecommunication_Union) _Wiki_
+
+### ITU-R - Radiocommunication Sector
 _A global hierarchy exists for management of the RF spectrum worldwide on land, sea, and in the skies_
 
-- [ITU - International Telecommunication Union](https://en.wikipedia.org/wiki/International_Telecommunication_Union) _Responsible for many matters related to information and communication technologies._
 - [ITU- R - Official Web](https://www.itu.int/es/ITU-R/Pages/default.aspx) _One of the three sectors (divisions) of the ITU_
-- [ITU- R @ Wikipedia](https://en.wikipedia.org/wiki/ITU-R)
+- [ITU- R - Radiocommunication Sector @ Wikipedia](https://en.wikipedia.org/wiki/ITU-R)
 
-### ITU-R: The 5 Administrative Regions
+#### ITU-R: The 5 Administrative Regions
 
 - [Region A: **CITEL** The Americas Inter-American Telecommunication Commission](www.citel.oas.org) 
 - [Region B: **CEPT** Western Europe European Conference of Postal and Telecommunications Administrations](www.cept.org) 
@@ -695,11 +701,19 @@ _A global hierarchy exists for management of the RF spectrum worldwide on land, 
 - [Region D: **ATU** Africa African Telecommunications Union](www.atu-uat.org) 
 - [Region E: **APT** Asia and Australasia Asia-Pacific Telecommunity](www.aptsec.org)  
 
-### ITU-R: The 3 Regulatory Regions
+#### ITU-R: The 3 Regulatory Regions
 
-Australia Australian Communications and Media Authority (ACMA)
-Japan Association of Radio Industries and Businesses (ARIB)
-United States Federal Communications Commission (FCC)
+- [Australia Australian Communications and Media Authority (ACMA)
+- [Japan Association of Radio Industries and Businesses (ARIB)
+- [United States Federal Communications Commission (FCC)
+
+### ITU-T - Standardization Sector
+
+- [ITU- R - Standardization Sector @ Wikipedia ](https://en.wikipedia.org/wiki/ITU-T)
+
+### ITU-D - Development Sector
+
+- [ITU- D - Development Sector @ Wikipedia ](https://en.wikipedia.org/wiki/ITU-D)
 
 ## 🌏 🔗 🎩 Internet Society (ISOC) 🎩 🔗 🌏
 
@@ -708,12 +722,12 @@ United States Federal Communications Commission (FCC)
 - [Internet Society (ISOC) @ Wiki](https://es.wikipedia.org/wiki/Internet_Society)
 - [ISOC Hierarchy](https://user-images.githubusercontent.com/94720207/179373677-22b265ed-3217-4f70-88c2-4701ce3e7380.png)
 
-    - [**IETF** - Internet Engineering Task Force](https://www.ietf.org/) _Create Standards | RFC_
     - [**IAB** - Internet Architecture Board]()
     - [**ICANN** - Internet Corporation for Assigned Names and Numbers ]()
-    - [**IESG** - Internet Engineering Steering Group]()
-    - [**IRTF** - Internet Research Task Force]()
-
+    - [**IESG** - Internet Engineering Steering Group]() 
+    - [**IRTF** - Internet Research Task Force]()- 
+    - [**IETF** - Internet Engineering Task Force](https://www.ietf.org/) _Create Standards | RFC_
+    - 
 - [How **IAB** Manage the protocol values done by **IANA**?](http://www.tcpipguide.com/free/t_InternetStandardsOrganizationsISOCIABIESGIETFIRSGI-3.htm)
 
     - [**IANA** – Internet Assigned Number Authority]() _DNS, Domain Names & IPs Authority Assignments_
@@ -721,8 +735,6 @@ United States Federal Communications Commission (FCC)
 ## 🎖️ 🌎 📃 IETF - Internet Engineering Task Force 📃 🌎 🎖️
 
 _The premier Internet standards body concerned for Internet architecture and the smooth operation._
-
-### IETF Resources
 
 - [IETF Official Web - About](https://www.ietf.org/about/) _IETF official Web_
 - [IETF WikiPedia](https://en.wikipedia.org/wiki/Internet_Engineering_Task_Force) _Wiki_
@@ -733,7 +745,7 @@ _The premier Internet standards body concerned for Internet architecture and the
 
 - [**RFC** - Request for Comments @ IETF](https://www.ietf.org/standards/rfcs/) _IETF_
 - [**RFC** - Request For Comments @ Wikipedia](https://en.wikipedia.org/wiki/Request_for_Comments) _Wiki_
-- [**RFC** (Request For Comment) Explained @ Computerphile](https://www.youtube.com/watch?v=8IXLpoN8Xj0) _Easy podcast explanaition_
+- [**RFC** Explained @ Computerphile](https://www.youtube.com/watch?v=8IXLpoN8Xj0) _not actually a request for comments but a statement or definition._
 - [How to read RFCs](https://user-images.githubusercontent.com/94720207/194954514-faea0675-9628-42fe-b13a-0b346493e11b.png) _Pic_
 - [RFC Stages of Development: Proposed Standard > Draft Standard > Internet Standard](https://www.youtube.com/watch?v=TtKKKUy4WU0)
 - [RFC Process Diagram](https://user-images.githubusercontent.com/94720207/194954120-00245391-89ec-437c-9cb8-3e808a886911.png)
