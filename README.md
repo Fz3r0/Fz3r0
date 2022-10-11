@@ -672,10 +672,17 @@ The world's largest technical professional organization dedicated to advancing t
 - [IEEE @ Wikipedia](https://es.wikipedia.org/wiki/Institute_of_Electrical_and_Electronics_Engineers) _Wiki_
 - [¿A qué se dedica la IEEE? | ¿Qué es la IEEE? ¡En 3 minutos!](https://www.youtube.com/watch?v=fgHKggNGazs) _Return 0;_
 - [Become a member of the IEEE! :D](https://www.ieee.org/membership/join/index.html) _$160 USD_
+- [IEEE: How Are Standards Made?](https://standards.ieee.org/develop/develop-standards/process/) 
+- [IEEE Standards LifeCycle: Standards > Draft > Amandments > Updated Standards](https://user-images.githubusercontent.com/94720207/194969800-ae72950b-0032-42aa-a5be-7979a5984b69.png) _Image / Table_
 
-### IEEE Standards
+### IEEE 802 Standards
 
-- [**IEEE 802.1 Standards** LAN,MAN,WAN Internetworking & Management](https://en.wikipedia.org/wiki/IEEE_802.1)
+- [**IEEE 802 Standards** | LAN,MAN,PAN | Complete Family of Internetworking & Management](https://en.wikipedia.org/wiki/IEEE_802) _Wiki_
+- [**IEEE 802** @ IEEE Standard Association](https://standards.ieee.org/featured/ieee-802/#:~:text=The%20most%20widely%20used%20IEEE,providing%20focus%20for%20each%20area.) _Official IEEE Web_
+
+### IEEE 802 Specifications
+
+- [**IEEE 802.1 Standards** - **LAN, MAN to WAN Internetworking & Management**](https://en.wikipedia.org/wiki/IEEE_802.1)
 - **IEEE 802.1 Standards** - **Well Known Current Standards:** 
 
     - [**802.1Q - 2018** - Bridges and Bridged Networks]() _Trunks ot Tagged Ports dot1q_
@@ -686,14 +693,25 @@ The world's largest technical professional organization dedicated to advancing t
 
 - [**IEEE 802.2 Logical Link control (LLC) (Upper portion of the data link layer)** Standards](https://en.wikipedia.org/wiki/IEEE_802.2)
  
-- [**IEEE 802.3 Ethernet** Standards](https://en.wikipedia.org/wiki/IEEE_802.3) _Specifies the set of MAC and PHY protocols for implementing **LAN** communication_
+- [**IEEE 802.3 Ethernet Management** Standards](https://en.wikipedia.org/wiki/IEEE_802.3) _Specifies the set of MAC and PHY protocols for implementing **LAN** communication_
     
     - [802.3ab - 1000BASE-T Gbit/s Ethernet over twisted pair at 1 Gbit/s (125 MB/s)](https://en.wikipedia.org/wiki/Gigabit_Ethernet)
     - [802.3ad - Link aggregation for parallel links, since moved to IEEE 802.1AX]() _Open standard (Etherchannel is from Cisco)_
     - [802.3ae - 10 Gigabit Ethernet over fiber 10GBASE-SR/LR/ER/SW/LW/EW](https://en.wikipedia.org/wiki/10_Gigabit_Ethernet)
     - [802.3af - Power over Ethernet (PoE 15.4 W)]()
  
-- [**IEEE 802.11 Wireless** Standards](https://en.wikipedia.org/wiki/IEEE_802.11) _Specifies the set of MAC and PHY protocols for implementing **WLAN** communication_
+- [**IEEE 802.11 Wireless Management** Standards](https://en.wikipedia.org/wiki/IEEE_802.11) _Specifies the set of MAC and PHY protocols for implementing **WLAN** communication_
+
+
+- 802.11ah
+- 802.11ax
+
+
+
+
+
+
+
 
     - [Estándar IEEE 802.11 / WiFi: **Estándar y Regulaciones** @ **Sama WiFi**](https://youtu.be/DWO9_37tGNM) _IEEE, WiFi Alliance, FCC_
     - [802.11 Standards: **Timeline**](https://wifivitae.com/wp-content/uploads/2021/11/802.11-timeline.png) _Updated 2022_
