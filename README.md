@@ -313,8 +313,10 @@ s Communication & RF**](https://github.com/fz3r0#%EF%B8%8F---wireless-communicat
 
 _Para mis amigos que están empezando completamente de 0, cursa una ingeniería en una hora ¡o menos! ;)_ <br>
 
+- [Computadora - Diccionario Real Academia de la Lengua Española](https://dle.rae.es/computador)
 - [La historia de las computadoras ¡en 2 minutos!](https://www.youtube.com/watch?v=AyT-qtwwtJY) _Todo largo camino comienza por el primer paso..._
 - [¿Cómo funciona una computadora o PC? ¡en 3 minutos!](https://www.youtube.com/watch?v=oYxE3L-6-a8) _Close your eyes, I remember..._
+- [Computadora - Wikipedia](https://es.wikipedia.org/wiki/Computadora) _Wiki_
 - [¿Qué es el Hardware y Software? ¡en 2 minutos!](https://www.youtube.com/watch?v=3F-kuNGlNco) _Aprendiendo la diferencia entre lo físico y lo lógico_
 - [¿Qué es un Algoritmo? ¡en 2 minutos!](https://www.youtube.com/watch?v=EkObhToiseo) _Más fácil de lo que pensabas ;)_
 - [¿Cómo funciona un PC y qué hace cada pieza (Hardware)? @ Nate](https://www.youtube.com/watch?v=0zkX6nlpiSk&t=32s) _Todas los componentes de PC explicadas por Nate_
@@ -369,8 +371,14 @@ _Networking Lists, concepts, Tables, Models, Cheat-Sheets, Mind-Maps & Cool Reso
 
 ### Network Concepts
 
-- [Public & Private Networks]()
-- [Local Area Networks (LANs)]()
+- [Historia y Evolución de las redes](https://www.youtube.com/watch?v=BkmQAXhTi9w)
+- [¿Qué son las redes y cómo funciona el Internet](https://www.youtube.com/watch?v=uunnO9yZCYk)
+- [¿Qué es un protocolo de Internet?](https://www.youtube.com/watch?v=8lQ2baY1qg8)
+- [Private Network](https://en.wikipedia.org/wiki/Private_network) _Private access to the Network_
+- [Public Network](https://www.techopedia.com/definition/26424/public-network) _Public access from Internet_
+- [LAN - Local Area Network](https://en.wikipedia.org/wiki/Local_area_network) _Wiki_
+- [WAN - Wide Area Network](https://en.wikipedia.org/wiki/Wide_area_network) _Wiki_
+- [MAN - Wide Area Network](https://en.wikipedia.org/wiki/Wide_area_network) _Wiki_
 - [Enterprise Campus Networks]()
 - [Branch Networks]()
 - [Internet Networks]()
