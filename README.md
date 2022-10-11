@@ -673,14 +673,33 @@ _Modelos de referencia para los protocolos de la red y la interconexión y comun
 _TriForce: Create Standards | Certifies Products | Set Local Regulations_
 
 - [**Internet Governance:** IGF, NRO, IANA, ICANN, IETF, ISOC](https://en.wikipedia.org/wiki/Internet_governance)
-- [**Regulatory Bodies _Regulatory Domains:** ETSI, FCC, TELEC, KCC]() _regulates communications within & from USA_
+- [**Regulatory Bodies _Regulatory Domains:**_ ETSI, FCC, TELEC, KCC]() _regulates communications within & from USA_
 - [**IEEE** Institute of Electrical and Electronics Engineers ](https://www.ieee.org) _Best known for its LAN standards, the IEEE 802 project_
 - [**IETF** - Internet Engineering Task Force]() _Create Standards | RFC_
 - [**WiFi Alliance**](https://www.wi-fi.org/) _Ensure the interoperability of Wi-Fi products by providing certification testing_
 - [**ITU-R** - International Telecommunication Union Radiocommunication Sector]() _UN worldwide frequency assignments through five administrative regions_
-- [**ISO** - International Organization for Standardization]()
+- [**ISO** - International Organization for Standardization](https://www.iso.org/home.html)
 
 ## ITU-R International Telecommunication Union Radiocommunication Sector
+_A global hierarchy exists for management of the RF spectrum worldwide on land, sea, and in the skies_
+
+- [ITU - International Telecommunication Union](https://en.wikipedia.org/wiki/International_Telecommunication_Union) _Responsible for many matters related to information and communication technologies._
+- [ITU- R - Official Web](https://www.itu.int/es/ITU-R/Pages/default.aspx) _One of the three sectors (divisions) of the ITU_
+- [ITU- R @ Wikipedia](https://en.wikipedia.org/wiki/ITU-R)
+
+### ITU-R: The 5 Administrative Regions
+
+- [Region A: **CITEL** The Americas Inter-American Telecommunication Commission](www.citel.oas.org) 
+- [Region B: **CEPT** Western Europe European Conference of Postal and Telecommunications Administrations](www.cept.org) 
+- [Region C: **RCC** Eastern Europe and Northern Asia Regional Commonwealth in the field of Communications](www.en.rcc.org.ru) 
+- [Region D: **ATU** Africa African Telecommunications Union](www.atu-uat.org) 
+- [Region E: **APT** Asia and Australasia Asia-Pacific Telecommunity](www.aptsec.org)  
+
+### ITU-R: The 3 Regulatory Regions
+
+Australia Australian Communications and Media Authority (ACMA)
+Japan Association of Radio Industries and Businesses (ARIB)
+United States Federal Communications Commission (FCC)
 
 ## 🌏 🔗 🎩 Internet Society (ISOC) 🎩 🔗 🌏
 
