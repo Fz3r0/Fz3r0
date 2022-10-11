@@ -358,7 +358,7 @@ _The sun never sets, on cyber-space... Transmit, receive, log on to interface_
 ## 🔮 📖 🧙‍ Dark Wizardy for Networking 🧙‍♂️ 📖 🔮
 _Networking Lists, concepts, Tables, Models, Cheat-Sheets, Mind-Maps & Cool Resources!!!_
 
-### Fz3r0 Papu-Pro Resources
+### Networking Bibles, Resources & Blogs
 
 - [OpenManiak](https://openmaniak.com/) _The leader in open source Network and Security tutorial._
 - [Network Lessons](https://networklessons.com/) _Cisco CCNA, CCNP and CCIE Enterprise Infrastructure_
@@ -371,6 +371,19 @@ _Networking Lists, concepts, Tables, Models, Cheat-Sheets, Mind-Maps & Cool Reso
 - [How To WiFi](https://howiwifi.com/) _A blog about Wi-Fi!_
 - [802.11 Frame Exchange - All combinations!](https://howiwifi.com/2020/07/16/802-11-frame-exchanges/)
 - [Trash, shitty, crap & full of WiFi Bad practices, DON'T DO THIS!!!](https://badfi.com/bad-fi) _Lo pongo hasta arriba porque es más utilizado de lo que parece jaja!_
+
+
+
+
+
+
+
+### Wireless Bibles, Resources & Blogs
+
+- [Revolution WiFi](http://revolutionwifi.blogspot.com/)
+- [Wirednot](https://wirednot.wordpress.com/)
+- [gcatewifi](https://gcatewifi.wordpress.com/)
+- [Wireless Professionals](https://wlanprofessionals.com/) _Wi-Fi industry experts | Technical Community_
 
 ## 🧠 🖧 🧮 Networking & Computer Science History 🧮 🖧 🧠
 
@@ -1280,6 +1293,7 @@ _Deep dive into the Packet / PCAP Analysis... & Sharks a lot of sharks!_
 
 - [CWNP Official Web](https://www.cwnp.com/)
 - [Official CWNA Study Guide & Exam Practica](https://lms.cwnp.com/)
+- [WiFi Training Resources](http://revolutionwifi.blogspot.com/p/wi-fi-training-resources.html)
 - [Miniserie Wifi & CWNA-108 @ Sama WiFi](https://www.youtube.com/watch?v=mpapEx1doWQ&list=PLm7OhL_NMy3RXoKOSmhqo0b3PYOYNQl8p)
 - [CWNA-108 Course - Exam Labs](https://www.exam-labs.com/video-training/cwna-108-cwnp#course) _Paid $$$_
 - [CWNA-108 Course - Udemy](https://www.udemy.com/course/certified-wireless-network-administrator-cwna/) _Paid $$$_
@@ -2885,6 +2899,10 @@ Guides for performing Penetration Attacks involving the Network Infrastructure E
 
 
 
+
+
+
+
 ## 📡 🦈 🐽 Networking Tools & Cyber-Weaponry 🐽 🦈 📡
 Guides, Tips & Tricks, Downloads, Training, Crafting, Arsenal, Binaries, Executables, Scripts, Open Source Codes
 
@@ -2893,6 +2911,8 @@ Guides, Tips & Tricks, Downloads, Training, Crafting, Arsenal, Binaries, Executa
 #### Wired - 802.3
 
 #### Wireless - 802.11
+
+http://revolutionwifi.blogspot.com/p/wi-fi-tools.html full list sacar!!!
 
 - [MCindex](https://mcsindex.com/) _MCS Index Table, Modulation and Coding Scheme Index 11n, 11ac, and 11ax_
 - [Client and Cappabilites for 5 GHz - which band they take?!](https://clients.mikealbano.com/)
