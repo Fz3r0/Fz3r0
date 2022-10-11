@@ -377,8 +377,15 @@ _Networking Lists, concepts, Tables, Models, Cheat-Sheets, Mind-Maps & Cool Reso
 - [Historia y Evolución de las redes](https://www.youtube.com/watch?v=BkmQAXhTi9w)
 - [Historia de los Semiconductores]()
 
-## Humanos fuera de este mundo
-_Honor a los seres humanos que han dejado huella en este hermoso mundo..._
+## 🚀 📡 🛰️ Wireless Communication History 🛰️ 📡 🛰️ 🚀
+
+- [Overview of Wireless History](https://www.youtube.com/watch?v=CHbiQTskK9Q)
+- [History of Wireless Communication](https://www.youtube.com/watch?v=PU6JO8KPRs0)
+- [Historia del WiFi - est. 1997]()
+- [Telecomunicaciones y Radiodifusión en México @ UNAM](http://derecho.posgrado.unam.mx/site_cpd/public/publis_cpd/telecomyradiodifenMX.pdf)
+
+## Pioneers in Computer Science, Technology & Evolution
+_Honor a los seres humanos que han dejado huella en este hermoso mundo y han contribuido en la evolución de la raza humana..._
 
 - [List of Pioneers in Computer Science](https://en.wikipedia.org/wiki/List_of_pioneers_in_computer_science)
 - [Alan Turing]()
@@ -397,301 +404,6 @@ _Honor a los seres humanos que han dejado huella en este hermoso mundo..._
 - [Guido van Rossum]()
 - [Anakata]()
 - [Luis Pascal]()
-
-## 🚀 📡 🛰️ Wireless Communication History 🛰️ 📡 🛰️ 🚀
-
-- [Overview of Wireless History](https://www.youtube.com/watch?v=CHbiQTskK9Q)
-- [History of Wireless Communication](https://www.youtube.com/watch?v=PU6JO8KPRs0)
-- [Historia del WiFi - est. 1997]()
-- [Telecomunicaciones y Radiodifusión en México @ UNAM](http://derecho.posgrado.unam.mx/site_cpd/public/publis_cpd/telecomyradiodifenMX.pdf)
-
-## Network Concepts
-
-- [¿Qué son las redes y cómo funciona el Internet](https://www.youtube.com/watch?v=uunnO9yZCYk)
-- [¿Qué es un protocolo de Internet?](https://www.youtube.com/watch?v=8lQ2baY1qg8)
-- [Private Network](https://en.wikipedia.org/wiki/Private_network) _Private access to the Network_
-- [Public Network](https://www.techopedia.com/definition/26424/public-network) _Public access from Internet_
-- [LAN - Local Area Network](https://en.wikipedia.org/wiki/Local_area_network) _Wiki_
-- [WAN - Wide Area Network](https://en.wikipedia.org/wiki/Wide_area_network) _Wiki_
-- [MAN - Wide Area Network](https://en.wikipedia.org/wiki/Wide_area_network) _Wiki_
-- [Enterprise Campus Networks]()
-- [Branch Networks]()
-- [Internet Networks]()
-- [¿Qué es SDWAN?](https://www.youtube.com/watch?v=A1nczxk4hjg) _Hasta tu abuelita podría entenderlo!_
-
-## Network Devices
-
-### Early Network Devices
-
-- [MainFrame]()
-
-### Network Wired Hosts
-
-- [PC - Personal Computer]()
-
-### Network Wireless  Hosts
-
-### Layer 2 | Middle Devices
-
-- [Switch]()
-- [Hub]()
-- [Repeater]()
-
-### Layer 3 or Mulilayer | Edge Network Devices
-
-- [Router]()
-- [Firewall]()
-
-### Wireless Network Devices
-
-- [Smartphone]()
-- [Access Point]()
-
-### Security Devices
-
-- [IDS]()
-- [IDS]()
-
-### Servers (Well known)
-
-- [DHCP Server - ]()
-- [File Server - ]()
-- [Windows Server / Active Directory - ]()
-- [Video Server - ]()
-- [Proxy Server - ]()
-- [Game Server - ]()
-
-### Internet of Things (IoT)
-
-## Network Topologies
-
-### Network Topologies
-
-- [Network Topologies]()
-
-    - [Bus Topology]()
-    - [Star Topology]()
-    - [Hybrid topology]()
-    - [Full & Partial Mesh Topology]()
-
-### 2 & 3 Tier Network Topologies
-
-- [Tier Topologies]()
-
-### Deployment Topologies / Deployment Options
-
-- [Client Connectivity]()
-- [Top-of-Rack (ToR) Deployments]()
-- [Middle and End-of-Row (MoR/EoR) Switching]()
-- [Stacking]()
-
-## Network Considerations
-
-- [Requerimentst in networking]()
-- [Budget in networking]()
-- [Cabling in networking]()
-- [Future Growth in networking]()
-
-## TCP/IP Protocol Suite & OSI Models
-_Modelos de referencia para los protocolos de la red y la interconexión y comunicación entre dispositivos de redes_
-
-### OSI Model
-
-- [OSI Model](https://en.wikipedia.org/wiki/OSI_model) _Wikipedia_
-
-### TCP/IP Model
-
-- [TCP-IP - Internet Protocol Suite Model (All versions)](https://en.wikipedia.org/wiki/Internet_protocol_suite) _Wikipedia_
-- [TCP-IP Hybrid Model by Fz3r0 (TCP 5 layers)(TCP+OSI)](/Networking/Knowledge/Tables-Models-Cheatsheets/Tables-Models/TCP-IP-Model-fz3r0_Hybrid.md) _A model I made with love for TCP-IP/OSI, all in one! :)_
-- [TCP all in one! - TCP 3 Way Handshake, Communication Process, States, Data Transfer](/Networking/Knowledge/Tables-Models-Cheatsheets/Tables-Models/TCP_Process.md)
-
-## TCP/UDP Ports
-
-- [TCP / UDP : PORT Numbers / Protocols](https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers)
-- [IP Protocol Numbers - IPv4 Headers](https://en.wikipedia.org/wiki/List_of_IP_protocol_numbers)
-- [Three categories of TCP/UDP port numbers (Well known, registered, dynamic/private) @ Sunny](https://www.youtube.com/watch?v=dSO7XI_HOmY&t=1s)
-- [TCP/UDP Port Number IANA list @ Python - WhatPortIs](https://github.com/Fz3r0/whatportis)
-
-## IPv4
-
-- [Internet Protocol version 4 (IPv4)](https://en.wikipedia.org/wiki/IPv4)
-- [IPv4 Quick Guide](https://www.tutorialspoint.com/ipv4/ipv4_quick_guide.htm)
-- [Reserved IPv4 & IPv6 Addresses by Fz3r0](/Networking/Knowledge/Tables-Models-Cheatsheets/Tables-Models/reserved_ip_fz3r0.md)
-- [IPv4 Packet Header](https://networklessons.com/cisco/ccna-routing-switching-icnd1-100-105/ipv4-packet-header)
-- [Fases de Agotamiento de Direcciones IPv4](https://www.lacnic.net/agotamiento) _Actual Fase 4, no hay más IPs..._
-- [Lista de espera para recibir direcciones IPv4 en LATAM](https://www.lacnic.net/6334/1/lacnic/lista-de-espera-para-recibir-direcciones-ipv4)
-
-### Subnetting: VLSM & FLSM
-
-- [Subnetting is simple @ Sunny](https://www.youtube.com/watch?v=ecCuyq-Wprc)
-- [Subnetting a subnet @ Sunny](https://youtu.be/aVTEZHC2wdA)
-- [Subneting Guide - FLSM & VLSM]()
-- [IPv4 Subnetting Cheatsheet](https://packetlife.net/media/library/15/IPv4_Subnetting.pdf)
-
-## IPv6
-
-- [Reserved IPv4 & IPv6 Addresses by Fz3r0](/Networking/Knowledge/Tables-Models-Cheatsheets/Tables-Models/reserved_ip_fz3r0.md)
-
-- **Ethernet - IEEE 802.3**
-     
-    - [Ethernet - IEEE 802.3](https://en.wikipedia.org/wiki/Ethernet) 
-    - [7 parts of an Ethernet Frame @ Sunny](https://www.youtube.com/watch?v=qXtS1o1HGso)
-
-- **MAC-Address - IEEE 802.xxxx(various): EUI-48 & EUI-64**
-
-    - [Media Access Control Address - MAC-Address](https://en.wikipedia.org/wiki/MAC_address)
-    - [MAC vendor lookup](https://macvendors.com/)
-    - [Technitium MAC Address Changer (MAC Spoofing for Windows)](https://technitium.com/tmac/)
-    - [SMAC Address Spoofing Tool](https://smac-tool.com/#:~:text=SMAC%20is%20a%20powerful%2C%20yet%20an%20easy%2Dto%2Duse,whether%20the%20manufacturers%20allow%20this)
-
-- EtherType
-
-    - [EtherType & Values Table](https://en.wikipedia.org/wiki/EtherType)
-    - [Capturing and analyzing EtherType @ WireShark](https://www.youtube.com/watch?v=ZSVudprlZkE)
-
-- **802.1q: VLANs, Trunks, Natives, ISL /// General Modes, Tag & Untag, full 802.1Q mode, 802.1Q Tunneling (Q-in-Q).**
-
-### Encapsulation & De-Encapsualtion Process
-
-- Ethernet Frame
-- Ethernet Header
-- IPv4 Packet
-- IP Protocol Numbers
-- TCP Segment
-- UDP Segment Header
-- Data encapsulation
-- 
-
-    - [Cisco Full VLAN Approach: Trunk VLANs](https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst_digital_building_series_switches/software/15-2_5_ex/configuration_guide/b_1525ex_consolidated_cdb_cg/b_1525ex_consolidated_cdb_cg_chapter_0110101.pdf)
-    - [Cisco: Configuring VLAN Settings for Interfaces (Trunk, Access & General)](https://www.cisco.com/assets/sol/sb/Switches_Emulators_v2_2_015/help/nk_configuring_vlans06.html)
-    - [Cisco Full 802.1q: 802.1Q Tunneling (Q-in-Q) Configuration](https://networklessons.com/switching/802-1q-tunneling-q-q-configuration-example)
-    - [VLAN-101 Open Vendor Approach](https://community.spiceworks.com/how_to/59173-vlan-101)
-    - [IEEE 802 1Q: VLAN **Tagging** and **Trunking** 101 @ Sunny](https://www.youtube.com/watch?v=vE5gvbmR8jg) _Trunk Port = Cisco terminology | Tagged Port = Other Vendors || Access Port = Cisco terminology | Untagged Port = Other vendors || Access VLAN = Untagged VLAN_
-    - [Diferencias en configuración de VLANs - Tagged, Untagged & Trunks](https://soporte.syscom.mx/es/articles/2042744-networking-diferencias-en-configuraciones-de-vlans)
-    - [FAQ - Should trunk ports be tagged or untagged?](https://faq-blog.com/should-trunk-ports-be-tagged-or-untagged)
-    - [GNS3 Extreme Networks VLANs Tagged Port (Trunk), Untagged Port (Access) & Untagged VLAN (Native VLAN)](https://www.youtube.com/watch?v=QdQzlOX9CJ8)
-
-- DHCP
-
-    - [DHCP Cheatsheet](https://user-images.githubusercontent.com/94720207/190929651-2023d74c-2d21-40e7-8619-b629650f48a2.png)
-
-
-    
-- Ruckus
-
-    - [**Ruckus RCNA Official Full Course](https://www.youtube.com/watch?v=JmViU82xLOk&list=PLySwoo7u9-KIP1JjM-hz0hqQY_uDU1fh3)
-
-
-
-
-
-- [BIN - HEX - DEC : Calculate & Convert]()
-- [Port Forwarding Example](https://wiki.teltonika-networks.com/view/Port_Forwarding)
-
-
-
-- [Electricidad enfocada a Seguridad y Telecomunicaciones @ Syscom](https://www.youtube.com/watch?v=PQrMHIWnLCQ)
-
-## 📊 🖥️ 👨‍🚀 Simulators & Emulators 👨‍🚀 🖥️ 📊
-
-### Cisco Packet Tracer
-
-- [Cisco Packet Tracer]() _Network simulation tool for networking, IoT, and cybersecurity in a virtual lab_
-
-### GNS3
-
-- [GNS3](https://gns3.com/) _Real-time network simulation for pre-deployment testing_
-    - [GNS3 - Appliances](https://www.gns3.com/marketplace/appliances)
-    - [GNS3 - Port Name Formatting](https://docs.gns3.com/docs/using-gns3/advanced/port-name-formatting/)
-    - [Instalar y correr GNS3 VM Pro!!! Master Edson](https://www.youtube.com/watch?v=4kh9JL-0l5A&t=570s)
-
-### Eve NG
-
-- [Eve NG](https://www.eve-ng.net/) _Emulated Virtual Enviorment for Network, Security and DevOps_
-
-## 🗺️ 📍 🔺 Diagram, Topology, Notes & Text Editors 🔺 📍 🗺️
-
-### Text Editors & IDEs
-
-- [Sublime Text]()
-- [Microsoft Visual Studio Code]()
-- [Vim]()
-- [Atom]()
-- [Notepad ++]()
-
-### Diagram Editors
-
-- [Microsoft Visio](https://www.microsoft.com/en-us/microsoft-365/visio/flowchart-software) _$$$_
-- [draw.io](https://app.diagrams.net/) _Free!_
-
-### Notes
-
-- [Google Docs]()
-- [Cherry Tree]()
-- [Obsidian]()
-
-## 🐚 🐢 💻 Shells 💻 🐢 🐚
-
-### Telnet, SSH & Xterm - Console Line Interfaces (CLIs)
-
-- [Secure-CRT](https://www.vandyke.com/products/securecrt/) _Terminal Emulation, secure remote access, file transfer & data tunneling._
-
-    - [Pimp my Secure CRT - ANSI colors & dark shell mode](https://www.vandyke.com/support/tips/colorconfig.html)
-
-- [Putty](https://www.putty.org/) _Open Source SSH and telnet client_
-- [MobaXterm - Pimp term for Windows](https://mobaxterm.mobatek.net/)
-
-## 🐚 😼 💀 Reverse Shells 💀 😼 🐚
-
-- [Reverse Shell Generator](https://www.revshells.com/)
-- NetCat
-- SoCat
-
-## 👨‍💻 🐚 🔒 SSH - Secure Shell 🔒 🐚 👨‍💻
-
-- [SSH & SCP (Secure Copy) Cheatsheet for Linux](https://user-images.githubusercontent.com/94720207/194212517-b25dfa23-0577-4cf1-ac37-83c32c5fbfba.png)
-
-## 🖥️ 👀 💻 Virtual Machines 🖥️ 👀 💻
-
-### Virtual Machines Introducion
-
-- [What's the difference between Type 1 vs. Type 2 hypervisor?](https://www.techtarget.com/searchitoperations/tip/Whats-the-difference-between-Type-1-vs-Type-2-hypervisor)
-
-### Virtual Machines 
-
-- Type1 Hyper-Visors - BareMetal
-    - [VMware vSphere]()
-    - [Microsoft Hyper-V]()
-    - [KVM]()
-    - [Xen hypervisor]()
-    - [Oracle VM]()
-    - [Citrix Hypervisor (AKA Citrix XenServer)]()
-
-- Type2 Hyper-Visors - Operating System Hosted
-    - [Oracle VM VirtualBox]()
-    - [VMware Workstation Pro]()
-    - [VMware Fusion]()
-    - [QEMU]()
-    - [Parallels Desktop]()
-
-### VM Tutorials
-
-- [Install Windows 11 VMWare Work Station FULL config!!! @ John Hammond](https://www.youtube.com/watch?v=EMuw_IN-UOU)
-
-## 🖥️ 🖧 📦 Containers 📦 🖧 🖥️
-
-- [Containers 101](https://www.youtube.com/watch?v=VqLcWftIaQI)
-- [What is a Container?](https://www.youtube.com/watch?v=EnJ7qX9fkcU)
-- [¿Qué son los contenedores, Docker y Kubernetes?](https://www.youtube.com/watch?v=gjRoNFopFig)
-- [Contenedores vs VM: ¿Cuál es la diferencia?](https://www.youtube.com/watch?v=cjXI-yxqGTI)
-- [Containers and VMs - A Practical Comparison](https://www.youtube.com/watch?v=L1ie8negCjc)
-- [Virtualize vs. Containerize (Which should I choose?)](https://www.youtube.com/watch?v=pxwUXJmAER4)
-
-## 🐋 📦 🐳 Docker 🐳 📦 🐋
-
-### Tutorials & Courses
-
-- [Aprende Docker ahora! curso completo gratis desde cero! @ HolaMundo](https://www.youtube.com/watch?v=4Dko5W96WHg)
 
 ## 🔱 🌐 🏛️ Networking & WLAN Industry Organizations 🏛️ 🌐 🔱
 _TriForce: Create Standards | Certifies Products | Set Local Regulations_
@@ -966,6 +678,321 @@ _Eensure the interoperability of WLAN products by providing certification testin
 - [DOF - Uso y Aprovechamiento de Bandas de Frecuencias 2019](https://dof.gob.mx/nota_detalle.php?codigo=5551828&fecha=05/03/2019#gsc.tab=0) _Diario Federal de la Nación_
 - [DOF - Condiciones técnicas de operación de la banda de frecuencias 2400 - 2483.5 MHz](https://www.dof.gob.mx/nota_detalle.php?codigo=5609418&fecha=04/01/2021#gsc.tab=0) _Clasificada como espectro libre_
 
+
+
+
+## 📊 🖥️ 👨‍🚀 Simulators & Emulators 👨‍🚀 🖥️ 📊
+
+### Cisco Packet Tracer
+
+- [Cisco Packet Tracer]() _Network simulation tool for networking, IoT, and cybersecurity in a virtual lab_
+
+### GNS3
+
+- [GNS3](https://gns3.com/) _Real-time network simulation for pre-deployment testing_
+    - [GNS3 - Appliances](https://www.gns3.com/marketplace/appliances)
+    - [GNS3 - Port Name Formatting](https://docs.gns3.com/docs/using-gns3/advanced/port-name-formatting/)
+    - [Instalar y correr GNS3 VM Pro!!! Master Edson](https://www.youtube.com/watch?v=4kh9JL-0l5A&t=570s)
+
+### Eve NG
+
+- [Eve NG](https://www.eve-ng.net/) _Emulated Virtual Enviorment for Network, Security and DevOps_
+
+## 🗺️ 📍 🔺 Diagram, Topology, Notes & Text Editors 🔺 📍 🗺️
+
+### Text Editors & IDEs
+
+- [Sublime Text]()
+- [Microsoft Visual Studio Code]()
+- [Vim]()
+- [Atom]()
+- [Notepad ++]()
+
+### Diagram Editors
+
+- [Microsoft Visio](https://www.microsoft.com/en-us/microsoft-365/visio/flowchart-software) _$$$_
+- [draw.io](https://app.diagrams.net/) _Free!_
+
+### Notes
+
+- [Google Docs]()
+- [Cherry Tree]()
+- [Obsidian]()
+
+## 🐚 🐢 💻 Shells 💻 🐢 🐚
+
+### Telnet, SSH & Xterm - Console Line Interfaces (CLIs)
+
+- [Secure-CRT](https://www.vandyke.com/products/securecrt/) _Terminal Emulation, secure remote access, file transfer & data tunneling._
+
+    - [Pimp my Secure CRT - ANSI colors & dark shell mode](https://www.vandyke.com/support/tips/colorconfig.html)
+
+- [Putty](https://www.putty.org/) _Open Source SSH and telnet client_
+- [MobaXterm - Pimp term for Windows](https://mobaxterm.mobatek.net/)
+
+## 🐚 😼 💀 Reverse Shells 💀 😼 🐚
+
+- [Reverse Shell Generator](https://www.revshells.com/)
+- NetCat
+- SoCat
+
+## 👨‍💻 🐚 🔒 SSH - Secure Shell 🔒 🐚 👨‍💻
+
+- [SSH & SCP (Secure Copy) Cheatsheet for Linux](https://user-images.githubusercontent.com/94720207/194212517-b25dfa23-0577-4cf1-ac37-83c32c5fbfba.png)
+
+## 🖥️ 👀 💻 Virtual Machines 🖥️ 👀 💻
+
+### Virtual Machines Introducion
+
+- [What's the difference between Type 1 vs. Type 2 hypervisor?](https://www.techtarget.com/searchitoperations/tip/Whats-the-difference-between-Type-1-vs-Type-2-hypervisor)
+
+### Virtual Machines 
+
+- Type1 Hyper-Visors - BareMetal
+    - [VMware vSphere]()
+    - [Microsoft Hyper-V]()
+    - [KVM]()
+    - [Xen hypervisor]()
+    - [Oracle VM]()
+    - [Citrix Hypervisor (AKA Citrix XenServer)]()
+
+- Type2 Hyper-Visors - Operating System Hosted
+    - [Oracle VM VirtualBox]()
+    - [VMware Workstation Pro]()
+    - [VMware Fusion]()
+    - [QEMU]()
+    - [Parallels Desktop]()
+
+### VM Tutorials
+
+- [Install Windows 11 VMWare Work Station FULL config!!! @ John Hammond](https://www.youtube.com/watch?v=EMuw_IN-UOU)
+
+## 🖥️ 🖧 📦 Containers 📦 🖧 🖥️
+
+- [Containers 101](https://www.youtube.com/watch?v=VqLcWftIaQI)
+- [What is a Container?](https://www.youtube.com/watch?v=EnJ7qX9fkcU)
+- [¿Qué son los contenedores, Docker y Kubernetes?](https://www.youtube.com/watch?v=gjRoNFopFig)
+- [Contenedores vs VM: ¿Cuál es la diferencia?](https://www.youtube.com/watch?v=cjXI-yxqGTI)
+- [Containers and VMs - A Practical Comparison](https://www.youtube.com/watch?v=L1ie8negCjc)
+- [Virtualize vs. Containerize (Which should I choose?)](https://www.youtube.com/watch?v=pxwUXJmAER4)
+
+## 🐋 📦 🐳 Docker 🐳 📦 🐋
+
+### Tutorials & Courses
+
+- [Aprende Docker ahora! curso completo gratis desde cero! @ HolaMundo](https://www.youtube.com/watch?v=4Dko5W96WHg)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Network Concepts
+
+- [¿Qué son las redes y cómo funciona el Internet](https://www.youtube.com/watch?v=uunnO9yZCYk)
+- [¿Qué es un protocolo de Internet?](https://www.youtube.com/watch?v=8lQ2baY1qg8)
+- [Private Network](https://en.wikipedia.org/wiki/Private_network) _Private access to the Network_
+- [Public Network](https://www.techopedia.com/definition/26424/public-network) _Public access from Internet_
+- [LAN - Local Area Network](https://en.wikipedia.org/wiki/Local_area_network) _Wiki_
+- [WAN - Wide Area Network](https://en.wikipedia.org/wiki/Wide_area_network) _Wiki_
+- [MAN - Wide Area Network](https://en.wikipedia.org/wiki/Wide_area_network) _Wiki_
+- [Enterprise Campus Networks]()
+- [Branch Networks]()
+- [Internet Networks]()
+- [¿Qué es SDWAN?](https://www.youtube.com/watch?v=A1nczxk4hjg) _Hasta tu abuelita podría entenderlo!_
+
+## Network Devices
+
+### Early Network Devices
+
+- [MainFrame]()
+
+### Network Wired Hosts
+
+- [PC - Personal Computer]()
+
+### Network Wireless  Hosts
+
+### Layer 2 | Middle Devices
+
+- [Switch]()
+- [Hub]()
+- [Repeater]()
+
+### Layer 3 or Mulilayer | Edge Network Devices
+
+- [Router]()
+- [Firewall]()
+
+### Wireless Network Devices
+
+- [Smartphone]()
+- [Access Point]()
+
+### Security Devices
+
+- [IDS]()
+- [IDS]()
+
+### Servers (Well known)
+
+- [DHCP Server - ]()
+- [File Server - ]()
+- [Windows Server / Active Directory - ]()
+- [Video Server - ]()
+- [Proxy Server - ]()
+- [Game Server - ]()
+
+### Internet of Things (IoT)
+
+
+
+## Network Topologies
+
+### Network Topologies
+
+- [Network Topologies]()
+
+    - [Bus Topology]()
+    - [Star Topology]()
+    - [Hybrid topology]()
+    - [Full & Partial Mesh Topology]()
+
+### 2 & 3 Tier Network Topologies
+
+- [Tier Topologies]()
+
+### Deployment Topologies / Deployment Options
+
+- [Client Connectivity]()
+- [Top-of-Rack (ToR) Deployments]()
+- [Middle and End-of-Row (MoR/EoR) Switching]()
+- [Stacking]()
+
+## Network Considerations
+
+- [Requerimentst in networking]()
+- [Budget in networking]()
+- [Cabling in networking]()
+- [Future Growth in networking]()
+
+
+## TCP/IP Protocol Suite & OSI Models
+_Modelos de referencia para los protocolos de la red y la interconexión y comunicación entre dispositivos de redes_
+
+### OSI Model
+
+- [OSI Model](https://www.iso.org/ics/35.100/x/) _Official Web_
+- [OSI Model @ Wikipedia](https://en.wikipedia.org/wiki/OSI_model) _Wiki_
+
+### TCP/IP Model
+
+- [TCP-IP Hybrid Model by Fz3r0 (TCP 5 layers)(TCP+OSI)](/Networking/Knowledge/Tables-Models-Cheatsheets/Tables-Models/TCP-IP-Model-fz3r0_Hybrid.md) _A model I made with love for TCP-IP/OSI, all in one! :)_
+- [TCP-IP - Internet Protocol Suite Model (All versions)](https://en.wikipedia.org/wiki/Internet_protocol_suite) _Wikipedia_
+- [TCP all in one! - TCP 3 Way Handshake, Communication Process, States, Data Transfer](/Networking/Knowledge/Tables-Models-Cheatsheets/Tables-Models/TCP_Process.md)
+
+## TCP/UDP Ports
+
+- [TCP / UDP : PORT Numbers / Protocols](https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers)
+- [IP Protocol Numbers - IPv4 Headers](https://en.wikipedia.org/wiki/List_of_IP_protocol_numbers)
+- [Three categories of TCP/UDP port numbers (Well known, registered, dynamic/private) @ Sunny](https://www.youtube.com/watch?v=dSO7XI_HOmY&t=1s)
+- [TCP/UDP Port Number IANA list @ Python - WhatPortIs](https://github.com/Fz3r0/whatportis)
+
+## IPv4
+
+- [Internet Protocol version 4 (IPv4)](https://en.wikipedia.org/wiki/IPv4)
+- [IPv4 Quick Guide](https://www.tutorialspoint.com/ipv4/ipv4_quick_guide.htm)
+- [Reserved IPv4 & IPv6 Addresses by Fz3r0](/Networking/Knowledge/Tables-Models-Cheatsheets/Tables-Models/reserved_ip_fz3r0.md)
+- [IPv4 Packet Header](https://networklessons.com/cisco/ccna-routing-switching-icnd1-100-105/ipv4-packet-header)
+- [Fases de Agotamiento de Direcciones IPv4](https://www.lacnic.net/agotamiento) _Actual Fase 4, no hay más IPs..._
+- [Lista de espera para recibir direcciones IPv4 en LATAM](https://www.lacnic.net/6334/1/lacnic/lista-de-espera-para-recibir-direcciones-ipv4)
+
+### Subnetting: VLSM & FLSM
+
+- [Subnetting is simple @ Sunny](https://www.youtube.com/watch?v=ecCuyq-Wprc)
+- [Subnetting a subnet @ Sunny](https://youtu.be/aVTEZHC2wdA)
+- [Subneting Guide - FLSM & VLSM]()
+- [IPv4 Subnetting Cheatsheet](https://packetlife.net/media/library/15/IPv4_Subnetting.pdf)
+
+## IPv6
+
+- [Reserved IPv4 & IPv6 Addresses by Fz3r0](/Networking/Knowledge/Tables-Models-Cheatsheets/Tables-Models/reserved_ip_fz3r0.md)
+
+- **Ethernet - IEEE 802.3**
+     
+    - [Ethernet - IEEE 802.3](https://en.wikipedia.org/wiki/Ethernet) 
+    - [7 parts of an Ethernet Frame @ Sunny](https://www.youtube.com/watch?v=qXtS1o1HGso)
+
+- **MAC-Address - IEEE 802.xxxx(various): EUI-48 & EUI-64**
+
+    - [Media Access Control Address - MAC-Address](https://en.wikipedia.org/wiki/MAC_address)
+    - [MAC vendor lookup](https://macvendors.com/)
+    - [Technitium MAC Address Changer (MAC Spoofing for Windows)](https://technitium.com/tmac/)
+    - [SMAC Address Spoofing Tool](https://smac-tool.com/#:~:text=SMAC%20is%20a%20powerful%2C%20yet%20an%20easy%2Dto%2Duse,whether%20the%20manufacturers%20allow%20this)
+
+- EtherType
+
+    - [EtherType & Values Table](https://en.wikipedia.org/wiki/EtherType)
+    - [Capturing and analyzing EtherType @ WireShark](https://www.youtube.com/watch?v=ZSVudprlZkE)
+
+- **802.1q: VLANs, Trunks, Natives, ISL /// General Modes, Tag & Untag, full 802.1Q mode, 802.1Q Tunneling (Q-in-Q).**
+
+### Encapsulation & De-Encapsualtion Process
+
+- Ethernet Frame
+- Ethernet Header
+- IPv4 Packet
+- IP Protocol Numbers
+- TCP Segment
+- UDP Segment Header
+- Data encapsulation
+- 
+
+    - [Cisco Full VLAN Approach: Trunk VLANs](https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst_digital_building_series_switches/software/15-2_5_ex/configuration_guide/b_1525ex_consolidated_cdb_cg/b_1525ex_consolidated_cdb_cg_chapter_0110101.pdf)
+    - [Cisco: Configuring VLAN Settings for Interfaces (Trunk, Access & General)](https://www.cisco.com/assets/sol/sb/Switches_Emulators_v2_2_015/help/nk_configuring_vlans06.html)
+    - [Cisco Full 802.1q: 802.1Q Tunneling (Q-in-Q) Configuration](https://networklessons.com/switching/802-1q-tunneling-q-q-configuration-example)
+    - [VLAN-101 Open Vendor Approach](https://community.spiceworks.com/how_to/59173-vlan-101)
+    - [IEEE 802 1Q: VLAN **Tagging** and **Trunking** 101 @ Sunny](https://www.youtube.com/watch?v=vE5gvbmR8jg) _Trunk Port = Cisco terminology | Tagged Port = Other Vendors || Access Port = Cisco terminology | Untagged Port = Other vendors || Access VLAN = Untagged VLAN_
+    - [Diferencias en configuración de VLANs - Tagged, Untagged & Trunks](https://soporte.syscom.mx/es/articles/2042744-networking-diferencias-en-configuraciones-de-vlans)
+    - [FAQ - Should trunk ports be tagged or untagged?](https://faq-blog.com/should-trunk-ports-be-tagged-or-untagged)
+    - [GNS3 Extreme Networks VLANs Tagged Port (Trunk), Untagged Port (Access) & Untagged VLAN (Native VLAN)](https://www.youtube.com/watch?v=QdQzlOX9CJ8)
+
+- DHCP
+
+    - [DHCP Cheatsheet](https://user-images.githubusercontent.com/94720207/190929651-2023d74c-2d21-40e7-8619-b629650f48a2.png)
+
+
+    
+- Ruckus
+
+    - [**Ruckus RCNA Official Full Course](https://www.youtube.com/watch?v=JmViU82xLOk&list=PLySwoo7u9-KIP1JjM-hz0hqQY_uDU1fh3)
+
+
+
+
+
+- [BIN - HEX - DEC : Calculate & Convert]()
+- [Port Forwarding Example](https://wiki.teltonika-networks.com/view/Port_Forwarding)
+
+
+
+- [Electricidad enfocada a Seguridad y Telecomunicaciones @ Syscom](https://www.youtube.com/watch?v=PQrMHIWnLCQ)
+
+
+
+
+
 ## ➡️ 💥 ⬅️ Carrier Sense Multiple Access (CSMA) ➡️ 💥 ⬅️
 
 ### CSMA
@@ -999,6 +1026,75 @@ _Eensure the interoperability of WLAN products by providing certification testin
 
 - [**Contention** (Telecommunications)](https://en.wikipedia.org/wiki/Contention_(telecommunications))
 - [**Wireless Contention**, **Co-Channel Contention (CCC)** & **Interference, Co-Channel Interference (CCI)**](https://blogs.arubanetworks.com/industries/definition-of-wifi-interference-and-contention/)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## ✉️ 👨‍💻 📦 Packet Level 📦 👨‍💻 ✉️ 
 _Deep dive into the Packet / PCAP Analysis... & Sharks a lot of sharks!_
@@ -1253,13 +1349,11 @@ _Deep dive into the Packet / PCAP Analysis... & Sharks a lot of sharks!_
 - [ESSID - The shared netweork name/ID between different "ESS" (Inexistent in 802.11 standards), hint: use same as SSID]()
 - [Tx / Rx - TX (transmit) is how loud you're talking / RX (receive) is how loud you think the other is talking.](https://www.ligowave.com/wiki/faq/infinity-network-wireless-statistics/)
 - [RF - ]()
-
-
-
 - [**WiFi** - It means nothing!!!](https://wifinetnews.com/archives/2005/11/wi-fi_stands_fornothing_and_everything.html)
 
+## Logical Planes of Telecommunication
 
-
+[Logical Planes: Management, Control & Data]()
 
 
 
