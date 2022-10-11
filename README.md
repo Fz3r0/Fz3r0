@@ -1303,6 +1303,7 @@ _Deep dive into the Packet / PCAP Analysis... & Sharks a lot of sharks!_
 
 - [CWNP Official Web](https://www.cwnp.com/)
 - [Official CWNA Study Guide & Exam Practica](https://lms.cwnp.com/)
+- [Wireless/WiFi Network: GET GUD in less than 1 hour @ Sunny](https://www.youtube.com/watch?v=WOTeFceIeM8&list=PLSNNzog5eydvJG48PYnWnNY7-tQIfxTRb)
 - [WiFi Training Resources](http://revolutionwifi.blogspot.com/p/wi-fi-training-resources.html)
 - [Miniserie Wifi & CWNA-108 @ Sama WiFi](https://www.youtube.com/watch?v=mpapEx1doWQ&list=PLm7OhL_NMy3RXoKOSmhqo0b3PYOYNQl8p)
 - [CWNA-108 Course - Exam Labs](https://www.exam-labs.com/video-training/cwna-108-cwnp#course) _Paid $$$_
@@ -1435,7 +1436,6 @@ _Method of manipulating a signal (modulation) so that it can represent multiple 
 - [Current State](https://setup-wireless.blogspot.com/2008/11/wireless-keying-methods.html) _The current value (state) of the signal is used to distinguish between 0s and 1s_
 - [State Transition](https://setup-wireless.blogspot.com/2008/11/wireless-keying-methods.html) _the change (transition) of the signal is used to distinguish between 0s and 1s_
 
-
 ### Types of Keying Methods AKA Modulation Techniques
 
 - [**Digital modulation:** ASK, FSK, and PSK](https://www.youtube.com/watch?v=qGwUOvErR8Q&t=7s) _@ Sunny_
@@ -1443,7 +1443,12 @@ _Method of manipulating a signal (modulation) so that it can represent multiple 
 - [**FSK** - Frequency Shift Keying](https://www.tutorialspoint.com/explain-frequency-shift-keying-fsk-in-computer-network)
 - [**PSK** - Phase Shift Keying](https://www.tutorialspoint.com/what-is-phase-shift-keying-psk-in-computer-network)
 
+### QAM - Quadrature Amplitude Modulation
 
+- [QAM Modulation: The king of Coding Capacity](https://www.youtube.com/watch?v=efJRXQp9Ufk) _The sum of Amplitude + Phase modulation_
+- [Inside Wireless Español: QAM Modulation pt.1](https://www.youtube.com/watch?v=efJRXQp9Ufk)
+- [Inside Wireless Español: QAM Modulation pt.2: Modulador QAM](https://youtu.be/-WAWX046p0o)
+- [Constellation_Diagram](https://en.wikipedia.org/wiki/Constellation_diagram) _Representation of a signal modulated by a digital modulation scheme_
 
 
 
@@ -1482,9 +1487,17 @@ _Method of manipulating a signal (modulation) so that it can represent multiple 
     
 - [RF for the WiFi Professional - Fundamentals and RF Maths CC](https://www.youtube.com/watch?v=VT_Nv5vboZo&list=PLpdKaoNaDwSJkEMY21w2N2SO12CkGoY71)
 - [Wireless Mathematics in depth](https://www.youtube.com/watch?v=rMhcakeEQaE)
-- [Wireless/WiFi Network: GET GUD in less than 1 hour @ Sunny](https://www.youtube.com/watch?v=WOTeFceIeM8&list=PLSNNzog5eydvJG48PYnWnNY7-tQIfxTRb)
+
+
+
 - [Full Radio Concepts: Phase, Amplitude, Wavelenght & Frequency > CWNA in a nutshell](https://yatebts.com/documentation/concepts/radio-waves/radio-concepts/)
-        
+
+
+
+
+
+
+
 
 - Wireless LAN (WLAN) most important concepts:
     
@@ -1523,7 +1536,7 @@ GTHillWiFi ](https://youtu.be/E8IfwCzgKas) _La mejor epxlicación de db y milliw
 - [RF MAths Fast & Furious @ 
 GTHillWiFi](https://youtu.be/RNv1AnSfdmY)
 
-- **WiFi** _(Wireless Fidelity)_
+- **WiFi** 
 
     - [Diferencias entre: WiFi4, WiFi5 & Wifi6](https://www.youtube.com/watch?v=P_nCjxi9Egc)
         - [Tabla de comparación 802.11n VS 802.11a VS 802.11ax](https://user-images.githubusercontent.com/94720207/179373976-9e06f543-283a-4ecb-a623-7e9b71a5d64b.png)
@@ -1564,11 +1577,7 @@ GTHillWiFi](https://youtu.be/RNv1AnSfdmY)
 
 
 
-- [QAM Modulation: The king of Coding Capacity](https://www.youtube.com/watch?v=efJRXQp9Ufk) _The sum of Amplitude + Phase modulation_
 
-    - [Inside Wireless Español: QAM Modulation pt.1](https://www.youtube.com/watch?v=efJRXQp9Ufk)
-    - [Inside Wireless Español: QAM Modulation pt.2: Modulador QAM](https://youtu.be/-WAWX046p0o)
-    - [Constellation_Diagram](https://en.wikipedia.org/wiki/Constellation_diagram) _Representation of a signal modulated by a digital modulation scheme_
 
 - [RF Behaivior](https://www.billdeitrick.com/cwna-chapter-2-rf-characteristics-and-behaviors/)
 
@@ -1580,6 +1589,25 @@ GTHillWiFi](https://youtu.be/RNv1AnSfdmY)
     - [Absorption](https://www.billdeitrick.com/cwna-chapter-2-rf-characteristics-and-behaviors/)
     - [More RF Behaivors](https://www.billdeitrick.com/cwna-chapter-2-rf-characteristics-and-behaviors/)
     - [Inside Wireless: **Pérdida de trayectoria / Path Loss**](https://www.youtube.com/watch?v=-XHWEYxW_c4)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 - Radio Frequency (RF) Components and Measurements
 
