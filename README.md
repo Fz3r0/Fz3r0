@@ -1402,13 +1402,16 @@ the same frequency_
 
 
 ## The "Keying" Method
-_The Black Magic (Modulation) for converting Radio Signals into 1 & 0_
+_Method of manipulating a signal (modulation) so that it can represent multiple pieces of data (converting Radio Signals into 1 & 0)_
 
 - [Keying Method (Telecommunications)](https://en.wikipedia.org/wiki/Keying_(telecommunications)) _The capacity of a signal to encode its data so it can be transported to the reciever._
 - [Understanding Amplitude Shift Keying: On-Off Keying(OOK), Near Field Communications(NFC), M-ary ASK](https://www.youtube.com/watch?v=eJ5m0Sbr2qw)
-- [Amplitude Shift Keying (ASK)](https://www.tutorialspoint.com/what-is-amplitude-shift-keying-ask-in-computer-network)
-- [Frequency Shift Keying (FSK)](https://www.tutorialspoint.com/explain-frequency-shift-keying-fsk-in-computer-network)
-- [Phase Shift Keying (PSK)](https://www.tutorialspoint.com/what-is-phase-shift-keying-psk-in-computer-network)
+
+### Types of Keying Methods AKA Modulation Techniques
+
+- [**ASK** - Amplitude Shift Keying](https://www.tutorialspoint.com/what-is-amplitude-shift-keying-ask-in-computer-network)
+- [**FSK** - Frequency Shift Keying](https://www.tutorialspoint.com/explain-frequency-shift-keying-fsk-in-computer-network)
+- [**PSK** - Phase Shift Keying](https://www.tutorialspoint.com/what-is-phase-shift-keying-psk-in-computer-network)
 
 
 
