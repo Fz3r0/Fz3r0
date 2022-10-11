@@ -679,19 +679,21 @@ The world's largest technical professional organization dedicated to advancing t
 
 - [**IEEE 802 Standards** | LAN,MAN,PAN | Complete Family of Internetworking & Management](https://en.wikipedia.org/wiki/IEEE_802) _Wiki_
 - [**IEEE 802** @ IEEE Standard Association](https://standards.ieee.org/featured/ieee-802/#:~:text=The%20most%20widely%20used%20IEEE,providing%20focus%20for%20each%20area.) _Official IEEE Web_
+- [IEEE Nomenclature: Standard & Amandments Differneces easy!](https://user-images.githubusercontent.com/94720207/194970624-37df80fc-2572-46fb-9746-5800f6266f5f.png) _Pic_
 
-### IEEE 802 Specifications
+### IEEE 802.1 Specification & Amandments
 
 - [**IEEE 802.1 Standards** - **LAN, MAN to WAN Internetworking & Management**](https://en.wikipedia.org/wiki/IEEE_802.1)
-- **IEEE 802.1 Standards** - **Well Known Current Standards:** 
 
-    - [**802.1Q - 2018** - Bridges and Bridged Networks]() _Trunks ot Tagged Ports dot1q_
-    - [**802.1X - 2020** - Port-Based Network Access Control ]() _Pro % Secure Authentication (AAA)_
-    - [**802.1AB - 2016** - Station & Media Access Control Connectivity Discovery **LLDP** ]() _LLDP_
-    - [**802.1AC - 2016** - Media Access Control **MAC** Services Definition ]() _MAC Address_
-    - [**802.1AX - 2020** - Link Aggregation / LAG / EtherChannel]() _EtherChannel & LAGs_
+### IEEE 802.1 Standards** - Well Known Current Standards:
 
-- [**IEEE 802.2 Logical Link control (LLC) (Upper portion of the data link layer)** Standards](https://en.wikipedia.org/wiki/IEEE_802.2)
+- [**802.1Q - 2018** - Bridges and Bridged Networks]() _Trunks ot Tagged Ports dot1q_
+- [**802.1X - 2020** - Port-Based Network Access Control / Authentication]() _Pro % Secure Authentication (AAA)_
+- [**802.1AB - 2016** - Station & Media Access Control Connectivity Discovery **LLDP** ]() _LLDP_
+- [**802.1AC - 2016** - Media Access Control **MAC** Services Definition ]() _MAC Address_
+- [**802.1AX - 2020** - Link Aggregation / LAG / EtherChannel]() _EtherChannel & LAGs_
+
+### IEEE 802.3 Specification & Amandments
  
 - [**IEEE 802.3 Ethernet Management** Standards](https://en.wikipedia.org/wiki/IEEE_802.3) _Specifies the set of MAC and PHY protocols for implementing **LAN** communication_
     
@@ -699,12 +701,35 @@ The world's largest technical professional organization dedicated to advancing t
     - [802.3ad - Link aggregation for parallel links, since moved to IEEE 802.1AX]() _Open standard (Etherchannel is from Cisco)_
     - [802.3ae - 10 Gigabit Ethernet over fiber 10GBASE-SR/LR/ER/SW/LW/EW](https://en.wikipedia.org/wiki/10_Gigabit_Ethernet)
     - [802.3af - Power over Ethernet (PoE 15.4 W)]()
- 
-- [**IEEE 802.11 Wireless Management** Standards](https://en.wikipedia.org/wiki/IEEE_802.11) _Specifies the set of MAC and PHY protocols for implementing **WLAN** communication_
 
+### IEEE 802.11 Specification & Amandments
+
+- [**IEEE 802.11 Wireless** Standards @ Wikipedia](https://en.wikipedia.org/wiki/IEEE_802.11) _MAC and PHY protocols for implementing **WLAN** communication_
+- [802.11 Standards: **Timeline from 1997 to now!**](https://wifivitae.com/wp-content/uploads/2021/11/802.11-timeline.png) _Updated 2022_
+- [**802.11-1997** AKA 802.11 Prime](https://standards.ieee.org/ieee/802.11/1163/) _1st 802.11!!!_
+- [**802.11-2016** AKA 802.11 Actual](https://standards.ieee.org/ieee/802.11/1163/) _Last update (2022)!!!_
+- [**ALL** IEEE 802.11 Standard and Amendments - Current, Draft, Withdrawn & Transferred](https://wifiwizardofoz.com/802-11-standard-and-amendments/) _Complete List!_
+
+### Wi-Fi Alliance: WiFi Generations as IEEE 802.11 
+
+- [Wi-Fi 0 - 802.11 - 1997](https://en.wikipedia.org/wiki/IEEE_802.11_(legacy_mode))
+- [Wi-Fi 1 - 802.11b - 1999](https://en.wikipedia.org/wiki/IEEE_802.11b-1999)
+- [Wi-Fi 2 - 802.11a - 1999](https://en.wikipedia.org/wiki/IEEE_802.11a-1999)
+- [Wi-Fi 3 - 802.11g - 2003](https://en.wikipedia.org/wiki/IEEE_802.11g-2003)
+- [Wi-Fi 4 - 802.11n - 2008](https://en.wikipedia.org/wiki/IEEE_802.11n-2009)
+- [Wi-Fi 5 - 802.11ac - 2014](https://en.wikipedia.org/wiki/IEEE_802.11ac-2013)
+- [Wi-Fi 6 (& 6E) - 802.11ax - 2019 & 2020](https://en.wikipedia.org/wiki/Wi-Fi_6)
+- [Wi-Fi 7 - 802.11be - TBA...](https://en.wikipedia.org/wiki/IEEE_802.11be)
+
+### IEEE 802.1 Standards** - Well Known Current Standards: 
+
+
+
+### Never for
 
 - 802.11ah
 - 802.11ax
+- 802.11ac
 
 
 
@@ -714,7 +739,7 @@ The world's largest technical professional organization dedicated to advancing t
 
 
     - [Estándar IEEE 802.11 / WiFi: **Estándar y Regulaciones** @ **Sama WiFi**](https://youtu.be/DWO9_37tGNM) _IEEE, WiFi Alliance, FCC_
-    - [802.11 Standards: **Timeline**](https://wifivitae.com/wp-content/uploads/2021/11/802.11-timeline.png) _Updated 2022_
+    
     - [802.11 Standards: **Enmendias PHY / Amendments** – The "Alphabet Soup" Evolution](https://user-images.githubusercontent.com/94720207/180624575-fe171e9a-fd06-45a6-afb9-5f14192aac25.png)
 )
     - [802.11 - 2.4 Ghz @ speeds of up to 2 Mbps]()
