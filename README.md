@@ -369,11 +369,19 @@ _Networking Lists, concepts, Tables, Models, Cheat-Sheets, Mind-Maps & Cool Reso
 - [802.11 Frame Exchange - All combinations!](https://howiwifi.com/2020/07/16/802-11-frame-exchanges/)
 - [Trash, shitty, crap & full of WiFi Bad practices, DON'T DO THIS!!!](https://badfi.com/bad-fi) _Lo pongo hasta arriba porque es más utilizado de lo que parece jaja!_
 
-## 🚦🎬 🛫 Networking Fundamentals 🛫 🎬 🚦
-
-### Network Concepts
+## 🧠 🖧 🧮 Networking & Computer Science History 🧮 🖧 🧠
 
 - [Historia y Evolución de las redes](https://www.youtube.com/watch?v=BkmQAXhTi9w)
+- [Historia de los Semiconductores]()
+
+## 🚀 📡 🛰️ Wireless Communication History 🛰️ 📡 🛰️ 🚀
+
+- [Overview of Wireless History](https://www.youtube.com/watch?v=CHbiQTskK9Q)
+- [History of Wireless Communication](https://www.youtube.com/watch?v=PU6JO8KPRs0)
+- [Historia del WiFi - est. 1997]()
+
+## Network Concepts
+
 - [¿Qué son las redes y cómo funciona el Internet](https://www.youtube.com/watch?v=uunnO9yZCYk)
 - [¿Qué es un protocolo de Internet?](https://www.youtube.com/watch?v=8lQ2baY1qg8)
 - [Private Network](https://en.wikipedia.org/wiki/Private_network) _Private access to the Network_
@@ -386,12 +394,30 @@ _Networking Lists, concepts, Tables, Models, Cheat-Sheets, Mind-Maps & Cool Reso
 - [Internet Networks]()
 - [¿Qué es SDWAN?](https://www.youtube.com/watch?v=A1nczxk4hjg) _Hasta tu abuelita podría entenderlo!_
 
-### Network Devices
+## Network Devices
 
-- [Early Network Devices]()
-- [Modern Network Devices]()
-- [Internet of Things (IoT)]()
-- [Other Network Devices]()
+### Early Network Devices
+
+- [MainFrame]()
+
+### Modern Network Devices
+
+- [PC - Personal Computer]()
+
+### Servers (Well known)
+
+- [Server: DHCP - ]()
+- [Server: File - ]()
+- [Server: Active Directory - ]()
+- [Server: Video - ]()
+
+### Wireless Devices
+
+- [Smartphone]()
+
+### Internet of Things (IoT)
+
+### Other Network Devices
 
 ## Network Topologies
 
@@ -1113,11 +1139,9 @@ _Deep dive into the Packet / PCAP Analysis... & Sharks a lot of sharks!_
 - [Tx / Rx - TX (transmit) is how loud you're talking / RX (receive) is how loud you think the other is talking.](https://www.ligowave.com/wiki/faq/infinity-network-wireless-statistics/)
 - [RF - ]()
 
-## 📖 📡 🧮 Wireless Communication History 🧮 📡 📖
 
-- [Overview of Wireless History](https://www.youtube.com/watch?v=CHbiQTskK9Q)
-- [History of Wireless Communication](https://www.youtube.com/watch?v=PU6JO8KPRs0)
 
+- [**WiFi** - It means nothing!!!](https://wifinetnews.com/archives/2005/11/wi-fi_stands_fornothing_and_everything.html)
 
 
 
