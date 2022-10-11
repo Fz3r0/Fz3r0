@@ -857,14 +857,18 @@ The world's largest technical professional organization dedicated to advancing t
     - [5 GHz (SHF) - 802.11a/n/ac/ax]()
 
 ## 📶 🤝 🌐 WiFi Alliance 🌐 🤝 📶
+_Eensure the interoperability of WLAN products by providing certification testing_
 
 - [WiFi Alliance official Web](https://www.wi-fi.org/) _The worldwide network of companies that brings you Wi-Fi®_
 - [WiFi Alliance @ Wikipedia](https://en.wikipedia.org/wiki/Wi-Fi_Alliance) _Wiki_
+- [WiFi Alliance Certificate Example](https://github.com/Fz3r0/Fz3r0/files/9758962/WFA121369.PlayStation5.pdf)
+- [WiFi Alliance: Product Finder](https://www.wi-fi.org/product-finder)
+- [WiFi Alliance: Certification Procedure](https://www.wi-fi.org/download.php?file=/sites/default/files/private/Wi-Fi_Alliance_Certification_Process_Overview_v3.6.pdf)
 
 ### WiFi Alliance Certifications
 
-- [WiFi Alliance Certifications: Connectivity (6, ac, n, WiGig, WifiDirect)]()
-- [WiFi Alliance Certifications: Security (WPA3, WPA3 Entrerprise)]() _Top Security Entrerprise_
+- [WiFi Alliance Certifications: Connectivity]()
+- [WiFi Alliance Certifications: Security]() _Top Security Entrerprise_
 - [WiFi Alliance Certifications: Security (WPA2)]() _SOHO & Home_
 - [WiFi Alliance Certifications: Security - Wi-Fi Enhanced Open (OWE)]() _Password Encryption_
 - [WiFi Alliance Certifications: Security - IEEE 802.11w-2009]() _Anti Spoofing & DOS Attacks_
