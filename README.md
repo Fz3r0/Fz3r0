@@ -402,7 +402,9 @@ _Honor a los seres humanos que han dejado huella en este hermoso mundo y han con
 
 - [List of Pioneers in Computer Science](https://en.wikipedia.org/wiki/List_of_pioneers_in_computer_science)
 - [Alan Turing]()
+- Alber Einstein
 - Ada Lovelace
+- Alan Cooper - Visual Basic creator
 - [Anakata]()
 - [Bill Gates]()
 - [Brian Kernighan]()
@@ -410,9 +412,14 @@ _Honor a los seres humanos que han dejado huella en este hermoso mundo y han con
 - [Dennis Ritchie]()
 - [Guido van Rossum]()
 - [Gus Rodriguez]()
+- Larry Page
+- 
 - [James Gosling]()
+- [JJ Jose Juan García]()
 - [Joseph Carl Robnett Licklider]()
 - [John Atanasoff]()
+- John Carmack
+- John Romero
 - [John McCarthy]()
 - [John von Neumann]()
 - [Konrad Zuse]()
@@ -420,9 +427,12 @@ _Honor a los seres humanos que han dejado huella en este hermoso mundo y han con
 - [Linus Torvalds]()
 - [Luis Pascal]()
 - [Ray Tomlinson]()
+- [Ricardo CPP]()
+- Serguéi Brin
 - [Shigeru Miyamoto]()
 - [Steve Jobs - ]()
 - [Steve Wozniak]()
+- Stephen Hawking
 - [Tim Berners-Lee]()
 - [Woz]()
 
