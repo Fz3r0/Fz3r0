@@ -317,6 +317,9 @@ _Para mis amigos que están empezando completamente de 0, cursa una ingeniería 
 
 - [Computadora _(Electrónica)_- Diccionario RAE](https://dle.rae.es/computador) _¿De qué tamaño es un problema visto desde Saturno?_
 - [La historia de las computadoras ¡en 2 minutos!](https://www.youtube.com/watch?v=AyT-qtwwtJY) _Todo largo camino comienza por el primer paso..._
+- [El **ábaco**](https://es.wikipedia.org/wiki/%C3%81baco#:~:text=Existen%20dos%20trabajos%20representativos%20en,extender%20el%20uso%20del%20%C3%A1baco.) _La primer calculadora / computadora en el mundo_
+- [La historia de la calculadora](https://www.youtube.com/watch?v=4_eD0Vlrfao) _¿Habías escuchado de Luis Pascal y Charles Charles Babbage?_
+- [¿Cómo funciona una calculadora?](https://www.youtube.com/watch?v=ZBetobLYIBo) _Calculadora = computadora "jr" ;)_
 - [¿Cómo funciona una computadora o PC? ¡en 3 minutos!](https://www.youtube.com/watch?v=oYxE3L-6-a8) _Close your eyes, I remember..._
 - [Computadora - Wikipedia](https://es.wikipedia.org/wiki/Computadora) _Wiki_
 - [¿Qué es el Hardware y Software? ¡en 2 minutos!](https://www.youtube.com/watch?v=3F-kuNGlNco) _Aprendiendo la diferencia entre lo físico y lo lógico_
@@ -373,6 +376,27 @@ _Networking Lists, concepts, Tables, Models, Cheat-Sheets, Mind-Maps & Cool Reso
 
 - [Historia y Evolución de las redes](https://www.youtube.com/watch?v=BkmQAXhTi9w)
 - [Historia de los Semiconductores]()
+
+## Humanos fuera de este mundo
+_Honor a los seres humanos que han dejado huella en este hermoso mundo..._
+
+- [List of Pioneers in Computer Science](https://en.wikipedia.org/wiki/List_of_pioneers_in_computer_science)
+- [Alan Turing]()
+- [Tim Berners-Lee]()
+- [John von Neumann]()
+- [Woz]()
+- [Dennis Ritchie]()
+- [Brian Kernighan]()
+- [Linus Torvalds]()
+- [James Gosling]()
+- [Joseph Carl Robnett Licklider]()
+- [John McCarthy]()
+- [Charles Babbage - El padre de la computadora]()
+- [Steve Jobs - ]()
+- [Steve Wozniak]()
+- [Guido van Rossum]()
+- [Anakata]()
+- [Luis Pascal]()
 
 ## 🚀 📡 🛰️ Wireless Communication History 🛰️ 📡 🛰️ 🚀
 
