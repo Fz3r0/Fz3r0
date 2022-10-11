@@ -1364,7 +1364,38 @@ _Deep dive into the Packet / PCAP Analysis... & Sharks a lot of sharks!_
 
 ## Logical Planes of Telecommunication
 
-[Logical Planes: Management, Control & Data]()
+- [Logical Planes: Management, Control & Data]()
+
+## Carrier Signals
+_Modified signals capable of distinguishing between 0s and 1s using modulation techs_
+
+### Radio Frequency (RF) Concepts on Wireless Networks
+
+- [**Radio Waves AKA Radio Signals** @ NASA](https://www.nasa.gov/directorates/heo/scan/communications/outreach/funfacts/what_are_radio_waves) _The basic building block of radio communications is a radio wave._
+- [**Electromagnetic Spectrum**](https://en.wikipedia.org/wiki/Electromagnetic_spectrum) _Full Wiki: radio waves, microwaves, infrared, visible light, ultraviolet, X-rays, and gamma rays_
+- [**Radio Spectrum**](https://en.wikipedia.org/wiki/Radio_spectrum) _The radio spectrum is the part of the electromagnetic spectrum with frequencies from 0 Hz to 3,000 GHz(3 THz)._
+- [**Phase** in Radio Frequencies (RF) @ Aruba Networks](https://blogs.arubanetworks.com/industries/frequency-cycle-wavelength-amplitude-and-phase/#:~:text=Phase%20is%20the%20same%20frequency,that%20share%20the%20same%20frequency.) _Phase is the same frequency, same cycle, same wavelength, but are 2 or more wave forms not exactly aligned together._
+- [Carrier Signal AKA Carrier Wave: **Analog Modulation: AM, FM** & **CSMA/CD Ethernet Method**](https://networkencyclopedia.com/carrier-signal/)
+- [**Digital Modulations: (Shift Keying) ASK, FSK & PSK** @ Sunny](https://www.youtube.com/watch?v=qGwUOvErR8Q)
+
+### Characteristics of Radio Frequency (RF)
+
+- [**Wavelenght** in Wireless Networking: **2.4Ghz**, 3.6Ghz, 4.9Ghz, **5Ghz**, 5.9Ghz](https://www.youtube.com/watch?v=zLmAaAx1tUQ) _Wavelenght is the distance between the two successive crests._
+- [**Wavelenght Formula & Calculation**](https://www.geeksforgeeks.org/wavelength-formula/)     - [**Frequency** in Wireless Networking: Number of cycles per second in an ac sine wave](https://www.fluke.com/en-us/learn/blog/electrical/what-is-frequency)
+- [**Amplitude** in Wireless Networking:](https://en.wikipedia.org/wiki/Amplitude)
+
+### The "Keying" Method
+_The Black Magic (Modulation) for converting Radio Signals into 1 & 0_
+
+- [Keying Method (Telecommunications)](https://en.wikipedia.org/wiki/Keying_(telecommunications)) _The capacity of a signal to encode its data so it can be transported to the reciever._
+- [Understanding Amplitude Shift Keying: On-Off Keying(OOK), Near Field Communications(NFC), M-ary ASK](https://www.youtube.com/watch?v=eJ5m0Sbr2qw)
+- [Amplitude Shift Keying (ASK)](https://www.tutorialspoint.com/what-is-amplitude-shift-keying-ask-in-computer-network)
+- [Frequency Shift Keying (FSK)](https://www.tutorialspoint.com/explain-frequency-shift-keying-fsk-in-computer-network)
+- [Phase Shift Keying (PSK)](https://www.tutorialspoint.com/what-is-phase-shift-keying-psk-in-computer-network)
+
+
+
+
 
 
 
@@ -1416,33 +1447,26 @@ GTHillWiFi](https://youtu.be/RNv1AnSfdmY)
 
 
 
-- Radio Frequency (RF) Concepts on Wireless Networks
 
-    - [**Radio Waves AKA Radio Signals** @ NASA](https://www.nasa.gov/directorates/heo/scan/communications/outreach/funfacts/what_are_radio_waves) _The basic building block of radio communications is a radio wave._
-    - [**Electromagnetic Spectrum**](https://en.wikipedia.org/wiki/Electromagnetic_spectrum) _Full Wiki: radio waves, microwaves, infrared, visible light, ultraviolet, X-rays, and gamma rays_
-    - [**Radio Spectrum**](https://en.wikipedia.org/wiki/Radio_spectrum) _The radio spectrum is the part of the electromagnetic spectrum with frequencies from 0 Hz to 3,000 GHz(3 THz)._
-    - [**Phase** in Radio Frequencies (RF) @ Aruba Networks](https://blogs.arubanetworks.com/industries/frequency-cycle-wavelength-amplitude-and-phase/#:~:text=Phase%20is%20the%20same%20frequency,that%20share%20the%20same%20frequency.) _Phase is the same frequency, same cycle, same wavelength, but are 2 or more wave forms not exactly aligned together._
-    - [Carrier Signal AKA Carrier Wave: **Analog Modulation: AM, FM** & **CSMA/CD Ethernet Method**](https://networkencyclopedia.com/carrier-signal/)
-    - [**Digital Modulations: (Shift Keying) ASK, FSK & PSK** @ Sunny](https://www.youtube.com/watch?v=qGwUOvErR8Q)
 
 - Radio Frequency (RF) in a nutshell
 
     - [Radio Frequency (RF, rf)](https://www.techtarget.com/searchnetworking/definition/radio-frequency)
     - [How Transmitting and Receiving Antenna works: From AC > to Antenna > to Air > to Antenna > to AC](https://ctrfantennasinc.com/how-transmitting-and-receiving-antenna-works/)
 
-- Characteristics of Radio Frequency (RF)
 
-    - [**Wavelenght** in Wireless Networking: **2.4Ghz**, 3.6Ghz, 4.9Ghz, **5Ghz**, 5.9Ghz](https://www.youtube.com/watch?v=zLmAaAx1tUQ) _Wavelenght is the distance between the two successive crests._
-    - [**Wavelenght Formula & Calculation**](https://www.geeksforgeeks.org/wavelength-formula/)     - [**Frequency** in Wireless Networking: Number of cycles per second in an ac sine wave](https://www.fluke.com/en-us/learn/blog/electrical/what-is-frequency)
-    - [**Amplitude** in Wireless Networking:](https://en.wikipedia.org/wiki/Amplitude)
 
-- The "Keying" Method: The Black Magic (Modulation) for converting Radio Signals into 1 & 0
 
-    - [Keying Method (Telecommunications)](https://en.wikipedia.org/wiki/Keying_(telecommunications)) _The capacity of a signal to encode its data so it can be transported to the reciever._
-    - [Understanding Amplitude Shift Keying: On-Off Keying(OOK), Near Field Communications(NFC), M-ary ASK](https://www.youtube.com/watch?v=eJ5m0Sbr2qw)
-    - [Amplitude Shift Keying (ASK)](https://www.tutorialspoint.com/what-is-amplitude-shift-keying-ask-in-computer-network)
-    - [Frequency Shift Keying (FSK)](https://www.tutorialspoint.com/explain-frequency-shift-keying-fsk-in-computer-network)
-    - [Phase Shift Keying (PSK)](https://www.tutorialspoint.com/what-is-phase-shift-keying-psk-in-computer-network)
+
+
+
+
+
+
+
+
+
+
 
 - [QAM Modulation: The king of Coding Capacity](https://www.youtube.com/watch?v=efJRXQp9Ufk) _The sum of Amplitude + Phase modulation_
 
