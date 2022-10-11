@@ -1378,40 +1378,71 @@ _Deep dive into the Packet / PCAP Analysis... & Sharks a lot of sharks!_
 ## Radio Frequency (RF) Concepts on Wireless Networks
 
 - [**Radio Waves AKA Radio Signals** @ NASA](https://www.nasa.gov/directorates/heo/scan/communications/outreach/funfacts/what_are_radio_waves) _The basic building block of radio communications is a radio wave._
-- [**Electromagnetic Spectrum**](https://en.wikipedia.org/wiki/Electromagnetic_spectrum) _Full Wiki: radio waves, microwaves, infrared, visible light, ultraviolet, X-rays, and gamma rays_
+- [**Electromagnetic Spectrum:** radio waves, microwaves, infrared, visible light, ultraviolet, X-rays, and gamma ray](https://en.wikipedia.org/wiki/Electromagnetic_spectrum) _Wiki_
+- [**Electromagnetic Spectrum:**](https://youtu.be/1JpwDaOHppA) _Sunny_
 - [**Radio Spectrum**](https://en.wikipedia.org/wiki/Radio_spectrum) _The radio spectrum is the part of the electromagnetic spectrum with frequencies from 0 Hz to 3,000 GHz(3 THz)._
 frequency, same cycle, same wavelength, but are 2 or more wave forms not exactly aligned together._
 - [Carrier Signal AKA Carrier Wave](https://networkencyclopedia.com/carrier-signal/)
-- [**Digital Modulations: (Shift Keying) ASK, FSK & PSK** @ Sunny](https://www.youtube.com/watch?v=qGwUOvErR8Q)
 
 ## Carrier Signals
 _Modified signals capable of distinguishing between 0s and 1s using modulation techs_
 
 ### Characteristics of Radio Frequency (RF)
 
-- [**Amplitude**](https://en.wikipedia.org/wiki/Amplitude) _Height of the radio signal that it reaches while attenuating_
+- [Electromagnetic (EM) Waves: Amplitude, Wavelenght, Frequency & Hertz](https://youtu.be/WOTeFceIeM8) _Sunny_
+- [**Amplitude**](https://en.wikipedia.org/wiki/Amplitude) _Height (crest) of the radio signal that it reaches while attenuating_
 - [**Wavelenght**](https://www.youtube.com/watch?v=zLmAaAx1tUQ) _Distance between the two successive crests_
 - [**Frequency**](https://www.fluke.com/en-us/learn/blog/electrical/what-is-frequency) _Number of cycles per second_
 - [**Phase**](https://blogs.arubanetworks.com/industries/frequency-cycle-wavelength-amplitude-and-phase/#:~:text=Phase%20is%20the%20same%20frequency,that%20share%20the%20same%20frequency.) _Relationship between two waves with
 the same frequency_ 
 
+### Radio Modulation
 
-
-
-
-
+- [AM vs FM - Radio Modulation](https://youtu.be/I0jdIvwkiDI)
 
 ## The "Keying" Method
-_Method of manipulating a signal (modulation) so that it can represent multiple pieces of data (converting Radio Signals into 1 & 0)_
+_Method of manipulating a signal (modulation) so that it can represent multiple pieces of data (Radio Signals into 1 & 0)_
 
 - [Keying Method (Telecommunications)](https://en.wikipedia.org/wiki/Keying_(telecommunications)) _The capacity of a signal to encode its data so it can be transported to the reciever._
 - [Understanding Amplitude Shift Keying: On-Off Keying(OOK), Near Field Communications(NFC), M-ary ASK](https://www.youtube.com/watch?v=eJ5m0Sbr2qw)
 
+### Keying Methods Techniques to Represent Data
+
+- [Current State](https://setup-wireless.blogspot.com/2008/11/wireless-keying-methods.html) _The current value (state) of the signal is used to distinguish between 0s and 1s_
+- [State Transition](https://setup-wireless.blogspot.com/2008/11/wireless-keying-methods.html) _the change (transition) of the signal is used to distinguish between 0s and 1s_
+
+
 ### Types of Keying Methods AKA Modulation Techniques
 
+- [**Digital modulation:** ASK, FSK, and PSK](https://www.youtube.com/watch?v=qGwUOvErR8Q&t=7s) _@ Sunny_
 - [**ASK** - Amplitude Shift Keying](https://www.tutorialspoint.com/what-is-amplitude-shift-keying-ask-in-computer-network)
 - [**FSK** - Frequency Shift Keying](https://www.tutorialspoint.com/explain-frequency-shift-keying-fsk-in-computer-network)
 - [**PSK** - Phase Shift Keying](https://www.tutorialspoint.com/what-is-phase-shift-keying-psk-in-computer-network)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
