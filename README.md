@@ -605,6 +605,7 @@ _LAN & MAN - Specific Requirements - Part 11: WLAN Medium Access Control (MAC) a
 - [Quick Guide to IEEE 802.11 Activities](https://www.ieee802.org/11/QuickGuide_IEEE_802_WG_and_Activities.htm)
 - [IEEE Get PRogram](https://standards.ieee.org/products-programs/ieee-get-program/) _IEEE Membershio $$$_
 - [802.11 Standards: **Timeline from 1997 to now!**](https://wifivitae.com/wp-content/uploads/2021/11/802.11-timeline.png) _Updated 2022_
+- [Estándar IEEE 802.11 / WiFi: **Estándar y Regulaciones** @ **Sama WiFi**](https://youtu.be/DWO9_37tGNM) _IEEE, WiFi Alliance, FCC_
 - [**802.11-1997** AKA 802.11 "Prime" or "Original" or "Legacy"](https://standards.ieee.org/ieee/802.11/1163/) _1st 802.11!!!_
 - [**802.11-2020** AKA 802.11 Actual]https://standards.ieee.org/ieee/802.11/7028/) _Last update (review @ 2022)!!!_
 - [**ALL** IEEE 802.11 Standard and Amendments - Current, Draft, Withdrawn & Transferred](https://wifiwizardofoz.com/802-11-standard-and-amendments/) _Complete List (last updated 2020)!_
@@ -672,11 +673,9 @@ _What does the future hold in store for us with 802.11 wireless networking?_
 - [802.11F-2003]()
 - [802.11T]()
 
-#### IEEE Task Group m
+#### IEEE Task Group m (TGm / 802.11m)
 
-- [IEEE Taks Groups - That's why 802.11 xx (alphabet soup)](https://user-images.githubusercontent.com/94720207/195217557-18ad2d37-d9da-47d1-8573-6323bbedd1dd.png) _802.11 alphabet soup_
-
-
+- [802.11m is often referred to as 802.11 housekeeping](https://es.theastrologypage.com/ieee-802-11m) _Internal IEEE 802.11 management & documentation_
 
 
 
@@ -686,7 +685,9 @@ _What does the future hold in store for us with 802.11 wireless networking?_
 
 
 
-    - [Estándar IEEE 802.11 / WiFi: **Estándar y Regulaciones** @ **Sama WiFi**](https://youtu.be/DWO9_37tGNM) _IEEE, WiFi Alliance, FCC_
+
+
+
     
     - [802.11 Standards: **Enmendias PHY / Amendments** – The "Alphabet Soup" Evolution](https://user-images.githubusercontent.com/94720207/180624575-fe171e9a-fd06-45a6-afb9-5f14192aac25.png)
 )
@@ -1515,6 +1516,8 @@ _Deep dive into the Packet / PCAP Analysis... & Sharks a lot of sharks!_
 - [Logical Planes: Management, Control & Data]()
 
 
+
+
 ## Radio Frequency (RF) Concepts on Wireless Networks
 
 - [**Radio Waves AKA Radio Signals** @ NASA](https://www.nasa.gov/directorates/heo/scan/communications/outreach/funfacts/what_are_radio_waves) _The basic building block of radio communications is a radio wave._
@@ -1535,6 +1538,9 @@ _Modified signals capable of distinguishing between 0s and 1s using modulation t
 - [**Frequency**](https://www.fluke.com/en-us/learn/blog/electrical/what-is-frequency) _Number of cycles per second_
 - [**Phase**](https://blogs.arubanetworks.com/industries/frequency-cycle-wavelength-amplitude-and-phase/#:~:text=Phase%20is%20the%20same%20frequency,that%20share%20the%20same%20frequency.) _Relationship between two waves with
 the same frequency_ 
+
+
+
 
 ### Radio Modulation
 
@@ -1559,6 +1565,7 @@ _Method of manipulating a signal (modulation) so that it can represent multiple 
 - [**PSK** - Phase Shift Keying](https://www.tutorialspoint.com/what-is-phase-shift-keying-psk-in-computer-network)
 
 ### QAM - Quadrature Amplitude Modulation
+_The sum of Amplitude + Phase modulation = The king of modulations_
 
 - [QAM Modulation: The king of Coding Capacity](https://www.youtube.com/watch?v=efJRXQp9Ufk) _The sum of Amplitude + Phase modulation_
 - [Inside Wireless Español: QAM Modulation pt.1](https://www.youtube.com/watch?v=efJRXQp9Ufk)
