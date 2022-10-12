@@ -411,19 +411,22 @@ _Honor a los seres humanos que han dejado huella en este hermoso mundo y han con
 - [arma - Roger Dingledine](https://en.wikipedia.org/wiki/Roger_Dingledine) _MiT scientist, Director & Research Director at Tor Project_
 - [Barrett Brown](https://www.theguardian.com/technology/2013/mar/20/barrett-brown-anonymous-pr-federal-target) _Anonymous friend of friend..._
 - [Bill Gates]()
-- [Brian Kernighan]()
+- [Bjarne Stroustrup](https://en.wikipedia.org/wiki/Bjarne_Stroustrup) _Creator of C++ & Multi-awarded mathematican and computer scientist_
 - [brokep - Peter Sunde Kolmisoppi]() _PirateBay_
 - [Charles Babbage - El padre de la computadora]()
 - [Charles Ranlett Flint]() _IBM Founder_
 - [c0mrade - Jonathan James]() _Hacked the NASA for knowledge_
 - [Dennis Ritchie]()
 - [Edward Snowden]() _Technology consultor, NSA ex-employee & hacker_
+- [Fyodor Vaskovich - Gordon Lyon]() _NetSec expert, creator of Nmap, Honeynet Project & Vice President of CPSR_
 - [Guido van Rossum]()
 - [Gus Rodriguez]()
 - Gordon Moore Robert Noyce() _Intel co-founder | Moore Law_
 - [H. D. Moore](https://en.wikipedia.org/wiki/H._D._Moore) _Metasploit creator, InfoSec researcher, programmer & hacker_
 - Larry Page
 - [Hideo Kojima]() _TV Hideo_
+- [Larry Wall]() _Programmer & creator of Perl programming language_
+- []()
 - [Jerry Sanders]() _AMD_
 - [James Gosling]()
 - [JJ Jose Juan García]()
