@@ -599,9 +599,8 @@ The world's largest technical professional organization dedicated to advancing t
 - [802.11w-2009 - (now @ 2016)]() _Robust Management Frames: Protect wireless frames VS DoS attacks | CCMP, BIP, CMAC_
 - [802.11y-2008 - (now @ 2016)]() _DSE procedures: Avoid interference from non-WiFi (when CSMA-CA is not enough)_
 - [802.11z-2010 - (now @ 2016)]() _DLS: allow operation with non-DLS-capable APs (not used on Enterprises)_
-- [802.11aa-2012]() _GCR: QoS enhancements to MAC for robust audio & video streaming_
-both consumer and enterprise applications._
-- [802.11ac-2013]()
+- [802.11aa-2012 - (now @ 2016)]() _GCR: QoS enhancements for robust audio & video streaming_
+- [802.11ac-2013 - (now @ 2016)]() _VHT, MU-MIMO, Beamforming: Enhancements below 6 GHz (only for 5GHz) | moar ALL!_
 - [802.11ad-2012]()
 - [802.11ae-2012]()
 - [802.11af-2014]()
