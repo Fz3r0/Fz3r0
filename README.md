@@ -1517,6 +1517,7 @@ _Deep dive into the Packet / PCAP Analysis... & Sharks a lot of sharks!_
 
 - [**Radio Waves AKA Radio Signals** @ NASA](https://www.nasa.gov/directorates/heo/scan/communications/outreach/funfacts/what_are_radio_waves) _The basic building block of radio communications is a radio wave._
 - [**Electromagnetic Spectrum:** radio waves, microwaves, infrared, visible light, ultraviolet, X-rays, and gamma ray](https://en.wikipedia.org/wiki/Electromagnetic_spectrum) _Wiki_
+- [Electromagnetic Spectrum: good image!](https://user-images.githubusercontent.com/94720207/195462038-5b8653a8-b410-4b95-b478-94ff5fbe29f3.png) _Picture_
 - [**Electromagnetic Spectrum:**](https://youtu.be/1JpwDaOHppA) _Sunny_
 - [**Radio Spectrum**](https://en.wikipedia.org/wiki/Radio_spectrum) _The radio spectrum is the part of the electromagnetic spectrum with frequencies from 0 Hz to 3,000 GHz(3 THz)._
 frequency, same cycle, same wavelength, but are 2 or more wave forms not exactly aligned together._
@@ -1541,6 +1542,88 @@ _Modified signals capable of distinguishing between 0s and 1s using modulation t
 the same frequency_ 
     - [Phase cancellation Technique (VHS)](http://home.iprimus.com.au/toddemslie/phase-cancellation.html)
     - [Phase cancellation in audio](https://www.audio-technica.com/en-us/support/audio-solutions-question-of-the-week-what-is-phase-cancellation/#:~:text=Phase%20cancellation%20is%20when%20two,sound%20of%20the%20summed%20signals.) _The phase in audio is easier to understand & it's basically the same_
+
+## RF Behaivior
+
+- [RF Behaivior](https://www.billdeitrick.com/cwna-chapter-2-rf-characteristics-and-behaviors/)
+
+### Gain
+
+- [**Gain**: Amplification, Active gain, PAssive Gain](https://www.billdeitrick.com/cwna-chapter-2-rf-characteristics-and-behaviors/)
+
+### Loss
+
+- [**Loss**: Intentional Loss, Attenuators, Natural Loss](https://www.billdeitrick.com/cwna-chapter-2-rf-characteristics-and-behaviors/)
+- [Inside Wireless: **Pérdida de trayectoria / Path Loss**](https://www.youtube.com/watch?v=-XHWEYxW_c4)
+
+### Reflection
+
+_Solid metal impact or "mirror" effect_
+
+- [**Reflection**: Multipath, Single-input-single-output (SISO), Antenna Diversity, Multiple-input-multiple-output (MIMO)]()
+
+### Refraction
+
+_Cup of water effect_
+
+- [**Refraction**](https://www.billdeitrick.com/cwna-chapter-2-rf-characteristics-and-behaviors/) 
+- [**Refraction**](https://user-images.githubusercontent.com/94720207/195462163-7ec33ee8-6700-4a9a-acc9-04517db1eda4.png) _Picture_
+
+### Diffraction
+
+_Travesañoooo!!!! bending & RF shadow generator behind obstacle_
+
+- [**Diffraction**](https://user-images.githubusercontent.com/94720207/195462462-062f12e7-0653-4082-8e13-060ed843ce70.png) _Image_
+
+### Scattering
+
+_Uneven surfaces hots, random surfaces, shake & random!_
+
+- [Scattering](https://www.billdeitrick.com/cwna-chapter-2-rf-characteristics-and-behaviors/)
+
+### Absorpion
+
+_Dense materials absorb energy & weaken the signal_
+
+- [Absorption](https://www.billdeitrick.com/cwna-chapter-2-rf-characteristics-and-behaviors/)
+- [Absorption](https://user-images.githubusercontent.com/94720207/195462801-91dff256-a53c-43b2-9cda-6a59f43caadd.png) _Image_
+
+### Multipah & Delay Spread
+
+- [Multipah & Delay Spread](https://user-images.githubusercontent.com/94720207/195463016-848cc804-768e-4c48-89da-c091b5f31d32.png)
+
+### Interference (Corruption)
+
+- [Interference (Corruption)](https://user-images.githubusercontent.com/94720207/195463161-26bc550b-ac9d-46a6-87de-b2fec18b82d4.png) _Image_
+
+
+
+### More RF Behaivors
+
+- [More RF Behaivors](https://www.billdeitrick.com/cwna-chapter-2-rf-characteristics-and-behaviors/)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ### Radio Modulation
 
@@ -1701,16 +1784,7 @@ GTHillWiFi](https://youtu.be/RNv1AnSfdmY)
 
 
 
-- [RF Behaivior](https://www.billdeitrick.com/cwna-chapter-2-rf-characteristics-and-behaviors/)
 
-    - [**Gain**: Amplification, Active gain, PAssive Gain](https://www.billdeitrick.com/cwna-chapter-2-rf-characteristics-and-behaviors/)
-    - [**Loss**: Intentional Loss, Attenuators, Natural Loss](https://www.billdeitrick.com/cwna-chapter-2-rf-characteristics-and-behaviors/)
-    - [**Reflection**: Multipath, Single-input-single-output (SISO), Antenna Diversity, Multiple-input-multiple-output (MIMO)]()
-    - [**Refraction** & RF Shadow](https://www.billdeitrick.com/cwna-chapter-2-rf-characteristics-and-behaviors/)
-    - [Scattering](https://www.billdeitrick.com/cwna-chapter-2-rf-characteristics-and-behaviors/)
-    - [Absorption](https://www.billdeitrick.com/cwna-chapter-2-rf-characteristics-and-behaviors/)
-    - [More RF Behaivors](https://www.billdeitrick.com/cwna-chapter-2-rf-characteristics-and-behaviors/)
-    - [Inside Wireless: **Pérdida de trayectoria / Path Loss**](https://www.youtube.com/watch?v=-XHWEYxW_c4)
 
 
 
