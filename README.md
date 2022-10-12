@@ -609,21 +609,20 @@ The world's largest technical professional organization dedicated to advancing t
 - [**ALL** IEEE 802.11 Standard and Amendments - Current, Draft, Withdrawn & Transferred](https://wifiwizardofoz.com/802-11-standard-and-amendments/) _Complete List!_
 - [Original 802.11 amendments comparison](https://user-images.githubusercontent.com/94720207/195222873-c469f358-fd56-489a-91a1-3fedcad650b7.png) _Table_
 
-
 #### IEEE 802.11-2016 Ratified Amendments / Task Groups
 _New task groups were assembled to address potential enhancements to the 802.11 standard._
 
-- [_802.11-1997 Prime_(Obsolete)](https://en.wikipedia.org/wiki/IEEE_802.11#802.11-1997_(802.11_legacy)) _IR, FHSS, DSSS_
-- [**802.11a**-1999 - (now Clause-17 @ 2016)](https://es.wikipedia.org/wiki/IEEE_802.11#IEEE_802.11a) _**OFDM**: (due 5GHz) on U-NII band | no communication with legacy tech_
-- [**802.11b**-1999 - (now PBCC & **Removed**)](https://es.wikipedia.org/wiki/IEEE_802.11#IEEE_802.11b) _**HR-DSSS**: higher data rates within the 2.4GHz ISM band_
-- [**802.11d**-2001 - (now @ 2016)](https://es.wikipedia.org/wiki/IEEE_802.11#IEEE_802.11d) _**ountry Code** Information on Beacons & Probes_
+- [_802.11-1997 Prime_(Obsolete)](https://en.wikipedia.org/wiki/IEEE_802.11#802.11-1997_(802.11_legacy)) **(WiFi0)** _**IR, FHSS, DSSS:** raw wifi with no QoS or cool enhancements_
+- [**802.11a**-1999 - (now Clause-17 @ 2016)](https://es.wikipedia.org/wiki/IEEE_802.11#IEEE_802.11a) **(WiFi2)** _**OFDM**: (due 5GHz) on U-NII band | no communication with legacy tech_
+- [**802.11b**-1999 - (now PBCC & **Removed**)](https://es.wikipedia.org/wiki/IEEE_802.11#IEEE_802.11b) **(WiFi1)** _**HR-DSSS**: higher data rates within the 2.4GHz ISM band_
+- [**802.11d**-2001 - (now @ 2016)](https://es.wikipedia.org/wiki/IEEE_802.11#IEEE_802.11d) _**Country Code** Information on Beacons & Probes_
 - [**802.11e**-2005 - (now QoS & 2016)](https://es.wikipedia.org/wiki/IEEE_802.11#IEEE_802.11e) _**VoWLAN**: QoS Grandpa & WiFi cert WMM Grandma')_
-- [**802.11g**-2003 - (now @ 2016)](https://es.wikipedia.org/wiki/IEEE_802.11#IEEE_802.11g) _**Evolution of ERP**: ERP-OFDM & ERP-DSSS/CCK > for higher data rates_
-- [**802.11h**-2003 - (now Clause-11.8 & 11.9 @ 2016)](https://es.wikipedia.org/wiki/IEEE_802.11#IEEE_802.11h) _**DFS, TPC**: detect & avoid interference with 5 GHz satellite and radar transmissions._
+- [**802.11g**-2003 - (now @ 2016)](https://es.wikipedia.org/wiki/IEEE_802.11#IEEE_802.11g) **(WiFi3)** _**Evolution of ERP**: ERP-OFDM & ERP-DSSS/CCK > for higher data rates_
+- [**802.11h**-2003 - (now Clause-11.8 & 11.9 @ 2016)](https://es.wikipedia.org/wiki/IEEE_802.11#IEEE_802.11h) _**DFS, TPC**: detect & avoid interference (5 GHz satellite & radars)_
 - [**802.11i**-2004 - (now Clause-12 @ 2016)]() _**RSN Authentication** | WiFi alliance: **WPA2**_
 - [**802.11j**-2004 - (now @ 2016)]() _**Enhancing** of **802.11 MAC & 802.11a** PHY for Japanese 4.9 GHz and 5 GHz operation_
 - [**802.11k**-2008 - (now @ 2016)]() _**RRM**: TPC, client & channel stats, neighbor report | helps roaming ;)_
-- [**802.11n**-2009 - (now @ 2016)]() _**MIMO**: MIMO antenas with OFDM tech (no more multipath) & moar throughput!_
+- [**802.11n**-2009 - (now @ 2016)]() **(WiFi4)** _**MIMO**: MIMO antenas with OFDM tech (no more multipath) & moar throughput!_
 - [**802.11p**-2010 - (now @ 2016)]() _**ITS** & **WAVE** = for high-speed vehicles_
 - [**802.11r**-2008 - (now @ 2016)]() _**BSS transition (FT)** / Fast Secure Roaming | CKM, PKC, OKC, fast session resumption_
 - [**802.11s**-2011 - (now @ 2016)]() _**MPS**: AP act as portal for devices to a WDS...AKA Mesh Master Gateway ;)_
@@ -633,7 +632,7 @@ _New task groups were assembled to address potential enhancements to the 802.11 
 - [**802.11y**-2008 - (now @ 2016)]() _**DSE procedures**: Avoid interference from non-WiFi (when CSMA-CA is not enough)_
 - [**802.11z**-2010 - (now @ 2016)]() _**DLS**: allow operation with non-DLS-capable APs (not used on Enterprises)_
 - [**802.11aa**-2012 - (now @ 2016)]() _**GCR**: QoS enhancements for robust audio & video streaming_
-- [**802.11ac**-2013 - (now @ 2016)]() _**VHT**, **MU-MIMO**, **Beamforming**: Enhancements below 6 GHz (only for 5GHz) | moar ALL!_
+- [**802.11ac**-2013 - (now @ 2016)]() **(WiFi5)** _**VHT**, **MU-MIMO**, **Beamforming**: Enhancements below 6 GHz (only for 5GHz) | moar ALL!_
 - [**802.11ad**-2012 - (now @ 2016)]() _**DMG**: Uses MGWS, GCMP, CCMP | 60 GHz in WiGig Networks_
 - [**802.11ae**-2012 - (now @ 2016)]() _**QMF**: Enable QMF | Enhancements to QoS management frames_
 - [**802.11af**-2014 - (now @ 2016)]() _Allows the use of **wireless in the TV white space** (TVWS)_
@@ -652,10 +651,11 @@ _What does the future hold in store for us with 802.11 wireless networking?_
 - [802.11aj]()
 - [802.11ak]()
 - [802.11aq]()
-- [802.11ax]()
+- [802.11ax]()(WiFi6)
 - [802.11ay]()
 - [802.11az]()
 - [802.11ba]()
+- [802.11be]()(WiFi7)
 
 #### Defunct amendments
 
@@ -1339,7 +1339,9 @@ _Deep dive into the Packet / PCAP Analysis... & Sharks a lot of sharks!_
 
 
 
+### 2.4 GHz Band
 
+- [ISM band - Industrial, scientific and medical purposes](https://es.wikipedia.org/wiki/Banda_ISM)
 
 
 
