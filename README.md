@@ -421,6 +421,7 @@ _Honor a los seres humanos que han dejado huella en este hermoso mundo y han con
 - [Fyodor Vaskovich - Gordon Lyon]() _NetSec expert, creator of Nmap, Honeynet Project & Vice President of CPSR_
 - [Guido van Rossum]()
 - [Gus Rodriguez]()
+- [geohot, million75, mil, dream hax0r - George Hotz]() _Hacker, Jailbreak for iOS & PS3_
 - Gordon Moore Robert Noyce() _Intel co-founder | Moore Law_
 - [H. D. Moore](https://en.wikipedia.org/wiki/H._D._Moore) _Metasploit creator, InfoSec researcher, programmer & hacker_
 - Larry Page
@@ -561,6 +562,7 @@ The world's largest technical professional organization dedicated to advancing t
 - [IEEE: How Are Standards Made?](https://standards.ieee.org/develop/develop-standards/process/) 
 - [IEEE Standards LifeCycle: Standards > Draft > Amandments > Updated Standards](https://user-images.githubusercontent.com/94720207/194969800-ae72950b-0032-42aa-a5be-7979a5984b69.png) _Image / Table_
 - [IEEE Clause](https://user-images.githubusercontent.com/94720207/195218275-b7307b3b-a095-46e0-bc05-9f50e8a31df7.png) _Highest level of hierarchically structured doc (**7**.3.2.4)_
+- [List of IEEE "Fellows"](https://en.wikipedia.org/wiki/List_of_IEEE_fellows) _The Fellow grade is the highest level of membership at IEEE_
 
 ### IEEE 802 Standards
 
