@@ -317,7 +317,7 @@ _Para mis amigos que están empezando completamente de 0, cursa una ingeniería 
 
 - [Computadora _(Electrónica)_- Diccionario RAE](https://dle.rae.es/computador) _¿De qué tamaño es un problema visto desde Saturno?_
 - [La historia de las computadoras ¡en 2 minutos!](https://www.youtube.com/watch?v=AyT-qtwwtJY) _Todo largo camino comienza por el primer paso..._
-- [El **ábaco**](https://es.wikipedia.org/wiki/%C3%81baco#:~:text=Existen%20dos%20trabajos%20representativos%20en,extender%20el%20uso%20del%20%C3%A1baco.) _La primer calculadora / computadora en el mundo_
+- [El **ábaco**](https://es.wikipedia.org/wiki/%C3%81baco) _La primer calculadora / computadora en el mundo_
 - [La historia de la calculadora](https://www.youtube.com/watch?v=4_eD0Vlrfao) _¿Habías escuchado de Luis Pascal y Charles Charles Babbage?_
 - [¿Cómo funciona una calculadora?](https://www.youtube.com/watch?v=ZBetobLYIBo) _Calculadora = computadora "jr" ;)_
 - [¿Cómo funciona una computadora o PC? ¡en 3 minutos!](https://www.youtube.com/watch?v=oYxE3L-6-a8) _Close your eyes, I remember..._
