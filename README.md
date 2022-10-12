@@ -401,12 +401,14 @@ _Networking Lists, concepts, Tables, Models, Cheat-Sheets, Mind-Maps & Cool Reso
 _Honor a los seres humanos que han dejado huella en este hermoso mundo y han contribuido en la evolución de la raza humana..._
 
 - [List of Pioneers in Computer Science](https://en.wikipedia.org/wiki/List_of_pioneers_in_computer_science)
+- [Aaron Hillel Swartz](https://es.wikipedia.org/wiki/Aaron_Swartz) _Creative Commons dev, Reddit co-founder, dev, Internet activist_
 - [Alan Turing]()
 - Alber Einstein
 - Ada Lovelace
 - [Adrian Lamo]() _the Homeless Hacker_
 - Alan Cooper - Visual Basic creator
 - [Anakata - Gottfrid Svartholm]() _PirateBay_
+- [Barrett Brown](https://www.theguardian.com/technology/2013/mar/20/barrett-brown-anonymous-pr-federal-target) _Anonymous friend of friend..._
 - [Bill Gates]()
 - [Brian Kernighan]()
 - [brokep - Peter Sunde Kolmisoppi]() _PirateBay_
@@ -427,6 +429,7 @@ _Honor a los seres humanos que han dejado huella en este hermoso mundo y han con
 - [John Atanasoff]()
 - John Carmack
 - John Romero
+- 
 - [John McCarthy]()
 - [John von Neumann]()
 - [Julian Assange]() _Software programmer & Wikileaks founder_
@@ -440,12 +443,14 @@ _Honor a los seres humanos que han dejado huella en este hermoso mundo y han con
 - [Ray Tomlinson]()
 - [Ricardo CPP]()
 - [Robert Kahn]()  _TCP/IP protocol_
+- [Sabu - Hector Xavier Monsegur](https://es.wikipedia.org/wiki/Hector_Xavier_Monsegur) _Informatics, Back Hat Hacker & LulzSec Founder_
 - Serguéi Brin
 - [Shigeru Miyamoto]()
 - [Steve Jobs - ]()
 - [Steve Wozniak]()
 - [Stephen Hawking]()
 - [Solo - Gary McKinnon]() _Hacked NASA in search for Aliens_
+- [th3j35t3r]() _Grey Hat Hacker: PWN anti-American, jihadist & homophobic websites_
 - [TiAMO - Fredrik Neij]() _PirateBay / Hacker_
 - [Tim Berners-Lee]()
 - [Vinton Cerf]() _TCP/IP protocol_
