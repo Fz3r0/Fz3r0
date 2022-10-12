@@ -1409,8 +1409,6 @@ _Deep dive into the Packet / PCAP Analysis... & Sharks a lot of sharks!_
 
 ## 🛰️ 📶 📡 Wireless Communication & RF 📡 📶 🛰️
 
-- [Mandado por javi interactive waves!!!](https://emanim.szialab.org/index.html)
-
 ### Wireless Resources
 
 - [Iain Explains Signals, Systems, and Digital Comms](https://www.youtube.com/channel/UCrltzuSvRbL3rpsvLDnFkuQ)
@@ -1515,10 +1513,7 @@ _Deep dive into the Packet / PCAP Analysis... & Sharks a lot of sharks!_
 
 - [Logical Planes: Management, Control & Data]()
 
-
-
-
-## Radio Frequency (RF) Concepts on Wireless Networks
+## Radio Frequency (RF) Characteristics, Concepts & Behaivor
 
 - [**Radio Waves AKA Radio Signals** @ NASA](https://www.nasa.gov/directorates/heo/scan/communications/outreach/funfacts/what_are_radio_waves) _The basic building block of radio communications is a radio wave._
 - [**Electromagnetic Spectrum:** radio waves, microwaves, infrared, visible light, ultraviolet, X-rays, and gamma ray](https://en.wikipedia.org/wiki/Electromagnetic_spectrum) _Wiki_
@@ -1530,17 +1525,22 @@ frequency, same cycle, same wavelength, but are 2 or more wave forms not exactly
 ## Carrier Signals
 _Modified signals capable of distinguishing between 0s and 1s using modulation techs_
 
-### Characteristics of Radio Frequency (RF)
+### Characteristics of RF Waves
 
+- [Interactive Waves!!! :D](https://emanim.szialab.org/index.html) _clickie!_
 - [Electromagnetic (EM) Waves: Amplitude, Wavelenght, Frequency & Hertz](https://youtu.be/WOTeFceIeM8) _Sunny_
 - [**Amplitude**](https://en.wikipedia.org/wiki/Amplitude) _Height (crest) of the radio signal that it reaches while attenuating_
 - [**Wavelenght**](https://www.youtube.com/watch?v=zLmAaAx1tUQ) _Distance between the two successive crests_
+    - [Wavelenght Calculation](https://user-images.githubusercontent.com/94720207/195459856-b2949296-fca9-48c7-9f28-8e7bf7ef74e4.png) _image & 2.4 GHz / 5 Ghz Table_
+    - [Lambda (Λ λ)](https://es.wikipedia.org/wiki/%CE%9B) _Unit for Wavelenght_
 - [**Frequency**](https://www.fluke.com/en-us/learn/blog/electrical/what-is-frequency) _Number of cycles per second_
+    - [F (f)](https://en.wikipedia.org/wiki/Frequency) _Unit for Frequency_
+    - [c (c)](https://en.wikipedia.org/wiki/Speed_of_light) _Unir for speed of light_
+    - [Hertz - Hz (unit)](https://es.wikipedia.org/wiki/Hercio) _Freq is measured in Hertz (or Khz, Mhz, Ghz, etc...)_
 - [**Phase**](https://blogs.arubanetworks.com/industries/frequency-cycle-wavelength-amplitude-and-phase/#:~:text=Phase%20is%20the%20same%20frequency,that%20share%20the%20same%20frequency.) _Relationship between two waves with
 the same frequency_ 
-
-
-
+    - [Phase cancellation Technique (VHS)](http://home.iprimus.com.au/toddemslie/phase-cancellation.html)
+    - [Phase cancellation in audio](https://www.audio-technica.com/en-us/support/audio-solutions-question-of-the-week-what-is-phase-cancellation/#:~:text=Phase%20cancellation%20is%20when%20two,sound%20of%20the%20summed%20signals.) _The phase in audio is easier to understand & it's basically the same_
 
 ### Radio Modulation
 
