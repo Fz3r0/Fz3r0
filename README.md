@@ -404,16 +404,23 @@ _Honor a los seres humanos que han dejado huella en este hermoso mundo y han con
 - [Alan Turing]()
 - Alber Einstein
 - Ada Lovelace
+- [Adrian Lamo]() _the Homeless Hacker_
 - Alan Cooper - Visual Basic creator
-- [Anakata]()
+- [Anakata - Gottfrid Svartholm]() _PirateBay_
 - [Bill Gates]()
 - [Brian Kernighan]()
+- [brokep - Peter Sunde Kolmisoppi]() _PirateBay_
 - [Charles Babbage - El padre de la computadora]()
+- [Charles Ranlett Flint]() _IBM Founder_
+- [c0mrade - Jonathan James]() _Hacked the NASA for knowledge_
 - [Dennis Ritchie]()
+- [Edward Snowden]() _Technology consultor, NSA ex-employee & hacker_
 - [Guido van Rossum]()
 - [Gus Rodriguez]()
+- Gordon Moore Robert Noyce() _Intel co-founder | Moore Law_
 - Larry Page
-- 
+- [Hideo Kojima]() _TV Hideo_
+- [Jerry Sanders]() _AMD_
 - [James Gosling]()
 - [JJ Jose Juan García]()
 - [Joseph Carl Robnett Licklider]()
@@ -422,19 +429,31 @@ _Honor a los seres humanos que han dejado huella en este hermoso mundo y han con
 - John Romero
 - [John McCarthy]()
 - [John von Neumann]()
+- [Julian Assange]() _Software programmer & Wikileaks founder_
 - [Konrad Zuse]()
 - [Leonard Kleinrock]()
 - [Linus Torvalds]()
+- [Leonard Kleinrock]() _ARPANET_
 - [Luis Pascal]()
+- [Robert Morris]() _Scientist at Bell Labs & NSA_
+- [Robert Morris Jr.](https://www.youtube.com/watch?v=2QwMv0_Rkec) _The son of the leyend, became a hacker & professor at the MIT_
 - [Ray Tomlinson]()
 - [Ricardo CPP]()
+- [Robert Kahn]()  _TCP/IP protocol_
 - Serguéi Brin
 - [Shigeru Miyamoto]()
 - [Steve Jobs - ]()
 - [Steve Wozniak]()
-- Stephen Hawking
+- [Stephen Hawking]()
+- [Solo - Gary McKinnon]() _Hacked NASA in search for Aliens_
+- [TiAMO - Fredrik Neij]() _PirateBay / Hacker_
 - [Tim Berners-Lee]()
+- [Vinton Cerf]() _TCP/IP protocol_
+- 
+- 
 - [Woz]()
+
+
 
 ## 🔱 🌐 🏛️ Networking & WLAN Industry Organizations 🏛️ 🌐 🔱
 _TriForce: Create Standards | Certifies Products | Set Local Regulations_
