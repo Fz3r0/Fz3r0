@@ -582,10 +582,10 @@ The world's largest technical professional organization dedicated to advancing t
 - [802.11g-2003 - (now @ 2016)](https://es.wikipedia.org/wiki/IEEE_802.11#IEEE_802.11g) _Evolution of ERP: ERP-OFDM & ERP-DSSS/CCK > for higher data rates_
 - [802.11h-2003 - (now Clause-11.8 & 11.9 @ 2016)](https://es.wikipedia.org/wiki/IEEE_802.11#IEEE_802.11h) _DFS, TPC: detect & avoid interference with 5 GHz satellite and radar transmissions._
 - [802.11i-2004 - (now Clause-12 @ 2016)]() _Robust security network (**RSN**) Authentication | AKA WiFi alliance: WPA2_
-- [802.11j-2004]()
-- [802.11k-2008]
-- [802.11n-2009]
-- [802.11p-2010]
+- [802.11j-2004 - (now @ 2016)]() _Enhancing of 802.11 MAC & 802.11a PHY for Japanese 4.9 GHz and 5 GHz operation_
+- [802.11k-2008 - (now @ 2016)]() _RRM (radio resource measurement): TPC, client & channel stats, neighbor report | helps roaming ;)_
+- [802.11n-2009 - (now @ 2016)]() _moar throughput!!! | MIMO antenas with OFDM tech (no more multipath)_
+- [802.11p-2010 - (now @ 2016)]() _Intelligent Transportation System (ITS or WAVE) for high-speed vehicles_
 - [802.11r-2008]
 - [802.11s-2011]
 - [802.11u-2011]
