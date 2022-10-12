@@ -1513,7 +1513,7 @@ _Deep dive into the Packet / PCAP Analysis... & Sharks a lot of sharks!_
 
 - [Logical Planes: Management, Control & Data]()
 
-## Radio Frequency (RF) Characteristics, Concepts & Behaivor
+## Radio Frequency (RF) Characteristics: Spectrum
 
 - [**Radio Waves AKA Radio Signals** @ NASA](https://www.nasa.gov/directorates/heo/scan/communications/outreach/funfacts/what_are_radio_waves) _The basic building block of radio communications is a radio wave._
 - [**Electromagnetic Spectrum:** radio waves, microwaves, infrared, visible light, ultraviolet, X-rays, and gamma ray](https://en.wikipedia.org/wiki/Electromagnetic_spectrum) _Wiki_
@@ -1521,15 +1521,17 @@ _Deep dive into the Packet / PCAP Analysis... & Sharks a lot of sharks!_
 - [**Electromagnetic Spectrum:**](https://youtu.be/1JpwDaOHppA) _Sunny_
 - [**Radio Spectrum**](https://en.wikipedia.org/wiki/Radio_spectrum) _The radio spectrum is the part of the electromagnetic spectrum with frequencies from 0 Hz to 3,000 GHz(3 THz)._
 frequency, same cycle, same wavelength, but are 2 or more wave forms not exactly aligned together._
-- [Carrier Signal AKA Carrier Wave](https://networkencyclopedia.com/carrier-signal/)
 
 ## Carrier Signals
 _Modified signals capable of distinguishing between 0s and 1s using modulation techs_
 
+- [Interactive Waves!!! :D](https://emanim.szialab.org/index.html) _clickie!_
+- [Carrier Signal AKA Carrier Wave](https://networkencyclopedia.com/carrier-signal/)
+- [Electromagnetic (EM) Waves: Amplitude, Wavelenght, Frequency & Hertz](https://youtu.be/WOTeFceIeM8) _@ Sunny_
+- [Full Radio Concepts: Phase, Amplitude, Wavelenght & Frequency > CWNA in a nutshell](https://yatebts.com/documentation/concepts/radio-waves/radio-concepts/) _@ yatebts_
+
 ### Characteristics of RF Waves
 
-- [Interactive Waves!!! :D](https://emanim.szialab.org/index.html) _clickie!_
-- [Electromagnetic (EM) Waves: Amplitude, Wavelenght, Frequency & Hertz](https://youtu.be/WOTeFceIeM8) _Sunny_
 - [**Amplitude**](https://en.wikipedia.org/wiki/Amplitude) _Height (crest) of the radio signal that it reaches while attenuating_
 - [**Wavelenght**](https://www.youtube.com/watch?v=zLmAaAx1tUQ) _Distance between the two successive crests_
     - [Wavelenght Calculation](https://user-images.githubusercontent.com/94720207/195459856-b2949296-fca9-48c7-9f28-8e7bf7ef74e4.png) _image & 2.4 GHz / 5 Ghz Table_
@@ -1546,10 +1548,13 @@ the same frequency_
 ## RF Behaivior
 
 - [RF Behaivior](https://www.billdeitrick.com/cwna-chapter-2-rf-characteristics-and-behaviors/)
+- [**Wi-Fi** signals: **reflection, absorption, diffraction, scattering, & interference**](https://youtu.be/UxDdwGhSf4o) _@ Sunny_
 
 ### Gain
 
 - [**Gain**: Amplification, Active gain, PAssive Gain](https://www.billdeitrick.com/cwna-chapter-2-rf-characteristics-and-behaviors/)
+- [**RF Gain & Loss:** Active Gain VS Passive Gain Devices](https://www.youtube.com/watch?v=ZY3MhaIh9c8)
+- [**Gain** Example in a Qualcomm Wireless device](https://patents.google.com/patent/US7430406B2/en)
 
 ### Loss
 
@@ -1596,11 +1601,12 @@ _Dense materials absorb energy & weaken the signal_
 
 - [Interference (Corruption)](https://user-images.githubusercontent.com/94720207/195463161-26bc550b-ac9d-46a6-87de-b2fec18b82d4.png) _Image_
 
-
-
 ### More RF Behaivors
 
 - [More RF Behaivors](https://www.billdeitrick.com/cwna-chapter-2-rf-characteristics-and-behaviors/)
+
+## RF Propagation
+
 
 
 
@@ -1655,7 +1661,7 @@ _The sum of Amplitude + Phase modulation = The king of modulations_
 - [Inside Wireless Español: QAM Modulation pt.2: Modulador QAM](https://youtu.be/-WAWX046p0o)
 - [Constellation_Diagram](https://en.wikipedia.org/wiki/Constellation_diagram) _Representation of a signal modulated by a digital modulation scheme_
 
-
+       
 
 
 
@@ -1675,15 +1681,8 @@ U-NII bands
 
 
 
-
-
-
-
-
-
-
-
-
+- [Wifi Bands 2.4 Ghz VS 5 Ghz](https://help.datto.com/s/article/KB115005589863#:~:text=The%20recommended%20channels%20to%20use,less%20performant%20than%205%20Ghz.) _Easiest and shortest explanation for kids who like to hack_
+- [**GET GUD IN 5 MINS! pt5**: **WiFi - 2.4 GHz band VS 5 GHz band**](https://youtu.be/QlJnZFeKIRA)
 
 
 
@@ -1695,7 +1694,7 @@ U-NII bands
 
 
 
-- [Full Radio Concepts: Phase, Amplitude, Wavelenght & Frequency > CWNA in a nutshell](https://yatebts.com/documentation/concepts/radio-waves/radio-concepts/)
+
 
 
 
@@ -1707,15 +1706,15 @@ U-NII bands
 - Wireless LAN (WLAN) most important concepts:
     
     - [**GET GUD IN 5 MINS! pt1**: **WLAN** two **modes**: **Ad Hoc** (peer-to-peer between devices) VS **Infraestructure** (Centralized using APs)](https://youtu.be/SLSOZokbFfM)
-    - [**GET GUD IN 5 MINS! pt2** **Wi-Fi** signals: **reflection, absorption, diffraction, scattering, and interference** (falta Multipath) @ Sunny](https://youtu.be/UxDdwGhSf4o)     
+      
     - [**GET GUD IN 5 MINS! pt3**:**WLAN** Devices & Concepts: **AP, BSS, BSSID, SSID, ESS** & **ESSID** @ Sunny](https://www.youtube.com/watch?v=3lvIXXAdLR4&list=PLSNNzog5eydvJG48PYnWnNY7-tQIfxTRb&index=5)  
     - [**GET GUD IN 5 MINS! pt4**: **Wireless Association: Active Scanning VS Passive Scanning & Roaming**](https://www.youtube.com/watch?v=HPJonmd8z1c&list=PLSNNzog5eydvJG48PYnWnNY7-tQIfxTRb&index=6)
-    - [**GET GUD IN 5 MINS! pt5**: **WiFi - 2.4 GHz band VS 5 GHz band**](https://youtu.be/QlJnZFeKIRA)
+
     - [Layer2 Access Points / Base Stations (AP or WAP) & Wireless Routers/Gateways (Home "modems")]() 
    
-    - [RF Behaivours - Mulitpath fenomen + reflection, absorption, diffraction, scattering, and interference]()
+
     - [RSSI and Ruckus dbm Standards for Ruckus WiFi Solutions](https://www.youtube.com/watch?v=j_cEmPJFftM)
-    - [Wifi Bands 2.4 Ghz VS 5 Ghz](https://help.datto.com/s/article/KB115005589863#:~:text=The%20recommended%20channels%20to%20use,less%20performant%20than%205%20Ghz.) _Easiest and shortest explanation for kids who like to hack_
+    
 
 ### Wireless Power Measurment
 
@@ -1809,8 +1808,7 @@ GTHillWiFi](https://youtu.be/RNv1AnSfdmY)
 
     - Important Functions of Wireless Devices
     
-        - [**RF Gain & Loss:** Active Gain VS Passive Gain Devices](https://www.youtube.com/watch?v=ZY3MhaIh9c8)
-        - [**Gain** Example in a Qualcomm Wireless device](https://patents.google.com/patent/US7430406B2/en)
+
 
     - Components of RF Communications
     
