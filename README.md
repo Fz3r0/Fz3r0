@@ -2000,6 +2000,12 @@ _Horizon alternitatis systema sephiroticvm X divino rvm nominvm._ <br>
 
 
 
+
+
+
+
+
+
 - [EVA IV - Radio Frequency Components, Measurements, and Mathematics]()
 
     - [Components of RF Communications]()
@@ -2009,6 +2015,16 @@ _Horizon alternitatis systema sephiroticvm X divino rvm nominvm._ <br>
         - [Receiver]()
         - [Intentional Radiator]()
         - [Equivalent Isotropically Radiated Power]()
+
+
+
+
+
+
+
+
+
+
 
     - [Units of Power and Comparison]()
 
