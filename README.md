@@ -531,6 +531,7 @@ The world's largest technical professional organization dedicated to advancing t
 - [Become a member of the IEEE! :D](https://www.ieee.org/membership/join/index.html) _$160 USD_
 - [IEEE: How Are Standards Made?](https://standards.ieee.org/develop/develop-standards/process/) 
 - [IEEE Standards LifeCycle: Standards > Draft > Amandments > Updated Standards](https://user-images.githubusercontent.com/94720207/194969800-ae72950b-0032-42aa-a5be-7979a5984b69.png) _Image / Table_
+- [IEEE Clause](https://user-images.githubusercontent.com/94720207/195218275-b7307b3b-a095-46e0-bc05-9f50e8a31df7.png) _Highest level of hierarchically structured doc (**7**.3.2.4)_
 
 ### IEEE 802 Standards
 
@@ -542,7 +543,7 @@ The world's largest technical professional organization dedicated to advancing t
 
 - [**IEEE 802.1 Standards** - **LAN, MAN to WAN Internetworking & Management**](https://en.wikipedia.org/wiki/IEEE_802.1)
 
-### IEEE 802.1 Standards** - Well Known Current Standards:
+#### IEEE 802.1 Standards** - Well Known Current Standards:
 
 - [**802.1Q - 2018** - Bridges and Bridged Networks]() _Trunks ot Tagged Ports dot1q_
 - [**802.1X - 2020** - Port-Based Network Access Control / Authentication]() _Pro % Secure Authentication (AAA)_
@@ -562,12 +563,69 @@ The world's largest technical professional organization dedicated to advancing t
 ### IEEE 802.11 Specification & Amandments
 
 - [**IEEE 802.11 Wireless** Standards @ Wikipedia](https://en.wikipedia.org/wiki/IEEE_802.11) _MAC and PHY protocols for implementing **WLAN** communication_
+- [Quick Guide to IEEE 802.11 Activities](https://www.ieee802.org/11/QuickGuide_IEEE_802_WG_and_Activities.htm)
+- [IEEE Get PRogram](https://standards.ieee.org/products-programs/ieee-get-program/) _IEEE Membershio $$$_
 - [802.11 Standards: **Timeline from 1997 to now!**](https://wifivitae.com/wp-content/uploads/2021/11/802.11-timeline.png) _Updated 2022_
-- [**802.11-1997** AKA 802.11 Prime](https://standards.ieee.org/ieee/802.11/1163/) _1st 802.11!!!_
+- [**802.11-1997** AKA 802.11 "Prime" or "Original" or "Legacy"](https://standards.ieee.org/ieee/802.11/1163/) _1st 802.11!!!_
 - [**802.11-2016** AKA 802.11 Actual](https://standards.ieee.org/ieee/802.11/1163/) _Last update (2022)!!!_
 - [**ALL** IEEE 802.11 Standard and Amendments - Current, Draft, Withdrawn & Transferred](https://wifiwizardofoz.com/802-11-standard-and-amendments/) _Complete List!_
+- [Original 802.11 amendments comparison](https://user-images.githubusercontent.com/94720207/195222873-c469f358-fd56-489a-91a1-3fedcad650b7.png) _Table_
+
+
+#### IEEE 802.11-2016 Ratified Amendments
+
+- [_802.11-1997 Prime_(Obsolete)](https://en.wikipedia.org/wiki/IEEE_802.11#802.11-1997_(802.11_legacy)) _IR, FHSS, DSSS_
+- [802.11a-1999 - (now c-17 @ 2016)](https://es.wikipedia.org/wiki/IEEE_802.11#IEEE_802.11a) _OFDM (due 5GHz) on U-NII band | no communication with legacy tech_
+- [802.11b-1999 - (now PBCC & **Removed**)](https://es.wikipedia.org/wiki/IEEE_802.11#IEEE_802.11b) _HR-DSSS (higher data rates within the 2.4GHz ISM band)_
+- [802.11d-2001 - (now @ 2016)](https://es.wikipedia.org/wiki/IEEE_802.11#IEEE_802.11d) _Country code Information on Beacons & Probes_
+- [802.11e-2005 - (now QoS & 2016)](https://es.wikipedia.org/wiki/IEEE_802.11#IEEE_802.11e) _Voice over Wireless LAN (VoWLAN) (QoS Grandpa),(WiFi cert WMM Grandpa')_
+- [802.11g-2003 - (now @ 2016)](https://es.wikipedia.org/wiki/IEEE_802.11#IEEE_802.11g) _Evolution of ERP: ERP-OFDM & ERP-DSSS/CCK > for higher data rates_
+- [802.11h-2003](https://es.wikipedia.org/wiki/IEEE_802.11#IEEE_802.11h) _DFS, TPC: detect & avoid interference with 5 GHz satellite and radar transmissions._
+- [802.11i-2004]
+- [802.11j-2004]
+- [802.11k-2008]
+- [802.11n-2009]
+- [802.11p-2010]
+- [802.11r-2008]
+- [802.11s-2011]
+- [802.11u-2011]
+- [802.11v-2011]
+- [802.11w-2009]
+- [802.11y-2008]
+- [802.11z-2010]
+- [802.11aa-2012]
+- [802.11ac-2013]
+- [802.11ad-2012]
+- [802.11ae-2012]
+- [802.11af-2014]
+
+#### Post 802.11-2016 ratified amendments
+
+802.11ah
+802.11ai
+
+#### IEEE 802.11 draft amendments
+
+802.11aj
+802.11ak
+802.11aq
+802.11ax
+802.11ay
+802.11az
+802.11ba
+
+#### Defunct amendments
+
+802.11F
+802.11T
+
+#### IEEE Task Group m
+
+- [IEEE Taks Groups - That's why 802.11 xx (alphabet soup)](https://user-images.githubusercontent.com/94720207/195217557-18ad2d37-d9da-47d1-8573-6323bbedd1dd.png) _802.11 alphabet soup_
 
 ### Wi-Fi Alliance: WiFi Generations as IEEE 802.11 
+
+- []()
 
 - [**Wi-Fi 0 - 802.11** - 1997](https://en.wikipedia.org/wiki/IEEE_802.11_(legacy_mode)) _2.4 GHz_
 - [**Wi-Fi 1 - 802.11b** - 1999](https://en.wikipedia.org/wiki/IEEE_802.11b-1999) _2.4 GHz_
@@ -1454,7 +1512,7 @@ _Method of manipulating a signal (modulation) so that it can represent multiple 
 
 
 
-
+U-NII bands
 
 
 
