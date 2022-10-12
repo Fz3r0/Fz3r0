@@ -520,10 +520,10 @@ _The premier Internet standards body concerned for Internet architecture and the
 - [**RFC 793 - 1981: TCP** (Transmission Control Protocol)](https://www.ietf.org/rfc/rfc793.txt)
 - [**RFC 791 - 1981: IP** (Internet Protocol)](https://www.ietf.org/rfc/rfc791.txt)
 
-## 📝 👷 🏰 IEEE Standards 🏰 👷 📝
+## 📝 👷 🏰 IEEE: Institute of Electrical and Electronics Engineers 🏰 👷 📝
 The world's largest technical professional organization dedicated to advancing technology for the benefit of humanity.
 
-### IEEE: Institute of Electrical and Electronics Engineers
+### IEEE & IEEE Standards
 
 - [IEEE - Official Web](https://www.ieee.org/)
 - [IEEE @ Wikipedia](https://es.wikipedia.org/wiki/Institute_of_Electrical_and_Electronics_Engineers) _Wiki_
@@ -539,6 +539,8 @@ The world's largest technical professional organization dedicated to advancing t
 - [**IEEE 802** @ IEEE Standard Association](https://standards.ieee.org/featured/ieee-802/#:~:text=The%20most%20widely%20used%20IEEE,providing%20focus%20for%20each%20area.) _Official IEEE Web_
 - [IEEE Nomenclature: Standard & Amandments Differneces easy!](https://user-images.githubusercontent.com/94720207/194970624-37df80fc-2572-46fb-9746-5800f6266f5f.png) _Pic_
 
+---
+
 ### IEEE 802.1 Specification & Amandments
 
 - [**IEEE 802.1 Standards** - **LAN, MAN to WAN Internetworking & Management**](https://en.wikipedia.org/wiki/IEEE_802.1)
@@ -551,6 +553,8 @@ The world's largest technical professional organization dedicated to advancing t
 - [**802.1AC - 2016** - Media Access Control **MAC** Services Definition ]() _MAC Address_
 - [**802.1AX - 2020** - Link Aggregation / LAG / EtherChannel]() _EtherChannel & LAGs_
 
+---
+
 ### IEEE 802.3 Specification & Amandments
  
 - [**IEEE 802.3 Ethernet Management** Standards](https://en.wikipedia.org/wiki/IEEE_802.3) _Specifies the set of MAC and PHY protocols for implementing **LAN** communication_
@@ -559,6 +563,8 @@ The world's largest technical professional organization dedicated to advancing t
     - [802.3ad - Link aggregation for parallel links, since moved to IEEE 802.1AX]() _Open standard (Etherchannel is from Cisco)_
     - [802.3ae - 10 Gigabit Ethernet over fiber 10GBASE-SR/LR/ER/SW/LW/EW](https://en.wikipedia.org/wiki/10_Gigabit_Ethernet)
     - [802.3af - Power over Ethernet (PoE 15.4 W)]()
+
+---
 
 ### IEEE 802.11 Specification & Amandments
 
@@ -589,62 +595,49 @@ The world's largest technical professional organization dedicated to advancing t
 - [802.11r-2008 - (now @ 2016)]() _BSS transition (FT) / Fast Secure Roaming | CKM, PKC, OKC, fast session resumption_
 - [802.11s-2011 - (now @ 2016)]() _AP act as portal (MPS) for devices to a WDS...AKA Mesh Master Gateway ;)_
 - [802.11u-2011- (now @ 2016)]() _WIEN: Wireless Interworking with External Networks | Hotspot 2.0, Passpoint & BYOD_
-- [802.11v-2011]
-- [802.11w-2009]
-- [802.11y-2008]
-- [802.11z-2010]
-- [802.11aa-2012]
-- [802.11ac-2013]
-- [802.11ad-2012]
-- [802.11ae-2012]
-- [802.11af-2014]
+- [802.11v-2011]()
+- [802.11w-2009]()
+- [802.11y-2008]()
+- [802.11z-2010]()
+- [802.11aa-2012]()
+- [802.11ac-2013]()
+- [802.11ad-2012]()
+- [802.11ae-2012]()
+- [802.11af-2014]()
 
 #### Post 802.11-2016 ratified amendments
 
-802.11ah
-802.11ai
+- [802.11ah]()
+- [802.11ai]()
 
 #### IEEE 802.11 draft amendments
 
-802.11aj
-802.11ak
-802.11aq
-802.11ax
-802.11ay
-802.11az
-802.11ba
+- [802.11aj]()
+- [802.11ak]()
+- [802.11aq]()
+- [802.11ax]()
+- [802.11ay]()
+- [802.11az]()
+- [802.11ba]()
 
 #### Defunct amendments
 
-802.11F
-802.11T
+- [802.11F]()
+- [802.11T]()
 
 #### IEEE Task Group m
 
 - [IEEE Taks Groups - That's why 802.11 xx (alphabet soup)](https://user-images.githubusercontent.com/94720207/195217557-18ad2d37-d9da-47d1-8573-6323bbedd1dd.png) _802.11 alphabet soup_
 
-### Wi-Fi Alliance: WiFi Generations as IEEE 802.11 
-
-- []()
-
-- [**Wi-Fi 0 - 802.11** - 1997](https://en.wikipedia.org/wiki/IEEE_802.11_(legacy_mode)) _2.4 GHz_
-- [**Wi-Fi 1 - 802.11b** - 1999](https://en.wikipedia.org/wiki/IEEE_802.11b-1999) _2.4 GHz_
-- [**Wi-Fi 2 - 802.11a** - 1999](https://en.wikipedia.org/wiki/IEEE_802.11a-1999) _2.4 & 5 GHz_
-- [**Wi-Fi 3 - 802.11g** - 2003](https://en.wikipedia.org/wiki/IEEE_802.11g-2003) _2.4 GHz_
-- [**Wi-Fi 4 - 802.11n** - 2008](https://en.wikipedia.org/wiki/IEEE_802.11n-2009) _2.4 & 5 GHz_
-- [**Wi-Fi 5 - 802.11ac** - 2014](https://en.wikipedia.org/wiki/IEEE_802.11ac-2013) _5 GHz_
-- [**Wi-Fi 6 (& 6E) - 802.11ax** - 2019 & 2020](https://en.wikipedia.org/wiki/Wi-Fi_6) _2.4 & 5 GHz | 2.4, 5 & 6 GHz_
-- [**Wi-Fi 7 - 802.11be** - TBA...](https://en.wikipedia.org/wiki/IEEE_802.11be) _2.4, 5 & 6 GHz__
-
-### IEEE 802.1 Standards** - Well Known Current Standards: 
 
 
 
-### Never for
 
-- 802.11ah
-- 802.11ax
-- 802.11ac
+
+
+
+
+
 
     - [Estándar IEEE 802.11 / WiFi: **Estándar y Regulaciones** @ **Sama WiFi**](https://youtu.be/DWO9_37tGNM) _IEEE, WiFi Alliance, FCC_
     
@@ -682,6 +675,17 @@ _Eensure the interoperability of WLAN products by providing certification testin
 - [WiFi Alliance Certificate Example](https://github.com/Fz3r0/Fz3r0/files/9758962/WFA121369.PlayStation5.pdf)
 - [WiFi Alliance: Product Finder](https://www.wi-fi.org/product-finder)
 - [WiFi Alliance: Certification Procedure](https://www.wi-fi.org/download.php?file=/sites/default/files/private/Wi-Fi_Alliance_Certification_Process_Overview_v3.6.pdf)
+
+### Wi-Fi Alliance: WiFi Generations | Mirror IEEE 802.11 
+
+- [**Wi-Fi 0 - 802.11** - 1997](https://en.wikipedia.org/wiki/IEEE_802.11_(legacy_mode)) _2.4 GHz_
+- [**Wi-Fi 1 - 802.11b** - 1999](https://en.wikipedia.org/wiki/IEEE_802.11b-1999) _2.4 GHz_
+- [**Wi-Fi 2 - 802.11a** - 1999](https://en.wikipedia.org/wiki/IEEE_802.11a-1999) _2.4 & 5 GHz_
+- [**Wi-Fi 3 - 802.11g** - 2003](https://en.wikipedia.org/wiki/IEEE_802.11g-2003) _2.4 GHz_
+- [**Wi-Fi 4 - 802.11n** - 2008](https://en.wikipedia.org/wiki/IEEE_802.11n-2009) _2.4 & 5 GHz_
+- [**Wi-Fi 5 - 802.11ac** - 2014](https://en.wikipedia.org/wiki/IEEE_802.11ac-2013) _5 GHz_
+- [**Wi-Fi 6 (& 6E) - 802.11ax** - 2019 & 2020](https://en.wikipedia.org/wiki/Wi-Fi_6) _2.4 & 5 GHz | 2.4, 5 & 6 GHz_
+- [**Wi-Fi 7 - 802.11be** - TBA...](https://en.wikipedia.org/wiki/IEEE_802.11be) _2.4, 5 & 6 GHz_
 
 ### WiFi Alliance Certifications
 
