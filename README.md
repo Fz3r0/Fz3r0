@@ -487,6 +487,7 @@ _Responsible for many matters related to ITC. "Committed to connecting the world
 ### ITU-R - Radiocommunication Sector
 _A global hierarchy exists for management of the RF spectrum worldwide on land, sea, and in the skies_
 
+- [ITU Members connect the world!](https://www.youtube.com/watch?v=EBPiWhp4KG4) _@ ITU youtube_
 - [ITU- R - Official Web](https://www.itu.int/es/ITU-R/Pages/default.aspx) _One of the three sectors (divisions) of the ITU_
 - [ITU- R - Radiocommunication Sector @ Wikipedia](https://en.wikipedia.org/wiki/ITU-R)
 
@@ -1396,6 +1397,10 @@ _Deep dive into the Packet / PCAP Analysis... & Sharks a lot of sharks!_
 ## 🛰️ 📶 📡 Wireless Communication & RF 📡 📶 🛰️
 
 - [Mandado por javi interactive waves!!!](https://emanim.szialab.org/index.html)
+
+### Wireless Resources
+
+- [Iain Explains Signals, Systems, and Digital Comms](https://www.youtube.com/channel/UCrltzuSvRbL3rpsvLDnFkuQ)
 
 ### WiFi & Wireless Courses
 
