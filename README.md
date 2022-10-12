@@ -575,14 +575,14 @@ The world's largest technical professional organization dedicated to advancing t
 #### IEEE 802.11-2016 Ratified Amendments
 
 - [_802.11-1997 Prime_(Obsolete)](https://en.wikipedia.org/wiki/IEEE_802.11#802.11-1997_(802.11_legacy)) _IR, FHSS, DSSS_
-- [802.11a-1999 - (now c-17 @ 2016)](https://es.wikipedia.org/wiki/IEEE_802.11#IEEE_802.11a) _OFDM (due 5GHz) on U-NII band | no communication with legacy tech_
+- [802.11a-1999 - (now Clause-17 @ 2016)](https://es.wikipedia.org/wiki/IEEE_802.11#IEEE_802.11a) _OFDM (due 5GHz) on U-NII band | no communication with legacy tech_
 - [802.11b-1999 - (now PBCC & **Removed**)](https://es.wikipedia.org/wiki/IEEE_802.11#IEEE_802.11b) _HR-DSSS (higher data rates within the 2.4GHz ISM band)_
 - [802.11d-2001 - (now @ 2016)](https://es.wikipedia.org/wiki/IEEE_802.11#IEEE_802.11d) _Country code Information on Beacons & Probes_
 - [802.11e-2005 - (now QoS & 2016)](https://es.wikipedia.org/wiki/IEEE_802.11#IEEE_802.11e) _Voice over Wireless LAN (VoWLAN) (QoS Grandpa),(WiFi cert WMM Grandpa')_
 - [802.11g-2003 - (now @ 2016)](https://es.wikipedia.org/wiki/IEEE_802.11#IEEE_802.11g) _Evolution of ERP: ERP-OFDM & ERP-DSSS/CCK > for higher data rates_
-- [802.11h-2003](https://es.wikipedia.org/wiki/IEEE_802.11#IEEE_802.11h) _DFS, TPC: detect & avoid interference with 5 GHz satellite and radar transmissions._
-- [802.11i-2004]
-- [802.11j-2004]
+- [802.11h-2003 - (now Clause-11.8 & 11.9 @ 2016)](https://es.wikipedia.org/wiki/IEEE_802.11#IEEE_802.11h) _DFS, TPC: detect & avoid interference with 5 GHz satellite and radar transmissions._
+- [802.11i-2004 - (now Clause-12 @ 2016)]() _Robust security network (**RSN**) Authentication | AKA WiFi alliance: WPA2_
+- [802.11j-2004]()
 - [802.11k-2008]
 - [802.11n-2009]
 - [802.11p-2010]
