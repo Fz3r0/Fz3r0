@@ -1513,8 +1513,10 @@ _Deep dive into the Packet / PCAP Analysis... & Sharks a lot of sharks!_
 
 - [Logical Planes: Management, Control & Data]()
 
-## Radio Frequency (RF) Characteristics: Spectrum
+## Radio Frequency (RF) Characteristics: Rf & Spectrum
 
+- [Radio Frequency (RF, rf)](https://www.techtarget.com/searchnetworking/definition/radio-frequency)
+- [How Transmitting and Receiving Antenna works: From AC > to Antenna > to Air > to Antenna > to AC](https://ctrfantennasinc.com/how-transmitting-and-receiving-antenna-works/)
 - [**Radio Waves AKA Radio Signals** @ NASA](https://www.nasa.gov/directorates/heo/scan/communications/outreach/funfacts/what_are_radio_waves) _The basic building block of radio communications is a radio wave._
 - [**Electromagnetic Spectrum:** radio waves, microwaves, infrared, visible light, ultraviolet, X-rays, and gamma ray](https://en.wikipedia.org/wiki/Electromagnetic_spectrum) _Wiki_
 - [Electromagnetic Spectrum: good image!](https://user-images.githubusercontent.com/94720207/195462038-5b8653a8-b410-4b95-b478-94ff5fbe29f3.png) _Picture_
@@ -1660,7 +1662,8 @@ _Dense materials absorb energy & weaken the signal_
 
 
 
-
+    - [Diferencias entre: WiFi4, WiFi5 & Wifi6](https://www.youtube.com/watch?v=P_nCjxi9Egc)
+        - [Tabla de comparación 802.11n VS 802.11a VS 802.11ax](https://user-images.githubusercontent.com/94720207/179373976-9e06f543-283a-4ecb-a623-7e9b71a5d64b.png)
 
 
 
@@ -1699,27 +1702,60 @@ _Method of manipulating a signal (modulation) so that it can represent multiple 
 ### QAM - Quadrature Amplitude Modulation
 _The sum of Amplitude + Phase modulation = The king of modulations_
 
+- [Binary PSK (BPSK) & Quadrature PSK (QPSK)](https://www.youtube.com/watch?v=O3-L9tvTvGg) _@ Engineering Made Easy_
 - [QAM Modulation: The king of Coding Capacity](https://www.youtube.com/watch?v=efJRXQp9Ufk) _The sum of Amplitude + Phase modulation_
 - [Inside Wireless Español: QAM Modulation pt.1](https://www.youtube.com/watch?v=efJRXQp9Ufk)
 - [Inside Wireless Español: QAM Modulation pt.2: Modulador QAM](https://youtu.be/-WAWX046p0o)
 - [Constellation_Diagram](https://en.wikipedia.org/wiki/Constellation_diagram) _Representation of a signal modulated by a digital modulation scheme_
+- [QAM modulation constelation - **push more data throught the networks using same space & time**](https://user-images.githubusercontent.com/94720207/195467426-6c6be513-5499-4bfd-babf-9700a3a880e3.png) _Image_
 
-       
-       
-       
-       
-       
-       
-       
-       
-### Radio Modulation
+### Radio AM/FM Modulation
 
-- [AM vs FM - Radio Modulation](https://youtu.be/I0jdIvwkiDI)
+- [AM vs FM - Radio Modulation](https://youtu.be/I0jdIvwkiDI) _The oldschool modulation of Freq & Amplitude_
+
+## RF Mathematics & Measurments
+
+- [RF MAths Fast & Furious](https://youtu.be/RNv1AnSfdmY) _@ GTHillWiFi_
 
 
-U-NII bands
 
 
+
+
+
+    - Units of Measurments (Power & Comparison)
+    
+        - Units of power (absolute)
+        
+            - [watt **(W)**](https://en.wikipedia.org/wiki/Watt)  
+            - [milliwatt **(mW)** - watt to milliwatt calculator](https://www.rapidtables.com/convert/power/mW_to_Watt.html)
+            - [Decibels Relative to 1 mW **(dBm)**]()
+
+        - Units of omparison (relative)
+
+            - [decibel **(dB)**]()
+            - [Decibels Relative to an isotropic radiator **(dBi)*]()
+            - [Decibels Relative to a half-wave dipole antenna **(dBd)**]()
+        
+        - Mathematics
+        
+            - [CWNA Mathematics Resume Notes (bottom)](https://sites.google.com/site/802dot11study/ch3/notes)  
+            - [Inside Wireless en Español: Presupuesto de Enlace - Prx > Gtx / Ptx](https://www.youtube.com/watch?v=dj82XrhfoWA)
+
+[Wireless WLAN Troubleshooting & Ass-Savers]()
+
+- [Wi-Fi Troubleshooting Tips and Tricks | Ekahau Webinar](https://www.youtube.com/watch?v=5NeuTT_-Q9o)
+- [Ruckus WiFi Godlike 10 min ass-savers](https://www.youtube.com/watch?v=7NATyF0LCIU&t=292s))
+
+
+### Wireless Power Measurment
+
+
+
+- [Power Measurement Fundamentals - Tx | Rx | IR | EIRP @ 
+GTHillWiFi](https://youtu.be/mvFXoO0Z3Jc) _La mejor epxlicación de IR & EIRP_
+- [Advanced Power Measurement @ 
+GTHillWiFi ](https://youtu.be/E8IfwCzgKas) _La mejor epxlicación de db y milliwatts y cómo calcular medidas relativas_
 
 
 
@@ -1768,20 +1804,14 @@ U-NII bands
     - [RSSI and Ruckus dbm Standards for Ruckus WiFi Solutions](https://www.youtube.com/watch?v=j_cEmPJFftM)
     
 
-### Wireless Power Measurment
 
-- [Power Measurement Fundamentals - Tx | Rx | IR | EIRP @ 
-GTHillWiFi](https://youtu.be/mvFXoO0Z3Jc) _La mejor epxlicación de IR & EIRP_
-- [Advanced Power Measurement @ 
-GTHillWiFi ](https://youtu.be/E8IfwCzgKas) _La mejor epxlicación de db y milliwatts y cómo calcular medidas relativas_
+
+
+U-NII bands
 
 
 
 
-
-
-
-## RF Maths
 
 
 
@@ -1789,16 +1819,12 @@ GTHillWiFi ](https://youtu.be/E8IfwCzgKas) _La mejor epxlicación de db y milliw
 
 
 
-- [RF MAths Fast & Furious @ 
-GTHillWiFi](https://youtu.be/RNv1AnSfdmY)
+
 
 - **WiFi** 
 
-    - [Diferencias entre: WiFi4, WiFi5 & Wifi6](https://www.youtube.com/watch?v=P_nCjxi9Egc)
-        - [Tabla de comparación 802.11n VS 802.11a VS 802.11ax](https://user-images.githubusercontent.com/94720207/179373976-9e06f543-283a-4ecb-a623-7e9b71a5d64b.png)
-        - [Wifi4 802.11n (2009)]()
-        - [Wifi5 802.11ac (2013)](https://es.wikipedia.org/wiki/IEEE_802.11ac)
-        - [Wifi6 802.11ax (2019)]()
+
+
     
 
 
@@ -1809,10 +1835,7 @@ GTHillWiFi](https://youtu.be/RNv1AnSfdmY)
 
 
 
-- Radio Frequency (RF) in a nutshell
 
-    - [Radio Frequency (RF, rf)](https://www.techtarget.com/searchnetworking/definition/radio-frequency)
-    - [How Transmitting and Receiving Antenna works: From AC > to Antenna > to Air > to Antenna > to AC](https://ctrfantennasinc.com/how-transmitting-and-receiving-antenna-works/)
 
 
 
@@ -1872,29 +1895,21 @@ GTHillWiFi](https://youtu.be/RNv1AnSfdmY)
         - [Intentional Radiator (IR)]()
         - [Equivalent isotropically radiated power (EIRP)]()
     
-    - Units of Measurments (Power & Comparison)
-    
-        - Units of power (absolute)
-        
-            - [watt **(W)**](https://en.wikipedia.org/wiki/Watt)  
-            - [milliwatt **(mW)** - watt to milliwatt calculator](https://www.rapidtables.com/convert/power/mW_to_Watt.html)
-            - [Decibels Relative to 1 mW **(dBm)**]()
 
-        - Units of omparison (relative)
 
-            - [decibel **(dB)**]()
-            - [Decibels Relative to an isotropic radiator **(dBi)*]()
-            - [Decibels Relative to a half-wave dipole antenna **(dBd)**]()
-        
-        - Mathematics
-        
-            - [CWNA Mathematics Resume Notes (bottom)](https://sites.google.com/site/802dot11study/ch3/notes)  
-            - [Inside Wireless en Español: Presupuesto de Enlace - Prx > Gtx / Ptx](https://www.youtube.com/watch?v=dj82XrhfoWA)
 
-[Wireless WLAN Troubleshooting & Ass-Savers]()
 
-- [Wi-Fi Troubleshooting Tips and Tricks | Ekahau Webinar](https://www.youtube.com/watch?v=5NeuTT_-Q9o)
-- [Ruckus WiFi Godlike 10 min ass-savers](https://www.youtube.com/watch?v=7NATyF0LCIU&t=292s))
+
+
+
+
+
+
+
+
+
+
+
 
 
 - **CWNA - Certified Wireless Network Administrator: The 4th Impact**
