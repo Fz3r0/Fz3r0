@@ -408,6 +408,7 @@ _Honor a los seres humanos que han dejado huella en este hermoso mundo y han con
 - [Adrian Lamo]() _the Homeless Hacker_
 - Alan Cooper - Visual Basic creator
 - [Anakata - Gottfrid Svartholm]() _PirateBay_
+- [arma - Roger Dingledine](https://en.wikipedia.org/wiki/Roger_Dingledine) _MiT scientist, Director & Research Director at Tor Project_
 - [Barrett Brown](https://www.theguardian.com/technology/2013/mar/20/barrett-brown-anonymous-pr-federal-target) _Anonymous friend of friend..._
 - [Bill Gates]()
 - [Brian Kernighan]()
@@ -420,6 +421,7 @@ _Honor a los seres humanos que han dejado huella en este hermoso mundo y han con
 - [Guido van Rossum]()
 - [Gus Rodriguez]()
 - Gordon Moore Robert Noyce() _Intel co-founder | Moore Law_
+- [H. D. Moore](https://en.wikipedia.org/wiki/H._D._Moore) _Metasploit creator, InfoSec researcher, programmer & hacker_
 - Larry Page
 - [Hideo Kojima]() _TV Hideo_
 - [Jerry Sanders]() _AMD_
@@ -429,7 +431,6 @@ _Honor a los seres humanos que han dejado huella en este hermoso mundo y han con
 - [John Atanasoff]()
 - John Carmack
 - John Romero
-- 
 - [John McCarthy]()
 - [John von Neumann]()
 - [Julian Assange]() _Software programmer & Wikileaks founder_
@@ -438,6 +439,7 @@ _Honor a los seres humanos que han dejado huella en este hermoso mundo y han con
 - [Linus Torvalds]()
 - [Leonard Kleinrock]() _ARPANET_
 - [Luis Pascal]()
+- [nickm - Nick Mathewson](https://en.wikipedia.org/wiki/Nick_Mathewson) _Chief Network Architect & co-founder of Tor Project_
 - [Robert Morris]() _Scientist at Bell Labs & NSA_
 - [Robert Morris Jr.](https://www.youtube.com/watch?v=2QwMv0_Rkec) _The son of the leyend, became a hacker & professor at the MIT_
 - [Ray Tomlinson]()
