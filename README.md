@@ -1534,6 +1534,7 @@ _Modified signals capable of distinguishing between 0s and 1s using modulation t
 
 - [**Amplitude**](https://en.wikipedia.org/wiki/Amplitude) _Height (crest) of the radio signal that it reaches while attenuating_
 - [**Wavelenght**](https://www.youtube.com/watch?v=zLmAaAx1tUQ) _Distance between the two successive crests_
+    - [**Wavelenght Formula & Calculation**](https://www.geeksforgeeks.org/wavelength-formula/) 
     - [Wavelenght Calculation](https://user-images.githubusercontent.com/94720207/195459856-b2949296-fca9-48c7-9f28-8e7bf7ef74e4.png) _image & 2.4 GHz / 5 Ghz Table_
     - [Lambda (Λ λ)](https://es.wikipedia.org/wiki/%CE%9B) _Unit for Wavelenght_
 - [**Frequency**](https://www.fluke.com/en-us/learn/blog/electrical/what-is-frequency) _Number of cycles per second_
@@ -1607,6 +1608,7 @@ _Dense materials absorb energy & weaken the signal_
 
 ## RF Propagation
 
+### Free Space Path Loss
 
 
 
@@ -1733,7 +1735,7 @@ GTHillWiFi ](https://youtu.be/E8IfwCzgKas) _La mejor epxlicación de db y milliw
 
 
 
-- [**Wavelenght Formula & Calculation**](https://www.geeksforgeeks.org/wavelength-formula/)   
+  
 
 
 
