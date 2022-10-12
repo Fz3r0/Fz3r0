@@ -579,38 +579,43 @@ The world's largest technical professional organization dedicated to advancing t
 
 
 #### IEEE 802.11-2016 Ratified Amendments / Task Groups
+_New task groups were assembled to address potential enhancements to the 802.11 standard._
 
 - [_802.11-1997 Prime_(Obsolete)](https://en.wikipedia.org/wiki/IEEE_802.11#802.11-1997_(802.11_legacy)) _IR, FHSS, DSSS_
-- [802.11a-1999 - (now Clause-17 @ 2016)](https://es.wikipedia.org/wiki/IEEE_802.11#IEEE_802.11a) _OFDM: (due 5GHz) on U-NII band | no communication with legacy tech_
-- [802.11b-1999 - (now PBCC & **Removed**)](https://es.wikipedia.org/wiki/IEEE_802.11#IEEE_802.11b) _HR-DSSS: higher data rates within the 2.4GHz ISM band_
-- [802.11d-2001 - (now @ 2016)](https://es.wikipedia.org/wiki/IEEE_802.11#IEEE_802.11d) _Country Code Information on Beacons & Probes_
-- [802.11e-2005 - (now QoS & 2016)](https://es.wikipedia.org/wiki/IEEE_802.11#IEEE_802.11e) _VoWLAN: QoS Grandpa & WiFi cert WMM Grandma')_
-- [802.11g-2003 - (now @ 2016)](https://es.wikipedia.org/wiki/IEEE_802.11#IEEE_802.11g) _Evolution of ERP: ERP-OFDM & ERP-DSSS/CCK > for higher data rates_
-- [802.11h-2003 - (now Clause-11.8 & 11.9 @ 2016)](https://es.wikipedia.org/wiki/IEEE_802.11#IEEE_802.11h) _DFS, TPC: detect & avoid interference with 5 GHz satellite and radar transmissions._
-- [802.11i-2004 - (now Clause-12 @ 2016)]() _RSN Authentication | AKA WiFi alliance: WPA2_
-- [802.11j-2004 - (now @ 2016)]() _Enhancing of 802.11 MAC & 802.11a PHY for Japanese 4.9 GHz and 5 GHz operation_
-- [802.11k-2008 - (now @ 2016)]() _RRM: TPC, client & channel stats, neighbor report | helps roaming ;)_
-- [802.11n-2009 - (now @ 2016)]() _MIMO: MIMO antenas with OFDM tech (no more multipath) & moar throughput!_
-- [802.11p-2010 - (now @ 2016)]() _ITS & WAVE = for high-speed vehicles_
-- [802.11r-2008 - (now @ 2016)]() _BSS transition (FT) / Fast Secure Roaming | CKM, PKC, OKC, fast session resumption_
-- [802.11s-2011 - (now @ 2016)]() _MPS: AP act as portal for devices to a WDS...AKA Mesh Master Gateway ;)_
-- [802.11u-2011 - (now @ 2016)]() _WIEN: Wireless Interworking with External Networks | Hotspot 2.0, Passpoint & BYOD_
-- [802.11v-2011 - (now @ 2016)]() _WNM: info exchange for WiFi performance improvement & WNM-Sleep mode_
-- [802.11w-2009 - (now @ 2016)]() _Robust Management Frames: Protect wireless frames VS DoS attacks | CCMP, BIP, CMAC_
-- [802.11y-2008 - (now @ 2016)]() _DSE procedures: Avoid interference from non-WiFi (when CSMA-CA is not enough)_
-- [802.11z-2010 - (now @ 2016)]() _DLS: allow operation with non-DLS-capable APs (not used on Enterprises)_
-- [802.11aa-2012 - (now @ 2016)]() _GCR: QoS enhancements for robust audio & video streaming_
-- [802.11ac-2013 - (now @ 2016)]() _VHT, MU-MIMO, Beamforming: Enhancements below 6 GHz (only for 5GHz) | moar ALL!_
-- [802.11ad-2012]()
-- [802.11ae-2012]()
-- [802.11af-2014]()
+- [**802.11a**-1999 - (now Clause-17 @ 2016)](https://es.wikipedia.org/wiki/IEEE_802.11#IEEE_802.11a) _**OFDM**: (due 5GHz) on U-NII band | no communication with legacy tech_
+- [**802.11b**-1999 - (now PBCC & **Removed**)](https://es.wikipedia.org/wiki/IEEE_802.11#IEEE_802.11b) _**HR-DSSS**: higher data rates within the 2.4GHz ISM band_
+- [**802.11d**-2001 - (now @ 2016)](https://es.wikipedia.org/wiki/IEEE_802.11#IEEE_802.11d) _**ountry Code** Information on Beacons & Probes_
+- [**802.11e**-2005 - (now QoS & 2016)](https://es.wikipedia.org/wiki/IEEE_802.11#IEEE_802.11e) _**VoWLAN**: QoS Grandpa & WiFi cert WMM Grandma')_
+- [**802.11g**-2003 - (now @ 2016)](https://es.wikipedia.org/wiki/IEEE_802.11#IEEE_802.11g) _**Evolution of ERP**: ERP-OFDM & ERP-DSSS/CCK > for higher data rates_
+- [**802.11h**-2003 - (now Clause-11.8 & 11.9 @ 2016)](https://es.wikipedia.org/wiki/IEEE_802.11#IEEE_802.11h) _**DFS, TPC**: detect & avoid interference with 5 GHz satellite and radar transmissions._
+- [**802.11i**-2004 - (now Clause-12 @ 2016)]() _**RSN Authentication** | WiFi alliance: **WPA2**_
+- [**802.11j**-2004 - (now @ 2016)]() _**Enhancing** of **802.11 MAC & 802.11a** PHY for Japanese 4.9 GHz and 5 GHz operation_
+- [**802.11k**-2008 - (now @ 2016)]() _**RRM**: TPC, client & channel stats, neighbor report | helps roaming ;)_
+- [**802.11n**-2009 - (now @ 2016)]() _**MIMO**: MIMO antenas with OFDM tech (no more multipath) & moar throughput!_
+- [**802.11p**-2010 - (now @ 2016)]() _**ITS** & **WAVE** = for high-speed vehicles_
+- [**802.11r**-2008 - (now @ 2016)]() _**BSS transition (FT)** / Fast Secure Roaming | CKM, PKC, OKC, fast session resumption_
+- [**802.11s**-2011 - (now @ 2016)]() _**MPS**: AP act as portal for devices to a WDS...AKA Mesh Master Gateway ;)_
+- [**802.11u**-2011 - (now @ 2016)]() _**WIEN**: Wireless Interworking with External Networks | Hotspot 2.0, Passpoint & BYOD_
+- [**802.11v**-2011 - (now @ 2016)]() _**WNM**: info exchange for WiFi performance improvement & WNM-Sleep mode_
+- [**802.11w**-2009 - (now @ 2016)]() _**Robust Management Frames**: Protect wireless frames VS DoS attacks | CCMP, BIP, CMAC_
+- [**802.11y**-2008 - (now @ 2016)]() _**DSE procedures**: Avoid interference from non-WiFi (when CSMA-CA is not enough)_
+- [**802.11z**-2010 - (now @ 2016)]() _**DLS**: allow operation with non-DLS-capable APs (not used on Enterprises)_
+- [**802.11aa**-2012 - (now @ 2016)]() _**GCR**: QoS enhancements for robust audio & video streaming_
+- [**802.11ac**-2013 - (now @ 2016)]() _**VHT**, **MU-MIMO**, **Beamforming**: Enhancements below 6 GHz (only for 5GHz) | moar ALL!_
+- [**802.11ad**-2012 - (now @ 2016)]() _**DMG**: Uses MGWS, GCMP, CCMP | 60 GHz in WiGig Networks_
+- [**802.11ae**-2012 - (now @ 2016)]() _**QMF**: Enable QMF | Enhancements to QoS management frames_
+- [**802.11af**-2014 - (now @ 2016)]() _Allows the use of **wireless in the TV white space** (TVWS)_
 
 #### Post 802.11-2016 ratified amendments
 
-- [802.11ah]()
-- [802.11ai]()
+_define further enhancements to 802.11 technology_
+
+- [**802.11ah** - (now @ 2016)]() _Use of **Wi-Fi in frequencies below 1 GHz** | IoT & M2M Communications | WiFi Alliance: **Wi-Fi HaLow**_
+- [**802.11ai** - (now @ 2016)]() _**FILS**: High-density environments for users association to robust network_
 
 #### IEEE 802.11 draft amendments
+
+_What does the future hold in store for us with 802.11 wireless networking?_
 
 - [802.11aj]()
 - [802.11ak]()
