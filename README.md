@@ -1402,7 +1402,7 @@ _Deep dive into the Packet / PCAP Analysis... & Sharks a lot of sharks!_
 
 
 
-
+        - [RF Analysis Tools]()
 
 
 
@@ -1546,18 +1546,32 @@ the same frequency_
     - [Phase cancellation Technique (VHS)](http://home.iprimus.com.au/toddemslie/phase-cancellation.html)
     - [Phase cancellation in audio](https://www.audio-technica.com/en-us/support/audio-solutions-question-of-the-week-what-is-phase-cancellation/#:~:text=Phase%20cancellation%20is%20when%20two,sound%20of%20the%20summed%20signals.) _The phase in audio is easier to understand & it's basically the same_
 
-## RF Behaivior
+    - []()
+
+        - [Wave Propagation]()
+        - [Absorption]()
+        - [Reflection]()
+        - [Scattering]()
+        - [Refraction]()
+        - [Diffraction]()
+        - [Loss (Attenuation)]()
+        - [Free Space Path Loss]()
+        - [Multipath]()
+        - [Gain (Amplification)]()
+
+
+## Radio Frequency Behaviors
 
 - [RF Behaivior](https://www.billdeitrick.com/cwna-chapter-2-rf-characteristics-and-behaviors/)
 - [**Wi-Fi** signals: **reflection, absorption, diffraction, scattering, & interference**](https://youtu.be/UxDdwGhSf4o) _@ Sunny_
 
-### Gain
+### Gain (Amplification)
 
 - [**Gain**: Amplification, Active gain, PAssive Gain](https://www.billdeitrick.com/cwna-chapter-2-rf-characteristics-and-behaviors/)
 - [**RF Gain & Loss:** Active Gain VS Passive Gain Devices](https://www.youtube.com/watch?v=ZY3MhaIh9c8)
 - [**Gain** Example in a Qualcomm Wireless device](https://patents.google.com/patent/US7430406B2/en)
 
-### Loss
+### Loss (Attenuation)
 
 - [**Loss**: Intentional Loss, Attenuators, Natural Loss](https://www.billdeitrick.com/cwna-chapter-2-rf-characteristics-and-behaviors/)
 - [Inside Wireless: **Pérdida de trayectoria / Path Loss**](https://www.youtube.com/watch?v=-XHWEYxW_c4)
@@ -1602,13 +1616,11 @@ _Dense materials absorb energy & weaken the signal_
 
 - [Interference (Corruption)](https://user-images.githubusercontent.com/94720207/195463161-26bc550b-ac9d-46a6-87de-b2fec18b82d4.png) _Image_
 
-### More RF Behaivors
+### Free Space Path Loss (FSPL)
 
-- [More RF Behaivors](https://www.billdeitrick.com/cwna-chapter-2-rf-characteristics-and-behaviors/)
-
-## RF Propagation
-
-### Free Space Path Loss
+- [Free Space Path Loss (FSPL)](https://en.wikipedia.org/wiki/Free-space_path_loss) _Wiki_
+- [RF Basics - RF Free Space Path Loss](https://www.youtube.com/watch?v=bwlgwPsNvt4) _@ Ruckus Education_
+- [Free Space Path Loss](https://www.youtube.com/watch?v=-XHWEYxW_c4&t=44s) _@ Inside Wireless_
 
 
 
@@ -1624,6 +1636,10 @@ _Dense materials absorb energy & weaken the signal_
 
 
 
+## Spectrum Analyzer
+
+- [RF in Time Domain](https://user-images.githubusercontent.com/94720207/195465698-c75b7fc7-f60b-4f0f-b0f5-930bb06106de.png)
+- [RF in Freq Domain](https://user-images.githubusercontent.com/94720207/195465879-4832db84-cdba-4e95-9811-2111bf7ca917.png)
 
 
 
@@ -1633,9 +1649,34 @@ _Dense materials absorb energy & weaken the signal_
 
 
 
-### Radio Modulation
 
-- [AM vs FM - Radio Modulation](https://youtu.be/I0jdIvwkiDI)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## The "Keying" Method
 _Method of manipulating a signal (modulation) so that it can represent multiple pieces of data (Radio Signals into 1 & 0)_
@@ -1664,7 +1705,16 @@ _The sum of Amplitude + Phase modulation = The king of modulations_
 - [Constellation_Diagram](https://en.wikipedia.org/wiki/Constellation_diagram) _Representation of a signal modulated by a digital modulation scheme_
 
        
+       
+       
+       
+       
+       
+       
+       
+### Radio Modulation
 
+- [AM vs FM - Radio Modulation](https://youtu.be/I0jdIvwkiDI)
 
 
 U-NII bands
@@ -1932,19 +1982,7 @@ _Horizon alternitatis systema sephiroticvm X divino rvm nominvm._ <br>
         - [Amplitude]()
         - [Phase]()
 
-    - [Radio Frequency Behaviors]()
 
-        - [Wave Propagation]()
-        - [Absorption]()
-        - [Reflection]()
-        - [Scattering]()
-        - [Refraction]()
-        - [Diffraction]()
-        - [Loss (Attenuation)]()
-        - [Free Space Path Loss]()
-        - [Multipath]()
-        - [Gain (Amplification)]()
-        - [RF Analysis Tools]()
 
 
 - [EVA IV - Radio Frequency Components, Measurements, and Mathematics]()
