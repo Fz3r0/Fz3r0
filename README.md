@@ -598,14 +598,15 @@ The world's largest technical professional organization dedicated to advancing t
 
 ---
 
-### IEEE 802.11 Specification & Amandments
+### IEEE Standard for IT-Telecommunications & Information Exchange between Systems
+_LAN & MAN - Specific Requirements - Part 11: WLAN Medium Access Control (MAC) and Physical Layer (PHY) Specifications_
 
 - [**IEEE 802.11 Wireless** Standards @ Wikipedia](https://en.wikipedia.org/wiki/IEEE_802.11) _MAC and PHY protocols for implementing **WLAN** communication_
 - [Quick Guide to IEEE 802.11 Activities](https://www.ieee802.org/11/QuickGuide_IEEE_802_WG_and_Activities.htm)
 - [IEEE Get PRogram](https://standards.ieee.org/products-programs/ieee-get-program/) _IEEE Membershio $$$_
 - [802.11 Standards: **Timeline from 1997 to now!**](https://wifivitae.com/wp-content/uploads/2021/11/802.11-timeline.png) _Updated 2022_
 - [**802.11-1997** AKA 802.11 "Prime" or "Original" or "Legacy"](https://standards.ieee.org/ieee/802.11/1163/) _1st 802.11!!!_
-- [**802.11-2016** AKA 802.11 Actual](https://standards.ieee.org/ieee/802.11/1163/) _Last update (2022)!!!_
+- [**802.11-2020** AKA 802.11 Actual]https://standards.ieee.org/ieee/802.11/7028/) _Last update (review @ 2022)!!!_
 - [**ALL** IEEE 802.11 Standard and Amendments - Current, Draft, Withdrawn & Transferred](https://wifiwizardofoz.com/802-11-standard-and-amendments/) _Complete List (last updated 2020)!_
 - [Original 802.11 amendments comparison](https://user-images.githubusercontent.com/94720207/195222873-c469f358-fd56-489a-91a1-3fedcad650b7.png) _Table_
 
@@ -613,44 +614,44 @@ The world's largest technical professional organization dedicated to advancing t
 _New task groups were assembled to address potential enhancements to the 802.11 standard._
 
 - [_802.11-1997 Prime_(Obsolete)](https://en.wikipedia.org/wiki/IEEE_802.11#802.11-1997_(802.11_legacy)) **(WiFi0)** _**IR, FHSS, DSSS:** raw wifi with no QoS or cool enhancements_
-- [**802.11b**-1999 - (now PBCC & **Removed**)](https://es.wikipedia.org/wiki/IEEE_802.11#IEEE_802.11b) **(WiFi1)** _**HR-DSSS**: higher data rates within the 2.4GHz ISM band_
-- [**802.11a**-1999 - (now Clause-17 @ 2016)](https://es.wikipedia.org/wiki/IEEE_802.11#IEEE_802.11a) **(WiFi2)** _**OFDM**: (due 5GHz) on U-NII band | no communication with legacy tech_
-- [**802.11d**-2001 - (now @ 2016)](https://es.wikipedia.org/wiki/IEEE_802.11#IEEE_802.11d) _**Country Code** Information on Beacons & Probes_
-- [**802.11g**-2003 - (now @ 2016)](https://es.wikipedia.org/wiki/IEEE_802.11#IEEE_802.11g) **(WiFi3)** _**Evolution of ERP**: ERP-OFDM & ERP-DSSS/CCK > for higher data rates_
-- [**802.11h**-2003 - (now Clause-11.8 & 11.9 @ 2016)](https://es.wikipedia.org/wiki/IEEE_802.11#IEEE_802.11h) _**DFS, TPC**: detect & avoid interference (5 GHz satellite & radars)_
-- [**802.11i**-2004 - (now Clause-12 @ 2016)](https://es.wikipedia.org/wiki/IEEE_802.11#IEEE_802.11i) _**RSN Authentication** | WiFi alliance: **WPA2**_
-- [**802.11j**-2004 - (now @ 2016)](https://es.wikipedia.org/wiki/IEEE_802.11#IEEE_802.11j) _**Enhancing** of **802.11 MAC & 802.11a** PHY for Japanese 4.9 GHz and 5 GHz operation_
-- [**802.11e**-2005 - (now QoS & 2016)](https://es.wikipedia.org/wiki/IEEE_802.11#IEEE_802.11e) _**VoWLAN**: QoS Grandpa & WiFi cert WMM Grandma')_
-- [**802.11k**-2008 - (now @ 2016)](https://es.wikipedia.org/wiki/IEEE_802.11#IEEE_802.11k) _**RRM**: TPC, client & channel stats, neighbor report | helps roaming ;)_
-- [**802.11r**-2008 - (now @ 2016)](https://es.wikipedia.org/wiki/IEEE_802.11#IEEE_802.11r) _**BSS transition (FT)** / Fast Secure Roaming | CKM, PKC, OKC, fast session resumption_
-- [**802.11y**-2008 - (now @ 2016)]() _**DSE procedures**: Avoid interference from non-WiFi (when CSMA-CA is not enough)_
-- [**802.11n**-2009 - (now @ 2016)](https://es.wikipedia.org/wiki/IEEE_802.11#IEEE_802.11n) **(WiFi4)** _**MIMO**: MIMO antenas with OFDM tech (no more multipath) & moar throughput!_
-- [**802.11p**-2010 - (now @ 2016)](https://es.wikipedia.org/wiki/IEEE_802.11#IEEE_802.11p) _**ITS** & **WAVE** = for high-speed vehicles_
-- [**802.11s**-2011 - (now @ 2016)]() _**MPS**: AP act as portal for devices to a WDS...AKA Mesh Master Gateway ;)_
-- [**802.11u**-2011 - (now @ 2016)]() _**WIEN**: Wireless Interworking with External Networks | Hotspot 2.0, Passpoint & BYOD_
-- [**802.11v**-2011 - (now @ 2016)](https://es.wikipedia.org/wiki/IEEE_802.11#IEEE_802.11v) _**WNM**: info exchange for WiFi performance improvement & WNM-Sleep mode_
-- [**802.11w**-2009 - (now @ 2016)](https://es.wikipedia.org/wiki/IEEE_802.11#IEEE_802.11w) _**Robust Management Frames**: Protect wireless frames VS DoS attacks | CCMP, BIP, CMAC_
+- [**802.11b**-1999](https://es.wikipedia.org/wiki/IEEE_802.11#IEEE_802.11b) **(WiFi1)** _**HR-DSSS**: higher data rates within the 2.4GHz ISM band_
+- [**802.11a**-1999](https://es.wikipedia.org/wiki/IEEE_802.11#IEEE_802.11a) **(WiFi2)** _**OFDM**: (due 5GHz) on U-NII band | no communication with legacy tech | now Clause-17_
+- [**802.11d**-2001](https://es.wikipedia.org/wiki/IEEE_802.11#IEEE_802.11d) _**Country Code** Information on Beacons & Probes_
+- [**802.11g**-2003](https://es.wikipedia.org/wiki/IEEE_802.11#IEEE_802.11g) **(WiFi3)** _**Evolution of ERP**: ERP-OFDM & ERP-DSSS/CCK > for higher data rates_
+- [**802.11h**-2003](https://es.wikipedia.org/wiki/IEEE_802.11#IEEE_802.11h) _**DFS, TPC**: detect & avoid interference (5 GHz satellite & radars) | now Clause-11.8 & 11.9_
+- [**802.11i**-2004](https://es.wikipedia.org/wiki/IEEE_802.11#IEEE_802.11i) _**RSN Authentication** | now Clause-12 | WiFi alliance: **WPA2**_
+- [**802.11j**-2004](https://es.wikipedia.org/wiki/IEEE_802.11#IEEE_802.11j) _**Enhancing** of **802.11 MAC & 802.11a** PHY for Japanese 4.9 GHz and 5 GHz operation_
+- [**802.11e**-2005](https://es.wikipedia.org/wiki/IEEE_802.11#IEEE_802.11e) _**VoWLAN**: QoS Grandpa & WiFi cert WMM Grandma')_
+- [**802.11k**-2008](https://es.wikipedia.org/wiki/IEEE_802.11#IEEE_802.11k) _**RRM**: TPC, client & channel stats, neighbor report | helps roaming ;)_
+- [**802.11r**-2008](https://es.wikipedia.org/wiki/IEEE_802.11#IEEE_802.11r) _**BSS transition (FT)** / Fast Secure Roaming | CKM, PKC, OKC, fast session resumption_
+- [**802.11y**-2008]() _**DSE procedures**: Avoid interference from non-WiFi (when CSMA-CA is not enough)_
+- [**802.11n**-2009](https://es.wikipedia.org/wiki/IEEE_802.11#IEEE_802.11n) **(WiFi4)** _**MIMO**: MIMO antenas with OFDM tech (no more multipath) & moar throughput!_
+- [**802.11p**-2010](https://es.wikipedia.org/wiki/IEEE_802.11#IEEE_802.11p) _**ITS** & **WAVE** = for high-speed vehicles_
+- [**802.11s**-2011]() _**MPS**: AP act as portal for devices to a WDS...AKA Mesh Master Gateway ;)_
+- [**802.11u**-2011]() _**WIEN**: Wireless Interworking with External Networks | Hotspot 2.0, Passpoint & BYOD_
+- [**802.11v**-2011](https://es.wikipedia.org/wiki/IEEE_802.11#IEEE_802.11v) _**WNM**: info exchange for WiFi performance improvement & WNM-Sleep mode_
+- [**802.11w**-2009](https://es.wikipedia.org/wiki/IEEE_802.11#IEEE_802.11w) _**Robust Management Frames**: Protect wireless frames VS DoS attacks | CCMP, BIP, CMAC_
 - [802.11n-2009]()
 - [802.11w-2009]()
 - [802.11p-2010]()
-- [**802.11z**-2010 - (now @ 2016)]() _**DLS**: allow operation with non-DLS-capable APs (not used on Enterprises)_
+- [**802.11z**-2010]() _**DLS**: allow operation with non-DLS-capable APs (not used on Enterprises)_
 - [**802.11v**-2011]()
 - [**802.11u**-2011]()
 - [**802.11s**-2011]()
-- [**802.11ae**-2012 - (now @ 2016)]() _**QMF**: Enable QMF | Enhancements to QoS management frames_
-- [**802.11aa**-2012 - (now @ 2016)]() _**GCR**: QoS enhancements for robust audio & video streaming_
-- [**802.11ad**-2012 - (now @ 2016)]() _**DMG**: Uses MGWS, GCMP, CCMP | 60 GHz in WiGig Networks_
-- [**802.11ac**-2013 - (now @ 2016)](https://es.wikipedia.org/wiki/IEEE_802.11#IEEE_802.11ac) **(WiFi5)** _**VHT**, **MU-MIMO**, **Beamforming**: Enhancements below 6 GHz (only for 5GHz) | moar ALL!_
-- [**802.11af**-2014 - (now @ 2016)]() _Allows the use of **wireless in the TV white space** (TVWS)_
-- [**802.11ah**-2016 - (now @ 2016]() _Use of **Wi-Fi in frequencies below 1 GHz** | IoT & M2M Communications | WiFi Alliance: **Wi-Fi HaLow**_
-- [**802.11ai**-2016 - (now @ 2016)]() _**FILS**: High-density environments for users association to robust network_
-- [802.11aj-2018- (now @ 2016)]() _CMMW: support for operating in the Chinese 45 GHz band_
-- [802.11ak-2018 - (now @ 2016)]() _GLK: Enhancement for 802.11 bridged links. Simplify AP to Wireless STA_
-- [802.11aq-2018 - (now @ 2016]() _Delivery of network service info prior to the association of STA to the network_
-- [802.11az-2018 - (now @ 2016](https://standards.ieee.org/ieee/802.11az/7226/) _Improves physical location tracking & positioning, energy efficiency | SmartBuiding & IoT_
-- [802.11ax - 2021 - (now @ 2016)]() **(WiFi6)** _**HE & OFDMA**: High Efficiency WLAN amendment. Big PHY enhancement including high density_ 
-- [802.11ay-2021 - (now @ 2016](https://en.wikipedia.org/wiki/IEEE_802.11ay) _256-QAM added. faster speeds & longer range, above 45 GH | TV & Monitor Connectivity_
-- [802.11ba-2021 - (now @ 2016](https://standards.ieee.org/ieee/802.11ba/6896/) _WUR: Increase battery life of devices (p.e battery powered IoT devices)_
+- [**802.11ae**-2012]() _**QMF**: Enable QMF | Enhancements to QoS management frames_
+- [**802.11aa**-2012]() _**GCR**: QoS enhancements for robust audio & video streaming_
+- [**802.11ad**-2012]() _**DMG**: Uses MGWS, GCMP, CCMP | 60 GHz in WiGig Networks_
+- [**802.11ac**-2013](https://es.wikipedia.org/wiki/IEEE_802.11#IEEE_802.11ac) **(WiFi5)** _**VHT**, **MU-MIMO**, **Beamforming**: Enhancements below 6 GHz (only for 5GHz) | moar ALL!_
+- [**802.11af**-2014]() _Allows the use of **wireless in the TV white space** (TVWS)_
+- [**802.11ah**-2016]() _Use of **Wi-Fi in frequencies below 1 GHz** | IoT & M2M Communications | WiFi Alliance: **Wi-Fi HaLow**_
+- [**802.11ai**-2016 ]() _**FILS**: High-density environments for users association to robust network_
+- [802.11aj-2018]() _CMMW: support for operating in the Chinese 45 GHz band_
+- [802.11ak-2018]() _GLK: Enhancement for 802.11 bridged links. Simplify AP to Wireless STA_
+- [802.11aq-2018]() _Delivery of network service info prior to the association of STA to the network_
+- [802.11az-2018](https://standards.ieee.org/ieee/802.11az/7226/) _Improves physical location tracking & positioning, energy efficiency | SmartBuiding & IoT_
+- [802.11ax - 2021]() **(WiFi6)** _**HE & OFDMA**: High Efficiency WLAN amendment. Big PHY enhancement including high density_ 
+- [802.11ay-2021](https://en.wikipedia.org/wiki/IEEE_802.11ay) _256-QAM added. faster speeds & longer range, above 45 GH | TV & Monitor Connectivity_
+- [802.11ba-2021](https://standards.ieee.org/ieee/802.11ba/6896/) _WUR: Increase battery life of devices (p.e battery powered IoT devices)_
 
 #### IEEE 802.11 draft amendments
 
