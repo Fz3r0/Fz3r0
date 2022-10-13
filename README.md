@@ -1680,14 +1680,55 @@ _The sum of Amplitude + Phase modulation = The king of modulations_
 - [**(dBm)** - Decibels Relative to 1 mW](https://en.wikipedia.org/wiki/DBm) _0dBm = 1mW_
     - [WiFi Signal Strenght & dBM](https://eyenetworks.no/en/wifi-signal-strength/) _dbm & RSSI_
 
+### Inverse Square Law
+
+- [Inverse Square Law](https://www.youtube.com/watch?v=KARCOGT95W0) _@ mrwaynesclass_
+
 ### Units of Comparison (relative units)
 
 - [**(dB)** - decibel]() _Comparative measurmet value | "the difference between 2 power levels"_
 - [**(dBi)** - Decibels Relative to an isotropic radiator]() _Passive gain ;)_
 - [**(dBd)** - Decibels Relative to a half-wave dipole antenna]() __
         
-        - Mathematics
-        
+### The linear & logarithmic rules between dBm & mW
+
+- [Logarithm](https://es.wikipedia.org/wiki/Logaritmo) _Wiki_
+- [Relation between dBm & mW is logarithmic (Absolute vs Relative)](https://user-images.githubusercontent.com/94720207/195482625-5a39d041-7b3e-48de-a9b3-f15e1a128e5e.png) _Image_
+- [Rule of 10s and 3s | **dBm vs mW Table**](https://user-images.githubusercontent.com/94720207/195482441-1dada7da-3027-4130-9f74-3d6cd3128ccb.png) _Table_
+
+
+
+    - [Units of Power and Comparison]()
+
+        - [Watt]()
+        - [Milliwatt]()
+        - [Decibel]()
+        - [Decibels Relative to an Isotropic Radiator (dBi)]()
+        - [Decibels Relative to a Half-Wave Dipole Antenna (dBd)]()
+        - [Decibels Relative to 1 Milliwatt (dBm)]()
+
+
+    - [RF Mathematics]()
+
+        - [Rule of 10s and 3s]()
+        - [RF Math Summary]()
+
+    - [Noise Floor]()
+    - [Signal-to-Noise Ratio]()
+
+        - [Signal-to-Interference-Plus-Noise Ratio]()
+
+- [Received Signal Strength Indicator]()
+- [Link Budget]()
+
+        - [Fade Margin/System Operating Margin]()
+
+
+
+
+
+
+
 - [CWNA Mathematics Resume Notes (bottom)](https://sites.google.com/site/802dot11study/ch3/notes)  
 - [Inside Wireless en Español: Presupuesto de Enlace - Prx > Gtx / Ptx](https://www.youtube.com/watch?v=dj82XrhfoWA)
 
@@ -2050,30 +2091,6 @@ _Horizon alternitatis systema sephiroticvm X divino rvm nominvm._ <br>
 
 
 
-    - [Units of Power and Comparison]()
-
-        - [Watt]()
-        - [Milliwatt]()
-        - [Decibel]()
-        - [Decibels Relative to an Isotropic Radiator (dBi)]()
-        - [Decibels Relative to a Half-Wave Dipole Antenna (dBd)]()
-        - [Decibels Relative to 1 Milliwatt (dBm)]()
-        - [Inverse Square Law]()
-
-    - [RF Mathematics]()
-
-        - [Rule of 10s and 3s]()
-        - [RF Math Summary]()
-
-    - [Noise Floor]()
-    - [Signal-to-Noise Ratio]()
-
-        - [Signal-to-Interference-Plus-Noise Ratio]()
-
-- [Received Signal Strength Indicator]()
-- [Link Budget]()
-
-        - [Fade Margin/System Operating Margin]()
 
 - [EVA V - Radio Frequency Signal and Antenna Concepts]()
 
