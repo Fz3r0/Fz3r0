@@ -1761,9 +1761,14 @@ Telsco S.A.S._
 - [**(dBi)** - Decibels Relative to an isotropic radiator]() _Passive gain ;)_
 - [**(dBd)** - Decibels Relative to a half-wave dipole antenna]() __
 
-## RF Calculation like an alien! 
 
-### RF Calculation like an alien: `dBm & mW`
+
+
+## RF Maths & Calculation like an alien! 
+
+_If you hear the voice of an alien in your psychedelic experience... is the synthactical of magic_
+
+### RF Calculation like an alien: `dBm & mW` (Conversion)
 
 - [Logarithm](https://es.wikipedia.org/wiki/Logaritmo) _Wiki_
 - [Relation between dBm & mW is logarithmic (Absolute vs Relative)](https://user-images.githubusercontent.com/94720207/195482625-5a39d041-7b3e-48de-a9b3-f15e1a128e5e.png) _Image_
@@ -1776,7 +1781,14 @@ Telsco S.A.S._
     - [Ejercicios Fz3r0: Cálculo de dbm & Mw](https://user-images.githubusercontent.com/94720207/195657808-b21a2439-4fb1-44d4-9c11-d77990cb2ff5.png) _:) lo logré! Es muy fácil_
     - [dBm to mW: **Conversion Table**](https://user-images.githubusercontent.com/94720207/195510879-2e829769-ab8b-4f85-90e5-02887ca97697.png) _Table_
 
-### RF Calculation like an alien: `dBi`
+### RF Calculation like an alien: `dBi`, `dB` & `dBm` (Receiving Power)
+
+- [**Cálculos sencillo de FSL (Free Space Loss) - Fz3r0**](https://user-images.githubusercontent.com/94720207/195667926-d4aa5eac-4cff-42fb-8f82-e63d09fb2d18.png) _@ Fz3r0_
+- [Example1: Simplified RF Math fron Transmitter to Receiver](https://user-images.githubusercontent.com/94720207/195669172-bd47628e-709d-46df-8689-4b049d97925c.png) _@ CWNP_
+- [Example1: Solved (all in mind, just the last 17 solved)](https://user-images.githubusercontent.com/94720207/195671290-361efdab-945f-4fd0-81d4-6f3d6c4c6b9d.png) _@ Fz3r0_
+- [Example2:](https://user-images.githubusercontent.com/94720207/195671605-a712e01e-4056-4c10-a10c-0c9aafb38940.png) _@ CWNP_
+
+
 
 
 
@@ -1790,7 +1802,7 @@ Telsco S.A.S._
 ### `RSSI` Received Signal Strength Indicator
 
 
-### Link Budget]
+### Link Budget
 
 #### Fade Margin/System Operating Margin
 
