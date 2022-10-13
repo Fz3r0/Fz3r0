@@ -822,8 +822,28 @@ _Eensure the interoperability of WLAN products by providing certification testin
 - [DOF - Uso y Aprovechamiento de Bandas de Frecuencias 2019](https://dof.gob.mx/nota_detalle.php?codigo=5551828&fecha=05/03/2019#gsc.tab=0) _Diario Federal de la Nación_
 - [DOF - Condiciones técnicas de operación de la banda de frecuencias 2400 - 2483.5 MHz](https://www.dof.gob.mx/nota_detalle.php?codigo=5609418&fecha=04/01/2021#gsc.tab=0) _Clasificada como espectro libre_
 
+## 🗺️ 📍 🔺 Diagram, Topology, Notes & Text Editors 🔺 📍 🗺️
 
+### Notes & Data
 
+- [Github]()
+- [Google Docs]()
+- [Cherry Tree]()
+- [Obsidian]()
+- [Microsoft Office Suite]() _$$$_
+
+### Text Editors & IDEs
+
+- [Sublime Text]()
+- [Microsoft Visual Studio Code]()
+- [Vim]()
+- [Atom]()
+- [Notepad ++]()
+
+### Diagram Editors
+
+- [Microsoft Visio](https://www.microsoft.com/en-us/microsoft-365/visio/flowchart-software) _$$$_
+- [draw.io](https://app.diagrams.net/) _Free!_
 
 ## 📊 🖥️ 👨‍🚀 Simulators & Emulators 👨‍🚀 🖥️ 📊
 
@@ -842,30 +862,15 @@ _Eensure the interoperability of WLAN products by providing certification testin
 
 - [Eve NG](https://www.eve-ng.net/) _Emulated Virtual Enviorment for Network, Security and DevOps_
 
-## 🗺️ 📍 🔺 Diagram, Topology, Notes & Text Editors 🔺 📍 🗺️
-
-### Text Editors & IDEs
-
-- [Sublime Text]()
-- [Microsoft Visual Studio Code]()
-- [Vim]()
-- [Atom]()
-- [Notepad ++]()
-
-### Diagram Editors
-
-- [Microsoft Visio](https://www.microsoft.com/en-us/microsoft-365/visio/flowchart-software) _$$$_
-- [draw.io](https://app.diagrams.net/) _Free!_
-
-### Notes
-
-- [Google Docs]()
-- [Cherry Tree]()
-- [Obsidian]()
-
 ## 🐚 🐢 💻 Shells 💻 🐢 🐚
 
-### Telnet, SSH & Xterm - Console Line Interfaces (CLIs)
+### Microsoft Windows Shells, CLI, Console emulators
+
+### Linux Shells, CLI, Console emulators
+
+### Android Shells, CLI, Console emulators
+
+- [Termux]()
 
 - [Secure-CRT](https://www.vandyke.com/products/securecrt/) _Terminal Emulation, secure remote access, file transfer & data tunneling._
 
@@ -880,7 +885,7 @@ _Eensure the interoperability of WLAN products by providing certification testin
 - NetCat
 - SoCat
 
-## 👨‍💻 🐚 🔒 SSH - Secure Shell 🔒 🐚 👨‍💻
+## 👨‍💻 🐚 🔒 Telnet & SSH (Secure Shell) 🔒 🐚 👨‍💻
 
 - [SSH & SCP (Secure Copy) Cheatsheet for Linux](https://user-images.githubusercontent.com/94720207/194212517-b25dfa23-0577-4cf1-ac37-83c32c5fbfba.png)
 
@@ -962,27 +967,41 @@ _Eensure the interoperability of WLAN products by providing certification testin
 
 - [MainFrame]()
 
-### Network Wired Hosts
+### Network Wired & Wireless Hosts or End-Devices
 
 - [PC - Personal Computer]()
+- [Laptop / Portatile PC]()
+- [Smartphone]()
+- [Tablet]()
+- [Smartwatch]()
+- [IP Phone]()
+- [IP TV]()
+- [Bluetooth Devices]()
 
-### Network Wireless  Hosts
+### Layer 1 | Physical Layer Infraestructure
+
+- [Coaxial Cable]()
+- [UTP - Copper Cable]()
+- [STP - Copper Cable]()
+- [Air]() _The air around us (WiFi channels)_
 
 ### Layer 2 | Middle Devices
 
-- [Switch]()
 - [Hub]()
+- [Switch]()
 - [Repeater]()
+- [Bridge]()
 
-### Layer 3 or Mulilayer | Edge Network Devices
+### Layer 3 | Multilayer | Edge Network Devices
 
 - [Router]()
 - [Firewall]()
 
 ### Wireless Network Devices
 
-- [Smartphone]()
+- [WLC - Wireless LAN Controller]()
 - [Access Point]()
+- [Bridge Antenna]()
 
 ### Security Devices
 
@@ -999,8 +1018,6 @@ _Eensure the interoperability of WLAN products by providing certification testin
 - [Game Server - ]()
 
 ### Internet of Things (IoT)
-
-
 
 ## Network Topologies
 
