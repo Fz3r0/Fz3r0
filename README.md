@@ -1719,7 +1719,7 @@ _The sum of Amplitude + Phase modulation = The king of modulations_
 
 ### Maths & Measurments Cool Resources
 
-- [RF Maths Fast & Furious](https://youtu.be/RNv1AnSfdmY) _@ GTHillWiFi_
+- [RF Maths Full Course - Best RF Math Explanation](https://youtu.be/RNv1AnSfdmY) _@ GTHillWiFi_
 - [RF Maths Cheatsheet](https://sites.google.com/site/802dot11study/ch3/notes) _@ 802dot11_
 - [RF Calculators - Full Suite](https://www.everythingrf.com/rf-calculators) _Everything RF_
 - [Link Calculator - With Map](https://rfelements.com/calc) _@RF Elements_
@@ -1754,7 +1754,11 @@ _The sum of Amplitude + Phase modulation = The king of modulations_
 - [Relation between dBm & mW is logarithmic (Absolute vs Relative)](https://user-images.githubusercontent.com/94720207/195482625-5a39d041-7b3e-48de-a9b3-f15e1a128e5e.png) _Image_
 - [Rule of 10s and 3s | **dBm vs mW Table**](https://user-images.githubusercontent.com/94720207/195482441-1dada7da-3027-4130-9f74-3d6cd3128ccb.png) _Table_
 - [dBm to mW: **Conversion Table**](https://user-images.githubusercontent.com/94720207/195510879-2e829769-ab8b-4f85-90e5-02887ca97697.png) _Table_
-- [Milliwatt (mW) to dBm Conversion - **Easy Way!**](https://www.youtube.com/watch?v=yfdb0Dn94A0) _@ GTHillWiFi_
+- [Milliwatt (mW) to dBm **Conversion** - **Easy Way!**](https://www.youtube.com/watch?v=yfdb0Dn94A0) _@ GTHillWiFi_
+- [Potencias en RF - **Convertir potencias** en Español con **tabla chingona**](https://www.youtube.com/watch?v=zsrq6i0x3WE) _@ Telsco S.A.S._
+
+    - [**Regla del 10 y del 3 - Fz3r0**](https://user-images.githubusercontent.com/94720207/195640820-8ed8f452-4df7-4b3e-8045-37673def0008.png) _@ Fz3r0_
+
 
 
 ### Noise Floor
