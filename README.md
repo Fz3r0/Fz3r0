@@ -587,7 +587,9 @@ The world's largest technical professional organization dedicated to advancing t
 
 ---
 
-### IEEE 802.3 Specification & Amandments
+### IEEE Standard 802 (for ICT's & Information Exchange between Systems) `Part 3`
+_LAN & MAN - Specific Requirements - P.3 AKA **`IEEE 802.3`**_ <br>
+_**LAN** Medium Access Control (MAC) and Physical Layer (PHY) Specifications_
  
 - [**IEEE 802.3 Ethernet Management** Standards](https://en.wikipedia.org/wiki/IEEE_802.3) _Specifies the set of MAC and PHY protocols for implementing **LAN** communication_
     
@@ -598,8 +600,9 @@ The world's largest technical professional organization dedicated to advancing t
 
 ---
 
-### IEEE Standard for IT-Telecommunications & Information Exchange between Systems
-_LAN & MAN - Specific Requirements - Part 11: WLAN Medium Access Control (MAC) and Physical Layer (PHY) Specifications_
+### IEEE Standard 802 (for ICT's & Information Exchange between Systems) `Part 11`
+_LAN & MAN - Specific Requirements - P.3 AKA **`IEEE 802.11`**_ <br>
+_**WLAN** Medium Access Control (MAC) and Physical Layer (PHY) Specifications_
 
 - [**IEEE 802.11 Wireless** Standards @ Wikipedia](https://en.wikipedia.org/wiki/IEEE_802.11) _MAC and PHY protocols for implementing **WLAN** communication_
 - [Quick Guide to IEEE 802.11 Activities](https://www.ieee802.org/11/QuickGuide_IEEE_802_WG_and_Activities.htm)
@@ -611,7 +614,7 @@ _LAN & MAN - Specific Requirements - Part 11: WLAN Medium Access Control (MAC) a
 - [**ALL** IEEE 802.11 Standard and Amendments - Current, Draft, Withdrawn & Transferred](https://wifiwizardofoz.com/802-11-standard-and-amendments/) _Complete List (last updated 2020)!_
 - [Original 802.11 amendments comparison](https://user-images.githubusercontent.com/94720207/195222873-c469f358-fd56-489a-91a1-3fedcad650b7.png) _Table_
 
-#### IEEE 802.11-2016 Ratified Amendments / Task Groups
+#### IEEE 802.11-2016 Ratified Amendments (Task Groups)
 _New task groups were assembled to address potential enhancements to the 802.11 standard._
 
 - [_802.11-1997 Prime_(Obsolete)](https://en.wikipedia.org/wiki/IEEE_802.11#802.11-1997_(802.11_legacy)) **(WiFi0)** _**IR, FHSS, DSSS:** raw wifi with no QoS or cool enhancements_
@@ -650,7 +653,7 @@ _New task groups were assembled to address potential enhancements to the 802.11 
 - [802.11ak-2018]() _GLK: Enhancement for 802.11 bridged links. Simplify AP to Wireless STA_
 - [802.11aq-2018]() _Delivery of network service info prior to the association of STA to the network_
 - [802.11az-2018](https://standards.ieee.org/ieee/802.11az/7226/) _Improves physical location tracking & positioning, energy efficiency | SmartBuiding & IoT_
-- [802.11ax - 2021]() **(WiFi6)** _**HE & OFDMA**: High Efficiency WLAN amendment. Big PHY enhancement including high density_ 
+- [802.11ax-2021]() **(WiFi6)** _**HE & OFDMA**: High Efficiency WLAN amendment. Big PHY enhancement including high density_ 
 - [802.11ay-2021](https://en.wikipedia.org/wiki/IEEE_802.11ay) _256-QAM added. faster speeds & longer range, above 45 GH | TV & Monitor Connectivity_
 - [802.11ba-2021](https://standards.ieee.org/ieee/802.11ba/6896/) _WUR: Increase battery life of devices (p.e battery powered IoT devices)_
 
@@ -667,7 +670,7 @@ _What does the future hold in store for us with 802.11 wireless networking?_
 - [802.11bh]()
 - [802.11bi]()
 
-#### Withdrawn & Transferred Standardsamendments
+#### Withdrawn & Transferred Standards
 
 - [802.11c-1998]()
 - [802.11F-2003]()
