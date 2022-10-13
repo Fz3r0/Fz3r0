@@ -1565,7 +1565,7 @@ the same frequency_
         - [Gain (Amplification)]()
 
 
-## Radio Frequency Behaviors
+## 📡 ↩️ 🪞 Radio Frequency Behaviors 🪞 ↩️ 📡 
 
 - [RF Behaivior](https://www.billdeitrick.com/cwna-chapter-2-rf-characteristics-and-behaviors/)
 - [**Wi-Fi** signals: **reflection, absorption, diffraction, scattering, & interference**](https://youtu.be/UxDdwGhSf4o) _@ Sunny_
@@ -1627,6 +1627,51 @@ _Dense materials absorb energy & weaken the signal_
 - [RF Basics - RF Free Space Path Loss](https://www.youtube.com/watch?v=bwlgwPsNvt4) _@ Ruckus Education_
 - [Free Space Path Loss](https://www.youtube.com/watch?v=-XHWEYxW_c4&t=44s) _@ Inside Wireless_
 
+## 1️⃣ 0️⃣ 🔊 The "Keying" Method 🔊 0️⃣ 1️⃣
+_Method of manipulating a signal (modulation) so that it can represent multiple pieces of data (Radio Signals into 1 & 0)_
+
+- [Keying Method (Telecommunications)](https://en.wikipedia.org/wiki/Keying_(telecommunications)) _The capacity of a signal to encode its data so it can be transported to the reciever._
+- [Understanding Amplitude Shift Keying: On-Off Keying(OOK), Near Field Communications(NFC), M-ary ASK](https://www.youtube.com/watch?v=eJ5m0Sbr2qw)
+
+### Keying Methods Techniques to Represent Data
+
+- [Current State](https://setup-wireless.blogspot.com/2008/11/wireless-keying-methods.html) _The current value (state) of the signal is used to distinguish between 0s and 1s_
+- [State Transition](https://setup-wireless.blogspot.com/2008/11/wireless-keying-methods.html) _the change (transition) of the signal is used to distinguish between 0s and 1s_
+
+### Types of Keying Methods AKA Modulation Techniques
+
+- [**Digital modulation:** ASK, FSK, and PSK](https://www.youtube.com/watch?v=qGwUOvErR8Q&t=7s) _@ Sunny_
+- [**ASK** - Amplitude Shift Keying](https://www.tutorialspoint.com/what-is-amplitude-shift-keying-ask-in-computer-network)
+- [**FSK** - Frequency Shift Keying](https://www.tutorialspoint.com/explain-frequency-shift-keying-fsk-in-computer-network)
+- [**PSK** - Phase Shift Keying](https://www.tutorialspoint.com/what-is-phase-shift-keying-psk-in-computer-network)
+
+### QAM - Quadrature Amplitude Modulation
+_The sum of Amplitude + Phase modulation = The king of modulations_
+
+- [Binary PSK (BPSK) & Quadrature PSK (QPSK)](https://www.youtube.com/watch?v=O3-L9tvTvGg) _@ Engineering Made Easy_
+- [QAM Modulation: The king of Coding Capacity](https://www.youtube.com/watch?v=efJRXQp9Ufk) _The sum of Amplitude + Phase modulation_
+- [Inside Wireless Español: QAM Modulation pt.1](https://www.youtube.com/watch?v=efJRXQp9Ufk)
+- [Inside Wireless Español: QAM Modulation pt.2: Modulador QAM](https://youtu.be/-WAWX046p0o)
+- [Constellation_Diagram](https://en.wikipedia.org/wiki/Constellation_diagram) _Representation of a signal modulated by a digital modulation scheme_
+- [QAM modulation constelation - **push more data throught the networks using same space & time**](https://user-images.githubusercontent.com/94720207/195467426-6c6be513-5499-4bfd-babf-9700a3a880e3.png) _Image_
+
+### Radio AM/FM Modulation
+
+- [AM vs FM - Radio Modulation](https://youtu.be/I0jdIvwkiDI) _The oldschool modulation of Freq & Amplitude_
+
+## 📈 📶 📏 RF Mathematics & Measurments 📏 📶 📈
+
+- [RF MAths Fast & Furious](https://youtu.be/RNv1AnSfdmY) _@ GTHillWiFi_
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1674,51 +1719,6 @@ _Dense materials absorb energy & weaken the signal_
 
 
 
-
-
-
-
-
-
-
-
-
-
-## The "Keying" Method
-_Method of manipulating a signal (modulation) so that it can represent multiple pieces of data (Radio Signals into 1 & 0)_
-
-- [Keying Method (Telecommunications)](https://en.wikipedia.org/wiki/Keying_(telecommunications)) _The capacity of a signal to encode its data so it can be transported to the reciever._
-- [Understanding Amplitude Shift Keying: On-Off Keying(OOK), Near Field Communications(NFC), M-ary ASK](https://www.youtube.com/watch?v=eJ5m0Sbr2qw)
-
-### Keying Methods Techniques to Represent Data
-
-- [Current State](https://setup-wireless.blogspot.com/2008/11/wireless-keying-methods.html) _The current value (state) of the signal is used to distinguish between 0s and 1s_
-- [State Transition](https://setup-wireless.blogspot.com/2008/11/wireless-keying-methods.html) _the change (transition) of the signal is used to distinguish between 0s and 1s_
-
-### Types of Keying Methods AKA Modulation Techniques
-
-- [**Digital modulation:** ASK, FSK, and PSK](https://www.youtube.com/watch?v=qGwUOvErR8Q&t=7s) _@ Sunny_
-- [**ASK** - Amplitude Shift Keying](https://www.tutorialspoint.com/what-is-amplitude-shift-keying-ask-in-computer-network)
-- [**FSK** - Frequency Shift Keying](https://www.tutorialspoint.com/explain-frequency-shift-keying-fsk-in-computer-network)
-- [**PSK** - Phase Shift Keying](https://www.tutorialspoint.com/what-is-phase-shift-keying-psk-in-computer-network)
-
-### QAM - Quadrature Amplitude Modulation
-_The sum of Amplitude + Phase modulation = The king of modulations_
-
-- [Binary PSK (BPSK) & Quadrature PSK (QPSK)](https://www.youtube.com/watch?v=O3-L9tvTvGg) _@ Engineering Made Easy_
-- [QAM Modulation: The king of Coding Capacity](https://www.youtube.com/watch?v=efJRXQp9Ufk) _The sum of Amplitude + Phase modulation_
-- [Inside Wireless Español: QAM Modulation pt.1](https://www.youtube.com/watch?v=efJRXQp9Ufk)
-- [Inside Wireless Español: QAM Modulation pt.2: Modulador QAM](https://youtu.be/-WAWX046p0o)
-- [Constellation_Diagram](https://en.wikipedia.org/wiki/Constellation_diagram) _Representation of a signal modulated by a digital modulation scheme_
-- [QAM modulation constelation - **push more data throught the networks using same space & time**](https://user-images.githubusercontent.com/94720207/195467426-6c6be513-5499-4bfd-babf-9700a3a880e3.png) _Image_
-
-### Radio AM/FM Modulation
-
-- [AM vs FM - Radio Modulation](https://youtu.be/I0jdIvwkiDI) _The oldschool modulation of Freq & Amplitude_
-
-## RF Mathematics & Measurments
-
-- [RF MAths Fast & Furious](https://youtu.be/RNv1AnSfdmY) _@ GTHillWiFi_
 
 
 
