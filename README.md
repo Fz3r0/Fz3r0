@@ -1766,12 +1766,13 @@ Telsco S.A.S._
 - [Logarithm](https://es.wikipedia.org/wiki/Logaritmo) _Wiki_
 - [Relation between dBm & mW is logarithmic (Absolute vs Relative)](https://user-images.githubusercontent.com/94720207/195482625-5a39d041-7b3e-48de-a9b3-f15e1a128e5e.png) _Image_
 - [Rule of 10s and 3s | **dBm vs mW Table**](https://user-images.githubusercontent.com/94720207/195482441-1dada7da-3027-4130-9f74-3d6cd3128ccb.png) _Table_
-- [dBm to mW: **Conversion Table**](https://user-images.githubusercontent.com/94720207/195510879-2e829769-ab8b-4f85-90e5-02887ca97697.png) _Table_
 - [Milliwatt (mW) to dBm **Conversion** - **Easy Way!**](https://www.youtube.com/watch?v=yfdb0Dn94A0) _@ GTHillWiFi_
-- [Potencias en RF - **Convertir potencias** en Español con **tabla chingona**](https://www.youtube.com/watch?v=zsrq6i0x3WE) _@ Telsco S.A.S._
+- [Potencias en RF - **Convertir potencias** ¡la mejor explicación! **tabla chingona**](https://www.youtube.com/watch?v=zsrq6i0x3WE) _@ Telsco S.A.S._
 
     - [**Regla del 10 y del 3 (dBm & Mw)- Fz3r0**](https://user-images.githubusercontent.com/94720207/195640820-8ed8f452-4df7-4b3e-8045-37673def0008.png) _@ Fz3r0_
     - [**Cálculos de dBm & Mw con Regla del 10 y del - Fz3r0**](https://user-images.githubusercontent.com/94720207/195643405-2a585eef-f75f-42db-83e8-c5b6b37e65f2.png) _@ Fz3r0_
+    - [Ejercicios Fz3r0: Cálculo de dbm & Mw](https://user-images.githubusercontent.com/94720207/195655103-153a16ca-9761-46de-8744-8d58e16e6566.png) _:) lo logré! Es muy fácil_
+    - [dBm to mW: **Conversion Table**](https://user-images.githubusercontent.com/94720207/195510879-2e829769-ab8b-4f85-90e5-02887ca97697.png) _Table_
 
 
 
