@@ -63,8 +63,8 @@ SECURITY ADVANTAGES SDN AGREGAR!!!! https://xigentsolutions.com/blog/security-ad
 <span align="center"> <p align="center"> _**"Welcome to my house! Enter freely. Go safely, and leave something of the happiness you bring...**_  </p> </span>  
 
 <span align="center"> <p align="center"> _**...We are in Transylvania, and Transylvania is not England. Our ways are not your ways, and there shall be to you many strange things... Loneliness will sit over our roofs with brooding wings... It is a strange world, a sad world, a world full of miseries, and woes, and troubles...**_ </p> </span> 
-
-<span align="center"> <p align="center"> _**Enter freely and of your own free will..."**_  </p> </span>  
+    
+<span align="center"> <p align="center"> _**...Enter freely and of your own free will..."**_  </p> </span>  
 
 ---
 
@@ -400,10 +400,13 @@ _Networking Lists, concepts, Tables, Models, Cheat-Sheets, Mind-Maps & Cool Reso
 ## Pioneers in Computer Science, Technology & Evolution
 _Honor a los seres humanos que han dejado huella en este hermoso mundo y han contribuido en la evolución de la raza humana..._
 
+- [Women in computing](https://en.wikipedia.org/wiki/Women_in_computing)
+- [Women in engineering](https://en.wikipedia.org/wiki/Women_in_engineering)
 - [List of Pioneers in Computer Science](https://en.wikipedia.org/wiki/List_of_pioneers_in_computer_science)
 - [Aaron Hillel Swartz](https://es.wikipedia.org/wiki/Aaron_Swartz) _Creative Commons dev, Reddit co-founder, dev, Internet activist_
 - [Alan Turing]()
 - Alber Einstein
+- [Alexey Pajitnov](https://es.wikipedia.org/wiki/Aleks%C3%A9i_P%C3%A1zhitnov) Videogame Designer & Microsoft Engineer | Tetris
 - Ada Lovelace
 - [Adrian Lamo]() _the Homeless Hacker_
 - Alan Cooper - Visual Basic creator
@@ -418,16 +421,18 @@ _Honor a los seres humanos que han dejado huella en este hermoso mundo y han con
 - [c0mrade - Jonathan James]() _Hacked the NASA for knowledge_
 - [Dennis Ritchie]()
 - [Edward Snowden]() _Technology consultor, NSA ex-employee & hacker_
+- [Ed Logg](https://en.wikipedia.org/wiki/Ed_Logg) _Videogame designer | co-creating Asteroids, Centipede, Gauntlet_
 - [Fyodor Vaskovich - Gordon Lyon]() _NetSec expert, creator of Nmap, Honeynet Project & Vice President of CPSR_
 - [Guido van Rossum]()
 - [Gus Rodriguez]()
 - [geohot, million75, mil, dream hax0r - George Hotz]() _Hacker, Jailbreak for iOS & PS3_
 - Gordon Moore Robert Noyce() _Intel co-founder | Moore Law_
 - [H. D. Moore](https://en.wikipedia.org/wiki/H._D._Moore) _Metasploit creator, InfoSec researcher, programmer & hacker_
+- [Katherine Johnson]() _"Human Calculator" | calculations of orbital mechanics at NASA for takin' us to space..._
 - Larry Page
 - [Hideo Kojima]() _TV Hideo_
 - [Larry Wall]() _Programmer & creator of Perl programming language_
-- []()
+- [Grace Murray Hopper]() _Computer scientist, mathematician, USA Navy rear admiral | COBOL grandma'_
 - [Jerry Sanders]() _AMD_
 - [James Gosling]()
 - [JJ Jose Juan García]()
@@ -443,6 +448,7 @@ _Honor a los seres humanos que han dejado huella en este hermoso mundo y han con
 - [Linus Torvalds]()
 - [Leonard Kleinrock]() _ARPANET_
 - [Luis Pascal]()
+- [Marie Curie](https://es.wikipedia.org/wiki/Marie_Curie) _Physics & Chemistry Scientist | Pioneering research on radioactivity_
 - [nickm - Nick Mathewson](https://en.wikipedia.org/wiki/Nick_Mathewson) _Chief Network Architect & co-founder of Tor Project_
 - [Robert Morris]() _Scientist at Bell Labs & NSA_
 - [Robert Morris Jr.](https://www.youtube.com/watch?v=2QwMv0_Rkec) _The son of the leyend, became a hacker & professor at the MIT_
@@ -459,6 +465,8 @@ _Honor a los seres humanos que han dejado huella en este hermoso mundo y han con
 - [th3j35t3r]() _Grey Hat Hacker: PWN anti-American, jihadist & homophobic websites_
 - [TiAMO - Fredrik Neij]() _PirateBay / Hacker_
 - [Tim Berners-Lee]()
+- [Tomohiro Nishikado](https://es.wikipedia.org/wiki/Toshihiro_Nishikado) _Programmer & Videogame Designer | Space Invaders_
+- [Toru Iwatani](https://es.wikipedia.org/wiki/T%C5%8Dru_Iwatani) _Programmer & Videogame Designer | PacMan_
 - [Vinton Cerf]() _TCP/IP protocol_
 - 
 - 
@@ -4369,7 +4377,31 @@ _Dejemos al menos cantos"_ <br>
 _Nezahualcoyotl_ 
  
 ![image](https://user-images.githubusercontent.com/94720207/179418181-80cebf21-ad55-40c3-ad6d-d22c60e6317f.png)
-  
+
+---
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<span align="center"> <p align="center"> **I have come to this great land to seek my very own sun.** </p> </span> 
+
+<span align="center"> <p align="center"> **Finally, I have found it, I have!.... Ahhh, it's over... My Sun... it's setting... it's dark, so dark...** </p> </span>  
+
+<span align="center"> <p align="center"> **....** </p> </span>  
+<span align="center"> <p align="center"> **...** </p> </span> 
+<span align="center"> <p align="center"> **..** </p> </span> 
+<span align="center"> <p align="center"> **.** </p> </span> 
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
 ---
 
 > ![hecho en mex3 (1)mini](https://user-images.githubusercontent.com/94720207/163919294-2754caa3-c98c-4df3-b782-00703e4d3343.png)
