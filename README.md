@@ -500,7 +500,7 @@ _TriForce: Create Standards | Certifies Products | Set Local Regulations_
 - [**ITU-R** - International Telecommunication Union Radiocommunication Sector]() _UN worldwide frequency assignments through five administrative regions_
 - [**ISO** - International Organization for Standardization](https://www.iso.org/home.html)
 
-## ITU International Telecommunication Union
+## 🌎 📡 📻 `ITU` International Telecommunication Union 📻 📡 🌎
 
 _Responsible for many matters related to ITC. "Committed to connecting the world."_
 
@@ -536,7 +536,7 @@ _A global hierarchy exists for management of the RF spectrum worldwide on land, 
 
 - [ITU- D - Development Sector @ Wikipedia ](https://en.wikipedia.org/wiki/ITU-D)
 
-## 🌏 🔗 🎩 Internet Society (ISOC) 🎩 🔗 🌏
+## 🌏 🔗 🎩 `ISOC` Internet Society 🎩 🔗 🌏
 
 - [Internet Standards Organizations (ISOC, IAB, IESG, IETF, IRSG, IRTF)](http://www.tcpipguide.com/free/t_InternetStandardsOrganizationsISOCIABIESGIETFIRSGI.htm)
 - [Internet Society (ISOC)](https://www.internetsociety.org/)
@@ -553,7 +553,7 @@ _A global hierarchy exists for management of the RF spectrum worldwide on land, 
 
     - [**IANA** – Internet Assigned Number Authority]() _DNS, Domain Names & IPs Authority Assignments_
 
-## 🎖️ 🌎 📃 IETF - Internet Engineering Task Force 📃 🌎 🎖️
+## 🎖️ 🌎 📃 `IETF` Internet Engineering Task Force 📃 🌎 🎖️
 
 _The premier Internet standards body concerned for Internet architecture and the smooth operation._
 
@@ -574,7 +574,7 @@ _The premier Internet standards body concerned for Internet architecture and the
 - [**RFC 793 - 1981: TCP** (Transmission Control Protocol)](https://www.ietf.org/rfc/rfc793.txt)
 - [**RFC 791 - 1981: IP** (Internet Protocol)](https://www.ietf.org/rfc/rfc791.txt)
 
-## 📝 👷 🏰 IEEE: Institute of Electrical and Electronics Engineers 🏰 👷 📝
+## 📝 👷 🏰 `IEEE` Institute of Electrical and Electronics Engineers 🏰 👷 📝
 The world's largest technical professional organization dedicated to advancing technology for the benefit of humanity.
 
 ### IEEE & IEEE Standards
@@ -803,7 +803,7 @@ _Eensure the interoperability of WLAN products by providing certification testin
 
 - [WiFi Alliance **Future Certifications**]()
 
-## 🌏 📚 ⭐ ISO: International Organization for Standardization ⭐ 📚 🌏  
+## 🌏 📚 ⭐ `ISO` International Organization for Standardization ⭐ 📚 🌏  
 
 - [ISO: International Organization for Standardization](https://www.iso.org/home.html) _Official Web_
 - [ISO @ Wikipedia](https://es.wikipedia.org/wiki/Organizaci%C3%B3n_Internacional_de_Normalizaci%C3%B3n) _Wiki_
@@ -908,11 +908,11 @@ _Eensure the interoperability of WLAN products by providing certification testin
 - NetCat
 - SoCat
 
-## 👨‍💻 🐚 🔒 Telnet & SSH (Secure Shell) 🔒 🐚 👨‍💻
+## 👨‍💻 🐚 🔒 `Telnet` & `SSH` (Secure Shell) 🔒 🐚 👨‍💻
 
 - [SSH & SCP (Secure Copy) Cheatsheet for Linux](https://user-images.githubusercontent.com/94720207/194212517-b25dfa23-0577-4cf1-ac37-83c32c5fbfba.png)
 
-## 🖥️ 👀 💻 Virtual Machines 🖥️ 👀 💻
+## 🖥️ 👀 💻 `VM` Virtual Machines 🖥️ 👀 💻
 
 ### Virtual Machines Introducion
 
@@ -1084,10 +1084,10 @@ _Eensure the interoperability of WLAN products by providing certification testin
 - [Future Growth in networking]()
 
 
-## TCP/IP Protocol Suite & OSI Models
+## `TCP/IP` Protocol Suite & OSI Models
 _Modelos de referencia para los protocolos de la red y la interconexión y comunicación entre dispositivos de redes_
 
-### OSI Model
+### `OSI` Model
 
 - [OSI Model](https://www.iso.org/ics/35.100/x/) _Official Web_
 - [OSI Model @ Wikipedia](https://en.wikipedia.org/wiki/OSI_model) _Wiki_
@@ -1105,7 +1105,7 @@ _Modelos de referencia para los protocolos de la red y la interconexión y comun
 - [Three categories of TCP/UDP port numbers (Well known, registered, dynamic/private) @ Sunny](https://www.youtube.com/watch?v=dSO7XI_HOmY&t=1s)
 - [TCP/UDP Port Number IANA list @ Python - WhatPortIs](https://github.com/Fz3r0/whatportis)
 
-## IPv4
+## `IPv4` Internet Protocol version 4
 
 - [Internet Protocol version 4 (IPv4)](https://en.wikipedia.org/wiki/IPv4)
 - [IPv4 Quick Guide](https://www.tutorialspoint.com/ipv4/ipv4_quick_guide.htm)
@@ -1121,16 +1121,16 @@ _Modelos de referencia para los protocolos de la red y la interconexión y comun
 - [Subneting Guide - FLSM & VLSM]()
 - [IPv4 Subnetting Cheatsheet](https://packetlife.net/media/library/15/IPv4_Subnetting.pdf)
 
-## IPv6
+## `IPv6` Internet Protocol version 6
 
 - [Reserved IPv4 & IPv6 Addresses by Fz3r0](/Networking/Knowledge/Tables-Models-Cheatsheets/Tables-Models/reserved_ip_fz3r0.md)
 
-- **Ethernet - IEEE 802.3**
+## Ethernet (IEEE 802.3)
      
     - [Ethernet - IEEE 802.3](https://en.wikipedia.org/wiki/Ethernet) 
     - [7 parts of an Ethernet Frame @ Sunny](https://www.youtube.com/watch?v=qXtS1o1HGso)
 
-- **MAC-Address - IEEE 802.xxxx(various): EUI-48 & EUI-64**
+## MAC Address (IEEE 802w.3) EUI-48 & EUI-64**
 
     - [Media Access Control Address - MAC-Address](https://en.wikipedia.org/wiki/MAC_address)
     - [MAC vendor lookup](https://macvendors.com/)
