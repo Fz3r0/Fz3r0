@@ -1760,8 +1760,10 @@ Telsco S.A.S._
 - [**(dB)** - decibel]() _Comparative measurmet value | "the difference between 2 power levels"_
 - [**(dBi)** - Decibels Relative to an isotropic radiator]() _Passive gain ;)_
 - [**(dBd)** - Decibels Relative to a half-wave dipole antenna]() __
-        
-### The linear & logarithmic rules between `dBm & mW`
+
+## RF Calculation like an alien! 
+
+### RF Calculation like an alien: `dBm & mW`
 
 - [Logarithm](https://es.wikipedia.org/wiki/Logaritmo) _Wiki_
 - [Relation between dBm & mW is logarithmic (Absolute vs Relative)](https://user-images.githubusercontent.com/94720207/195482625-5a39d041-7b3e-48de-a9b3-f15e1a128e5e.png) _Image_
@@ -1771,9 +1773,10 @@ Telsco S.A.S._
 
     - [**Regla del 10 y del 3 (dBm & Mw)- Fz3r0**](https://user-images.githubusercontent.com/94720207/195640820-8ed8f452-4df7-4b3e-8045-37673def0008.png) _@ Fz3r0_
     - [**Cálculos de dBm & Mw con Regla del 10 y del - Fz3r0**](https://user-images.githubusercontent.com/94720207/195643405-2a585eef-f75f-42db-83e8-c5b6b37e65f2.png) _@ Fz3r0_
-    - [Ejercicios Fz3r0: Cálculo de dbm & Mw](https://user-images.githubusercontent.com/94720207/195655103-153a16ca-9761-46de-8744-8d58e16e6566.png) _:) lo logré! Es muy fácil_
+    - [Ejercicios Fz3r0: Cálculo de dbm & Mw](https://user-images.githubusercontent.com/94720207/195657808-b21a2439-4fb1-44d4-9c11-d77990cb2ff5.png) _:) lo logré! Es muy fácil_
     - [dBm to mW: **Conversion Table**](https://user-images.githubusercontent.com/94720207/195510879-2e829769-ab8b-4f85-90e5-02887ca97697.png) _Table_
 
+### RF Calculation like an alien: `dBi`
 
 
 
