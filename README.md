@@ -370,7 +370,7 @@ _Networking Lists, concepts, Tables, Models, Cheat-Sheets, Mind-Maps & Cool Reso
 - [Awesome **Mesh Networking**](https://github.com/moarpepes/awesome-mesh) _Documentation, Free Software mesh protocols, and applications._
 - [How To WiFi](https://howiwifi.com/) _A blog about Wi-Fi!_
 - [802.11 Frame Exchange - All combinations!](https://howiwifi.com/2020/07/16/802-11-frame-exchanges/)
-- [Trash, shitty, crap & full of WiFi Bad practices, DON'T DO THIS!!!](https://badfi.com/bad-fi) _Lo pongo hasta arriba porque es más utilizado de lo que parece jaja!_
+
 
 
 
@@ -1415,6 +1415,8 @@ _Deep dive into the Packet / PCAP Analysis... & Sharks a lot of sharks!_
 ### Wireless Resources
 
 - [Iain Explains Signals, Systems, and Digital Comms](https://www.youtube.com/channel/UCrltzuSvRbL3rpsvLDnFkuQ)
+- [**BadFi** Trash, shitty, crap & full of WiFi Bad practices, DON'T DO THIS!!!](https://badfi.com/bad-fi) _Lo pongo hasta arriba porque es más utilizado de lo que parece jaja!_
+- [**BadFi**  Direct Twitter](https://twitter.com/search?q=%23badfi&src=typed_query&f=live)
 
 ### WiFi & Wireless Courses
 
