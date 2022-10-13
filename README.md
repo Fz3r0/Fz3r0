@@ -4420,12 +4420,7 @@ _Nezahualcoyotl_
 
 ---
 
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+<br><br><br><br><br><br>
 
 <span align="center"> <p align="center"> **I have come to this great land to seek my very own sun.** </p> </span> 
 
@@ -4436,11 +4431,7 @@ _Nezahualcoyotl_
 <span align="center"> <p align="center"> **..** </p> </span> 
 <span align="center"> <p align="center"> **.** </p> </span> 
 
-<br>
-<br>
-<br>
-<br>
-<br>
+<br><br><br><br><br>
 
 ---
 
@@ -4450,16 +4441,6 @@ _Nezahualcoyotl_
 >
 > _"In the mist of the night you could see me come, where shadows move and Demons lie..._ <br>
 > _...I am Fz3r0 and the Sun no longer rises..."_
-  
-
-
-
-  
-<!--
-
-**Fz3r0/Fz3r0** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
--->
 
   
   
