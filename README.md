@@ -1683,6 +1683,8 @@ _The sum of Amplitude + Phase modulation = The king of modulations_
 ### Inverse Square Law
 
 - [Inverse Square Law](https://www.youtube.com/watch?v=KARCOGT95W0) _@ mrwaynesclass_
+- [Ley del cuadrado inverso (método de desviación) | Física](https://www.youtube.com/watch?v=gUfQ_D-rn14) _@ Khan Academy_
+- [Ley del cuadrado inverso - Aplicado a Rayos X](https://www.youtube.com/watch?v=Tfqf90ITfrs) _@ Henry RX_
 
 ### Units of Comparison (relative units)
 
