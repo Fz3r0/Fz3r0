@@ -1744,11 +1744,13 @@ _The sum of Amplitude + Phase modulation = The king of modulations_
 - [**(dBi)** - Decibels Relative to an isotropic radiator]() _Passive gain ;)_
 - [**(dBd)** - Decibels Relative to a half-wave dipole antenna]() __
         
-### The linear & logarithmic rules between dBm & mW
+### The linear & logarithmic rules between `dBm & mW`
 
 - [Logarithm](https://es.wikipedia.org/wiki/Logaritmo) _Wiki_
 - [Relation between dBm & mW is logarithmic (Absolute vs Relative)](https://user-images.githubusercontent.com/94720207/195482625-5a39d041-7b3e-48de-a9b3-f15e1a128e5e.png) _Image_
 - [Rule of 10s and 3s | **dBm vs mW Table**](https://user-images.githubusercontent.com/94720207/195482441-1dada7da-3027-4130-9f74-3d6cd3128ccb.png) _Table_
+- [dBm to mW: **Conversion Table**](https://user-images.githubusercontent.com/94720207/195510879-2e829769-ab8b-4f85-90e5-02887ca97697.png) _Table_
+
 
 
 
