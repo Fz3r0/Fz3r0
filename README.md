@@ -1704,6 +1704,8 @@ _Method of manipulating a signal (modulation) so that it can represent multiple 
 
 _The sum of Amplitude + Phase modulation = The king of modulations_
 
+- [Modulación por Cuadratura QAM - La mejor explicación](https://www.youtube.com/watch?v=qU4WihfDN6s) _@ 
+Telsco S.A.S._
 - [Binary PSK (BPSK) & Quadrature PSK (QPSK)](https://www.youtube.com/watch?v=O3-L9tvTvGg) _@ Engineering Made Easy_
 - [QAM Modulation: The king of Coding Capacity](https://www.youtube.com/watch?v=efJRXQp9Ufk) _The sum of Amplitude + Phase modulation_
 - [Inside Wireless Español: QAM Modulation pt.1](https://www.youtube.com/watch?v=efJRXQp9Ufk)
@@ -1757,7 +1759,9 @@ _The sum of Amplitude + Phase modulation = The king of modulations_
 - [Milliwatt (mW) to dBm **Conversion** - **Easy Way!**](https://www.youtube.com/watch?v=yfdb0Dn94A0) _@ GTHillWiFi_
 - [Potencias en RF - **Convertir potencias** en Español con **tabla chingona**](https://www.youtube.com/watch?v=zsrq6i0x3WE) _@ Telsco S.A.S._
 
-    - [**Regla del 10 y del 3 - Fz3r0**](https://user-images.githubusercontent.com/94720207/195640820-8ed8f452-4df7-4b3e-8045-37673def0008.png) _@ Fz3r0_
+    - [**Regla del 10 y del 3 (dBm & Mw)- Fz3r0**](https://user-images.githubusercontent.com/94720207/195640820-8ed8f452-4df7-4b3e-8045-37673def0008.png) _@ Fz3r0_
+    - [**Cálculos de dBm & Mw con Regla del 10 y del - Fz3r0**](https://user-images.githubusercontent.com/94720207/195643405-2a585eef-f75f-42db-83e8-c5b6b37e65f2.png) _@ Fz3r0_
+
 
 
 
