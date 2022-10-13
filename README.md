@@ -1675,13 +1675,14 @@ _Dense materials absorb energy & weaken the signal_
 
 - [Interference (Corruption)](https://user-images.githubusercontent.com/94720207/195463161-26bc550b-ac9d-46a6-87de-b2fec18b82d4.png) _Image_
 
-### Free Space Path Loss (FSPL)
+### FSPL - Free Space Path Loss 
 
 - [Free Space Path Loss (FSPL)](https://en.wikipedia.org/wiki/Free-space_path_loss) _Wiki_
 - [RF Basics - RF Free Space Path Loss](https://www.youtube.com/watch?v=bwlgwPsNvt4) _@ Ruckus Education_
 - [Free Space Path Loss](https://www.youtube.com/watch?v=-XHWEYxW_c4&t=44s) _@ Inside Wireless_
 
 ## 1️⃣ 0️⃣ 🔊 The "Keying" Method 🔊 0️⃣ 1️⃣
+
 _Method of manipulating a signal (modulation) so that it can represent multiple pieces of data (Radio Signals into 1 & 0)_
 
 - [Keying Method (Telecommunications)](https://en.wikipedia.org/wiki/Keying_(telecommunications)) _The capacity of a signal to encode its data so it can be transported to the reciever._
@@ -1700,6 +1701,7 @@ _Method of manipulating a signal (modulation) so that it can represent multiple 
 - [**PSK** - Phase Shift Keying](https://www.tutorialspoint.com/what-is-phase-shift-keying-psk-in-computer-network)
 
 ### QAM - Quadrature Amplitude Modulation
+
 _The sum of Amplitude + Phase modulation = The king of modulations_
 
 - [Binary PSK (BPSK) & Quadrature PSK (QPSK)](https://www.youtube.com/watch?v=O3-L9tvTvGg) _@ Engineering Made Easy_
@@ -1719,12 +1721,14 @@ _The sum of Amplitude + Phase modulation = The king of modulations_
 
 - [RF Maths Fast & Furious](https://youtu.be/RNv1AnSfdmY) _@ GTHillWiFi_
 - [RF Maths Cheatsheet](https://sites.google.com/site/802dot11study/ch3/notes) _@ 802dot11_
+- [RF Calculators - Full Suite](https://www.everythingrf.com/rf-calculators) _Everything RF_
+- [Link Calculator - With Map](https://rfelements.com/calc) _@RF Elements_
 
-### Units of Measurments (Power & Comparison)
+### Units of Measurments `Power & Comparison`
 
 - [Units of Measurments Comparison](https://user-images.githubusercontent.com/94720207/195480309-904f1c11-51fc-40d1-9edd-a54478749331.png) _Table_
 
-### Units of power (absolute units)
+### Units of power `absolute units`
         
 - [**(W)** - watt](https://en.wikipedia.org/wiki/Watt) _Basic unit of power | The highest value we deal in 802.11_
     - [**(mW)** - milliwatt - watt to milliwatt calculator](https://www.rapidtables.com/convert/power/mW_to_Watt.html) _Less than 1 watt..._
@@ -1738,7 +1742,7 @@ _The sum of Amplitude + Phase modulation = The king of modulations_
 - [Ley del cuadrado inverso (método de desviación) | Física](https://www.youtube.com/watch?v=gUfQ_D-rn14) _@ Khan Academy_
 - [Ley del cuadrado inverso - Aplicado a Rayos X](https://www.youtube.com/watch?v=Tfqf90ITfrs) _@ Henry RX_
 
-### Units of Comparison (relative units)
+### Units of Comparison `relative units`
 
 - [**(dB)** - decibel]() _Comparative measurmet value | "the difference between 2 power levels"_
 - [**(dBi)** - Decibels Relative to an isotropic radiator]() _Passive gain ;)_
@@ -1750,34 +1754,22 @@ _The sum of Amplitude + Phase modulation = The king of modulations_
 - [Relation between dBm & mW is logarithmic (Absolute vs Relative)](https://user-images.githubusercontent.com/94720207/195482625-5a39d041-7b3e-48de-a9b3-f15e1a128e5e.png) _Image_
 - [Rule of 10s and 3s | **dBm vs mW Table**](https://user-images.githubusercontent.com/94720207/195482441-1dada7da-3027-4130-9f74-3d6cd3128ccb.png) _Table_
 - [dBm to mW: **Conversion Table**](https://user-images.githubusercontent.com/94720207/195510879-2e829769-ab8b-4f85-90e5-02887ca97697.png) _Table_
+- [Milliwatt (mW) to dBm Conversion - **Easy Way!**](https://www.youtube.com/watch?v=yfdb0Dn94A0) _@ GTHillWiFi_
 
 
+### Noise Floor
 
 
-    - [Units of Power and Comparison]()
+### `SNR` Signal-to-Noise Ratio
 
-        - [Watt]()
-        - [Milliwatt]()
-        - [Decibel]()
-        - [Decibels Relative to an Isotropic Radiator (dBi)]()
-        - [Decibels Relative to a Half-Wave Dipole Antenna (dBd)]()
-        - [Decibels Relative to 1 Milliwatt (dBm)]()
+#### Signal-to-Interference-Plus-Noise Ratio
+
+### `RSSI` Received Signal Strength Indicator
 
 
-    - [RF Mathematics]()
+### Link Budget]
 
-        - [Rule of 10s and 3s]()
-        - [RF Math Summary]()
-
-    - [Noise Floor]()
-    - [Signal-to-Noise Ratio]()
-
-        - [Signal-to-Interference-Plus-Noise Ratio]()
-
-- [Received Signal Strength Indicator]()
-- [Link Budget]()
-
-        - [Fade Margin/System Operating Margin]()
+#### Fade Margin/System Operating Margin
 
 
 
