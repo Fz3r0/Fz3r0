@@ -1027,6 +1027,18 @@ _Eensure the interoperability of WLAN products by providing certification testin
 
 ### Internet of Things (IoT)
 
+- [Consumer IoT]() _for everyday use, easy & public access devices_
+    - [Google Home Voice Controller (p.e Alexa)]()
+    - [Augmented Reality Glasses]()
+    - [Home Security: key driver]()
+    - [Home Security: Smart Camera]()
+    - 
+- [Commercial IoT _healthcare and transport industries devices]()
+    - [Detection systems, Sensors & Cameras]() 
+
+- [Military Things (IoMT) _Military field devices]()
+- [Industrial Internet of Things (IIoT) _Industrial applications (p.e manufacturing & energy sectors)]()
+
 ## Network Topologies
 
 ### Network Topologies
