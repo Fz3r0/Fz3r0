@@ -1663,7 +1663,34 @@ _The sum of Amplitude + Phase modulation = The king of modulations_
 
 ## 📈 📶 📏 RF Mathematics & Measurments 📏 📶 📈
 
-- [RF MAths Fast & Furious](https://youtu.be/RNv1AnSfdmY) _@ GTHillWiFi_
+### Maths & Measurments Cool Resources
+
+- [RF Maths Fast & Furious](https://youtu.be/RNv1AnSfdmY) _@ GTHillWiFi_
+- [RF Maths Cheatsheet](https://sites.google.com/site/802dot11study/ch3/notes) _@ 802dot11_
+
+### Units of Measurments (Power & Comparison)
+
+- [Units of Measurments Comparison](https://user-images.githubusercontent.com/94720207/195480309-904f1c11-51fc-40d1-9edd-a54478749331.png) _Table_
+
+### Units of power (absolute units)
+        
+- [**(W)** - watt](https://en.wikipedia.org/wiki/Watt) _Basic unit of power | The highest value we deal in 802.11_
+    - [**(mW)** - milliwatt - watt to milliwatt calculator](https://www.rapidtables.com/convert/power/mW_to_Watt.html) _Less than 1 watt..._
+
+- [**(dBm)** - Decibels Relative to 1 mW](https://en.wikipedia.org/wiki/DBm) _0dBm = 1mW_
+    - [WiFi Signal Strenght & dBM](https://eyenetworks.no/en/wifi-signal-strength/) _dbm & RSSI_
+
+### Units of Comparison (relative units)
+
+- [**(dB)** - decibel]() _Comparative measurmet value | "the difference between 2 power levels"_
+- [**(dBi)** - Decibels Relative to an isotropic radiator]() _Passive gain ;)_
+- [**(dBd)** - Decibels Relative to a half-wave dipole antenna]() __
+        
+        - Mathematics
+        
+- [CWNA Mathematics Resume Notes (bottom)](https://sites.google.com/site/802dot11study/ch3/notes)  
+- [Inside Wireless en Español: Presupuesto de Enlace - Prx > Gtx / Ptx](https://www.youtube.com/watch?v=dj82XrhfoWA)
+
 
 
 
@@ -1695,6 +1722,8 @@ _The sum of Amplitude + Phase modulation = The king of modulations_
 
 
 
+
+watt to milliwatt calculator](https://www.rapidtables.com/convert/power/mW_to_Watt.html
 
 
 
@@ -1728,24 +1757,14 @@ _The sum of Amplitude + Phase modulation = The king of modulations_
 
 
 
-    - Units of Measurments (Power & Comparison)
-    
-        - Units of power (absolute)
-        
-            - [watt **(W)**](https://en.wikipedia.org/wiki/Watt)  
-            - [milliwatt **(mW)** - watt to milliwatt calculator](https://www.rapidtables.com/convert/power/mW_to_Watt.html)
-            - [Decibels Relative to 1 mW **(dBm)**]()
 
-        - Units of omparison (relative)
 
-            - [decibel **(dB)**]()
-            - [Decibels Relative to an isotropic radiator **(dBi)*]()
-            - [Decibels Relative to a half-wave dipole antenna **(dBd)**]()
-        
-        - Mathematics
-        
-            - [CWNA Mathematics Resume Notes (bottom)](https://sites.google.com/site/802dot11study/ch3/notes)  
-            - [Inside Wireless en Español: Presupuesto de Enlace - Prx > Gtx / Ptx](https://www.youtube.com/watch?v=dj82XrhfoWA)
+
+
+
+
+
+
 
 [Wireless WLAN Troubleshooting & Ass-Savers]()
 
