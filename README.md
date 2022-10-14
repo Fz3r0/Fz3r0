@@ -2218,93 +2218,11 @@ U-NII bands
 
 
 
+
 - **CWNA - Certified Wireless Network Administrator: The 4th Impact**
 _Horizon alternitatis systema sephiroticvm X divino rvm nominvm._ <br>
 
 - [EVA I - Overview of Wireless Standards, Organizations, and Fundamentals]() 
-
-    - [History of Wireless Local Area Networks]()
-    - [Standards Organizations]()
-
-        - [Federal Communications Commission]()
-        - [International Telecommunication Union]()
-
-            - [Radiocommunication Sector]() 
-
-    - [Institute of Electrical and Electronics Engineers]()
-        - [Internet Engineering Task Force]()
-        - [Wi-Fi Alliance]()
-        - [International Organization for Standardization]()
-    - [Core, Distribution, and Access]()
-    - [Communications Fundamentals]()
-        - [Communication Terminology]()
-        - [Understanding Carrier Signals]() 
-        - [Understanding Keying Methods]() 
-
-- [EVA II - IEEE 802.11 Standard and Amendments]()
-
-    - [Original IEEE 802.11 Standard]()
-    - [IEEE 802.11-2020 Ratified Amendments]() 
-        
-        - [802.11a-1999]()
-        - [802.11b-1999]()
-        - [802.11d-2001]()
-        - [802.11e-2005]() 
-        - [802.11g-2003]() 
-        - [802.11h-2003]() 
-        - [802.11i-2004]() 
-        - [802.11j-2004]() 
-        - [802.11k-2008]() 
-        - [802.11n-2009]() 
-        - [802.11p-2010]() 
-        - [802.11r-2008]() 
-        - [802.11s-2011]() 
-        - [802.11u-2011]() 
-        - [802.11v-2011]() 
-        - [802.11w-2009]() 
-        - [802.11y-2008]() 
-        - [802.11z-2010]() 
-        - [802.11aa-2012]() 
-        - [802.11ac-2013]() 
-        - [802.11ad-2012]() 
-        - [802.11ae-2012]() 
-        - [802.11af-2014]() 
-        - [802.11ah-2016]() 
-        - [802.11ai-2016]() 
-        - [802.11aj-2018]() 
-        - [802.11ak-2018]() 
-         [802.11aq-2018]() 
-
-    - [IEEE 802.11 Draft Amendments]() 
-
-        - [802.11ax (High Efficiency)]() 
-        - [802.11ay (Next-Generation 60 GHz)]() 
-        - [802.11az (Next-Generation Positioning)]() 
-        - [802.11ba (Wake-Up Radio)]() 
-        - [802.11bb (Light Communications)]() 
-        - [802.11bc (Enhanced Broadcast Service)]() 
-        - [802.11bd (Enhancements for Next-Generation V2X)]() 
-        - [802.11be (Extremely High Throughput)]() 
-
-- [Defunct Amendments]()
-
-        - [802.11F]()
-        - [802.11T]()
-
-- [IEEE Task Group m]()
-
-- [EVA III - Radio Frequency Fundamentals]()
-
-    - [What Is a Radio Frequency Signal?]()  
-    - [Radio Frequency Characteristics]()
-
-        - [Wavelength]()
-        - [Frequency]()
-        - [Amplitude]()
-        - [Phase]()
-
-
-
 
 
 
@@ -2321,8 +2239,6 @@ _Horizon alternitatis systema sephiroticvm X divino rvm nominvm._ <br>
         - [Receiver]()
         - [Intentional Radiator]()
         - [Equivalent Isotropically Radiated Power]()
-
-
 
 
 
