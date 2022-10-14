@@ -403,6 +403,10 @@ _A nasty collection of sexy tools for Networking, Programming, Cyber-Security, S
 - [draw.io](https://app.diagrams.net/) _Free!_
 - [Excali Draw](https://excalidraw.com/) _Free!_
 
+## MISCELANEOS UNDER CONTRUCTION!!!
+
+- [Password Monster](https://www.passwordmonster.com/) _Test: How Secure is Your Password?_
+
 ## 📊 🖥️ 👨‍🚀 Simulators & Emulators 👨‍🚀 🖥️ 📊
 
 ### Cisco Packet Tracer
