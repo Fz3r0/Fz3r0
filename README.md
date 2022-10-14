@@ -1789,7 +1789,10 @@ _"Dispersión" en Español. Uneven surfaces hots, random surfaces, shake shake!_
 
 ### Gain (Amplification)
 
-- [**Gain**: Amplification, Active gain, PAssive Gain](https://www.billdeitrick.com/cwna-chapter-2-rf-characteristics-and-behaviors/)
+- [**`Gain`**: Amplification](https://www.billdeitrick.com/cwna-chapter-2-rf-characteristics-and-behaviors/)
+    - [`Active Gain`]() - 
+    - [`Passive Gain`]() - 
+
 - [**RF Gain & Loss:** Active Gain VS Passive Gain Devices](https://www.youtube.com/watch?v=ZY3MhaIh9c8)
 - [**Gain** Example in a Qualcomm Wireless device](https://patents.google.com/patent/US7430406B2/en)
 
@@ -1802,7 +1805,7 @@ _"Dispersión" en Español. Uneven surfaces hots, random surfaces, shake shake!_
 
 - [RF Multipath](https://www.youtube.com/watch?v=3-jOQLN4y9c) _@ Ruckus_
 - [Multipah & Delay Spread](https://user-images.githubusercontent.com/94720207/195463016-848cc804-768e-4c48-89da-c091b5f31d32.png)
-- [Results of Multipath]()
+- [Results of Multipath]() _legacy 802.11a/b/g Nemesis | but MIMO & MU-MIMO new tech Hero!_
     - [`Upfade` - Increased signal strength | Multiple RF arrive at same time **in-phase**]()
     - [`Downfade` - Decreased signal strength | Multiple RF arrive at same time **out-of-phase**]()
     - [`Nulling` -  Signal cancellation | Multiple RF arrive at same time **180° out-of-phase**]()
