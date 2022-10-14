@@ -586,6 +586,66 @@ _A nasty collection of sexy tools for Networking, Programming, Cyber-Security, S
 
 
 
+## Networking Cyberweapons
+
+### Networking Tools
+
+### Network Hacking Tools
+
+### Wifi Hacking Tools
+
+- [wifiphisher](https://github.com/wifiphisher/wifiphisher) 
+- [WiFi-Pumpkin](https://github.com/P0cL4bs/WiFi-Pumpkin) 
+- [eaphammer](https://github.com/s0lst1c3/eaphammer) 
+- [RogueSploit](https://github.com/h0nus/RogueSploit) 
+- [SniffAir](https://github.com/Tylous/SniffAir) 
+- [fluxion](https://github.com/FluxionNetwork/fluxion) 
+- [wifite2](https://github.com/derv82/wifite2) 
+- [airpwn-ng](https://github.com/ICSec/airpwn-ng) 
+- [mitmAP](https://github.com/xdavidhu/mitmAP) 
+- [hcxdumptool](https://github.com/ZerBea/hcxdumptool) 
+- [wifipumpkin3](https://github.com/P0cL4bs/wifipumpkin3) _Powerful framework for rogue access point attack._
+
+## Wordlists DBs & Wordlists generators
+
+https://github.com/danielmiessler/SecLists
+
+https://github.com/berzerk0/Probable-Wordlists
+
+https://github.com/govolution/betterdefaultpasslist
+
+https://github.com/insidetrust/statistically-likely-usernames
+
+https://github.com/LandGrey/pydictor
+
+https://github.com/sc0tfree/mentalist
+
+https://github.com/skahwah/wordsmith
+
+https://github.com/1N3/IntruderPayloads
+
+https://github.com/fuzzdb-project/fuzzdb
+
+https://github.com/Bo0oM/fuzz.txt
+
+https://github.com/laconicwolf/Password-Scripts
+
+https://github.com/FlameOfIgnis/Pwdb-Public - A collection of all the data i could extract from 1 billion leaked credentials from internet.
+
+## Hash Crack / Decryption
+
+https://hashcat.net/hashcat/
+
+https://github.com/Ciphey/Ciphey - Ciphey is an automated decryption tool. Input encrypted text, get the decrypted text back.
+
+https://github.com/Coalfire-Research/npk - A mostly-serverless distributed hash cracking platform
+
+https://github.com/JoelGMSec/Cloudtopolis - Cracking hashes in the Cloud (for free!)
+
+https://github.com/f0cker/crackq - CrackQ: A Python Hashcat cracking queue system
+
+
+
 
 
 
