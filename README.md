@@ -1802,6 +1802,11 @@ _"Dispersión" en Español. Uneven surfaces hots, random surfaces, shake shake!_
 
 - [RF Multipath](https://www.youtube.com/watch?v=3-jOQLN4y9c) _@ Ruckus_
 - [Multipah & Delay Spread](https://user-images.githubusercontent.com/94720207/195463016-848cc804-768e-4c48-89da-c091b5f31d32.png)
+- [Results of Multipath]()
+    - [`Upfade` - Increased signal strength | Multiple RF arrive at same time **in-phase**]()
+    - [`Downfade` - Decreased signal strength | Multiple RF arrive at same time **out-of-phase**]()
+    - [`Nulling` -  Signal cancellation | Multiple RF arrive at same time **180° out-of-phase**]()
+    - [`Data Corrpution` - Delay Spread, Difference in time & reflected signals goes kaput!!!]()
 
 ### Interference (Corruption)
 
