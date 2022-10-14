@@ -8,8 +8,8 @@
 
  =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 
-  Cualquiera es libre de copiar, distribuir, enseñar, modificar y
-  utilizar este documento como guste.
+  Cualquiera es libre de copiar, distribuir, enseñar, modificar,
+  presentar y/o utilizar este documento como guste.
   
   Los créditos hacia mi persona serán agradecidos, pero tampoco
   son necesarios.
