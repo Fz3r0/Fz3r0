@@ -1814,6 +1814,7 @@ _If you hear the voice of an alien in your psychedelic experience... is the synt
 - [Relation between dBm & mW is logarithmic (Absolute vs Relative)](https://user-images.githubusercontent.com/94720207/195482625-5a39d041-7b3e-48de-a9b3-f15e1a128e5e.png) _Image_
 - [Rule of 10s and 3s | **dBm vs mW Table**](https://user-images.githubusercontent.com/94720207/195482441-1dada7da-3027-4130-9f74-3d6cd3128ccb.png) _Table_
 - [Milliwatt (mW) to dBm **Conversion** - **Easy Way!**](https://www.youtube.com/watch?v=yfdb0Dn94A0) _@ GTHillWiFi_
+- [Milliwatt (mW) to dBm **Conversion** - **Mandrake: Understand why to use dBm in negatives**](https://www.youtube.com/watch?v=NuvKeqyEmNg) _@ GTHillWiFi_
 - [Potencias en RF - **Convertir potencias** ¡la mejor explicación! **tabla chingona**](https://www.youtube.com/watch?v=zsrq6i0x3WE) _@ Telsco S.A.S._
 
     - [**Regla del 10 y del 3 (dBm & Mw)- Fz3r0**](https://user-images.githubusercontent.com/94720207/195640820-8ed8f452-4df7-4b3e-8045-37673def0008.png) _@ Fz3r0_
@@ -1828,7 +1829,19 @@ _If you hear the voice of an alien in your psychedelic experience... is the synt
 - [Example1: Solved (all in mind, just the last 17 solved)](https://user-images.githubusercontent.com/94720207/195671290-361efdab-945f-4fd0-81d4-6f3d6c4c6b9d.png) _@ Fz3r0_
 - [Example2:](https://user-images.githubusercontent.com/94720207/195671605-a712e01e-4056-4c10-a10c-0c9aafb38940.png) _@ CWNP_
 
+## Antenna Operation & Types
 
+### Antenna Operation
+
+- [Fundamental Antenna Operation: Fundamental job "Shape the Energy"](https://www.youtube.com/watch?v=TszLhm6pWaA) _@ GTHillWiFi_
+- [`Antenna Patterns:` **Azimuth:** (Bird's eye | Top View) & Elevation (Eye level | Front View)](https://help.ui.com/hc/en-us/articles/115012664088-UniFi-Introduction-to-Antenna-Radiation-Patterns) _@ UniFi_
+- [`Isotropic Radiator` **"The perfect wave"**](https://en.wikipedia.org/wiki/Isotropic_radiator) _Theoretical (dBi) point source which radiates the same int in all directions_
+- [`Polarization` (vertical-up-down & horizontal-side-side) & `Antenna Types`](https://www.youtube.com/watch?v=zEzZfCtVnpY)
+    - [Antenna Polarization: Vertical, Horizontal, Circular, Eliptical](https://jemengineering.com/blog-intro-to-antenna-polarization/) _Graphics | @ jemengineering_
+
+### Antenna Operation
+
+[IR, EIRP & Relative Power Measurement](https://www.youtube.com/watch?v=hUqCnHANtKs) _@ Ruckus_
 
 
 
