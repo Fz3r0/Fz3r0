@@ -8,14 +8,17 @@
 
  =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 
-  Cualquiera es libre de copiar, distribuir, enseñar, modificar,
-  presentar y/o utilizar este documento como guste.
+  - Cualquiera es libre de copiar, distribuir, enseñar, modificar,
+    presentar y/o utilizar este documento como le sea su voluntad.
   
-  Los créditos hacia mi persona serán agradecidos, pero tampoco
-  son necesarios.
+  - Los créditos hacia mi persona serán agradecidos, pero tampoco
+    son necesarios.
 
-  Por favor, solo no lo vendas, comparte el conocimiento gratuito
-  siempre para la búsqueda de la justicia y la verdad. 
+  - Únicamente hago la petición de no obtener ningún tipo de
+    beneficio económico directo de este documento, por favor: 
+
+    Comparte el conocimiento gratuito siempre para la búsqueda de 
+    la justicia, la verdad y el honor de la raza humana. Ometeotl
 
  =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
  "                                                               "
@@ -1967,6 +1970,22 @@ _If you hear the voice of an alien in your psychedelic experience... is the synt
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## PHYs & Network Types
 
 
 
