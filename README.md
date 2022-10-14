@@ -1,17 +1,21 @@
 <!-- =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 
-                    BIENVENID@ AL INFIERNO 
+                     BIENVENID@ AL INFIERNO 
 
-                 "El infierno es aquí merito...
-
+                  "El infierno es aquí merito...
+                    
          Esta vida y no chingaderas es el cabrón infierno"
 
  =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 
   Cualquiera es libre de copiar, distribuir, enseñar, modificar y
-  utilizar este documento como guste, no necesito créditos.
+  utilizar este documento como guste.
+  
+  Los créditos hacia mi persona serán agradecidos, pero tampoco
+  son necesarios.
 
   Por favor, solo no lo vendas, comparte el conocimiento gratuito
+  siempre para la búsqueda de la justicia y la verdad. 
 
  =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
  "                                                               "
