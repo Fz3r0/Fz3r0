@@ -1762,18 +1762,19 @@ _Solid metal impact or "mirror" effect | L1 y X (pase) en el Winning Eleven_
 
 _Bend away from the earth | Cup of water effect | Pink Floyd: Dark Side of The Moon_ <br>
 
-_ [**RF Refraction**](https://www.youtube.com/watch?v=jNmOWS8MKpQ) _@ Ruckus_
+- [**RF Refraction**](https://www.youtube.com/watch?v=jNmOWS8MKpQ) _@ Ruckus_
 - [**Refraction**](https://www.billdeitrick.com/cwna-chapter-2-rf-characteristics-and-behaviors/) 
 - [**Refraction**](https://user-images.githubusercontent.com/94720207/195462163-7ec33ee8-6700-4a9a-acc9-04517db1eda4.png) _Picture_
 - [RF Refraction - Bridge Link Example](https://user-images.githubusercontent.com/94720207/195890577-c0f3d8e7-16c3-48e0-90ed-28fd24518203.png) _Picture_
-
 - [Pink Floyd - The D̲ark S̲ide of the Mo̲o̲n (Full Album)1973](https://www.youtube.com/watch?v=hsr4PmeEocE)
 
 ### Diffraction
 
-_Bending & RF shadow generator behind obstacle | Travesañoooo!!!! (balón cambia leve su trayectoria)_
+_Bending & RF shadow generator behind obstacle | Travesaño!(balón cambia leve su trayectoria)_
 
+- [**RF Diffraction**](https://www.youtube.com/watch?v=6EPHubuf2No) _@ Ruckus_
 - [**Diffraction**](https://user-images.githubusercontent.com/94720207/195462462-062f12e7-0653-4082-8e13-060ed843ce70.png) _Image_
+- [Diffraction - River & Rock Example](https://user-images.githubusercontent.com/94720207/195891437-42a747f9-9a49-4da0-b336-99587560593d.png) _Image_
 
 ### Scattering 
 
@@ -1786,25 +1787,6 @@ _"Dispersión" en Español. Uneven surfaces hots, random surfaces, shake shake!_
 - [Raylight Scattering - Why the sky is blue?](https://user-images.githubusercontent.com/94720207/195887619-4559effb-da7e-435e-98ca-cd8c811e1959.jpg)
 - [Raylight Scattering - Why the sky is blue? II](https://user-images.githubusercontent.com/94720207/195887782-f63a863e-cf0c-45dd-9018-27a3be6693a0.jpg)
 
-
-
-
-- [Absorption]()
-- [Reflection]()
-- [Scattering]()
-- [Refraction]()
-- [Diffraction]()
-- [Loss (Attenuation)]()
-- [Free Space Path Loss]()
-- [Multipath]()
-- [Gain (Amplification)]()
-
-
-
-
-
-
-
 ### Gain (Amplification)
 
 - [**Gain**: Amplification, Active gain, PAssive Gain](https://www.billdeitrick.com/cwna-chapter-2-rf-characteristics-and-behaviors/)
@@ -1815,10 +1797,6 @@ _"Dispersión" en Español. Uneven surfaces hots, random surfaces, shake shake!_
 
 - [**Loss**: Intentional Loss, Attenuators, Natural Loss](https://www.billdeitrick.com/cwna-chapter-2-rf-characteristics-and-behaviors/)
 - [Inside Wireless: **Pérdida de trayectoria / Path Loss**](https://www.youtube.com/watch?v=-XHWEYxW_c4)
-
-
-
-
 
 ### Multipah & Delay Spread
 
