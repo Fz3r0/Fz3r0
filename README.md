@@ -380,7 +380,10 @@ _Para mis amigos que están empezando completamente de 0, cursa una ingeniería 
 - [¿Qué es la Inteligencia Artificial (AI)?]()
 - [¿Qué es Machine Learning?]()
 - BONUS!!! [Aprende inglés desde 0](https://www.youtube.com/watch?v=dFJvNYdKGrA&list=PLgrNDDl9MxYmUmf19zPiljdg8FKIRmP78) _Aprende a hablar inglés mejor que tu tío que se fué al gabacho ¡sin miedo!_
+- [Open Source Society University - Path to a free self-taught education in Computer Science!](https://github.com/ossu/computer-science) _OSSU_
 - [**¿Cómo hackear en 2 minutos al mundo entero?**](https://youtu.be/dQw4w9WgXcQ) _**¡Un largo camino comienza aquí, aventuras podrás disfutar!**_
+
+    
 
 <span align="center"> <h1 align="center">💾 💽 🏴‍☠️ Fz3r0 Arsenal: `Cyber-Weapons` 🏴‍☠️ 💽 💾</h1> </span>  
 
