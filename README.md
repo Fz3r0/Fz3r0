@@ -1829,7 +1829,7 @@ _If you hear the voice of an alien in your psychedelic experience... is the synt
 - [Example1: Solved (all in mind, just the last 17 solved)](https://user-images.githubusercontent.com/94720207/195671290-361efdab-945f-4fd0-81d4-6f3d6c4c6b9d.png) _@ Fz3r0_
 - [Example2:](https://user-images.githubusercontent.com/94720207/195671605-a712e01e-4056-4c10-a10c-0c9aafb38940.png) _@ CWNP_
 
-## Antenna Operation & Hardware
+## Antenna Operation
 
 ### Antenna Operation
 
@@ -1844,8 +1844,23 @@ _If you hear the voice of an alien in your psychedelic experience... is the synt
 
 [IR, EIRP & Relative Power Measurement](https://www.youtube.com/watch?v=hUqCnHANtKs) _@ Ruckus_
 
+## Antenna Diveristy: Simple, MIMO & MU-MIMO
 
+### Simple Diveristy Systems
 
+- [**Simple Diversity Systems** - One antenna at a time](https://user-images.githubusercontent.com/94720207/195755653-bb459bb0-e8fb-4686-8273-5bf670fec8d6.png) _Due to switch "one at a time" **it prevents multipath**_
+
+### `MIMO` Multiple-Input Multiple-Output
+
+- [MIMO (multiple input, multiple output)](https://en.wikipedia.org/wiki/MIMO) _@ wiki_
+- [MIMO (multiple input, multiple output)](https://www.techtarget.com/searchmobilecomputing/definition/MIMO) _@ techtarget_
+- [**Multiple Diversity Systems** - multiple transmission & receiving antennas](https://user-images.githubusercontent.com/94720207/195755653-bb459bb0-e8fb-4686-8273-5bf670fec8d6.png) _Due to multiple transmission: **exploit multipath propagation**_
+
+### `MU-MIMO` Multiple-Input Multiple-Output
+
+## Types of Antennas & Hardware
+
+- [Smart Antenna (like Ruckus)]()
 
 
 
