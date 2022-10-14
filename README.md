@@ -1829,12 +1829,13 @@ _If you hear the voice of an alien in your psychedelic experience... is the synt
 - [Example1: Solved (all in mind, just the last 17 solved)](https://user-images.githubusercontent.com/94720207/195671290-361efdab-945f-4fd0-81d4-6f3d6c4c6b9d.png) _@ Fz3r0_
 - [Example2:](https://user-images.githubusercontent.com/94720207/195671605-a712e01e-4056-4c10-a10c-0c9aafb38940.png) _@ CWNP_
 
-## Antenna Operation & Types
+## Antenna Operation & Hardware
 
 ### Antenna Operation
 
 - [Fundamental Antenna Operation: Fundamental job "Shape the Energy"](https://www.youtube.com/watch?v=TszLhm6pWaA) _@ GTHillWiFi_
 - [`Antenna Patterns:` **Azimuth:** (Bird's eye | Top View) & Elevation (Eye level | Front View)](https://help.ui.com/hc/en-us/articles/115012664088-UniFi-Introduction-to-Antenna-Radiation-Patterns) _@ UniFi_
+    - [**Azimuth:** & **Elevation**](https://user-images.githubusercontent.com/94720207/195755167-dbfffd68-9268-4323-88b0-71d54f6c2202.png) _Image_
 - [`Isotropic Radiator` **"The perfect wave"**](https://en.wikipedia.org/wiki/Isotropic_radiator) _Theoretical (dBi) point source which radiates the same int in all directions_
 - [`Polarization` (vertical-up-down & horizontal-side-side) & `Antenna Types`](https://www.youtube.com/watch?v=zEzZfCtVnpY)
     - [Antenna Polarization: Vertical, Horizontal, Circular, Eliptical](https://jemengineering.com/blog-intro-to-antenna-polarization/) _Graphics | @ jemengineering_
@@ -1842,6 +1843,12 @@ _If you hear the voice of an alien in your psychedelic experience... is the synt
 ### Antenna Operation
 
 [IR, EIRP & Relative Power Measurement](https://www.youtube.com/watch?v=hUqCnHANtKs) _@ Ruckus_
+
+
+
+
+
+
 
 
 
