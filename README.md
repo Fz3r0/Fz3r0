@@ -416,6 +416,18 @@ _A nasty collection of sexy tools for Networking, Programming, Cyber-Security, S
 ## MISCELANEOS UNDER CONTRUCTION!!!
 
 - [Pick Color from Image - Image to HEX, RGB, CMYK](https://www.ginifab.com/feeds/pms/color_picker_from_image.php)
+- [Interactive Waves!!! :D](https://emanim.szialab.org/index.html) _clickie!_
+
+
+
+
+
+
+
+
+
+
+
 
 ## Performance Analyze & Monitoring Tools
 
@@ -1679,63 +1691,74 @@ _Deep dive into the Packet / PCAP Analysis... & Sharks a lot of sharks!_
 - [RF - ]()
 - [**WiFi** - It means nothing!!!](https://wifinetnews.com/archives/2005/11/wi-fi_stands_fornothing_and_everything.html)
 
-## Logical Planes of Telecommunication
+## RF Characteristics: `Radio Frequency` & `Electromagnetic Spectrum`
 
-- [Logical Planes: Management, Control & Data]()
-
-## Radio Frequency (RF) Characteristics: Rf & Spectrum
-
-- [Radio Frequency (RF, rf)](https://www.techtarget.com/searchnetworking/definition/radio-frequency)
+- [**`RF: Radio Frequency`** - Oscillation rate of frequency of an alternating voltage | magnetic, electric, electromagnetic field | mechanical system](https://en.wikipedia.org/wiki/Radio_frequency) _@ Wiki_
+- [**`RF: Radio Frequency`**](https://www.techtarget.com/searchnetworking/definition/radio-frequency) _@ Techtarget_
 - [How Transmitting and Receiving Antenna works: From AC > to Antenna > to Air > to Antenna > to AC](https://ctrfantennasinc.com/how-transmitting-and-receiving-antenna-works/)
-- [**Radio Waves AKA Radio Signals** @ NASA](https://www.nasa.gov/directorates/heo/scan/communications/outreach/funfacts/what_are_radio_waves) _The basic building block of radio communications is a radio wave._
-- [**Electromagnetic Spectrum:** radio waves, microwaves, infrared, visible light, ultraviolet, X-rays, and gamma ray](https://en.wikipedia.org/wiki/Electromagnetic_spectrum) _Wiki_
-- [Electromagnetic Spectrum: good image!](https://user-images.githubusercontent.com/94720207/195462038-5b8653a8-b410-4b95-b478-94ff5fbe29f3.png) _Picture_
-- [**Electromagnetic Spectrum:**](https://youtu.be/1JpwDaOHppA) _Sunny_
-- [**Radio Spectrum**](https://en.wikipedia.org/wiki/Radio_spectrum) _The radio spectrum is the part of the electromagnetic spectrum with frequencies from 0 Hz to 3,000 GHz(3 THz)._
+- [**`Radio Waves` AKA `Radio Signals`** @ NASA](https://www.nasa.gov/directorates/heo/scan/communications/outreach/funfacts/what_are_radio_waves) _The basic building block of radio communications is a radio wave._
+- [**`Electromagnetic Spectrum`:** radio waves, microwaves, infrared, light, ultraviolet, X-rays & gamma ray](https://en.wikipedia.org/wiki/Electromagnetic_spectrum) _@ Wiki_
+    - [Electromagnetic Spectrum: good image!](https://user-images.githubusercontent.com/94720207/195462038-5b8653a8-b410-4b95-b478-94ff5fbe29f3.png) _Picture_
+    - [**Electromagnetic Spectrum:**](https://youtu.be/1JpwDaOHppA) _Sunny_
+- [**`Radio Spectrum`**](https://en.wikipedia.org/wiki/Radio_spectrum) _The radio spectrum is the part of the electromagnetic spectrum with frequencies from 0 Hz to 3,000 GHz(3 THz)._
 frequency, same cycle, same wavelength, but are 2 or more wave forms not exactly aligned together._
 
 ## Carrier Signals
 _Modified signals capable of distinguishing between 0s and 1s using modulation techs_
 
-- [Interactive Waves!!! :D](https://emanim.szialab.org/index.html) _clickie!_
-- [Carrier Signal AKA Carrier Wave](https://networkencyclopedia.com/carrier-signal/)
-- [Electromagnetic (EM) Waves: Amplitude, Wavelenght, Frequency & Hertz](https://youtu.be/WOTeFceIeM8) _@ Sunny_
-- [Full Radio Concepts: Phase, Amplitude, Wavelenght & Frequency > CWNA in a nutshell](https://yatebts.com/documentation/concepts/radio-waves/radio-concepts/) _@ yatebts_
+- [**Multipurpose Interactive Waves!!!** - Use use use!!!](https://emanim.szialab.org/index.html) _clickie clickie!_
+- [**`Carrier Signal`** AKA **`Carrier Wave`**](https://networkencyclopedia.com/carrier-signal/)
+- [**`Electromagnetic (EM) Waves**`: Amplitude, Wavelenght, Frequency & Hertz](https://youtu.be/WOTeFceIeM8) _@ Sunny_
+- [**`Radio Concepts`**: Phase, Amplitude, Wavelenght & Frequency > CWNA in a nutshell](https://yatebts.com/documentation/concepts/radio-waves/radio-concepts/) _@ yatebts_
 
 ### Characteristics of RF Waves
 
-- [**Amplitude**](https://en.wikipedia.org/wiki/Amplitude) _Height (crest) of the radio signal that it reaches while attenuating_
-- [**Wavelenght**](https://www.youtube.com/watch?v=zLmAaAx1tUQ) _Distance between the two successive crests_
+- [**`Amplitude`**](https://en.wikipedia.org/wiki/Amplitude) _Height (crest) of the radio signal that it reaches while attenuating_
+- [**`Wavelenght`**](https://www.youtube.com/watch?v=zLmAaAx1tUQ) _Distance between the two successive crests_
     - [**Wavelenght Formula & Calculation**](https://www.geeksforgeeks.org/wavelength-formula/) 
     - [Wavelenght Calculation](https://user-images.githubusercontent.com/94720207/195459856-b2949296-fca9-48c7-9f28-8e7bf7ef74e4.png) _image & 2.4 GHz / 5 Ghz Table_
     - [Lambda (Λ λ)](https://es.wikipedia.org/wiki/%CE%9B) _Unit for Wavelenght_
-- [**Frequency**](https://www.fluke.com/en-us/learn/blog/electrical/what-is-frequency) _Number of cycles per second_
+- [**`Frequency`**](https://www.fluke.com/en-us/learn/blog/electrical/what-is-frequency) _Number of cycles per second_
     - [F (f)](https://en.wikipedia.org/wiki/Frequency) _Unit for Frequency_
     - [c (c)](https://en.wikipedia.org/wiki/Speed_of_light) _Unir for speed of light_
     - [Hertz - Hz (unit)](https://es.wikipedia.org/wiki/Hercio) _Freq is measured in Hertz (or Khz, Mhz, Ghz, etc...)_
-- [**Phase**](https://blogs.arubanetworks.com/industries/frequency-cycle-wavelength-amplitude-and-phase/#:~:text=Phase%20is%20the%20same%20frequency,that%20share%20the%20same%20frequency.) _Relationship between two waves with
+- [**`Phase`**](https://blogs.arubanetworks.com/industries/frequency-cycle-wavelength-amplitude-and-phase/#:~:text=Phase%20is%20the%20same%20frequency,that%20share%20the%20same%20frequency.) _Relationship between two waves with
 the same frequency_ 
     - [Phase cancellation Technique (VHS)](http://home.iprimus.com.au/toddemslie/phase-cancellation.html)
     - [Phase cancellation in audio](https://www.audio-technica.com/en-us/support/audio-solutions-question-of-the-week-what-is-phase-cancellation/#:~:text=Phase%20cancellation%20is%20when%20two,sound%20of%20the%20summed%20signals.) _The phase in audio is easier to understand & it's basically the same_
 
-    - []()
-
-        - [Wave Propagation]()
-        - [Absorption]()
-        - [Reflection]()
-        - [Scattering]()
-        - [Refraction]()
-        - [Diffraction]()
-        - [Loss (Attenuation)]()
-        - [Free Space Path Loss]()
-        - [Multipath]()
-        - [Gain (Amplification)]()
-
-
 ## 📡 ↩️ 🪞 Radio Frequency Behaviors 🪞 ↩️ 📡 
 
-- [RF Behaivior](https://www.billdeitrick.com/cwna-chapter-2-rf-characteristics-and-behaviors/)
+- [RF Characteristics and Behaviors](https://www.billdeitrick.com/cwna-chapter-2-rf-characteristics-and-behaviors/) @ Bill Deitrick
 - [**Wi-Fi** signals: **reflection, absorption, diffraction, scattering, & interference**](https://youtu.be/UxDdwGhSf4o) _@ Sunny_
+- [On Radio Frequency Behavioral Modeling: Measurement Techniques, Devices and Validation Aspects (Licentiate Thesis)](https://www.diva-portal.org/smash/get/diva2:279216/FULLTEXT01.pdf) _@ Per Landin - KTH Stockholm_
+
+### Wave Propagation
+
+- [`Wave propagation` - Any of the ways in which waves travel](https://en.wikipedia.org/wiki/Wave_propagation) _@ Wiki_
+    - [Wave Propagation Animation](https://en.wikipedia.org/wiki/Wave_propagation#/media/File:Seismic_wave_prop_mine.gif) _@ Wiki_
+    - [Propagation of Electromagnetic Wave](https://user-images.githubusercontent.com/94720207/195880344-42636ad3-2b41-4281-a09f-2f07e3008801.jpg) _Image_
+
+
+- [Radiowave Propagation - For aeronautics & radio navigation PT.1](https://www.youtube.com/watch?v=BbGf4JtK4kk) _@ Planes Overhead_
+- [Radiowave Propagation - For aeronautics & radio navigation PT.2](https://www.youtube.com/watch?v=gsSTgjXPD2M)
+
+
+- [Absorption]()
+- [Reflection]()
+- [Scattering]()
+- [Refraction]()
+- [Diffraction]()
+- [Loss (Attenuation)]()
+- [Free Space Path Loss]()
+- [Multipath]()
+- [Gain (Amplification)]()
+
+
+
+
+
+
 
 ### Gain (Amplification)
 
