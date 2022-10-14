@@ -1591,6 +1591,7 @@ _Deep dive into the Packet / PCAP Analysis... & Sharks a lot of sharks!_
 
 ### Wireless Resources
 
+- [EverythingRF](https://www.everythingrf.com/)
 - [Iain Explains Signals, Systems, and Digital Comms](https://www.youtube.com/channel/UCrltzuSvRbL3rpsvLDnFkuQ)
 - [**BadFi** Trash, shitty, crap & full of WiFi Bad practices, DON'T DO THIS!!!](https://badfi.com/bad-fi) _Lo pongo hasta arriba porque es más utilizado de lo que parece jaja!_
 - [**BadFi**  Direct Twitter](https://twitter.com/search?q=%23badfi&src=typed_query&f=live)
@@ -1735,6 +1736,10 @@ the same frequency_
 
 ### Wave Propagation
 
+- [`LOS` - Line Of Sight - Direct view with no obstacles in between Antennas](https://en.wikipedia.org/wiki/Line-of-sight_propagation)
+- [`Fresnel` - Elliptical shape created between a transmitter & receiver](https://www.data-alliance.net/blog/fresnel-zone-key-for-long-range-wifi-links/)
+    - [Line Of Sight & Fresnel Zone](https://user-images.githubusercontent.com/94720207/195918987-fb97bc79-18b6-4491-bc1e-b4ea8b0ee5a6.png) _Image_
+
 - [`Wave propagation` - Any of the ways in which waves travel](https://en.wikipedia.org/wiki/Wave_propagation) _@ Wiki_
     - [Wave Propagation Animation](https://en.wikipedia.org/wiki/Wave_propagation#/media/File:Seismic_wave_prop_mine.gif) _@ Wiki_
     - [Propagation of Electromagnetic Wave](https://user-images.githubusercontent.com/94720207/195880344-42636ad3-2b41-4281-a09f-2f07e3008801.jpg) _Image_
@@ -1857,6 +1862,31 @@ Telsco S.A.S._
 
 - [AM vs FM - Radio Modulation](https://youtu.be/I0jdIvwkiDI) _The oldschool modulation of Freq & Amplitude_
 
+## 📡 🧩 🛰️ RF Components 🛰️ 🧩 📡
+
+- [RF Components Diagram](https://user-images.githubusercontent.com/94720207/195922042-89ca75a8-a547-411b-a862-e1cbf2735e2b.png) _Image_
+- [**List of Full RF Components**](https://www.everythingrf.com/browse/rf-components) _@ everythingrf_
+
+### Transmitter
+
+- [`Transmitter`]() _Initial component in the creation of the wireless medium_
+
+### Antenna
+
+- [`Antenna`]() _Transmit & Recieve Radio Signals_
+ 
+### Receiver
+
+- [`Receiver`]() _Final component in the wireless medium | Recieves & modulate signals into 1 & 0_
+
+### IR Intentional Radiator 
+
+- [`IR` - Intentional Radiator]() _Something that is specifically (intentional) designed to generate RF | The antenna_
+
+### Equivalent Isotropically Radiated Power
+
+- [`EIRP` Equivalent Isotropically Radiated Power]() _Highest RF signal strength that is transmitted from a particular antenna_
+
 ## 📈 📶 📏 RF Mathematics & Measurments 📏 📶 📈
 
 ### Maths & Measurments Cool Resources
@@ -1878,24 +1908,33 @@ Telsco S.A.S._
 - [**(dBm)** - Decibels Relative to 1 mW](https://en.wikipedia.org/wiki/DBm) _0dBm = 1mW_
     - [WiFi Signal Strenght & dBM](https://eyenetworks.no/en/wifi-signal-strength/) _dbm & RSSI_
 
-### Inverse Square Law
-
-- [Inverse Square Law](https://www.youtube.com/watch?v=KARCOGT95W0) _@ mrwaynesclass_
-- [Ley del cuadrado inverso (método de desviación) | Física](https://www.youtube.com/watch?v=gUfQ_D-rn14) _@ Khan Academy_
-- [Ley del cuadrado inverso - Aplicado a Rayos X](https://www.youtube.com/watch?v=Tfqf90ITfrs) _@ Henry RX_
-
 ### Units of Comparison `relative units`
 
 - [**(dB)** - decibel]() _Comparative measurmet value | "the difference between 2 power levels"_
 - [**(dBi)** - Decibels Relative to an isotropic radiator]() _Passive gain ;)_
 - [**(dBd)** - Decibels Relative to a half-wave dipole antenna]() __
 
+### Inverse Square Law
 
-
+- [Inverse Square Law @ Isaac Newton](https://www.youtube.com/watch?v=KARCOGT95W0) _@ mrwaynesclass_
+- [Ley del cuadrado inverso (método de desviación) | Física](https://www.youtube.com/watch?v=gUfQ_D-rn14) _@ Khan Academy_
+- [Ley del cuadrado inverso - Aplicado a Rayos X](https://www.youtube.com/watch?v=Tfqf90ITfrs) _@ Henry RX_
 
 ## RF Maths & Calculation like an alien! 
 
 _If you hear the voice of an alien in your psychedelic experience... is the synthactical of magic_
+
+### RF Units of Power & Comparison
+
+- [Units of power (absolute)]
+    - [watt (W)]
+    - [milliwatt (mW)]
+    - [decibels relative to 1 milliwatt (dBm)]
+
+- [Units of comparison (relative)]
+    - [decibel (dB)]
+    - [decibels relative to an isotropic radiator (dBi)]
+    - [decibels relative to a half-wave dipole antenna (dBd)]
 
 ### RF Calculation like an alien: `dBm & mW` (Conversion)
 
@@ -1917,6 +1956,28 @@ _If you hear the voice of an alien in your psychedelic experience... is the synt
 - [Example1: Simplified RF Math fron Transmitter to Receiver](https://user-images.githubusercontent.com/94720207/195669172-bd47628e-709d-46df-8689-4b049d97925c.png) _@ CWNP_
 - [Example1: Solved (all in mind, just the last 17 solved)](https://user-images.githubusercontent.com/94720207/195671290-361efdab-945f-4fd0-81d4-6f3d6c4c6b9d.png) _@ Fz3r0_
 - [Example2:](https://user-images.githubusercontent.com/94720207/195671605-a712e01e-4056-4c10-a10c-0c9aafb38940.png) _@ CWNP_
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Antenna Operation
 
@@ -2238,15 +2299,7 @@ _Horizon alternitatis systema sephiroticvm X divino rvm nominvm._ <br>
 
 
 
-- [EVA IV - Radio Frequency Components, Measurements, and Mathematics]()
 
-    - [Components of RF Communications]()
-
-        - [Transmitter]()
-        - [Antenna]()
-        - [Receiver]()
-        - [Intentional Radiator]()
-        - [Equivalent Isotropically Radiated Power]()
 
 
 
