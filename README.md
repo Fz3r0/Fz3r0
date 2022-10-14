@@ -2051,7 +2051,9 @@ U-NII bands
     
 
 
+- Interferece
 
+- [USB 3.0 cause noise floor elevation in 2.4](https://www.usb.org/sites/default/files/327216.pdf)
 
 
 
