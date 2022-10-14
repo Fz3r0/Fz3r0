@@ -403,9 +403,67 @@ _A nasty collection of sexy tools for Networking, Programming, Cyber-Security, S
 - [draw.io](https://app.diagrams.net/) _Free!_
 - [Excali Draw](https://excalidraw.com/) _Free!_
 
+### Tables
+
+- [Microsoft Excel]()
+- [Google Sheets]()
+- [Mark Down Table Editor](https://tableconvert.com/markdown-generator)
+
 ## MISCELANEOS UNDER CONTRUCTION!!!
 
+- [Pick Color from Image - Image to HEX, RGB, CMYK](https://www.ginifab.com/feeds/pms/color_picker_from_image.php)
+
+## Performance Analyze & Monitoring Tools
+
+### Hardware Monitor
+
+- [CPU-Z]
+- [HW Monitor]
+- [WinDirStat](https://windirstat.net/) _Disk usage statistics viewer and cleanup tool for various versions of Microsoft Windows._
+
+## Geolocalization & Positioning Tools
+
+- [Latitude & Longitude Conversion](https://www.ddginc-usa.com/latlong.htm)
+
+## Cryptography & Password Tools
+
+- [advanced-archive-password-recovery-4-54-110.zip]()
 - [Password Monster](https://www.passwordmonster.com/) _Test: How Secure is Your Password?_
+- [Dialupass - VPN Password Recovery](https://www.nirsoft.net/utils/dialupass.html) _enumerates dialup/VPN entries, displays logon details: User Name, Password, and Domain._
+
+## Full Lists of Tools Arsenals
+
+- [Kali mirrorlist](https://http.kali.org/README.mirrorlist)
+
+- [LaunchPad - Debian](https://launchpad.net/) 
+
+## URL | WWW | HTTP 
+
+### Addressing
+
+- [WTF is my IP?!?!?!](https://wtfismyip.com/) _Get your fu$%&ng IP!_
+
+### Extensions
+
+- [Where goes? - URL redirect checker](https://wheregoes.com/) _Show you the full redirection path of URLs, shortened links, or tiny URLs._
+
+## Layer 1: Physical Layer Tools
+
+## Layer 2: Media Access Control (MAC) Tools
+
+- [Technitium MAC Address Changer for Windows](https://technitium.com/tmac/) _A freeware utility to spoof MAC address instantly_
+
+## Measurment & Calculators
+
+- [Monitor / Screen Size online - Measure with a credit card!](https://www.piliapp.com/actual-size/what-is-my-monitor-size/)
+- [PSU / Power Supply Calculator](https://outervision.com/power-supply-calculator)
+
+
+- [TFTP OpenSource - **tftpd32**](https://pjo2.github.io/tftpd64/)
+
+## Picture & Image Tools
+
+- [SVG Resizer (or toher images)](https://products.aspose.app/imaging/image-resize/svg)
 
 ## 📊 🖥️ 👨‍🚀 Simulators & Emulators 👨‍🚀 🖥️ 📊
 
@@ -4455,25 +4513,7 @@ _The Strength Of The Human Heart. The Difference Between Us And Machines"_
 
 - [Awesome DevOps Certifications](https://github.com/jdrowne/awesome-devops-certifications) 
  
-## Misc Tools
 
-- [Mark Down Table Editor](https://tableconvert.com/markdown-generator)
-- [WinDirStat](https://windirstat.net/) _Disk usage statistics viewer and cleanup tool for various versions of Microsoft Windows._
-- [Pick Color from Image - Image to HEX, RGB, CMYK](https://www.ginifab.com/feeds/pms/color_picker_from_image.php)
-- [CPU-Z]
-- [HW Monitor]
-- [https://www.ddginc-usa.com/latlong.htm](https://www.ddginc-usa.com/latlong.htm)
-- [advanced-archive-password-recovery-4-54-110.zip]()
-- [LaunchPad - Debian](https://launchpad.net/) 
-- [Kali mirrorlist](https://http.kali.org/README.mirrorlist)
-- [Dialupass - VPN Password Recovery](https://www.nirsoft.net/utils/dialupass.html) _enumerates dialup/VPN entries, displays logon details: User Name, Password, and Domain._
-- [Technitium MAC Address Changer for Windows](https://technitium.com/tmac/) _A freeware utility to spoof MAC address instantly_
-- [Monitor / Screen Size online - Measure with a credit card!](https://www.piliapp.com/actual-size/what-is-my-monitor-size/)
-- [PSU / Power Supply Calculator](https://outervision.com/power-supply-calculator)
-- [TFTP OpenSource - **tftpd32**](https://pjo2.github.io/tftpd64/)
-- [Where goes? - URL redirect checker](https://wheregoes.com/) _Show you the full redirection path of URLs, shortened links, or tiny URLs._
-- [WTF is my IP?!?!?!](https://wtfismyip.com/) _Get your fu$%&ng IP!_
-- [SVG Resizer (or toher images)](https://products.aspose.app/imaging/image-resize/svg)
 
 ### THM Rooms WriteUps
 
