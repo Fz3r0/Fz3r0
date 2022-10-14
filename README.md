@@ -2118,8 +2118,76 @@ _If you hear the voice of an alien in your psychedelic experience... is the synt
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---
+
+## 
+
+
+
+
+
+
+
+---
+
+
+
+
+
+
+
+
 - [CWNA Mathematics Resume Notes (bottom)](https://sites.google.com/site/802dot11study/ch3/notes)  
 - [Inside Wireless en Español: Presupuesto de Enlace - Prx > Gtx / Ptx](https://www.youtube.com/watch?v=dj82XrhfoWA)
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4593,6 +4661,18 @@ _The Strength Of The Human Heart. The Difference Between Us And Machines"_
 ### DevOps Certifications
 
 - [Awesome DevOps Certifications](https://github.com/jdrowne/awesome-devops-certifications) 
+ 
+ 
+ 
+
+## Cobalt Strike 
+
+### Courses & Resources
+
+- [Introducción al uso de CobaltStrike y sus principales funcionalidades](https://www.youtube.com/watch?v=AQVJGCh8IBk)
+
+ 
+ 
  
 
 
