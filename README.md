@@ -375,6 +375,149 @@ _Para mis amigos que están empezando completamente de 0, cursa una ingeniería 
 - BONUS!!! [Aprende inglés desde 0](https://www.youtube.com/watch?v=dFJvNYdKGrA&list=PLgrNDDl9MxYmUmf19zPiljdg8FKIRmP78) _Aprende a hablar inglés mejor que tu tío que se fué al gabacho ¡sin miedo!_
 - [**¿Cómo hackear en 2 minutos al mundo entero?**](https://youtu.be/dQw4w9WgXcQ) _**¡Un largo camino comienza aquí, aventuras podrás disfutar!**_
 
+<span align="center"> <h1 align="center">💾 💽 🏴‍☠️ Fz3r0 Arsenal: `Cyber-Weapons` 🏴‍☠️ 💽 💾</h1> </span>  
+
+_A nasty collection of sexy tools for Networking, Programming, Cyber-Security, Scripting & having fun all around with computers_
+
+## 🗺️ 📍 🔺 Diagram, Topology, Notes & Text Editors 🔺 📍 🗺️
+
+### Notes & Data
+
+- [Github]()
+- [Google Docs]()
+- [Cherry Tree]()
+- [Obsidian]()
+- [Microsoft Office Suite]() _$$$_
+
+### Text Editors & IDEs
+
+- [Sublime Text]()
+- [Microsoft Visual Studio Code]()
+- [Vim]()
+- [Atom]()
+- [Notepad ++]()
+
+### Diagram Editors & Draw
+
+- [Microsoft Visio](https://www.microsoft.com/en-us/microsoft-365/visio/flowchart-software) _$$$_
+- [draw.io](https://app.diagrams.net/) _Free!_
+- [Excali Draw](https://excalidraw.com/) _Free!_
+
+## 📊 🖥️ 👨‍🚀 Simulators & Emulators 👨‍🚀 🖥️ 📊
+
+### Cisco Packet Tracer
+
+- [Cisco Packet Tracer]() _Network simulation tool for networking, IoT, and cybersecurity in a virtual lab_
+
+### GNS3
+
+- [GNS3](https://gns3.com/) _Real-time network simulation for pre-deployment testing_
+    - [GNS3 - Appliances](https://www.gns3.com/marketplace/appliances)
+    - [GNS3 - Port Name Formatting](https://docs.gns3.com/docs/using-gns3/advanced/port-name-formatting/)
+    - [Instalar y correr GNS3 VM Pro!!! Master Edson](https://www.youtube.com/watch?v=4kh9JL-0l5A&t=570s)
+
+### Eve NG
+
+- [Eve NG](https://www.eve-ng.net/) _Emulated Virtual Enviorment for Network, Security and DevOps_
+
+## 🐚 🐢 💻 Shells 💻 🐢 🐚
+
+### Microsoft Windows Shells, CLI, Console emulators
+
+### Linux Shells, CLI, Console emulators
+
+### Android Shells, CLI, Console emulators
+
+- [Termux]()
+
+- [Secure-CRT](https://www.vandyke.com/products/securecrt/) _Terminal Emulation, secure remote access, file transfer & data tunneling._
+
+    - [Pimp my Secure CRT - ANSI colors & dark shell mode](https://www.vandyke.com/support/tips/colorconfig.html)
+
+- [Putty](https://www.putty.org/) _Open Source SSH and telnet client_
+- [MobaXterm - Pimp term for Windows](https://mobaxterm.mobatek.net/)
+
+## 🐚 😼 💀 Reverse Shells 💀 😼 🐚
+
+- [Reverse Shell Generator](https://www.revshells.com/)
+- NetCat
+- SoCat
+
+## 👨‍💻 🐚 🔒 `Telnet` & `SSH` (Secure Shell) 🔒 🐚 👨‍💻
+
+- [SSH & SCP (Secure Copy) Cheatsheet for Linux](https://user-images.githubusercontent.com/94720207/194212517-b25dfa23-0577-4cf1-ac37-83c32c5fbfba.png)
+
+## 🖥️ 👀 💻 `VM` Virtual Machines 🖥️ 👀 💻
+
+### Virtual Machines Introducion
+
+- [What's the difference between Type 1 vs. Type 2 hypervisor?](https://www.techtarget.com/searchitoperations/tip/Whats-the-difference-between-Type-1-vs-Type-2-hypervisor)
+
+### Virtual Machines 
+
+- Type1 Hyper-Visors - BareMetal
+    - [VMware vSphere]()
+    - [Microsoft Hyper-V]()
+    - [KVM]()
+    - [Xen hypervisor]()
+    - [Oracle VM]()
+    - [Citrix Hypervisor (AKA Citrix XenServer)]()
+
+- Type2 Hyper-Visors - Operating System Hosted
+    - [Oracle VM VirtualBox]()
+    - [VMware Workstation Pro]()
+    - [VMware Fusion]()
+    - [QEMU]()
+    - [Parallels Desktop]()
+
+### VM Tutorials
+
+- [Install Windows 11 VMWare Work Station FULL config!!! @ John Hammond](https://www.youtube.com/watch?v=EMuw_IN-UOU)
+
+## 🖥️ 🖧 📦 Containers 📦 🖧 🖥️
+
+- [Containers 101](https://www.youtube.com/watch?v=VqLcWftIaQI)
+- [What is a Container?](https://www.youtube.com/watch?v=EnJ7qX9fkcU)
+- [¿Qué son los contenedores, Docker y Kubernetes?](https://www.youtube.com/watch?v=gjRoNFopFig)
+- [Contenedores vs VM: ¿Cuál es la diferencia?](https://www.youtube.com/watch?v=cjXI-yxqGTI)
+- [Containers and VMs - A Practical Comparison](https://www.youtube.com/watch?v=L1ie8negCjc)
+- [Virtualize vs. Containerize (Which should I choose?)](https://www.youtube.com/watch?v=pxwUXJmAER4)
+
+## 🐋 📦 🐳 Docker 🐳 📦 🐋
+
+### Tutorials & Courses
+
+- [Aprende Docker ahora! curso completo gratis desde cero! @ HolaMundo](https://www.youtube.com/watch?v=4Dko5W96WHg)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <span align="center"> <h1 align="center">  📡 🖧 🌐 Networking 🌐 🖧 📡</h1> </span>   
 
 _Monitoring devices, know where you go, mass media, total control. Digital delight, desire in megabite. Data overflow, virtual suicide. This information, is disinformation. Truth is hidden, knowledge forbidden. The structures of power, will delegate. To speak is to lie, to lie is to collaborate. Information streams, simulating dreams. Interactive mind-control, systematic overflow. Magnetic sleep, network addiction. Be absorbed, science fiction. It's pyschological, diabolical. Societies brainwash hospital..._<br>
@@ -856,114 +999,7 @@ _Eensure the interoperability of WLAN products by providing certification testin
 - [DOF - Uso y Aprovechamiento de Bandas de Frecuencias 2019](https://dof.gob.mx/nota_detalle.php?codigo=5551828&fecha=05/03/2019#gsc.tab=0) _Diario Federal de la Nación_
 - [DOF - Condiciones técnicas de operación de la banda de frecuencias 2400 - 2483.5 MHz](https://www.dof.gob.mx/nota_detalle.php?codigo=5609418&fecha=04/01/2021#gsc.tab=0) _Clasificada como espectro libre_
 
-## 🗺️ 📍 🔺 Diagram, Topology, Notes & Text Editors 🔺 📍 🗺️
 
-### Notes & Data
-
-- [Github]()
-- [Google Docs]()
-- [Cherry Tree]()
-- [Obsidian]()
-- [Microsoft Office Suite]() _$$$_
-
-### Text Editors & IDEs
-
-- [Sublime Text]()
-- [Microsoft Visual Studio Code]()
-- [Vim]()
-- [Atom]()
-- [Notepad ++]()
-
-### Diagram Editors
-
-- [Microsoft Visio](https://www.microsoft.com/en-us/microsoft-365/visio/flowchart-software) _$$$_
-- [draw.io](https://app.diagrams.net/) _Free!_
-
-## 📊 🖥️ 👨‍🚀 Simulators & Emulators 👨‍🚀 🖥️ 📊
-
-### Cisco Packet Tracer
-
-- [Cisco Packet Tracer]() _Network simulation tool for networking, IoT, and cybersecurity in a virtual lab_
-
-### GNS3
-
-- [GNS3](https://gns3.com/) _Real-time network simulation for pre-deployment testing_
-    - [GNS3 - Appliances](https://www.gns3.com/marketplace/appliances)
-    - [GNS3 - Port Name Formatting](https://docs.gns3.com/docs/using-gns3/advanced/port-name-formatting/)
-    - [Instalar y correr GNS3 VM Pro!!! Master Edson](https://www.youtube.com/watch?v=4kh9JL-0l5A&t=570s)
-
-### Eve NG
-
-- [Eve NG](https://www.eve-ng.net/) _Emulated Virtual Enviorment for Network, Security and DevOps_
-
-## 🐚 🐢 💻 Shells 💻 🐢 🐚
-
-### Microsoft Windows Shells, CLI, Console emulators
-
-### Linux Shells, CLI, Console emulators
-
-### Android Shells, CLI, Console emulators
-
-- [Termux]()
-
-- [Secure-CRT](https://www.vandyke.com/products/securecrt/) _Terminal Emulation, secure remote access, file transfer & data tunneling._
-
-    - [Pimp my Secure CRT - ANSI colors & dark shell mode](https://www.vandyke.com/support/tips/colorconfig.html)
-
-- [Putty](https://www.putty.org/) _Open Source SSH and telnet client_
-- [MobaXterm - Pimp term for Windows](https://mobaxterm.mobatek.net/)
-
-## 🐚 😼 💀 Reverse Shells 💀 😼 🐚
-
-- [Reverse Shell Generator](https://www.revshells.com/)
-- NetCat
-- SoCat
-
-## 👨‍💻 🐚 🔒 `Telnet` & `SSH` (Secure Shell) 🔒 🐚 👨‍💻
-
-- [SSH & SCP (Secure Copy) Cheatsheet for Linux](https://user-images.githubusercontent.com/94720207/194212517-b25dfa23-0577-4cf1-ac37-83c32c5fbfba.png)
-
-## 🖥️ 👀 💻 `VM` Virtual Machines 🖥️ 👀 💻
-
-### Virtual Machines Introducion
-
-- [What's the difference between Type 1 vs. Type 2 hypervisor?](https://www.techtarget.com/searchitoperations/tip/Whats-the-difference-between-Type-1-vs-Type-2-hypervisor)
-
-### Virtual Machines 
-
-- Type1 Hyper-Visors - BareMetal
-    - [VMware vSphere]()
-    - [Microsoft Hyper-V]()
-    - [KVM]()
-    - [Xen hypervisor]()
-    - [Oracle VM]()
-    - [Citrix Hypervisor (AKA Citrix XenServer)]()
-
-- Type2 Hyper-Visors - Operating System Hosted
-    - [Oracle VM VirtualBox]()
-    - [VMware Workstation Pro]()
-    - [VMware Fusion]()
-    - [QEMU]()
-    - [Parallels Desktop]()
-
-### VM Tutorials
-
-- [Install Windows 11 VMWare Work Station FULL config!!! @ John Hammond](https://www.youtube.com/watch?v=EMuw_IN-UOU)
-
-## 🖥️ 🖧 📦 Containers 📦 🖧 🖥️
-
-- [Containers 101](https://www.youtube.com/watch?v=VqLcWftIaQI)
-- [What is a Container?](https://www.youtube.com/watch?v=EnJ7qX9fkcU)
-- [¿Qué son los contenedores, Docker y Kubernetes?](https://www.youtube.com/watch?v=gjRoNFopFig)
-- [Contenedores vs VM: ¿Cuál es la diferencia?](https://www.youtube.com/watch?v=cjXI-yxqGTI)
-- [Containers and VMs - A Practical Comparison](https://www.youtube.com/watch?v=L1ie8negCjc)
-- [Virtualize vs. Containerize (Which should I choose?)](https://www.youtube.com/watch?v=pxwUXJmAER4)
-
-## 🐋 📦 🐳 Docker 🐳 📦 🐋
-
-### Tutorials & Courses
-
-- [Aprende Docker ahora! curso completo gratis desde cero! @ HolaMundo](https://www.youtube.com/watch?v=4Dko5W96WHg)
 
 
 
