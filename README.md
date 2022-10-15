@@ -1671,6 +1671,7 @@ _Deep dive into the Packet / PCAP Analysis... & Sharks a lot of sharks!_
     - [CWNA - Exam Objectives](https://www.cwnp.com/uploads/cwna-108-2020-objectives.pdf) _CWNP_
 
 - [Ruckus Wireless: RF Basics - Complete Course](https://www.youtube.com/watch?v=wxa2ZX5ofRo&list=PLySwoo7u9-KL4RMboSyITYGRYqWCikc1Q) _@ Ruckus_
+- [CWNP - Free CWNP Youtube Library](https://www.youtube.com/watch?v=pPfwemHBblk&list=PLBF04368800C3005E) _@ CWNP TV_
 - [Wireless/WiFi Network: GET GUD in less than 1 hour @ Sunny](https://www.youtube.com/watch?v=WOTeFceIeM8&list=PLSNNzog5eydvJG48PYnWnNY7-tQIfxTRb)
 - [WiFi 101 - WiFi Basic in simple lecture](https://www.businesstechweekly.com/operational-efficiency/wireless-networks/wireless-networks/) _@ businesstechweekly_
 - [WiFi Training Resources](http://revolutionwifi.blogspot.com/p/wi-fi-training-resources.html)
@@ -2368,13 +2369,30 @@ _If you hear the voice of an alien in your psychedelic experience... is the synt
 - [802.11 Frames - Full List](https://en.wikipedia.org/wiki/802.11_Frame_Types) _@ Wiki_
 - [802.11 Frame - WiFi (simplified for CWNA)](https://user-images.githubusercontent.com/94720207/196010425-5aebc56a-ee0b-41fa-bf60-c3678d85ceee.png) _@ CWNP TV_
 - [802.11 Frame - WiFi (simplified for CWNP)](https://user-images.githubusercontent.com/94720207/196010635-d29de647-87db-4393-a91d-d135e3a5d7f2.png) _@ CWNP TV_
-
 - [802.11 Frame Types and Formats](https://howiwifi.com/2020/07/13/802-11-frame-types-and-formats/) _@ HowIwifi_
 - [802.11 - Framing in Detail](https://www.oreilly.com/library/view/80211-wireless-networks/0596100523/ch04.html) _@ O'reilly_
 
 ### 802.11 Frame Analysis
 
 - [802.11 Frame Analysis Full webinar](https://www.youtube.com/watch?v=ITAJb3v5VKQ) _@ Tom Carpenter | CWNP Dark Wizard_
+
+    - [**`Beacon` Frames** @ Wireshark view](https://user-images.githubusercontent.com/94720207/196010704-7e846607-074a-4307-ba21-b7d5f143dd59.png) _Image_
+    - [**`Authentication` Frames** @ Wireshark view](https://user-images.githubusercontent.com/94720207/196010771-7d900d75-a768-470a-a166-ff57ff4894de.png) _Image_
+    - [**`Association` Frames** @ Wireshark view](https://user-images.githubusercontent.com/94720207/196010809-1666dc24-1005-4389-83ae-12c05da18619.png) _Image_
+    - [**`ACK` (acknowledgment) Frames** @ Wireshark view](https://user-images.githubusercontent.com/94720207/196010839-c5154140-abe5-4247-b9db-f5e583eecf04.png) _Image_
+
+### MAC & PHY Terminology
+
+- [MAC & PHY Terminology - Easy Diagram](https://user-images.githubusercontent.com/94720207/196011078-1a4cce23-0e8e-46f0-8940-acdc83a9c008.png)
+- [PDU - In networking, a PDU is best understood in relation to a SDU](https://en.wikipedia.org/wiki/Protocol_data_unit)
+- [SDU Service Data Unit - "The payload" of the PDU](https://en.wikipedia.org/wiki/Service_data_unit)
+- [MSDU]()
+ 
+    - [LLC - Logical Link Control - MSDU]()
+    - [MAC - Medium Access Control - MPDU]()
+    - [PLCP - Physical Layer Convergence Protocol - PSDU]()
+    - [PLCP - Physical Layer Convergence Protocol - PSDU]()
+
 
 
 
