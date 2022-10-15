@@ -1954,16 +1954,7 @@ Telsco S.A.S._
 
 - [`Receiver`]() _Final component in the wireless medium | Recieves & modulate signals into 1 & 0_
 
-### `IR` Intentional Radiator & `EIRP` Equivalent Isotropically Radiated Power
-
-- [IR, EIRP and Relative Power Measurement](https://youtu.be/hUqCnHANtKs) _@ Ruckus_
-    - [`IR` - Intentional Radiator]() _Something that is specifically (intentional) designed to generate RF_ <br> 
-    _(**IR does NOT includes the antenna**)_
-    - [`EIRP` Equivalent Isotropically Radiated Power]() _Highest RF signal strength or energy at tip of antenna_ <br> 
-    _(**EIRP is "The antenna" (IR + Antenna Gain)**)_
-    - [**`IR` & `EIRP`** - Easy & clear image](https://user-images.githubusercontent.com/94720207/195992949-93f8df79-0987-4dcc-b090-066f203abcee.png)
-
-## 📈 📶 📏 RF Mathematics & Measurments 📏 📶 📈
+## 📈 📶 📏 RF Maths & Units of Measurments 📏 📶 📈
 
 ### Maths & Measurments Cool Resources
 
@@ -2048,10 +2039,31 @@ _If you hear the voice of an alien in your psychedelic experience... is the synt
 - [Noise Floor: ¿qué es y cómo afecta a los receptores de RF?](https://borrowbits.com/2017/06/noise-floor-afecta-los-receptores-rf/) _@ borrowbits_
     - [Noise Floor **Spectrogram 1**](https://user-images.githubusercontent.com/94720207/195992799-d83e11fb-fe7a-4ca7-9c6e-dddb0fbae035.png) _Image_
 
+### `IR` Intentional Radiator & `EIRP` Equivalent Isotropically Radiated Power
+
+- [IR, EIRP and Relative Power Measurement](https://youtu.be/hUqCnHANtKs) _@ Ruckus_
+    - [`IR` - Intentional Radiator]() _Something that is specifically (intentional) designed to generate RF_ <br> 
+    _(**IR does NOT includes the antenna**)_
+    - [`EIRP` Equivalent Isotropically Radiated Power]() _Highest RF signal strength or energy at tip of antenna_ <br> 
+    _(**EIRP is "The antenna" (IR + Antenna Gain)**)_
+    - [**`IR` & `EIRP`** - Easy & clear image](https://user-images.githubusercontent.com/94720207/195992949-93f8df79-0987-4dcc-b090-066f203abcee.png)
 
 ### Link Budget
 
-- [Link budget riuckus](https://youtu.be/EzFh8OTVBjQ)
+- [Link Budget - Math of all power gains & losses that a signal experiences in a telecom-system](https://en.wikipedia.org/wiki/Link_budget) _@ Wiki_
+- [Link Budget - Used for WiFi bridged links (not indoor/outdoor "usual" coverages)](https://youtu.be/EzFh8OTVBjQ) _@ Ruckus_
+    - [Link Budget Example 1](https://user-images.githubusercontent.com/94720207/195994209-4d883846-d6b2-40dd-ab35-80d1ccaee2b3.png)
+    - [Link Budget Example 2](https://user-images.githubusercontent.com/94720207/195994148-d8b261b5-a041-4f69-9d47-92e871f67c6a.png) _Image_
+    - [Link Budget Example 3](https://user-images.githubusercontent.com/94720207/195994096-55802cbf-c136-442f-b47f-c0c6f3a88a55.png) _Image_
+
+### Link Budget Calculation
+
+- [Link Budget Calculator](https://www.everythingrf.com/rf-calculators/link-budget-calculator) _@ Everything RF_
+- [Link Budget Calculation - Deep Dive](https://www.youtube.com/watch?v=aNOuN6LMtow) _@ Graham Sexton_  
+    - [Calculating Path Loss - Remember that the path loss & fade margin are **logarithmic!** ;)](https://user-images.githubusercontent.com/94720207/195994443-5a392159-b4b1-4ec2-90e2-63179a62cd00.png)
+    - [Calculating Path Loss - **Tabla Resuelta** - I did it! :D](https://user-images.githubusercontent.com/94720207/195995841-bcce9998-264a-446f-90a6-3ef66589e4db.png) _@ Fz3r0_
+
+
 
 #### Fade Margin/System Operating Margin
 
