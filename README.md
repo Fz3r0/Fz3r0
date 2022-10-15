@@ -2372,6 +2372,55 @@ _If you hear the voice of an alien in your psychedelic experience... is the synt
 - [802.11 Frame Types and Formats](https://howiwifi.com/2020/07/13/802-11-frame-types-and-formats/) _@ HowIwifi_
 - [802.11 - Framing in Detail](https://www.oreilly.com/library/view/80211-wireless-networks/0596100523/ch04.html) _@ O'reilly_
 
+    - [802.11 MAC Header]()
+        - [Frame Control]()
+        - [Duration /ID]()
+        - [Address 1]()
+        - [Address 2]()
+        - [Address 3]()
+        - [Sequence control]()
+        - [Address 4]()
+        - [QoS control]()
+        - [HT control]()
+        - [Frame Body]()
+        - [FCS]()
+
+    - [Frame Control]()
+        - [Protocol Version]() 
+        - [Type]()
+        - [Subtype]()
+        - [To DS]()
+        - [From DS]()
+        - [More Fragments]()
+        - [Retry]()
+        - [Power Management]()
+        - [More Data]()
+        - [Protected Frame]()
+        - [+HTC / Order]()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ### 802.11 Frame Analysis
 
 - [802.11 Frame Analysis Full webinar](https://www.youtube.com/watch?v=ITAJb3v5VKQ) _@ Tom Carpenter | CWNP Dark Wizard_
