@@ -2020,6 +2020,7 @@ _If you hear the voice of an alien in your psychedelic experience... is the synt
 ### `Receiver Sensitivity`
 
 - [Receiver Sensitivity - how well RF "hear a device"](https://www.everythingrf.com/community/what-is-receiver-sensitivity) _The minimum signal strenght at which data can be received_
+- [Receiver Sensitivity - Device Proximity Example](https://user-images.githubusercontent.com/94720207/195996100-51a26de7-c3b7-427e-b01c-01c6063a5a58.png)
 
 ### `SNR` Signal-to-Noise Ratio
 
@@ -2052,6 +2053,7 @@ _If you hear the voice of an alien in your psychedelic experience... is the synt
 
 - [Link Budget - Math of all power gains & losses that a signal experiences in a telecom-system](https://en.wikipedia.org/wiki/Link_budget) _@ Wiki_
 - [Link Budget - Used for WiFi bridged links (not indoor/outdoor "usual" coverages)](https://youtu.be/EzFh8OTVBjQ) _@ Ruckus_
+    
     - [Link Budget Example 1](https://user-images.githubusercontent.com/94720207/195994209-4d883846-d6b2-40dd-ab35-80d1ccaee2b3.png)
     - [Link Budget Example 2](https://user-images.githubusercontent.com/94720207/195994148-d8b261b5-a041-4f69-9d47-92e871f67c6a.png) _Image_
     - [Link Budget Example 3](https://user-images.githubusercontent.com/94720207/195994096-55802cbf-c136-442f-b47f-c0c6f3a88a55.png) _Image_
@@ -2060,8 +2062,146 @@ _If you hear the voice of an alien in your psychedelic experience... is the synt
 
 - [Link Budget Calculator](https://www.everythingrf.com/rf-calculators/link-budget-calculator) _@ Everything RF_
 - [Link Budget Calculation - Deep Dive](https://www.youtube.com/watch?v=aNOuN6LMtow) _@ Graham Sexton_  
+
     - [Calculating Path Loss - Remember that the path loss & fade margin are **logarithmic!** ;)](https://user-images.githubusercontent.com/94720207/195994443-5a392159-b4b1-4ec2-90e2-63179a62cd00.png)
     - [Calculating Path Loss - **Tabla Resuelta** - I did it! :D](https://user-images.githubusercontent.com/94720207/195995841-bcce9998-264a-446f-90a6-3ef66589e4db.png) _@ Fz3r0_
+
+
+
+## RF Antennas & Hardware
+
+
+## Antenna Operation
+
+### Antenna Operation
+
+- [Fundamental Antenna Operation: Fundamental job "Shape the Energy"](https://www.youtube.com/watch?v=TszLhm6pWaA) _@ GTHillWiFi_
+- [`Antenna Patterns:` **Azimuth:** (Bird's eye | Top View) & Elevation (Eye level | Front View)](https://help.ui.com/hc/en-us/articles/115012664088-UniFi-Introduction-to-Antenna-Radiation-Patterns) _@ UniFi_
+    - [**Azimuth:** & **Elevation**](https://user-images.githubusercontent.com/94720207/195755167-dbfffd68-9268-4323-88b0-71d54f6c2202.png) _Image_
+- [`Isotropic Radiator` **"The perfect wave"**](https://en.wikipedia.org/wiki/Isotropic_radiator) _Theoretical (dBi) point source which radiates the same int in all directions_
+- [`Polarization` (vertical-up-down & horizontal-side-side) & `Antenna Types`](https://www.youtube.com/watch?v=zEzZfCtVnpY)
+    - [Antenna Polarization: Vertical, Horizontal, Circular, Eliptical](https://jemengineering.com/blog-intro-to-antenna-polarization/) _Graphics | @ jemengineering_
+
+### Antenna Operation
+
+[IR, EIRP & Relative Power Measurement](https://www.youtube.com/watch?v=hUqCnHANtKs) _@ Ruckus_
+
+## Antenna Diveristy: Simple, MIMO & MU-MIMO
+
+### Simple Diveristy Systems
+
+- [**Simple Diversity Systems** - One antenna at a time](https://user-images.githubusercontent.com/94720207/195755653-bb459bb0-e8fb-4686-8273-5bf670fec8d6.png) _Due to switch "one at a time" **it prevents multipath**_
+
+### `MIMO` Multiple-Input Multiple-Output
+
+- [MIMO (multiple input, multiple output)](https://en.wikipedia.org/wiki/MIMO) _@ wiki_
+- [MIMO (multiple input, multiple output)](https://www.techtarget.com/searchmobilecomputing/definition/MIMO) _@ techtarget_
+- [**Multiple Diversity Systems** - multiple transmission & receiving antennas](https://user-images.githubusercontent.com/94720207/195755653-bb459bb0-e8fb-4686-8273-5bf670fec8d6.png) _Due to multiple transmission: **exploit multipath propagation**_
+
+### `MU-MIMO` Multiple-Input Multiple-Output
+
+## Types of Antennas & Hardware
+
+- [Smart Antenna (like Ruckus)]()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2103,38 +2243,6 @@ _If you hear the voice of an alien in your psychedelic experience... is the synt
 
 
 
-## Antenna Operation
-
-### Antenna Operation
-
-- [Fundamental Antenna Operation: Fundamental job "Shape the Energy"](https://www.youtube.com/watch?v=TszLhm6pWaA) _@ GTHillWiFi_
-- [`Antenna Patterns:` **Azimuth:** (Bird's eye | Top View) & Elevation (Eye level | Front View)](https://help.ui.com/hc/en-us/articles/115012664088-UniFi-Introduction-to-Antenna-Radiation-Patterns) _@ UniFi_
-    - [**Azimuth:** & **Elevation**](https://user-images.githubusercontent.com/94720207/195755167-dbfffd68-9268-4323-88b0-71d54f6c2202.png) _Image_
-- [`Isotropic Radiator` **"The perfect wave"**](https://en.wikipedia.org/wiki/Isotropic_radiator) _Theoretical (dBi) point source which radiates the same int in all directions_
-- [`Polarization` (vertical-up-down & horizontal-side-side) & `Antenna Types`](https://www.youtube.com/watch?v=zEzZfCtVnpY)
-    - [Antenna Polarization: Vertical, Horizontal, Circular, Eliptical](https://jemengineering.com/blog-intro-to-antenna-polarization/) _Graphics | @ jemengineering_
-
-### Antenna Operation
-
-[IR, EIRP & Relative Power Measurement](https://www.youtube.com/watch?v=hUqCnHANtKs) _@ Ruckus_
-
-## Antenna Diveristy: Simple, MIMO & MU-MIMO
-
-### Simple Diveristy Systems
-
-- [**Simple Diversity Systems** - One antenna at a time](https://user-images.githubusercontent.com/94720207/195755653-bb459bb0-e8fb-4686-8273-5bf670fec8d6.png) _Due to switch "one at a time" **it prevents multipath**_
-
-### `MIMO` Multiple-Input Multiple-Output
-
-- [MIMO (multiple input, multiple output)](https://en.wikipedia.org/wiki/MIMO) _@ wiki_
-- [MIMO (multiple input, multiple output)](https://www.techtarget.com/searchmobilecomputing/definition/MIMO) _@ techtarget_
-- [**Multiple Diversity Systems** - multiple transmission & receiving antennas](https://user-images.githubusercontent.com/94720207/195755653-bb459bb0-e8fb-4686-8273-5bf670fec8d6.png) _Due to multiple transmission: **exploit multipath propagation**_
-
-### `MU-MIMO` Multiple-Input Multiple-Output
-
-## Types of Antennas & Hardware
-
-- [Smart Antenna (like Ruckus)]()
 
 
 
