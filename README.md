@@ -18,7 +18,7 @@
     beneficio económico directo de este documento, por favor: 
 
     Comparte el conocimiento gratuito siempre para la búsqueda de 
-    la justicia, la verdad y el honor de la raza humana. Ometeotl
+    la justicia, la verdad y el honor de la raza humana. 
 
  =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
  "                                                               "
@@ -41,6 +41,7 @@
  "                                                               "
  "                     Twitter:  @fz3r0_OPs                      "
  "                     GitHub :  Fz3r0                           " 
+ "                                                               "
  "⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄"
  "⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄"
  "⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄"
@@ -1665,6 +1666,7 @@ _Deep dive into the Packet / PCAP Analysis... & Sharks a lot of sharks!_
 
 - [CWNP Official Web](https://www.cwnp.com/)
 - [Official CWNA Study Guide & Exam Practica](https://lms.cwnp.com/)
+- [Ruckus Wireless: RF Basics - Complete Course](https://www.youtube.com/watch?v=wxa2ZX5ofRo&list=PLySwoo7u9-KL4RMboSyITYGRYqWCikc1Q) _@ Ruckus_
 - [Wireless/WiFi Network: GET GUD in less than 1 hour @ Sunny](https://www.youtube.com/watch?v=WOTeFceIeM8&list=PLSNNzog5eydvJG48PYnWnNY7-tQIfxTRb)
 - [WiFi Training Resources](http://revolutionwifi.blogspot.com/p/wi-fi-training-resources.html)
 - [Miniserie Wifi & CWNA-108 @ Sama WiFi](https://www.youtube.com/watch?v=mpapEx1doWQ&list=PLm7OhL_NMy3RXoKOSmhqo0b3PYOYNQl8p)
@@ -1827,6 +1829,7 @@ _Dense materials absorb energy & weaken the signal | Esponja_
 _Solid metal impact or "mirror" effect | L1 y X (pase) en el Winning Eleven_
 
 - [**`Reflection`** - sky wave reflection and microwave reflection]()
+- [RF Reflection](https://youtu.be/OV2g7c-98X8) _@ Ruckus_
 
 ### Refraction
 
@@ -1874,6 +1877,7 @@ _"Dispersión" en Español. Uneven surfaces hots, random surfaces, shake shake!_
 ### Multipah & Delay Spread
 
 - [RF Multipath](https://www.youtube.com/watch?v=3-jOQLN4y9c) _@ Ruckus_
+- [RF Delay Spread](https://youtu.be/3-jOQLN4y9c) _@ Ruckus_
 - [Multipah & Delay Spread](https://user-images.githubusercontent.com/94720207/195463016-848cc804-768e-4c48-89da-c091b5f31d32.png)
 - [Results of Multipath]() _legacy 802.11a/b/g Nemesis | but MIMO & MU-MIMO new tech Hero!_
     - [`Upfade` - Increased signal strength | Multiple RF arrive at same time **in-phase**]()
@@ -1883,12 +1887,17 @@ _"Dispersión" en Español. Uneven surfaces hots, random surfaces, shake shake!_
 
 ### Interference (Corruption)
 
+- [RF Interference - Ocurr in Layer 1 & Layer 2](https://youtu.be/Jp4snBxVGsQ) _@ Ruckus_
 - [Interference (Corruption)](https://user-images.githubusercontent.com/94720207/195463161-26bc550b-ac9d-46a6-87de-b2fec18b82d4.png) _Image_
+
+## RF Modulation
+
+- [RF Modulation](https://youtu.be/sJFeEFAneY4) _Ruckus_
 
 ### FSPL - Free Space Path Loss 
 
 - [Free Space Path Loss (FSPL)](https://en.wikipedia.org/wiki/Free-space_path_loss) _Wiki_
-- [RF Basics - RF Free Space Path Loss](https://www.youtube.com/watch?v=bwlgwPsNvt4) _@ Ruckus Education_
+- [RF Free Space Path Loss](https://www.youtube.com/watch?v=bwlgwPsNvt4) _@ Ruckus Education_
 - [Free Space Path Loss](https://www.youtube.com/watch?v=-XHWEYxW_c4&t=44s) _@ Inside Wireless_
 
 ## 1️⃣ 0️⃣ 🔊 The "Keying" Method 🔊 0️⃣ 1️⃣
@@ -1939,18 +1948,17 @@ Telsco S.A.S._
 ### Antenna
 
 - [`Antenna`]() _Transmit & Recieve Radio Signals_
+- [Antenna Function, Patterns, BeamFlex and Options](https://www.youtube.com/watch?v=K2ZhXLuJMfg) _@ Ruckus_
  
 ### Receiver
 
 - [`Receiver`]() _Final component in the wireless medium | Recieves & modulate signals into 1 & 0_
 
-### IR Intentional Radiator 
+### `IR` Intentional Radiator & `EIRP` Equivalent Isotropically Radiated Power
 
-- [`IR` - Intentional Radiator]() _Something that is specifically (intentional) designed to generate RF | The antenna_
-
-### Equivalent Isotropically Radiated Power
-
-- [`EIRP` Equivalent Isotropically Radiated Power]() _Highest RF signal strength that is transmitted from a particular antenna_
+- [IR, EIRP and Relative Power Measurement](https://youtu.be/hUqCnHANtKs) _@ Ruckus_
+    - [`IR` - Intentional Radiator]() _Something that is specifically (intentional) designed to generate RF | The antenna_
+    - [`EIRP` Equivalent Isotropically Radiated Power]() _Highest RF signal strength that is transmitted from a particular antenna_
 
 ## 📈 📶 📏 RF Mathematics & Measurments 📏 📶 📈
 
@@ -1964,12 +1972,12 @@ Telsco S.A.S._
 ### Units of Measurments `Power & Comparison`
 
 - [Units of Measurments Comparison](https://user-images.githubusercontent.com/94720207/195480309-904f1c11-51fc-40d1-9edd-a54478749331.png) _Table_
+- [Understanding WiFi power](https://www.youtube.com/watch?v=cFK91L5WXdM&list=PLySwoo7u9-KL4RMboSyITYGRYqWCikc1Q&index=13) _@ Ruckus_
 
 ### Units of power `absolute units`
         
 - [**(W)** - watt](https://en.wikipedia.org/wiki/Watt) _Basic unit of power | The highest value we deal in 802.11_
-    - [**(mW)** - milliwatt - watt to milliwatt calculator](https://www.rapidtables.com/convert/power/mW_to_Watt.html) _Less than 1 watt..._
-
+- [**(mW)** - milliwatt - watt to milliwatt calculator](https://www.rapidtables.com/convert/power/mW_to_Watt.html) _Less than 1 watt..._
 - [**(dBm)** - Decibels Relative to 1 mW](https://en.wikipedia.org/wiki/DBm) _0dBm = 1mW_
     - [WiFi Signal Strenght & dBM](https://eyenetworks.no/en/wifi-signal-strength/) _dbm & RSSI_
 
@@ -1985,27 +1993,16 @@ Telsco S.A.S._
 - [Ley del cuadrado inverso (método de desviación) | Física](https://www.youtube.com/watch?v=gUfQ_D-rn14) _@ Khan Academy_
 - [Ley del cuadrado inverso - Aplicado a Rayos X](https://www.youtube.com/watch?v=Tfqf90ITfrs) _@ Henry RX_
 
-## RF Maths & Calculation like an alien! 
+## 👽 🧮 📊 RF Maths & Calculation like an alien! 📊 🧮 👽 
 
 _If you hear the voice of an alien in your psychedelic experience... is the synthactical of magic_
-
-### RF Units of Power & Comparison
-
-- [Units of power (absolute)]
-    - [watt (W)]
-    - [milliwatt (mW)]
-    - [decibels relative to 1 milliwatt (dBm)]
-
-- [Units of comparison (relative)]
-    - [decibel (dB)]
-    - [decibels relative to an isotropic radiator (dBi)]
-    - [decibels relative to a half-wave dipole antenna (dBd)]
 
 ### RF Calculation like an alien: `dBm & mW` (Conversion)
 
 - [Logarithm](https://es.wikipedia.org/wiki/Logaritmo) _Wiki_
 - [Relation between dBm & mW is logarithmic (Absolute vs Relative)](https://user-images.githubusercontent.com/94720207/195482625-5a39d041-7b3e-48de-a9b3-f15e1a128e5e.png) _Image_
 - [Rule of 10s and 3s | **dBm vs mW Table**](https://user-images.githubusercontent.com/94720207/195482441-1dada7da-3027-4130-9f74-3d6cd3128ccb.png) _Table_
+- [Rule of 10s and 3s](https://youtu.be/F03VisKPZN0) _@ Ruckus_
 - [Milliwatt (mW) to dBm **Conversion** - **Easy Way!**](https://www.youtube.com/watch?v=yfdb0Dn94A0) _@ GTHillWiFi_
 - [Milliwatt (mW) to dBm **Conversion** - **Mandrake: Understand why to use dBm in negatives**](https://www.youtube.com/watch?v=NuvKeqyEmNg) _@ GTHillWiFi_
 - [Potencias en RF - **Convertir potencias** ¡la mejor explicación! **tabla chingona**](https://www.youtube.com/watch?v=zsrq6i0x3WE) _@ Telsco S.A.S._
@@ -2101,14 +2098,23 @@ _If you hear the voice of an alien in your psychedelic experience... is the synt
 ### Noise Floor
 
 
-### `SNR` Signal-to-Noise Ratio
+
 
 #### Signal-to-Interference-Plus-Noise Ratio
 
+
+
 ### `RSSI` Received Signal Strength Indicator
 
+- [RSSI Ruckus](https://youtu.be/j_cEmPJFftM)
+
+### `SNR` Signal-to-Noise Ratio
+
+- [SNR Ruckus](https://youtu.be/h-qsMKxF8sM)
 
 ### Link Budget
+
+- [Link budget riuckus](https://youtu.be/EzFh8OTVBjQ)
 
 #### Fade Margin/System Operating Margin
 
