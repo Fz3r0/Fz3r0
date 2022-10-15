@@ -1957,8 +1957,11 @@ Telsco S.A.S._
 ### `IR` Intentional Radiator & `EIRP` Equivalent Isotropically Radiated Power
 
 - [IR, EIRP and Relative Power Measurement](https://youtu.be/hUqCnHANtKs) _@ Ruckus_
-    - [`IR` - Intentional Radiator]() _Something that is specifically (intentional) designed to generate RF | The antenna_
-    - [`EIRP` Equivalent Isotropically Radiated Power]() _Highest RF signal strength that is transmitted from a particular antenna_
+    - [`IR` - Intentional Radiator]() _Something that is specifically (intentional) designed to generate RF_ <br> 
+    _(**IR does NOT includes the antenna**)_
+    - [`EIRP` Equivalent Isotropically Radiated Power]() _Highest RF signal strength or energy at tip of antenna_ <br> 
+    _(**EIRP is "The antenna" (IR + Antenna Gain)**)_
+    - [**`IR` & `EIRP`** - Easy & clear image](https://user-images.githubusercontent.com/94720207/195992949-93f8df79-0987-4dcc-b090-066f203abcee.png)
 
 ## 📈 📶 📏 RF Mathematics & Measurments 📏 📶 📈
 
@@ -2037,8 +2040,14 @@ _If you hear the voice of an alien in your psychedelic experience... is the synt
     - [SNR best image](https://user-images.githubusercontent.com/94720207/195961882-607ce880-dcee-474e-8da1-531ac5c11d6e.png)
 ) _@ Ruckus_
 
+- [**SNR Excellent = >25 | SNR OK = 15-25 | SNR Shit = <10**](https://user-images.githubusercontent.com/94720207/195992567-abdec301-f314-44c2-a160-4b42067eef93.png) _Image_
 
- 
+### Noise Floor
+
+- [Noise floor - Sum of all the noise sources & unwanted signals](https://en.wikipedia.org/wiki/Noise_floor) _@ Wiki_
+- [Noise Floor: ¿qué es y cómo afecta a los receptores de RF?](https://borrowbits.com/2017/06/noise-floor-afecta-los-receptores-rf/) _@ borrowbits_
+    - [Noise Floor **Spectrogram 1**](https://user-images.githubusercontent.com/94720207/195992799-d83e11fb-fe7a-4ca7-9c6e-dddb0fbae035.png) _Image_
+
 
 ### Link Budget
 
@@ -2047,7 +2056,7 @@ _If you hear the voice of an alien in your psychedelic experience... is the synt
 #### Fade Margin/System Operating Margin
 
 
-### Noise Floor
+
 
 
 
