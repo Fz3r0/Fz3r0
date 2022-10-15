@@ -1661,13 +1661,17 @@ _Deep dive into the Packet / PCAP Analysis... & Sharks a lot of sharks!_
 
 - [EverythingRF](https://www.everythingrf.com/)
 - [Iain Explains Signals, Systems, and Digital Comms](https://www.youtube.com/channel/UCrltzuSvRbL3rpsvLDnFkuQ)
+- [WiFi Professionals](https://www.wifi-professionals.com/) _log that helps WiFi enthusiasts to read and share their knowledge_
 - [**BadFi** Trash, shitty, crap & full of WiFi Bad practices, DON'T DO THIS!!!](https://badfi.com/bad-fi) _Lo pongo hasta arriba porque es más utilizado de lo que parece jaja!_
 - [**BadFi**  Direct Twitter](https://twitter.com/search?q=%23badfi&src=typed_query&f=live)
 
 ### WiFi & Wireless Courses
 
 - [CWNP Official Web](https://www.cwnp.com/)
-- [Official CWNA Study Guide & Exam Practica](https://lms.cwnp.com/)
+- [Official CWNA Study Guide & Exam Practice](https://lms.cwnp.com/)
+    - [CWNA - Exam Preparation](https://www.wifi-professionals.com/2018/04/cwna-wifi-professionals) _WiFi-Professionals_
+    - [CWNA - Exam Objectives](https://www.cwnp.com/uploads/cwna-108-2020-objectives.pdf) _CWNP_
+
 - [Ruckus Wireless: RF Basics - Complete Course](https://www.youtube.com/watch?v=wxa2ZX5ofRo&list=PLySwoo7u9-KL4RMboSyITYGRYqWCikc1Q) _@ Ruckus_
 - [Wireless/WiFi Network: GET GUD in less than 1 hour @ Sunny](https://www.youtube.com/watch?v=WOTeFceIeM8&list=PLSNNzog5eydvJG48PYnWnNY7-tQIfxTRb)
 - [WiFi Training Resources](http://revolutionwifi.blogspot.com/p/wi-fi-training-resources.html)
