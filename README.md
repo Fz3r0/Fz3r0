@@ -4703,6 +4703,32 @@ https://developer.cisco.com/docs/ APIs y demas sdwaun dna center
 https://developer.cisco.com/docs/dna-center/#!cisco-dna-center-platform-overview dna overview
 
 
+## 📡 🏴‍☠️ 📶 Antennas & Adapters for Hacking WiFi 📶 🏴‍☠️ 📡
+
+### Resources & Tutorials
+
+- [Fix Kali Linux drivers for Alfa & Other adapters](https://www.youtube.com/watch?v=hEXwOkyYNL0) _@ David Bombal_
+
+### Antennas & Adapters
+
+- [Alfa AWUS036NHA]()
+- [Alfa AWUS036ACM]()
+- [Alfa AWUS036ACH]()
+
+## ☠️ 📡 🎃 WiFi Pumpkin 🎃 📡 ☠️
+
+### Resources & Tutorials
+
+- [How to install and use WiFi Pumpkin on Kali 2022](https://www.youtube.com/watch?v=ExA9kOzOZ6M)
+- [Build a Pumpkin Pi — A Rogue AP & MitM Framework That Fits in Your Pocket](https://www.youtube.com/watch?v=tIM-kdmKhnE) _@ NullByte_
+- [WiFi PumpkinPi3 Wireless MiTM devices hardware build](https://www.youtube.com/watch?v=kuff6GiFd7M) _@ Brains933_
+
+### Labs & Attacks
+
+- [**Rogue AP**, **DNS Spoofing Attack** & **Sniffing with Proxy** @ Wifi Pumpkin](https://www.youtube.com/watch?v=OVMzW7uZF28)
+- [**Rogue AP** - Cómo espiar tu red Wi-Fi con WiFi Pumpkin](https://www.youtube.com/watch?v=ieGDelXFSw0)
+- [**Captive Portal Attack**](https://www.youtube.com/watch?v=g8KqSycO3GQ)
+
 
 
 ---
