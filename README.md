@@ -2072,8 +2072,6 @@ _If you hear the voice of an alien in your psychedelic experience... is the synt
     - [Calculating Path Loss - Remember that the path loss & fade margin are **logarithmic!** ;)](https://user-images.githubusercontent.com/94720207/195994443-5a392159-b4b1-4ec2-90e2-63179a62cd00.png)
     - [Calculating Path Loss - **Tabla Resuelta** - I did it! :D](https://user-images.githubusercontent.com/94720207/195995841-bcce9998-264a-446f-90a6-3ef66589e4db.png) _@ Fz3r0_
 
-
-
 ## RF Antennas & Hardware
 
 
@@ -4836,6 +4834,10 @@ https://osintframework.com/ osint framework
 https://developer.cisco.com/docs/ APIs y demas sdwaun dna center
 
 https://developer.cisco.com/docs/dna-center/#!cisco-dna-center-platform-overview dna overview
+
+## Motivation
+
+- [I'VE COME TOO FAR TO QUIT](https://www.youtube.com/watch?v=5aPntFAyRts)
 
 
 ## 📡 🏴‍☠️ 📶 Antennas & Adapters for Hacking WiFi 📶 🏴‍☠️ 📡
