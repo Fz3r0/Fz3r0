@@ -787,8 +787,6 @@ _Honor a los seres humanos que han dejado huella en este hermoso mundo y han con
 - 
 - [Woz]()
 
-
-
 ## 🔱 🌐 🏛️ Networking & WLAN Industry Organizations 🏛️ 🌐 🔱
 _TriForce: Create Standards | Certifies Products | Set Local Regulations_
 
@@ -1674,6 +1672,7 @@ _Deep dive into the Packet / PCAP Analysis... & Sharks a lot of sharks!_
 
 - [Ruckus Wireless: RF Basics - Complete Course](https://www.youtube.com/watch?v=wxa2ZX5ofRo&list=PLySwoo7u9-KL4RMboSyITYGRYqWCikc1Q) _@ Ruckus_
 - [Wireless/WiFi Network: GET GUD in less than 1 hour @ Sunny](https://www.youtube.com/watch?v=WOTeFceIeM8&list=PLSNNzog5eydvJG48PYnWnNY7-tQIfxTRb)
+- [WiFi 101 - WiFi Basic in simple lecture](https://www.businesstechweekly.com/operational-efficiency/wireless-networks/wireless-networks/) _@ businesstechweekly_
 - [WiFi Training Resources](http://revolutionwifi.blogspot.com/p/wi-fi-training-resources.html)
 - [Miniserie Wifi & CWNA-108 @ Sama WiFi](https://www.youtube.com/watch?v=mpapEx1doWQ&list=PLm7OhL_NMy3RXoKOSmhqo0b3PYOYNQl8p)
 - [CWNA-108 Course - Exam Labs](https://www.exam-labs.com/video-training/cwna-108-cwnp#course) _Paid $$$_
@@ -2054,6 +2053,7 @@ _If you hear the voice of an alien in your psychedelic experience... is the synt
     - [`EIRP` Equivalent Isotropically Radiated Power]() _Highest RF signal strength or energy at tip of antenna_ <br> 
     _(**EIRP is "The antenna" (IR + Antenna Gain)**)_
     - [**`IR` & `EIRP`** - Easy & clear image](https://user-images.githubusercontent.com/94720207/195992949-93f8df79-0987-4dcc-b090-066f203abcee.png)
+    - [IR, EIRP & Relative Power Measurement](https://www.youtube.com/watch?v=hUqCnHANtKs) _@ Ruckus_
 
 ### Link Budget
 
@@ -2072,23 +2072,52 @@ _If you hear the voice of an alien in your psychedelic experience... is the synt
     - [Calculating Path Loss - Remember that the path loss & fade margin are **logarithmic!** ;)](https://user-images.githubusercontent.com/94720207/195994443-5a392159-b4b1-4ec2-90e2-63179a62cd00.png)
     - [Calculating Path Loss - **Tabla Resuelta** - I did it! :D](https://user-images.githubusercontent.com/94720207/195995841-bcce9998-264a-446f-90a6-3ef66589e4db.png) _@ Fz3r0_
 
-## RF Antennas & Hardware
+## RF Antennas & Hardware 
 
+- [WLAN RF Components](https://www.youtube.com/watch?v=K2ZhXLuJMfg&t=36s) _@ Ruckus_
+- [Basic WiFi components](https://user-images.githubusercontent.com/94720207/196008533-ef4af36b-4ce6-45ad-bf16-7d059b24482a.png) _@ CWNP_
+- [Wireless LAN Components](http://etutorials.org/Networking/wn/Chapter+5.+Wireless+LANs+Networks+for+Buildings+and+Campuses/Wireless+LAN+Components/) _@ e tutorials_
+    
+    - [Antena - Dispositivo que emitie y/o recibe ondas electromagnéticas hacia el espacio libre](https://es.wikipedia.org/wiki/Antena) _@ Wiki_
+    - [Transceiver - A combination of a radio transmitter and a receiver](https://en.wikipedia.org/wiki/Transceiver) _@ Wiki_
+    - [RF Connector](https://en.wikipedia.org/wiki/RF_connector)
+    - [List of RF connector Types](https://en.wikipedia.org/wiki/List_of_RF_connector_types)
+    - [Coaxial cable](https://en.wikipedia.org/wiki/Coaxial_cable)
+    - [List of Pasternack products (cables, connector & more)](https://www.pasternack.com/) _@ pasternack_
+
+- [Wireless LAN Systems](http://etutorials.org/Networking/wn/Chapter+5.+Wireless+LANs+Networks+for+Buildings+and+Campuses/Wireless+LAN+Systems/) _@ e tutorials_
+- [Wireless LAN Technologies](http://etutorials.org/Networking/wn/Chapter+5.+Wireless+LANs+Networks+for+Buildings+and+Campuses/Wireless+LAN+Technologies/) _@ e tutorials_
 
 ## Antenna Operation
 
-### Antenna Operation
-
 - [Fundamental Antenna Operation: Fundamental job "Shape the Energy"](https://www.youtube.com/watch?v=TszLhm6pWaA) _@ GTHillWiFi_
 - [`Antenna Patterns:` **Azimuth:** (Bird's eye | Top View) & Elevation (Eye level | Front View)](https://help.ui.com/hc/en-us/articles/115012664088-UniFi-Introduction-to-Antenna-Radiation-Patterns) _@ UniFi_
+    
     - [**Azimuth:** & **Elevation**](https://user-images.githubusercontent.com/94720207/195755167-dbfffd68-9268-4323-88b0-71d54f6c2202.png) _Image_
-- [`Isotropic Radiator` **"The perfect wave"**](https://en.wikipedia.org/wiki/Isotropic_radiator) _Theoretical (dBi) point source which radiates the same int in all directions_
+
 - [`Polarization` (vertical-up-down & horizontal-side-side) & `Antenna Types`](https://www.youtube.com/watch?v=zEzZfCtVnpY)
+    
     - [Antenna Polarization: Vertical, Horizontal, Circular, Eliptical](https://jemengineering.com/blog-intro-to-antenna-polarization/) _Graphics | @ jemengineering_
+    - [Antenna Polarization - Electric Field (up / e-plane) | Magnetic Field (side / h-plane)(https://user-images.githubusercontent.com/94720207/196008909-b128d519-bd4c-4a03-beb5-489980363c4d.png)
 
-### Antenna Operation
+- [`Isotropic Radiator` **"The perfect wave"**](https://en.wikipedia.org/wiki/Isotropic_radiator) _Theoretical (dBi) point source which radiates the same int in all directions_
+    
+    - [Isotropic Radiator - Sphere Model](https://user-images.githubusercontent.com/94720207/196008986-68246e2f-8776-4068-9162-5a191cc67b57.png)
 
-[IR, EIRP & Relative Power Measurement](https://www.youtube.com/watch?v=hUqCnHANtKs) _@ Ruckus_
+### Passive Gain Pattern: Specific pattern or focus direction
+
+- [Passive Gain & RF shapes (basic model)](https://user-images.githubusercontent.com/94720207/196009042-a7a5c3d1-dc47-42b8-94f3-0603344b0284.png)
+
+### Beam Patterns
+
+- [Beam Patterns - "Horizontal" & "Vertical" view](https://user-images.githubusercontent.com/94720207/196009080-747b0bd1-9633-4144-b368-df97eb8534bc.png)
+
+
+
+
+
+
+
 
 ## Antenna Diveristy: Simple, MIMO & MU-MIMO
 
@@ -2108,6 +2137,9 @@ _If you hear the voice of an alien in your psychedelic experience... is the synt
 
 - [Smart Antenna (like Ruckus)]()
 
+
+
+<!--Antennas & Hardware lo dejé pendiente -->
 
 
 
