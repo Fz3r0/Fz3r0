@@ -745,7 +745,9 @@ _Honor a los seres humanos que han dejado huella en este hermoso mundo y han con
 - Larry Page
 - [Hideo Kojima]() _TV Hideo_
 - [Larry Wall]() _Programmer & creator of Perl programming language_
+- [George Antheil](https://en.wikipedia.org/wiki/George_Antheil) _AMusician & Inventor | Frequency Hooping - WiFi inventor_
 - [Grace Murray Hopper]() _Computer scientist, mathematician, USA Navy rear admiral | COBOL grandma'_
+- [Hedy Lamarr - Hedwig Eva Maria Kiesler](https://en.wikipedia.org/wiki/Hedy_Lamarr) _Actress & Inventor | Frequency Hooping - WiFi inventor_
 - [Jerry Sanders]() _AMD_
 - [James Gosling]()
 - [JJ Jose Juan García]()
