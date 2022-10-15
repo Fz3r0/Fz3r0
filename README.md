@@ -2015,19 +2015,44 @@ _If you hear the voice of an alien in your psychedelic experience... is the synt
 ### RF Calculation like an alien: `dBi`, `dB` & `dBm` (Receiving Power)
 
 - [**Cálculos sencillo de FSL (Free Space Loss) - Fz3r0**](https://user-images.githubusercontent.com/94720207/195667926-d4aa5eac-4cff-42fb-8f82-e63d09fb2d18.png) _@ Fz3r0_
-- [Example1: Simplified RF Math fron Transmitter to Receiver](https://user-images.githubusercontent.com/94720207/195669172-bd47628e-709d-46df-8689-4b049d97925c.png) _@ CWNP_
+- [Example1: Simplified RF Math fronm Transmitter to Receiver](https://user-images.githubusercontent.com/94720207/195669172-bd47628e-709d-46df-8689-4b049d97925c.png) _si se puede sumar todos los db/dbi directo | @ CWNP_
 - [Example1: Solved (all in mind, just the last 17 solved)](https://user-images.githubusercontent.com/94720207/195671290-361efdab-945f-4fd0-81d4-6f3d6c4c6b9d.png) _@ Fz3r0_
-- [Example2:](https://user-images.githubusercontent.com/94720207/195671605-a712e01e-4056-4c10-a10c-0c9aafb38940.png) _@ CWNP_
+- [Example2: Not realistic due to free space loss is allways greater](https://user-images.githubusercontent.com/94720207/195671605-a712e01e-4056-4c10-a10c-0c9aafb38940.png) _@ CWNP_
+
+### `RSSI` Received Signal Strength Indicator
+
+- [RSSI Ruckus](https://youtu.be/j_cEmPJFftM) _Different for each vendor | non standard_
+
+### `Receiver Sensitivity`
+
+- [Receiver Sensitivity - how well RF "hear a device"](https://www.everythingrf.com/community/what-is-receiver-sensitivity) _The minimum signal strenght at which data can be received_
+
+### `SNR` Signal-to-Noise Ratio
+
+- [`SNR` Signal-to-Noise Ratio](https://en.wikipedia.org/wiki/Signal-to-noise_ratio) _@ Wiki_
+- [SNR](https://youtu.be/h-qsMKxF8sM) _@ Ruckus_
+    - [SNR comparation](https://user-images.githubusercontent.com/94720207/195961763-6f389dcf-8f6a-461c-9c14-608d3be21101.png) _Image_
+    - [SNR side view](https://user-images.githubusercontent.com/94720207/195961806-d8a8b5a7-fff7-4079-ac0c-b9d766c86a4e.png)
+    - [SNR spectrum](https://user-images.githubusercontent.com/94720207/195961857-69665dea-8850-4e06-a5da-5c3f8a149e01.png)
+    - [SNR best image](https://user-images.githubusercontent.com/94720207/195961882-607ce880-dcee-474e-8da1-531ac5c11d6e.png)
+) _@ Ruckus_
+
+
+ 
+
+### Link Budget
+
+- [Link budget riuckus](https://youtu.be/EzFh8OTVBjQ)
+
+#### Fade Margin/System Operating Margin
+
+
+### Noise Floor
 
 
 
 
-
-
-
-
-
-
+#### Signal-to-Interference-Plus-Noise Ratio
 
 
 
@@ -2095,28 +2120,6 @@ _If you hear the voice of an alien in your psychedelic experience... is the synt
 
 
 
-### Noise Floor
-
-
-
-
-#### Signal-to-Interference-Plus-Noise Ratio
-
-
-
-### `RSSI` Received Signal Strength Indicator
-
-- [RSSI Ruckus](https://youtu.be/j_cEmPJFftM)
-
-### `SNR` Signal-to-Noise Ratio
-
-- [SNR Ruckus](https://youtu.be/h-qsMKxF8sM)
-
-### Link Budget
-
-- [Link budget riuckus](https://youtu.be/EzFh8OTVBjQ)
-
-#### Fade Margin/System Operating Margin
 
 
 
