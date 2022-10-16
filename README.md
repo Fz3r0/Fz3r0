@@ -2402,28 +2402,9 @@ _If you hear the voice of an alien in your psychedelic experience... is the synt
     - [Protected Frame]()
     - [+HTC / Order]()
 
+### 802.11**ac** Frames
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+- [802.11ac Frames - What's Changed?](https://www.youtube.com/watch?v=aeuf8wD1Wqs)
 
 ### 802.11 Frame Analysis
 
@@ -2445,6 +2426,8 @@ _If you hear the voice of an alien in your psychedelic experience... is the synt
     - [MAC - Medium Access Control - MPDU]()
     - [PLCP - Physical Layer Convergence Protocol - PSDU]()
     - [PLCP - Physical Layer Convergence Protocol - PSDU]()
+    
+
 
 
 
