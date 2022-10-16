@@ -2367,12 +2367,18 @@ _If you hear the voice of an alien in your psychedelic experience... is the synt
 ### 802.11 `Frames`
 
 - [802.11 Frames - `Full List` & `All Types`](https://en.wikipedia.org/wiki/802.11_Frame_Types) _@ Wiki_
-- [802.11 Frame - WiFi (simplified for CWNA)](https://user-images.githubusercontent.com/94720207/196010425-5aebc56a-ee0b-41fa-bf60-c3678d85ceee.png) _@ CWNP TV_
+- [802.11 Frame - WiFi (simplified for CWNA)](https://user-images.githubusercontent.com/94720207/196010425-5aebc56a-ee0b-41fa-bf60-c3678d85ceee.png) _@ CWNP TV_ 
 - [802.11 Frame - WiFi (simplified for CWNP)](https://user-images.githubusercontent.com/94720207/196010635-d29de647-87db-4393-a91d-d135e3a5d7f2.png) _@ CWNP TV_
 - [802.11 Frame Types and Formats](https://howiwifi.com/2020/07/13/802-11-frame-types-and-formats/) _@ HowIwifi_
 - [802.11 - Framing in Detail](https://www.oreilly.com/library/view/80211-wireless-networks/0596100523/ch04.html) _@ O'reilly_
 
-### 802.11 `MAC Header`
+### 802.11 `MAC Frame`
+
+1. [**`Header`** - **802.11 Information** - Info that allows data be received by STA]()
+2. [**`Payload`** - **User Data** - IP headers, TCP headers & App Data | Encrypted]()
+3. [**`Footer`** - **Error Correction** - Data generated to ensure accuarate delivery (p.e. checksum)]()
+
+### 1. 802.11 MAC Frame: `Header`
 
 - [**802.11 `MAC Header`**](https://user-images.githubusercontent.com/94720207/196011621-14b8abbb-dc80-4745-8659-2e133415ca7b.png)
     - [Frame Control]()
