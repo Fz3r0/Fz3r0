@@ -1667,6 +1667,7 @@ _Deep dive into the Packet / PCAP Analysis... & Sharks a lot of sharks!_
 
 - [CWNP Official Web](https://www.cwnp.com/)
 - [Official CWNA Study Guide & Exam Practice](https://lms.cwnp.com/)
+    - [CWNP Universal Glossary](https://lms.cwnp.com/mod/glossary/view.php?id=745) _CWNP_
     - [CWNA - Exam Preparation](https://www.wifi-professionals.com/2018/04/cwna-wifi-professionals) _WiFi-Professionals_
     - [CWNA - Exam Objectives](https://www.cwnp.com/uploads/cwna-108-2020-objectives.pdf) _CWNP_
 
@@ -2375,7 +2376,7 @@ _If you hear the voice of an alien in your psychedelic experience... is the synt
 ### 802.11 `MAC Frame`
 
 1. [**`Header`** - **802.11 Information** - Info that allows data be received by STA]()
-2. [**`Payload`** - **User Data** - IP headers, TCP headers & App Data | Encrypted]()
+2. [**`Payload`** - **User Data (or just extra info)** - IP headers, TCP headers, App Data, etc | Encrypted]()
 3. [**`Footer`** - **Error Correction** - Data generated to ensure accuarate delivery (p.e. checksum)]()
 
 ### 1. 802.11 MAC Frame: `Header`
@@ -2422,17 +2423,21 @@ _If you hear the voice of an alien in your psychedelic experience... is the synt
     - [**`ACK` (acknowledgment) Frames** @ Wireshark view](https://user-images.githubusercontent.com/94720207/196010839-c5154140-abe5-4247-b9db-f5e583eecf04.png) _Image_
 
 ### MAC & PHY Terminology
+_PDUs & SDUs travel the OSI layer from top to layer 1 PMD, in layer 1 is modulated (ofdm, bpsk, etc)_
 
 - [MAC & PHY Terminology - Easy Diagram](https://user-images.githubusercontent.com/94720207/196011078-1a4cce23-0e8e-46f0-8940-acdc83a9c008.png)
 - [PDU - In networking, a PDU is best understood in relation to a SDU](https://en.wikipedia.org/wiki/Protocol_data_unit)
-- [SDU Service Data Unit - "The payload" of the PDU](https://en.wikipedia.org/wiki/Service_data_unit)
-- [MSDU]()
+- [SDU Service Data Unit - "The payload" of the PDU](https://en.wikipedia.org/wiki/Service_data_unit) 
  
-    - [LLC - Logical Link Control - MSDU]()
-    - [MAC - Medium Access Control - MPDU]()
-    - [PLCP - Physical Layer Convergence Protocol - PSDU]()
-    - [PLCP - Physical Layer Convergence Protocol - PSDU]()
-    
+    - [**`MSDU`** - **LLC** Logical Link Control: Data Link 2(**Top**)]()
+    - [**`MPDU`** - **MAC** Medium Access Control - Data Link 2]()
+    - [**`PSDU`** - **PCCP** Physical Layer Convergence Protocol - Physical 1]()
+    - [**`PPDU`** - **PMD** Physical Medium Dependent - Physical 1 (**Bottom**)]()
+
+### `A-MSDU` & `A-MPDU` - _(A = Aggregated)_
+
+- [`A-MSDU` & `A-MPDU` - Aggregated in `802.11 n`](https://user-images.githubusercontent.com/94720207/196059634-87974caf-5dca-44a6-a815-a8f4fe4ec84f.png) _HT & VHT networks improvements_
+
 
 
 
