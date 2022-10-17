@@ -2456,7 +2456,7 @@ _PDUs & SDUs travel the OSI layer from top to layer 1 PMD, in layer 1 is modulat
 
 
 
-
+- [4-way handshake](https://www.wifi-professionals.com/2019/01/4-way-handshake)
 
 
 
