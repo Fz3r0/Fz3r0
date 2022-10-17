@@ -168,15 +168,18 @@ Please check out the links of my Social Networks that I've placed above includin
 
 #### Networking
 
-- `NetOps` `NetSec` `CCNA` `RICXI` `RSP`  `CWNA` `ICND 1&2` `NOC` `Network Design` `Enterprise Compus Networking` `SOHO` `NGNs` 
+- `NetOps` `NetSec` 
+- `CCNA` `RICXI` `RSP` `CWNA` `ICND 1&2` `NOC` `Network Design` `Enterprise Compus Networking` `SOHO` `NGNs` 
 
-#### Programming & Scripting
+#### Programming, Scripting & Data Base
 
--  `DevOps` `Python` `C++` `Ruby` `Visual Basic` `VBA` `Bash` `Batch` `PowerShell` `HTML5` `CSS3` `Javascript` `Node.js` `PHP` `SQL` `MySQL` `Mongo DB` 
+- `DevNeT` `DevOps` 
+- `Python` `C++` `Ruby` `Visual Basic` `VBA` `Bash` `Batch` `PowerShell` `HTML5` `CSS3` `Javascript` `Node.js` `PHP` `SQL` `MySQL` `Mongo DB` 
 
 #### Cyber-Security
 
-- `DevSecOps`  `SecOps` `CyberOps` `Security+`  `PenTest+` `Ofensive Pentesting`  `Red Team` `Ethical Hacking`  `Defensive Security` `Blue Team` `Digital Forensics`  
+- `NetSecOps` `SecOps` `CyberOps` 
+- `Security+` `PenTest+` `Ofensive Pentesting` `Cisco Cyber-Security` `Red Team` `Ethical Hacking`  `Defensive Security` `Blue Team` `Digital Forensics`  
 
 #### SysAdmin
 
