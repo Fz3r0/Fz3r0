@@ -2379,8 +2379,8 @@ _If you hear the voice of an alien in your psychedelic experience... is the synt
 ### 802.11 `MAC Frame`
 
 1. [**`Header`** - **802.11 Information** - Info that allows data be received by STA]()
-2. [**`Payload`** - **User Data (or just extra info)** - IP headers, TCP headers, App Data, etc | Encrypted]()
-3. [**`Footer`** - **Error Correction** - Data generated to ensure accuarate delivery (p.e. checksum)]()
+2. [**`Payload`** - **User Data (or just extra info for oparations)** - IP headers, TCP headers, App Data, etc | Encrypted]()
+3. [**`Footer`** - **Error Correction / Frame Check Seq** - Data generated to ensure accuarate delivery]()
 
 ### 1. 802.11 MAC Frame: `Header`
 
@@ -2431,15 +2431,22 @@ _PDUs & SDUs travel the OSI layer from top to layer 1 PMD, in layer 1 is modulat
 - [MAC & PHY Terminology - Easy Diagram](https://user-images.githubusercontent.com/94720207/196011078-1a4cce23-0e8e-46f0-8940-acdc83a9c008.png)
 - [PDU - In networking, a PDU is best understood in relation to a SDU](https://en.wikipedia.org/wiki/Protocol_data_unit)
 - [SDU Service Data Unit - "The payload" of the PDU](https://en.wikipedia.org/wiki/Service_data_unit) 
+- [MSDU, MPDU, PSDU & PPDU](https://www.youtube.com/watch?v=xdJ9gKHg-nw) __@ Jacob Morton__
  
-    - [**`MSDU`** - **LLC** Logical Link Control: Data Link 2(**Top**)]()
-    - [**`MPDU`** - **MAC** Medium Access Control - Data Link 2]()
-    - [**`PSDU`** - **PCCP** Physical Layer Convergence Protocol - Physical 1]()
-    - [**`PPDU`** - **PMD** Physical Medium Dependent - Physical 1 (**Bottom**)]()
+    - [**`MSDU`** - **LLC** Logical Link Control: Data Link 2(**Top**)]() _adds footer & header + frame check seq, then >_
+    - [**`MPDU`** - **MAC** Medium Access Control - Data Link 2]() _passes to physical layer to > PLCP_
+    - [**`PSDU`** - **PCCP** Physical Layer Convergence Protocol - Physical 1]() _adds PLCP header, then >_
+    - [**`PPDU`** - **PMD** Physical Medium Dependent - Physical 1 (**Bottom**)]() _transmit with the preamble or training fields_
 
 ### `A-MSDU` & `A-MPDU` - _(A = Aggregated)_
 
+- [Aggregation in WIFI - Frame Aggregation (Combining Frames into larger frames)](https://www.youtube.com/watch?v=RvLVDi41lKQ) _@ Leo's Tech Talk_
+- [A-MSDU - MAC frame: Adds multiple subrames of MSDUs into 1 MPDU > Reduces Overhead]()
+- [A-MPDU - PHY frame: Adds multiple subrames of MPDUs into 1 PPDU > Reduces Overhead]()
+
 - [`A-MSDU` & `A-MPDU` - Aggregated in `802.11 n`](https://user-images.githubusercontent.com/94720207/196059634-87974caf-5dca-44a6-a815-a8f4fe4ec84f.png) _HT & VHT networks improvements_
+- [A-MSDU vs A-MPDU - Why choose one over the other?](https://www.youtube.com/watch?v=iyEdTNI11Bk) _@ Jacob Morton_
+
 
 
 
