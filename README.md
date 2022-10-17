@@ -2387,11 +2387,11 @@ _If you hear the voice of an alien in your psychedelic experience... is the synt
 - [**802.11 `MAC Header`**](https://user-images.githubusercontent.com/94720207/196011621-14b8abbb-dc80-4745-8659-2e133415ca7b.png)
     - [Frame Control]()
     - [Duration /ID]() _Info: Time will take to finish the current frame transaction_
-    - [Address 1]()
-    - [Address 2]()
-    - [Address 3]()
+    - [Address 1](https://user-images.githubusercontent.com/94720207/196089468-982d523e-9a37-4169-97c0-bf33c8028714.png) _Receiver Address_
+    - [Address 2](https://user-images.githubusercontent.com/94720207/196089468-982d523e-9a37-4169-97c0-bf33c8028714.png) _Transmitter Address_
+    - [Address 3](https://user-images.githubusercontent.com/94720207/196089468-982d523e-9a37-4169-97c0-bf33c8028714.png) _BSSID + SA + DA + DA_
     - [Sequence control]()
-    - [Address 4]()
+    - [Address 4](https://user-images.githubusercontent.com/94720207/196089468-982d523e-9a37-4169-97c0-bf33c8028714.png) _SA_
     - [QoS control]()
     - [HT control]()
     - [Frame Body]()
@@ -2418,6 +2418,7 @@ _If you hear the voice of an alien in your psychedelic experience... is the synt
 
 ### 802.11 Frame Analysis
 
+- [Wiresharl WLAN cheatsheet](https://semfionetworks.com/wp-content/uploads/2021/04/wireshark_802.11_filters_-_reference_sheet.pdf) _lo vuelvo a poner_
 - [802.11 Frame Analysis Full webinar](https://www.youtube.com/watch?v=ITAJb3v5VKQ) _@ Tom Carpenter | CWNP Dark Wizard_
 
     - [**`Beacon` Frames** @ Wireshark view](https://user-images.githubusercontent.com/94720207/196010704-7e846607-074a-4307-ba21-b7d5f143dd59.png) _Image_
