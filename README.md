@@ -2433,19 +2433,27 @@ _PDUs & SDUs travel the OSI layer from top to layer 1 PMD, in layer 1 is modulat
 - [SDU Service Data Unit - "The payload" of the PDU](https://en.wikipedia.org/wiki/Service_data_unit) 
 - [MSDU, MPDU, PSDU & PPDU](https://www.youtube.com/watch?v=xdJ9gKHg-nw) __@ Jacob Morton__
  
-    - [**`MSDU`** - **LLC** Logical Link Control: Data Link 2(**Top**)]() _adds footer & header + frame check seq, then >_
+    - [**`MSDU`** - **LLC** Logical Link Control: Data Link 2(**Top**)]() _adds footer & header + frame check seq FCS, then >_
     - [**`MPDU`** - **MAC** Medium Access Control - Data Link 2]() _passes to physical layer to > PLCP_
     - [**`PSDU`** - **PCCP** Physical Layer Convergence Protocol - Physical 1]() _adds PLCP header, then >_
     - [**`PPDU`** - **PMD** Physical Medium Dependent - Physical 1 (**Bottom**)]() _transmit with the preamble or training fields_
 
 ### `A-MSDU` & `A-MPDU` - _(A = Aggregated)_
 
-- [Aggregation in WIFI - Frame Aggregation (Combining Frames into larger frames)](https://www.youtube.com/watch?v=RvLVDi41lKQ) _@ Leo's Tech Talk_
-- [A-MSDU - MAC frame: Adds multiple subrames of MSDUs into 1 MPDU > Reduces Overhead]()
-- [A-MPDU - PHY frame: Adds multiple subrames of MPDUs into 1 PPDU > Reduces Overhead]()
+- [`Aggregation` in WIFI - Frame Aggregation (Combining Frames into larger frames)](https://www.youtube.com/watch?v=RvLVDi41lKQ) _@ Leo's Tech Talk_
 
-- [`A-MSDU` & `A-MPDU` - Aggregated in `802.11 n`](https://user-images.githubusercontent.com/94720207/196059634-87974caf-5dca-44a6-a815-a8f4fe4ec84f.png) _HT & VHT networks improvements_
+    - [**`A-MSDU`** - MAC frame: Adds multiple subrames of MSDUs into 1 MPDU > Reduces Overhead](https://user-images.githubusercontent.com/94720207/196087431-c5151f6d-d7c6-4ab7-8940-1a138e7e0ce1.png)
+    - [**`A-MPDU`** - PHY frame: Adds multiple subrames of MPDUs into 1 PPDU > Reduces Overhead]((https://user-images.githubusercontent.com/94720207/196087530-71d12c1e-59ab-4418-aeb8-eed2aaf2e214.png)
+
+- [`A-MSDU` & `A-MPDU` - Added to the IEEE `802.11 n`](https://user-images.githubusercontent.com/94720207/196059634-87974caf-5dca-44a6-a815-a8f4fe4ec84f.png) _HT & VHT networks improvements_
 - [A-MSDU vs A-MPDU - Why choose one over the other?](https://www.youtube.com/watch?v=iyEdTNI11Bk) _@ Jacob Morton_
+- [Two Level Aggregation](https://user-images.githubusercontent.com/94720207/196088664-cec4c1da-559f-4fc1-88e0-4c4b0f1a1187.png) _@ Jacob Morton_
+
+### `Interframe` spaces
+
+- [Interframe Spaces]((https://user-images.githubusercontent.com/94720207/196088802-660631bb-b000-444c-b70f-5d84aca23d92.png)
+
+
 
 
 
