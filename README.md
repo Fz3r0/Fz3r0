@@ -3772,6 +3772,7 @@ _Attack switching protocols & Hack the Layer 2_
 - [What is a VLAN Hopping Attack? Vectors: Switch spoofing & Double tagging](https://en.wikipedia.org/wiki/VLAN_hopping)
 - [VLAN Hopping Attack **DTP** @ Cheng Zhang](https://www.youtube.com/c/ChengZhang/videos) _A very classic attack by switch trunking  DTP setting. @ Yersenia_
 - [VLAN Hopping Attack & How To Stop it](https://www.youtube.com/watch?v=5MMNqA2MpFA) _@ Yersenia + GNS3_
+- [VLAN Hopping Attack: Hack a Cisco Switch with a Raspberry Pi](https://www.youtube.com/watch?v=lTlTjeCjXYM) _@ Network Chuck_
 - [VLAN Attack Double Tagging]()
 - [VLAN Attack  Attack Between Devices]()
 - [Hacking networks with VLAN hopping and Python @ Bombal](https://www.youtube.com/watch?v=SiFyhipl57A) _Vamos Bombal!_
