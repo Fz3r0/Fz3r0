@@ -1389,11 +1389,17 @@ _Modelos de referencia para los protocolos de la red y la interconexión y comun
 
 ## ➡️ 💥 ⬅️ Carrier Sense Multiple Access (CSMA) ➡️ 💥 ⬅️
 
+### `CAM` - Channel Access Methods
+
+- [Channel access method -  Allows more than 2 terminals at same medium to transmit over it & share capacity](https://en.wikipedia.org/wiki/Channel_access_method) _@ Wiki_
+- [`CAM` - Channel Access Method](https://www.techopedia.com/definition/25940/channel-access-method-cam#:~:text=Access%20Method%20(CAM)-,What%20Does%20Channel%20Access%20Method%20(CAM)%20Mean%3F,hub%2C%20wireless%20and%20ring%20networks.) _@ Technopedia_
+- [802.11 Channel Access **Requirements**](https://user-images.githubusercontent.com/94720207/196549280-04e1b3ea-6312-485c-bf72-1180e7c2d34c.png)
+
 ### `CSMA`
 
-- [**Carrier Sense Multiple Access - CSMA**](https://en.wikipedia.org/wiki/Carrier-sense_multiple_access)
-- [CSMA-CD vs CSMA-CA](https://user-images.githubusercontent.com/94720207/196484283-8f6decbe-3ebc-4df0-b8d4-b53496b35f1e.png)
-) _Picture_
+- [**`CSMA` - Carrier Sense Multiple Access**](https://en.wikipedia.org/wiki/Carrier-sense_multiple_access) _@ Wiki_
+- [`CSMA-CD` vs `CSMA-CA`](https://user-images.githubusercontent.com/94720207/196484283-8f6decbe-3ebc-4df0-b8d4-b53496b35f1e.png) _Picture_
+- [`DCF` (CSMA-CA), `PCF` (CSMA-CD) & `HCF` (EDCA & HCCA) - The functions used by **CSMA**](https://www.youtube.com/watch?v=rmZ-WRgrV9Y) _@ Amin Sedighfar_
 
 ### `CSMA-CD` - Collision Detection (Wired MAC)
 
@@ -1434,7 +1440,7 @@ _Modelos de referencia para los protocolos de la red y la interconexión y comun
     - [`RIFS` - **Reduced InterFrame Space** - Highest Priority & Shortest Space]()
     - [`SIFS` - **Short InterFrame Space** - 2nd Highest Priority]()    
     - [`DIFS` - **DCF InterFrame Space** - Lowest priority - Only used when using DCF]()
-    - [`AIFS` - **Arbitration InterFrame Space** - QoS Stations]()
+    - [`AIFS` - **Arbitration InterFrame Space** - QoS Stations (set a number)]()
     - [`EIFS` - **Extended InterFrame Space** - Used with retransissions]()
    
 - [`Backoff Timer` - Differences between 802.11a/g & 802.11b](https://user-images.githubusercontent.com/94720207/196507205-7ce76e0f-0514-4c93-ab78-b31feb5223d4.png)
@@ -1443,9 +1449,28 @@ _Modelos de referencia para los protocolos de la red y la interconexión y comun
 
 ### `EDCA` - Enhanced Distributed Channel Access @ `CSMA-CA`
 
-- [`EDCA` - Enhanced Distributed Channel Access | `IEEE 802.11e-2005`](https://en.wikipedia.org/wiki/IEEE_802.11e-2005) _@ Wiki_
+- [`EDCA` - Enhanced Distributed Channel Access | `IEEE 802.11e-2005` | Used by QoS](https://en.wikipedia.org/wiki/IEEE_802.11e-2005) _@ Wiki_
 - [`EDCA` - Diagram](https://user-images.githubusercontent.com/94720207/196519638-08d48b3c-f8ac-4020-96dd-d1b15110e177.png) _@ CWNP_
-- [`EDCA Components`]()  
+- [`EDCA` - Enhanced Distributed Channel Access](https://www.youtube.com/watch?v=xDDI89JOSbY) _@ Leo's Tech Talk_
+- [EDCA contention window - Table](https://user-images.githubusercontent.com/94720207/196549787-1d94c052-4cde-478d-9146-b7ca3578b67e.png)
+- [EDCA - `QoS` CW minimum values](https://user-images.githubusercontent.com/94720207/196549884-c1edc430-9dd8-4017-8041-6c9c8e2fb8aa.png)
+
+    - [EDCA Access Categories](https://user-images.githubusercontent.com/94720207/196551165-1d6518ff-7e12-4518-ab6b-7b24dcdead5e.png) _@ CWNP_
+        - [**`AC_BK`** - Background - Priority **1 & 2** queue (last / longest)]()
+        - [**`AC_BE`** - Best Effort - Priority **0 & 3** queue (3rd)]()
+        - [**`AC_VI`** - Video - Priority **4 & 5** queue (2nd)]()
+        - [**`AC_VO`** - Voice - Priority **6 & 7** queue (1st / shortest)]()
+
+    - [Transmission **Queues**](https://user-images.githubusercontent.com/94720207/196552232-4f4fe7d5-d554-4b4e-b92a-a79dbcaaaa59.png) _@ CWNA_
+
+- [`WMM` - Wireless Multimedia (AKA WME) - It provides basic QoS to 802.11 | Prioritizes traffic (4 categories)](https://en.wikipedia.org/wiki/Wireless_Multimedia_Extensions) _@ Wiki_
+- [`WMM` - Wireless Multimedia - Image](https://user-images.githubusercontent.com/94720207/196555810-dde52b7c-eabb-4a15-8346-7b58a5f12801.png) _@ CWNP_
+
+### `HT` High Throughput & `VHT` Very High Throughput - Protection Mechanisms
+
+[`HT` & `VHT` - Protection Mechanisms](https://user-images.githubusercontent.com/94720207/196557548-e6538755-0479-4adf-a14c-bdd454298b09.png) _@ CWNP_
+
+
 
 
 
