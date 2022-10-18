@@ -1468,9 +1468,14 @@ _Modelos de referencia para los protocolos de la red y la interconexión y comun
 
 ### `HT` High Throughput & `VHT` Very High Throughput - Protection Mechanisms
 
-[`HT` & `VHT` - Protection Mechanisms](https://user-images.githubusercontent.com/94720207/196557548-e6538755-0479-4adf-a14c-bdd454298b09.png) _@ CWNP_
+- [`HT` & `VHT` - Protection Mechanisms](https://user-images.githubusercontent.com/94720207/196557548-e6538755-0479-4adf-a14c-bdd454298b09.png) _@ CWNP_
 
-
+    - [`PHY` layer protection - **Legacy Preambles | Training Procedures**]()
+    - [`MAC` layer protection - **`RTS/CTS`** - Typically **best solution** to legacy compatibility]()
+    - [`Operating Modes`]()
+        - [802.11b-only - Force the 2.4 GHZ radio to acts as an 802.11b device - bad solution]() 
+        - [802.11a/n - Force the 2.4 GHZ radio to acts as an 802.11b device - bad solution]() 
+        - [802.11n-only | 802.11ac-only - Disallow ALL legacy clients - worst solution ]() 
 
 
 
