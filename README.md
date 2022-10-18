@@ -1399,6 +1399,9 @@ _Modelos de referencia para los protocolos de la red y la interconexión y comun
 
 - [**`CSMA` - Carrier Sense Multiple Access**](https://en.wikipedia.org/wiki/Carrier-sense_multiple_access) _@ Wiki_
 - [`CSMA-CD` vs `CSMA-CA`](https://user-images.githubusercontent.com/94720207/196484283-8f6decbe-3ebc-4df0-b8d4-b53496b35f1e.png) _Picture_
+- [**`Channel access method`** - Allows 2 or more terminals on same medium to transmit & share its capacity](https://en.wikipedia.org/wiki/Channel_access_method) _@ Wiki_
+- [**`Multiplexing`** - Method by which multiple signals are combined into one signal over a shared medium](https://en.wikipedia.org/wiki/Multiplexing) _@ Wiki_
+- [802.11 Channel Access Requirements](https://user-images.githubusercontent.com/94720207/196483342-ce8227af-db20-4bd1-88b1-a9aea4c0f425.png)
 - [`DCF` (CSMA-CA), `PCF` (CSMA-CD) & `HCF` (EDCA & HCCA) - The functions used by **CSMA**](https://www.youtube.com/watch?v=rmZ-WRgrV9Y) _@ Amin Sedighfar_
 
 ### `CSMA-CD` - Collision Detection (Wired MAC)
@@ -1422,7 +1425,7 @@ _Modelos de referencia para los protocolos de la red y la interconexión y comun
 - [`DCF Components`]()    
     - [`Carrier Sense` - Is anyone talking?]() _Continious while: interframe space & backoff timer_
     - [`Interframe Spaces` - If nobody is talking, then i'll wait a while... (PT1)]()
-    - [`Backoff Timer` - If nobody is talking, then i'll wait a while... (random) | then I can transmit (PT2)]()
+    - [`Pseudo-Random Backoff Timer` - If nobody is talking, then i'll wait a while... (random) | then I can transmit (PT2)]()
     - [`Frame Transmission` - The actual transmission of frames....then carrier sense again]()
     
 - [`Carrier Sense Methods` - Physical & Virtual]()
@@ -1463,6 +1466,14 @@ _Modelos de referencia para los protocolos de la red y la interconexión y comun
 
     - [Transmission **Queues**](https://user-images.githubusercontent.com/94720207/196552232-4f4fe7d5-d554-4b4e-b92a-a79dbcaaaa59.png) _@ CWNA_
 
+### Hybrid Coordination Function
+
+- [Hybrid Coordination Function]()
+    - [Enhanced Distributed Channel Access]()
+    - [HCF Controlled Channel Access]()
+
+### WMM - Wi-Fi Multimedia]
+
 - [`WMM` - Wireless Multimedia (AKA WME) - It provides basic QoS to 802.11 | Prioritizes traffic (4 categories)](https://en.wikipedia.org/wiki/Wireless_Multimedia_Extensions) _@ Wiki_
 - [`WMM` - Wireless Multimedia - Image](https://user-images.githubusercontent.com/94720207/196555810-dde52b7c-eabb-4a15-8346-7b58a5f12801.png) _@ CWNP_
 
@@ -1476,6 +1487,25 @@ _Modelos de referencia para los protocolos de la red y la interconexión y comun
         - [802.11b-only - Force the 2.4 GHZ radio to acts as an 802.11b device - bad solution]() 
         - [802.11a/n - Force the 2.4 GHZ radio to acts as an 802.11b device - bad solution]() 
         - [802.11n-only | 802.11ac-only - Disallow ALL legacy clients - worst solution ]() 
+
+### Airtime Fairness
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
 
 
 
@@ -2547,15 +2577,6 @@ _PDUs & SDUs travel the OSI layer from top to layer 1 PMD, in layer 1 is modulat
 
 
 
-## 802.11 Channel Access Methods
-
-- [**`Channel access method`** - Allows 2 or more terminals on same medium to transmit & share its capacity](https://en.wikipedia.org/wiki/Channel_access_method) _@ Wiki_
-- [**`Multiplexing`** - Method by which multiple signals are combined into one signal over a shared medium](https://en.wikipedia.org/wiki/Multiplexing) _@ Wiki_
-- [802.11 Channel Access Requirements](https://user-images.githubusercontent.com/94720207/196483342-ce8227af-db20-4bd1-88b1-a9aea4c0f425.png)
-
-### CSMA-CD & CSMA/CA
-
-- [CSMA/CD & CSMA/CA - Teleport!!!]()
 
 
 
@@ -3054,24 +3075,28 @@ _Horizon alternitatis systema sephiroticvm X divino rvm nominvm._ <br>
 
 
 
-- [EVA VIII - 802.11 Medium Access]()
 
-    - [CSMA/CA vs. CSMA/CD]()
-    - [Collision Detection]()
-    - [Distributed Coordination Function]()
 
-        - [Physical Carrier Sense]()
-        - [Virtual Carrier Sense]()
-        - [Pseudo-Random Backoff Timer]()
-        - [Interframe Space]()
 
-    - [Hybrid Coordination Function]()
 
-        - [Enhanced Distributed Channel Access]()
-        - [HCF Controlled Channel Access]()
 
-- [Wi-Fi Multimedia]()
-- [Airtime Fairness]()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 - [EVA IX - 802.11 MAC]()
 
@@ -3129,6 +3154,16 @@ _Horizon alternitatis systema sephiroticvm X divino rvm nominvm._ <br>
         - [WMM-Power Save and U-APSD]()
         - [MIMO Power Management]()
         - [802.11ax Power Management]()
+
+
+
+
+
+
+
+
+
+
 
 - [EVA X - MIMO Technology: HT and VHT]()
 
