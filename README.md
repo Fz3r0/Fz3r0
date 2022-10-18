@@ -428,6 +428,10 @@ _A nasty collection of sexy tools for Networking, Programming, Cyber-Security, S
 - [Interactive Waves!!! :D](https://emanim.szialab.org/index.html) _clickie!_
 
 
+## Packet Crafting & Traffic Generators
+
+- [`Ostinato` - Traffic Generator for Network Engineers](https://ostinato.org/)
+
 
 
 
@@ -1403,12 +1407,12 @@ _Modelos de referencia para los protocolos de la red y la interconexión y comun
 - [CSMA-CA Simulator Online!!! Very Easy!!!](https://www2.tkn.tu-berlin.de/teaching/rn/animations/csma/) _Clickie! :D_
 - [CSMA-CA - **7 easy steps**](https://user-images.githubusercontent.com/94720207/196492515-e8b690e9-0c44-46eb-9bfc-4cf542034e44.png) _Image_
 ) _@ CWNP_
-- [Deep Dive - Wireless Collision Avoidance – CSMA/CA Though DCF/EDCF](https://howiwifi.com/2020/06/30/wireless-contention-mechanisms/)
+- [Deep Dive - Wireless Collision Avoidance – **CSMA/CA Though `DCF/EDCF`**](https://howiwifi.com/2020/06/30/wireless-contention-mechanisms/)
 
 ### `DCF` - Distributed Coordination Function @ `CSMA-CA`
 
 - [DCF - Employs CSMA/CA with the binary exponential backoff algorithm.](https://en.wikipedia.org/wiki/Distributed_coordination_function#:~:text=Distributed%20coordination%20function%20(DCF)%20is,the%20binary%20exponential%20backoff%20algorithm.) _@ Wiki_
-
+- [DCF Overview - The cycle of DCF simplified](https://user-images.githubusercontent.com/94720207/196518678-dd055a0c-8b06-483c-802b-450d4b66c332.png) _@ CWNP_
 - [`DCF Components`]()    
     - [`Carrier Sense` - Is anyone talking?]() _Continious while: interframe space & backoff timer_
     - [`Interframe Spaces` - If nobody is talking, then i'll wait a while... (PT1)]()
@@ -1437,7 +1441,11 @@ _Modelos de referencia para los protocolos de la red y la interconexión y comun
     - [`CW` - **Contention Window** - A range of numbers from which STAs **randomly select a back off value**]()
     - [`Random Backoff` - Determines how long (in slots) the Wireless Medium (WM) must be idle before STA can transmit]()
 
+### `EDCA` - Enhanced Distributed Channel Access @ `CSMA-CA`
 
+- [`EDCA` - Enhanced Distributed Channel Access | `IEEE 802.11e-2005`](https://en.wikipedia.org/wiki/IEEE_802.11e-2005) _@ Wiki_
+- [`EDCA` - Diagram](https://user-images.githubusercontent.com/94720207/196519638-08d48b3c-f8ac-4020-96dd-d1b15110e177.png) _@ CWNP_
+- [`EDCA Components`]()  
 
 
 
@@ -1597,6 +1605,7 @@ _Deep dive into the Packet / PCAP Analysis... & Sharks a lot of sharks!_
             - [IGMP - Layer 2]()
      
                 - [Procedimientos IGMP | Universitat Politècnica de València UPV](https://www.youtube.com/watch?v=3mMetPjAx_Y)
+                - [Send IGMP Tool](https://sendigmp.com/#examples) _Clickie Clickie!!!_
                  
             - [PIM]()
             - [mDNS (Multicast Domain Name System)]()
