@@ -1385,28 +1385,61 @@ _Modelos de referencia para los protocolos de la red y la interconexión y comun
 
 ## ➡️ 💥 ⬅️ Carrier Sense Multiple Access (CSMA) ➡️ 💥 ⬅️
 
-### CSMA
+### `CSMA`
 
 - [**Carrier Sense Multiple Access - CSMA**](https://en.wikipedia.org/wiki/Carrier-sense_multiple_access)
 - [CSMA-CD vs CSMA-CA](https://user-images.githubusercontent.com/94720207/196484283-8f6decbe-3ebc-4df0-b8d4-b53496b35f1e.png)
 ) _Picture_
 
-### CSMA-CD (Collision Detection for Wired MAC)
+### `CSMA-CD` - Collision Detection (Wired MAC)
 
 - [**Carrier-sense multiple access with collision detection (CSMA/CD)** - Wired (MAC)](https://en.wikipedia.org/wiki/Carrier-sense_multiple_access_with_collision_detection)
 - [CSMA-CD Protocol Simulator on Python!](https://github.com/thanujann/CSMA-CD-Protocol-Simulator) _Simulating the CSMA-CD Algorythm_
 - [Construct & Design Aloha model and CSMA model](https://www.tlm.unavarra.es/~daniel/docencia/arss/arss10_11/practicas/Tutorial_CSMA-CD.pdf) _Only for Pros!_
 
-### CSMA-CA (Collision Avoidance for Wireless)
+### `CSMA-CA` - Collision Avoidance (Wireless MAC)
 
 - [**Carrier-sense multiple access with collision avoidance (CSMA/CA)** - Wireless/WiFi](https://www.youtube.com/watch?v=PcbTMSf0D2M&list=PLSNNzog5eydvJG48PYnWnNY7-tQIfxTRb&index=9)
 - [CSMA-CA Simulator Online!!! Very Easy!!!](https://www2.tkn.tu-berlin.de/teaching/rn/animations/csma/) _Clickie! :D_
-- [CSMA-CA - **7 easy steps**]() _@ CWNP_
+- [CSMA-CA - **7 easy steps**](https://user-images.githubusercontent.com/94720207/196492515-e8b690e9-0c44-46eb-9bfc-4cf542034e44.png) _Image_
+) _@ CWNP_
 - [Deep Dive - Wireless Collision Avoidance – CSMA/CA Though DCF/EDCF](https://howiwifi.com/2020/06/30/wireless-contention-mechanisms/)
 
-### DCF - Distributed Coordination Function @ CSMA-CA
+### `DCF` - Distributed Coordination Function @ `CSMA-CA`
 
 - [DCF - Employs CSMA/CA with the binary exponential backoff algorithm.](https://en.wikipedia.org/wiki/Distributed_coordination_function#:~:text=Distributed%20coordination%20function%20(DCF)%20is,the%20binary%20exponential%20backoff%20algorithm.) _@ Wiki_
+
+- [`DCF Components`]()    
+    - [`Carrier Sense` - Is anyone talking?]() _Continious while: interframe space & backoff timer_
+    - [`Interframe Spaces` - If nobody is talking, then i'll wait a while... (PT1)]()
+    - [`Backoff Timer` - If nobody is talking, then i'll wait a while... (random) | then I can transmit (PT2)]()
+    - [`Frame Transmission` - The actual transmission of frames....then carrier sense again]()
+    
+- [`Carrier Sense Methods` - Physical & Virtual]()
+
+    - [`Physical Carrier Sense` - ](https://user-images.githubusercontent.com/94720207/196495867-47be70ea-1bb2-4322-91f5-513fefbc5e23.png) _Image_
+        - [`CCA` - Clear Channel Assessment - STAs check wireless medium for use (like old phone) using:]()
+            - [`CS` - Carrier Sense - Detects & Measures the signal str of 802.11 frames]()
+            - [`ED` - Energy Detect - Measures the power of all RF energy in the channel]()
+    
+    - [`Virtual Carrier Sense` NAV](https://user-images.githubusercontent.com/94720207/196497946-9a439cac-9494-4f99-a8be-f2b4f4ebd819.png) _Image_
+        - [`NAV` - Network Allocation Vector - STas on the wireless medium use Duration field & set their NAV](https://en.wikipedia.org/wiki/Network_allocation_vector) _@ Wiki_
+        - [`Duration Value` - Virtual Carrier uses it to choose to send or not]()
+
+- [`Interframe Space Delay` - Wait before sending](https://user-images.githubusercontent.com/94720207/196499948-fe8e923e-99f7-4754-b9d9-e936290f5a98.png)
+    - [`RIFS` - **Reduced InterFrame Space** - Highest Priority & Shortest Space]()
+    - [`SIFS` - **Short InterFrame Space** - 2nd Highest Priority]()    
+    - [`DIFS` - **DCF InterFrame Space** - Lowest priority - Only used when using DCF]()
+    - [`AIFS` - **Arbitration InterFrame Space** - QoS Stations]()
+    - [`EIFS` - **Extended InterFrame Space** - Used with retransissions]()
+   
+- [`Backoff Timer` - Differences between 802.11a/g & 802.11b](https://user-images.githubusercontent.com/94720207/196507205-7ce76e0f-0514-4c93-ab78-b31feb5223d4.png)
+    - [`CW` - **Contention Window** - A range of numbers from which STAs **randomly select a back off value**]()
+    - [`Random Backoff` - Determines how long (in slots) the Wireless Medium (WM) must be idle before STA can transmit]()
+
+
+
+
 
 
 ### Other CSMA (CSMA/CR & VTCSMA)
