@@ -2526,8 +2526,9 @@ _PDUs & SDUs travel the OSI layer from top to layer 1 PMD, in layer 1 is modulat
 ## 
 
 
+### WLAN `Capacity`
 
-
+- [**`Capacity`** - Understanding WLAN Capacity](https://www.youtube.com/watch?v=otV3iao8rWA) _@ CWNP_
 
 
 
