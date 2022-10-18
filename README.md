@@ -1388,6 +1388,8 @@ _Modelos de referencia para los protocolos de la red y la interconexión y comun
 ### CSMA
 
 - [**Carrier Sense Multiple Access - CSMA**](https://en.wikipedia.org/wiki/Carrier-sense_multiple_access)
+- [CSMA-CD vs CSMA-CA](https://user-images.githubusercontent.com/94720207/196484283-8f6decbe-3ebc-4df0-b8d4-b53496b35f1e.png)
+) _Picture_
 
 ### CSMA-CD (Collision Detection for Wired MAC)
 
@@ -1399,7 +1401,13 @@ _Modelos de referencia para los protocolos de la red y la interconexión y comun
 
 - [**Carrier-sense multiple access with collision avoidance (CSMA/CA)** - Wireless/WiFi](https://www.youtube.com/watch?v=PcbTMSf0D2M&list=PLSNNzog5eydvJG48PYnWnNY7-tQIfxTRb&index=9)
 - [CSMA-CA Simulator Online!!! Very Easy!!!](https://www2.tkn.tu-berlin.de/teaching/rn/animations/csma/) _Clickie! :D_
+- [CSMA-CA - **7 easy steps**]() _@ CWNP_
 - [Deep Dive - Wireless Collision Avoidance – CSMA/CA Though DCF/EDCF](https://howiwifi.com/2020/06/30/wireless-contention-mechanisms/)
+
+### DCF - Distributed Coordination Function @ CSMA-CA
+
+- [DCF - Employs CSMA/CA with the binary exponential backoff algorithm.](https://en.wikipedia.org/wiki/Distributed_coordination_function#:~:text=Distributed%20coordination%20function%20(DCF)%20is,the%20binary%20exponential%20backoff%20algorithm.) _@ Wiki_
+
 
 ### Other CSMA (CSMA/CR & VTCSMA)
 
@@ -2471,7 +2479,11 @@ _PDUs & SDUs travel the OSI layer from top to layer 1 PMD, in layer 1 is modulat
 
 - [**`Channel access method`** - Allows 2 or more terminals on same medium to transmit & share its capacity](https://en.wikipedia.org/wiki/Channel_access_method) _@ Wiki_
 - [**`Multiplexing`** - Method by which multiple signals are combined into one signal over a shared medium](https://en.wikipedia.org/wiki/Multiplexing) _@ Wiki_
-- [802.11 Channel Access Requirements]()
+- [802.11 Channel Access Requirements](https://user-images.githubusercontent.com/94720207/196483342-ce8227af-db20-4bd1-88b1-a9aea4c0f425.png)
+
+### CSMA-CD & CSMA/CA
+
+- [CSMA/CD & CSMA/CA - Teleport!!!]()
 
 
 
