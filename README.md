@@ -2364,7 +2364,7 @@ _If you hear the voice of an alien in your psychedelic experience... is the synt
 
 
 
-
+<!-- MAC Operations on WiFi & RF: Incompleto!!!-->
 
 ## 📶 📦 🦈 MAC Operations on WiFi & RF 🦈 📦 📶
 
@@ -2452,7 +2452,7 @@ _PDUs & SDUs travel the OSI layer from top to layer 1 PMD, in layer 1 is modulat
 
 ### `Interframe` spaces
 
-- [Interframe Spaces]((https://user-images.githubusercontent.com/94720207/196088802-660631bb-b000-444c-b70f-5d84aca23d92.png)
+- [Interframe Spaces](https://user-images.githubusercontent.com/94720207/196088802-660631bb-b000-444c-b70f-5d84aca23d92.png)
 
 
 
@@ -2461,15 +2461,17 @@ _PDUs & SDUs travel the OSI layer from top to layer 1 PMD, in layer 1 is modulat
 
 
 
+<!-- Me quedo aqui, me brinco a channel access methods!-->
 
 
 
 
 
+## 802.11 Channel Access Methods
 
-
-
-
+- [**`Channel access method`** - Allows 2 or more terminals on same medium to transmit & share its capacity](https://en.wikipedia.org/wiki/Channel_access_method) _@ Wiki_
+- [**`Multiplexing`** - Method by which multiple signals are combined into one signal over a shared medium](https://en.wikipedia.org/wiki/Multiplexing) _@ Wiki_
+- [802.11 Channel Access Requirements]()
 
 
 
@@ -2960,6 +2962,13 @@ _Horizon alternitatis systema sephiroticvm X divino rvm nominvm._ <br>
 
         - [Access Point Modes]()
         - [Client Station Modes]()
+
+
+
+
+
+
+
 
 - [EVA VIII - 802.11 Medium Access]()
 
@@ -5066,13 +5075,20 @@ https://developer.cisco.com/docs/ APIs y demas sdwaun dna center
 
 https://developer.cisco.com/docs/dna-center/#!cisco-dna-center-platform-overview dna overview
 
-## Motivation
+## 💪 🧠 🤯 Motivation 🤯 🧠 💪
 
 - [I'VE COME TOO FAR TO QUIT](https://www.youtube.com/watch?v=5aPntFAyRts)
 
-## 🏴‍☠️ Directory Traversal ../../ 🏴‍☠️ 
+## 🏴‍☠️ 📂 🦘 Directory Traversal ../../ 🦘 📂 🏴‍☠️ 
 
 - [Directory Traversal - Explicado desde Cero @ PortSwigger](https://www.youtube.com/watch?v=64XIkIyCIRo) _@ S4vitar_
+
+
+## 😈 🦆 🔑 Rubber Ducky 🔑 🦆 😈 
+
+- [Automate Wi-Fi Hacking on a Raspberry Pi with a USB Rubber Ducky](https://www.youtube.com/watch?v=_L9UYbxj3lk) _@ Null Byte_
+
+
 
 ## 📡 🏴‍☠️ 📶 Antennas & Adapters for Hacking WiFi 📶 🏴‍☠️ 📡
 
