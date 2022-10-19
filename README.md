@@ -1158,9 +1158,9 @@ _Modelos de referencia para los protocolos de la red y la interconexión y comun
     - [`DTIM period` Delivery traffic indication map - Period of time between each beacon frame will contain the TIM](https://routerguide.net/dtim-interval-period-best-setting/) _@ Routerguide_
     - [¿Qué es el intervalo DTIM en un router inalámbrico?](https://techlandia.com/proteccion-cts-hechos_446470/) _@ Techlandia_
 
-- [`APSD` - Automatic Power Save delivery - ]() 
-
-
+- [`APSD` - Automatic Power Save delivery](https://user-images.githubusercontent.com/94720207/196585100-04a0b662-9864-4eae-92de-4fb7f65be510.png) _@ CWNP_
+- [`APSD` - Automatic Power Save delivery](https://www.tutorialspoint.com/automatic-power-save-delivery-apsd) _@ Tutorialspoint_
+ 
 
 ### Airtime Fairness
 
