@@ -2282,19 +2282,36 @@ _PDUs & SDUs travel the OSI layer from top to layer 1 PMD, in layer 1 is modulat
     - [`Data Frames` - Data | QoS | Null Data - User Data (etc)](https://user-images.githubusercontent.com/94720207/196798368-0f3240f1-7075-400f-b4b7-64f5a63ebc19.png)
  _@ Metageek_
 
-### Centralized Dara Forwarding
+### `Centralized` & `Distributed` Data Forwarding
 
 - [`Centralized Data Forwarding` - All data goes back to the WLC, then is fwd to final destination](https://user-images.githubusercontent.com/94720207/196801829-c5f26936-7c8a-4fba-93e1-f62c164af296.png)
     - [`Core` Layer Forwarding](https://user-images.githubusercontent.com/94720207/196802657-cc84afb6-a517-4377-9638-adf5bfb309ab.png) 
-    - [`Distribution` Layer Forwarding - ](https://user-images.githubusercontent.com/94720207/196802906-1a56ac96-1e7e-4217-9183-45851233a65d.png) _Image_
+    - [`Distribution` Layer Forwarding - ](https://user-images.githubusercontent.com/94720207/196802657-cc84afb6-a517-4377-9638-adf5bfb309ab.png) 
     - [`Access` Layer Forwarding or `Edge` Forwarding](https://user-images.githubusercontent.com/94720207/196802657-cc84afb6-a517-4377-9638-adf5bfb309ab.png)
+
+- [`Distributed the Data Forwarding` - For Data Plane, AP fwd the data directly to the final destination](https://user-images.githubusercontent.com/94720207/196816883-60371eaa-aa6f-4b3a-90d9-bf0c6b49dea1.png)
 
 ### WLAN Controller Solutions
 
-- [WLAN Controller Solutions](https://user-images.githubusercontent.com/94720207/196804341-b6ecf467-e1b2-4be4-a182-2a36d03f969e.png)
+- [`Split MAC Architecture` - **Typical WLC uses** | Part of the MAC Ops are in the AP, other part in the WLC](https://user-images.githubusercontent.com/94720207/196804341-b6ecf467-e1b2-4be4-a182-2a36d03f969e.png)
+- [`Scalability & Availability` AKA `N +1` Solutions | HA & Clusters)](https://user-images.githubusercontent.com/94720207/196817509-b57e4011-d9d6-4be0-89fb-bdc37943e4c4.png)
+- [`End-to-End QoS` - Uses `DSCP` | 802.11e `WMM` | others](https://user-images.githubusercontent.com/94720207/196820517-91483331-d840-49da-a450-013560d75ecf.png)
+- [`VLANs` - Virtual Local Area Networks - For SSIDs](https://user-images.githubusercontent.com/94720207/196821098-79c1b478-d40e-468a-95b2-4630939019fe.png)
+- [`Tunneling` - | method depends on each vendor](https://user-images.githubusercontent.com/94720207/196820359-5b5c746f-8978-445d-9a1c-fc1263ed50ed.png)
 
+    - [`CAPWAP Tunnel` - **Most used**]() 
+    - [`LWAPP Tunnel`]() 
+    - [`GRE Tunnel`]() 
 
+- [`Intra- and Inter-Controller STA Roaming` - Same WLC for both APs = **Intra** | Different WLC = **Inter**]()
+    
+    - [Intra Controller and Inter Controller Roaming](https://www.youtube.com/watch?v=BWApKozo0Nk) _@ Rusell Raham_
+    - [`Inter Controller Roaming`](https://www.ccexpert.us/root-bridge/intercontroller-roaming.html) _@ Cisco Expert_
+    - [How vendors deal with `Inter-Controller` Roaming with efficiency?]() 
 
+- [`Cloud Based Model` - AP management & control from Cloud | Local GRE (server) available](https://user-images.githubusercontent.com/94720207/196822245-85b3f10e-df08-494c-82bb-0c7e25c3e72b.png)
+- [`Distributed Model` - Cooperative Control | APs cooperate with each other | AeroHive vendor](https://user-images.githubusercontent.com/94720207/196822881-1693c6a1-5062-4222-ba2e-ebd3b840fbff.png)
+- [`Controller-Less Model` **(Autonomus)** | EnGenius or Unleashed Ruckus](https://user-images.githubusercontent.com/94720207/196822695-f2b7fd62-5a8e-4196-846f-3f0b453b1b06.png)
 
 
 
