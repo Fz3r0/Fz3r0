@@ -1452,6 +1452,16 @@ _Deep dive into the Packet / PCAP Analysis... & Sharks a lot of sharks!_
 - [**BadFi** Trash, shitty, crap & full of WiFi Bad practices, DON'T DO THIS!!!](https://badfi.com/bad-fi) _Lo pongo hasta arriba porque es más utilizado de lo que parece jaja!_
 - [**BadFi**  Direct Twitter](https://twitter.com/search?q=%23badfi&src=typed_query&f=live)
 - [Dot 11 AP](https://dot11ap.wordpress.com/) __
+- [WiFi inigel](http://wifinigel.blogspot.com/)
+
+### 802.11 Wireless Cheatsheets
+
+- [IEEE 802.11 Full Cheatsheet](https://packetlife.net/media/library/4/IEEE_802.11_WLAN.pdf)
+- [IEEE 802.11 PHY Standards Cheat Sheet](https://hrwifi.wordpress.com/2018/04/16/ieee-802-11-phy-standards-cheat-sheet/)
+- [Scapy Packets for 802.11 Cheatsheet](https://2.bp.blogspot.com/-R6yd_OLf5_8/Wtu-R4dUoPI/AAAAAAAAHxo/Po6e1OOdSBEqf2_4UEK1mXTwFDguE8OvwCPcBGAYYCw/s1600/Scapy_Cheat_Sheet_Graphic.png)
+- [WiFi versions Cheatsheet](https://pbs.twimg.com/media/EYdqyjxWsAE8wIt.png)
+- [RF fundamentals cheatsheet](https://i2.wp.com/keepcalmandping.online/wp-content/uploads/2020/02/RF.png?fit=882%2C1024&ssl=1)
+
 
 ### WiFi & Wireless Courses
 
