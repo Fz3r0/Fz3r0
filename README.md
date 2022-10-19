@@ -1945,8 +1945,6 @@ _If you hear the voice of an alien in your psychedelic experience... is the synt
 
 - [Smart Antenna (like Ruckus)]()
 
-
-
 <!--Antennas & Hardware lo dejé pendiente -->
 
 
@@ -2279,10 +2277,30 @@ _PDUs & SDUs travel the OSI layer from top to layer 1 PMD, in layer 1 is modulat
 - [Wireless Frame Types: Control, Management & Data](https://user-images.githubusercontent.com/94720207/196796080-acdc7224-7c12-47b2-83d6-a54a0e444dcf.png)
 - [Wireless (WiFi) Frames - Three Types to Understand](https://www.youtube.com/watch?v=PCpnRqKCWCQ)
 
-    - [`Management Frames` - Table](https://user-images.githubusercontent.com/94720207/196796275-627fcdd4-6577-4ee9-a6a5-ebc1ea2de4ab.png) _Picture_
-    - [`Control Frames` - RTS/CTS | ACK | Block-ACK | ](https://user-images.githubusercontent.com/94720207/196797041-5900b677-e578-437a-a424-6edb22fa22c2.png) _@ Metageek_
-    - [`Data Frames` - Data | QoS | Null Data(https://user-images.githubusercontent.com/94720207/196798368-0f3240f1-7075-400f-b4b7-64f5a63ebc19.png)
+    - [`Management Frames` - Operations & Infraestructure](https://user-images.githubusercontent.com/94720207/196796275-627fcdd4-6577-4ee9-a6a5-ebc1ea2de4ab.png) _Picture_
+    - [`Control Frames` - RTS/CTS | ACK | Block-ACK - Configuration & Monitoring](https://user-images.githubusercontent.com/94720207/196797041-5900b677-e578-437a-a424-6edb22fa22c2.png) _@ Metageek_
+    - [`Data Frames` - Data | QoS | Null Data - User Data (etc)](https://user-images.githubusercontent.com/94720207/196798368-0f3240f1-7075-400f-b4b7-64f5a63ebc19.png)
  _@ Metageek_
+
+### Centralized Dara Forwarding
+
+- [`Centralized Data Forwarding` - All data goes back to the WLC, then is fwd to final destination](https://user-images.githubusercontent.com/94720207/196801829-c5f26936-7c8a-4fba-93e1-f62c164af296.png)
+    - [`Core` Layer Forwarding](https://user-images.githubusercontent.com/94720207/196802657-cc84afb6-a517-4377-9638-adf5bfb309ab.png) 
+    - [`Distribution` Layer Forwarding - ](https://user-images.githubusercontent.com/94720207/196802906-1a56ac96-1e7e-4217-9183-45851233a65d.png) _Image_
+    - [`Access` Layer Forwarding or `Edge` Forwarding](https://user-images.githubusercontent.com/94720207/196802657-cc84afb6-a517-4377-9638-adf5bfb309ab.png)
+
+### WLAN Controller Solutions
+
+- [WLAN Controller Solutions](https://user-images.githubusercontent.com/94720207/196804341-b6ecf467-e1b2-4be4-a182-2a36d03f969e.png)
+
+
+
+
+
+
+
+ 
+ 
 
 
 
