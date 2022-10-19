@@ -1146,9 +1146,18 @@ _Modelos de referencia para los protocolos de la red y la interconexión y comun
     - [RTS/CTS - `MAC Headers` | Traffic: `RTS` > `CTS` > `Data` > `ACK`(CTS seen from all STAs)](https://user-images.githubusercontent.com/94720207/196576173-b66dacd7-3890-4186-95c5-fa27d8e47efd.png) _@ CWNP_
     - [RTS/CTS - `Exchange` - With & Without RTS/CTS](https://user-images.githubusercontent.com/94720207/196576757-16b1e8af-d10e-4803-b5a3-a265b368c501.png) _@ CWNP_
 
-### Channel Width Operations
+- [`Channel Width Operations` - `802.11n` = 20Mhz & Bonded | `802.11ac` = 20Mhz, 40 Mhz & 80 MHz (20+20+40)](https://user-images.githubusercontent.com/94720207/196578365-6f1d0ff6-5e76-4c1d-a300-c22322c62986.png) _@ CWNP_
+- [HT Operation Modes](https://user-images.githubusercontent.com/94720207/196579726-3b2e9d4f-f293-46b6-a6b3-ca42cdcb17b5.png) _@ CWNP_
+- [VHT Operation Mode Field - TXVECTOR format - supports the 3 HT modes! (for legacy)](https://user-images.githubusercontent.com/94720207/196579914-9b59eafa-9e70-4db7-97d9-53ac61c13e7a.png) _@ CWNP_
 
-- [Channel Width Operations]()
+### Power Management
+
+- [`Legacy Power Management` - Allways On | Client notifies AP of sleep state](https://user-images.githubusercontent.com/94720207/196580121-428652ce-d673-40ef-aded-4c3773b55007.png) _@ CWNP_
+    - [`TIM` - Traffic indication map - Bitmap to indicate to sleeping STAs that AP has buffered data waiting for it](https://en.wikipedia.org/wiki/Traffic_indication_map#:~:text=According%20to%20the%20802.11%20standards,included%20in%20each%20beacon%20frame.)
+    - [`DTIM period` Delivery traffic indication map - Period of time between each beacon frame will contain the TIM](https://routerguide.net/dtim-interval-period-best-setting/) _@ Routerguide_
+    - [¿Qué es el intervalo DTIM en un router inalámbrico?](https://techlandia.com/proteccion-cts-hechos_446470/) _@ Techlandia_
+
+- [`Automatic Power Save delivery` - ]() 
 
 
 
