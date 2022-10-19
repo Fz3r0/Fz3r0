@@ -339,6 +339,7 @@ _Networking Lists, concepts, Tables, Models, Cheat-Sheets, Mind-Maps & Cool Reso
 - [Awesome **Mesh Networking**](https://github.com/moarpepes/awesome-mesh) _Documentation, Free Software mesh protocols, and applications._
 - [How To WiFi](https://howiwifi.com/) _A blog about Wi-Fi!_
 - [802.11 Frame Exchange - All combinations!](https://howiwifi.com/2020/07/16/802-11-frame-exchanges/)
+- [Metageek](https://www.youtube.com/user/metageeky)
 
 ### Wireless Bibles, Resources & Blogs
 
@@ -1461,7 +1462,9 @@ _Deep dive into the Packet / PCAP Analysis... & Sharks a lot of sharks!_
 - [Scapy Packets for 802.11 Cheatsheet](https://2.bp.blogspot.com/-R6yd_OLf5_8/Wtu-R4dUoPI/AAAAAAAAHxo/Po6e1OOdSBEqf2_4UEK1mXTwFDguE8OvwCPcBGAYYCw/s1600/Scapy_Cheat_Sheet_Graphic.png)
 - [WiFi versions Cheatsheet](https://pbs.twimg.com/media/EYdqyjxWsAE8wIt.png)
 - [RF fundamentals cheatsheet](https://i2.wp.com/keepcalmandping.online/wp-content/uploads/2020/02/RF.png?fit=882%2C1024&ssl=1)
-
+- [PoE parameters Comparation: Modes, Power, Cabling & more!](https://user-images.githubusercontent.com/94720207/196784101-a08cebcd-217a-4bba-be1f-b5b494a2a568.png)
+- [PoE classes table](https://user-images.githubusercontent.com/94720207/196784320-4ec4613c-b1b1-49ab-9e21-a3b0f49d8634.png)
+- [Wiresharl WLAN cheatsheet](https://semfionetworks.com/wp-content/uploads/2021/04/wireshark_802.11_filters_-_reference_sheet.pdf) _lo vuelvo a poner...again!_
 
 ### WiFi & Wireless Courses
 
@@ -2263,7 +2266,43 @@ _PDUs & SDUs travel the OSI layer from top to layer 1 PMD, in layer 1 is modulat
 
 
 
-<!-- Me quedo aqui, me brinco a channel access methods!-->
+<!-- Me quedo aqui, me brinco a channel access methods! (los cuales temrinaron en csma :P ahora estoy en
+
+       chpter 9 WLAN network architectures
+
+)-->
+
+## WLAN Network Architectures
+
+### `Control Plane`, `Management Plane` & `Data Plane`
+
+- [Wireless Frame Types: Control, Management & Data](https://user-images.githubusercontent.com/94720207/196796080-acdc7224-7c12-47b2-83d6-a54a0e444dcf.png)
+- [Wireless (WiFi) Frames - Three Types to Understand](https://www.youtube.com/watch?v=PCpnRqKCWCQ)
+
+    - [`Management Frames` - Table](https://user-images.githubusercontent.com/94720207/196796275-627fcdd4-6577-4ee9-a6a5-ebc1ea2de4ab.png) _Picture_
+    - [`Control Frames` - RTS/CTS | ACK | Block-ACK | ](https://user-images.githubusercontent.com/94720207/196797041-5900b677-e578-437a-a424-6edb22fa22c2.png) _@ Metageek_
+    - [`Data Frames` - Data | QoS | Null Data(https://user-images.githubusercontent.com/94720207/196798368-0f3240f1-7075-400f-b4b7-64f5a63ebc19.png)
+ _@ Metageek_
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2318,12 +2357,26 @@ _PDUs & SDUs travel the OSI layer from top to layer 1 PMD, in layer 1 is modulat
 
 
 
+---
+
+- [Different Wi-Fi Protocols and Data Rates - a = 3x3](https://www.intel.com/content/www/us/en/support/articles/000005725/wireless/legacy-intel-wireless-products.html)
+
+
+---
+
+### `Block-ACK` Frame
+
+- [`Block-ACK` Frame on WiFi - 802.11n / HT - Designed to improve MAC efficiency](https://www.youtube.com/watch?v=6Hg8qvj0BMs) _@ Leo's Tech Talk_
+    - [`Block-ACK Mechanisms` - 1. Immediate BA | 2. Delayed BA](https://user-images.githubusercontent.com/94720207/196799340-ccacbeeb-04df-4e2e-9cc7-84e7ac66c957.png)
+    - [`Block-ACK` process - PT. 1 - **Setup Phase**](https://user-images.githubusercontent.com/94720207/196799584-2a0e6ad1-e182-4fd6-b854-9355cd43cd7b.png)
+    - [`Block-ACK` process - PT. 2 - **Data & Block-ACK**](https://user-images.githubusercontent.com/94720207/196799896-fa23435a-60eb-4295-83d3-0fc414370156.png)
+    - [`Block-ACK` process - PT. 3 - **Tear Down phase**](https://user-images.githubusercontent.com/94720207/196800222-fd86c763-062c-4630-9a91-b263f6ac511b.png)
+    - [FULL `Block-ACK` process](https://user-images.githubusercontent.com/94720207/196800404-70a40a96-4b68-4c66-83de-5b8372cffb78.png)
 
 
 
 
-
-
+--- 
 
 
 
