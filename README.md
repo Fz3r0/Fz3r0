@@ -575,6 +575,7 @@ _LAN & MAN - Specific Requirements - P.3 AKA **`IEEE 802.11`**_ <br>
 _**WLAN** Medium Access Control (MAC) and Physical Layer (PHY) Specifications_
 
 - [**IEEE 802.11 Wireless** Standards @ Wikipedia](https://en.wikipedia.org/wiki/IEEE_802.11) _MAC and PHY protocols for implementing **WLAN** communication_
+- [WiFi Standards (and how they work)](https://youtu.be/q64AZjPfa0Y) _@ Kevin Wallace Training, LLC_
 - [Quick Guide to IEEE 802.11 Activities](https://www.ieee802.org/11/QuickGuide_IEEE_802_WG_and_Activities.htm)
 - [IEEE Get PRogram](https://standards.ieee.org/products-programs/ieee-get-program/) _IEEE Membershio $$$_
 - [802.11 Standards: **Timeline from 1997 to now!**](https://wifivitae.com/wp-content/uploads/2021/11/802.11-timeline.png) _Updated 2022_
@@ -1157,7 +1158,7 @@ _Modelos de referencia para los protocolos de la red y la interconexión y comun
     - [`DTIM period` Delivery traffic indication map - Period of time between each beacon frame will contain the TIM](https://routerguide.net/dtim-interval-period-best-setting/) _@ Routerguide_
     - [¿Qué es el intervalo DTIM en un router inalámbrico?](https://techlandia.com/proteccion-cts-hechos_446470/) _@ Techlandia_
 
-- [`Automatic Power Save delivery` - ]() 
+- [`APSD` - Automatic Power Save delivery - ]() 
 
 
 
@@ -1459,6 +1460,7 @@ _Deep dive into the Packet / PCAP Analysis... & Sharks a lot of sharks!_
     - [CWNA - Exam Objectives](https://www.cwnp.com/uploads/cwna-108-2020-objectives.pdf) _CWNP_
     - [CWNA in 1 year](https://dot11ap.wordpress.com/2018/04/02/passed-cwna-107/)
 
+- [CWNA full course](https://www.youtube.com/watch?v=q64AZjPfa0Y&list=PL1fPDpvccFFFJmtgqkaVq1EhvoYLry8Ca) _@ Kevin Wallace Training, LLC_
 - [Ruckus Wireless: RF Basics - Complete Course](https://www.youtube.com/watch?v=wxa2ZX5ofRo&list=PLySwoo7u9-KL4RMboSyITYGRYqWCikc1Q) _@ Ruckus_
 - [CWNP - Free CWNP Youtube Library](https://www.youtube.com/watch?v=pPfwemHBblk&list=PLBF04368800C3005E) _@ CWNP TV_
 - [Wireless/WiFi Network: GET GUD in less than 1 hour @ Sunny](https://www.youtube.com/watch?v=WOTeFceIeM8&list=PLSNNzog5eydvJG48PYnWnNY7-tQIfxTRb)
@@ -1943,7 +1945,9 @@ _If you hear the voice of an alien in your psychedelic experience... is the synt
 
 
 
+### OFDM 
 
+- [OFDM](https://user-images.githubusercontent.com/94720207/196584678-4e1b7369-3be5-4fec-a732-43b2701a6f42.png)
 
 
 
