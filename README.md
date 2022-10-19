@@ -2301,7 +2301,9 @@ _PDUs & SDUs travel the OSI layer from top to layer 1 PMD, in layer 1 is modulat
 
 
 
+---
 
+- [`VHT channel width` operation](https://dot11ap.wordpress.com/vht-channel-width-operation/)
 
 
 
