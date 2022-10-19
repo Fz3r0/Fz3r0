@@ -562,6 +562,7 @@ _LAN & MAN - Specific Requirements - P.3 AKA **`IEEE 802.3`**_ <br>
 _**LAN** Medium Access Control (MAC) and Physical Layer (PHY) Specifications_
  
 - [**IEEE 802.3 Ethernet Management** Standards](https://en.wikipedia.org/wiki/IEEE_802.3) _Specifies the set of MAC and PHY protocols for implementing **LAN** communication_
+- [IEEE 802.3 **Ethernet Frame**](https://wifiwizardofoz.com/wp-content/uploads/ieee_802.3_ethernet_frame_v1.0.pdf) _@ wifiwizardofoz_
     
     - [802.3ab - 1000BASE-T Gbit/s Ethernet over twisted pair at 1 Gbit/s (125 MB/s)](https://en.wikipedia.org/wiki/Gigabit_Ethernet)
     - [802.3ad - Link aggregation for parallel links, since moved to IEEE 802.1AX]() _Open standard (Etherchannel is from Cisco)_
@@ -575,6 +576,7 @@ _LAN & MAN - Specific Requirements - P.3 AKA **`IEEE 802.11`**_ <br>
 _**WLAN** Medium Access Control (MAC) and Physical Layer (PHY) Specifications_
 
 - [**IEEE 802.11 Wireless** Standards @ Wikipedia](https://en.wikipedia.org/wiki/IEEE_802.11) _MAC and PHY protocols for implementing **WLAN** communication_
+- [**IEEE 802.11_PHY_standards** | Table | Clickie!!!](https://wifiwizardofoz.com/wp-content/uploads/ieee_802.11_PHY_standards_v1.1.pdf) _@ wifi Wizard of Oz_
 - [WiFi Standards (and how they work)](https://youtu.be/q64AZjPfa0Y) _@ Kevin Wallace Training, LLC_
 - [Quick Guide to IEEE 802.11 Activities](https://www.ieee802.org/11/QuickGuide_IEEE_802_WG_and_Activities.htm)
 - [IEEE Get PRogram](https://standards.ieee.org/products-programs/ieee-get-program/) _IEEE Membershio $$$_
