@@ -1029,7 +1029,7 @@ _Modelos de referencia para los protocolos de la red y la interconexión y comun
 
 
 
-## ➡️ 💥 ⬅️ Carrier Sense Multiple Access (CSMA) ➡️ 💥 ⬅️
+## ➡️ 💥 ⬅️ Channel Access Methods & `CSMA` ➡️ 💥 ⬅️
 
 ### `CAM` - Channel Access Methods
 
@@ -1038,7 +1038,7 @@ _Modelos de referencia para los protocolos de la red y la interconexión y comun
 - [802.11 Channel Access **Requirements**](https://user-images.githubusercontent.com/94720207/196549280-04e1b3ea-6312-485c-bf72-1180e7c2d34c.png)
 - [Deep Dive - **Accessing the Network** - How Wireless LANs Work](https://www.youtube.com/watch?v=-B9_4zQLwyo) _@ CWNP_
 
-### `CSMA`
+### `CSMA` - Carrier Sense Multiple Access
 
 - [**`CSMA` - Carrier Sense Multiple Access**](https://en.wikipedia.org/wiki/Carrier-sense_multiple_access) _@ Wiki_
 - [`CSMA-CD` vs `CSMA-CA`](https://user-images.githubusercontent.com/94720207/196484283-8f6decbe-3ebc-4df0-b8d4-b53496b35f1e.png) _Picture_
@@ -1142,6 +1142,15 @@ _Modelos de referencia para los protocolos de la red y la interconexión y comun
 - [`RTS/CTS` Parameters, in one minute!](https://www.youtube.com/watch?v=rg9WQqeqIk0) _@ Pytriot_
 - [`RTS/CTS` one image to rule them all!!!](https://user-images.githubusercontent.com/94720207/196567315-173ce49b-0948-4203-8f82-72f6da2beca4.png)
 - [CSMA/CA **with and without RTS/CTS** - Easy!!! Clickie!!!](https://www.youtube.com/watch?v=My4VDzviiNg) _@ MrBrownCS_
+
+    - [RTS/CTS - `MAC Headers` | Traffic: `RTS` > `CTS` > `Data` > `ACK`(CTS seen from all STAs)](https://user-images.githubusercontent.com/94720207/196576173-b66dacd7-3890-4186-95c5-fa27d8e47efd.png) _@ CWNP_
+    - [RTS/CTS - `Exchange` - With & Without RTS/CTS](https://user-images.githubusercontent.com/94720207/196576757-16b1e8af-d10e-4803-b5a3-a265b368c501.png) _@ CWNP_
+
+### Channel Width Operations
+
+- [Channel Width Operations]()
+
+
 
 ### Airtime Fairness
 
@@ -1430,6 +1439,7 @@ _Deep dive into the Packet / PCAP Analysis... & Sharks a lot of sharks!_
 - [WiFi Professionals](https://www.wifi-professionals.com/) _log that helps WiFi enthusiasts to read and share their knowledge_
 - [**BadFi** Trash, shitty, crap & full of WiFi Bad practices, DON'T DO THIS!!!](https://badfi.com/bad-fi) _Lo pongo hasta arriba porque es más utilizado de lo que parece jaja!_
 - [**BadFi**  Direct Twitter](https://twitter.com/search?q=%23badfi&src=typed_query&f=live)
+- [Dot 11 AP](https://dot11ap.wordpress.com/) __
 
 ### WiFi & Wireless Courses
 
@@ -1438,6 +1448,7 @@ _Deep dive into the Packet / PCAP Analysis... & Sharks a lot of sharks!_
     - [CWNP Universal Glossary](https://lms.cwnp.com/mod/glossary/view.php?id=745) _CWNP_
     - [CWNA - Exam Preparation](https://www.wifi-professionals.com/2018/04/cwna-wifi-professionals) _WiFi-Professionals_
     - [CWNA - Exam Objectives](https://www.cwnp.com/uploads/cwna-108-2020-objectives.pdf) _CWNP_
+    - [CWNA in 1 year](https://dot11ap.wordpress.com/2018/04/02/passed-cwna-107/)
 
 - [Ruckus Wireless: RF Basics - Complete Course](https://www.youtube.com/watch?v=wxa2ZX5ofRo&list=PLySwoo7u9-KL4RMboSyITYGRYqWCikc1Q) _@ Ruckus_
 - [CWNP - Free CWNP Youtube Library](https://www.youtube.com/watch?v=pPfwemHBblk&list=PLBF04368800C3005E) _@ CWNP TV_
