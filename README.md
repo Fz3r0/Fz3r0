@@ -1394,6 +1394,7 @@ _Modelos de referencia para los protocolos de la red y la interconexión y comun
 - [Channel access method -  Allows more than 2 terminals at same medium to transmit over it & share capacity](https://en.wikipedia.org/wiki/Channel_access_method) _@ Wiki_
 - [`CAM` - Channel Access Method](https://www.techopedia.com/definition/25940/channel-access-method-cam#:~:text=Access%20Method%20(CAM)-,What%20Does%20Channel%20Access%20Method%20(CAM)%20Mean%3F,hub%2C%20wireless%20and%20ring%20networks.) _@ Technopedia_
 - [802.11 Channel Access **Requirements**](https://user-images.githubusercontent.com/94720207/196549280-04e1b3ea-6312-485c-bf72-1180e7c2d34c.png)
+- [Deep Dive - **Accessing the Network** - How Wireless LANs Work](https://www.youtube.com/watch?v=-B9_4zQLwyo) _@ CWNP_
 
 ### `CSMA`
 
@@ -1407,12 +1408,15 @@ _Modelos de referencia para los protocolos de la red y la interconexión y comun
 ### `CSMA-CD` - Collision Detection (Wired MAC)
 
 - [**Carrier-sense multiple access with collision detection (CSMA/CD)** - Wired (MAC)](https://en.wikipedia.org/wiki/Carrier-sense_multiple_access_with_collision_detection)
+- [`CSMA-CD` - Collision Detection](https://www.youtube.com/watch?v=K_8KJRhOWIA) _@ Sunny_
 - [CSMA-CD Protocol Simulator on Python!](https://github.com/thanujann/CSMA-CD-Protocol-Simulator) _Simulating the CSMA-CD Algorythm_
 - [Construct & Design Aloha model and CSMA model](https://www.tlm.unavarra.es/~daniel/docencia/arss/arss10_11/practicas/Tutorial_CSMA-CD.pdf) _Only for Pros!_
 
 ### `CSMA-CA` - Collision Avoidance (Wireless MAC)
 
 - [**Carrier-sense multiple access with collision avoidance (CSMA/CA)** - Wireless/WiFi](https://www.youtube.com/watch?v=PcbTMSf0D2M&list=PLSNNzog5eydvJG48PYnWnNY7-tQIfxTRb&index=9)
+- [`CSMA-CA` - Easy image!!! clickie!!!](https://user-images.githubusercontent.com/94720207/196567699-e4704929-78ce-4f62-ac17-2fd0833d9cfa.png) _@ MrBrownCS_
+- [`CSMA-CA` - Collision Avoidance](https://www.youtube.com/watch?v=PcbTMSf0D2M) _@ Sunny_
 - [CSMA-CA Simulator Online!!! Very Easy!!!](https://www2.tkn.tu-berlin.de/teaching/rn/animations/csma/) _Clickie! :D_
 - [CSMA-CA - **7 easy steps**](https://user-images.githubusercontent.com/94720207/196492515-e8b690e9-0c44-46eb-9bfc-4cf542034e44.png) _Image_
 ) _@ CWNP_
@@ -1484,9 +1488,18 @@ _Modelos de referencia para los protocolos de la red y la interconexión y comun
     - [`PHY` layer protection - **Legacy Preambles | Training Procedures**]()
     - [`MAC` layer protection - **`RTS/CTS`** - Typically **best solution** to legacy compatibility]()
     - [`Operating Modes`]()
-        - [802.11b-only - Force the 2.4 GHZ radio to acts as an 802.11b device - bad solution]() 
-        - [802.11a/n - Force the 2.4 GHZ radio to acts as an 802.11b device - bad solution]() 
+        - [`802.11b-only` - Force the 2.4 GHZ **802.11g** to acts as an **802.11b** device - bad solution]() 
+        - [`802.11a/n` - Force the **802.11ac** to acts as an **802.11an** radio - bad solution]() 
         - [802.11n-only | 802.11ac-only - Disallow ALL legacy clients - worst solution ]() 
+
+### `RTS/CTS` - Request To Send / Clear To Send
+
+- [IEEE 802.11 `RTS/CTS` - Help in coliision avoidances (along with NAV) | Collisions VS **hidden node** problem too](https://en.wikipedia.org/wiki/IEEE_802.11_RTS/CTS) _@ Wiki_
+- [`Hidden node problem` - when STA can communicate with AP, but can't directly communicate with other nodes](https://en.wikipedia.org/wiki/Hidden_node_problem)
+- [`Hidden Node` - Easy Image!!! Clickie clickie!!!](https://user-images.githubusercontent.com/94720207/196567818-be7f5738-8d08-405c-b57b-109da80c4163.png) _@ MrBrownCS_
+- [`RTS/CTS` Parameters, in one minute!](https://www.youtube.com/watch?v=rg9WQqeqIk0) _@ Pytriot_
+- [`RTS/CTS` one image to rule them all!!!](https://user-images.githubusercontent.com/94720207/196567315-173ce49b-0948-4203-8f82-72f6da2beca4.png)
+- [CSMA/CA **with and without RTS/CTS** - Easy!!! Clickie!!!](https://www.youtube.com/watch?v=My4VDzviiNg) _@ MrBrownCS_
 
 ### Airtime Fairness
 
