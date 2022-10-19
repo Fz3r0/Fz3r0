@@ -2311,7 +2311,25 @@ _PDUs & SDUs travel the OSI layer from top to layer 1 PMD, in layer 1 is modulat
 
 - [`Cloud Based Model` - AP management & control from Cloud | Local GRE (server) available](https://user-images.githubusercontent.com/94720207/196822245-85b3f10e-df08-494c-82bb-0c7e25c3e72b.png)
 - [`Distributed Model` - Cooperative Control | APs cooperate with each other | AeroHive vendor](https://user-images.githubusercontent.com/94720207/196822881-1693c6a1-5062-4222-ba2e-ebd3b840fbff.png)
-- [`Controller-Less Model` **(Autonomus)** | EnGenius or Unleashed Ruckus](https://user-images.githubusercontent.com/94720207/196822695-f2b7fd62-5a8e-4196-846f-3f0b453b1b06.png)
+- [`Controller-Less Model` **(Autonomus)** | EnGenius, like original manual APs](https://user-images.githubusercontent.com/94720207/196822695-f2b7fd62-5a8e-4196-846f-3f0b453b1b06.png)
+- [RF Channel Planning - `MCA` & `SCA`: Multiple & Single Channel Architecture | Multiple = Most common (Channel Selection)](https://user-images.githubusercontent.com/94720207/196823841-60b03a5b-4395-4569-8899-a3a2e71224ce.png)
+- [BSSID & ESS Configuration: MCA & SCA](https://user-images.githubusercontent.com/94720207/196825116-d08a45d2-c5b1-4e34-92e4-f8c6a777ec58.png)
+    
+    - [`MCA` Configuration - One BSSID per SIID on the radio | `ESS` is formed when multiple APs share: SSID, security & Distribution System]()
+    - [`SCA` Configuration - Virtual BSSID spans multiple APs | `ESS` is handled throught perception of sinle BSS clients (no roaming perception)]() 
+
+<!-- Nota faltan unas cosas que no se si sea bueno vayan aqui pero son temas como:
+
+ap placement
+co channel interference
+cell sizing 
+channel selection
+
+)-->
+
+
+
+
 
 
 
