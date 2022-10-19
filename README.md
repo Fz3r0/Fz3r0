@@ -193,33 +193,11 @@ Please check out the links of my Social Networks that I've placed above includin
 
 <p align="center"> <a href="https://www.credly.com/users/carlos-villalobos.7a2aab8f/badges" target="_blank" rel="noreferrer"> <img src="https://images.credly.com/size/110x110/images/5bdd6a39-3e03-4444-9510-ecff80c9ce79/image.png" alt="cisco1" height="100"> </a> &emsp; <a href="https://www.credly.com/users/carlos-villalobos.7a2aab8f/badges" target="_blank" rel="noreferrer"> <img src="https://images.credly.com/size/110x110/images/70d71df5-f3dc-4380-9b9d-f22513a70417/CCNAITN__1_.png" alt="ccna1" height="100"> </a>  &emsp; <a href="https://www.credly.com/users/carlos-villalobos.7a2aab8f/badges" target="_blank" rel="noreferrer"> <img src="https://images.credly.com/size/110x110/images/f4ccdba9-dd65-4349-baad-8f05df116443/CCNASRWE__1_.png" alt="ccna2" height="100"> </a>  &emsp; <a href="https://www.credly.com/users/carlos-villalobos.7a2aab8f/badges" target="_blank" rel="noreferrer"> <img src="https://images.credly.com/size/110x110/images/0a6d331e-8abf-4272-a949-33f754569a76/CCNAENSA__1_.png" alt="ccna3" height="100"> </a>  &emsp; <a href="https://www.credly.com/users/carlos-villalobos.7a2aab8f/badges" target="_blank" rel="noreferrer"> <img src="https://images.credly.com/size/110x110/images/51526f76-711b-4caf-b04d-27f89512b112/NetworkDefense_v1_091721.png" alt="cisco4" height="100"> </a> &emsp; <a href="https://www.credly.com/users/carlos-villalobos.7a2aab8f/badges" target="_blank" rel="noreferrer"> <img src="https://images.credly.com/size/110x110/images/af8c6b4e-fc31-47c4-8dcb-eb7a2065dc5b/I2CS__1_.png" alt="security1" height="100"> </a> &emsp; <a href="https://www.credly.com/users/carlos-villalobos.7a2aab8f/badges" target="_blank" rel="noreferrer"> <img src="https://images.credly.com/size/110x110/images/054913b2-e271-49a2-a1a4-9bf1c1f9a404/CyberEssentials.png" alt="security2" height="100"> </a> &emsp; <a href="https://www.credly.com/users/carlos-villalobos.7a2aab8f/badges" target="_blank" rel="noreferrer"> <img src="https://images.credly.com/size/110x110/images/fe36e3ef-f014-41f6-9089-073d5eac58c3/CyberThreatManagement_v1_091721.png" alt="security3" height="100"> </a> &emsp; <a href="https://www.credly.com/users/carlos-villalobos.7a2aab8f/badges" target="_blank" rel="noreferrer"> <img src="https://images.credly.com/size/110x110/images/fd01bdd5-9d8b-4acd-a272-e981128ec731/CybersecurityPathwayBadge.png" alt="security4" height="100"> </a>                      </p> 
 
-
 &nbsp;
-
-
-
-
-<!--
-
-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
-** =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=- NETWORKING ICONS 
-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
-
--->
 
 <h3 align="center">Network Infraestructure:</h3>
 
 <p align="center"> <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"> <img src="https://www.thedesigngym.com/wp-content/uploads/2019/05/cisco-logo-transparent-1024x542.png" alt="cisco" height=45px/> </a> <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"> <img src="https://ruckus-shared-webassets.s3.amazonaws.com/logos/commscope_logo_white.png" alt="ruckus-commscope" height=45px/> </a>  <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer">  <img src="https://www.innquest.com/wp-content/uploads/2021/09/rgnets.png" alt="rgnets" height=30px/> </a> &emsp; <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"> <img src="https://www.annualreports.com/HostedData/CompanyLogos/NASDAQ_ARRS.png" alt="rgnets" height=30px/> </a> &emsp; <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"> <img src="https://lh5.googleusercontent.com/-E-zuzMfKaaU/TYOS8H995rI/AAAAAAAAAqw/iSFL0Bdp1-8/s320/CommScope+orb.png" alt="rgnets" height=40px/> </a> &emsp; <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"> <img src="https://camarastermograficas.online/wp-content/uploads/2021/12/logo1.png" alt="rgnets" height=40px/> </a> &emsp; <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"> <img src="https://www.zyxel.com/library/assets/coverpage/zyxel-networks-logo.png" alt="zyxel" height=40px/> </a> </p> 
-
-
-  
-<!--
-
-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
-** =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=- Programming Languages & Databases 
-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
-
--->
 
 &nbsp;
   
@@ -229,44 +207,10 @@ Please check out the links of my Social Networks that I've placed above includin
 
 &nbsp;
   
-
 <h3 align="center">Operating Systems & SysAdmin:</h3> 
  
-<p align="center"> <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"> <img src="https://user-images.githubusercontent.com/94720207/172065078-596bb11c-1218-4629-b2a6-475a7f198d44.png" alt="Linux" height=50px/> </a> <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"> <img src="https://gdm-catalog-fmapi-prod.imgix.net/ProductLogo/b91dba39-aef6-4808-be11-8eda81f81f56.png" alt="Parrot" height=48px/> </a>   <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"> <img src="https://user-images.githubusercontent.com/94720207/172065746-db399e10-2483-4056-b551-f92f4672e7bd.png" alt="cisco" height=45px/> </a>  <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"> <img src="https://user-images.githubusercontent.com/94720207/172065654-f65358d4-599a-4751-a5b0-2d15371bb85a.png" alt="Windows" height=50px/> </a>   &emsp; <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"> <img src="https://i0.wp.com/skinpacks.com/wp-content/uploads/2020/08/Untitled-2.png" alt="Windows" height=45px/> </a> <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"> <img src="https://icon-library.com/images/active-directory-icon/active-directory-icon-10.jpg" alt="AD" height=46px/> </a> <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"> <img src="https://pngimg.com/uploads/windows_logos/windows_logos_PNG35.png" alt="Win Legacy" height=45px/> </a> &emsp; <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"> <img src="https://2.bp.blogspot.com/-QwJ0ZBV5-xU/T_sLog_yRaI/AAAAAAAAILc/DDwniWtDcac/s1600/Google_Chrome_Icone_Logo-1.png" alt="ChromeOS" height=47px/> </a> <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"> <img src="https://2.bp.blogspot.com/-ViwzOSpUx_s/UmAkLz6qXWI/AAAAAAAAI0c/467DhthuBTk/s320/Android+Logo+01+Drawing+Factory.png" alt="Android" height=48px/> </a> &emsp; <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"> <img src="http://icons.iconarchive.com/icons/kyo-tux/phuzion/256/System-Mac-icon.png" alt="MacOS" height=48px/> </a> <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"> <img src="https://archive.org/download/apple-mac-logo-icon-300x300/apple-mac-logo-icon-300x300.png" alt="Mac" height=48px/> </a> 
- 
- 
- 
- 
- 
- 
-
-</p>
+<p align="center"> <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"> <img src="https://user-images.githubusercontent.com/94720207/172065078-596bb11c-1218-4629-b2a6-475a7f198d44.png" alt="Linux" height=50px/> </a> <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"> <img src="https://gdm-catalog-fmapi-prod.imgix.net/ProductLogo/b91dba39-aef6-4808-be11-8eda81f81f56.png" alt="Parrot" height=48px/> </a>   <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"> <img src="https://user-images.githubusercontent.com/94720207/172065746-db399e10-2483-4056-b551-f92f4672e7bd.png" alt="cisco" height=45px/> </a>  <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"> <img src="https://user-images.githubusercontent.com/94720207/172065654-f65358d4-599a-4751-a5b0-2d15371bb85a.png" alt="Windows" height=50px/> </a>   &emsp; <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"> <img src="https://i0.wp.com/skinpacks.com/wp-content/uploads/2020/08/Untitled-2.png" alt="Windows" height=45px/> </a> <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"> <img src="https://icon-library.com/images/active-directory-icon/active-directory-icon-10.jpg" alt="AD" height=46px/> </a> <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"> <img src="https://pngimg.com/uploads/windows_logos/windows_logos_PNG35.png" alt="Win Legacy" height=45px/> </a> &emsp; <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"> <img src="https://2.bp.blogspot.com/-QwJ0ZBV5-xU/T_sLog_yRaI/AAAAAAAAILc/DDwniWtDcac/s1600/Google_Chrome_Icone_Logo-1.png" alt="ChromeOS" height=47px/> </a> <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"> <img src="https://2.bp.blogspot.com/-ViwzOSpUx_s/UmAkLz6qXWI/AAAAAAAAI0c/467DhthuBTk/s320/Android+Logo+01+Drawing+Factory.png" alt="Android" height=48px/> </a> &emsp; <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"> <img src="http://icons.iconarchive.com/icons/kyo-tux/phuzion/256/System-Mac-icon.png" alt="MacOS" height=48px/> </a> <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"> <img src="https://archive.org/download/apple-mac-logo-icon-300x300/apple-mac-logo-icon-300x300.png" alt="Mac" height=48px/> </a> </p>
   
-  
-  
-  
-
-
-  
-  
-  
-  
-  
-  
-  
-<!--
-
-
-
-
-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
-** =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=- Hacking Challenges & Attack Boxes 
-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
-
-https://www.hackthebox.com/badge/image/897009
-
--->
-
 --- 
  
 <h3 align="center">Cyber-Security Learning, Challenges & Hacking Labs</h3>
@@ -291,8 +235,6 @@ https://www.hackthebox.com/badge/image/897009
   
 <span align="center"> <p align="center"> ![count](https://komarev.com/ghpvc/?username=fz3r0&color=brightgreen)  </p> </span> 
 
-
-
 --- 
 
 <span align="center"> <p align="center"> ![imagen](https://user-images.githubusercontent.com/94720207/194731114-6d310be7-fd00-4c5c-bcfd-563b93d6b019.png) </p> </span> 
@@ -314,15 +256,7 @@ https://www.hackthebox.com/badge/image/897009
 - [Licence](https://github.com/Fz3r0/Fz3r0/blob/main/LICENSE)
 - [Disclaimer](/README.md#-disclaimer-)
   
-<!--
-
-![index_banner_final2](https://hackers.game/static/media/skull.5853c7dcd849910eaf43.gif)
-
-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
-** =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=- NETWORKING 
-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
-
--->    
+<!-- =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- FAST INDEX -->    
 
 ## Fast Index
 
@@ -339,13 +273,7 @@ https://www.hackthebox.com/badge/image/897009
 - ➡️ 💥 ⬅️ [**Carrier Sense Multiple Access (CSMA)**](https://github.com/fz3r0#%EF%B8%8F--%EF%B8%8F-carrier-sense-multiple-access-csma-%EF%B8%8F--%EF%B8%8F)
 - 🛰️ 📶 📡 [**Wireless Communication & RF**](https://github.com/Fz3r0/Fz3r0/blob/main/README.md#%EF%B8%8F---wireless-communication--rf---%EF%B8%8F)
 
-<!--
-
-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
-** =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=- NETWORKING 
-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
-
--->    
+<!-- =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- Lo básico de lo básico ¡En español! --> 
 
 <span align="center"> <h1 align="center">🍼 👼 🐤 Lo básico de lo básico ¡En español! 🐤 👼 🍼</h1> </span>  
 
@@ -386,294 +314,15 @@ _Para mis amigos que están empezando completamente de 0, cursa una ingeniería 
 - [Open Source Society University - Path to a free self-taught education in Computer Science!](https://github.com/ossu/computer-science) _OSSU_
 - [**¿Cómo hackear en 2 minutos al mundo entero?**](https://youtu.be/dQw4w9WgXcQ) _**¡Un largo camino comienza aquí, aventuras podrás disfutar!**_
 
-    
-
-<span align="center"> <h1 align="center">💾 💽 🏴‍☠️ Fz3r0 Arsenal: `Cyber-Weapons` 🏴‍☠️ 💽 💾</h1> </span>  
-
-_A nasty collection of sexy tools for Networking, Programming, Cyber-Security, Scripting & having fun all around with computers_
-
-## 🗺️ 📍 🔺 Diagram, Topology, Notes & Text Editors 🔺 📍 🗺️
-
-### Notes & Data
-
-- [Github]()
-- [Google Docs]()
-- [Cherry Tree]()
-- [Obsidian]()
-- [Microsoft Office Suite]() _$$$_
-
-### Text Editors & IDEs
-
-- [Sublime Text]()
-- [Microsoft Visual Studio Code]()
-- [Vim]()
-- [Atom]()
-- [Notepad ++]()
-
-### Diagram Editors & Draw
-
-- [Microsoft Visio](https://www.microsoft.com/en-us/microsoft-365/visio/flowchart-software) _$$$_
-- [draw.io](https://app.diagrams.net/) _Free!_
-- [Excali Draw](https://excalidraw.com/) _Free!_
-
-### Tables
-
-- [Microsoft Excel]()
-- [Google Sheets]()
-- [Mark Down Table Editor](https://tableconvert.com/markdown-generator)
-
-## MISCELANEOS UNDER CONTRUCTION!!!
-
-- [Pick Color from Image - Image to HEX, RGB, CMYK](https://www.ginifab.com/feeds/pms/color_picker_from_image.php)
-- [Interactive Waves!!! :D](https://emanim.szialab.org/index.html) _clickie!_
-
-
-## Packet Crafting & Traffic Generators
-
-- [`Ostinato` - Traffic Generator for Network Engineers](https://ostinato.org/)
-
-
-
-
-
-
-
-
-
-
-
-## Performance Analyze & Monitoring Tools
-
-### Hardware Monitor
-
-- [CPU-Z]
-- [HW Monitor]
-- [WinDirStat](https://windirstat.net/) _Disk usage statistics viewer and cleanup tool for various versions of Microsoft Windows._
-
-## Geolocalization & Positioning Tools
-
-- [Latitude & Longitude Conversion](https://www.ddginc-usa.com/latlong.htm)
-
-## Cryptography & Password Tools
-
-- [advanced-archive-password-recovery-4-54-110.zip]()
-- [Password Monster](https://www.passwordmonster.com/) _Test: How Secure is Your Password?_
-- [Dialupass - VPN Password Recovery](https://www.nirsoft.net/utils/dialupass.html) _enumerates dialup/VPN entries, displays logon details: User Name, Password, and Domain._
-
-## Full Lists of Tools Arsenals
-
-- [Kali mirrorlist](https://http.kali.org/README.mirrorlist)
-
-- [LaunchPad - Debian](https://launchpad.net/) 
-
-## URL | WWW | HTTP 
-
-### Addressing
-
-- [WTF is my IP?!?!?!](https://wtfismyip.com/) _Get your fu$%&ng IP!_
-
-### Extensions
-
-- [Where goes? - URL redirect checker](https://wheregoes.com/) _Show you the full redirection path of URLs, shortened links, or tiny URLs._
-
-## Layer 1: Physical Layer Tools
-
-## Layer 2: Media Access Control (MAC) Tools
-
-- [Technitium MAC Address Changer for Windows](https://technitium.com/tmac/) _A freeware utility to spoof MAC address instantly_
-
-## Measurment & Calculators
-
-- [Monitor / Screen Size online - Measure with a credit card!](https://www.piliapp.com/actual-size/what-is-my-monitor-size/)
-- [PSU / Power Supply Calculator](https://outervision.com/power-supply-calculator)
-
-
-- [TFTP OpenSource - **tftpd32**](https://pjo2.github.io/tftpd64/)
-
-## Picture & Image Tools
-
-- [SVG Resizer (or toher images)](https://products.aspose.app/imaging/image-resize/svg)
-
-## 📊 🖥️ 👨‍🚀 Simulators & Emulators 👨‍🚀 🖥️ 📊
-
-### Cisco Packet Tracer
-
-- [Cisco Packet Tracer]() _Network simulation tool for networking, IoT, and cybersecurity in a virtual lab_
-
-### GNS3
-
-- [GNS3](https://gns3.com/) _Real-time network simulation for pre-deployment testing_
-    - [GNS3 - Appliances](https://www.gns3.com/marketplace/appliances)
-    - [GNS3 - Port Name Formatting](https://docs.gns3.com/docs/using-gns3/advanced/port-name-formatting/)
-    - [Instalar y correr GNS3 VM Pro!!! Master Edson](https://www.youtube.com/watch?v=4kh9JL-0l5A&t=570s)
-
-### Eve NG
-
-- [Eve NG](https://www.eve-ng.net/) _Emulated Virtual Enviorment for Network, Security and DevOps_
-
-## 🐚 🐢 💻 Shells 💻 🐢 🐚
-
-### Microsoft Windows Shells, CLI, Console emulators
-
-### Linux Shells, CLI, Console emulators
-
-### Android Shells, CLI, Console emulators
-
-- [Termux]()
-
-- [Secure-CRT](https://www.vandyke.com/products/securecrt/) _Terminal Emulation, secure remote access, file transfer & data tunneling._
-
-    - [Pimp my Secure CRT - ANSI colors & dark shell mode](https://www.vandyke.com/support/tips/colorconfig.html)
-
-- [Putty](https://www.putty.org/) _Open Source SSH and telnet client_
-- [MobaXterm - Pimp term for Windows](https://mobaxterm.mobatek.net/)
-
-## 🐚 😼 💀 Reverse Shells 💀 😼 🐚
-
-- [Reverse Shell Generator](https://www.revshells.com/)
-- NetCat
-- SoCat
-
-## 👨‍💻 🐚 🔒 `Telnet` & `SSH` (Secure Shell) 🔒 🐚 👨‍💻
-
-- [SSH & SCP (Secure Copy) Cheatsheet for Linux](https://user-images.githubusercontent.com/94720207/194212517-b25dfa23-0577-4cf1-ac37-83c32c5fbfba.png)
-
-## 🖥️ 👀 💻 `VM` Virtual Machines 🖥️ 👀 💻
-
-### Virtual Machines Introducion
-
-- [What's the difference between Type 1 vs. Type 2 hypervisor?](https://www.techtarget.com/searchitoperations/tip/Whats-the-difference-between-Type-1-vs-Type-2-hypervisor)
-
-### Virtual Machines 
-
-- Type1 Hyper-Visors - BareMetal
-    - [VMware vSphere]()
-    - [Microsoft Hyper-V]()
-    - [KVM]()
-    - [Xen hypervisor]()
-    - [Oracle VM]()
-    - [Citrix Hypervisor (AKA Citrix XenServer)]()
-
-- Type2 Hyper-Visors - Operating System Hosted
-    - [Oracle VM VirtualBox]()
-    - [VMware Workstation Pro]()
-    - [VMware Fusion]()
-    - [QEMU]()
-    - [Parallels Desktop]()
-
-### VM Tutorials
-
-- [Install Windows 11 VMWare Work Station FULL config!!! @ John Hammond](https://www.youtube.com/watch?v=EMuw_IN-UOU)
-
-## 🖥️ 🖧 📦 Containers 📦 🖧 🖥️
-
-- [Containers 101](https://www.youtube.com/watch?v=VqLcWftIaQI)
-- [What is a Container?](https://www.youtube.com/watch?v=EnJ7qX9fkcU)
-- [¿Qué son los contenedores, Docker y Kubernetes?](https://www.youtube.com/watch?v=gjRoNFopFig)
-- [Contenedores vs VM: ¿Cuál es la diferencia?](https://www.youtube.com/watch?v=cjXI-yxqGTI)
-- [Containers and VMs - A Practical Comparison](https://www.youtube.com/watch?v=L1ie8negCjc)
-- [Virtualize vs. Containerize (Which should I choose?)](https://www.youtube.com/watch?v=pxwUXJmAER4)
-
-## 🐋 📦 🐳 Docker 🐳 📦 🐋
-
-### Tutorials & Courses
-
-- [Aprende Docker ahora! curso completo gratis desde cero! @ HolaMundo](https://www.youtube.com/watch?v=4Dko5W96WHg)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## Networking Cyberweapons
-
-### Networking Tools
-
-### Network Hacking Tools
-
-### Wifi Hacking Tools
-
-- [wifiphisher](https://github.com/wifiphisher/wifiphisher) 
-- [WiFi-Pumpkin](https://github.com/P0cL4bs/WiFi-Pumpkin) 
-- [eaphammer](https://github.com/s0lst1c3/eaphammer) 
-- [RogueSploit](https://github.com/h0nus/RogueSploit) 
-- [SniffAir](https://github.com/Tylous/SniffAir) 
-- [fluxion](https://github.com/FluxionNetwork/fluxion) 
-- [wifite2](https://github.com/derv82/wifite2) 
-- [airpwn-ng](https://github.com/ICSec/airpwn-ng) 
-- [mitmAP](https://github.com/xdavidhu/mitmAP) 
-- [hcxdumptool](https://github.com/ZerBea/hcxdumptool) 
-- [wifipumpkin3](https://github.com/P0cL4bs/wifipumpkin3) _Powerful framework for rogue access point attack._
-
-## Wordlists DBs & Wordlists generators
-
-https://github.com/danielmiessler/SecLists
-
-https://github.com/berzerk0/Probable-Wordlists
-
-https://github.com/govolution/betterdefaultpasslist
-
-https://github.com/insidetrust/statistically-likely-usernames
-
-https://github.com/LandGrey/pydictor
-
-https://github.com/sc0tfree/mentalist
-
-https://github.com/skahwah/wordsmith
-
-https://github.com/1N3/IntruderPayloads
-
-https://github.com/fuzzdb-project/fuzzdb
-
-https://github.com/Bo0oM/fuzz.txt
-
-https://github.com/laconicwolf/Password-Scripts
-
-https://github.com/FlameOfIgnis/Pwdb-Public - A collection of all the data i could extract from 1 billion leaked credentials from internet.
-
-## Hash Crack / Decryption
-
-https://hashcat.net/hashcat/
-
-https://github.com/Ciphey/Ciphey - Ciphey is an automated decryption tool. Input encrypted text, get the decrypted text back.
-
-https://github.com/Coalfire-Research/npk - A mostly-serverless distributed hash cracking platform
-
-https://github.com/JoelGMSec/Cloudtopolis - Cracking hashes in the Cloud (for free!)
-
-https://github.com/f0cker/crackq - CrackQ: A Python Hashcat cracking queue system
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<!-- =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- NETWORKING --> 
 
 <span align="center"> <h1 align="center">  📡 🖧 🌐 Networking 🌐 🖧 📡</h1> </span>   
 
 _Monitoring devices, know where you go, mass media, total control. Digital delight, desire in megabite. Data overflow, virtual suicide. This information, is disinformation. Truth is hidden, knowledge forbidden. The structures of power, will delegate. To speak is to lie, to lie is to collaborate. Information streams, simulating dreams. Interactive mind-control, systematic overflow. Magnetic sleep, network addiction. Be absorbed, science fiction. It's pyschological, diabolical. Societies brainwash hospital..._<br>
 
 _The sun never sets, on cyber-space... Transmit, receive, log on to interface_
+
+<!-- =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- Dark Wizardy for Networking --> 
 
 ## 🔮 📖 🧙‍ Dark Wizardy for Networking 🧙‍♂️ 📖 🔮
 _Networking Lists, concepts, Tables, Models, Cheat-Sheets, Mind-Maps & Cool Resources!!!_
@@ -690,13 +339,6 @@ _Networking Lists, concepts, Tables, Models, Cheat-Sheets, Mind-Maps & Cool Reso
 - [Awesome **Mesh Networking**](https://github.com/moarpepes/awesome-mesh) _Documentation, Free Software mesh protocols, and applications._
 - [How To WiFi](https://howiwifi.com/) _A blog about Wi-Fi!_
 - [802.11 Frame Exchange - All combinations!](https://howiwifi.com/2020/07/16/802-11-frame-exchanges/)
-
-
-
-
-
-
-
 
 ### Wireless Bibles, Resources & Blogs
 
@@ -5206,6 +4848,337 @@ https://osintframework.com/ osint framework
 https://developer.cisco.com/docs/ APIs y demas sdwaun dna center
 
 https://developer.cisco.com/docs/dna-center/#!cisco-dna-center-platform-overview dna overview
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<span align="center"> <h1 align="center">💾 💽 🏴‍☠️ Fz3r0 Arsenal: `Cyber-Weapons` 🏴‍☠️ 💽 💾</h1> </span>  
+
+_A nasty collection of sexy tools for Networking, Programming, Cyber-Security, Scripting & having fun all around with computers_
+
+## 🗺️ 📍 🔺 Diagram, Topology, Notes & Text Editors 🔺 📍 🗺️
+
+### Notes & Data
+
+- [Github]()
+- [Google Docs]()
+- [Cherry Tree]()
+- [Obsidian]()
+- [Microsoft Office Suite]() _$$$_
+
+### Text Editors & IDEs
+
+- [Sublime Text]()
+- [Microsoft Visual Studio Code]()
+- [Vim]()
+- [Atom]()
+- [Notepad ++]()
+
+### Diagram Editors & Draw
+
+- [Microsoft Visio](https://www.microsoft.com/en-us/microsoft-365/visio/flowchart-software) _$$$_
+- [draw.io](https://app.diagrams.net/) _Free!_
+- [Excali Draw](https://excalidraw.com/) _Free!_
+
+### Tables
+
+- [Microsoft Excel]()
+- [Google Sheets]()
+- [Mark Down Table Editor](https://tableconvert.com/markdown-generator)
+
+## MISCELANEOS UNDER CONTRUCTION!!!
+
+- [Pick Color from Image - Image to HEX, RGB, CMYK](https://www.ginifab.com/feeds/pms/color_picker_from_image.php)
+- [Interactive Waves!!! :D](https://emanim.szialab.org/index.html) _clickie!_
+
+
+## Packet Crafting & Traffic Generators
+
+- [`Ostinato` - Traffic Generator for Network Engineers](https://ostinato.org/)
+
+
+
+
+
+
+
+
+
+
+
+## Performance Analyze & Monitoring Tools
+
+### Hardware Monitor
+
+- [CPU-Z]
+- [HW Monitor]
+- [WinDirStat](https://windirstat.net/) _Disk usage statistics viewer and cleanup tool for various versions of Microsoft Windows._
+
+## Geolocalization & Positioning Tools
+
+- [Latitude & Longitude Conversion](https://www.ddginc-usa.com/latlong.htm)
+
+## Cryptography & Password Tools
+
+- [advanced-archive-password-recovery-4-54-110.zip]()
+- [Password Monster](https://www.passwordmonster.com/) _Test: How Secure is Your Password?_
+- [Dialupass - VPN Password Recovery](https://www.nirsoft.net/utils/dialupass.html) _enumerates dialup/VPN entries, displays logon details: User Name, Password, and Domain._
+
+## Full Lists of Tools Arsenals
+
+- [Kali mirrorlist](https://http.kali.org/README.mirrorlist)
+
+- [LaunchPad - Debian](https://launchpad.net/) 
+
+## URL | WWW | HTTP 
+
+### Addressing
+
+- [WTF is my IP?!?!?!](https://wtfismyip.com/) _Get your fu$%&ng IP!_
+
+### Extensions
+
+- [Where goes? - URL redirect checker](https://wheregoes.com/) _Show you the full redirection path of URLs, shortened links, or tiny URLs._
+
+## Layer 1: Physical Layer Tools
+
+## Layer 2: Media Access Control (MAC) Tools
+
+- [Technitium MAC Address Changer for Windows](https://technitium.com/tmac/) _A freeware utility to spoof MAC address instantly_
+
+## Measurment & Calculators
+
+- [Monitor / Screen Size online - Measure with a credit card!](https://www.piliapp.com/actual-size/what-is-my-monitor-size/)
+- [PSU / Power Supply Calculator](https://outervision.com/power-supply-calculator)
+
+
+- [TFTP OpenSource - **tftpd32**](https://pjo2.github.io/tftpd64/)
+
+## Picture & Image Tools
+
+- [SVG Resizer (or toher images)](https://products.aspose.app/imaging/image-resize/svg)
+
+## 📊 🖥️ 👨‍🚀 Simulators & Emulators 👨‍🚀 🖥️ 📊
+
+### Cisco Packet Tracer
+
+- [Cisco Packet Tracer]() _Network simulation tool for networking, IoT, and cybersecurity in a virtual lab_
+
+### GNS3
+
+- [GNS3](https://gns3.com/) _Real-time network simulation for pre-deployment testing_
+    - [GNS3 - Appliances](https://www.gns3.com/marketplace/appliances)
+    - [GNS3 - Port Name Formatting](https://docs.gns3.com/docs/using-gns3/advanced/port-name-formatting/)
+    - [Instalar y correr GNS3 VM Pro!!! Master Edson](https://www.youtube.com/watch?v=4kh9JL-0l5A&t=570s)
+
+### Eve NG
+
+- [Eve NG](https://www.eve-ng.net/) _Emulated Virtual Enviorment for Network, Security and DevOps_
+
+## 🐚 🐢 💻 Shells 💻 🐢 🐚
+
+### Microsoft Windows Shells, CLI, Console emulators
+
+### Linux Shells, CLI, Console emulators
+
+### Android Shells, CLI, Console emulators
+
+- [Termux]()
+
+- [Secure-CRT](https://www.vandyke.com/products/securecrt/) _Terminal Emulation, secure remote access, file transfer & data tunneling._
+
+    - [Pimp my Secure CRT - ANSI colors & dark shell mode](https://www.vandyke.com/support/tips/colorconfig.html)
+
+- [Putty](https://www.putty.org/) _Open Source SSH and telnet client_
+- [MobaXterm - Pimp term for Windows](https://mobaxterm.mobatek.net/)
+
+## 🐚 😼 💀 Reverse Shells 💀 😼 🐚
+
+- [Reverse Shell Generator](https://www.revshells.com/)
+- NetCat
+- SoCat
+
+## 👨‍💻 🐚 🔒 `Telnet` & `SSH` (Secure Shell) 🔒 🐚 👨‍💻
+
+- [SSH & SCP (Secure Copy) Cheatsheet for Linux](https://user-images.githubusercontent.com/94720207/194212517-b25dfa23-0577-4cf1-ac37-83c32c5fbfba.png)
+
+## 🖥️ 👀 💻 `VM` Virtual Machines 🖥️ 👀 💻
+
+### Virtual Machines Introducion
+
+- [What's the difference between Type 1 vs. Type 2 hypervisor?](https://www.techtarget.com/searchitoperations/tip/Whats-the-difference-between-Type-1-vs-Type-2-hypervisor)
+
+### Virtual Machines 
+
+- Type1 Hyper-Visors - BareMetal
+    - [VMware vSphere]()
+    - [Microsoft Hyper-V]()
+    - [KVM]()
+    - [Xen hypervisor]()
+    - [Oracle VM]()
+    - [Citrix Hypervisor (AKA Citrix XenServer)]()
+
+- Type2 Hyper-Visors - Operating System Hosted
+    - [Oracle VM VirtualBox]()
+    - [VMware Workstation Pro]()
+    - [VMware Fusion]()
+    - [QEMU]()
+    - [Parallels Desktop]()
+
+### VM Tutorials
+
+- [Install Windows 11 VMWare Work Station FULL config!!! @ John Hammond](https://www.youtube.com/watch?v=EMuw_IN-UOU)
+
+## 🖥️ 🖧 📦 Containers 📦 🖧 🖥️
+
+- [Containers 101](https://www.youtube.com/watch?v=VqLcWftIaQI)
+- [What is a Container?](https://www.youtube.com/watch?v=EnJ7qX9fkcU)
+- [¿Qué son los contenedores, Docker y Kubernetes?](https://www.youtube.com/watch?v=gjRoNFopFig)
+- [Contenedores vs VM: ¿Cuál es la diferencia?](https://www.youtube.com/watch?v=cjXI-yxqGTI)
+- [Containers and VMs - A Practical Comparison](https://www.youtube.com/watch?v=L1ie8negCjc)
+- [Virtualize vs. Containerize (Which should I choose?)](https://www.youtube.com/watch?v=pxwUXJmAER4)
+
+## 🐋 📦 🐳 Docker 🐳 📦 🐋
+
+### Tutorials & Courses
+
+- [Aprende Docker ahora! curso completo gratis desde cero! @ HolaMundo](https://www.youtube.com/watch?v=4Dko5W96WHg)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Networking Cyberweapons
+
+### Networking Tools
+
+### Network Hacking Tools
+
+### Wifi Hacking Tools
+
+- [wifiphisher](https://github.com/wifiphisher/wifiphisher) 
+- [WiFi-Pumpkin](https://github.com/P0cL4bs/WiFi-Pumpkin) 
+- [eaphammer](https://github.com/s0lst1c3/eaphammer) 
+- [RogueSploit](https://github.com/h0nus/RogueSploit) 
+- [SniffAir](https://github.com/Tylous/SniffAir) 
+- [fluxion](https://github.com/FluxionNetwork/fluxion) 
+- [wifite2](https://github.com/derv82/wifite2) 
+- [airpwn-ng](https://github.com/ICSec/airpwn-ng) 
+- [mitmAP](https://github.com/xdavidhu/mitmAP) 
+- [hcxdumptool](https://github.com/ZerBea/hcxdumptool) 
+- [wifipumpkin3](https://github.com/P0cL4bs/wifipumpkin3) _Powerful framework for rogue access point attack._
+
+## Wordlists DBs & Wordlists generators
+
+https://github.com/danielmiessler/SecLists
+
+https://github.com/berzerk0/Probable-Wordlists
+
+https://github.com/govolution/betterdefaultpasslist
+
+https://github.com/insidetrust/statistically-likely-usernames
+
+https://github.com/LandGrey/pydictor
+
+https://github.com/sc0tfree/mentalist
+
+https://github.com/skahwah/wordsmith
+
+https://github.com/1N3/IntruderPayloads
+
+https://github.com/fuzzdb-project/fuzzdb
+
+https://github.com/Bo0oM/fuzz.txt
+
+https://github.com/laconicwolf/Password-Scripts
+
+https://github.com/FlameOfIgnis/Pwdb-Public - A collection of all the data i could extract from 1 billion leaked credentials from internet.
+
+## Hash Crack / Decryption
+
+https://hashcat.net/hashcat/
+
+https://github.com/Ciphey/Ciphey - Ciphey is an automated decryption tool. Input encrypted text, get the decrypted text back.
+
+https://github.com/Coalfire-Research/npk - A mostly-serverless distributed hash cracking platform
+
+https://github.com/JoelGMSec/Cloudtopolis - Cracking hashes in the Cloud (for free!)
+
+https://github.com/f0cker/crackq - CrackQ: A Python Hashcat cracking queue system
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## 💪 🧠 🤯 Motivation 🤯 🧠 💪
 
