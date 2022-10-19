@@ -2257,18 +2257,27 @@ _PDUs & SDUs travel the OSI layer from top to layer 1 PMD, in layer 1 is modulat
 
 
 
+
+
+
+
+
+
+---
+
+
 - [Adjacent Channel & Co-Channel Examples with pics!](https://support.accessagility.com/hc/adjacent-channel-interference-and-the-real-evil-behind-it)
 - [Co-Channel Interference - Same channel full overlap](https://user-images.githubusercontent.com/94720207/196592175-f69d0dca-bef2-45a4-9433-94a7f0510d92.png)
 - [Adjacent Channel Interference - Other channel partially overlaped](https://user-images.githubusercontent.com/94720207/196592230-9a7e32fd-3034-4d17-9f07-479decf524ab.png)
 
 
-
+---
 
 
 - [`Spectral Mask` - 802.11ac example](https://www.rfwireless-world.com/Tutorials/802-11ac-spectral-mask.html)
 
 
-
+---
 
 
 - [VSWR | S11 | Return Loss](https://www.youtube.com/watch?v=jgjaFzsYd88) _@ inside wireless_
@@ -2280,7 +2289,10 @@ _PDUs & SDUs travel the OSI layer from top to layer 1 PMD, in layer 1 is modulat
         - [`S-parameters` - input-output relationship between ports (or terminals) in an electrical system](https://www.antenna-theory.com/definitions/sparameters.php#:~:text=S11%20represents%20how%20much%20power,antenna%20and%20nothing%20is%20radiated.) 
 
 
+---
 
+- [U-NII - Unlicensed National Information Infrastructure | Channel List](https://en.wikipedia.org/wiki/Unlicensed_National_Information_Infrastructure)
+- [U-NII - WiFi Table | U-NII 1 & 2 = indoor | ](https://user-images.githubusercontent.com/94720207/196731501-0e81d2a3-c23e-4f7a-a2df-1ea396bba0c8.png) _@ Russel Rahman_
 
 
 
