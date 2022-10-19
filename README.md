@@ -2257,14 +2257,27 @@ _PDUs & SDUs travel the OSI layer from top to layer 1 PMD, in layer 1 is modulat
 
 
 
-
+- [Adjacent Channel & Co-Channel Examples with pics!](https://support.accessagility.com/hc/adjacent-channel-interference-and-the-real-evil-behind-it)
 - [Co-Channel Interference - Same channel full overlap](https://user-images.githubusercontent.com/94720207/196592175-f69d0dca-bef2-45a4-9433-94a7f0510d92.png)
-- [Adjacentg Channel Interference - Other channel partially overlaped](https://user-images.githubusercontent.com/94720207/196592230-9a7e32fd-3034-4d17-9f07-479decf524ab.png)
+- [Adjacent Channel Interference - Other channel partially overlaped](https://user-images.githubusercontent.com/94720207/196592230-9a7e32fd-3034-4d17-9f07-479decf524ab.png)
 
 
 
 
 
+- [`Spectral Mask` - 802.11ac example](https://www.rfwireless-world.com/Tutorials/802-11ac-spectral-mask.html)
+
+
+
+
+
+- [VSWR | S11 | Return Loss](https://www.youtube.com/watch?v=jgjaFzsYd88) _@ inside wireless_
+- [Understanding VSWR & Return Loss](https://www.youtube.com/watch?v=BijMGKbT0Wk) _@ Rohde Schwarz_
+    - [`VSWR` - Voltage Standing Wave Ratio - ideal 1:1 - Antenna impedance & Cable impedance missmatch | provokes return loss](https://www.koax24.de/es/servicio/glosario/vswr.html) _@ Koax 24_
+    - [`Retrun Loss` - An impedance mismatch between components in the RF system]()
+    - [`S11` AKA `Reflection Coefficient` | ideal: **- ∞** | **-20 = very good!** | **-10 accepted standard**]()
+        - [Understanding `S-Parameters`](https://www.youtube.com/watch?v=-Pi0UbErHTY) _@ Rohde Schwarz_
+        - [`S-parameters` - input-output relationship between ports (or terminals) in an electrical system](https://www.antenna-theory.com/definitions/sparameters.php#:~:text=S11%20represents%20how%20much%20power,antenna%20and%20nothing%20is%20radiated.) 
 
 
 
