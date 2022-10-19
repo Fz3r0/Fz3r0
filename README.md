@@ -1480,9 +1480,10 @@ _Deep dive into the Packet / PCAP Analysis... & Sharks a lot of sharks!_
 ### CWNA & CWNP Exam Practice
 
 - [VCE Exam Simulator](https://www.avanset.com/products.html)  _Paid $$$_
-- [¿ómo instalar VCE?](https://www.youtube.com/watch?v=z_J4qiofiVk) _guiño guiño ;)_
+- [¿ómo instalar VCE?](https://www.youtube.com/watch?v=z_J4qiofiVk)
 - [CWNP CWNA-108 Exam @ Exam Labs](https://www.exam-labs.com/dumps/CWNA-108) _Paid $$$_
 - [CWNP CWSP-206 Exam @ Exam Labs](https://www.exam-labs.com/dumps/CWSP-206) _Paid $$$_
+- [CWNP CWNA-108 @ NWexam](https://www.nwexam.com/exam-store/cwna-108-cwnp-wireless-network-administrator-cwna) _Paid $$$_
 - [CWNP CWNA-108 800 Question Bank](https://www.nwexam.com/exam-store/cwna-108-cwnp-wireless-network-administrator-cwna) _$25_
 - [(CWNA-108) Exam @ ITExams](https://www.itexams.com/info/CWNA-108) _Free_
 - [Free CWNA-108 Exam @ Braindumps](https://free-braindumps.com/cwnp/free-cwna-108-braindumps.html) _Free_
@@ -2257,7 +2258,8 @@ _PDUs & SDUs travel the OSI layer from top to layer 1 PMD, in layer 1 is modulat
 
 
 
-
+- [Co-Channel Interference - Same channel full overlap](https://user-images.githubusercontent.com/94720207/196592175-f69d0dca-bef2-45a4-9433-94a7f0510d92.png)
+- [Adjacentg Channel Interference - Other channel partially overlaped](https://user-images.githubusercontent.com/94720207/196592230-9a7e32fd-3034-4d17-9f07-479decf524ab.png)
 
 
 
