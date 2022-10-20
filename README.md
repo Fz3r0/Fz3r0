@@ -1468,10 +1468,15 @@ _Deep dive into the Packet / PCAP Analysis... & Sharks a lot of sharks!_
 - [PoE classes table](https://user-images.githubusercontent.com/94720207/196784320-4ec4613c-b1b1-49ab-9e21-a3b0f49d8634.png)
 - [PoE Modes & Pairs used](https://user-images.githubusercontent.com/94720207/196829931-af22bfd0-f4ce-4fda-9b8d-248129d4ef7b.png)
 - [802.11g Modes & Protection Mechanisms](https://user-images.githubusercontent.com/94720207/197022560-089fa896-50fe-4480-82c0-0587b009e2ca.png)
-- [Wiresharl WLAN cheatsheet](https://semfionetworks.com/wp-content/uploads/2021/04/wireshark_802.11_filters_-_reference_sheet.pdf) _lo vuelvo a poner...again!_
+- [Wireshark WLAN cheatsheet](https://semfionetworks.com/wp-content/uploads/2021/04/wireshark_802.11_filters_-_reference_sheet.pdf) _lo vuelvo a poner...again!_
 - [MCS Table & How to use it!](https://wlanprofessionals.com/mcs-table-and-how-to-use-it/)
     - [MCS Index Table - Modulation and Coding Scheme Index 11n, 11ac, and 11ax](https://mcsindex.com/)
-
+- [WiFi `2.4 GHz` Allocation ](https://user-images.githubusercontent.com/94720207/197069600-86beca4c-8f9e-471b-a6f6-5f53e59caf17.png)
+- [U-NNI Channels Simplified Cheatsheet](https://user-images.githubusercontent.com/94720207/197069466-5471ddc6-93f0-42af-958a-d4ba8e4644bc.png)
+    - [WiFi Channel Allocation | U-NNI Channels & MHz used](https://user-images.githubusercontent.com/94720207/197068468-637e8b72-44c2-4581-83d0-be87f764bfb8.png)
+    - [WiFi Channel Allocation | U-NNI Channels & MHz used PT 2](https://user-images.githubusercontent.com/94720207/197068764-59c0509a-17a6-4cc3-8918-0cd155ea82ca.png)
+    - [WiFi `5 GHz` Allocation | U-NNI Channels & MHz used](https://user-images.githubusercontent.com/94720207/197069225-185e5349-6446-4344-8c06-aff9a17f0d3c.png)
+    - [WiFi `6 GHz` Allocation | U-NNI Channels & MHz used](https://user-images.githubusercontent.com/94720207/197069005-fcdf44d2-c7a4-4a26-a2dc-abc74202f213.png)
 
 ### WiFi & Wireless Courses
 
