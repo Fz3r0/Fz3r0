@@ -1457,8 +1457,10 @@ _Deep dive into the Packet / PCAP Analysis... & Sharks a lot of sharks!_
 
 ### 802.11 Wireless Cheatsheets
 
+- [Cheatsheet collection](https://networkwalks.com/networkwalks-summary-cheatsheets/)
 - [IEEE 802.11 Full Cheatsheet](https://packetlife.net/media/library/4/IEEE_802.11_WLAN.pdf)
 - [IEEE 802.11 PHY Standards Cheat Sheet](https://hrwifi.wordpress.com/2018/04/16/ieee-802-11-phy-standards-cheat-sheet/)
+- [802.11 Cheatsheet (semi-full)](https://user-images.githubusercontent.com/94720207/197025329-fb1eb1de-855f-406d-b0a7-a3bf4b32fa22.png)
 - [Scapy Packets for 802.11 Cheatsheet](https://2.bp.blogspot.com/-R6yd_OLf5_8/Wtu-R4dUoPI/AAAAAAAAHxo/Po6e1OOdSBEqf2_4UEK1mXTwFDguE8OvwCPcBGAYYCw/s1600/Scapy_Cheat_Sheet_Graphic.png)
 - [WiFi versions Cheatsheet](https://pbs.twimg.com/media/EYdqyjxWsAE8wIt.png)
 - [RF fundamentals cheatsheet](https://i2.wp.com/keepcalmandping.online/wp-content/uploads/2020/02/RF.png?fit=882%2C1024&ssl=1)
@@ -1467,7 +1469,8 @@ _Deep dive into the Packet / PCAP Analysis... & Sharks a lot of sharks!_
 - [PoE Modes & Pairs used](https://user-images.githubusercontent.com/94720207/196829931-af22bfd0-f4ce-4fda-9b8d-248129d4ef7b.png)
 - [802.11g Modes & Protection Mechanisms](https://user-images.githubusercontent.com/94720207/197022560-089fa896-50fe-4480-82c0-0587b009e2ca.png)
 - [Wiresharl WLAN cheatsheet](https://semfionetworks.com/wp-content/uploads/2021/04/wireshark_802.11_filters_-_reference_sheet.pdf) _lo vuelvo a poner...again!_
-- [MCS Index Table - Modulation and Coding Scheme Index 11n, 11ac, and 11ax](https://mcsindex.com/)
+- [MCS Table & How to use it!](https://wlanprofessionals.com/mcs-table-and-how-to-use-it/)
+    - [MCS Index Table - Modulation and Coding Scheme Index 11n, 11ac, and 11ax](https://mcsindex.com/)
 
 
 ### WiFi & Wireless Courses
