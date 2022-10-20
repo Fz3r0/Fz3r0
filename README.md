@@ -1464,6 +1464,8 @@ _Deep dive into the Packet / PCAP Analysis... & Sharks a lot of sharks!_
 - [RF fundamentals cheatsheet](https://i2.wp.com/keepcalmandping.online/wp-content/uploads/2020/02/RF.png?fit=882%2C1024&ssl=1)
 - [PoE parameters Comparation: Modes, Power, Cabling & more!](https://user-images.githubusercontent.com/94720207/196784101-a08cebcd-217a-4bba-be1f-b5b494a2a568.png)
 - [PoE classes table](https://user-images.githubusercontent.com/94720207/196784320-4ec4613c-b1b1-49ab-9e21-a3b0f49d8634.png)
+- [PoE Modes & Pairs used](https://user-images.githubusercontent.com/94720207/196829931-af22bfd0-f4ce-4fda-9b8d-248129d4ef7b.png)
+
 - [Wiresharl WLAN cheatsheet](https://semfionetworks.com/wp-content/uploads/2021/04/wireshark_802.11_filters_-_reference_sheet.pdf) _lo vuelvo a poner...again!_
 
 ### WiFi & Wireless Courses
