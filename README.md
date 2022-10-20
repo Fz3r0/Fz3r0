@@ -2277,8 +2277,8 @@ _PDUs & SDUs travel the OSI layer from top to layer 1 PMD, in layer 1 is modulat
 - [Wireless Frame Types: Control, Management & Data](https://user-images.githubusercontent.com/94720207/196796080-acdc7224-7c12-47b2-83d6-a54a0e444dcf.png)
 - [Wireless (WiFi) Frames - Three Types to Understand](https://www.youtube.com/watch?v=PCpnRqKCWCQ)
 
-    - [`Management Frames` - Operations & Infraestructure](https://user-images.githubusercontent.com/94720207/196796275-627fcdd4-6577-4ee9-a6a5-ebc1ea2de4ab.png) _Picture_
-    - [`Control Frames` - RTS/CTS | ACK | Block-ACK - Configuration & Monitoring](https://user-images.githubusercontent.com/94720207/196797041-5900b677-e578-437a-a424-6edb22fa22c2.png) _@ Metageek_
+    - [`Management Frames` - Configuration & Monitoring](https://user-images.githubusercontent.com/94720207/196796275-627fcdd4-6577-4ee9-a6a5-ebc1ea2de4ab.png) _Picture_
+    - [`Control Frames` - RTS/CTS | ACK | Block-ACK - Operations & Infraestructure](https://user-images.githubusercontent.com/94720207/196797041-5900b677-e578-437a-a424-6edb22fa22c2.png) _@ Metageek_
     - [`Data Frames` - Data | QoS | Null Data - User Data (etc)](https://user-images.githubusercontent.com/94720207/196798368-0f3240f1-7075-400f-b4b7-64f5a63ebc19.png)
  _@ Metageek_
 
