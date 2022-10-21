@@ -775,6 +775,8 @@ _`OFDM vs FDM` - More bandwith & Higher Data Transmission Rate than FDM due Orth
     - [`256 QAM` 2011 (2014) | 64 points per cuadrant = `8 bits` | `WiFi5 802.11ac` = 256 QAM _(5/6)_](https://user-images.githubusercontent.com/94720207/197286283-6fb740a5-bd0b-4a19-8adf-06d52f54753d.png)
     - [`1024 QAM` 2019 | 256 points per cuadrant = `10 bits` | `WiFi6 802.11ax` = 1024 QAM _(5/6)_](https://user-images.githubusercontent.com/94720207/197286283-6fb740a5-bd0b-4a19-8adf-06d52f54753d.png)
     - [`Coding rate` = `1/2`, `3/4`, `5/6` ??? | 3 for data | 1 for error protection data](https://user-images.githubusercontent.com/94720207/197293234-0d397fc3-e692-4ff1-a788-fc000af76de8.png)
+    - [IEEE 802.11 n/ac `Coding Scheme` / `Coding rates`](https://user-images.githubusercontent.com/94720207/197305897-2767405f-2881-4d21-bffe-bbc9e8cae23a.png)
+
 - [MCS Index VS Output power](https://www.youtube.com/watch?v=lPDNG1mjeq8)
 - [More QAM = More MCS (points) = Less Distance = More SNR Requiered - **No more confusion ;)**](https://user-images.githubusercontent.com/94720207/197291390-7346a737-a929-4b3c-9e33-18128176656a.png)
 - [The lower the Amplitude = The more the SNR!](https://user-images.githubusercontent.com/94720207/197291955-d2f467f9-820f-4400-9260-141ec3c01ca4.png)
