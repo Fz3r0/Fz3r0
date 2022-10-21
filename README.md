@@ -590,7 +590,7 @@ _**WLAN** Medium Access Control (MAC) and Physical Layer (PHY) Specifications_
 - [IEEE 802.11 PHY standards cheatsheet](https://user-images.githubusercontent.com/94720207/197209282-e3c8816b-c988-4b62-a92e-8efa102abb7d.png)
 - [IEEE 802.11 PHY standards cheatsheet PT.2](https://user-images.githubusercontent.com/94720207/197209693-2f7cb154-8d69-4e53-96f9-31eadc1d4570.png)
 
-## Praise the Sun: `Wireless`
+## ☀️ 🛡️ 🔥 Praise the Sun!  `Wireless` 🔥 🛡️ ☀️
 
 _"I am Solaire of Astora, an adherent to the Lord of Sunlight. Now that I am Undead, I have come to this great land, the birthplace of Lord Gwyn, to seek my very own sun!" Thanks @ Sunny Classroom :)_
 
@@ -598,17 +598,17 @@ _"I am Solaire of Astora, an adherent to the Lord of Sunlight. Now that I am Und
 
 - [Why do we need modulation during transmission?](https://youtu.be/dvGcCk1vbjk) _@ Sunny_
 
-<!-- AM VS FM -->
-
-- [`AM` vs `FM` Modulations](https://youtu.be/I0jdIvwkiDI) _@ Sunny_ <br>
-_`AM:` lower Freq = larger = far transmission, news channels, more noise (due amplitude moves)_ <br>
-_`FM:` high Freq = smaller = more data, less distance, music, less noise no-static (static amplitude)_
-
 <!-- ANALOG VS DIGITAL -->
 
 - [`Analog` vs `Digital`](https://youtu.be/gGxpUZ_iuYA) _@ Sunny_ <br>
 _`Analog` - Sun, light, sounds, colors | Smooth & Continious (no "steps") | Noise Amplification_ <br>
 _`Digital` - 1 & 0 | Discrete Steps (a lot! no infinite tho) | Digital Signal = Pulse Wave | Original Regen_
+
+<!-- AM VS FM -->
+
+- [`AM` vs `FM` Modulations - **(Analog Modulation)**](https://youtu.be/I0jdIvwkiDI) _@ Sunny_ <br>
+_`AM` - lower Freq = larger = far transmission, news channels, more noise (due amplitude moves)_ <br>
+_`FM` - high Freq = smaller = more data, less distance, music, less noise no-static (static amplitude)_
 
 <!-- TDM, STATISTICAL TDM & FDM -->
 
@@ -621,21 +621,49 @@ _`Broadband FDM` - Multi-transmit, share 1 channel at diff Freqs | ej. **`RF`**,
 
 <!-- OFDM - ORTHOGONAL FREQUENCY DIVISION MULTIPLEXING -->
 
-- [`OFDM` - Orthogonal Frequency Division Multiplexing](https://youtu.be/KCHO7zlU25Q) _@ Sunny_ <br>
+- [`OFDM` - Orthogonal Frequency Division Multiplexing - _**(Analog Modulation)**_](https://youtu.be/KCHO7zlU25Q) _@ Sunny_ <br>
 _Based on `FDM` | Multiple Users share 1 single link | **OFDM = variation of FDM** ;)_ <br>
 _latest `Wireless` & `Telecom` Standards| WiFi 802.11ac, 4g, 5g, WiMAX, satellite & more_ <br>
-_`FDM` = Multiple Freqs not interfering with each other (guard band / space in adjacent channs)_
-_`OFDM` = Multiple Freqs "pushed in" = overlapped in same bandwith | more data than FDM_
-_`Orthogonal` - For interference avoid! due overlap | waves use independent spaces matching only at 0 point/null_ 
+_`FDM` - Multiple Freqs not interfering with each other (guard band / space in adjacent channs)_ <br>
+_`OFDM` - Multiple Freqs "pushed in" = overlapped in same bandwith | more data than FDM_ <br>
+_`Orthogonal` - For interference avoid! due overlap | waves use independent spaces matching only at 0 point/null_ <br> 
 _`OFDM vs FDM` - More bandwith & Higher Data Transmission Rate than FDM due Orthogonal capacity_
 
+<!-- DIGITAL MODULATION: ASK, FSK, AND PSK -->
 
+- [`Digital modulation` - ASK, FSK, and PSK - _**(Digital Modulation)**_](https://youtu.be/qGwUOvErR8Q)
+    - [`ASK` - Amplitude Shift Keying](https://user-images.githubusercontent.com/94720207/197251539-77dab9d7-80e2-44c7-a8c1-cce567f2b96c.png) _Same Freq & Amplitude changes = ASK signals_
+    - [`FSK` - Frequency Shift Keying](https://user-images.githubusercontent.com/94720207/197252009-8f3a40fc-9952-4bbf-96ed-6af781221024.png) _1 value = higher freq | 0 value = lower freq_
+    - [`PSK` Phase Shift Keying](https://user-images.githubusercontent.com/94720207/197253324-78c2bd30-10d1-4b82-b8cc-526768defa94.png) _Change phase everytime the value 0 or 1 changes_
 
+<!-- PCM - Analog to digital conversion -->
 
+- [`PCM` - Pulse Code Modulation | **For Analog to Digital conversion** | _composed of 3 steps:_](https://youtu.be/HlGJ6xxbz8s)
+1. _**`Sampling` - Take samples to reconstruct original signal | steps like ableton sample-rate waves :)**_
+    - _`PAM` - Pulse Amplitude Modulation | The result of all discrete sample values (AKA discrete steps)_
+    - _`Sample Rate` - Number of samples per second (or steps!)_
+    - _`Sample Rate Standards` - Phone 8KHz | VoIP 16 KHz | Audio 44 KHz (44,100 samples per sec)_
+2. `Quantizing` - 
+3.  `Encoding`
+
+<!-- Pendiente, no importante por ahora.... -->
 
 - [DSSS - Direct Sequence Spread Spectrum](https://www.youtube.com/watch?v=-1mxYWvfVWQ) _@ Sunny_
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+- [Wave - Amplitude, Crest & Trough](https://user-images.githubusercontent.com/94720207/197251058-03646b14-1447-496e-866a-aa6230772d1e.png)
 
 #### IEEE 802.11-2016 Ratified Amendments (Task Groups)
 _New task groups were assembled to address potential enhancements to the 802.11 standard._
