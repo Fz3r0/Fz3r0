@@ -2458,6 +2458,9 @@ channel selection
 - [TKIP - Temporal Key Integrity Protocol - Replace WEP encryption | 128bit, 64bit message integrity, 48-bit IV](https://en.wikipedia.org/wiki/Temporal_Key_Integrity_Protocol)
 
 
+--- 
+
+- [Antenna Beamwidht](https://www.youtube.com/watch?v=TlMCMer2jkg) _@ Inside Wireless_
 
 
 
