@@ -948,6 +948,7 @@ _Modelos de referencia para los protocolos de la red y la interconexión y comun
 - [IP Protocol Numbers - IPv4 Headers](https://en.wikipedia.org/wiki/List_of_IP_protocol_numbers)
 - [Three categories of TCP/UDP port numbers (Well known, registered, dynamic/private) @ Sunny](https://www.youtube.com/watch?v=dSO7XI_HOmY&t=1s)
 - [TCP/UDP Port Number IANA list @ Python - WhatPortIs](https://github.com/Fz3r0/whatportis)
+- [Puertos TCP y UDP que se usan en los productos de software de Apple](https://support.apple.com/es-lamr/HT202944) _@ Apple_
 
 ## `IPv4` Internet Protocol version 4
 
