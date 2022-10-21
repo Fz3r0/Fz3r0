@@ -672,7 +672,11 @@ _"I am Solaire of Astora, an adherent to the Lord of Sunlight. Now that I am Und
             - `1 GB` - Gigabit WiFi (Up to 7 Giga theorically)
             - _Wave 1 2014 & Wave 2 2016_ 
 
+- [OFDMA vs. MU-MIMO - WiFi6 802.11ac](https://www.youtube.com/watch?v=jU_hacMiUAc) _@ Eye on Tech_
+    - `MU-MIMO WiFi 5 vs WiFi 6` = 8 data streams (instead of 4) on each antenna 
+        - `Reduce bandwith waste` = Divide Wireless channel intro subarriers, dividen into smaller units
 
+---
 
 
 
