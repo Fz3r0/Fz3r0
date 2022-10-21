@@ -2460,8 +2460,12 @@ channel selection
 
 --- 
 
+- [How RF coverage works](https://www.youtube.com/watch?v=cKxCfZ36HmM)
+- [Antenna Gain | dBi](https://www.youtube.com/watch?v=errdGMyQF6k)
+- [Basics of Antennas and Beamforming - Massive MIMO Networks](https://www.youtube.com/watch?v=xGkyZw98Tug)
 - [Antenna Beamwidht](https://www.youtube.com/watch?v=TlMCMer2jkg) _@ Inside Wireless_
-
+- [Side Lobes](https://www.youtube.com/watch?v=-8cqPkhExcE)
+- [Fresnel Zones](Inside Wireless: Zonas de Fresnel)
 
 
 
