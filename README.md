@@ -747,15 +747,29 @@ _`OFDM vs FDM` - More bandwith & Higher Data Transmission Rate than FDM due Orth
 
 <!-- QAM MODULATION - QUADRATURE AMPLITUDE MODULATION -->
 
-- [`QAM modulation` - Quadrature Amplitude Modulation - _**Digital & Analog Modulation**_](https://www.youtube.com/watch?v=IbUflaeJcU8)
+- [`QAM modulation` - Quadrature Amplitude Modulation -  **Digital & Analog Modulation**_](https://www.youtube.com/watch?v=IbUflaeJcU8)
+- [`QAM modulation` -PT2: `The Modulator`](https://youtu.be/YnWCRUoTEAI)
+- [`QAM symbol` - just the binary space... easy!](https://user-images.githubusercontent.com/94720207/197290406-ea9bbfe7-7365-4882-b489-986d105450ee.png)
+- [QAM Symbol](https://user-images.githubusercontent.com/94720207/197289387-73082a0e-901c-44e0-bf0b-0ef7dcdba5e9.png)
+- [`MCS` rates - Modulation Coding Scheme - Point per Cuadrant](https://www.youtube.com/watch?v=f6zesWNDGXc)
 - [`What is QAM?` | **Analog** = AM Radios | **Digital** = Data, WiFi, Phone, etc](https://www.techtarget.com/searchnetworking/definition/QAM) 
-- [Wi-Fi 4/5/6/6E (802.11 **`n/ac/ax`**)](https://www.duckware.com/tech/wifi-in-the-us.html) _@ duckware_
 - _Most common modulation of new technolgy of Radios use to encode info into RF wave_ 
+- _Uses `Phase modulation` + `Amplitude modulation` at same time_
+- _The higher `MCS` (Modulation Coding Scheme) rate, the higher `SNR` needed (cuz' interference susceptible)_
+- [Wi-Fi 4/5/6/6E (802.11 **`n/ac/ax`**)](https://www.duckware.com/tech/wifi-in-the-us.html) _@ duckware_
 - [QAM modulation cheatsheet](https://user-images.githubusercontent.com/94720207/197285711-bc72d114-a7a1-4893-a339-a9d9c64043b1.png)
+- [QAM Constellation Diagram | Clickie!!!](https://user-images.githubusercontent.com/94720207/197289613-6ecbfb20-931d-42fe-86cd-aeead3e91dca.png)
+    - [`4 QAM` = `QPSK`]()
     - [`64 QAM` 1999-2006 | 16 points per cuadrant = `6 bits` | Legacy `802.11b/a/g` = 64 QAM _(3/4)](https://user-images.githubusercontent.com/94720207/197286283-6fb740a5-bd0b-4a19-8adf-06d52f54753d.png)
     - [`64 QAM` 2007 | 16 points per cuadrant = `6 bits` | `WiFi4 802.11n` = 64 QAM _(5/6)_](https://user-images.githubusercontent.com/94720207/197286283-6fb740a5-bd0b-4a19-8adf-06d52f54753d.png)
     - [`256 QAM` 2011 (2014) | 64 points per cuadrant = `8 bits` | `WiFi5 802.11ac` = 256 QAM _(5/6)_](https://user-images.githubusercontent.com/94720207/197286283-6fb740a5-bd0b-4a19-8adf-06d52f54753d.png)
     - [`1024 QAM` 2019 | 256 points per cuadrant = `10 bits` | `WiFi6 802.11ax` = 1024 QAM _(5/6)_](https://user-images.githubusercontent.com/94720207/197286283-6fb740a5-bd0b-4a19-8adf-06d52f54753d.png)
+- [MCS Index VS Output power](https://www.youtube.com/watch?v=lPDNG1mjeq8)
+- [More QAM = More MCS (points) = Less Distance = More SNR Requiered - **No more confusion ;)**](https://user-images.githubusercontent.com/94720207/197291390-7346a737-a929-4b3c-9e33-18128176656a.png)
+- [The lower the Amplitude = The more the SNR!](https://user-images.githubusercontent.com/94720207/197291955-d2f467f9-820f-4400-9260-141ec3c01ca4.png)
+- [High MCS = High SNR = High Power not OK!!!](https://user-images.githubusercontent.com/94720207/197292805-0dd5be58-4149-4134-837e-184e40d41f76.png)
+
+    
 
 ---
 
