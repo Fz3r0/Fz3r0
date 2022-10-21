@@ -647,6 +647,7 @@ _"I am Solaire of Astora, an adherent to the Lord of Sunlight. Now that I am Und
 
 - [The Evolution of IEEE 802 11 standards - _BAG NAC_+ AX | Layer 1 (PHY) & Layer 2 (MAC)](https://youtu.be/qZLPq5mebFM) _@ Sunny_
     - [**`BAG NAC` `+ AX` - Big Awful Gym Needs AC ;) AX cuz' 2022... - The Table by the MAESTRO Sunny**](https://user-images.githubusercontent.com/94720207/197258736-4971bccf-1c0c-4903-93d2-1f45aaee5af1.png)
+    - [**Updated by Commscope & Fz3r0 Archeology**](https://user-images.githubusercontent.com/94720207/197279696-5662670c-f12b-416a-9b6a-6dac669a4e78.png)
     - `3 shared` common **features** in **all `5 standards`**
         1. `Half Duplex` - Transmit or Recieve
         2. `Freq bands` - They all use 2.4 GHz or 5 GHz
@@ -657,10 +658,18 @@ _"I am Solaire of Astora, an adherent to the Lord of Sunlight. Now that I am Und
         - `802.11a` - 1999 `WiFi 2` | _5 GHz_ | Mod: `OFDM` | _Rarely used_ 
         - `802.11g` - 2003 `WiFi 3` | 2.4 GHz | Mod: `OFDM` | _Compatible with 802.11b *cuz' 2.4 GHz ;)_ 
     - **`N AC`** _"Naco" = "lo chido" (new technology **from WiFi4 to actual**)_
-        - `802.11n` - 2009 `WiFi 4` | 2.4 & 5 GHz | Mod: `OFDM` | _Backwards compatible with ALL " BAG" ;)_ <br>
-           - `MIMO` capabilities (802.11n) - Exploit Multipath for good!
-           - `Channel Bondig` - Combines 2 narrow bands into 1 larger band | Double the Bandwith
-           - ``
+        - `802.11n` - 2009 `WiFi 4` | 2.4 & 5 GHz | Mod: `OFDM` | _Backwards compatible with ALL " BAG" ;)_ 
+            - `MIMO` capabilities (802.11n) - Exploit Multipath for good!
+            - `Channel Bondig` - Combines 2 narrow bands into 1 larger band | Double the Bandwith
+            - `Frame Aggregation` - Combines small frames into one large frame | Reduces Overhead
+        - `802.11ac` - 2014 `WiFi 5` | 5 GHz | Mod: `MIMO-OFDM` | _Backwards compatible with ALL " BAG" ;)_ 
+            - `MU-MIMO` capabilities (802.11ac) - Multiple User MIMO!
+            - `1 GB` - Gigabit WiFi (Up to 7 Giga theorically)
+            - _Wave 1 2014 & Wave 2 2016_ 
+        - `802.11ax` - 2014 `WiFi 6` | 5 GHz | Mod: `OFDM` & `OFDMA` | _Backwards compatible with ALL " BAG" ;)_ 
+            - `MU-MIMO` capabilities (802.11ac) - Multiple User MIMO!
+            - `1 GB` - Gigabit WiFi (Up to 7 Giga theorically)
+            - _Wave 1 2014 & Wave 2 2016_ 
 
 
 
@@ -1639,6 +1648,7 @@ _Deep dive into the Packet / PCAP Analysis... & Sharks a lot of sharks!_
 - [IEEE 802.11 Full Cheatsheet](https://packetlife.net/media/library/4/IEEE_802.11_WLAN.pdf)
 - [IEEE 802.11 PHY Standards Cheat Sheet](https://hrwifi.wordpress.com/2018/04/16/ieee-802-11-phy-standards-cheat-sheet/)
 - [802.11 Cheatsheet (semi-full)](https://user-images.githubusercontent.com/94720207/197025329-fb1eb1de-855f-406d-b0a7-a3bf4b32fa22.png)
+- [**802.11 BAG NAC AX | Full table!!! - Fz3r0 Archeology**](https://user-images.githubusercontent.com/94720207/197279696-5662670c-f12b-416a-9b6a-6dac669a4e78.png)
 - [Scapy Packets for 802.11 Cheatsheet](https://2.bp.blogspot.com/-R6yd_OLf5_8/Wtu-R4dUoPI/AAAAAAAAHxo/Po6e1OOdSBEqf2_4UEK1mXTwFDguE8OvwCPcBGAYYCw/s1600/Scapy_Cheat_Sheet_Graphic.png)
 - [WiFi versions Cheatsheet](https://pbs.twimg.com/media/EYdqyjxWsAE8wIt.png)
 - [RF fundamentals cheatsheet](https://i2.wp.com/keepcalmandping.online/wp-content/uploads/2020/02/RF.png?fit=882%2C1024&ssl=1)
