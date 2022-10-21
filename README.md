@@ -2455,7 +2455,7 @@ channel selection
 
 ---
 
-- [TKIP - Temporal Key Integrity Protocol -  Replace WEP encryption without replacement of legacy hw | 128bit, 64bit message integrity](https://en.wikipedia.org/wiki/Temporal_Key_Integrity_Protocol)
+- [TKIP - Temporal Key Integrity Protocol - Replace WEP encryption | 128bit, 64bit message integrity, 48-bit IV](https://en.wikipedia.org/wiki/Temporal_Key_Integrity_Protocol)
 
 
 
