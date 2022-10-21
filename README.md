@@ -594,6 +594,15 @@ _**WLAN** Medium Access Control (MAC) and Physical Layer (PHY) Specifications_
 
 _"I am Solaire of Astora, an adherent to the Lord of Sunlight. Now that I am Undead, I have come to this great land, the birthplace of Lord Gwyn, to seek my very own sun!" Thanks @ Sunny Classroom :)_
 
+<!-- THE EVOLUTION OF IEEE 802 11 STANDARDS - BAG NAC -->
+
+- [The Evolution of IEEE 802 11 standards - _BAG NAC_ | Layer 1 (PHY) & Layer 2 (MAC)](https://youtu.be/qZLPq5mebFM) _@ Sunny_
+    - [**`BAG NAC` - Big Awful Gym Needs AC ;) - The Table by the MAESTRO Sunny**](https://user-images.githubusercontent.com/94720207/197258736-4971bccf-1c0c-4903-93d2-1f45aaee5af1.png)
+    - `3 shared` common **features** in **all `5 standards`**
+    1. `Half Duplex` - Transmit or Recieve
+    2. `Freq bands` - They all use 2.4 GHz or 5 GHz
+    3. `Medium Access` - They all use CSMA/CA
+
 <!-- WHY DO WE NEED MODULATION DURING TRANSMISSION? -->
 
 - [Why do we need modulation during transmission?](https://youtu.be/dvGcCk1vbjk) _@ Sunny_
