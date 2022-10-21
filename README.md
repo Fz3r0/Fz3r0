@@ -641,7 +641,7 @@ _**WLAN** Medium Access Control (MAC) and Physical Layer (PHY) Specifications_
 
 ## ☀️ 🛡️ 🔥 Praise the Sun!  `Wireless` 🔥 🛡️ ☀️
 
-_"I am Solaire of Astora, an adherent to the Lord of Sunlight. Now that I am Undead, I have come to this great land, the birthplace of Lord Gwyn, to seek my very own sun!" Thanks @ Sunny Classroom :)_
+_"I am Solaire of Astora, an adherent to the Lord of Sunlight. Now that I am Undead, I have come to this great land, the birthplace of Lord Gwyn, to seek my very own sun!" _
 
 <!-- THE EVOLUTION OF IEEE 802 11 STANDARDS - BAG NAC + AX-->
 
@@ -651,15 +651,24 @@ _"I am Solaire of Astora, an adherent to the Lord of Sunlight. Now that I am Und
         1. `Half Duplex` - Transmit or Recieve
         2. `Freq bands` - They all use 2.4 GHz or 5 GHz
         3. `Medium Access` - They all use CSMA/CA
-    - **`(  ) B A G`**
+    - **`(  ) B A G`** - _"The old bag..."_
         - `802.11` - 1997 `WiFi 0` (prime) | 2.4 GHz | Mod: `DSSS`, `FHSS` | _Base version_
         - `802.11b` - 1999 `WiFi 1` | 2.4 GHz | Mod: `DSSS` | _Oldest, least expensive_
         - `802.11a` - 1999 `WiFi 2` | _5 GHz_ | Mod: `OFDM` | _Rarely used_ 
         - `802.11g` - 2003 `WiFi 3` | 2.4 GHz | Mod: `OFDM` | _Compatible with 802.11b *cuz' 2.4 GHz ;)_ 
-    - **`N AC`**
+    - **`N AC`** _"Naco" = "lo chido" (new technology **from WiFi4 to actual**)_
         - `802.11n` - 2009 `WiFi 4` | 2.4 & 5 GHz | Mod: `OFDM` | _Backwards compatible with ALL " BAG" ;)_ <br>
            - `MIMO` capabilities (802.11n) - Exploit Multipath for good!
            - `Channel Bondig` - Combines 2 narrow bands into 1 larger band | Double the Bandwith
+           - ``
+
+
+
+
+
+
+
+
 
 
 
@@ -699,6 +708,13 @@ _`FDM` - Multiple Freqs not interfering with each other (guard band / space in a
 _`OFDM` - Multiple Freqs "pushed in" = overlapped in same bandwith | more data than FDM_ <br>
 _`Orthogonal` - For interference avoid! due overlap | waves use independent spaces matching only at 0 point/null_ <br> 
 _`OFDM vs FDM` - More bandwith & Higher Data Transmission Rate than FDM due Orthogonal capacity_
+- `OFDM Subcarriers`
+    - [OFDM 802 11a/g - Subcarriers](https://youtu.be/gKZ6KhXfvWU) _`IFFT` - Inverse Fast Fourier Transform_
+    - 20 MHz bandwith channels | 64 subcarriers (312.5 KHz) | BPSK, QPSK, 16QAM, 64QAM
+    - https://youtu.be/TOBFfe_-UFw - https://youtu.be/lwGsdWkfweU
+<!-- pendientes esos 2 links -->    
+
+
 
 <!-- DIGITAL MODULATION: ASK, FSK, AND PSK -->
 
@@ -1971,6 +1987,7 @@ Telsco S.A.S._
 
 ### Inverse Square Law
 
+- [Effect of Inverse Square Law on RF Propagation](https://youtu.be/dVlyiMPcwRc) _@ Leo's Tech Talk_
 - [Inverse Square Law @ Isaac Newton](https://www.youtube.com/watch?v=KARCOGT95W0) _@ mrwaynesclass_
 - [Ley del cuadrado inverso (método de desviación) | Física](https://www.youtube.com/watch?v=gUfQ_D-rn14) _@ Khan Academy_
 - [Ley del cuadrado inverso - Aplicado a Rayos X](https://www.youtube.com/watch?v=Tfqf90ITfrs) _@ Henry RX_
