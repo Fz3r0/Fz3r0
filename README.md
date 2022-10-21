@@ -682,6 +682,12 @@ _"I am Solaire of Astora, an adherent to the Lord of Sunlight. Now that I am Und
 
 
 
+- [`Wireless association` **active scanning** vs **passive scanning**, & **roaming**](https://www.youtube.com/watch?v=HPJonmd8z1c) @ Sunny
+    - _Association: Wireless devices register with an AP/router to gain full access to the (wireless) network_
+    - _Only infraestructure, no AdHoc | Wireless devices uses one og two methods to find an AP:_
+        - [Assosiation method 1 `Active Scanning`](https://user-images.githubusercontent.com/94720207/197296938-10dfd428-dde7-4de7-908f-a9b7f0a0ea22.png) _**The client/device start the search effort | APs answer | and so on...**_
+        - [Assosiation method 1 `Passive Scanning`](https://user-images.githubusercontent.com/94720207/197296938-10dfd428-dde7-4de7-908f-a9b7f0a0ea22.png) _**The client/device  sit & listens for channels | APs send beacon frames with AP info | and so on...**_
+    - [`Re-Association` & `Roaming`](https://user-images.githubusercontent.com/94720207/197297303-103d5acb-7665-4a1d-9772-ed7b406ac6b1.png) _Same ESS = same SSID so...device/client will not lose connection moving from one BSS to another ;)_
 
 
 
