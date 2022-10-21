@@ -587,12 +587,65 @@ _**WLAN** Medium Access Control (MAC) and Physical Layer (PHY) Specifications_
 - [**802.11-2020** AKA 802.11 Actual]https://standards.ieee.org/ieee/802.11/7028/) _Last update (review @ 2022)!!!_
 - [**ALL** IEEE 802.11 Standard and Amendments - Current, Draft, Withdrawn & Transferred](https://wifiwizardofoz.com/802-11-standard-and-amendments/) _Complete List (last updated 2020)!_
 - [Original 802.11 amendments comparison](https://user-images.githubusercontent.com/94720207/195222873-c469f358-fd56-489a-91a1-3fedcad650b7.png) _Table_
+- [IEEE 802.11 PHY standards cheatsheet](https://user-images.githubusercontent.com/94720207/197209282-e3c8816b-c988-4b62-a92e-8efa102abb7d.png)
+- [IEEE 802.11 PHY standards cheatsheet PT.2](https://user-images.githubusercontent.com/94720207/197209693-2f7cb154-8d69-4e53-96f9-31eadc1d4570.png)
+
+## Praise the Sun: `Wireless`
+
+_"I am Solaire of Astora, an adherent to the Lord of Sunlight. Now that I am Undead, I have come to this great land, the birthplace of Lord Gwyn, to seek my very own sun!" Thanks @ Sunny Classroom :)_
+
+<!-- WHY DO WE NEED MODULATION DURING TRANSMISSION? -->
+
+- [Why do we need modulation during transmission?](https://youtu.be/dvGcCk1vbjk) _@ Sunny_
+
+<!-- AM VS FM -->
+
+- [`AM` vs `FM` Modulations](https://youtu.be/I0jdIvwkiDI) _@ Sunny_ <br>
+_`AM:` lower Freq = larger = far transmission, news channels, more noise (due amplitude moves)_ <br>
+_`FM:` high Freq = smaller = more data, less distance, music, less noise no-static (static amplitude)_
+
+<!-- ANALOG VS DIGITAL -->
+
+- [`Analog` vs `Digital`](https://youtu.be/gGxpUZ_iuYA) _@ Sunny_ <br>
+_`Analog` - Sun, light, sounds, colors | Smooth & Continious (no "steps") | Noise Amplification_ <br>
+_`Digital` - 1 & 0 | Discrete Steps (a lot! no infinite tho) | Digital Signal = Pulse Wave | Original Regen_
+
+<!-- TDM, STATISTICAL TDM & FDM -->
+
+- [`Multiplexing:` TDM, Statistical TDM & FDM | Multiple Signals Combined Together](https://www.youtube.com/watch?v=fIZhDl35_XY)  _@ Sunny_ <br>
+_`TDM` - Time Division Multiplexing | dividing time into slots/intervals | **equally** assignment | old_ <br>
+_`STDM` - Statistical Time division Multiplexing | Analyzes stats: workload/priority & determines time will take_ <br>
+_`FDM` - Frequency Division Multiplexing | Different (analog signals) | same time on no overlapping chan_ <br>
+_ `Baseband TDM` - Transmit 1 signal at time 1&0 | ej. **`Wired / Ethernet`** | `TDM` & `STDM`_ <br>
+_ `Broadband FDM` - Multi-transmit, share 1 channel at diff Freqs | ej. **`RF`**,  **`HSIA`**, **`DSL`** | `FDM`_
+
+
+
+
+
+
+
+- [DSSS - Direct Sequence Spread Spectrum](https://www.youtube.com/watch?v=-1mxYWvfVWQ) _@ Sunny_
+
+
 
 #### IEEE 802.11-2016 Ratified Amendments (Task Groups)
 _New task groups were assembled to address potential enhancements to the 802.11 standard._
 
-- [_802.11-1997 Prime_(Obsolete)](https://en.wikipedia.org/wiki/IEEE_802.11#802.11-1997_(802.11_legacy)) **(WiFi0)** _**IR, FHSS, DSSS:** raw wifi with no QoS or cool enhancements_
-- [**802.11b**-1999](https://es.wikipedia.org/wiki/IEEE_802.11#IEEE_802.11b) **(WiFi1)** _**HR-DSSS**: higher data rates within the 2.4GHz ISM band_
+- [`802.11-1997` Prime or Legacy - IEEE Standard for WLAN MAC and PHY Specifications](https://en.wikipedia.org/wiki/IEEE_802.11#802.11-1997_(802.11_legacy)) **`WiFi0`** <br>
+_**`PHY:` FHSS(Frequency-Hopping Spread-Spectrum), DSSS(Direct-Sequence Spread-Spectrum), IR(InfraRed)**_ <br>
+_`MODU:` **FHHS** & **DSSS** @ 2.4 GHz ISM(Industrial Scientific Medical) band, 14 channels & 3 non overlapping_
+
+- [`802.11-1999`](https://wifiwizardofoz.com/802-11-standard-and-amendments/) <br>
+_**`Revision:` MIB(Management Information Base)**_ <br>
+_A minor Revision of the original 802.11-1997 standard_
+
+
+- [**802.11b**-1999](https://es.wikipedia.org/wiki/IEEE_802.11#IEEE_802.11b) **(WiFi1)** <br>
+_**`PHY:` HR-DSSS(High-Rate Direct-Sequence Spread-Spectrum), DSSS(Direct-Sequence Spread-Spectrum)**_ <br>
+_`Mod:` CCK(Complementary Code Keying), PBCC(Packet Binary Convolutional Coding)_ <br>
+_Higher Data Rates within the 2.4GHz ISM band of 5.5Mbps | Only backward compatible @ 802.11 with DSSS_
+
 - [**802.11a**-1999](https://es.wikipedia.org/wiki/IEEE_802.11#IEEE_802.11a) **(WiFi2)** _**OFDM**: (due 5GHz) on U-NII band | no communication with legacy tech | now Clause-17_
 - [**802.11d**-2001](https://es.wikipedia.org/wiki/IEEE_802.11#IEEE_802.11d) _**Country Code** Information on Beacons & Probes_
 - [**802.11g**-2003](https://es.wikipedia.org/wiki/IEEE_802.11#IEEE_802.11g) **(WiFi3)** _**Evolution of ERP**: ERP-OFDM & ERP-DSSS/CCK > for higher data rates_
