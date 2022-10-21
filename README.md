@@ -577,6 +577,7 @@ _LAN & MAN - Specific Requirements - P.3 AKA **`IEEE 802.11`**_ <br>
 _**WLAN** Medium Access Control (MAC) and Physical Layer (PHY) Specifications_
 
 - [**IEEE 802.11 Wireless** Standards @ Wikipedia](https://en.wikipedia.org/wiki/IEEE_802.11) _MAC and PHY protocols for implementing **WLAN** communication_
+- [Celebrating 25 Years of IEEE 802.11](https://www.commscope.com/blog/2016/the-theory-of-wi-fi-evolution-and-ieee-802.11-selection/) _@ Commscope_
 - [**IEEE 802.11_PHY_standards** | Table | Clickie!!!](https://wifiwizardofoz.com/wp-content/uploads/ieee_802.11_PHY_standards_v1.1.pdf) _@ wifi Wizard of Oz_
 - [WiFi Standards (and how they work)](https://youtu.be/q64AZjPfa0Y) _@ Kevin Wallace Training, LLC_
 - [Quick Guide to IEEE 802.11 Activities](https://www.ieee802.org/11/QuickGuide_IEEE_802_WG_and_Activities.htm)
@@ -743,6 +744,25 @@ _`OFDM vs FDM` - More bandwith & Higher Data Transmission Rate than FDM due Orth
 3.  `Encoding`
 
 <!-- Pendiente, no importante por ahora.... -->
+
+<!-- QAM MODULATION - QUADRATURE AMPLITUDE MODULATION -->
+
+- [`QAM modulation` - Quadrature Amplitude Modulation - _**Digital & Analog Modulation**_](https://www.youtube.com/watch?v=IbUflaeJcU8)
+- [`What is QAM?` | **Analog** = AM Radios | **Digital** = Data, WiFi, Phone, etc](https://www.techtarget.com/searchnetworking/definition/QAM) 
+- [Wi-Fi 4/5/6/6E (802.11 **`n/ac/ax`**)](https://www.duckware.com/tech/wifi-in-the-us.html) _@ duckware_
+- _Most common modulation of new technolgy of Radios use to encode info into RF wave_ 
+- [QAM modulation cheatsheet](https://user-images.githubusercontent.com/94720207/197285711-bc72d114-a7a1-4893-a339-a9d9c64043b1.png)
+    - [`64 QAM` 1999-2006 | 16 points per cuadrant = `6 bits` | Legacy `802.11b/a/g` = 64 QAM _(3/4)](https://user-images.githubusercontent.com/94720207/197286283-6fb740a5-bd0b-4a19-8adf-06d52f54753d.png)
+    - [`64 QAM` 2007 | 16 points per cuadrant = `6 bits` | `WiFi4 802.11n` = 64 QAM _(5/6)_](https://user-images.githubusercontent.com/94720207/197286283-6fb740a5-bd0b-4a19-8adf-06d52f54753d.png)
+    - [`256 QAM` 2011 (2014) | 64 points per cuadrant = `8 bits` | `WiFi5 802.11ac` = 256 QAM _(5/6)_](https://user-images.githubusercontent.com/94720207/197286283-6fb740a5-bd0b-4a19-8adf-06d52f54753d.png)
+    - [`1024 QAM` 2019 | 256 points per cuadrant = `10 bits` | `WiFi6 802.11ax` = 1024 QAM _(5/6)_](https://user-images.githubusercontent.com/94720207/197286283-6fb740a5-bd0b-4a19-8adf-06d52f54753d.png)
+
+---
+
+
+
+
+
 
 - [DSSS - Direct Sequence Spread Spectrum](https://www.youtube.com/watch?v=-1mxYWvfVWQ) _@ Sunny_
 
