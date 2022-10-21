@@ -616,10 +616,18 @@ _`Digital` - 1 & 0 | Discrete Steps (a lot! no infinite tho) | Digital Signal = 
 _`TDM` - Time Division Multiplexing | dividing time into slots/intervals | **equally** assignment | old_ <br>
 _`STDM` - Statistical Time division Multiplexing | Analyzes stats: workload/priority & determines time will take_ <br>
 _`FDM` - Frequency Division Multiplexing | Different (analog signals) | same time on no overlapping chan_ <br>
-_ `Baseband TDM` - Transmit 1 signal at time 1&0 | ej. **`Wired / Ethernet`** | `TDM` & `STDM`_ <br>
-_ `Broadband FDM` - Multi-transmit, share 1 channel at diff Freqs | ej. **`RF`**,  **`HSIA`**, **`DSL`** | `FDM`_
+_`Baseband TDM` - Transmit 1 signal at time 1&0 | ej. **`Wired / Ethernet`** | `TDM` & `STDM`_ <br>
+_`Broadband FDM` - Multi-transmit, share 1 channel at diff Freqs | ej. **`RF`**,  **`HSIA`**, **`DSL`** | `FDM`_
 
+<!-- OFDM - ORTHOGONAL FREQUENCY DIVISION MULTIPLEXING -->
 
+- [`OFDM` - Orthogonal Frequency Division Multiplexing](https://youtu.be/KCHO7zlU25Q) _@ Sunny_ <br>
+_Based on `FDM` | Multiple Users share 1 single link | **OFDM = variation of FDM** ;)_ <br>
+_latest `Wireless` & `Telecom` Standards| WiFi 802.11ac, 4g, 5g, WiMAX, satellite & more_ <br>
+_`FDM` = Multiple Freqs not interfering with each other (guard band / space in adjacent channs)_
+_`OFDM` = Multiple Freqs "pushed in" = overlapped in same bandwith | more data than FDM_
+_`Orthogonal` - For interference avoid! due overlap | waves use independent spaces matching only at 0 point/null_ 
+_`OFDM vs FDM` - More bandwith & Higher Data Transmission Rate than FDM due Orthogonal capacity_
 
 
 
