@@ -2611,7 +2611,8 @@ vamos con wireless security de una vena sale sangre
 
 - [`RBAC` - Role based access control: ¿Cómo funciona el control de acceso basado en roles?](https://www.ionos.mx/digitalguide/servidores/seguridad/que-es-el-role-based-access-control-rbac/) _@ ionos_
 
- 
+- [802.11X security types](https://user-images.githubusercontent.com/94720207/197354240-37bbd719-b6fe-408d-8f07-7143191ad55a.png)
+
  
 
 
