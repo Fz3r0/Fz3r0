@@ -279,7 +279,9 @@ Please check out the links of my Social Networks that I've placed above includin
 
 _Para mis amigos que están empezando completamente de 0, cursa una ingeniería en una hora ¡o menos! ;)_ <br>
 
-- [Computadora _(Electrónica)_- Diccionario RAE](https://dle.rae.es/computador) _¿De qué tamaño es un problema visto desde Saturno?_
+- [Computadora _(Electrónica)_- Diccionario RAE](https://dle.rae.es/computador) - Máquina electrónica que, mediante determinados programas, permite almacenar y tratar información, y **resolver problemas** de diversa índole. <br>
+_"¿De qué tamaño es un **problema**... visto desde [Saturno](https://user-images.githubusercontent.com/94720207/197360657-ea4d8359-c400-43dd-ad48-1fb74c6933f2.png)
+)? ... De ese tamaño son tus problemas."_
 - [La historia de las computadoras ¡en 2 minutos!](https://www.youtube.com/watch?v=AyT-qtwwtJY) _Todo largo camino comienza por el primer paso..._
 - [El **ábaco**](https://es.wikipedia.org/wiki/%C3%81baco) _La primer calculadora / computadora en el mundo_
 - [La historia de la calculadora](https://www.youtube.com/watch?v=4_eD0Vlrfao) _¿Habías escuchado de Luis Pascal y Charles Charles Babbage?_
