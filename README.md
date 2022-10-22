@@ -760,6 +760,7 @@ _`OFDM vs FDM` - More bandwith & Higher Data Transmission Rate than FDM due Orth
 - [`QAM modulation` - Quadrature Amplitude Modulation -  **Digital & Analog Modulation**_](https://www.youtube.com/watch?v=IbUflaeJcU8)
 - [`QAM modulation` -PT2: `The Modulator`](https://youtu.be/YnWCRUoTEAI)
 - [`QAM symbol` - just the binary space... easy!](https://user-images.githubusercontent.com/94720207/197290406-ea9bbfe7-7365-4882-b489-986d105450ee.png)
+- [QAM modulation & symbos](https://user-images.githubusercontent.com/94720207/197350649-4777b078-2dd1-4d22-b623-0164b2d3a62b.png)
 - [QAM Symbol](https://user-images.githubusercontent.com/94720207/197289387-73082a0e-901c-44e0-bf0b-0ef7dcdba5e9.png)
 - [`MCS` rates - Modulation Coding Scheme - Point per Cuadrant](https://www.youtube.com/watch?v=f6zesWNDGXc)
 - [`What is QAM?` | **Analog** = AM Radios | **Digital** = Data, WiFi, Phone, etc](https://www.techtarget.com/searchnetworking/definition/QAM) 
@@ -2583,12 +2584,55 @@ channel selection
 
 
 
+
+
+
+
+
+<!-- Nota faltan unas cosas que no se si sea bueno vayan aqui pero son temas como:
+
+vamos con wireless security de una vena sale sangre
+
+* client probe request wildcard SSID
+
+* receiving station radio sensitivity
+
+* horizontal and vertical beamwidth calculation
+
+)-->
+
+
+## Wireless Security
+
+
+- [`WPA2` - Standard that defines security of WLANs]()
+
+- [`RBAC` - Role based access control: ¿Cómo funciona el control de acceso basado en roles?](https://www.ionos.mx/digitalguide/servidores/seguridad/que-es-el-role-based-access-control-rbac/) _@ ionos_
+
  
  
 
 
 
  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
