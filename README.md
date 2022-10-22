@@ -3978,7 +3978,13 @@ Networking Labs using simulators, emulators like Packet Tracer, GNS3 & eve / and
 - **Other nerds Labs:**
 
     - Lab 01 > [AAA Docker Appliance: Easy TACACS & RADIUS GNS3 servers! @ D.Bombal](https://www.youtube.com/watch?v=EBa66YzpA4A) _GNS3_ 
-     
+
+### Packet Tracer
+
+- [Cisco ASA (Adaptive Security Appliance) - Trusted & Untrusted | easy config!](https://www.internetworks.in/2022/06/what-is-asa-firewall-how-to-configure.html?m=1) _@ Internetworks_
+- [Cisco ASA firewall - Inside | Outside | DMZ | easy config!](https://www.internetworks.in/2022/07/what-is-asa-firewall-security-zones-how.html?m=1) _@ Internetworks_
+
+
 ## 🆘 🚨 ⚠️ Network TroubleShooting & Ass-Savers ⚠️ 🚨 🆘
 T-Shoot & Incidence Response for Notworking Hardware & Software by _Fz3r0_
 
