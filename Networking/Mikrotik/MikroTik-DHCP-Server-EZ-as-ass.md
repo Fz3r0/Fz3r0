@@ -365,8 +365,24 @@ exit
 
 ## Windows VM
 
-1. La interface en VMWare se pone en `Bridge Automatic`, así la detectará dentro del laboratiorio virtual. 
-2. Ya dentro del Windows se podrá ver como neighbor desde winbox
+### 4 Pasos para entrar al Winbox
+
+**1. La interface en VMWare se pone en `Bridge Automatic`, así la detectará dentro del laboratiorio virtual.**
+
+**2. Conectar la PC que administrará el MikroTik a la interface X1 _(eth0 en este lab)_.** 
+
+- Se puede usar un switch como en este laboratiorio o como en muchos casos en un deploy real _(obviamente ambos dispositivos deben estar en la misma VLAN o con políticas de inter-comunicación...En mi caso usé mi Standard VLAN 88 Nativa para management)**_
+
+**4. Ya dentro del Windows se podrá ver como neighbor desde winbox**
+
+![image](https://user-images.githubusercontent.com/94720207/201543853-c587c9c0-d378-43a7-8da6-3235ba2e21f2.png)
+
+- Default user: `admin`
+- Pass: _(vacío)_
+- Connect!
+
+### WinBox DHCP Config:
+
 
 ## Resources
 
