@@ -473,7 +473,7 @@ exit
 
 ![image](https://user-images.githubusercontent.com/94720207/201548430-c62bb6be-08ed-4a2b-8737-daad5b25144a.png)
 
-![image](https://user-images.githubusercontent.com/94720207/201549512-76aeed7c-ebf8-400f-b552-ae12ae754869.png)
+![image](https://user-images.githubusercontent.com/94720207/201549912-ce5231a7-ed27-416f-b2e8-28830abeff5d.png)
 
 ![image](https://user-images.githubusercontent.com/94720207/201548940-5816bfa8-1a8f-415d-bc37-fc958e0a1c41.png)
 
@@ -485,20 +485,35 @@ exit
 
 ![image](https://user-images.githubusercontent.com/94720207/201549087-be56d01d-eb70-43b9-ac71-875825b72604.png)
 
-![image](https://user-images.githubusercontent.com/94720207/201549149-c7115af5-f3ca-4da0-9fd3-313108b7f7a5.png)
-
-
-
-
 - **Opción 2: de manera `Manual`
 
-1. `IP` > `Pool`
+- `IP` > `Pool`
 
 ![image](https://user-images.githubusercontent.com/94720207/201549205-054b46b9-9c04-4adb-b7a4-73cfc2866066.png)
 
-![image](https://user-images.githubusercontent.com/94720207/201549317-fac8dfc8-f017-4d0a-9dab-529353b6c7c2.png)
+- Crear la Pool:
 
-2. 
+![image](https://user-images.githubusercontent.com/94720207/201550023-85f70dd0-e27c-46a0-8d45-843276876da8.png)
+
+- Diferencias (el nombre del Wizard también se puede cambiar desde aquí y todo más fácil :D)
+
+![image](https://user-images.githubusercontent.com/94720207/201550084-58bdf6f2-8d6c-4937-8918-74c4fdaf4ef3.png)
+
+![image](https://user-images.githubusercontent.com/94720207/201550105-81c02650-7041-458d-8b1d-0e69d1b57f60.png)
+
+- Asignar la Pool a la VLAN (en este ejemplo la 20)
+
+![image](https://user-images.githubusercontent.com/94720207/201550288-0ff7fd03-2660-4782-b4af-12d0de2e284e.png)
+
+- Aquí también se puede cambiar de nombre lo que se hizo con el Wizard
+
+![image](https://user-images.githubusercontent.com/94720207/201550355-0ea53fe0-9386-4edb-a20a-c837445550dc.png)
+
+## 5. Resultado Final
+
+- Ya sea que se haya realizado Wizard o Manual al final se verá algo así:
+
+
 
 ## Resources
 
