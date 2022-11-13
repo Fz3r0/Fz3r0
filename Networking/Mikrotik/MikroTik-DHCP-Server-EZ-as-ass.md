@@ -373,7 +373,7 @@ exit
 
 - Se puede usar un switch como en este laboratiorio o como en muchos casos en un deploy real _(obviamente ambos dispositivos deben estar en la misma VLAN o con políticas de inter-comunicación...En mi caso usé mi Standard VLAN 88 Nativa para management)**_
 
-**4. Ya dentro del Windows se podrá ver como neighbor desde winbox**
+**3. Ya dentro del Windows se podrá ver como neighbor desde winbox**
 
 ![image](https://user-images.githubusercontent.com/94720207/201543853-c587c9c0-d378-43a7-8da6-3235ba2e21f2.png)
 
@@ -381,7 +381,29 @@ exit
 - Pass: _(vacío)_
 - Connect!
 
+![image](https://user-images.githubusercontent.com/94720207/201544152-12829ac7-a2a1-4d74-854c-286fd7791aff.png)
+
+- Nota:
+
+    - Ojo como la PC no tiene IPv4 asignada y de todos modos alcanzó al MikroTik, también se le puede aseignar una IP estática a ambos dispositivos y conectarse por ese medio ;). Por ahora lo dejaré así y esperaré a que la PC recibe DHCP después. 
+
 ### WinBox DHCP Config:
+
+**1. Configurar IP-Address Local (Management)**
+
+- `Quickset` > `Local Network`
+
+![image](https://user-images.githubusercontent.com/94720207/201544405-6a2711fa-0e93-4761-af7c-54e0de87a7b3.png)
+
+**2. Configurar VLANs en Interface X1**
+
+- `Interfaces` > `+`
+
+![image](https://user-images.githubusercontent.com/94720207/201544666-d0400058-ab13-4dba-9f83-eb80306e6125.png)
+
+- Configurar las VLANs (sub-interfaces), hacer lo mismo para todas las VLANs que necesitemos.
+
+![image](https://user-images.githubusercontent.com/94720207/201544785-af8580f0-cdac-4d4e-b5a7-df70fa574f7f.png)
 
 
 ## Resources
