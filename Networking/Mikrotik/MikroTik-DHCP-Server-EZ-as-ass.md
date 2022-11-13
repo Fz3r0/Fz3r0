@@ -1,6 +1,10 @@
 # MikroTik DHCP Server Config Lab
 _by [Fz3r0 💀](https://github.com/Fz3r0/)_
 
+## Topology
+
+![image](https://user-images.githubusercontent.com/94720207/201542945-eb1cd274-f02d-4058-8b87-df159cf6d20a.png)
+
 ## IP-Address Table & DHCP Configs
 
 | VLAN ID  | VLAN NAME | NETWORK ID  | CIDR | MASK          | SUBNET HOST RANGE           | TOTAL HOSTS | IP POOLS                                            | POOL IPs | RESERVED IP LEASES (STATIC)              |
