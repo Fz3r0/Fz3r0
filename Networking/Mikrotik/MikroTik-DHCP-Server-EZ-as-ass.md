@@ -139,7 +139,7 @@ interface gi 3/3
 description <<_-_TRUNK--->>>-MikroTik_DHCP_Server_-_>>
 switchport trunk encapsulation dot1q
 switchport mode trunk
-switchport trunk native vlan 99
+switchport trunk native vlan 88
 switchport trunk allowed vlan 10,20,30,88,100,200
 switchport nonegotiate
 ip dhcp snooping TRUST
