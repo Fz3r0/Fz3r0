@@ -386,13 +386,22 @@ exit
     - Ojo!!! Nótese como la PC no tiene IPv4 asignada y de todos modos alcanzó al MikroTik, esto se debe a que se conectaron via MAC-Address con la función de búsqueda del MikroTik en la Interfaz `ether 1`. 
     - También se le podríar una IP estática a ambos dispositivos y conectarse por ese medio ;). Por ahora lo dejaré así y esperaré a que la PC recibe DHCP después. 
 
-### WinBox DHCP Config:
+# WinBox DHCP Config:
 
-**1. Configurar IP-Address Local (Management)**
+## 1. Configurar IP-Address Local (Management) & System ID
 
-- `Quickset` > `Local Network`
+- `Quickset` > `Local Network` & `System`
 
 ![image](https://user-images.githubusercontent.com/94720207/201544405-6a2711fa-0e93-4761-af7c-54e0de87a7b3.png)
+![image](https://user-images.githubusercontent.com/94720207/201545830-21780c82-27fe-46cc-8834-003e8fcf112f.png)
+
+## 2. Configurar nuevo Admin
+
+- `System` > `Users`
+
+![image](https://user-images.githubusercontent.com/94720207/201546150-277a2bf2-c12a-4737-b31a-e8204a2f228e.png)
+
+![image](https://user-images.githubusercontent.com/94720207/201546093-1f23339d-0039-4bdf-a525-bccdccd3fe94.png)
 
 **2. Configurar VLANs en Interface `ether1`**
 
