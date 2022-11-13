@@ -465,7 +465,7 @@ exit
 
 ![image](https://user-images.githubusercontent.com/94720207/201546720-9d06d028-ae7d-42fa-8c33-eda0c58e8af6.png)
 
-- `DHCP Setup`
+- **Opción 1: Usando `DHCP Setup` (Wizard)
 
 ![image](https://user-images.githubusercontent.com/94720207/201548393-a3ee9758-22a2-4730-8b58-fcdda20188e9.png)
 
@@ -473,14 +473,32 @@ exit
 
 ![image](https://user-images.githubusercontent.com/94720207/201548430-c62bb6be-08ed-4a2b-8737-daad5b25144a.png)
 
-![image](https://user-images.githubusercontent.com/94720207/201548872-cd396706-06a1-4925-9113-5e644d3580fe.png)
+![image](https://user-images.githubusercontent.com/94720207/201549512-76aeed7c-ebf8-400f-b552-ae12ae754869.png)
 
 ![image](https://user-images.githubusercontent.com/94720207/201548940-5816bfa8-1a8f-415d-bc37-fc958e0a1c41.png)
 
+![image](https://user-images.githubusercontent.com/94720207/201549011-9afd45cc-dfd1-49bd-9694-e357e2c17808.png)
+
+![image](https://user-images.githubusercontent.com/94720207/201549025-b37e0dad-3f99-4ea3-ba35-bbf6a228d126.png)
+
+![image](https://user-images.githubusercontent.com/94720207/201549052-ba012011-8b00-4987-a182-9a928486c96d.png)
+
+![image](https://user-images.githubusercontent.com/94720207/201549087-be56d01d-eb70-43b9-ac71-875825b72604.png)
+
+![image](https://user-images.githubusercontent.com/94720207/201549149-c7115af5-f3ca-4da0-9fd3-313108b7f7a5.png)
 
 
 
 
+- **Opción 2: de manera `Manual`
+
+1. `IP` > `Pool`
+
+![image](https://user-images.githubusercontent.com/94720207/201549205-054b46b9-9c04-4adb-b7a4-73cfc2866066.png)
+
+![image](https://user-images.githubusercontent.com/94720207/201549317-fac8dfc8-f017-4d0a-9dab-529353b6c7c2.png)
+
+2. 
 
 ## Resources
 
