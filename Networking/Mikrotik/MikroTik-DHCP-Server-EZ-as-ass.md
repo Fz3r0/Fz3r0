@@ -509,7 +509,7 @@ exit
 
 ![image](https://user-images.githubusercontent.com/94720207/201550355-0ea53fe0-9386-4edb-a20a-c837445550dc.png)
 
-## 5. Resultado Final
+## 5. Revisión de configuración de DHCP Server
 
 - Ya sea que se haya realizado Wizard o Manual al final se verá algo así:
 
@@ -519,6 +519,7 @@ exit
 
 ### DHCP SERVER
 
+- https://www.youtube.com/watch?v=4VPqFfLdhKg (manual)
 - https://www.youtube.com/watch?v=3m6AsMdZgOE
 - https://www.youtube.com/watch?v=OVDQLD_VC7I
 - https://www.youtube.com/watch?v=yxASqrhP18Q
