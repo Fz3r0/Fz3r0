@@ -410,7 +410,11 @@ exit
 
 ![image](https://user-images.githubusercontent.com/94720207/201546093-1f23339d-0039-4bdf-a525-bccdccd3fe94.png)
 
-**2. Configurar VLANs en Interface `ether1`**
+- Se puede cambiar el password de admin o modificarlo para mayor seguridad
+
+![image](https://user-images.githubusercontent.com/94720207/201546642-7e61f5a9-0d16-4021-800c-816983e25071.png)
+
+## 2. Configurar VLANs en Interface `ether1`
 
 - `Interfaces` > `+`
 
@@ -424,6 +428,31 @@ exit
 
 ![image](https://user-images.githubusercontent.com/94720207/201545210-d676b4cf-37ba-423c-85e5-c98c5ba6c84e.png)
 
+## 3. Crear Subnets / Direcciones IPv4
+
+- `IP` > `Addresses` > `+`
+
+![image](https://user-images.githubusercontent.com/94720207/201546992-7c93ab43-8019-44c7-82a8-a83d6706c0bb.png)
+
+![image](https://user-images.githubusercontent.com/94720207/201546840-2782c91c-0b9e-446d-9837-86699ff30824.png)
+
+- Primero puedo aprovechar para seleciionar el ether1 como la Interfaz de MGMT
+
+![image](https://user-images.githubusercontent.com/94720207/201547071-47cdfa0b-c584-4416-b96a-1c53b84524e5.png)
+
+- Despúes creo todas las demás dubmet para cada VLAN respectivamente, por ejemplo:
+
+![image](https://user-images.githubusercontent.com/94720207/201547210-26de440b-482a-4590-82bb-b61d307f6224.png)
+
+- Al final quedaría algo así: _(lo verde son las VLANs y lo rosa es la ether1 física)_
+
+![image](https://user-images.githubusercontent.com/94720207/201547445-d4487d94-fd56-467f-a9b9-1c9562d7203f.png)
+
+## 4. Configurar DHCP Server
+
+- `IP` > `DHCP Server` > `+`
+
+![image](https://user-images.githubusercontent.com/94720207/201546720-9d06d028-ae7d-42fa-8c33-eda0c58e8af6.png)
 
 ## Resources
 
