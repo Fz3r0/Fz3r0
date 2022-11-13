@@ -105,8 +105,6 @@ banner login %
 %
 !
 !
-vlan 1
-name DEFAULT 
 vlan 10
 name VLAN_10_RED 
 vlan 20
@@ -385,7 +383,8 @@ exit
 
 - Nota:
 
-    - Ojo como la PC no tiene IPv4 asignada y de todos modos alcanzó al MikroTik, también se le puede aseignar una IP estática a ambos dispositivos y conectarse por ese medio ;). Por ahora lo dejaré así y esperaré a que la PC recibe DHCP después. 
+    - Ojo!!! Nótese como la PC no tiene IPv4 asignada y de todos modos alcanzó al MikroTik, esto se debe a que se conectaron via MAC-Address con la función de búsqueda del MikroTik en la Interfaz `ether 1`. 
+    - También se le podríar una IP estática a ambos dispositivos y conectarse por ese medio ;). Por ahora lo dejaré así y esperaré a que la PC recibe DHCP después. 
 
 ### WinBox DHCP Config:
 
@@ -395,7 +394,7 @@ exit
 
 ![image](https://user-images.githubusercontent.com/94720207/201544405-6a2711fa-0e93-4761-af7c-54e0de87a7b3.png)
 
-**2. Configurar VLANs en Interface X1**
+**2. Configurar VLANs en Interface `ether1`**
 
 - `Interfaces` > `+`
 
@@ -403,7 +402,11 @@ exit
 
 - Configurar las VLANs (sub-interfaces), hacer lo mismo para todas las VLANs que necesitemos.
 
-![image](https://user-images.githubusercontent.com/94720207/201544785-af8580f0-cdac-4d4e-b5a7-df70fa574f7f.png)
+![image](https://user-images.githubusercontent.com/94720207/201545057-f14c90c0-9df0-46ca-8a12-857795baa5e1.png)
+
+- Al final se verá algo así:
+
+![image](https://user-images.githubusercontent.com/94720207/201545210-d676b4cf-37ba-423c-85e5-c98c5ba6c84e.png)
 
 
 ## Resources
