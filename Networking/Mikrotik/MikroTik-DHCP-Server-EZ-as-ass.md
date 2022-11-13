@@ -438,17 +438,21 @@ exit
 
 ![image](https://user-images.githubusercontent.com/94720207/201546840-2782c91c-0b9e-446d-9837-86699ff30824.png)
 
-- Primero puedo aprovechar para seleciionar el ether1 como la Interfaz de MGMT
+- Primero puedo aprovechar para seleccionar el ether1 como la Interfaz de MGMT y ponerle su IP al DHCP Server
 
 ![image](https://user-images.githubusercontent.com/94720207/201547071-47cdfa0b-c584-4416-b96a-1c53b84524e5.png)
 
 - Despúes creo todas las demás dubmet para cada VLAN respectivamente, por ejemplo:
 
-![image](https://user-images.githubusercontent.com/94720207/201547210-26de440b-482a-4590-82bb-b61d307f6224.png)
+    - En este Lab utilizamos las IP que acaban en `0.1` para identificar las Sub-Interfaces del DHCP
+    - En este Lab utilizamos las IP que acaban en `0.254` para identificar las Sub-Interfaces o Interfaces de los Gateways
+    - En el caso de la Interfaz física `ether1` decidí ponerle la `0.2` de la `vlan 88` que le corresponde 
+
+![image](https://user-images.githubusercontent.com/94720207/201547886-1e1eeb7a-23a7-495d-8a65-7481019a72a8.png)
 
 - Al final quedaría algo así: _(lo verde son las VLANs y lo rosa es la ether1 física)_
 
-![image](https://user-images.githubusercontent.com/94720207/201547445-d4487d94-fd56-467f-a9b9-1c9562d7203f.png)
+![image](https://user-images.githubusercontent.com/94720207/201548134-09c55fea-6220-45f3-951a-2f654538bbc3.png)
 
 - Comando `ip address print` _(para revisión)_
 
