@@ -1,5 +1,3 @@
-## IP-Addressing for DHCP & VLANs
-
 | VLAN ID  | VLAN NAME | NETWORK ID  | CIDR | MASK          | SUBNET HOST RANGE           | TOTAL HOSTS | IP POOLS                                            | POOL IPs | RESERVED IP LEASES (STATIC)              |
 |:--------:|:---------:|:-----------:|:----:|:-------------:|:---------------------------:|:-----------:|:---------------------------------------------------:|:--------:|:----------------------------------------:|
 | VLAN 1   | DEFAULT   | 172.1.0.0   | /24  | 255.255.255.0 | 172.1.0.1 - 172.200.0.254   | 256 - 2     | 172.1.0.1 - 172.200.0.254                           | 254      | N/A                                      |
@@ -11,7 +9,12 @@
 | VLAN 200 | SERVICE2  | 172.200.0.0 | /24  | 255.255.255.0 | 172.200.0.1 - 172.200.0.254 | 256 - 2     | 172.200.0.2 - 172.200.0.9, 172.200.11 - 172.200.253 | 251      | 172.200.0.1, 172.200.0.10, 172.200.0.254 |
 
 
+DHCP SERVER
+- https://www.youtube.com/watch?v=OVDQLD_VC7I
+- https://www.youtube.com/watch?v=yxASqrhP18Q
 
+RESERVED IP LEASES
+- https://www.youtube.com/watch?v=fiNOPC8BBhI
 
 
 ## Switch Core Configuration
@@ -105,14 +108,12 @@ name VLAN_20_BLUE
 vlan 30
 name VLAN_10_GREEN
 vlan 88
-name VLAN_88_MGMT 
+name VLAN_88_MGMT_&_TRUNKS
 vlan 100
 name VLAN_100_SERVICE1 
 vlan 200
 name VLAN_200_SERVICE2
 !
-vlan 99
-name VLAN_TRUNK_PORTS
 !
 !
 interface vlan 88
@@ -360,17 +361,3 @@ exit
 
 1. La interface en VMWare se pone en `Bridge Automatic`, así la detectará dentro del laboratiorio virtual. 
 2. Ya dentro del Windows se podrá ver como neighbor desde winbox
-
-
-
-
-## Resources
-
-### DHCP SERVER Config
-
-- https://www.youtube.com/watch?v=OVDQLD_VC7I
-- https://www.youtube.com/watch?v=yxASqrhP18Q
-
-### RESERVED IP LEASES
-
-- https://www.youtube.com/watch?v=fiNOPC8BBhI
