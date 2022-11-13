@@ -430,9 +430,11 @@ exit
 
 ## 3. Crear Subnets / Direcciones IPv4
 
-- `IP` > `Addresses` > `+`
+- Comando `ip address print` _(para revisión)_
 
 ![image](https://user-images.githubusercontent.com/94720207/201546992-7c93ab43-8019-44c7-82a8-a83d6706c0bb.png)
+
+- `IP` > `Addresses` > `+`
 
 ![image](https://user-images.githubusercontent.com/94720207/201546840-2782c91c-0b9e-446d-9837-86699ff30824.png)
 
@@ -447,6 +449,10 @@ exit
 - Al final quedaría algo así: _(lo verde son las VLANs y lo rosa es la ether1 física)_
 
 ![image](https://user-images.githubusercontent.com/94720207/201547445-d4487d94-fd56-467f-a9b9-1c9562d7203f.png)
+
+- Comando `ip address print` _(para revisión)_
+
+![image](https://user-images.githubusercontent.com/94720207/201547532-22928a32-ad89-416a-a6a9-b9129e8b8c55.png)
 
 ## 4. Configurar DHCP Server
 
