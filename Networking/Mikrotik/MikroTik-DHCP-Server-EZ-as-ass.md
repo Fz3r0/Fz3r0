@@ -543,16 +543,29 @@ exit
 
 ## 6. Revisión desde los Hosts
 
-- PC-Admin Fz3r0:
+- PC-Admin Fz3r0 `ipconfig`:
 
-![image](https://user-images.githubusercontent.com/94720207/201555142-ed302be6-c152-47ae-896a-2478e01071dc.png)
+![image](https://user-images.githubusercontent.com/94720207/201556276-2ab7e398-8642-40b2-9d78-2537e69fcca7.png)
 
 - Ping Hacia la Sub-Interfaz del DHCP Server de `VLAN 88 Management` - `172.88.0.2`
 
 ![image](https://user-images.githubusercontent.com/94720207/201555332-dc20233c-afe9-4b12-9543-52738cdce888.png)
 
+- Revisión en los demás hosts y cada VLAN, por ejemplo:
 
+- **`VLAN 10 RED` - `172.10.0.0/16`**
 
+![image](https://user-images.githubusercontent.com/94720207/201556442-b5a19784-95af-49e5-bd3a-5b8bd02c1c38.png)
+
+- Lo mismo para la asignación DHCP de cualquier Host y VLAN necesarios.
+
+---
+
+- Finalmente, se pueden hacer pruebas de ping, tráfico, troughput, etc.
+
+![image](https://user-images.githubusercontent.com/94720207/201557093-a42674ae-6838-4ba0-9c16-01a68581f354.png)
+
+- Nota: En este Lab no hice ninguna salida a Internet o WAN, pero también se debería probar la salida a Internet como en mi otro tutorial "Barad-Dur".
 
 ## Resources
 
