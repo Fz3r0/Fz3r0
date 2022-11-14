@@ -3,7 +3,7 @@ _by [Fz3r0 💀](https://github.com/Fz3r0/)_
 
 ## Topology
 
-![image](https://user-images.githubusercontent.com/94720207/201542945-eb1cd274-f02d-4058-8b87-df159cf6d20a.png)
+![image](https://user-images.githubusercontent.com/94720207/201558865-817764b8-6974-4a54-a6db-8b2483520dbd.png)
 
 ## Security
 
@@ -577,6 +577,14 @@ exit
 ![image](https://user-images.githubusercontent.com/94720207/201557093-a42674ae-6838-4ba0-9c16-01a68581f354.png)
 
 - Nota: En este Lab no hice ninguna salida a Internet o WAN, pero también se debería probar la salida a Internet como en mi otro tutorial "Barad-Dur".
+
+- También podemos revisar los `logs`, `leases` o `IP Addresses` utilizados desde el Winbox:
+
+![image](https://user-images.githubusercontent.com/94720207/201559399-925e449a-f698-47c2-95ae-2756050f2f5d.png)
+
+![image](https://user-images.githubusercontent.com/94720207/201559569-b4e94303-8679-4887-968f-d9700ea51d90.png)
+
+- También desde la PC podemos hacer un Packet Analysis con `Wireshark` y se podrían ver los PDU de DHCP (pendiente)
 
 ## Conclusiones
 
