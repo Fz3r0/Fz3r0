@@ -606,6 +606,13 @@ exit
 - En realidad está de volada padrino... Solo ojo con: 
 
     - Los detalles de las troncales que reciban DHCP no sean la misma que la troncal del DHCP server.
+    
+    - Siempre tener bien identificadas las IP estáticas y reservadas y no usarlas en la Pool (O asignarlas estáticas desde el MikroTik), por ejemplo:
+    
+        - `0.1` (DHCP Server Interface)
+        - `0.254` (Gateway)
+        - Cualquier otro Host o Servicio con IP Reservada
+    
     - En caso de usar seguridad del lado del switch como DHCP snooping hacerlo a mucha conciencia. 
 
 ## Recursos
