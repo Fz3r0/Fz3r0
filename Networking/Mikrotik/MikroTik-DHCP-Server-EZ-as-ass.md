@@ -148,7 +148,7 @@ description <<_-_TRUNK--->>>-MikroTik_DHCP_Server_-_>>
 switchport trunk encapsulation dot1q
 switchport mode trunk
 switchport trunk native vlan 88
-switchport trunk allowed vlan 10,20,30,88,100,200
+switchport trunk allowed vlan 1,10,20,30,88,100,200
 switchport nonegotiate
 ip dhcp snooping TRUST
 ip arp inspection TRUST
@@ -509,9 +509,33 @@ exit
 
 ![image](https://user-images.githubusercontent.com/94720207/201550355-0ea53fe0-9386-4edb-a20a-c837445550dc.png)
 
+- Crear la DHCP Network
+
+![image](https://user-images.githubusercontent.com/94720207/201550678-078d6f9e-9f44-4ae0-8046-0cc543a0b59e.png)
+
+![image](https://user-images.githubusercontent.com/94720207/201550791-15dec35c-2fc3-437a-9d88-ea4491a27f01.png)
+
 ## 5. Revisión de configuración de DHCP Server
 
 - Ya sea que se haya realizado Wizard o Manual al final se verá algo así:
+
+### Interface List
+
+![image](https://user-images.githubusercontent.com/94720207/201551611-76cb6495-6b5a-4ac5-bfff-efd394ff051f.png)
+
+### DHCP Server
+
+![image](https://user-images.githubusercontent.com/94720207/201551523-4d131deb-4358-403e-b1e7-4ebabc98e0e0.png)
+
+### DHCP Networks
+
+![image](https://user-images.githubusercontent.com/94720207/201551535-98caf034-86ce-4375-99a6-115a20dfb6bc.png)
+
+### IP Pool
+
+![image](https://user-images.githubusercontent.com/94720207/201551499-fa85c714-5f19-4045-8a2c-770f4e0a3de7.png)
+
+
 
 
 
