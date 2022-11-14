@@ -17,7 +17,7 @@ _by [Fz3r0 💀](https://github.com/Fz3r0/)_
 
 ## Topology
 
-![image](https://user-images.githubusercontent.com/94720207/201570663-0ad85193-b008-4585-99e5-87d9d8d3b177.png)
+![image](https://user-images.githubusercontent.com/94720207/201711195-e62cef8d-bc5b-4656-b3a9-163b5149db44.png)
 
 ## Security
 
