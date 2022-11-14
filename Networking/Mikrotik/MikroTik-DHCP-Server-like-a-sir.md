@@ -567,6 +567,10 @@ exit
 
 ![image](https://user-images.githubusercontent.com/94720207/201551499-fa85c714-5f19-4045-8a2c-770f4e0a3de7.png)
 
+### `export compact` desde MikroTik RouterOS CLI
+
+![image](https://user-images.githubusercontent.com/94720207/201565010-69f536cf-1445-413d-9e65-3a47fa1367d1.png)
+
 ## 6. Revisión desde los Hosts
 
 - PC-Admin Fz3r0 `ipconfig`:
