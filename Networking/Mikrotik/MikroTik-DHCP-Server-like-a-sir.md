@@ -647,11 +647,16 @@ exit
 
 - Nota: En este Lab no hice ninguna salida a Internet o WAN, pero también se debería probar la salida a Internet como en mi otro tutorial "Barad-Dur".
 
-- También podemos revisar los `logs`, `leases` o `IP Addresses` utilizados desde el Winbox:
+- También podemos revisar los `logs`, `leases`, `IP Pools` o `Used IPs` utilizados desde el Winbox:
 
 ![image](https://user-images.githubusercontent.com/94720207/201559399-925e449a-f698-47c2-95ae-2756050f2f5d.png)
 
 ![image](https://user-images.githubusercontent.com/94720207/201559569-b4e94303-8679-4887-968f-d9700ea51d90.png)
+
+![image](https://user-images.githubusercontent.com/94720207/201581860-1ff7b3f0-1106-4d43-ae98-59f673db3f0d.png)
+
+![image](https://user-images.githubusercontent.com/94720207/201581803-50e85654-7de9-4b37-885d-30f70560dbb0.png)
+
 
 - También desde la PC podemos hacer un Packet Analysis con `Wireshark` y se podrían ver los PDU de DHCP (pendiente)
 
