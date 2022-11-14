@@ -450,6 +450,12 @@ exit
 
 ![image](https://user-images.githubusercontent.com/94720207/201570515-df34847d-785a-4c1a-a2d4-d771d013c08f.png)
 
+![image](https://user-images.githubusercontent.com/94720207/201570865-1b8937e8-9eee-45f0-b880-f04be7d1a8e7.png)
+
+3. Reiniciar RouterOS:
+
+![image](https://user-images.githubusercontent.com/94720207/201571644-b67d9e50-3d7d-43c1-8061-8883f97783fc.png)
+
 ---
 
 - Nombre y Password de Dispositivo:
