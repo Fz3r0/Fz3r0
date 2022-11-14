@@ -383,7 +383,18 @@ exit
 
 **2. Conectar la PC que administrará el MikroTik a la interface X1 _(eth0 en este lab)_.** 
 
-- Se puede usar un switch como en este laboratiorio o como en muchos casos en un deploy real _(obviamente ambos dispositivos deben estar en la misma VLAN o con políticas de inter-comunicación...En mi caso usé mi Standard VLAN 88 Nativa para management)**_
+- Se puede usar un switch como en este laboratiorio o como en muchos casos en un deploy real:
+
+    - **NOTA IMPORTANTE RESPECTO A LAS TRUNKS**
+
+    - Obviamente ambos dispositivos deben estar en la misma VLAN o con políticas de inter-comunicación desde un principio.
+    - En el caso de este laboratiorio, al final hice unos cambios de VLAN para tener un resultado donde mi Admin reciba DHCP de la VLAN 88 y al mismo tiempo sea Trunk, además de haber sido quien configuró al DHCP desde un principio... Es algo enredado lo sé, pero solo es importante recordar lo siguiente:
+
+        1. Al configurar desde 0 ambos dispositivos (Pc y MikroTik) deben estar en la misma VLAN (para poderse ver aunque sea Layer 2 MAC)
+        2. Para que pueda recibir DHCP una Trunk de Management, la Native VLAN no puede ser la misma que transporta las VLANs (Native / Untagged) desde el DHCP server, por eso al final se la cambié por la `Default 99` y dejé los Trunk de Management con `Native 88`
+
+![image](https://user-images.githubusercontent.com/94720207/201557603-0b4d32d0-b9aa-45c7-a8ec-03ea89553a35.png)
+
 
 **3. Ya dentro del Windows se podrá ver como neighbor desde winbox**
 
@@ -566,6 +577,13 @@ exit
 ![image](https://user-images.githubusercontent.com/94720207/201557093-a42674ae-6838-4ba0-9c16-01a68581f354.png)
 
 - Nota: En este Lab no hice ninguna salida a Internet o WAN, pero también se debería probar la salida a Internet como en mi otro tutorial "Barad-Dur".
+
+## Conclusiones
+
+- En realidad está de volada padrino... Solo ojo con: 
+
+    - Los detalles de las troncales que reciban DHCP no sean la misma que la troncal del DHCP server.
+    - En caso de usar seguridad del lado del switch como DHCP snooping hacerlo a mucha conciencia. 
 
 ## Resources
 
