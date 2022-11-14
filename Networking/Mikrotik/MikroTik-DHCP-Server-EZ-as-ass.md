@@ -615,6 +615,8 @@ exit
     
     - En caso de usar seguridad del lado del switch como DHCP snooping hacerlo a mucha conciencia. 
 
+- En este caso no usamos salida a WAN ni desde el MikroTik ni desde otro Router o Firewall, en caso de realizarlo desde el MikroTik se debe configurar una `NAT` con `Masquerade`, aunque el verdadero propósito de este laboratorio es replicar el uso de un MikroTik **únicamente como DHCP Server**. Por ejemplo, un `FortiGate` podría estar sirviendo de Gateway hacia la WAN (Internet).
+
 ## Recursos
 
 ### DHCP SERVER
