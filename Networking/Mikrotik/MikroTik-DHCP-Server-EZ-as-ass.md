@@ -147,7 +147,7 @@ interface gi 3/3
 description <<_-_TRUNK--->>>-MikroTik_DHCP_Server_-_>>
 switchport trunk encapsulation dot1q
 switchport mode trunk
-switchport trunk native vlan 88
+switchport trunk native vlan 99
 switchport trunk allowed vlan 1,10,20,30,88,100,200
 switchport nonegotiate
 ip dhcp snooping TRUST
@@ -169,13 +169,13 @@ switchport mode trunk
 switchport trunk native vlan 88
 switchport trunk allowed vlan 1,10,20,30,88,100,200
 switchport nonegotiate
-ip dhcp snooping TRUST
-ip arp inspection TRUST
 spanning-tree bpduguard DISABLE
 spanning-tree portfast DISABLE
+ip DHCP SNOOPING TRUST
+ip ARP INSPECTION TRUST
 lldp TRANSMIT
 lldp RECEIVE
-no CDP ENABLE
+CDP ENABLE
 shutdown
 no shutdown 
 exit
