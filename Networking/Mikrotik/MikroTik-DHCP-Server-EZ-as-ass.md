@@ -38,18 +38,13 @@ _by [Fz3r0 💀](https://github.com/Fz3r0/)_
 | VLAN 100 | SERVICE1  | 172.100.0.0 | /22  | 255.255.252.0 | 172.100.0.1 - 172.100.3.254 | 1,024 - 2   | 172.100.3.11 - 172.100.3.254                        | 255      | 172.100.0.10                             |
 | VLAN 200 | SERVICE2  | 172.200.0.0 | /24  | 255.255.255.0 | 172.200.0.1 - 172.200.0.254 | 256 - 2     | 172.200.0.2 - 172.200.0.9, 172.200.11 - 172.200.253 | 251      | 172.200.0.1, 172.200.0.10, 172.200.0.254 |
 
+## `Switch Core` - Config
 
+- **Notas:**
 
+    - Ojo que el Trunk hacia el DHCP Server utilizo el `Default VLAN 99 Native` (Los noobs usan VLAN 1 jeje), sin embargo, las Trunks de Management por ejemplo hacia un AP o la PC de Administrador ya utilizan una `Native VLAN 88`. **Si utilizara la MGMT 88 también para el MikroTik no repartiría DHCP esa Network!!! Cuidado!!!**
 
-
-
-## Switch Core: Configuración
-
-Notas:
-
-- Ojo que el Trunk hacia el DHCP Server utilizo el `Default VLAN 99 Native` (Los noobs usan VLAN 1 jeje), sin embargo, las Trunks de Management por ejemplo hacia un AP o la PC de Administrador ya utilizan una `Native VLAN 88`. **Si utilizara la MGMT 88 también para el MikroTik no repartiría DHCP esa Network!!! Cuidado!!!**
-
-- La seguridad que utilizo se puede estudiar más a fondo en mi tutorial:
+    - La seguridad que utilizo se puede estudiar más a fondo en mi tutorial "Fz3r0 Layer 2 Top Security"
 
 ```
 !
@@ -391,13 +386,19 @@ exit
 
 ## Windows VM
 
-### 4 Pasos para entrar al Winbox
+### 4 Pasos para entrar al Winbox:
 
-**1. La interface en VMWare se pone en `Bridge Automatic`, así la detectará dentro del laboratiorio virtual.**
+**1. La interface en VMWare se pone en `Bridge (Automatic)`, así le asignará una VMnet automáticamente al encender la VM**
 
-**2. Conectar la PC que administrará el MikroTik a la interface X1 _(eth0 en este lab)_.** 
+![image](https://user-images.githubusercontent.com/94720207/201561959-96391314-a1eb-45a5-b721-71e36e180bbe.png)
 
-- Se puede usar un switch como en este laboratiorio o como en muchos casos en un deploy real:
+- Ojo!!! Después de encender la VM, se le asignará automáticamente una VMnet, en este caso le asignó la VMnet3
+
+![image](https://user-images.githubusercontent.com/94720207/201561554-f2131574-c2fe-4125-a9c3-dd4fc733efd1.png)
+
+**2. Conectar la PC que administrará el MikroTik a la interface `ether1` _(Debe ser esa ya que es la WAN por default)_.** 
+
+- Ojo!!! Se puede usar un switch como en este laboratiorio o como en muchos casos en un deploy real:
 
     - **NOTA IMPORTANTE RESPECTO A LAS TRUNKS**
 
