@@ -195,6 +195,29 @@ shutdown
 no shutdown 
 exit
 !
+interface gi 3/2
+description <<<---HOST_-_ACCESS_VLAN_88_RED--->>>
+switchport mode access
+switchport access vlan 88
+switchport port-security
+switchport port-security maximum 2
+switchport port-security mac-address FF:FF:FF:00:00:00
+switchport port-security mac-address sticky 
+switchport port-security aging time 1440
+switchport port-security violation shutdown
+switchport port-security aging type inactivity
+switchport nonegotiate
+ip dhcp snooping limit rate 15
+ip ARP INSPECTION TRUST
+spanning-tree portfast
+spanning-tree bpduguard enable
+lldp transmit
+lldp receive
+CDP enable
+no shutdown 
+errdisable recovery interval 60
+interface gi 3/2
+errdisable recovery cause psecure-violation
 !
 interface range gi 0/0 - 1
 description <<<---HOST_-_ACCESS_VLAN_10_RED--->>>
