@@ -181,7 +181,7 @@ interface gi 3/2
 description <<_-_TRUNK--->>>-MGMT-ADMIN-FZ3R0-WIN10_-_>>
 switchport trunk encapsulation dot1q
 switchport mode trunk
-switchport trunk native vlan 88
+switchport trunk native vlan 99
 switchport trunk allowed vlan 1,10,20,30,88,100,200
 switchport nonegotiate
 spanning-tree bpduguard DISABLE
