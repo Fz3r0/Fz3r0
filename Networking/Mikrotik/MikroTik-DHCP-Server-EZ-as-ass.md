@@ -17,7 +17,7 @@ _by [Fz3r0 💀](https://github.com/Fz3r0/)_
 
 ## Topology
 
-![image](https://user-images.githubusercontent.com/94720207/201558865-817764b8-6974-4a54-a6db-8b2483520dbd.png)
+![image](https://user-images.githubusercontent.com/94720207/201562336-e1c29261-1ba9-4ed3-a6ef-7a89fe13dfa4.png)
 
 ## Security
 
@@ -84,7 +84,7 @@ banner motd %
 "                    @@@@@@@@@@@@@|  | | | | | | | |                    "  
 "                                  \_|_|_|_|_|_|_|_|                    "
 "                                                                       "
-"              <<<  MikroTik DHCP Server Easy as-ass!  >>>              "
+"          <<<  Config MikroTik DHCP Server... Like A sir!  >>>         "
 "                                                                       "
 "                        -- HECHO EN MEXICO --                          "
 "                                                                       "
