@@ -17,7 +17,7 @@ _by [Fz3r0 💀](https://github.com/Fz3r0/)_
 
 ## Topology
 
-![image](https://user-images.githubusercontent.com/94720207/201566299-b506a45a-900e-4acd-89fe-0b7965a19ba9.png)
+![image](https://user-images.githubusercontent.com/94720207/201570663-0ad85193-b008-4585-99e5-87d9d8d3b177.png)
 
 ## Security
 
@@ -33,7 +33,7 @@ _by [Fz3r0 💀](https://github.com/Fz3r0/)_
 | VLAN 10  | RED       | 172.10.0.0  | /16  | 255.255.0.0   | 172.10.0.1 - 172.10.255.254 | 65,536 - 2  | 172.10.0.10 - 172.10.1.255                          | 510             | 172.10.0.1, 172.10.0.254                 |
 | VLAN 20  | BLUE      | 172.20.0.0  | /17  | 255.255.128.0 | 172.20.0.1 - 172.20.127.254 | 32,768 - 2  | 172.20.0.10 - 172.20.5.255                          | 1534            | 172.20.0.1, 172.20.0.254                 |
 | VLAN 30  | GREEN     | 172.30.0.0  | /18  | 255.255.192.0 | 172.30.0.1 - 172.30.63.254  | 16,384 - 2  | 172.30.0.10 - 172.30.63.254                         | 16382           | 172.30.0.1, 172.30.0.254                 |
-| VLAN 88  | MGMT      | 172.88.0.0  | /20  | 255.255.240.0 | 172.88.0.1 - 172.88.15.254  | 4,096 - 2   | 172.99.1.10 - 172.99.10.255                         | 5118            | 172.88.0.1, 172.88.0.2, 172.88.0.254     |
+| VLAN 88  | MGMT      | 172.88.0.0  | /20  | 255.255.240.0 | 172.88.0.1 - 172.88.15.254  | 4,096 - 2   | 172.99.1.10 - 172.99.10.255                         | 5118            | 172.88.0.1, 172.88.0.5, 172.88.0.254     |
 | VLAN 100 | SERVICE1  | 172.100.0.0 | /22  | 255.255.252.0 | 172.100.0.1 - 172.100.3.254 | 1,024 - 2   | 172.100.3.11 - 172.100.3.254                        | 255             | 172.100.0.1, 172.100.0.10, 172.100.0.254 |
 | VLAN 200 | SERVICE2  | 172.200.0.0 | /24  | 255.255.255.0 | 172.200.0.1 - 172.200.0.254 | 256 - 2     | 172.200.0.2 - 172.200.0.9, 172.200.11 - 172.200.253 | 251             | 172.200.0.1, 172.200.0.10, 172.200.0.254 |
 
@@ -430,9 +430,30 @@ exit
 
 ## 1. Configurar IP-Address Local (Management) & System ID
 
-- `Quickset` > `Local Network` & `System`
+- **Via CLI:**
 
-![image](https://user-images.githubusercontent.com/94720207/201544405-6a2711fa-0e93-4761-af7c-54e0de87a7b3.png)
+```
+/interface bridge add name=Local_Management
+/interface bridge port add interface=ether1 bridge=Local_Management
+/ip address add address=172.88.0.2/20 interface=Local_Management
+```
+
+- **Via WinBox:**
+
+1. Crear el `Bridge` para acceso `local`:
+
+![image](https://user-images.githubusercontent.com/94720207/201568831-f8f461a7-7b0c-47ed-99b2-b5e5baf3d155.png)
+
+![image](https://user-images.githubusercontent.com/94720207/201569025-c531090c-9bf2-4a7f-a997-c8cb665a9efa.png)
+
+2. Asignar la IP a esa `interface local` en mi caso `172.88.0.5/20`:
+
+![image](https://user-images.githubusercontent.com/94720207/201570515-df34847d-785a-4c1a-a2d4-d771d013c08f.png)
+
+---
+
+- Nombre y Password de Dispositivo:
+
 ![image](https://user-images.githubusercontent.com/94720207/201545830-21780c82-27fe-46cc-8834-003e8fcf112f.png)
 
 ## 2. Configurar nuevo Admin
@@ -633,6 +654,10 @@ exit
 ### RESERVED IP LEASES
 
 - https://www.youtube.com/watch?v=fiNOPC8BBhI
+
+### Configuring IP Access
+
+- https://help.mikrotik.com/docs/display/ROS/First+Time+Configuration
 
 ---
 
