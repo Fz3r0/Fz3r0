@@ -29,7 +29,13 @@ _by [Fz3r0 💀](https://github.com/Fz3r0/)_
 
 
 
-## Switch Core Configuration
+## Switch Core: Configuración
+
+Notas:
+
+- Ojo que el Trunk hacia el DHCP Server utilizo el `Default VLAN 99 Native` (Los noobs usan VLAN 1 jeje), sin embargo, las Trunks de Management por ejemplo hacia un AP o la PC de Administrador ya utilizan una `Native VLAN 88`. **Si utilizara la MGMT 88 también para el MikroTik no repartiría DHCP esa Network!!! Cuidado!!!**
+
+- La seguridad que utilizo se puede estudiar más a fondo en mi tutorial:
 
 ```
 !
