@@ -37,6 +37,11 @@ _by [Fz3r0 💀](https://github.com/Fz3r0/)_
 | VLAN 100 | SERVICE1  | 172.100.0.0 | /22  | 255.255.252.0 | 172.100.0.1 - 172.100.3.254 | 1,024 - 2   | 172.100.3.11 - 172.100.3.254                        | 255             | 172.100.0.1, 172.100.0.10, 172.100.0.254 |
 | VLAN 200 | SERVICE2  | 172.200.0.0 | /24  | 255.255.255.0 | 172.200.0.1 - 172.200.0.254 | 256 - 2     | 172.200.0.2 - 172.200.0.9, 172.200.11 - 172.200.253 | 251             | 172.200.0.1, 172.200.0.10, 172.200.0.254 |
 
+### Lista de IPs `Management`
+
+- Switch-CORE: `MGMT` - `172.88.0.1`
+- MikroTik (VLAN88): `MGMT` - `172.88.0.5`
+- Gateway: `MGMT` - `172.88.0.254`
 
 ## `Switch Core` - Config
 
@@ -45,6 +50,10 @@ _by [Fz3r0 💀](https://github.com/Fz3r0/)_
     - Ojo que el Trunk hacia el DHCP Server utilizo el `Default VLAN 99 Native` (Los noobs usan VLAN 1 jeje), sin embargo, las Trunks de Management por ejemplo hacia un AP o la PC de Administrador ya utilizan una `Native VLAN 88`. **Si utilizara la MGMT 88 también para el MikroTik no repartiría DHCP esa Network!!! Cuidado!!!**
 
     - La seguridad que utilizo se puede estudiar más a fondo en mi tutorial "Fz3r0 Layer 2 Top Security"
+    
+    - Ojo a la IP del Switch y en general a toda la subnet de management
+
+![image](https://user-images.githubusercontent.com/94720207/201709512-7e351f7d-a021-478b-959a-db49e1b4656a.png)
 
 ```
 !
