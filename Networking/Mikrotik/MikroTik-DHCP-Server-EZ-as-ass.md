@@ -463,7 +463,7 @@ exit
 
 - Comando `ip address print` _(para revisión)_
 
-![image](https://user-images.githubusercontent.com/94720207/201547532-22928a32-ad89-416a-a6a9-b9129e8b8c55.png)
+![image](https://user-images.githubusercontent.com/94720207/201555754-fcf3ab59-458c-4e3d-bcee-0c9a1998f0e4.png)
 
 ## 4. Configurar DHCP Server
 
@@ -471,7 +471,7 @@ exit
 
 ![image](https://user-images.githubusercontent.com/94720207/201546720-9d06d028-ae7d-42fa-8c33-eda0c58e8af6.png)
 
-- **Opción 1: Usando `DHCP Setup` (Wizard)
+- **Opción 1: Usando `DHCP Setup` (Wizard)**
 
 ![image](https://user-images.githubusercontent.com/94720207/201548393-a3ee9758-22a2-4730-8b58-fcdda20188e9.png)
 
@@ -491,7 +491,7 @@ exit
 
 ![image](https://user-images.githubusercontent.com/94720207/201549087-be56d01d-eb70-43b9-ac71-875825b72604.png)
 
-- **Opción 2: de manera `Manual`
+- **Opción 2: de manera `Manual`**
 
 - `IP` > `Pool`
 
@@ -541,6 +541,15 @@ exit
 
 ![image](https://user-images.githubusercontent.com/94720207/201551499-fa85c714-5f19-4045-8a2c-770f4e0a3de7.png)
 
+## 6. Revisión desde los Hosts
+
+- PC-Admin Fz3r0:
+
+![image](https://user-images.githubusercontent.com/94720207/201555142-ed302be6-c152-47ae-896a-2478e01071dc.png)
+
+- Ping Hacia la Sub-Interfaz del DHCP Server de `VLAN 88 Management` - `172.88.0.2`
+
+![image](https://user-images.githubusercontent.com/94720207/201555332-dc20233c-afe9-4b12-9543-52738cdce888.png)
 
 
 
