@@ -5625,7 +5625,9 @@ https://github.com/f0cker/crackq - CrackQ: A Python Hashcat cracking queue syste
 
 
 
+## Cambiar despues 
 
+[Generar una BACKDOOR INDETECTABLE para el ANTIVIRUS | Reverse Shell](https://www.youtube.com/watch?v=wER6dsqEVAs)
 
 
 
