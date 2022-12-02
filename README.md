@@ -4563,6 +4563,10 @@ _I have mastered the ultimate technology, the hability to alter physical reality
 - [Dorks Collection List](https://github.com/Fz3r0/Dorks-collections-list)
 - [Awesome Threat Hunting](https://github.com/threat-hunting/awesome_Threat-Hunting) _This repository is a library for hunting and detecting cyber threats._
 
+## Red Teaming
+
+- [Rules of Engagement (ROE) Template](https://redteam.guide/docs/templates/roe_template/)
+
 ## Hacking Treasure Maps
 Mind-Maps, Paradigms, Way-to-Go, Hints & Tricks for Seek & Exploit TICs!
 
