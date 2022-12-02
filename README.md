@@ -4480,7 +4480,7 @@ _This tool is so awesome that in needed it owns Chapter, Megalodon Street Shark 
     - [Tool: Wireshark the Basics](https://tryhackme.com/room/wiresharkthebasics)
     - [Tool: Network Miner](https://tryhackme.com/room/networkminer)
 
-### ♻️ 🧬 🤖 Network Aitomation 🤖 🧬 ♻️
+### ♻️ 🧬 🤖 Network Automation 🤖 🧬 ♻️
 Network Automation is a cross between the discipline of Network Infrastructure and the discipline of Programming. 
 
 - Network Automation Full Courses & Resoursces
@@ -4568,6 +4568,14 @@ Mind-Maps, Paradigms, Way-to-Go, Hints & Tricks for Seek & Exploit TICs!
 
 - [Hacking & Exploiting Everything! > Full Security Assessment: Mind-Map & Tools](https://user-images.githubusercontent.com/94720207/172204996-88d412b7-b271-432e-914b-53fb4e13ebd9.png)
 - [Bug Bounty Mind-Map & Tools](https://user-images.githubusercontent.com/94720207/172203574-65a0bedb-28dc-4361-a1ba-3c0b29687f09.png)
+
+## Cyber Kill Chain
+
+- [Lockheed Martin Cyber Kill Chain](https://www.lockheedmartin.com/en-us/capabilities/cyber/cyber-kill-chain.html)
+- [Unified Kill Chain](https://unifiedkillchain.com/)
+- [Varonis Cyber Kill Chain](https://www.varonis.com/blog/cyber-kill-chain)
+- [Active Directory Kill Chain Attack & Defense](https://github.com/infosecn1nja/AD-Attack-Defense)
+- [MITRE ATT&CK Framework](https://attack.mitre.org/)
 
 ## ✅ 🗄️ 📈 CVE, Vulnerabilities, Patches & PoC 📈 🗄️ ✅
 
