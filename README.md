@@ -4627,7 +4627,19 @@ Mind-Maps, Paradigms, Way-to-Go, Hints & Tricks for Seek & Exploit TICs!
 ### Cyber Threat Intelligence (CTI) Communication Standards
 
 - [STIX - Structured Threat Information Expression]() _Set of specifications for exchanging cyber threat information between organizations._  
-  
+
+## Hacking Groups
+
+- [MITRE ATT&K - Groups](https://attack.mitre.org/groups/G0008/)
+
+
+
+
+
+
+
+
+
 ### Cyber-Weapons & Tools
     
 - **Databases & Arsenals**     
