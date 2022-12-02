@@ -109,7 +109,7 @@
   
 - Some techniques & executions shown in this repository could be considered illegal in some Countries, be sure that you understand and are complying with the laws regarding informatics, sensitive data & other kind of ICTs regulations in your area. It is recommended to study the legislation of the Regulatory Domain in each Country before replicating any process included in this repository.
 
-- It is mandatory to experiment only in controlled laboratory environments, whether physical or virtual. The administrator in charge of any device, network, or infrastructure must be aware and agree to any security engagement or configuration that is intended to be carried out.
+- It is mandatory to experiment only in controlled laboratory environments, whether physical or virtual. The administrator in charge of any device, network, or infrastructure must be aware and agree to any security engagement or configuration that is intended to be carried out. Rules of Engagement (RoE), an external contract or other NDAs (Non-Disclosure Agreement) are recomended. 
   
 - Any misuse of the information and files compiled in this repository will not be the responsibility of the author. 
  
