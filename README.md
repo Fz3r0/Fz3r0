@@ -4541,6 +4541,7 @@ _I have mastered the ultimate technology, the hability to alter physical reality
 
 ## 😈 🏴‍☠️ 📓 Hacking Bibles 📓 🏴‍☠️ 😈
 
+- [Red Team Guide](https://redteam.guide/) _Practical Guide for Red Teaming Operations_
 - [The Book of the Secret Knowledge](https://github.com/Fz3r0/the-book-of-secret-knowledge) _A collection of lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools & more._
 - [Pentest Tools @ S3cur3Th1sSh1t](https://github.com/S3cur3Th1sSh1t/Pentest-Tools) _Full arsenal for pentesting, scripting and pwning_
 - [Pentester Book](https://pentestbook.six2dez.com/post-exploitation/linux) _This book contains a bunch of info, scripts and knowledge by six2dez_
