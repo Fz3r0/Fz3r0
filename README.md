@@ -4527,6 +4527,7 @@ _I have mastered the ultimate technology, the hability to alter physical reality
 
 ## 😈 🏴‍☠️ 📓 Hacking Bibles 📓 🏴‍☠️ 😈
 
+- [Red Teaming Tool Kit - Tool for each Cyber Kill Chain](https://github.com/infosecn1nja/Red-Teaming-Toolkit#Payload%20Development)
 - [Red Team Guide](https://redteam.guide/) _Practical Guide for Red Teaming Operations_
 - [iRed Team Notes](https://www.ired.team/) _Red teaming and offensive security notes._
 - [The Book of the Secret Knowledge](https://github.com/Fz3r0/the-book-of-secret-knowledge) _A collection of lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools & more._
