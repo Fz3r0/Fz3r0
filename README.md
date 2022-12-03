@@ -4648,6 +4648,9 @@ Mind-Maps, Paradigms, Way-to-Go, Hints & Tricks for Seek & Exploit TICs!
 ## MITRE
 
 - [ATT&CK](https://attack.mitre.org/) _knowledge base of adversary tactics & techniques based on real-world observations_
+    - [ATT&CK Navigator](https://mitre-attack.github.io/attack-navigator/) _Web-based tool for annotating and exploring ATT&CK matrices._
+    - [ATT&CK Navigator (Example with Carabanak)](https://mitre-attack.github.io/attack-navigator//#layerURL=https%3A%2F%2Fattack.mitre.org%2Fgroups%2FG0008%2FG0008-enterprise-layer.json) _Carabanak Group Example Search_
+    - [OST map](https://www.intezer.com/ost-map/) _A map tracking the use of libraries with offensive capabilities by threat actors._
 - [D3FEND](https://d3fend.mitre.org/) _A knowledge graph of cybersecurity countermeasures._
 - [Adversary Emulation Library](https://github.com/center-for-threat-informed-defense/adversary_emulation_library) _library of adversary emulation plans. Emulate real-world attacks_
 
