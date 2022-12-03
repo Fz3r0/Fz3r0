@@ -4649,6 +4649,7 @@ Mind-Maps, Paradigms, Way-to-Go, Hints & Tricks for Seek & Exploit TICs!
 
 - [ATT&CK](https://attack.mitre.org/) _knowledge base of adversary tactics & techniques based on real-world observations_
 - [D3FEND](https://d3fend.mitre.org/) _A knowledge graph of cybersecurity countermeasures._
+- [Adversary Emulation Library](https://github.com/center-for-threat-informed-defense/adversary_emulation_library) _library of adversary emulation plans. Emulate real-world attacks_
 
 
 ## ✅ 🗄️ 📈 CVE, Vulnerabilities, Patches & PoC 📈 🗄️ ✅
