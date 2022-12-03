@@ -5414,6 +5414,18 @@ _The Strength Of The Human Heart. The Difference Between Us And Machines"_
 
 ## Cobalt Strike 
 
+- [Cobalt Strike User Guide](https://hstechdocs.helpsystems.com/manuals/cobaltstrike/current/userguide/content/topics/welcome_main.htm#)
+
+
+
+
+
+
+
+
+
+
+
 ### Courses & Resources
 
 - [Introducción al uso de CobaltStrike y sus principales funcionalidades](https://www.youtube.com/watch?v=AQVJGCh8IBk)
