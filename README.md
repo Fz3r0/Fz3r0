@@ -5411,10 +5411,94 @@ _The Strength Of The Human Heart. The Difference Between Us And Machines"_
  
  
  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
 
 ## Cobalt Strike 
 
+### Official Resources
+
+- [Official Page](https://www.cobaltstrike.com/)
 - [Cobalt Strike User Guide](https://hstechdocs.helpsystems.com/manuals/cobaltstrike/current/userguide/content/topics/welcome_main.htm#)
+
+### Cobalt Strike Courses
+
+- [Çobal Strike Official Trining](https://www.cobaltstrike.com/training/)
+- [Cobalt Strike Training](https://www.youtube.com/watch?v=XVKRDSLxEeU&list=PL85B4C2D2703F3BBB)
+- [Cobalt Strike - Red Team Ops](https://www.youtube.com/watch?v=i6tsLWrCiGE&list=PLcjpg2ik7YT6H5l9Jx-1ooRYpfvznAInJ)
+
+### Cheatsheets
+
+- [Cobalt Strike Process](https://user-images.githubusercontent.com/94720207/205448340-24845b78-3f7a-42c2-a9d8-b2cdf92b66b8.png)
+
+
+
+## Armitage
+
+- [Manual de Armitage en Español](https://www.dragonjar.org/manual-de-armitage-en-espanol.xhtml)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
