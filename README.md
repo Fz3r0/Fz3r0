@@ -4276,11 +4276,34 @@ http://revolutionwifi.blogspot.com/p/wi-fi-tools.html full list sacar!!!
     - [wireless\_tools](https://hewlettpackard.github.io/wireless-tools/Tools.html) – Tools allowing to manipulate the Wireless Extensions.
     - [Wireshark](https://www.wireshark.org/) – network protocol analyzer.
 
+
+
+
+
+
+
+
+
+
 ## NMAP
 
 ### NMAP Cheatsheets
 
 - [Best of NMAP cheatsheet](https://user-images.githubusercontent.com/94720207/194731601-1c9f4629-e8c8-4a48-9bcc-d83790f64460.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## WireShark
 _This tool is so awesome that in needed it owns Chapter, Megalodon Street Shark mode_
@@ -4291,10 +4314,19 @@ _This tool is so awesome that in needed it owns Chapter, Megalodon Street Shark 
 
 ### Courses & Walktrhoughts
 
+- [OS Fingerprinting - How it works?](https://www.youtube.com/watch?v=dSgHEL-MO3I) _@ Megalodon_
+
 ### Filters & References
  
 - [**Wireshark - Display Filter Reference**](https://www.wireshark.org/docs/dfref/) _over 271000 fields in 3000 protocols as of version 3.6.5_
 - [**Wireshark - Capture Filters Reference**](https://wiki.wireshark.org/CaptureFilters)
+
+### PCAP Investigation
+
+
+
+
+
 - [**Wireshark - From Nemo to Black Megalodon: Pro Sniffing & Network Traffic Audit/Analysis.** by @ Fz3r0]
 - [**Wireshark - Troubleshooting Slow Networks - Presented by Megalodon Chris Greer @ UC Berkeley**](https://www.youtube.com/watch?v=h9stVIfug5Y)
 - [**Wireshark - Multicast Traffic Measurement** (**MDNS** & more!)](https://www.youtube.com/watch?v=MGa8szCXDww)
