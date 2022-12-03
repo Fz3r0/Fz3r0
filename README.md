@@ -4558,6 +4558,26 @@ Network Automation is a cross between the discipline of Network Infrastructure a
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
           
 <!--
 
@@ -4624,6 +4644,12 @@ Mind-Maps, Paradigms, Way-to-Go, Hints & Tricks for Seek & Exploit TICs!
 - [Varonis Cyber Kill Chain](https://www.varonis.com/blog/cyber-kill-chain)
 - [Active Directory Kill Chain Attack & Defense](https://github.com/infosecn1nja/AD-Attack-Defense)
 - [MITRE ATT&CK Framework](https://attack.mitre.org/)
+
+## MITRE
+
+- [ATT&CK](https://attack.mitre.org/) _knowledge base of adversary tactics & techniques based on real-world observations_
+- [D3FEND](https://d3fend.mitre.org/) _A knowledge graph of cybersecurity countermeasures._
+
 
 ## ✅ 🗄️ 📈 CVE, Vulnerabilities, Patches & PoC 📈 🗄️ ✅
 
