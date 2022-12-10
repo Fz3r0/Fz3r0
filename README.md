@@ -20,6 +20,8 @@
     Comparte el conocimiento gratuito siempre para la búsqueda de 
     la justicia, la verdad y el honor de la raza humana. 
 
+    Dejemos al menos cantos, dejemos al menos flores...
+
  =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
  "                                                               "
  "                                                               "
