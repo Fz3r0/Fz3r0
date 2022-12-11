@@ -5919,6 +5919,12 @@ https://github.com/f0cker/crackq - CrackQ: A Python Hashcat cracking queue syste
 - [Automate Wi-Fi Hacking on a Raspberry Pi with a USB Rubber Ducky](https://www.youtube.com/watch?v=_L9UYbxj3lk) _@ Null Byte_
 
 
+## Linux
+
+### Commands Cheatsheets
+
+- [Linux Commands Cheatsheets - Mindmap](https://xmind.app/m/WwtB/#)
+
 
 ## 📡 🏴‍☠️ 📶 Antennas & Adapters for Hacking WiFi 📶 🏴‍☠️ 📡
 
