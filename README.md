@@ -3853,6 +3853,10 @@ _Somehow my life always return here...Ruckus Wireless, maybe because I love dogs
     - [Configurar Link Aggregation (LAG | LACP) Switch <> Fortigate](https://github.com/Fz3r0/Fz3r0/blob/main/Networking/Fortinet/ZZ_LAG_Forti+CiscoSwitch_Campechanos_Fz3r0.md)
     - [Configurar High Availability (HA) + (LAG | LACP) Switch <> Fortigate](https://github.com/Fz3r0/Fz3r0/blob/main/Networking/Fortinet/ZZ_HA+Link_Aggregation-LAG-FortiGate-Cisco-Switch.md)
 
+### Fz3r0 - FortiGate 7.0 Update Mastery
+
+- [Fz3r0 - El Camino al NSE4](https://github.com/Fz3r0/Fz3r0/blob/main/Networking/Fortinet/FortiGate/FortiGate7.0_Ude_Lab/00_FG7.0_Fz3r0_Writeup_v1.0.md)
+
 - Fortigate Labs Campechanos
 
     - [Configurar VLANs en FortiGate](https://www.youtube.com/watch?v=rD-Q7oTny8g)
