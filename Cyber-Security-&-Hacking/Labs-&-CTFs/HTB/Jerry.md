@@ -1,5 +1,5 @@
 # Hack The Box: Jerry - Writeup
-_by Fz3r0_💀
+_by Fz3r0_ 💀
 
 _Keywords_`Hack The Box` `CTF` `Windows` `Jerry` `Java` `Tomcat` `Apache` `Reverse Shell`
 
