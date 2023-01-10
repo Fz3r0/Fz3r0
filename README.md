@@ -1,9 +1,4 @@
-![skull-horn-digital-art-uhdpaper com-4K-8 3184 (1)](https://user-images.githubusercontent.com/94720207/210693478-05857ca5-30a9-4b58-88f3-54a0ed060de8.jpg)
-
 <!-- =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-
-
-
 
                      BIENVENID@ AL INFIERNO 
 
@@ -27,6 +22,7 @@
 
     Dejemos al menos cantos, dejemos al menos flores...
 
+![skull-horn-digital-art-uhdpaper com-4K-8 3184 (1)](https://user-images.githubusercontent.com/94720207/210693478-05857ca5-30a9-4b58-88f3-54a0ed060de8.jpg)
  =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
  "                                                               "
  "                                                               "
