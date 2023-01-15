@@ -841,4 +841,3 @@ bash-4.3#
 
 - https://tryhackme.com/room/vulnversity
 - https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Upload%20Insecure%20Files/README.md    
-- https://www.youtube.com/watch?v=4kAN7zNE7jo&t=10s
