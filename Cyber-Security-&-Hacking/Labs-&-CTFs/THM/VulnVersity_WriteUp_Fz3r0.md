@@ -1,6 +1,9 @@
 # VulnVersity Writeup | Try Hack Me 
 _by Fz3r0 💀_
 
+![image](https://user-images.githubusercontent.com/94720207/212569792-d66c250e-4fcd-4477-a013-9b71c0e329fa.png)
+
+
 #### Keywords: `CTF` `Try Hack Me` `VulnVersity` `Writeup` `Reccon` `Fuzzing` `Worldlist` `Burpsuite` `Web Server Exploitation` `PHP Reverse Shell` `Upload Vulnerability` `RCI` `PrivEsc` `SUID PrivEsc` `GTFObins`
 
 ## Datos de los objetos involucrados: 
