@@ -90,6 +90,59 @@ _by Fz3r0 💀_
 
 - Esta vulnerabilidad es solo para DOS, cosa que no me interesa mucho por ahora. 
 
+### Reporte Completos de Port Scan
+
+```java
+───────┬──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+       │ File: 02-Fz3r0_PortFullReport.txt
+───────┼──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+   1   │ # Nmap 7.92 scan initiated Sun Jan 15 10:45:55 2023 as: nmap -p 21,22,139,445,3128,3333 -sC -sV -oN 02-Fz3r0_PortFullReport.txt 1
+       │ 0.10.92.191
+   2   │ Nmap scan report for 10.10.92.191
+   3   │ Host is up (0.13s latency).
+   4   │ 
+   5   │ PORT     STATE SERVICE     VERSION
+   6   │ 21/tcp   open  ftp         vsftpd 3.0.3
+   7   │ 22/tcp   open  ssh         OpenSSH 7.2p2 Ubuntu 4ubuntu2.7 (Ubuntu Linux; protocol 2.0)
+   8   │ | ssh-hostkey: 
+   9   │ |   2048 5a:4f:fc:b8:c8:76:1c:b5:85:1c:ac:b2:86:41:1c:5a (RSA)
+  10   │ |   256 ac:9d:ec:44:61:0c:28:85:00:88:e9:68:e9:d0:cb:3d (ECDSA)
+  11   │ |_  256 30:50:cb:70:5a:86:57:22:cb:52:d9:36:34:dc:a5:58 (ED25519)
+  12   │ 139/tcp  open  netbios-ssn Samba smbd 3.X - 4.X (workgroup: WORKGROUP)
+  13   │ 445/tcp  open  netbios-ssn Samba smbd 4.3.11-Ubuntu (workgroup: WORKGROUP)
+  14   │ 3128/tcp open  http-proxy  Squid http proxy 3.5.12
+  15   │ |_http-server-header: squid/3.5.12
+  16   │ |_http-title: ERROR: The requested URL could not be retrieved
+  17   │ 3333/tcp open  http        Apache httpd 2.4.18 ((Ubuntu))
+  18   │ |_http-server-header: Apache/2.4.18 (Ubuntu)
+  19   │ |_http-title: Vuln University
+  20   │ Service Info: Host: VULNUNIVERSITY; OSs: Unix, Linux; CPE: cpe:/o:linux:linux_kernel
+  21   │ 
+  22   │ Host script results:
+  23   │ |_clock-skew: mean: 1h40m00s, deviation: 2h53m13s, median: 0s
+  24   │ | smb-os-discovery: 
+  25   │ |   OS: Windows 6.1 (Samba 4.3.11-Ubuntu)
+  26   │ |   Computer name: vulnuniversity
+  27   │ |   NetBIOS computer name: VULNUNIVERSITY\x00
+  28   │ |   Domain name: \x00
+  29   │ |   FQDN: vulnuniversity
+  30   │ |_  System time: 2023-01-15T10:46:20-05:00
+  31   │ | smb2-time: 
+  32   │ |   date: 2023-01-15T15:46:19
+  33   │ |_  start_date: N/A
+  34   │ | smb-security-mode: 
+  35   │ |   account_used: guest
+  36   │ |   authentication_level: user
+  37   │ |   challenge_response: supported
+  38   │ |_  message_signing: disabled (dangerous, but default)
+  39   │ | smb2-security-mode: 
+  40   │ |   3.1.1: 
+  41   │ |_    Message signing enabled but not required
+  42   │ |_nbstat: NetBIOS name: VULNUNIVERSITY, NetBIOS user: <unknown>, NetBIOS MAC: <unknown> (unknown)
+  43   │ 
+  44   │ Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+  45   │ # Nmap done at Sun Jan 15 10:46:24 2023 -- 1 IP address (1 host up) scanned in 29.14 seconds
+```
 
 ## Directory Discovery & Fuzzing
 
