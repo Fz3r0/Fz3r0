@@ -581,8 +581,6 @@ Success</body>  <<<------ SE LOGRÓ SUBIR :D
 
 - En la página de `http://10.10.173.121:3333/internal/uploads/` que logré fuzzear al inicio es donde se subió la shell:
 
-shell up!!!
-
 ![image](https://user-images.githubusercontent.com/94720207/212561889-8d590279-0ebf-4296-a6fc-8023511cffcd.png)
 
 - Ahora solo falta ejecutarla mientras escucho con `netcat`:
