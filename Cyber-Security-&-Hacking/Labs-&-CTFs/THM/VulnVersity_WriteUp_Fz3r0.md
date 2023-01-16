@@ -6,6 +6,10 @@ _by Fz3r0 💀_
 
 #### Keywords: `CTF` `Try Hack Me` `VulnVersity` `Writeup` `Reccon` `Fuzzing` `Worldlist` `Burpsuite` `Web Server Exploitation` `PHP Reverse Shell` `Upload Vulnerability` `RCI` `PrivEsc` `SUID PrivEsc` `GTFObins`
 
+## Full Attack Timelapse
+
+- Puedes ver el timelapse del Ataque completo en mi Youtube:
+
 ## Datos de los objetos involucrados: 
 
 
@@ -315,6 +319,8 @@ reverse shell payload... (ver abajo)
 Content-Disposition: form-data; name="file"; filename="php_shell§.php§"
 ```
 
+![image](https://user-images.githubusercontent.com/94720207/212696950-5b184db1-b474-4b12-8a27-1f40ba9e9ec2.png)
+
 - Agrego mi wordlist en la parte de `payload` dentro del mismo `sniper`.
 
 - Finalmente click en `start attack`
@@ -322,6 +328,8 @@ Content-Disposition: form-data; name="file"; filename="php_shell§.php§"
     - NOTA: En este caso todos me repsonden igual con lenght `737` y status `200`, en estos casos se puede solucionar: **`DESACTIVANDO EL URL ENCODIG`** _parte inferior de la pagían de payloads_
 
 - Ahora si, uno de ellos me arroja resultado `723` de lenght el cual difiere a todos los demás y correspondería a la extensión `.phtml` 
+
+![image](https://user-images.githubusercontent.com/94720207/212696500-0fd14173-76ef-4307-a3c1-900008f2cc7a.png)
 
 - Ahora es tiempo de modificar la extensión de la reverse shell PHP que utilicé:   
 
@@ -852,6 +860,13 @@ bash-4.3#
 
 - Elimino o cambio el nombre del index original y listo! Defacement de URL  
 
+### Antes de Defacement:
+
+![image](https://user-images.githubusercontent.com/94720207/212697570-133d1647-ea49-4faa-baea-10749bf915f4.png)
+
+### Después de Defacement:
+
+![image](https://user-images.githubusercontent.com/94720207/212698089-f295da97-1162-4110-8562-b03231f0e321.png)
 
 ## PoC
 
