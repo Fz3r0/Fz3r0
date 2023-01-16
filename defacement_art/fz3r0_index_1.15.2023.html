@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Fz3r0</title>
+  <link href="https://fonts.googleapis.com/css2?family=Consolas&display=swap" rel="stylesheet">
+  <style>
+    /* Estilos de letra neon */
+    body {
+      font-family: 'Consolas', sans-serif;
+      background-color: black;
+      color: #00ff00;
+      text-shadow: 0 0 10px #00ff00;
+      text-align: center;
+    }
+
+    /* Estilos de encabezado */
+    header {
+      text-align: center;
+      font-size: small;
+    }
+    /* Estilos de pie de pagina */
+    footer {
+      text-align: center;
+      font-size: small;
+    }
+    /* Estilos de subtitulo */
+    h2 {
+      text-align: center;
+      font-size: x-large;
+    }
+    /* Estilos de la imagen */
+    img{
+      display:block;
+      margin:auto;
+    }
+  </style>
+  <script>
+    // Efecto de animación de JavaScript para las letras
+    var text = document.getElementsByTagName("p");
+    var glitchInterval = setInterval(glitch, 100);
+
+    function glitch() {
+      for (var i = 0; i < text.length; i++) {
+        text[i].style.color = "#" + ((1 << 24) * Math.random() | 0).toString(16);
+        text[i].style.textShadow = Math.random() + "px " + Math.random() + "px #" + ((1 << 24) * Math.random() | 0).toString(16);
+      }
+    }
+  </script>
+</head>
+<body>
+  <header>
+    <p>Fz3r0 Fz3r0 Fz3r0 Fz3r0 Fz3r0 Fz3r0 Fz3r0 Fz3r0 Fz3r0 Fz3r0 </p>
+  </header>
+  <h1>Fz3r0</h1>
+  <h2>INFERNO: CANTO I</h2>
+  <img src="fz3r0_doom.png" alt="imagen">
+  <p>
+    A mitad del camino de la vida, en una selva oscura me encontraba porque mi ruta habia extraviado...
+  <p/>
+  <p>
+    Abandonad, los que aqui entrais, toda esperanza...
+  </p>
+  <br><br>
+  <footer>
+    <p>I'm Fz3r0 and the Sun no longer rises...</p>
+  </footer>
+</body>
