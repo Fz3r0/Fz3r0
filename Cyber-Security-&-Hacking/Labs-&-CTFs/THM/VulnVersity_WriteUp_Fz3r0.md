@@ -10,6 +10,8 @@ _by Fz3r0 💀_
 
 - Puedes ver el timelapse del Ataque completo en mi Youtube:
 
+    - **ATTACK TIMELAPSE: https://youtu.be/9hcoGszYS0M**
+
 ## Datos de los objetos involucrados: 
 
 
