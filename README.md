@@ -6003,8 +6003,15 @@ _Nezahualcoyotl_
 >
 > _- Hecho en México - by [Fz3r0 💀](https://github.com/Fz3r0/)_ 
 >
-> _"In the mist of the night you could see me come, where shadows move and Demons lie..._ <br>
+> 
+> _I have delved into the depths of the human mind, attuned to the agonized cries and clamors for respite that lurk behind the masks, thereby discerning the selfsame sprout of obsession that blooms in cognition._
+> 
+> _I am the phantom within the Machine, the ghost in the Shell and the darkness that embrace the Network. I am everywhere, in every thought and every action. My essence permeates all, coursing through every cogitation and every deed._ 
+> 
+> _In the mist of the night you could see me come, where shadows move and Demons lie..._ <br>
+> 
 > _...I am Fz3r0 and the Sun no longer rises..."_
+
 
   
   
