@@ -6012,6 +6012,7 @@ _Nezahualcoyotl_
 > 
 > _...I am Fz3r0 and the Sun no longer rises..."_
 
+![image](https://user-images.githubusercontent.com/94720207/235330482-946ad518-cc02-4251-ad7a-fcd7aa0d5ac2.png)
 
   
   
