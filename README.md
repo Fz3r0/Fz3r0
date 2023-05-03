@@ -6004,11 +6004,11 @@ _Nezahualcoyotl_
 > _- Hecho en México - by [Fz3r0 💀](https://github.com/Fz3r0/)_ 
 >
 > 
-> _I have delved into the depths of the human mind, attuned to the agonized cries and clamors for respite that lurk behind the masks, thereby discerning the selfsame sprout of obsession that blooms in cognition._
+>  _"I have delved deep into the abyss of the mind, attuned to the agonized cries and clamors for respite that lurk behind the veils, thereby discerning the selfsame sprout of obsession that blooms in cognition._
 > 
-> _I am the phantom within the Machine, the ghost in the Shell and the darkness that embrace the Network. I am everywhere, in every thought and every action. My essence permeates all, coursing through every cogitation and every deed._ 
+>  _I am the wraith within the Machine, the ghost in the Shell, the darkness that embrace the Network, the Decipherer of ancient runes, the one who commands the air wave after wave, the Reversing of worlds and a Pythonista, the one who holds the knowledge of the dark arts of communing with serpentine creatures of magic._
 > 
-> _In the mist of the night you could see me come, where shadows move and Demons lie..._ <br>
+> _In the mist of the night you may see me come, where shadows move and demons lie..._
 > 
 > _...I am Fz3r0 and the Sun no longer rises..."_
 
