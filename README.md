@@ -8,21 +8,24 @@
 
  =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 
-  - Cualquiera es libre de copiar, distribuir, enseñar, modificar,
-    presentar y/o utilizar este documento como le sea su voluntad.
-  
-  - Los créditos hacia mi persona serán agradecidos, pero tampoco
-    son necesarios.
+  - La educación y el conocimiento son derechos fundamentales del ser humano. Todos tenemos derecho a acceder a ellos y a compartirlos libremente.
 
-  - Únicamente hago la petición de no obtener ningún tipo de
-    beneficio económico directo de este documento, por favor: 
+  - Cualquiera es libre de copiar, distribuir, enseñar, modificar, presentar, mejorar y/o utilizar este documento como le sea su voluntad.
 
-    Comparte el conocimiento gratuito siempre para la búsqueda de 
-    la justicia, la verdad y el honor de la raza humana. 
+  - La liberación del conocimiento y la tecnología es un acto de resistencia contra la exclusión y la opresión. Al compartir el conocimiento, estamos empoderando a las personas y fomentando el cambio social y la justicia.
 
-    Dejemos al menos cantos, dejemos al menos flores...
+  - Únicamente hago la petición de no obtener ningún tipo de beneficio económico directo de este documento, en caso de obtener algún beneficio económico será obligación del acreedor donar esos recursos para comida a quien lo necesite cerca de su comunidad de origen.   
 
-![skull-horn-digital-art-uhdpaper com-4K-8 3184 (1)](https://user-images.githubusercontent.com/94720207/210693478-05857ca5-30a9-4b58-88f3-54a0ed060de8.jpg)
+  - La comunidad del conocimiento libre y la tecnología aboga por la colaboración y el trabajo en equipo. La cooperación entre individuos y grupos de personas es esencial para la creación de tecnologías y conocimientos de calidad.
+
+  - La educación y el conocimiento deben ser inclusivos y accesibles para todos, independientemente de su origen o estatus socioeconómico.
+
+  - Los créditos hacia mi persona serán agradecidos y bien recibidos, pero tampoco son necesarios.
+
+  - Finalmente, recuerda que el conocimiento no tiene límites y que siempre hay más por descubrir. Compartir nuestro conocimiento es una manera de fomentar la creatividad y la innovación, y de construir un mundo mejor para la honorable raza humana.
+
+  - Dejemos al menos cantos, dejemos al menos flores...
+
  =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
  "                                                               "
  "                                                               "
