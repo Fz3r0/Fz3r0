@@ -88,13 +88,6 @@
     
 <span align="center"> <p align="center"> _**...Enter freely and of your own free will..."**_  </p> </span>  
 
----
-
-<!-- HACIENDO CLICK AL LINK DE "WORMHOLE" TE ENVÍA DIRECTO AL INDEX -->
-
-<span align="center"> <p align="center"> **🛸🌌 <<--|☠️ [Wormhole to Index](https://github.com/Fz3r0/Fz3r0/blob/main/README.md#-index-) ☠️|-->> 🌌🛸** </p> </span> 
-
----
 --- 
 
 <!-- DISCLAIMER -->
