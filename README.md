@@ -24,7 +24,14 @@
 
   - Finalmente, recuerda que el conocimiento no tiene límites y que siempre hay más por descubrir. Compartir nuestro conocimiento es una manera de fomentar la creatividad y la innovación, y de construir un mundo mejor para la honorable raza humana.
 
-  - Dejemos al menos cantos, dejemos al menos flores...
+    “¿Con qué he de irme?
+    ¿Nada dejaré en pos de mí sobre la tierra?
+    ¿Cómo ha de actuar mi corazón?
+    ¿Acaso en vano venimos a vivir,
+    a brotar sobre la tierra?
+    Dejemos al menos flores
+    dejemos al menos cantos”
+                            ― Nezahualcóyotl
 
  =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
  "                                                               "
