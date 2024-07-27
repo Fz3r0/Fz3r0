@@ -104,18 +104,12 @@
 - This repository has been intended to be a personal centralized place to store my own created data and also compile some public data such as databases, codes, scripts, write ups, binaries, labs, guides, resources and documentation that I commonly use in my day to day life as an engineer.
 
 - This repository also serves as my portfolio to show to potential employers and clients my work, experience, knowledge, education and resume in the area of IT, Network Engineering, Development, Programming, Cyber Security, Computer Systems, Infraestructure Management and other branches of Computer Science and Information & Communication Technologies.
+    
+- This repository may contain configurations, techniques, codes or scripts that could harm some systems and devices or not comply with some regulations of all Countries. Read carefully each file documentation before download, extract, deploy, configure, execute, copy, compile. Be sure that you understand and are complying with the laws regarding Wireless and Radio Regulations, Information Technology, Sensitive Data & other kind of ICTs regulations in your area. It is recommended to study the legislation of the Regulatory Domain in each Country before replicating any process included in this repository.
 
-- The reason this repository is publicly accessible is because it shares the GNU free software ideology and philosophy, it means the freedom to run the software, to study the software, to modify the software, and to share copies of the software (whether modified or not).
-  
-  I believe that all people in the world should learn about Computer Science and Technology for free, the knowledge must be accesible for everyone as a human right, which would make this world a better place, in addition to leaving a small footprint of the greatness of human capacity in this tiny instant of time and in this little portion of infinite universe. I really hope that someday this can help someone...
-  
-- All the scripts, binaries, software, techniques, programs, directories, databases, guides or any other resource contained in this repository should be used ONLY for authorized penetration testing, networking laboratories, ethical hacking, scientific investigation, experimentation and/or educational purposes. 
-  
-- This repository contain codes and scripts that could harm some systems and devices. Read carefully each file documentation and/or script before download, extract, execute, copy or compile.
-  
-- Some techniques, executions and processes shown in this repository could be considered illegal in some Countries, be sure that you understand and are complying with the laws regarding informatics, sensitive data & other kind of ICTs regulations in your area. It is recommended to study the legislation of the Regulatory Domain in each Country before replicating any process included in this repository.
+- It is mandatory to experiment only in controlled laboratory environments, whether physical or virtual. The administrator in charge of any device, network, or infrastructure must be aware and agree to any configuration, execution, deployment or security engagement that is intended to be carried out. Rules of Engagement (RoE), and external contract or other NDAs (Non-Disclosure Agreement) are recomended.
 
-- It is mandatory to experiment only in controlled laboratory environments, whether physical or virtual. The administrator in charge of any device, network, or infrastructure must be aware and agree to any security engagement or configuration that is intended to be carried out. Rules of Engagement (RoE), an external contract or other NDAs (Non-Disclosure Agreement) are recomended. 
+- This repository is publicly accessible because it shares the GNU free software ideology and philosophy, it means the freedom to run the software, to study the software, to modify the software, and to share copies of the software (whether modified or not).
   
 - Any misuse of the information and files compiled in this repository will not be the responsibility of the author. 
  
