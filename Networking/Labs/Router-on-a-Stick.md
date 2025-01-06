@@ -839,7 +839,7 @@ line vty 5 8
 end
 ````
 
-### Jurassic:
+### Jurassic Router:
 
 ````
 enable
@@ -975,6 +975,208 @@ exit
 
 
 ````
+
+### Jurassic Switch
+
+````
+
+enable
+configure terminal 
+!
+no ip domain-lookup
+ip domain-name fz3r0.site_a
+!
+hostname SW01_CORE-SITE-A
+!
+enable secret cisco12345
+service password-encryption
+security passwords min-length 10
+login block-for 120 attempts 3 within 60
+!
+username root privilege 15 secret cisco12345
+username user privilege 10 secret cisco12345
+!
+line console 0
+password cisco12345
+login
+!
+line vty 0 8
+access-class 8 in
+exec-timeout 5 30
+transport input ssh
+login local
+!
+crypto key generate rsa
+1024
+ip ssh version 2
+!
+banner motd #
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+         Fz3r0 - SW 01 CORE - Site A :  Only authorized access!      
+           
+         Twitter @fz3r0_Ops
+         Github  Fz3r0  
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+#
+!
+vlan 10
+name VLAN10-MANAGEMENT
+vlan 50
+name VLAN50-RED
+vlan 60
+name VLAN60-RED
+vlan 70
+name VLAN70-RED
+vlan 80
+name VLAN80-RED
+vlan 90
+name VLAN90-RED
+vlan 66
+name VLAN66-RED
+!
+interface vlan 10
+description << VLAN 10 - MANAGEMENT INTERFACE >>
+ip address 10.10.0.10 255.255.255.0
+no shutdown 
+!
+ip default-gateway 10.10.0.1
+!
+!
+interface range f0/1 - 24, g0/1 - 2
+description << Unused Switch Ports (Access) >>
+switchport mode access
+switchport access vlan 1
+disable DTP
+spanning-tree bpduguard enable
+spanning-tree portfast
+no CDP enable
+no lldp transmit
+no lldp receive
+switchport no negotiate
+shutdown
+!
+interface range g0/1 - 2
+description << Trunk | Link Cascade SWs & GW >>
+switchport encapsulation dot1q
+switchport mode trunk
+switchport trunk native vlan 10
+switchport trunk allowed vlan 50,60,70,80,90,66
+duplex full
+speed 1000
+spanning-tree bpduguard disable
+spanning-tree portfast disable
+CDP enable
+lldp transmit
+lldp receive
+no shutdown
+!
+!
+interface range fastEthernet 0/1 - 2
+description << ACCESS :: VLAN50 >>
+switchport mode access
+switchport access vlan 50
+switchport port-security
+switchport port-security maximum 2
+switchport port-security mac-address sticky
+switchport port-security mac-address sticky F0F0.F0F0.F666
+switchport port-security violation shutdown
+errdisable recovery cause psecure-violation
+errdisable recovery interval 600
+no shutdown
+!
+interface range fastEthernet 0/3 - 4
+description << ACCESS :: VLAN60 >>
+switchport mode access
+switchport access vlan 60
+switchport port-security
+switchport port-security maximum 2
+switchport port-security mac-address sticky
+switchport port-security mac-address sticky F0F0.F0F0.F666
+switchport port-security violation shutdown
+errdisable recovery cause psecure-violation
+errdisable recovery interval 600
+no shutdown
+!
+interface range fastEthernet 0/5 - 6
+description << ACCESS :: VLAN70 >>
+switchport mode access
+switchport access vlan 70
+switchport port-security
+switchport port-security maximum 2
+switchport port-security mac-address sticky
+switchport port-security mac-address sticky F0F0.F0F0.F666
+switchport port-security violation shutdown
+errdisable recovery cause psecure-violation
+errdisable recovery interval 600
+no shutdown
+!
+interface range fastEthernet 0/7 - 8
+description << ACCESS :: VLAN80 >>
+switchport mode access
+switchport access vlan 80
+switchport port-security
+switchport port-security maximum 2
+switchport port-security mac-address sticky
+switchport port-security mac-address sticky F0F0.F0F0.F666
+switchport port-security violation shutdown
+errdisable recovery cause psecure-violation
+errdisable recovery interval 600
+no shutdown
+!
+interface range fastEthernet 0/9 - 10
+description << ACCESS :: VLAN80 >>
+switchport mode access
+switchport access vlan 90
+switchport port-security
+switchport port-security maximum 2
+switchport port-security mac-address sticky
+switchport port-security mac-address sticky F0F0.F0F0.F666
+switchport port-security violation shutdown
+errdisable recovery cause psecure-violation
+errdisable recovery interval 600
+no shutdown
+!
+interface range fastEthernet 0/11 - 12
+description << ACCESS :: VLAN66 >>
+switchport mode access
+switchport access vlan 66
+switchport port-security
+switchport port-security maximum 2
+switchport port-security mac-address sticky
+switchport port-security mac-address sticky F0F0.F0F0.F666
+switchport port-security violation shutdown
+errdisable recovery cause psecure-violation
+errdisable recovery interval 600
+no shutdown
+!
+!
+interface range 0/13 - 18
+description << Trunk | Access Points (APs) >>
+switchport encapsulation dot1q
+switchport mode trunk
+switchport trunk native vlan 10
+switchport trunk allowed vlan 50,60,70,80,90,66
+duplex full
+speed 1000
+spanning-tree bpduguard disable
+spanning-tree portfast disable
+CDP enable
+lldp transmit
+lldp receive
+no shutdown
+!
+!
+end
+copy running-config startup-config
+!
+exit
+
+````
+
 
 ### Troubleshooting
 ___
