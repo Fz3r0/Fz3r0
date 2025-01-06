@@ -839,7 +839,142 @@ line vty 5 8
 end
 ````
 
+### Jurassic:
 
+````
+enable
+configure terminal 
+
+no ip domain-lookup
+ip domain-name fz3r0.site_a
+
+hostname R1_GW0_SITE-A
+
+enable secret cisco12345
+service password-encryption
+security passwords min-length 10
+login block-for 120 attempts 3 within 60
+
+username root privilege 15 secret cisco12345
+username user privilege 10 secret cisco12345
+
+line console 0
+password cisco12345
+login
+exit
+
+line vty 0 8
+access-class 8 in
+exec-timeout 5 30
+transport input ssh
+login local
+exit
+
+crypto key generate rsa
+1024
+ip ssh version 2
+
+banner login #
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+         Fz3r0 - R1 - Site A :  Only authorized access! 
+
+         Twitter @fz3r0_OPs
+         Github  Fz3r0    
+             
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+#
+
+banner motd #
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+         Fz3r0 - R1 - Site A :  Only authorized access!      
+           
+         Twitter @fz3r0_OPs
+         Github  Fz3r0  
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+#
+
+interface range g0/0 - 2
+description << Unused Router Ports >>
+shutdown
+exit
+!
+interface gigabitEthernet 0/0
+description << Connect SUB-Interfaces 10,50,60,70,80,90,66 >>
+duplex full
+speed 1000
+no shutdown
+exit
+!
+interface gigabitEthernet 0/0.10
+description << VLAN_10 : MANAGEMENT >>
+encapsulation dot1Q 10
+ip address 10.10.0.1 255.255.255.0
+no shutdown 
+exit
+!
+interface gigabitEthernet 0/0.50
+description << VLAN_50 : ALFA_OPEN >>
+encapsulation dot1Q 50
+ip address 10.50.0.1 255.255.255.0
+no shutdown 
+exit
+!
+interface gigabitEthernet 0/0.60
+description << VLAN_60 : BRAVO_WPA2-PSK >>
+encapsulation dot1Q 60
+ip address 10.60.0.1 255.255.255.0
+no shutdown 
+exit
+!
+interface gigabitEthernet 0/0.70
+description << VLAN_70 : CHARLIE_802.1X-EAP >>
+encapsulation dot1Q 70
+ip address 10.70.0.1 255.255.255.0
+no shutdown 
+exit
+!
+interface gigabitEthernet 0/0.80
+description << VLAN_80 : DELTA_HOTSPOT-WISPr >>
+encapsulation dot1Q 80
+ip address 10.80.0.1 255.255.255.0
+no shutdown 
+exit
+!
+interface gigabitEthernet 0/0.90
+description << VLAN_90 : ECHO_HOTSPOT2.0-PASSPOINT >>
+encapsulation dot1Q 90
+ip address 10.90.0.1 255.255.255.0
+no shutdown 
+exit
+!
+interface gigabitEthernet 0/0.66
+description << VLAN_66 : HONEYPOT >>
+encapsulation dot1Q 66
+ip address 10.66.0.1 255.255.255.0
+no shutdown 
+exit
+!
+interface loopback 0
+description << loopback 111.111.111.111 >>
+ip address 111.111.111.111 255.255.255.255
+exit
+!
+end
+copy running-config startup-config
+!
+exit
+!
+!
+
+
+````
 
 ### Troubleshooting
 ___
