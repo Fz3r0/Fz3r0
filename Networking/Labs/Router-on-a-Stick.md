@@ -676,6 +676,170 @@ exit
 
 ```
 
+Router Jalando:
+
+````
+service password-encryption
+security passwords min-length 10
+!
+hostname R1
+!
+login block-for 120 attempts 3 within 60
+!
+!
+enable secret 5 $1$mERr$WvpW0n5HghRrqnrwXCUUl.
+!
+!
+!
+!
+!
+!
+ip cef
+no ipv6 cef
+!
+!
+!
+username root privilege 15 secret 5 $1$mERr$WvpW0n5HghRrqnrwXCUUl.
+username user privilege 10 secret 5 $1$mERr$WvpW0n5HghRrqnrwXCUUl.
+!
+!
+license udi pid CISCO2911/K9 sn FTX1524L821-
+!
+!
+!
+!
+!
+!
+!
+!
+!
+ip ssh version 2
+no ip domain-lookup
+ip domain-name fz3r0.domain
+!
+!
+spanning-tree mode pvst
+!
+!
+!
+!
+!
+!
+interface Loopback0
+ description << loopback 10.10.10.10 >>
+ ip address 10.10.10.10 255.255.255.255
+!
+interface GigabitEthernet0/0
+ description << Connect SUB-Interfaces 10,20,30,99,100 >>
+ no ip address
+ duplex full
+ speed 1000
+!
+interface GigabitEthernet0/0.10
+ description << Connect to Subnet 10 >>
+ encapsulation dot1Q 10
+ ip address 192.168.10.254 255.255.255.0
+!
+interface GigabitEthernet0/0.20
+ description << Connect to Subnet 20 >>
+ encapsulation dot1Q 20
+ ip address 192.168.20.254 255.255.255.0
+!
+interface GigabitEthernet0/0.30
+ description << Connect to Subnet 30 >>
+ encapsulation dot1Q 30
+ ip address 192.168.30.254 255.255.255.0
+!
+interface GigabitEthernet0/0.99
+ description << Connect to Subnet 99 >>
+ encapsulation dot1Q 99 native
+ ip address 192.168.99.254 255.255.255.0
+!
+interface GigabitEthernet0/0.100
+ description << Connect to Subnet 100 >>
+ encapsulation dot1Q 100
+ ip address 192.168.100.254 255.255.255.0
+!
+interface GigabitEthernet0/1
+ description << Unused Router Ports >>
+ no ip address
+ duplex auto
+ speed auto
+ shutdown
+!
+interface GigabitEthernet0/2
+ description << Unused Router Ports >>
+ no ip address
+ duplex auto
+ speed auto
+ shutdown
+!
+interface Vlan1
+ no ip address
+ shutdown
+!
+ip classless
+!
+ip flow-export version 9
+!
+!
+ip access-list extended sl_def_acl
+ deny tcp any any eq telnet
+ deny tcp any any eq www
+ deny tcp any any eq 22
+ permit tcp any any eq 22
+!
+banner login ^C
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+         Unauthorized access to this device is prohibited!
+
+         Twitter @fz3r0_Ops
+         Github  Fz3r0    
+             
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+^C
+banner motd ^C
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+         fz3r0 - R1 - ZoneA :  Only authorized access!      
+           
+         Twitter @fz3r0_Ops
+         Github  Fz3r0  
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+^C
+!
+!
+!
+!
+line con 0
+ password 7 0822455D0A165445415F59
+ login
+!
+line aux 0
+!
+line vty 0 4
+ access-class 8 in
+ exec-timeout 5 30
+ login local
+ transport input ssh
+line vty 5 8
+ access-class 8 in
+ exec-timeout 5 30
+ login local
+ transport input ssh
+!
+!
+!
+end
+````
+
+
 
 ### Troubleshooting
 ___
