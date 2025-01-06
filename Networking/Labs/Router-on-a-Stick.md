@@ -916,6 +916,7 @@ interface gigabitEthernet 0/0.10
 description << VLAN_10 : MANAGEMENT >>
 encapsulation dot1Q 10
 ip address 10.10.0.1 255.255.255.0
+ip helper-address 10.10.0.3
 no shutdown 
 exit
 !
@@ -923,6 +924,7 @@ interface gigabitEthernet 0/0.50
 description << VLAN_50 : ALFA_OPEN >>
 encapsulation dot1Q 50
 ip address 10.50.0.1 255.255.255.0
+ip helper-address 10.10.0.3
 no shutdown 
 exit
 !
@@ -930,6 +932,7 @@ interface gigabitEthernet 0/0.60
 description << VLAN_60 : BRAVO_WPA2-PSK >>
 encapsulation dot1Q 60
 ip address 10.60.0.1 255.255.255.0
+ip helper-address 10.10.0.3
 no shutdown 
 exit
 !
@@ -937,6 +940,7 @@ interface gigabitEthernet 0/0.70
 description << VLAN_70 : CHARLIE_802.1X-EAP >>
 encapsulation dot1Q 70
 ip address 10.70.0.1 255.255.255.0
+ip helper-address 10.10.0.3
 no shutdown 
 exit
 !
@@ -944,6 +948,7 @@ interface gigabitEthernet 0/0.80
 description << VLAN_80 : DELTA_HOTSPOT-WISPr >>
 encapsulation dot1Q 80
 ip address 10.80.0.1 255.255.255.0
+ip helper-address 10.10.0.3
 no shutdown 
 exit
 !
@@ -951,6 +956,7 @@ interface gigabitEthernet 0/0.90
 description << VLAN_90 : ECHO_HOTSPOT2.0-PASSPOINT >>
 encapsulation dot1Q 90
 ip address 10.90.0.1 255.255.255.0
+ip helper-address 10.10.0.3
 no shutdown 
 exit
 !
@@ -958,6 +964,7 @@ interface gigabitEthernet 0/0.66
 description << VLAN_66 : HONEYPOT >>
 encapsulation dot1Q 66
 ip address 10.66.0.1 255.255.255.0
+ip helper-address 10.10.0.3
 no shutdown 
 exit
 !
