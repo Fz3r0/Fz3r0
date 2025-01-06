@@ -1154,7 +1154,7 @@ errdisable recovery interval 600
 no shutdown
 !
 !
-interface range 0/13 - 18
+interface range fastEthernet 0/13 - 18
 description << Trunk | Access Points (APs) >>
 switchport encapsulation dot1q
 switchport mode trunk
@@ -1174,6 +1174,8 @@ end
 copy running-config startup-config
 !
 exit
+
+
 
 ````
 
