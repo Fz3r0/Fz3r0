@@ -1028,17 +1028,17 @@ banner motd #
 vlan 10
 name VLAN10-MANAGEMENT
 vlan 50
-name VLAN50-RED
+name VLAN50-ALFA_OPEN
 vlan 60
-name VLAN60-RED
+name VLAN60-BRAVO_WPA2-PSK
 vlan 70
-name VLAN70-RED
+name VLAN70-CHARLIE_802.1X-EAP
 vlan 80
-name VLAN80-RED
+name VLAN80-DELTA_HOTSPOT-WISPr
 vlan 90
-name VLAN90-RED
+name VLAN90-ECHO_HOTSPOT2.0-PASSPOINT
 vlan 66
-name VLAN66-RED
+name VLAN66-HONEYPOT
 !
 interface vlan 10
 description << VLAN 10 - MANAGEMENT INTERFACE >>
@@ -1052,13 +1052,6 @@ interface range f0/1 - 24, g0/1 - 2
 description << Unused Switch Ports (Access) >>
 switchport mode access
 switchport access vlan 1
-disable DTP
-spanning-tree bpduguard enable
-spanning-tree portfast
-no CDP enable
-no lldp transmit
-no lldp receive
-switchport no negotiate
 shutdown
 !
 interface range g0/1 - 2
@@ -1190,6 +1183,9 @@ end
 copy running-config startup-config
 !
 exit
+
+
+
 
 
 
