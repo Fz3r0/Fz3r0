@@ -1086,11 +1086,6 @@ interface range fastEthernet 0/1 - 2
 description << ACCESS :: VLAN10 >>
 switchport mode access
 switchport access vlan 10
-switchport port-security
-switchport port-security maximum 2
-switchport port-security mac-address sticky
-switchport port-security mac-address sticky F0F0.F0F0.F666
-switchport port-security violation shutdown
 errdisable recovery cause psecure-violation
 errdisable recovery interval 600
 no shutdown
@@ -1301,11 +1296,6 @@ interface range fastEthernet 0/1 - 2
 description << ACCESS :: VLAN10 >>
 switchport mode access
 switchport access vlan 10
-switchport port-security
-switchport port-security maximum 2
-switchport port-security mac-address sticky
-switchport port-security mac-address sticky F0F0.F0F0.F666
-switchport port-security violation shutdown
 errdisable recovery cause psecure-violation
 errdisable recovery interval 600
 no shutdown
@@ -1519,11 +1509,6 @@ interface range fastEthernet 0/1 - 2
 description << ACCESS :: VLAN10 >>
 switchport mode access
 switchport access vlan 10
-switchport port-security
-switchport port-security maximum 2
-switchport port-security mac-address sticky
-switchport port-security mac-address sticky F0F0.F0F0.F666
-switchport port-security violation shutdown
 errdisable recovery cause psecure-violation
 errdisable recovery interval 600
 no shutdown
