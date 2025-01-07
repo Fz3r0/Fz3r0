@@ -906,11 +906,18 @@ shutdown
 exit
 !
 interface gigabitEthernet 0/0
-description << VLAN_10 : MANAGEMENT : Sub-Interfaces: 50,60,70,80,90,66 >>
-ip address 10.10.0.1 255.255.255.0
+description << Sub-Interfaces: 10,50,60,70,80,90,66 >>
 duplex full
 speed 1000
 no shutdown
+exit
+!
+!
+interface gigabitEthernet 0/0.10
+description << VLAN_10 : MANAGEMENT >>
+encapsulation dot1Q 10
+ip address 10.10.0.1 255.255.255.0
+no shutdown 
 exit
 !
 !
