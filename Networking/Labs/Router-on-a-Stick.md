@@ -1077,6 +1077,19 @@ no shutdown
 !
 !
 interface range fastEthernet 0/1 - 2
+description << ACCESS :: VLAN10 >>
+switchport mode access
+switchport access vlan 10
+switchport port-security
+switchport port-security maximum 2
+switchport port-security mac-address sticky
+switchport port-security mac-address sticky F0F0.F0F0.F666
+switchport port-security violation shutdown
+errdisable recovery cause psecure-violation
+errdisable recovery interval 600
+no shutdown
+!
+interface range fastEthernet 0/3 - 4
 description << ACCESS :: VLAN50 >>
 switchport mode access
 switchport access vlan 50
@@ -1089,7 +1102,7 @@ errdisable recovery cause psecure-violation
 errdisable recovery interval 600
 no shutdown
 !
-interface range fastEthernet 0/3 - 4
+interface range fastEthernet 0/5 - 6
 description << ACCESS :: VLAN60 >>
 switchport mode access
 switchport access vlan 60
@@ -1102,7 +1115,7 @@ errdisable recovery cause psecure-violation
 errdisable recovery interval 600
 no shutdown
 !
-interface range fastEthernet 0/5 - 6
+interface range fastEthernet 0/7 - 8
 description << ACCESS :: VLAN70 >>
 switchport mode access
 switchport access vlan 70
@@ -1115,7 +1128,7 @@ errdisable recovery cause psecure-violation
 errdisable recovery interval 600
 no shutdown
 !
-interface range fastEthernet 0/7 - 8
+interface range fastEthernet 0/9 - 10
 description << ACCESS :: VLAN80 >>
 switchport mode access
 switchport access vlan 80
@@ -1128,8 +1141,8 @@ errdisable recovery cause psecure-violation
 errdisable recovery interval 600
 no shutdown
 !
-interface range fastEthernet 0/9 - 10
-description << ACCESS :: VLAN80 >>
+interface range fastEthernet 0/11 - 12
+description << ACCESS :: VLAN90 >>
 switchport mode access
 switchport access vlan 90
 switchport port-security
@@ -1141,7 +1154,8 @@ errdisable recovery cause psecure-violation
 errdisable recovery interval 600
 no shutdown
 !
-interface range fastEthernet 0/11 - 12
+!
+interface range fastEthernet 0/13 - 14
 description << ACCESS :: VLAN66 >>
 switchport mode access
 switchport access vlan 66
@@ -1155,7 +1169,7 @@ errdisable recovery interval 600
 no shutdown
 !
 !
-interface range fastEthernet 0/13 - 18
+interface range fastEthernet 0/15 - 20
 description << Trunk | Access Points (APs) >>
 switchport encapsulation dot1q
 switchport mode trunk
