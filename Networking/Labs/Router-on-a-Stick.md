@@ -905,7 +905,7 @@ description << Unused Router Ports >>
 shutdown
 exit
 !
-interface gigabitEthernet 0/0
+interface gigabitEthernet 0/1
 description << Sub-Interfaces: 10,50,60,70,80,90,66 >>
 duplex full
 speed 1000
