@@ -913,12 +913,6 @@ speed 1000
 no shutdown
 exit
 !
-interface gigabitEthernet 0/0.10
-description << VLAN_10 : MANAGEMENT >>
-encapsulation dot1Q 10
-ip address 10.10.0.1 255.255.255.0
-no shutdown 
-exit
 !
 interface gigabitEthernet 0/0.50
 description << VLAN_50 : ALFA_OPEN >>
