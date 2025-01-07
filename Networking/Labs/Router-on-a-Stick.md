@@ -975,9 +975,13 @@ ip address 111.111.111.111 255.255.255.255
 exit
 !
 end
+write memory
 copy running-config startup-config
+
+
 !
 exit
+reload
 !
 !
 
@@ -1188,9 +1192,15 @@ no shutdown
 !
 !
 end
+write memory
 copy running-config startup-config
+
+
 !
 exit
+reload
+!
+!
 
 
 
@@ -1397,9 +1407,15 @@ no shutdown
 !
 !
 end
+write memory
 copy running-config startup-config
+
+
 !
 exit
+reload
+!
+!
 
 
 
@@ -1609,9 +1625,15 @@ no shutdown
 !
 !
 end
+write memory
 copy running-config startup-config
+
+
 !
 exit
+reload
+!
+!
 
 
 
