@@ -1016,7 +1016,7 @@ banner motd #
 
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 
-         Fz3r0 - SW 01 CORE - Site A :  Only authorized access!      
+         Fz3r0 - SWITCH 01 CORE : SITE-A :  Only authorized access!      
            
          Twitter @fz3r0_Ops
          Github  Fz3r0  
@@ -1039,6 +1039,8 @@ vlan 90
 name VLAN90-ECHO_HOTSPOT2.0-PASSPOINT
 vlan 66
 name VLAN66-HONEYPOT
+vlan 99
+name VLAN99-TRUNK.8021Q
 !
 interface vlan 10
 description << VLAN 10 - MANAGEMENT INTERFACE >>
@@ -1048,18 +1050,14 @@ no shutdown
 ip default-gateway 10.10.0.1
 !
 !
-interface range f0/1 - 24, g0/1 - 2
-description << Unused Switch Ports (Access) >>
-switchport mode access
-switchport access vlan 1
-shutdown
+
 !
 interface range g0/1 - 2
 description << Trunk | Link Cascade SWs & GW >>
 switchport encapsulation dot1q
 switchport mode trunk
-switchport trunk native vlan 10
-switchport trunk allowed vlan 50,60,70,80,90,66
+switchport trunk native vlan 99
+switchport trunk allowed vlan 10,50,60,70,80,90,66
 duplex full
 speed 1000
 spanning-tree bpduguard disable
@@ -1167,8 +1165,8 @@ interface range fastEthernet 0/15 - 20
 description << Trunk | Access Points (APs) >>
 switchport encapsulation dot1q
 switchport mode trunk
-switchport trunk native vlan 10
-switchport trunk allowed vlan 50,60,70,80,90,66
+switchport trunk native vlan 99
+switchport trunk allowed vlan 10,50,60,70,80,90,66
 duplex full
 speed 1000
 spanning-tree bpduguard disable
@@ -1183,7 +1181,6 @@ end
 copy running-config startup-config
 !
 exit
-
 
 
 
@@ -1228,7 +1225,7 @@ banner motd #
 
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 
-         Fz3r0 - SW 02 ACCESS - Site A :  Only authorized access!      
+         Fz3r0 - SWITCH 02 ACCESS : SITE-A :  Only authorized access!      
            
          Twitter @fz3r0_Ops
          Github  Fz3r0  
@@ -1251,6 +1248,8 @@ vlan 90
 name VLAN90-ECHO_HOTSPOT2.0-PASSPOINT
 vlan 66
 name VLAN66-HONEYPOT
+vlan 99
+name VLAN99-TRUNK.8021Q
 !
 interface vlan 10
 description << VLAN 10 - MANAGEMENT INTERFACE >>
@@ -1260,18 +1259,14 @@ no shutdown
 ip default-gateway 10.10.0.1
 !
 !
-interface range f0/1 - 24, g0/1 - 2
-description << Unused Switch Ports (Access) >>
-switchport mode access
-switchport access vlan 1
-shutdown
+
 !
 interface range g0/1 - 2
 description << Trunk | Link Cascade SWs & GW >>
 switchport encapsulation dot1q
 switchport mode trunk
-switchport trunk native vlan 10
-switchport trunk allowed vlan 50,60,70,80,90,66
+switchport trunk native vlan 99
+switchport trunk allowed vlan 10,50,60,70,80,90,66
 duplex full
 speed 1000
 spanning-tree bpduguard disable
@@ -1379,8 +1374,8 @@ interface range fastEthernet 0/15 - 20
 description << Trunk | Access Points (APs) >>
 switchport encapsulation dot1q
 switchport mode trunk
-switchport trunk native vlan 10
-switchport trunk allowed vlan 50,60,70,80,90,66
+switchport trunk native vlan 99
+switchport trunk allowed vlan 10,50,60,70,80,90,66
 duplex full
 speed 1000
 spanning-tree bpduguard disable
@@ -1395,6 +1390,7 @@ end
 copy running-config startup-config
 !
 exit
+
 
 
 
@@ -1441,7 +1437,7 @@ banner motd #
 
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 
-         Fz3r0 - SW 03 ACCESS - Site A :  Only authorized access!      
+         Fz3r0 - SWITCH 03 ACCESS : SITE-A :  Only authorized access!      
            
          Twitter @fz3r0_Ops
          Github  Fz3r0  
@@ -1464,6 +1460,8 @@ vlan 90
 name VLAN90-ECHO_HOTSPOT2.0-PASSPOINT
 vlan 66
 name VLAN66-HONEYPOT
+vlan 99
+name VLAN99-TRUNK.8021Q
 !
 interface vlan 10
 description << VLAN 10 - MANAGEMENT INTERFACE >>
@@ -1473,18 +1471,14 @@ no shutdown
 ip default-gateway 10.10.0.1
 !
 !
-interface range f0/1 - 24, g0/1 - 2
-description << Unused Switch Ports (Access) >>
-switchport mode access
-switchport access vlan 1
-shutdown
+
 !
 interface range g0/1 - 2
 description << Trunk | Link Cascade SWs & GW >>
 switchport encapsulation dot1q
 switchport mode trunk
-switchport trunk native vlan 10
-switchport trunk allowed vlan 50,60,70,80,90,66
+switchport trunk native vlan 99
+switchport trunk allowed vlan 10,50,60,70,80,90,66
 duplex full
 speed 1000
 spanning-tree bpduguard disable
@@ -1592,8 +1586,8 @@ interface range fastEthernet 0/15 - 20
 description << Trunk | Access Points (APs) >>
 switchport encapsulation dot1q
 switchport mode trunk
-switchport trunk native vlan 10
-switchport trunk allowed vlan 50,60,70,80,90,66
+switchport trunk native vlan 99
+switchport trunk allowed vlan 10,50,60,70,80,90,66
 duplex full
 speed 1000
 spanning-tree bpduguard disable
@@ -1608,6 +1602,8 @@ end
 copy running-config startup-config
 !
 exit
+
+
 
 
 
