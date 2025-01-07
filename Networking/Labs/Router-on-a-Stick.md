@@ -1200,7 +1200,7 @@ configure terminal
 no ip domain-lookup
 ip domain-name fz3r0.site_a
 !
-hostname SW01_CORE-SITE-A
+hostname SW02_ACCESS-SITE-A
 !
 enable secret cisco12345
 service password-encryption
@@ -1413,7 +1413,7 @@ configure terminal
 no ip domain-lookup
 ip domain-name fz3r0.site_a
 !
-hostname SW01_CORE-SITE-A
+hostname SW03_ACCESS-SITE-A
 !
 enable secret cisco12345
 service password-encryption
