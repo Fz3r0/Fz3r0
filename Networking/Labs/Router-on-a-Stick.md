@@ -848,7 +848,7 @@ configure terminal
 no ip domain-lookup
 ip domain-name fz3r0.site_a
 
-hostname R1_GW0_SITE-A
+hostname R1_GW_SITE-A
 
 enable secret cisco12345
 service password-encryption
@@ -878,7 +878,7 @@ banner login #
 
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 
-         Fz3r0 - R1 - Site A :  Only authorized access! 
+         Fz3r0 - ROUTER (EDGE GATEWAY) - Site A :  Only authorized access! 
 
          Twitter @fz3r0_OPs
          Github  Fz3r0    
@@ -974,6 +974,7 @@ copy running-config startup-config
 exit
 !
 !
+
 
 
 ````
