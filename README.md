@@ -265,6 +265,11 @@ Please check out the links of my Social Networks that I've placed above includin
   
 <!-- =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- FAST INDEX -->    
 
+
+
+<!-- 
+
+
 ## Fast Index
 
 ### Networking Infraestructure
@@ -280,7 +285,7 @@ Please check out the links of my Social Networks that I've placed above includin
 - ➡️ 💥 ⬅️ [**Carrier Sense Multiple Access (CSMA)**](https://github.com/fz3r0#%EF%B8%8F--%EF%B8%8F-carrier-sense-multiple-access-csma-%EF%B8%8F--%EF%B8%8F)
 - 🛰️ 📶 📡 [**Wireless Communication & RF**](https://github.com/Fz3r0/Fz3r0/blob/main/README.md#%EF%B8%8F---wireless-communication--rf---%EF%B8%8F)
 
-<!-- =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- Lo básico de lo básico ¡En español! --> 
+
 
 <span align="center"> <h1 align="center">🍼 👼 🐤 Lo básico de lo básico ¡En español! 🐤 👼 🍼</h1> </span>  
 
@@ -323,7 +328,7 @@ _"¿De qué tamaño es un **problema**... visto desde [Saturno](https://user-ima
 - [Open Source Society University - Path to a free self-taught education in Computer Science!](https://github.com/ossu/computer-science) _OSSU_
 - [**¿Cómo hackear en 2 minutos al mundo entero?**](https://youtu.be/dQw4w9WgXcQ) _**¡Un largo camino comienza aquí, aventuras podrás disfutar!**_
 
-<!-- =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- NETWORKING --> 
+<!-- =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- NETWORKING 
 
 <span align="center"> <h1 align="center">  📡 🖧 🌐 Networking 🌐 🖧 📡</h1> </span>   
 
@@ -331,7 +336,7 @@ _Monitoring devices, know where you go, mass media, total control. Digital delig
 
 _The sun never sets, on cyber-space... Transmit, receive, log on to interface_
 
-<!-- =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- Dark Wizardy for Networking --> 
+<!-- =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- Dark Wizardy for Networking 
 
 ## 🔮 📖 🧙‍ Dark Wizardy for Networking 🧙‍♂️ 📖 🔮
 _Networking Lists, concepts, Tables, Models, Cheat-Sheets, Mind-Maps & Cool Resources!!!_
@@ -571,13 +576,13 @@ _**WLAN** Medium Access Control (MAC) and Physical Layer (PHY) Specifications_
 ⠀⣼⠟⣡⠚⣉⣉⣽⣿⣦⡙⢦⣹⠆⢀⣶⣆⣼⣿⣿⣟⠋⣽⣁⣿⣿⣾⣿⣿⣿⣿⠿⢿⣿⣿⣿⡿⠿⢿⣿⣿⣿⢧⣄⠀⢀⣠⣶⣤⣬⣧⠀
 ⢸⢷⡾⠷⠾⠿⠿⡿⠿⣟⠛⠛⢀⢠⠾⠾⡟⠉⡉⡑⠿⠾⠓⠒⡾⣿⠻⠿⠟⠛⢋⢰⡾⡿⣶⠶⠿⠿⣿⢩⡿⡟⡳⢾⠿⠟⣛⣚⣿⠷⡶⠄
 
-                       PRAISE THE SUN!!! -->
+                       PRAISE THE SUN!!! 
 
 ## ☀️ 🛡️ 🔥 Praise the Sun!  `Wireless` 🔥 🛡️ ☀️
 
 _"I am Solaire of Astora, an adherent to the Lord of Sunlight. Now that I am Undead, I have come to this great land, the birthplace of Lord Gwyn, to seek my very own sun!" _
 
-<!-- THE EVOLUTION OF IEEE 802 11 STANDARDS - BAG NAC + AX-->
+<!-- THE EVOLUTION OF IEEE 802 11 STANDARDS - BAG NAC + AX
 
 - [The Evolution of IEEE 802 11 standards - _BAG NAC_+ AX | Layer 1 (PHY) & Layer 2 (MAC)](https://youtu.be/qZLPq5mebFM) _@ Sunny_
     - [**`BAG NAC` `+ AX` - Big Awful Gym Needs AC ;) AX cuz' 2022... - The Table by the MAESTRO Sunny**](https://user-images.githubusercontent.com/94720207/197258736-4971bccf-1c0c-4903-93d2-1f45aaee5af1.png)
@@ -627,23 +632,23 @@ _"I am Solaire of Astora, an adherent to the Lord of Sunlight. Now that I am Und
 
 
 
-<!-- WHY DO WE NEED MODULATION DURING TRANSMISSION? -->
+<!-- WHY DO WE NEED MODULATION DURING TRANSMISSION? 
 
 - [Why do we need modulation during transmission?](https://youtu.be/dvGcCk1vbjk) _@ Sunny_
 
-<!-- ANALOG VS DIGITAL -->
+<!-- ANALOG VS DIGITAL 
 
 - [`Analog` vs `Digital`](https://youtu.be/gGxpUZ_iuYA) _@ Sunny_ <br>
 _`Analog` - Sun, light, sounds, colors | Smooth & Continious (no "steps") | Noise Amplification_ <br>
 _`Digital` - 1 & 0 | Discrete Steps (a lot! no infinite tho) | Digital Signal = Pulse Wave | Original Regen_
 
-<!-- AM VS FM -->
+<!-- AM VS FM 
 
 - [`AM` vs `FM` Modulations - **(Analog Modulation)**](https://youtu.be/I0jdIvwkiDI) _@ Sunny_ <br>
 _`AM` - lower Freq = larger = far transmission, news channels, more noise (due amplitude moves)_ <br>
 _`FM` - high Freq = smaller = more data, less distance, music, less noise no-static (static amplitude)_
 
-<!-- TDM, STATISTICAL TDM & FDM -->
+<!-- TDM, STATISTICAL TDM & FDM 
 
 - [`Multiplexing:` TDM, Statistical TDM & FDM | Multiple Signals Combined Together](https://www.youtube.com/watch?v=fIZhDl35_XY)  _@ Sunny_ <br>
 _`TDM` - Time Division Multiplexing | dividing time into slots/intervals | **equally** assignment | old_ <br>
@@ -652,7 +657,7 @@ _`FDM` - Frequency Division Multiplexing | Different (analog signals) | same tim
 _`Baseband TDM` - Transmit 1 signal at time 1&0 | ej. **`Wired / Ethernet`** | `TDM` & `STDM`_ <br>
 _`Broadband FDM` - Multi-transmit, share 1 channel at diff Freqs | ej. **`RF`**,  **`HSIA`**, **`DSL`** | `FDM`_
 
-<!-- OFDM - ORTHOGONAL FREQUENCY DIVISION MULTIPLEXING -->
+<!-- OFDM - ORTHOGONAL FREQUENCY DIVISION MULTIPLEXING 
 
 - [`OFDM` - Orthogonal Frequency Division Multiplexing - _**(Analog Modulation)**_](https://youtu.be/KCHO7zlU25Q) _@ Sunny_ <br>
 _Based on `FDM` | Multiple Users share 1 single link | **OFDM = variation of FDM** ;)_ <br>
@@ -669,14 +674,14 @@ _`OFDM vs FDM` - More bandwith & Higher Data Transmission Rate than FDM due Orth
 
 
 
-<!-- DIGITAL MODULATION: ASK, FSK, AND PSK -->
+<!-- DIGITAL MODULATION: ASK, FSK, AND PSK 
 
 - [`Digital modulation` - ASK, FSK, and PSK - _**(Digital Modulation)**_](https://youtu.be/qGwUOvErR8Q)
     - [`ASK` - Amplitude Shift Keying](https://user-images.githubusercontent.com/94720207/197251539-77dab9d7-80e2-44c7-a8c1-cce567f2b96c.png) _Same Freq & Amplitude changes = ASK signals_
     - [`FSK` - Frequency Shift Keying](https://user-images.githubusercontent.com/94720207/197252009-8f3a40fc-9952-4bbf-96ed-6af781221024.png) _1 value = higher freq | 0 value = lower freq_
     - [`PSK` Phase Shift Keying](https://user-images.githubusercontent.com/94720207/197253324-78c2bd30-10d1-4b82-b8cc-526768defa94.png) _Change phase everytime the value 0 or 1 changes_
 
-<!-- PCM - Analog to digital conversion -->
+<!-- PCM - Analog to digital conversion 
 
 - [`PCM` - Pulse Code Modulation | **For Analog to Digital conversion** | _composed of 3 steps:_](https://youtu.be/HlGJ6xxbz8s)
 1. _**`Sampling` - Take samples to reconstruct original signal | steps like ableton sample-rate waves :)**_
@@ -686,9 +691,9 @@ _`OFDM vs FDM` - More bandwith & Higher Data Transmission Rate than FDM due Orth
 2. `Quantizing` - 
 3.  `Encoding`
 
-<!-- Pendiente, no importante por ahora.... -->
+<!-- Pendiente, no importante por ahora.... 
 
-<!-- QAM MODULATION - QUADRATURE AMPLITUDE MODULATION -->
+<!-- QAM MODULATION - QUADRATURE AMPLITUDE MODULATION 
 
 - [`QAM modulation` - Quadrature Amplitude Modulation -  **Digital & Analog Modulation**_](https://www.youtube.com/watch?v=IbUflaeJcU8)
 - [`QAM modulation` -PT2: `The Modulator`](https://youtu.be/YnWCRUoTEAI)
@@ -2352,7 +2357,7 @@ _If you hear the voice of an alien in your psychedelic experience... is the synt
 
 
 
-<!-- MAC Operations on WiFi & RF: Incompleto!!!-->
+<!-- MAC Operations on WiFi & RF: Incompleto!!!
 
 ## 📶 📦 🦈 MAC Operations on WiFi & RF 🦈 📦 📶
 
@@ -2453,7 +2458,7 @@ _PDUs & SDUs travel the OSI layer from top to layer 1 PMD, in layer 1 is modulat
 
        chpter 9 WLAN network architectures
 
-)-->
+)
 
 ## WLAN Network Architectures
 
@@ -2534,7 +2539,7 @@ vamos con wireless security de una vena sale sangre
 
 * horizontal and vertical beamwidth calculation
 
-)-->
+)
 
 
 ## Wireless Security
@@ -4559,7 +4564,7 @@ Network Automation is a cross between the discipline of Network Infrastructure a
 ** =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=- HACKING BIBLES 
 *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
 
--->  
+
   
 # Offensive Security & Hacking 
 
@@ -5993,6 +5998,9 @@ _Nezahualcoyotl_
 <span align="center"> <p align="center"> **.** </p> </span> 
 
 <br><br><br><br><br>
+
+
+  --> 
 
 ---
 
