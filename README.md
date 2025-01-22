@@ -1689,6 +1689,8 @@ _Deep dive into the Packet / PCAP Analysis... & Sharks a lot of sharks!_
 - [CWNP CWNA-108 Exam @ Pass 4 Success](https://www.pass4success.com/cwnp/exam/cwna-108) _Free_
 - [CWNP CWNA-108 Exam Practice Test @ CertsHero](https://www.certshero.com/cwnp/cwna-108)
 - [CWNP CWNA-108 Exam Practice Test @ Test Questions](https://www.test-questions.com/cwnp-cwna-exam-questions-04.php)
+- [CWNP CWNA-108 Practice Exam Questions @ ExamsKit](https://www.examskit.com/cwnp/cwna-108/pdf) _Free_
+- [CWNP CWNA-108 Exam Dumps @ ExamsKit](https://www.examskit.com/cwnp/cwna-108/dumps) _Free_
 
 ## 🔎 🔠 🛰️ Wireless Fz3r0 Glosary 🛰️ 🔠 🔎
 
