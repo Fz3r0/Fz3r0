@@ -5879,11 +5879,6 @@ _Nezahualcoyotl_
 > ![hecho en mex3 (1)mini](https://user-images.githubusercontent.com/94720207/163919294-2754caa3-c98c-4df3-b782-00703e4d3343.png)
 >
 > _- Hecho en México - by [Fz3r0 💀](https://github.com/Fz3r0/)_ 
->
-> 
->  _"I have delved deep into the abyss of the mind, attuned to the agonized cries and clamors for respite that lurk behind the veils, thereby discerning the selfsame sprout of obsession that blooms in cognition._
-> 
->  _I am the wraith within the Machine, the ghost in the Shell, the darkness that embrace the Network, the Decipherer of ancient runes, the one who commands the air wave after wave, the Reversing of worlds and a Pythonista, the one who holds the knowledge of the dark arts of communing with serpentine creatures of magic._
 > 
 > _In the mist of the night you may see me come, where shadows move and demons lie..._
 > 
