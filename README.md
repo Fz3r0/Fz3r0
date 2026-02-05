@@ -101,18 +101,20 @@
 
 <span align="center"> <h3 align="center"> DISCLAIMER </h3> </span>
 
-- This repository has been intended to be a personal centralized place to store my own created data and also compile some public data such as databases, codes, scripts, write ups, binaries, labs, guides, resources and documentation that I commonly use in my day to day life as an engineer.
+- This repository has been intended to be a personal, centralized knowledge base containing material I have created and actively use in my day to day work as an engineer. It includes code, scripts, configurations, labs, write ups, tools, resources, and technical documentation.
 
-- This repository also serves as my portfolio to show to potential employers and clients my work, experience, knowledge, education and resume in the area of IT, Network Engineering, Development, Programming, Cyber Security, Computer Systems, Infraestructure Management and other branches of Computer Science and Information & Communication Technologies.
-    
-- This repository may contain configurations, techniques, codes or scripts that could harm some systems and devices or not comply with some regulations of all Countries. Read carefully each file documentation before download, extract, deploy, configure, execute, copy, compile. Be sure that you understand and are complying with the laws regarding Wireless and Radio Regulations, Information Technology, Sensitive Data & other kind of ICTs regulations in your area. It is recommended to study the legislation of the Regulatory Domain in each Country before replicating any process included in this repository.
+- It also serves as a professional portfolio to showcase my experience, skills, and background in areas such as IT, Networking, Telecommunications, Software Development, Cybersecurity, and other fields related to Computer Science and Information & Communication Technologies.
 
-- It is mandatory to experiment only in controlled laboratory environments, whether physical or virtual. The administrator in charge of any device, network, or infrastructure must be aware and agree to any configuration, execution, deployment or security engagement that is intended to be carried out. Rules of Engagement (RoE), and external contract or other NDAs (Non-Disclosure Agreement) are recomended.
+- Some content in this repository involves advanced configurations, scripts, low level system access, security techniques, or tooling that may impact system stability, data integrity, or regulatory compliance if applied incorrectly. All materials are provided for educational and professional reference only. Usage assumes a solid technical understanding of the underlying technologies.
 
-- This repository is publicly accessible because it shares the GNU free software ideology and philosophy, it means the freedom to run the software, to study the software, to modify the software, and to share copies of the software (whether modified or not).
-  
-- Any misuse of the information and files compiled in this repository will not be the responsibility of the author. 
- 
+- All experimentation, including configuration, execution, deployment, or security engagements, must be performed exclusively in controlled laboratory environments, whether physical or virtual. Any activity carried out on production systems, networks, or infrastructures must be explicitly authorized by the responsible administrator or owner.
+
+- Users are responsible for ensuring compliance with all applicable laws, regulations, and policies related to information technology, telecommunications, data protection, and security within their respective jurisdictions.
+
+- This repository is publicly available in the spirit of free and open knowledge, aligned with GNU and free software principles and philosophy, including the freedom to study, modify, and share its contents.
+
+- The author assumes no responsibility for any misuse, damage, or legal consequences resulting from the use of the information provided in this repository.
+
 <p align="center"> <img src="https://user-images.githubusercontent.com/94720207/165983361-8d515dec-44f5-4a77-98de-a973705a2226.png" alt="herodotus" width="100" height="100"/> </a> </p>
  
 <span align="center"> <p align="center"> _**"The only good is knowledge, and the only evil is ignorance."** Herodotus_ </p> </span> 
