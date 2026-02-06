@@ -165,11 +165,17 @@
 
 ![typing](https://readme-typing-svg.herokuapp.com?size=20&color=00F733&multiline=true&lines=whoami)
 
-I'm just a lucky guy who was born surrounded by IBM computers and walls of floppy disks. My dad was a COBOL and BASIC programmer back on the day, and he used to take me into the company’s server room where he worked. That’s where I met one of his colleagues, the classic '80s German hippie nerd, long hair, big beard, cool vibes, and a sharp mind. One day, he sat me in front of a terminal and launched Prince of Persia on DOS. From that moment on, I was hooked to the scent of warm silicon, the blipping chiptune sounds, and the hum of machines. Back home, I never left our IBM 5170 and PS/ValuePoints. I learned DOS, Windows 3.0 and just kept going from there.
+I’m a lucky guy who grew up surrounded by IBM computers in the 80s. Thanks to my father, who was a COBOL and BASIC programmer, floppy disks, DOS terminals, and early versions of Windows were part of my daily life long before technology became my profession.
 
-Today, I’m a Network Engineer with hands-on experience as a Level 3 NOC, Senior Network Engineer, Network Designer, Wireless Specialist, and Technology Delivery. My main focus is on Ethernet (IEEE 802.3) and Wireless (IEEE 802.11) networks, covering deep troubleshooting, network analytics, security, support, configuration, performance optimization, and network design. But my path has also touched backend programming, scripting, database administration, pentesting, and ethical hacking. Over the years, I've worked across high-density and global network environments: international airports, hospitality, healthcare, retail, transportation, enterprise, education, government, and globally connected high-availability data centers and branch offices.
+Today, I’m a Network Engineer with hands-on experience across enterprise-grade and service provider environments. I’ve worked in Level 3 NOC operations, senior engineering roles, network design, wireless infrastructure, technology delivery, information security, and incident response, supporting a wide range of network environments including branch offices, large enterprise campuses, high-density venues, high-availability data centers and cloud networks.
 
-Please check out the links of my Social Networks that I've placed above including my LinkedIn, where you will find more information regarding my professional career. Greetings and thank you for reading! 💀🎩
+My core focus is on Ethernet (IEEE 802.3) and Wireless (IEEE 802.11) infrastructure, covering deep troubleshooting, network analytics, performance optimization, configuration, monitoring, security, and end-to-end network architecture and design with a strong network-centric approach to cybersecurity, including traffic analysis, segmentation, firewalling, threat detection, and incident response support. 
+
+I’ve delivered and supported scalable network solutions across a wide range of industries and environments, including globally distributed enterprise environments, data centers, hospitality, retail, healthcare, education, government, entertainment, international airports, and transportation.
+
+Beyond networking, my background spans cybersecurity and ethical hacking, software development, data analysis, and systems engineering. I started out programming, which later expanded into scripting, automation, backend development, and database design and administration, eventually leading me into the network infrastructure world.
+
+Please check out the links of my Social Networks, where you will find more information regarding my professional career. Greetings and thank you for reading! 💀🎩
 
 ---
 
