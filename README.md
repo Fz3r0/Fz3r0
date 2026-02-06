@@ -165,7 +165,7 @@
 
 ![typing](https://readme-typing-svg.herokuapp.com?size=20&color=00F733&multiline=true&lines=whoami)
 
-I’m a very lucky guy who grew up surrounded by IBM computers back in the 80s. Thanks to my father, a COBOL and BASIC programmer, I had access to computers, floppy disks, DOS terminals, and early versions of Windows long before technology became my profession.
+I’m a very lucky guy who grew up surrounded by IBM computers back in the 80s. Thanks to my father, who was a COBOL and BASIC programmer, I had access to computers, floppy disks, DOS terminals, and early versions of Windows long before technology became my profession.
 
 Today, I’m a Network Engineer with hands-on experience across enterprise-grade and service provider environments. I’ve worked in Level 3 NOC operations, senior engineering roles, network design, wireless infrastructure, technology delivery, information security, and incident response, supporting a wide range of network environments including branch offices, large enterprise campuses, high-density venues, high-availability data centers and cloud networks.
 
@@ -173,7 +173,7 @@ My core focus is on Ethernet (IEEE 802.3) and Wireless (IEEE 802.11) infrastruct
 
 I’ve delivered and supported scalable network solutions across a wide range of industries and environments, including globally distributed enterprise environments, data centers, hospitality, retail, healthcare, education, government, entertainment, international airports, and transportation.
 
-Beyond networking, my background spans cybersecurity and ethical hacking, software development, data analysis, and systems engineering. I started out programming, which later expanded into scripting, automation, backend development, and database design and administration, eventually leading me into the network infrastructure world.
+Beyond networking, my background spans cybersecurity, ethical hacking, software development, data analysis, and systems engineering. I started out programming, which later expanded into scripting, automation, backend development, and database design and administration, eventually leading me into the network infrastructure world.
 
 Please check out the links of my Social Networks, where you will find more information regarding my professional career. Greetings and thank you for reading! 💀🎩
 
