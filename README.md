@@ -165,7 +165,7 @@
 
 ![typing](https://readme-typing-svg.herokuapp.com?size=20&color=00F733&multiline=true&lines=whoami)
 
-I’m a lucky guy who grew up surrounded by IBM computers in the 80s. Thanks to my father, who was a COBOL and BASIC programmer, floppy disks, DOS terminals, and early versions of Windows were part of my daily life long before technology became my profession.
+I’m a very lucky guy who grew up surrounded by IBM computers back in the 80s. Thanks to my father, a COBOL and BASIC programmer, I had access to computers, floppy disks, DOS terminals, and early versions of Windows long before technology became my profession.
 
 Today, I’m a Network Engineer with hands-on experience across enterprise-grade and service provider environments. I’ve worked in Level 3 NOC operations, senior engineering roles, network design, wireless infrastructure, technology delivery, information security, and incident response, supporting a wide range of network environments including branch offices, large enterprise campuses, high-density venues, high-availability data centers and cloud networks.
 
