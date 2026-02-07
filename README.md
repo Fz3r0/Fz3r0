@@ -169,11 +169,11 @@ I’m a very lucky guy who grew up surrounded by IBM computers back in the 80s. 
 
 Today, I’m a Network Engineer with hands-on experience across enterprise-grade and service provider environments. I’ve worked in Level 3 NOC operations, senior engineering roles, network design, wireless infrastructure, technology delivery, information security, and incident response, supporting a wide range of network environments including branch offices, large enterprise campuses, high-density venues, high-availability data centers and cloud networks.
 
+Beyond networking, my background spans cybersecurity, ethical hacking, software development, data analysis, and systems engineering. I began my career as a programmer and progressively expanded into scripting, automation, backend development, and database design and administration, which ultimately led me into network infrastructure.
+
 My core focus is on Ethernet (IEEE 802.3) and Wireless (IEEE 802.11) infrastructure, covering deep troubleshooting, network analytics, performance optimization, configuration, monitoring, security, and end-to-end network architecture and design with a strong network-centric approach to cybersecurity, including traffic analysis, segmentation, firewalling, threat detection, and incident response support. 
 
 I’ve delivered and supported scalable network solutions across a wide range of industries and environments, including globally distributed enterprise environments, data centers, hospitality, retail, healthcare, education, government, entertainment, international airports, and transportation.
-
-Beyond networking, my background spans cybersecurity, ethical hacking, software development, data analysis, and systems engineering. I started out programming, which later expanded into scripting, automation, backend development, and database design and administration, eventually leading me into the network infrastructure world.
 
 Please check out the links of my Social Networks, where you will find more information regarding my professional career. Greetings and thank you for reading! 💀🎩
 
@@ -185,22 +185,19 @@ Please check out the links of my Social Networks, where you will find more infor
 
 #### Networking
 
-- `NetOps` `NetSec` 
-- `CCNA` `RICXI` `RSP` `CWNA` `ICND 1&2` `NOC` `Network Design` `Enterprise Compus Networking` `SOHO` `NGNs` 
+- `CCNA` `CCNP` `CWNA` `CWAP` `CWSP` `RICXI` `RSP` 
 
 #### Programming, Scripting & Data Base
-
-- `DevNeT` `DevOps` 
-- `Python` `C++` `Ruby` `Visual Basic` `VBA` `Bash` `Batch` `PowerShell` `HTML5` `CSS3` `Javascript` `Node.js` `PHP` `SQL` `MySQL` `Mongo DB` 
+` 
+- `Python` `Javascript` `VBA` `Bash` `Batch` `PowerShell` `C++` `HTML5` `CSS3` `SQL` `MySQL` `Mongo DB` 
 
 #### Cyber-Security
 
-- `NetSecOps` `SecOps` `CyberOps` 
 - `Security+` `PenTest+` `Ofensive Pentesting` `Cisco Cyber-Security` `Red Team` `Ethical Hacking`  `Defensive Security` `Blue Team` `Digital Forensics`  
 
 #### SysAdmin
 
-- `Microsoft Windows` `Windows Server & Active Directory` `Linux` `Unix` `MacOS` `Android`
+- `Microsoft Windows` `Windows Server & Active Directory` `Linux` `Unix` `MacOS` 
 
 &nbsp;
 
