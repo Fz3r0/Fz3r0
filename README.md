@@ -165,11 +165,11 @@
 
 ![typing](https://readme-typing-svg.herokuapp.com?size=20&color=00F733&multiline=true&lines=whoami)
 
-I’m a very lucky guy who grew up surrounded by IBM computers back in the 80s. Thanks to my father, who was a COBOL and BASIC programmer, I had access to computers, floppy disks, DOS terminals, and early versions of Windows long before technology became my profession.
+I’m a very lucky guy who grew up surrounded by IBM computers back in the 80s. Thanks to my father, who was a COBOL and BASIC programmer, I had access to computers, floppy disks, DOS, and early versions of Windows long before technology became my profession.
 
 Today, I’m a Network Engineer with hands-on experience across enterprise-grade and service provider environments. I’ve worked in Level 3 NOC operations, senior engineering roles, network design, wireless infrastructure, technology delivery, information security, and incident response, supporting a wide range of network environments including branch offices, large enterprise campuses, high-density venues, high-availability data centers and cloud networks.
 
-Beyond networking, my background spans cybersecurity, ethical hacking, software development, data analysis, and systems engineering. I began my career as a programmer and progressively expanded into scripting, automation, backend development, and database design and administration, which ultimately led me into network infrastructure.
+Beyond networking, my background spans cybersecurity, ethical hacking, software development, data analysis, and systems engineering. I began my career as a programmer and progressively expanded into scripting, automation, backend development, and database design and administration, which ultimately led me into the network infrastructure world.
 
 My core focus is on Ethernet (IEEE 802.3) and Wireless (IEEE 802.11) infrastructure, covering deep troubleshooting, network analytics, performance optimization, configuration, monitoring, security, and end-to-end network architecture and design with a strong network-centric approach to cybersecurity, including traffic analysis, segmentation, firewalling, threat detection, and incident response support. 
 
@@ -185,10 +185,11 @@ Please check out the links of my Social Networks, where you will find more infor
 
 #### Networking
 
-- `CCNA` `CCNP` `CWNA` `CWAP` `CWSP` `RICXI` `RSP` 
+- `CCNA` `CCNP` `CWNA` `CWAP` `CWSP` `RICXI` `RSP`
+- `Wireless Specialist` & `Network Security` 
 
 #### Programming, Scripting & Data Base
-` 
+
 - `Python` `Javascript` `VBA` `Bash` `Batch` `PowerShell` `C++` `HTML5` `CSS3` `SQL` `MySQL` `Mongo DB` 
 
 #### Cyber-Security
