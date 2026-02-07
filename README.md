@@ -204,6 +204,8 @@ Please check out the links of my Social Networks, where you will find more infor
 
 ---
 
+<!--
+
 <h3 align="center">Certs:</h3>
 
 
@@ -226,6 +228,9 @@ Please check out the links of my Social Networks, where you will find more infor
 <h3 align="center">Operating Systems & SysAdmin:</h3> 
  
 <p align="center"> <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"> <img src="https://user-images.githubusercontent.com/94720207/172065078-596bb11c-1218-4629-b2a6-475a7f198d44.png" alt="Linux" height=50px/> </a> <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"> <img src="https://gdm-catalog-fmapi-prod.imgix.net/ProductLogo/b91dba39-aef6-4808-be11-8eda81f81f56.png" alt="Parrot" height=48px/> </a>   <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"> <img src="https://user-images.githubusercontent.com/94720207/172065746-db399e10-2483-4056-b551-f92f4672e7bd.png" alt="cisco" height=45px/> </a>  <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"> <img src="https://user-images.githubusercontent.com/94720207/172065654-f65358d4-599a-4751-a5b0-2d15371bb85a.png" alt="Windows" height=50px/> </a>   &emsp; <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"> <img src="https://i0.wp.com/skinpacks.com/wp-content/uploads/2020/08/Untitled-2.png" alt="Windows" height=45px/> </a> <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"> <img src="https://icon-library.com/images/active-directory-icon/active-directory-icon-10.jpg" alt="AD" height=46px/> </a> <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"> <img src="https://pngimg.com/uploads/windows_logos/windows_logos_PNG35.png" alt="Win Legacy" height=45px/> </a> &emsp; <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"> <img src="https://2.bp.blogspot.com/-QwJ0ZBV5-xU/T_sLog_yRaI/AAAAAAAAILc/DDwniWtDcac/s1600/Google_Chrome_Icone_Logo-1.png" alt="ChromeOS" height=47px/> </a> <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"> <img src="https://2.bp.blogspot.com/-ViwzOSpUx_s/UmAkLz6qXWI/AAAAAAAAI0c/467DhthuBTk/s320/Android+Logo+01+Drawing+Factory.png" alt="Android" height=48px/> </a> &emsp; <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"> <img src="http://icons.iconarchive.com/icons/kyo-tux/phuzion/256/System-Mac-icon.png" alt="MacOS" height=48px/> </a> <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"> <img src="https://archive.org/download/apple-mac-logo-icon-300x300/apple-mac-logo-icon-300x300.png" alt="Mac" height=48px/> </a> </p>
+
+
+-->
   
 --- 
  
