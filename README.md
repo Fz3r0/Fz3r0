@@ -95,6 +95,8 @@
     
 <span align="center"> <p align="center"> _**...Enter freely and of your own free will..."**_  </p> </span>  
 
+<span align="center"> <p align="center"> ![count](https://komarev.com/ghpvc/?username=fz3r0&color=brightgreen)  </p> </span> 
+
 --- 
 
 <!-- DISCLAIMER -->
@@ -245,16 +247,6 @@ Please check out the links of my Social Networks, where you will find more infor
 <h5 align="center">Fz3r0 @ Top 16 Mexico Rank | Top 420 Global | [Hacker] </h3> 
  
 <p align="center"> <a href="https://app.hackthebox.com/profile/897009" target="_blank" rel="noreferrer"> <img src="https://user-images.githubusercontent.com/94720207/168684431-57d1290f-ab73-4daf-b9b1-a2688f64ed4e.png" alt="htb"> </a> </p> 
-
----
-
-<h3 align="center">GitHub Stats</h3>
- 
-<span align="center"> <p align="center"> ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=fz3r0&hide=contribs,prs&show_icons=true&theme=chartreuse-dark) </p> </span> 
-
-<span align="center"> <p align="center"> ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&layout=compact&theme=chartreuse-dark&langs_count=10) </p> </span> 
-  
-<span align="center"> <p align="center"> ![count](https://komarev.com/ghpvc/?username=fz3r0&color=brightgreen)  </p> </span> 
 
 --- 
 
