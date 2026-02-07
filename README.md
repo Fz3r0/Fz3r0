@@ -93,7 +93,7 @@
 
 <span align="center"> <p align="center"> _**...We are in Transylvania, and Transylvania is not England. Our ways are not your ways, and there shall be to you many strange things... Loneliness will sit over our roofs with brooding wings... It is a strange world, a sad world, a world full of miseries, and woes, and troubles...**_ </p> </span> 
     
-<span align="center"> <p align="center"> _**...Enter freely and of your own free will..."**_  </p> </span>  
+<span align="center"> <p align="center"> _**...Enter freely and of your own free will..."**_  </p> </span>  <br><br>
 
 <span align="center"> <p align="center"> ![count](https://komarev.com/ghpvc/?username=fz3r0&color=brightgreen)  </p> </span> 
 
