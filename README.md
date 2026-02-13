@@ -250,7 +250,6 @@ Please check out the links of my Social Networks, where you will find more infor
 
 --- 
 
-<span align="center"> <p align="center"> ![imagen](https://user-images.githubusercontent.com/94720207/194731114-6d310be7-fd00-4c5c-bcfd-563b93d6b019.png) </p> </span> 
 <span align="center"> <p align="center"> ΟΠΟΙΟΣ ΜΠΑΙΝΕΙ ΕΔΩ ΝΑ ΠΑΡΑΤΑ ΚΑΘΕ ΕΛΠΙΔΑ </p> </span> 
 <span align="center"> <h3 align="center">   </h3> </span>  
 <span align="center"> <p align="center"> _A mitad del camino de la vida,_ </p> </span>   
@@ -5896,7 +5895,6 @@ _Nezahualcoyotl_
 > 
 > _...I am Fz3r0 and the Sun no longer rises..."_
 
-![image](https://user-images.githubusercontent.com/94720207/235330482-946ad518-cc02-4251-ad7a-fcd7aa0d5ac2.png)
 
   
   
